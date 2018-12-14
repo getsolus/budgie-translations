@@ -10,22 +10,24 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-10 22:09+0100\n"
-"PO-Revision-Date: 2016-10-10 21:14+0000\n"
-"Last-Translator: Ikey Doherty <ikey@evolve-os.com>\n"
-"Language-Team: English (United States) (http://www.transifex.com/solus-project/budgie-desktop/language/en_US/)\n"
+"PO-Revision-Date: 2018-12-15 14:29+0000\n"
+"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
+"Language-Team: English (United States) <http://translate.getsol.us/projects/"
+"budgie-desktop/main/en_US/>\n"
+"Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: en_US\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.4-dev\n"
 
 #: ../daemon/endsession.vala:167
 msgid "Log out"
-msgstr ""
+msgstr "Log out"
 
 #: ../daemon/endsession.vala:171
 msgid "Restart device"
-msgstr ""
+msgstr "Restart device"
 
 #: ../daemon/endsession.vala:183 ../daemon/endsession.ui.h:1
 msgid "Power Off"
@@ -91,7 +93,7 @@ msgstr "Fonts"
 
 #: ../raven/settings_view.vala:980
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: ../raven/settings_view.vala:984
 msgid "General"
@@ -250,19 +252,19 @@ msgstr "Monospace"
 
 #: ../raven/ui/wm.ui.h:1
 msgid "Disable unredirect of fullscreen windows"
-msgstr ""
+msgstr "Disable unredirect of fullscreen windows"
 
 #: ../raven/ui/wm.ui.h:2
 msgid "Disable unredirect"
-msgstr ""
+msgstr "Disable unredirect"
 
 #: ../raven/ui/wm.ui.h:3
 msgid "Change the layout of the window buttons"
-msgstr ""
+msgstr "Change the layout of the window buttons"
 
 #: ../raven/ui/wm.ui.h:4
 msgid "Button layout"
-msgstr ""
+msgstr "Button layout"
 
 #: ../session/budgie-desktop.desktop.in.in.h:1
 #: ../session/budgie-desktop.session.in.in.h:1
@@ -385,26 +387,26 @@ msgstr "Battery remaining"
 
 #: ../panel/applets/status/PowerIndicator.vala:107
 msgid "Power settings"
-msgstr ""
+msgstr "Power settings"
 
 #. User Menu Creation
 #: ../panel/applets/user-indicator/UserIndicatorWindow.vala:95
 msgid "User"
-msgstr ""
+msgstr "User"
 
 #. Default to "User" and symbolic icon
 #. The rest
 #: ../panel/applets/user-indicator/UserIndicatorWindow.vala:101
 msgid "Lock"
-msgstr ""
+msgstr "Lock"
 
 #: ../panel/applets/user-indicator/UserIndicatorWindow.vala:102
 msgid "Suspend"
-msgstr ""
+msgstr "Suspend"
 
 #: ../panel/applets/user-indicator/UserIndicatorWindow.vala:103
 msgid "Hibernate"
-msgstr ""
+msgstr "Hibernate"
 
 #: ../wm/windowmenu.vala:124
 msgid "Minimize"
@@ -500,72 +502,72 @@ msgstr "Separator"
 #: ../panel/applets/places-indicator/MountItem.vala:23
 #: ../panel/applets/places-indicator/VolumeItem.vala:23
 msgid "Removable devices"
-msgstr ""
+msgstr "Removable devices"
 
 #: ../panel/applets/places-indicator/MountItem.vala:25
 #: ../panel/applets/places-indicator/VolumeItem.vala:25
 msgid "Local volumes"
-msgstr ""
+msgstr "Local volumes"
 
 #: ../panel/applets/places-indicator/MountItem.vala:29
 #: ../panel/applets/places-indicator/VolumeItem.vala:29
 msgid "Network folders"
-msgstr ""
+msgstr "Network folders"
 
 #: ../panel/applets/places-indicator/MountItem.vala:49
 #: ../panel/applets/places-indicator/VolumeItem.vala:46
 msgid "Eject"
-msgstr ""
+msgstr "Eject"
 
 #: ../panel/applets/places-indicator/MountItem.vala:51
 msgid "Unmount"
-msgstr ""
+msgstr "Unmount"
 
 #: ../panel/applets/places-indicator/MountItem.vala:54
 #: ../panel/applets/places-indicator/PlaceItem.vala:27
 #, c-format
 msgid "Open \"%s\""
-msgstr ""
+msgstr "Open \"%s\""
 
 #: ../panel/applets/places-indicator/MountItem.vala:78
 #: ../panel/applets/places-indicator/VolumeItem.vala:53
 msgid "You can now safely remove"
-msgstr ""
+msgstr "You can now safely remove"
 
 #: ../panel/applets/places-indicator/PlacesIndicator.vala:80
 #: ../panel/applets/places-indicator/PlacesSection.vala:32
 msgid "Places"
-msgstr ""
+msgstr "Places"
 
 #: ../panel/applets/places-indicator/PlacesIndicatorWindow.vala:139
 msgid "Nothing to display right now"
-msgstr ""
+msgstr "Nothing to display right now"
 
 #: ../panel/applets/places-indicator/PlacesIndicatorWindow.vala:143
 msgid "Mount some drives"
-msgstr ""
+msgstr "Mount some drives"
 
 #: ../panel/applets/places-indicator/PlacesIndicatorWindow.vala:143
 msgid "Enable more sections"
-msgstr ""
+msgstr "Enable more sections"
 
 #: ../panel/applets/places-indicator/VolumeItem.vala:64
 #, c-format
 msgid "Mount and open \"%s\""
-msgstr ""
+msgstr "Mount and open \"%s\""
 
 #: ../panel/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
-msgstr ""
+msgstr "Show label"
 
 #: ../panel/applets/places-indicator/settings.ui.h:2
 msgid "Show places"
-msgstr ""
+msgstr "Show places"
 
 #: ../panel/applets/places-indicator/settings.ui.h:3
 msgid "Show removable drives"
-msgstr ""
+msgstr "Show removable drives"
 
 #: ../panel/applets/places-indicator/settings.ui.h:4
 msgid "Show network folders"
-msgstr ""
+msgstr "Show network folders"
