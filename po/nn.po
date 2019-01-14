@@ -9,14 +9,16 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-20 12:33+0100\n"
-"PO-Revision-Date: 2018-04-09 22:29+0000\n"
-"Last-Translator: Anton Pletten\n"
-"Language-Team: Norwegian Nynorsk (http://www.transifex.com/budgie-desktop/budgie-desktop/language/nn/)\n"
+"PO-Revision-Date: 2019-01-15 10:48+0000\n"
+"Last-Translator: Anton Pletten <an1000kg@gmail.com>\n"
+"Language-Team: Norwegian Nynorsk <http://translate.getsol.us/projects/"
+"budgie-desktop/main/nn/>\n"
+"Language: nn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nn\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.4-dev\n"
 
 #: src/raven/notifications_view.vala:79
 msgid "Nothing to see here"
@@ -81,7 +83,7 @@ msgstr "Innstillingar"
 
 #: src/applets/show-desktop/ShowDesktopApplet.vala:33
 msgid "Toggle the desktop"
-msgstr "Byt til skrivebordet"
+msgstr "Vis skrivebord"
 
 #: src/applets/icon-tasklist/Buttons.vala:113
 msgid "Pin to panel"
@@ -149,7 +151,7 @@ msgstr "Feil ved demontering av dataområde"
 #: src/applets/places-indicator/PlacesSection.vala:46
 #: src/applets/places-indicator/PlacesIndicator.plugin.in.h:1
 msgid "Places"
-msgstr "Plassar"
+msgstr "Stader"
 
 #: src/applets/places-indicator/VolumeItem.vala:43
 #, c-format
@@ -167,7 +169,7 @@ msgstr "Passordet du skreiv inn er gale"
 
 #: src/applets/places-indicator/VolumeItem.vala:123
 msgid "An unknown error occurred while attempting to mount this volume"
-msgstr "Ein ukjent feil oppstod i forsøk på å montere dette dataområdet"
+msgstr "Ein ukjent feil oppstod i forsøket på å montere dette dataområdet"
 
 #: src/applets/places-indicator/MountHelper.vala:39
 msgid "Volume is in use by other processes"
@@ -206,7 +208,7 @@ msgstr "Lås"
 
 #: src/applets/user-indicator/UserIndicatorWindow.vala:102
 msgid "Suspend"
-msgstr ""
+msgstr "Kvilemodus"
 
 #: src/applets/user-indicator/UserIndicatorWindow.vala:103
 msgid "Hibernate"
@@ -253,7 +255,7 @@ msgstr "Vis sekundar"
 
 #: src/applets/clock/ClockApplet.vala:177
 msgid "Use 24 hour time"
-msgstr ""
+msgstr "Bruk 24-timarsklokke"
 
 #. Special case, "All"
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:43
@@ -299,11 +301,11 @@ msgstr "Batteriet ladar"
 
 #: src/applets/status/PowerIndicator.vala:114
 msgid "Battery remaining"
-msgstr ""
+msgstr "Batteri som er att"
 
 #: src/applets/status/PowerIndicator.vala:174
 msgid "Show battery percentage"
-msgstr ""
+msgstr "Vis batteriprosent"
 
 #: src/applets/status/PowerIndicator.vala:183
 msgid "Power settings"
@@ -353,19 +355,19 @@ msgstr "Fjern"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
-msgstr ""
+msgstr "Caps lock er aktivert"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:65
 msgid "Caps lock is not active"
-msgstr ""
+msgstr "Caps lock er deaktivert"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:75
 msgid "Num lock is active"
-msgstr ""
+msgstr "Num lock er aktivert"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:78
 msgid "Num lock is not active"
-msgstr ""
+msgstr "Num lock er deaktivert"
 
 #: src/polkit/polkitdialog.vala:131
 msgid "Authentication failed"
@@ -390,7 +392,7 @@ msgstr "Økt"
 #. Have to override wmclass for pinning support
 #: src/panel/settings/settings_main.vala:51
 msgid "Budgie Settings"
-msgstr ""
+msgstr "Innstillingar for Budgie"
 
 #: src/panel/settings/settings_main.vala:83
 msgid "Create new panel"
@@ -559,7 +561,7 @@ msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:32
 msgid "Fonts"
-msgstr "Fontar"
+msgstr "Skrifttypar"
 
 #: src/panel/settings/settings_fonts.vala:43
 msgid "Window Titles"
@@ -773,7 +775,7 @@ msgstr ""
 
 #: src/panel/settings/settings_panel_applets.vala:260
 msgid "No settings available"
-msgstr "Ingen innstillingar tilgjengelege"
+msgstr "Ingen tilgjengelege innstillingar"
 
 #: src/panel/settings/settings_panel_applets.vala:415
 msgid "Start"
@@ -874,7 +876,7 @@ msgstr ""
 
 #: src/applets/night-light/indicator_window.ui.h:4
 msgid "Sunset to Sunrise"
-msgstr "Solnedgang til Soloppgang"
+msgstr "Solnedgang til soloppgang"
 
 #: src/applets/night-light/indicator_window.ui.h:5
 msgid "Manual"
