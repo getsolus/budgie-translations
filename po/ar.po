@@ -13,14 +13,17 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-20 12:33+0100\n"
-"PO-Revision-Date: 2018-01-03 23:42+0000\n"
-"Last-Translator: أبو سامي <ahmadjab1998@gmail.com>\n"
-"Language-Team: Arabic (http://www.transifex.com/budgie-desktop/budgie-desktop/language/ar/)\n"
+"PO-Revision-Date: 2019-01-15 10:59+0000\n"
+"Last-Translator: George Mamar <george.mamar@hotmail.com>\n"
+"Language-Team: Arabic <http://translate.getsol.us/projects/budgie-desktop/"
+"main/ar/>\n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ar\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 3.4-dev\n"
 
 #: src/raven/notifications_view.vala:79
 msgid "Nothing to see here"
@@ -134,7 +137,7 @@ msgstr "إزالة التثبيت"
 #: src/applets/places-indicator/MountItem.vala:78
 #: src/applets/places-indicator/VolumeItem.vala:87
 msgid "You can now safely remove"
-msgstr "يمكنك الان الإزالة بامان"
+msgstr "يمكنك الان الإزالة بأمان"
 
 #: src/applets/places-indicator/MountItem.vala:79
 msgid "Unknown Device"
@@ -146,7 +149,7 @@ msgstr "حدث خطأ أثناء إخراج الجهاز"
 
 #: src/applets/places-indicator/MountItem.vala:105
 msgid "Error while unmounting volume"
-msgstr "حدث خطاء اثناء ازالة تثبيت القرص"
+msgstr "حدث خطأ اثناء إزالة تثبيت القرص"
 
 #: src/applets/places-indicator/PlacesIndicator.vala:85
 #: src/applets/places-indicator/PlacesSection.vala:24
@@ -167,19 +170,19 @@ msgstr "ادخل كلمة المرور لفتح القرص المشفر"
 
 #: src/applets/places-indicator/VolumeItem.vala:119
 msgid "The password you entered is incorrect"
-msgstr "كلمة مرور خاطئة"
+msgstr "كلمة المرور خاطئة"
 
 #: src/applets/places-indicator/VolumeItem.vala:123
 msgid "An unknown error occurred while attempting to mount this volume"
-msgstr "خطاء غير معروف حصل خلال محاولة تثبيت القرص"
+msgstr "خطأ غير معروف حصل خلال محاولة تثبيت القرص"
 
 #: src/applets/places-indicator/MountHelper.vala:39
 msgid "Volume is in use by other processes"
-msgstr "القرص قيد الاستخدم من عمليات اخرى"
+msgstr "القرص قيد الاستخدم من عمليات أخرى"
 
 #: src/applets/places-indicator/MountHelper.vala:45
 msgid "Operation aborted"
-msgstr "تم انهاء العملية قصرياً"
+msgstr "تم إنهاء العملية قصرياً"
 
 #: src/applets/places-indicator/MountHelper.vala:57
 msgid "Type your password"
@@ -214,7 +217,7 @@ msgstr "إيقاف مؤقت"
 
 #: src/applets/user-indicator/UserIndicatorWindow.vala:103
 msgid "Hibernate"
-msgstr "السبات"
+msgstr "سبات"
 
 #: src/applets/user-indicator/UserIndicatorWindow.vala:104
 #: src/daemon/endsession.ui.h:5
@@ -266,7 +269,7 @@ msgstr "الكل"
 
 #: src/applets/budgie-menu/IconChooser.vala:27
 msgid "Set menu icon from file"
-msgstr "اختيار ايقونة القائمة من ملف"
+msgstr "اختيار أيقونة القائمة من ملف"
 
 #: src/applets/budgie-menu/IconChooser.vala:37
 msgid "Image files"
@@ -274,7 +277,7 @@ msgstr "ملفات صور"
 
 #: src/applets/budgie-menu/IconChooser.vala:43
 msgid "Any file"
-msgstr "اي ملف"
+msgstr "أي ملف"
 
 #: src/applets/budgie-menu/IconChooser.vala:55
 #: src/panel/settings/settings_applet_chooser.vala:84
@@ -286,11 +289,11 @@ msgstr "إلغاء"
 
 #: src/applets/budgie-menu/IconChooser.vala:56
 msgid "Set icon"
-msgstr "اختيار ايقونة"
+msgstr "اختيار أيقونة"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
-msgstr "البطارية ممتلئة"
+msgstr "البطارية ممتلئة."
 
 #: src/applets/status/PowerIndicator.vala:100
 msgid "Unknown"
@@ -344,7 +347,7 @@ msgstr "إعدادات البلوتوث"
 #. Send files button
 #: src/applets/status/BluetoothIndicator.vala:186
 msgid "Send Files"
-msgstr "أرسال ملفات"
+msgstr "أرسل ملفات"
 
 #. Airplane mode
 #: src/applets/status/BluetoothIndicator.vala:196
@@ -406,11 +409,11 @@ msgstr "انشاء لوحة جديدة"
 
 #: src/panel/settings/settings_style.vala:34
 msgid "Style"
-msgstr "شكل"
+msgstr "نمط"
 
 #: src/panel/settings/settings_style.vala:44
 msgid "Widgets"
-msgstr "ادوات"
+msgstr "الأدوات"
 
 #: src/panel/settings/settings_style.vala:45
 msgid "Set the appearance of window decorations and controls"
@@ -418,11 +421,11 @@ msgstr "اختيار مظهر مفاتيح وزخرفة النافذة"
 
 #: src/panel/settings/settings_style.vala:49
 msgid "Icons"
-msgstr "الايقونات"
+msgstr "الأيقونات"
 
 #: src/panel/settings/settings_style.vala:50
 msgid "Set the globally used icon theme"
-msgstr "إختيار مظهر الايقونات المستخدم لكل النظام"
+msgstr "إختيار مظهر الأيقونات المستخدم لكل النظام"
 
 #: src/panel/settings/settings_style.vala:54
 msgid "Cursors"
@@ -461,7 +464,7 @@ msgstr "اختار تطبيق مصغر"
 #: src/panel/settings/settings_applet_chooser.vala:85
 #: src/panel/settings/settings_panel_applets.vala:245
 msgid "Add applet"
-msgstr "اضافة تطبيق مصغر"
+msgstr "إضافة تطبيق مصغر"
 
 #: src/panel/settings/settings_autostart.vala:140
 msgid "Untitled"
@@ -482,12 +485,12 @@ msgstr "تطبيقات"
 #: src/panel/settings/settings_autostart.vala:203
 #: src/panel/settings/settings_autostart.vala:366
 msgid "Add"
-msgstr "اضافة"
+msgstr "إضافة"
 
 #: src/panel/settings/settings_autostart.vala:360
 #: src/panel/settings/settings_autostart.vala:393
 msgid "Command"
-msgstr "امر"
+msgstr "أمر"
 
 #: src/panel/settings/settings_autostart.vala:376
 msgid "An entry with that title already exists"
@@ -524,7 +527,7 @@ msgstr "ترتيب الأزرار"
 
 #: src/panel/settings/settings_wm.vala:39
 msgid "Change the layout of buttons in application titlebars"
-msgstr "تغيير ترتيب الازرار في شريط عنوان التطبيق"
+msgstr "تغيير ترتيب الأزرار في شريط عنوان التطبيق"
 
 #: src/panel/settings/settings_wm.vala:45
 msgid "Right (standard)"
@@ -759,7 +762,9 @@ msgstr "تنسيق"
 msgid ""
 "Adds a hint to the panel so that each of the panel's three main areas may be"
 " themed differently."
-msgstr "اضافة تلميح الى اللوحة حتى يتم تغير مظهر كل من المناطق الثلاثة الاساسية للوحة بشكل مختلف"
+msgstr ""
+"إضافة تلميح الى اللوحة حتى يتم تغير مظهر كل من المناطق الثلاثة الاساسية "
+"للوحة بشكل مختلف."
 
 #: src/panel/settings/settings_panel.vala:276
 msgid "Dock mode"
@@ -845,7 +850,7 @@ msgstr "هل أنت متأكد أنك تريد إنهاء الجلسة ؟"
 
 #: src/daemon/tabswitcher.ui.h:1
 msgid " - "
-msgstr "-"
+msgstr " - "
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
@@ -943,7 +948,7 @@ msgstr "سطح المكتب"
 
 #: src/session/budgie-desktop.desktop.in.in.h:2
 msgid "This session logs you into the Budgie Desktop"
-msgstr "هذه الجلسة تدخلك إلى سطح مكتب الواجهة "
+msgstr "هذه الجلسة تدخلك إلى سطح مكتب الواجهة."
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
