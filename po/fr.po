@@ -23,7 +23,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-20 12:33+0100\n"
 "PO-Revision-Date: 2019-01-15 10:22+0000\n"
-"Last-Translator: Laurent Teixeira <captain.tearow@protonmail.com>\n"
+"Last-Translator: Skyeun <eressea667@gmail.com>\n"
 "Language-Team: French <http://translate.getsol.us/projects/budgie-desktop/"
 "main/fr/>\n"
 "Language: fr\n"
@@ -448,10 +448,13 @@ msgid "Built-in theme"
 msgstr "Thème par défaut"
 
 #: src/panel/settings/settings_style.vala:68
+#, fuzzy
 msgid ""
 "When enabled, the desktop component style will be overriden with the built-"
 "in one"
-msgstr "Quand c'est activé, le style des composants de bureau sont écrasés par les réglages par défaut."
+msgstr ""
+"Lorsque cette option est activée, le style des éléments du bureau sera "
+"remplacé par le style intégré"
 
 #: src/panel/settings/settings_style.vala:72
 msgid "Animations"
@@ -763,10 +766,13 @@ msgid "Stylize regions"
 msgstr "Styliser les régions"
 
 #: src/panel/settings/settings_panel.vala:269
+#, fuzzy
 msgid ""
 "Adds a hint to the panel so that each of the panel's three main areas may be"
 " themed differently."
-msgstr "Ajoute une \"trace\" au panneau afin que chacune des trois principales zones puisse avoir un thème différent"
+msgstr ""
+"Ajouter un indice au panneau afin que chacune des trois zones principales du "
+"panneau puissent être traités différemment."
 
 #: src/panel/settings/settings_panel.vala:276
 msgid "Dock mode"
@@ -852,11 +858,11 @@ msgstr "Êtes-vous sûr de vouloir mettre fin à votre session ?"
 
 #: src/daemon/tabswitcher.ui.h:1
 msgid " - "
-msgstr "-"
+msgstr " - "
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
-msgstr " Montrer le nom"
+msgstr "Afficher le nom"
 
 #: src/applets/places-indicator/settings.ui.h:2
 msgid "Show places"
@@ -864,11 +870,11 @@ msgstr " Montrer les emplacements"
 
 #: src/applets/places-indicator/settings.ui.h:3
 msgid "Show network folders"
-msgstr " Montrer les dossiers réseau"
+msgstr "Afficher les emplacements réseau"
 
 #: src/applets/places-indicator/settings.ui.h:4
 msgid "Show removable drives"
-msgstr " Montrer les disques amovibles"
+msgstr "Afficher les périphériques amovibles"
 
 #: src/applets/places-indicator/settings.ui.h:5
 msgid "Always expand places"
