@@ -10,18 +10,20 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-20 12:33+0100\n"
-"PO-Revision-Date: 2017-09-23 21:04+0000\n"
-"Last-Translator: Demiray Muhterem <mdemiray@msn.com>\n"
-"Language-Team: Turkish (http://www.transifex.com/budgie-desktop/budgie-desktop/language/tr/)\n"
+"PO-Revision-Date: 2019-01-15 10:59+0000\n"
+"Last-Translator: Abdulkadir Furkan Şanlı <abdulkadirfsanli@protonmail.com>\n"
+"Language-Team: Turkish <http://translate.getsol.us/projects/budgie-desktop/"
+"main/tr/>\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Weblate 3.4-dev\n"
 
 #: src/raven/notifications_view.vala:79
 msgid "Nothing to see here"
-msgstr "Görülecek birşey yok"
+msgstr "Görülecek bir şey yok"
 
 #: src/raven/notifications_view.vala:582
 #: src/applets/notifications/NotificationsApplet.vala:75
@@ -53,7 +55,7 @@ msgstr "Girdi aygıtları"
 
 #: src/raven/main_view.vala:55 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
-msgstr "Seçenekler"
+msgstr "Uygulamalar"
 
 #: src/raven/main_view.vala:58
 #: src/applets/notifications/NotificationsApplet.plugin.in.h:1
@@ -62,19 +64,19 @@ msgstr "Bildirimler"
 
 #: src/daemon/endsession.vala:172
 msgid "Log out"
-msgstr "Çıkış"
+msgstr "Oturum kapat"
 
 #: src/daemon/endsession.vala:176
 msgid "Restart device"
-msgstr "Aygıtı yeniden başlat"
+msgstr "Cihazı yeniden başlat"
 
 #: src/daemon/endsession.vala:188 src/daemon/endsession.ui.h:1
 msgid "Power Off"
-msgstr "Gücü kapat"
+msgstr "Cihazı kapat"
 
 #: src/daemon/menus.vala:52
 msgid "Change background"
-msgstr "Arkaplanı Değiştir"
+msgstr "Arka fonu değiştir"
 
 #: src/daemon/menus.vala:61 src/panel/settings/settings_panel.vala:97
 msgid "Settings"
@@ -82,22 +84,22 @@ msgstr "Ayarlar"
 
 #: src/applets/show-desktop/ShowDesktopApplet.vala:33
 msgid "Toggle the desktop"
-msgstr "Masaüstü geçiş"
+msgstr "Masaüstüne geçiş"
 
 #: src/applets/icon-tasklist/Buttons.vala:113
 msgid "Pin to panel"
-msgstr "Panele sabitle"
+msgstr "Panele iğnele"
 
 #: src/applets/icon-tasklist/Buttons.vala:114
 #: src/applets/icon-tasklist/Buttons.vala:483
 msgid "Unpin from panel"
-msgstr "Panelden kaldır"
+msgstr "Panelden sök"
 
 #: src/applets/places-indicator/PlaceItem.vala:36
 #: src/applets/places-indicator/MountItem.vala:65
 #, c-format
 msgid "Open \"%s\""
-msgstr "\"%s\" Aç"
+msgstr "\"%s\" aç"
 
 #: src/applets/places-indicator/MountItem.vala:25
 #: src/applets/places-indicator/VolumeItem.vala:27
@@ -131,7 +133,7 @@ msgstr "Ayır"
 #: src/applets/places-indicator/MountItem.vala:78
 #: src/applets/places-indicator/VolumeItem.vala:87
 msgid "You can now safely remove"
-msgstr "Güvenli kaldırmak istermisin"
+msgstr "Şimdi güvenli bir şekilde çıkarabilirsiniz"
 
 #: src/applets/places-indicator/MountItem.vala:79
 msgid "Unknown Device"
@@ -139,7 +141,7 @@ msgstr "Tanınmayan Aygıt"
 
 #: src/applets/places-indicator/MountItem.vala:88
 msgid "Error while ejecting device"
-msgstr "Aygıt çıkartılırken hata oluştu"
+msgstr "Aygıt çıkarılırken hata oluştu"
 
 #: src/applets/places-indicator/MountItem.vala:105
 msgid "Error while unmounting volume"
@@ -150,12 +152,12 @@ msgstr "Birim ayrılırken hata oluştu"
 #: src/applets/places-indicator/PlacesSection.vala:46
 #: src/applets/places-indicator/PlacesIndicator.plugin.in.h:1
 msgid "Places"
-msgstr "Yerleşim"
+msgstr "Konumlar"
 
 #: src/applets/places-indicator/VolumeItem.vala:43
 #, c-format
 msgid "Mount and open \"%s\""
-msgstr "\"%s\" Bağla ve aç"
+msgstr "\"%s\" bağla ve aç"
 
 #: src/applets/places-indicator/VolumeItem.vala:76
 #: src/applets/places-indicator/VolumeItem.vala:121
@@ -172,7 +174,7 @@ msgstr "Bu birimi bağlamaya çalışırken bilinmeyen bir hata oluştu"
 
 #: src/applets/places-indicator/MountHelper.vala:39
 msgid "Volume is in use by other processes"
-msgstr "Birim, diğer işlemler tarafından kullanılıyor"
+msgstr "Birim diğer işlemler tarafından kullanılıyor"
 
 #: src/applets/places-indicator/MountHelper.vala:45
 msgid "Operation aborted"
@@ -184,11 +186,11 @@ msgstr "Şifrenizi yazın"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:181
 msgid "Nothing to display right now"
-msgstr "Hiçbirşey görünmesin"
+msgstr "Görüntülenecek bir şey yok"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:185
 msgid "Mount some drives"
-msgstr "Bazı aygıtları bağla"
+msgstr "Bazı sürücüleri bağla"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:185
 msgid "Enable more sections"
@@ -246,11 +248,11 @@ msgstr "Tercihler"
 
 #: src/applets/clock/ClockApplet.vala:166
 msgid "Show date"
-msgstr "Tarihi göster"
+msgstr "Tarih göster"
 
 #: src/applets/clock/ClockApplet.vala:171
 msgid "Show seconds"
-msgstr "Saniyeyi göster"
+msgstr "Saniye göster"
 
 #: src/applets/clock/ClockApplet.vala:177
 msgid "Use 24 hour time"
@@ -267,7 +269,7 @@ msgstr "Dosyadan menü simgesi seç"
 
 #: src/applets/budgie-menu/IconChooser.vala:37
 msgid "Image files"
-msgstr "Resim dosyaları"
+msgstr "Görüntü dosyaları"
 
 #: src/applets/budgie-menu/IconChooser.vala:43
 msgid "Any file"
@@ -283,7 +285,7 @@ msgstr "Vazgeç"
 
 #: src/applets/budgie-menu/IconChooser.vala:56
 msgid "Set icon"
-msgstr "Simge ayarla"
+msgstr "Simge seç"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
@@ -308,7 +310,7 @@ msgstr "Pil yüzdesini göster"
 
 #: src/applets/status/PowerIndicator.vala:183
 msgid "Power settings"
-msgstr "Güç seçenekleri"
+msgstr "Güç ayarları"
 
 #: src/applets/status/SoundIndicator.vala:120
 msgid "Sound settings"
@@ -358,7 +360,7 @@ msgstr "Caps lock aktif"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:65
 msgid "Caps lock is not active"
-msgstr "Caps lock pasif"
+msgstr "Caps lock aktif değil"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:75
 msgid "Num lock is active"
@@ -366,7 +368,7 @@ msgstr "Num lock aktif"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:78
 msgid "Num lock is not active"
-msgstr "Num lock pasif"
+msgstr "Num lock aktif değil"
 
 #: src/polkit/polkitdialog.vala:131
 msgid "Authentication failed"
@@ -382,7 +384,7 @@ msgstr "Görünüm"
 
 #: src/panel/settings/settings_main.vala:42
 msgid "Panels"
-msgstr "Paneller:"
+msgstr "Paneller"
 
 #: src/panel/settings/settings_main.vala:43
 msgid "Session"
@@ -391,7 +393,7 @@ msgstr "Oturum"
 #. Have to override wmclass for pinning support
 #: src/panel/settings/settings_main.vala:51
 msgid "Budgie Settings"
-msgstr "Budgie Masaüstü Ayarları"
+msgstr "Budgie Ayarları"
 
 #: src/panel/settings/settings_main.vala:83
 msgid "Create new panel"
@@ -399,15 +401,15 @@ msgstr "Yeni panel oluştur"
 
 #: src/panel/settings/settings_style.vala:34
 msgid "Style"
-msgstr "Biçim"
+msgstr "Stil"
 
 #: src/panel/settings/settings_style.vala:44
 msgid "Widgets"
-msgstr "Gereçler"
+msgstr "Widget'lar"
 
 #: src/panel/settings/settings_style.vala:45
 msgid "Set the appearance of window decorations and controls"
-msgstr "Pencere denetimi ve görünüm ayarlamaları"
+msgstr "Pencere kontröllerini ve görünümünü ayarla"
 
 #: src/panel/settings/settings_style.vala:49
 msgid "Icons"
@@ -427,25 +429,28 @@ msgstr "Genel olarak kullanılan fare imleci temasını ayarla"
 
 #: src/panel/settings/settings_style.vala:63
 msgid "Dark theme"
-msgstr "Koyu tema"
+msgstr "Karanlık tema"
 
 #: src/panel/settings/settings_style.vala:67
 msgid "Built-in theme"
-msgstr "Tema etkin"
+msgstr "Gömme tema"
 
 #: src/panel/settings/settings_style.vala:68
 msgid ""
 "When enabled, the desktop component style will be overriden with the built-"
 "in one"
-msgstr "Etkinleştirildiğinde, masaüstü bileşeni stili yerleşik bir stille geçersiz kılınır"
+msgstr ""
+"Etkinleştirildiğinde, masaüstü bileşeni stili içe inşalı stil ile "
+"değiştirilir"
 
 #: src/panel/settings/settings_style.vala:72
 msgid "Animations"
-msgstr "Canlandırma"
+msgstr "Animasyonlar"
 
 #: src/panel/settings/settings_style.vala:73
 msgid "Control whether windows and controls use animations"
-msgstr "Pencerelerin ve denetimlerin canlandırma kullanıp kullanmayacağını kontrol et"
+msgstr ""
+"Pencerelerin ve denetimlerin animasyon kullanıp kullanmadığını kontrol et"
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
@@ -530,23 +535,27 @@ msgstr "Sol"
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Attach modal dialogs to windows"
-msgstr "Modal diyalogları pencerelere ekleme"
+msgstr "Modal diyalogları pencerelere bağla"
 
 #: src/panel/settings/settings_wm.vala:60
 msgid ""
 "Modal dialogs will become attached to the parent window and move together "
 "when dragged"
-msgstr "Modal diyaloglar üst pencereye bağlanacak ve sürüklendiğinde birlikte hareket edecektir."
+msgstr ""
+"Modal diyaloglar üst pencereye bağlanacak ve sürüklendiğinde birlikte "
+"hareket edecektir"
 
 #: src/panel/settings/settings_wm.vala:64
 msgid "Automatic tiling"
-msgstr "Otomatik karola"
+msgstr "Otomatik karolama"
 
 #: src/panel/settings/settings_wm.vala:65
 msgid ""
 "Windows will automatically tile when dragged into the top of the screen or "
 "the far corners"
-msgstr "Windows, ekranın üstüne veya uzak köşelerine sürüklendiğinde otomatik olarak döşenecektir"
+msgstr ""
+"Pencereler ekranın üstüne veya uzak köşelerine sürüklendiğinde otomatik "
+"olarak döşenecektir"
 
 #: src/panel/settings/settings_wm.vala:70
 msgid "Disable unredirection of windows"
@@ -588,7 +597,7 @@ msgstr "Uygulama denetimleri tarafından kullanılan birincil yazı tipini ayarl
 
 #: src/panel/settings/settings_fonts.vala:64
 msgid "Monospace"
-msgstr "Monospace"
+msgstr "Tek aralıklı"
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Set the fixed-width font used by text dominant applications"
@@ -734,7 +743,7 @@ msgstr "Şeffaf"
 
 #: src/panel/settings/settings_panel.vala:256
 msgid "Control when this panel should have a solid background"
-msgstr "Bu panelin arkaplanı olması gerektiğini kontrol edin"
+msgstr "Bu panelin arka fonunun ne zaman olması gerektiğini kontrol edin"
 
 #: src/panel/settings/settings_panel.vala:261
 msgid "Shadow"
@@ -742,7 +751,7 @@ msgstr "Gölge"
 
 #: src/panel/settings/settings_panel.vala:262
 msgid "Adds a decorative drop-shadow, ideal for opaque panels"
-msgstr "Opak paneller için ideal, dekoratif bir gölge etkisi yaratır."
+msgstr "Opak paneller için ideal, dekoratif bir gölge etkisi ekler"
 
 #: src/panel/settings/settings_panel.vala:268
 msgid "Stylize regions"
