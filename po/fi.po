@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-20 12:33+0100\n"
-"PO-Revision-Date: 2019-01-15 10:12+0000\n"
+"PO-Revision-Date: 2019-01-15 10:59+0000\n"
 "Last-Translator: Jarno T <watpi@posteo.net>\n"
 "Language-Team: Finnish <http://translate.getsol.us/projects/budgie-desktop/"
 "main/fi/>\n"
@@ -535,7 +535,7 @@ msgstr "Vasen"
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Attach modal dialogs to windows"
-msgstr "Valintaikkunat seuraavat ikkunoita"
+msgstr "Määritä valintaikkunat seuraamaan ikkunoita"
 
 #: src/panel/settings/settings_wm.vala:60
 msgid ""
