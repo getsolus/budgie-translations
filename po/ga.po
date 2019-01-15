@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the budgie-desktop package.
-# 
+#
 # Translators:
 # Seán Ó Séaghdha <sean.anseo@gmail.com>, 2018
 # Willow McCormack <willowmcc.ie@gmail.com>, 2016
@@ -9,66 +9,27 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-20 12:33+0100\n"
+"POT-Creation-Date: 2019-01-15 16:29+0200\n"
 "PO-Revision-Date: 2018-01-21 08:36+0000\n"
 "Last-Translator: Seán Ó Séaghdha <sean.anseo@gmail.com>\n"
-"Language-Team: Irish (http://www.transifex.com/budgie-desktop/budgie-desktop/language/ga/)\n"
+"Language-Team: Irish (http://www.transifex.com/budgie-desktop/budgie-desktop/"
+"language/ga/)\n"
+"Language: ga\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ga\n"
-"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4);\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4);\n"
 
-#: src/raven/notifications_view.vala:79
-msgid "Nothing to see here"
-msgstr "Níl dada le feiceáil anseo"
-
-#: src/raven/notifications_view.vala:582
-#: src/applets/notifications/NotificationsApplet.vala:75
-#, c-format
-msgid "%u unread notifications"
-msgstr "%u fógraí gan léamh"
-
-#: src/raven/notifications_view.vala:584
-#: src/applets/notifications/NotificationsApplet.vala:77
-msgid "1 unread notification"
-msgstr "Fógra amháin gan léamh"
-
-#: src/raven/notifications_view.vala:586
-#: src/applets/notifications/NotificationsApplet.vala:79
-msgid "No unread notifications"
-msgstr "Gach fógra léite"
-
-#: src/raven/notifications_view.vala:710
-msgid "No new notifications"
-msgstr "Gan fógra nua"
-
-#: src/raven/sound.vala:78
-msgid "Output"
-msgstr "Aschur"
-
-#: src/raven/sound.vala:95
-msgid "Input"
-msgstr "Ionchur"
-
-#: src/raven/main_view.vala:55 src/panel/settings/settings_panel.vala:96
-msgid "Applets"
-msgstr "Feidhmchláiríní"
-
-#: src/raven/main_view.vala:58
-#: src/applets/notifications/NotificationsApplet.plugin.in.h:1
-msgid "Notifications"
-msgstr "Fógraí"
-
-#: src/daemon/endsession.vala:172
+#: src/daemon/endsession.vala:171
 msgid "Log out"
 msgstr "Logáil amach"
 
-#: src/daemon/endsession.vala:176
+#: src/daemon/endsession.vala:175
 msgid "Restart device"
 msgstr "Atosaigh an gléas"
 
-#: src/daemon/endsession.vala:188 src/daemon/endsession.ui.h:1
+#: src/daemon/endsession.vala:187 src/daemon/endsession.ui.h:1
 msgid "Power Off"
 msgstr "Múch"
 
@@ -76,123 +37,302 @@ msgstr "Múch"
 msgid "Change background"
 msgstr "Athraigh an cúlra"
 
-#: src/daemon/menus.vala:61 src/panel/settings/settings_panel.vala:97
+#: src/daemon/menus.vala:57
+#, fuzzy
+msgid "Displays"
+msgstr "Socruithe Taispeána"
+
+#: src/daemon/menus.vala:66 src/panel/settings/settings_panel.vala:97
 msgid "Settings"
 msgstr "Socruithe"
 
-#: src/applets/show-desktop/ShowDesktopApplet.vala:33
+#. Should show a notification
+#: src/daemon/settings.vala:277
+msgid "Turned on Caffeine Boost"
+msgstr ""
+
+#: src/daemon/settings.vala:277
+msgid "Turned off Caffeine Boost"
+msgstr ""
+
+#. Get our timer number
+#. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
+#: src/daemon/settings.vala:284
+#, c-format
+msgid "a minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+
+#: src/daemon/settings.vala:285
+msgid "Will turn off in"
+msgstr ""
+
+#. Caffeine Notification
+#: src/raven/notifications_group.vala:44
+#: src/applets/caffeine/CaffeineWindow.vala:25
+msgid "Caffeine Mode"
+msgstr ""
+
+#: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
+msgid "Applets"
+msgstr "Feidhmchláiríní"
+
+#: src/raven/main_view.vala:66
+#: src/applets/notifications/NotificationsApplet.plugin.in.h:1
+msgid "Notifications"
+msgstr "Fógraí"
+
+#: src/raven/start_listening.vala:20
+msgid "No apps are currently playing audio."
+msgstr ""
+
+#: src/raven/start_listening.vala:24
+msgid "Play some music"
+msgstr ""
+
+#: src/raven/notifications_view.vala:99
+msgid "Nothing to see here"
+msgstr "Níl dada le feiceáil anseo"
+
+#: src/raven/notifications_view.vala:667
+#: src/applets/notifications/NotificationsApplet.vala:109
+#, c-format
+msgid "%u unread notifications"
+msgstr "%u fógraí gan léamh"
+
+#: src/raven/notifications_view.vala:669
+#: src/applets/notifications/NotificationsApplet.vala:111
+msgid "1 unread notification"
+msgstr "Fógra amháin gan léamh"
+
+#: src/raven/notifications_view.vala:671
+#: src/applets/notifications/NotificationsApplet.vala:113
+msgid "No unread notifications"
+msgstr "Gach fógra léite"
+
+#: src/raven/notifications_view.vala:846
+msgid "No new notifications"
+msgstr "Gan fógra nua"
+
+#. 125ms
+#: src/raven/sound.vala:151
+msgid "Apps"
+msgstr ""
+
+#: src/raven/sound.vala:152
+msgid "Devices"
+msgstr ""
+
+#: src/applets/status/PowerIndicator.vala:97
+msgid "Battery fully charged."
+msgstr "Cadhnra luchtaithe."
+
+#: src/applets/status/PowerIndicator.vala:100
+msgid "Unknown"
+msgstr "Anaithnid"
+
+#. Set inner charging duration to hours:minutes
+#: src/applets/status/PowerIndicator.vala:109
+msgid "Battery charging"
+msgstr "Cadhnra á luchtú"
+
+#: src/applets/status/PowerIndicator.vala:114
+msgid "Battery remaining"
+msgstr "Lucht fágtha"
+
+#: src/applets/status/PowerIndicator.vala:168
+msgid "Show battery percentage"
+msgstr "Taispeáin céatadán cadhnra"
+
+#: src/applets/status/PowerIndicator.vala:176
+msgid "Power settings"
+msgstr "Socruithe Cumhachta"
+
+#. Settings button
+#: src/applets/status/BluetoothIndicator.vala:56
+msgid "Bluetooth Settings"
+msgstr "Socruithe Bluetooth"
+
+#. Send files button
+#: src/applets/status/BluetoothIndicator.vala:63
+msgid "Send Files"
+msgstr "Seol Comhaid"
+
+#. Airplane mode
+#: src/applets/status/BluetoothIndicator.vala:73
+msgid "Bluetooth Airplane Mode"
+msgstr "Mód Eitleáin (Bluetooth)"
+
+#: src/applets/status/BluetoothIndicator.vala:179
+msgid "Bluetooth is disabled"
+msgstr "Bluetooth as"
+
+#: src/applets/status/BluetoothIndicator.vala:183
+msgid "Bluetooth is active"
+msgstr "Bluetooth ann"
+
+#: src/applets/status/BluetoothIndicator.vala:188
+#, c-format
+msgid "Connected to %d device"
+msgid_plural "Connected to %d devices"
+msgstr[0] "Nasctha le %d ghléas"
+msgstr[1] "Nasctha le %d ghléas"
+msgstr[2] "Nasctha le %d ghléas"
+msgstr[3] "Nasctha le %d ngléas"
+msgstr[4] "Nasctha le %d gléasanna"
+
+#: src/applets/status/SoundIndicator.vala:146
+msgid "Sound settings"
+msgstr "Socruithe Fuaime"
+
+#: src/applets/icon-tasklist/IconPopover.vala:92
+msgid "Launch New Instance"
+msgstr ""
+
+#: src/applets/icon-tasklist/IconPopover.vala:95
+msgid "Close All Windows"
+msgstr ""
+
+#: src/applets/icon-tasklist/IconPopover.vala:103
+#, fuzzy
+msgid "Always On Top"
+msgstr "I gCónaí"
+
+#: src/applets/icon-tasklist/IconPopover.vala:105
+#: src/applets/icon-tasklist/IconPopover.vala:473
+msgid "Maximize"
+msgstr ""
+
+#: src/applets/icon-tasklist/IconPopover.vala:106
+msgid "Minimize"
+msgstr ""
+
+#: src/applets/icon-tasklist/IconPopover.vala:361
+msgid "Unfavorite"
+msgstr ""
+
+#: src/applets/icon-tasklist/IconPopover.vala:361
+msgid "Favorite"
+msgstr ""
+
+#. If our current amount of workspaces is different than how many we have added
+#. We have items to add
+#. For workspaces we need to add
+#: src/applets/icon-tasklist/IconPopover.vala:373
+#, c-format
+msgid "Move To Workspace %i"
+msgstr ""
+
+#. Update our always on top button
+#: src/applets/icon-tasklist/IconPopover.vala:473
+msgid "Unmaximize"
+msgstr ""
+
+#: src/applets/icon-tasklist/IconPopover.vala:532
+#, fuzzy
+msgid "Close Window"
+msgstr "Fuinneoga"
+
+#: src/applets/icon-tasklist/IconPopover.vala:534
+#, fuzzy
+msgid "Show Window Controls"
+msgstr "Teidil Fuinneog"
+
+#: src/applets/budgie-menu/IconChooser.vala:27
+msgid "Set menu icon from file"
+msgstr "Socraigh deilbhín roghchláir ó chomhad"
+
+#: src/applets/budgie-menu/IconChooser.vala:37
+msgid "Image files"
+msgstr "Comhaid Íomhá"
+
+#: src/applets/budgie-menu/IconChooser.vala:43
+msgid "Any file"
+msgstr "Comhad ar bith"
+
+#: src/applets/budgie-menu/IconChooser.vala:55
+#: src/panel/settings/settings_autostart.vala:203
+#: src/panel/settings/settings_autostart.vala:376
+#: src/panel/settings/settings_applet_chooser.vala:84
+#: src/daemon/endsession.ui.h:3 src/polkit/dialog.ui.h:4
+msgid "Cancel"
+msgstr "Cealaigh"
+
+#: src/applets/budgie-menu/IconChooser.vala:56
+msgid "Set icon"
+msgstr "Socraigh deilbhín"
+
+#. Special case, "All"
+#: src/applets/budgie-menu/BudgieMenuWindow.vala:43
+msgid "All"
+msgstr "Gach rud"
+
+#. placeholder in case of no results
+#: src/applets/budgie-menu/BudgieMenuWindow.vala:401
+msgid "Sorry, no items found"
+msgstr ""
+
+#: src/applets/lock-keys/LockKeysApplet.vala:62
+msgid "Caps lock is active"
+msgstr "Caps Lock ann"
+
+#: src/applets/lock-keys/LockKeysApplet.vala:65
+msgid "Caps lock is not active"
+msgstr "Caps Lock as"
+
+#: src/applets/lock-keys/LockKeysApplet.vala:75
+msgid "Num lock is active"
+msgstr "Num Lock ann"
+
+#: src/applets/lock-keys/LockKeysApplet.vala:78
+msgid "Num lock is not active"
+msgstr "Num Lock as"
+
+#: src/applets/clock/ClockApplet.vala:151
+msgid "Time and date settings"
+msgstr "Socruithe Am agus Dáta"
+
+#: src/applets/clock/ClockApplet.vala:152
+msgid "Calendar"
+msgstr "Féilire"
+
+#. pack page2
+#: src/applets/clock/ClockApplet.vala:159
+#: src/applets/clock/ClockApplet.vala:190
+msgid "Preferences"
+msgstr "Sainroghanna"
+
+#: src/applets/clock/ClockApplet.vala:169
+msgid "Show date"
+msgstr "Taispeáin an dáta"
+
+#: src/applets/clock/ClockApplet.vala:174
+msgid "Show seconds"
+msgstr "Taispeáin soicindí"
+
+#: src/applets/clock/ClockApplet.vala:180
+msgid "Use 24 hour time"
+msgstr "Úsáid Am 24-uair"
+
+#: src/applets/show-desktop/ShowDesktopApplet.vala:34
 msgid "Toggle the desktop"
 msgstr "Scoránaigh an deasc"
 
-#: src/applets/icon-tasklist/Buttons.vala:113
-msgid "Pin to panel"
-msgstr "Pionnáil leis an bpainéal"
+#: src/applets/workspaces/WorkspaceItem.vala:72
+msgid "Rename"
+msgstr "Athainmnigh"
 
-#: src/applets/icon-tasklist/Buttons.vala:114
-#: src/applets/icon-tasklist/Buttons.vala:483
-msgid "Unpin from panel"
-msgstr "Díphionnáil den phainéal"
+#: src/applets/workspaces/WorkspaceItem.vala:79
+msgid "Remove"
+msgstr "Bain"
 
-#: src/applets/places-indicator/PlaceItem.vala:36
-#: src/applets/places-indicator/MountItem.vala:65
-#, c-format
-msgid "Open \"%s\""
-msgstr "Oscail \"%s\""
-
-#: src/applets/places-indicator/MountItem.vala:25
-#: src/applets/places-indicator/VolumeItem.vala:27
-msgid "Removable devices"
-msgstr "Gléasanna inbhainte"
-
-#: src/applets/places-indicator/MountItem.vala:27
-#: src/applets/places-indicator/VolumeItem.vala:29
-msgid "Local volumes"
-msgstr "Imleabhair áitiúla"
-
-#: src/applets/places-indicator/MountItem.vala:31
-#: src/applets/places-indicator/VolumeItem.vala:33
-msgid "Network folders"
-msgstr "Fillteáin líonra"
-
-#: src/applets/places-indicator/MountItem.vala:34
-#: src/applets/places-indicator/VolumeItem.vala:36
-msgid "Other"
-msgstr "Eile"
-
-#: src/applets/places-indicator/MountItem.vala:60
-#: src/applets/places-indicator/VolumeItem.vala:57
-msgid "Eject"
-msgstr "Díchuir"
-
-#: src/applets/places-indicator/MountItem.vala:62
-msgid "Unmount"
-msgstr "Dífheistigh"
-
-#: src/applets/places-indicator/MountItem.vala:78
-#: src/applets/places-indicator/VolumeItem.vala:87
-msgid "You can now safely remove"
-msgstr "Is féidir an gléas seo a bhaint anois gan bhaol"
-
-#: src/applets/places-indicator/MountItem.vala:79
-msgid "Unknown Device"
-msgstr "Gléas anaithnid"
-
-#: src/applets/places-indicator/MountItem.vala:88
-msgid "Error while ejecting device"
-msgstr "Tharla earráid agus an gléas á dhíchur"
-
-#: src/applets/places-indicator/MountItem.vala:105
-msgid "Error while unmounting volume"
-msgstr "Tharla earráid agus an t-imleabhar á dhífheistiú"
-
-#: src/applets/places-indicator/PlacesIndicator.vala:85
-#: src/applets/places-indicator/PlacesSection.vala:24
-#: src/applets/places-indicator/PlacesSection.vala:46
-#: src/applets/places-indicator/PlacesIndicator.plugin.in.h:1
-msgid "Places"
-msgstr "Áiteanna"
-
-#: src/applets/places-indicator/VolumeItem.vala:43
-#, c-format
-msgid "Mount and open \"%s\""
-msgstr "Feistigh agus oscail \"%s\""
-
-#: src/applets/places-indicator/VolumeItem.vala:76
-#: src/applets/places-indicator/VolumeItem.vala:121
-msgid "Enter the encryption passphrase to unlock this volume"
-msgstr "Cuir isteach an pasfhrása criptiúcháin chun an t-imleabhar seo a dhíghlasáil"
-
-#: src/applets/places-indicator/VolumeItem.vala:119
-msgid "The password you entered is incorrect"
-msgstr "Níor chuir tú isteach an focal faire ceart"
-
-#: src/applets/places-indicator/VolumeItem.vala:123
-msgid "An unknown error occurred while attempting to mount this volume"
-msgstr "Tharla earráid anaithnid le linn iarrachta ar fheistiú an imleabhair seo"
-
-#: src/applets/places-indicator/MountHelper.vala:39
-msgid "Volume is in use by other processes"
-msgstr "Tá an t-imleabhar sin in úsáid ag próisis eile"
-
-#: src/applets/places-indicator/MountHelper.vala:45
-msgid "Operation aborted"
-msgstr "Thobscoireadh an oibríocht"
-
-#: src/applets/places-indicator/MountHelper.vala:57
-msgid "Type your password"
-msgstr "Cuir isteach d’fhocal faire"
-
-#: src/applets/places-indicator/PlacesIndicatorWindow.vala:181
-msgid "Nothing to display right now"
-msgstr "Níl dada le taispeáint faoi láthair"
-
-#: src/applets/places-indicator/PlacesIndicatorWindow.vala:185
-msgid "Mount some drives"
-msgstr "Feistigh roinnt tiomantán"
-
-#: src/applets/places-indicator/PlacesIndicatorWindow.vala:185
-msgid "Enable more sections"
-msgstr "Cumasaigh tuilleadh rann"
+#: src/applets/caffeine/CaffeineWindow.vala:26
+msgid "Timer (minutes)"
+msgstr ""
 
 #. User Menu Creation
 #: src/applets/user-indicator/UserIndicatorWindow.vala:95
@@ -223,153 +363,114 @@ msgstr "Atosaigh"
 msgid "Shutdown"
 msgstr "Múch"
 
-#. IndicatorItem switch_user_menu = new IndicatorItem(_("Switch User"),
-#. "network-transmit-receive-symbolic", false);
+#. IndicatorItem switch_user_menu = new IndicatorItem(_("Switch User"), "network-transmit-receive-symbolic", false);
 #: src/applets/user-indicator/UserIndicatorWindow.vala:179
 #: src/daemon/endsession.ui.h:4
 msgid "Logout"
 msgstr "Logáil Amach"
 
-#: src/applets/clock/ClockApplet.vala:148
-msgid "Time and date settings"
-msgstr "Socruithe Am agus Dáta"
+#: src/applets/places-indicator/PlacesSection.vala:24
+#: src/applets/places-indicator/PlacesSection.vala:46
+#: src/applets/places-indicator/PlacesIndicator.vala:85
+#: src/applets/places-indicator/PlacesIndicator.plugin.in.h:1
+msgid "Places"
+msgstr "Áiteanna"
 
-#: src/applets/clock/ClockApplet.vala:149
-msgid "Calendar"
-msgstr "Féilire"
+#: src/applets/places-indicator/PlacesIndicatorWindow.vala:181
+msgid "Nothing to display right now"
+msgstr "Níl dada le taispeáint faoi láthair"
 
-#. pack page2
-#: src/applets/clock/ClockApplet.vala:156
-#: src/applets/clock/ClockApplet.vala:187
-msgid "Preferences"
-msgstr "Sainroghanna"
+#: src/applets/places-indicator/PlacesIndicatorWindow.vala:185
+msgid "Mount some drives"
+msgstr "Feistigh roinnt tiomantán"
 
-#: src/applets/clock/ClockApplet.vala:166
-msgid "Show date"
-msgstr "Taispeáin an dáta"
+#: src/applets/places-indicator/PlacesIndicatorWindow.vala:185
+msgid "Enable more sections"
+msgstr "Cumasaigh tuilleadh rann"
 
-#: src/applets/clock/ClockApplet.vala:171
-msgid "Show seconds"
-msgstr "Taispeáin soicindí"
-
-#: src/applets/clock/ClockApplet.vala:177
-msgid "Use 24 hour time"
-msgstr "Úsáid Am 24-uair"
-
-#. Special case, "All"
-#: src/applets/budgie-menu/BudgieMenuWindow.vala:43
-msgid "All"
-msgstr "Gach rud"
-
-#: src/applets/budgie-menu/IconChooser.vala:27
-msgid "Set menu icon from file"
-msgstr "Socraigh deilbhín roghchláir ó chomhad"
-
-#: src/applets/budgie-menu/IconChooser.vala:37
-msgid "Image files"
-msgstr "Comhaid Íomhá"
-
-#: src/applets/budgie-menu/IconChooser.vala:43
-msgid "Any file"
-msgstr "Comhad ar bith"
-
-#: src/applets/budgie-menu/IconChooser.vala:55
-#: src/panel/settings/settings_applet_chooser.vala:84
-#: src/panel/settings/settings_autostart.vala:202
-#: src/panel/settings/settings_autostart.vala:365 src/daemon/endsession.ui.h:3
-#: src/polkit/dialog.ui.h:4
-msgid "Cancel"
-msgstr "Cealaigh"
-
-#: src/applets/budgie-menu/IconChooser.vala:56
-msgid "Set icon"
-msgstr "Socraigh deilbhín"
-
-#: src/applets/status/PowerIndicator.vala:97
-msgid "Battery fully charged."
-msgstr "Cadhnra luchtaithe."
-
-#: src/applets/status/PowerIndicator.vala:100
-msgid "Unknown"
-msgstr "Anaithnid"
-
-#. Set inner charging duration to hours:minutes
-#: src/applets/status/PowerIndicator.vala:109
-msgid "Battery charging"
-msgstr "Cadhnra á luchtú"
-
-#: src/applets/status/PowerIndicator.vala:114
-msgid "Battery remaining"
-msgstr "Lucht fágtha"
-
-#: src/applets/status/PowerIndicator.vala:174
-msgid "Show battery percentage"
-msgstr "Taispeáin céatadán cadhnra"
-
-#: src/applets/status/PowerIndicator.vala:183
-msgid "Power settings"
-msgstr "Socruithe Cumhachta"
-
-#: src/applets/status/SoundIndicator.vala:120
-msgid "Sound settings"
-msgstr "Socruithe Fuaime"
-
-#: src/applets/status/BluetoothIndicator.vala:105
-msgid "Bluetooth is disabled"
-msgstr "Bluetooth as"
-
-#: src/applets/status/BluetoothIndicator.vala:109
-msgid "Bluetooth is active"
-msgstr "Bluetooth ann"
-
-#: src/applets/status/BluetoothIndicator.vala:114
+#: src/applets/places-indicator/PlaceItem.vala:38
+#: src/applets/places-indicator/MountItem.vala:65
 #, c-format
-msgid "Connected to %d device"
-msgid_plural "Connected to %d devices"
-msgstr[0] "Nasctha le %d ghléas"
-msgstr[1] "Nasctha le %d ghléas"
-msgstr[2] "Nasctha le %d ghléas"
-msgstr[3] "Nasctha le %d ngléas"
-msgstr[4] "Nasctha le %d gléasanna"
+msgid "Open \"%s\""
+msgstr "Oscail \"%s\""
 
-#. Settings button
-#: src/applets/status/BluetoothIndicator.vala:179
-msgid "Bluetooth Settings"
-msgstr "Socruithe Bluetooth"
+#: src/applets/places-indicator/MountHelper.vala:39
+msgid "Volume is in use by other processes"
+msgstr "Tá an t-imleabhar sin in úsáid ag próisis eile"
 
-#. Send files button
-#: src/applets/status/BluetoothIndicator.vala:186
-msgid "Send Files"
-msgstr "Seol Comhaid"
+#: src/applets/places-indicator/MountHelper.vala:45
+msgid "Operation aborted"
+msgstr "Thobscoireadh an oibríocht"
 
-#. Airplane mode
-#: src/applets/status/BluetoothIndicator.vala:196
-msgid "Bluetooth Airplane Mode"
-msgstr "Mód Eitleáin (Bluetooth)"
+#: src/applets/places-indicator/MountHelper.vala:57
+msgid "Type your password"
+msgstr "Cuir isteach d’fhocal faire"
 
-#: src/applets/workspaces/WorkspaceItem.vala:72
-msgid "Rename"
-msgstr "Athainmnigh"
+#: src/applets/places-indicator/VolumeItem.vala:27
+#: src/applets/places-indicator/MountItem.vala:25
+msgid "Removable devices"
+msgstr "Gléasanna inbhainte"
 
-#: src/applets/workspaces/WorkspaceItem.vala:79
-msgid "Remove"
-msgstr "Bain"
+#: src/applets/places-indicator/VolumeItem.vala:29
+#: src/applets/places-indicator/MountItem.vala:27
+msgid "Local volumes"
+msgstr "Imleabhair áitiúla"
 
-#: src/applets/lock-keys/LockKeysApplet.vala:62
-msgid "Caps lock is active"
-msgstr "Caps Lock ann"
+#: src/applets/places-indicator/VolumeItem.vala:33
+#: src/applets/places-indicator/MountItem.vala:31
+msgid "Network folders"
+msgstr "Fillteáin líonra"
 
-#: src/applets/lock-keys/LockKeysApplet.vala:65
-msgid "Caps lock is not active"
-msgstr "Caps Lock as"
+#: src/applets/places-indicator/VolumeItem.vala:36
+#: src/applets/places-indicator/MountItem.vala:34
+msgid "Other"
+msgstr "Eile"
 
-#: src/applets/lock-keys/LockKeysApplet.vala:75
-msgid "Num lock is active"
-msgstr "Num Lock ann"
+#: src/applets/places-indicator/VolumeItem.vala:43
+#, c-format
+msgid "Mount and open \"%s\""
+msgstr "Feistigh agus oscail \"%s\""
 
-#: src/applets/lock-keys/LockKeysApplet.vala:78
-msgid "Num lock is not active"
-msgstr "Num Lock as"
+#: src/applets/places-indicator/VolumeItem.vala:57
+#: src/applets/places-indicator/MountItem.vala:60
+msgid "Eject"
+msgstr "Díchuir"
+
+#: src/applets/places-indicator/VolumeItem.vala:76
+#: src/applets/places-indicator/VolumeItem.vala:121
+msgid "Enter the encryption passphrase to unlock this volume"
+msgstr ""
+"Cuir isteach an pasfhrása criptiúcháin chun an t-imleabhar seo a dhíghlasáil"
+
+#: src/applets/places-indicator/VolumeItem.vala:87
+#: src/applets/places-indicator/MountItem.vala:78
+msgid "You can now safely remove"
+msgstr "Is féidir an gléas seo a bhaint anois gan bhaol"
+
+#: src/applets/places-indicator/VolumeItem.vala:119
+msgid "The password you entered is incorrect"
+msgstr "Níor chuir tú isteach an focal faire ceart"
+
+#: src/applets/places-indicator/VolumeItem.vala:123
+msgid "An unknown error occurred while attempting to mount this volume"
+msgstr ""
+"Tharla earráid anaithnid le linn iarrachta ar fheistiú an imleabhair seo"
+
+#: src/applets/places-indicator/MountItem.vala:62
+msgid "Unmount"
+msgstr "Dífheistigh"
+
+#: src/applets/places-indicator/MountItem.vala:79
+msgid "Unknown Device"
+msgstr "Gléas anaithnid"
+
+#: src/applets/places-indicator/MountItem.vala:88
+msgid "Error while ejecting device"
+msgstr "Tharla earráid agus an gléas á dhíchur"
+
+#: src/applets/places-indicator/MountItem.vala:105
+msgid "Error while unmounting volume"
+msgstr "Tharla earráid agus an t-imleabhar á dhífheistiú"
 
 #: src/polkit/polkitdialog.vala:131
 msgid "Authentication failed"
@@ -379,261 +480,26 @@ msgstr "Theip ar fíordheimhniú"
 msgid "Group:"
 msgstr "Grúpa:"
 
-#: src/panel/settings/settings_main.vala:41
+#: src/panel/settings/settings_main.vala:39
 msgid "Appearance"
 msgstr "Cuma"
 
-#: src/panel/settings/settings_main.vala:42
+#: src/panel/settings/settings_main.vala:40
 msgid "Panels"
 msgstr "Painéil"
 
-#: src/panel/settings/settings_main.vala:43
+#: src/panel/settings/settings_main.vala:41
 msgid "Session"
 msgstr "Seisiún"
 
-#. Have to override wmclass for pinning support
-#: src/panel/settings/settings_main.vala:51
-msgid "Budgie Settings"
-msgstr "Socruithe Budgie"
+#: src/panel/settings/settings_main.vala:50
+#: src/panel/budgie-desktop-settings.desktop.in.h:1
+msgid "Budgie Desktop Settings"
+msgstr "Socruithe Deasc Budgie"
 
-#: src/panel/settings/settings_main.vala:83
+#: src/panel/settings/settings_main.vala:81
 msgid "Create new panel"
 msgstr "Cruthaigh painéal nua"
-
-#: src/panel/settings/settings_style.vala:34
-msgid "Style"
-msgstr "Stíl"
-
-#: src/panel/settings/settings_style.vala:44
-msgid "Widgets"
-msgstr "Giuirléidí"
-
-#: src/panel/settings/settings_style.vala:45
-msgid "Set the appearance of window decorations and controls"
-msgstr "Socraigh cuma mhaisiúcháin is rialtáin fuinneog"
-
-#: src/panel/settings/settings_style.vala:49
-msgid "Icons"
-msgstr "Deilbhíní"
-
-#: src/panel/settings/settings_style.vala:50
-msgid "Set the globally used icon theme"
-msgstr "Socraigh an téama uilíoch deilbhíní"
-
-#: src/panel/settings/settings_style.vala:54
-msgid "Cursors"
-msgstr "Cúrsóirí"
-
-#: src/panel/settings/settings_style.vala:55
-msgid "Set the globally used mouse cursor theme"
-msgstr "Socraigh an téama uilíoch do chúrsóirí luch"
-
-#: src/panel/settings/settings_style.vala:63
-msgid "Dark theme"
-msgstr "Téama dorcha"
-
-#: src/panel/settings/settings_style.vala:67
-msgid "Built-in theme"
-msgstr "Téama ionsuite"
-
-#: src/panel/settings/settings_style.vala:68
-msgid ""
-"When enabled, the desktop component style will be overriden with the built-"
-"in one"
-msgstr "Sáróidh an téama ionsuite an stíl do na comhpháirteanna deisce"
-
-#: src/panel/settings/settings_style.vala:72
-msgid "Animations"
-msgstr "Beochaintí"
-
-#: src/panel/settings/settings_style.vala:73
-msgid "Control whether windows and controls use animations"
-msgstr "Rialaigh úsáid beochana ar fhuinneoga agus rialtáin"
-
-#: src/panel/settings/settings_applet_chooser.vala:79
-msgid "Choose an applet"
-msgstr "Roghnaigh feidhmchláirín"
-
-#: src/panel/settings/settings_applet_chooser.vala:85
-#: src/panel/settings/settings_panel_applets.vala:245
-msgid "Add applet"
-msgstr "Cuir feidhmchláirín leis"
-
-#: src/panel/settings/settings_autostart.vala:140
-msgid "Untitled"
-msgstr "Gan teideal"
-
-#: src/panel/settings/settings_autostart.vala:147
-msgid "No description"
-msgstr "Gan cur síos"
-
-#: src/panel/settings/settings_autostart.vala:170
-msgid "running"
-msgstr "ag rith"
-
-#: src/panel/settings/settings_autostart.vala:193
-msgid "Applications"
-msgstr "Feidhmchláir"
-
-#: src/panel/settings/settings_autostart.vala:203
-#: src/panel/settings/settings_autostart.vala:366
-msgid "Add"
-msgstr "Cuir leis"
-
-#: src/panel/settings/settings_autostart.vala:360
-#: src/panel/settings/settings_autostart.vala:393
-msgid "Command"
-msgstr "Ordú"
-
-#: src/panel/settings/settings_autostart.vala:376
-msgid "An entry with that title already exists"
-msgstr "Tá iontráil ann cheana leis an teideal sin"
-
-#: src/panel/settings/settings_autostart.vala:379
-msgid "Title"
-msgstr "Teideal"
-
-#: src/panel/settings/settings_autostart.vala:383
-#: src/panel/settings/settings_autostart.vala:397
-msgid "Required"
-msgstr "Riachtanach"
-
-#: src/panel/settings/settings_autostart.vala:386
-msgid "Description"
-msgstr "Cur Síos"
-
-#: src/panel/settings/settings_autostart.vala:390
-msgid "Optional"
-msgstr "Roghnach"
-
-#: src/panel/settings/settings_autostart.vala:454
-msgid "Autostart"
-msgstr "Uath-thosú"
-
-#: src/panel/settings/settings_wm.vala:29
-msgid "Windows"
-msgstr "Fuinneoga"
-
-#: src/panel/settings/settings_wm.vala:38
-msgid "Button layout"
-msgstr "Leagan amach Cnaipí"
-
-#: src/panel/settings/settings_wm.vala:39
-msgid "Change the layout of buttons in application titlebars"
-msgstr "Athraigh leagan amach na gcnaipí i mbarraí teidil"
-
-#: src/panel/settings/settings_wm.vala:45
-msgid "Right (standard)"
-msgstr "Deas (caighdeánach)"
-
-#: src/panel/settings/settings_wm.vala:47
-#: src/panel/settings/settings_panel.vala:180
-msgid "Left"
-msgstr "Clé"
-
-#: src/panel/settings/settings_wm.vala:59
-msgid "Attach modal dialogs to windows"
-msgstr "Ceangail dialóga módúla le fuinneoga"
-
-#: src/panel/settings/settings_wm.vala:60
-msgid ""
-"Modal dialogs will become attached to the parent window and move together "
-"when dragged"
-msgstr "Ceanglófar dialóga módúla lena máthairfhuinneoga. Bogfaidh siad le chéile agus iad á tharraingt"
-
-#: src/panel/settings/settings_wm.vala:64
-msgid "Automatic tiling"
-msgstr "Tíliú uathoibríoch"
-
-#: src/panel/settings/settings_wm.vala:65
-msgid ""
-"Windows will automatically tile when dragged into the top of the screen or "
-"the far corners"
-msgstr "Tíleofar fuinneoga go huathoibríoch nuair a tharraingíonn tú go barr an scáileán nó chuig a chúinní iad"
-
-#: src/panel/settings/settings_wm.vala:70
-msgid "Disable unredirection of windows"
-msgstr "Díchumasaigh neamhatreorú fuinneog (unredirection)"
-
-#: src/panel/settings/settings_wm.vala:71
-msgid ""
-"This option is for advanced users. Use this if you are having graphical or "
-"performance issues with dedicated GPUs"
-msgstr "Rogha le haghaidh ardúsáideoirí. Bain úsáid as seo má tá fadhbanna grafacha nó feidhmíochta agat maidir le GPUanna tiomnaithe"
-
-#: src/panel/settings/settings_fonts.vala:32
-msgid "Fonts"
-msgstr "Clófhoirne"
-
-#: src/panel/settings/settings_fonts.vala:43
-msgid "Window Titles"
-msgstr "Teidil Fuinneog"
-
-#: src/panel/settings/settings_fonts.vala:44
-msgid "Set the font used in the titlebars of applications"
-msgstr "Socraigh an clófhoireann le húsáid i mbarraí teidil"
-
-#: src/panel/settings/settings_fonts.vala:50
-msgid "Documents"
-msgstr "Cáipéisí"
-
-#: src/panel/settings/settings_fonts.vala:51
-msgid "Set the display font used by for documents"
-msgstr "Socraigh an clófhoireann le húsáid i gcáipéisí"
-
-#: src/panel/settings/settings_fonts.vala:57
-msgid "Interface"
-msgstr "Comhéadan"
-
-#: src/panel/settings/settings_fonts.vala:58
-msgid "Set the primary font used by application controls"
-msgstr "Socraigh an príomhchlófhoireann le húsáid ar rialtáin feidhmchláir"
-
-#: src/panel/settings/settings_fonts.vala:64
-msgid "Monospace"
-msgstr "Cló Aonleithid"
-
-#: src/panel/settings/settings_fonts.vala:65
-msgid "Set the fixed-width font used by text dominant applications"
-msgstr "Socraigh an cló aonleithid le húsáid i bhfeidhmchláir téacs"
-
-#: src/panel/settings/settings_panel_dialogs.vala:29
-msgid "Confirm panel removal"
-msgstr "Dearbhaigh baint painéil"
-
-#: src/panel/settings/settings_panel_dialogs.vala:36
-msgid "Do you really want to remove this panel? This action cannot be undone."
-msgstr "An bhfuil tú cinnte gur maith leat an painéal seo a bhaint? Ní féidir an gníomh seo a chur ar ceal."
-
-#: src/panel/settings/settings_panel_dialogs.vala:51
-#: src/panel/settings/settings_panel_dialogs.vala:114
-msgid "Don't ask me again"
-msgstr "Ná cuir an cheist seo orm arís"
-
-#: src/panel/settings/settings_panel_dialogs.vala:60
-msgid "Remove panel"
-msgstr "Bain painéal"
-
-#: src/panel/settings/settings_panel_dialogs.vala:61
-msgid "Keep panel"
-msgstr "Coinnigh painéal"
-
-#: src/panel/settings/settings_panel_dialogs.vala:92
-msgid "Confirm applet removal"
-msgstr "Dearbhaigh baint feidhmchláirín"
-
-#: src/panel/settings/settings_panel_dialogs.vala:99
-msgid ""
-"Do you really want to remove this applet? This action cannot be undone."
-msgstr "An bhfuil tú cinnte gur maith leat an feidhmchláirín seo a bhaint? Ní féidir an gníomh seo a chur ar ceal."
-
-#: src/panel/settings/settings_panel_dialogs.vala:123
-msgid "Remove applet"
-msgstr "Bain feidhmchláirín"
-
-#: src/panel/settings/settings_panel_dialogs.vala:124
-msgid "Keep applet"
-msgstr "Coinnigh feidhmchláirín"
 
 #: src/panel/settings/settings_panel.vala:80
 msgid "Remove this panel from the screen"
@@ -679,6 +545,11 @@ msgstr "Uachtar"
 msgid "Right"
 msgstr "Deas"
 
+#: src/panel/settings/settings_panel.vala:180
+#: src/panel/settings/settings_wm.vala:88
+msgid "Left"
+msgstr "Clé"
+
 #: src/panel/settings/settings_panel.vala:182
 msgid "Bottom"
 msgstr "Íochtar"
@@ -721,7 +592,8 @@ msgstr "Méid"
 
 #: src/panel/settings/settings_panel.vala:240
 msgid "Set the size (width or height, depending on orientation) of this panel"
-msgstr "Socraigh méid an phainéil seo (leithead nó airde, de réir a threoshuímh)"
+msgstr ""
+"Socraigh méid an phainéil seo (leithead nó airde, de réir a threoshuímh)"
 
 #: src/panel/settings/settings_panel.vala:247
 msgid "Automatically hide"
@@ -729,7 +601,9 @@ msgstr "Ceil go huathoibríoch"
 
 #: src/panel/settings/settings_panel.vala:248
 msgid "When set, this panel will hide from view to maximize screen estate"
-msgstr "I bhfeidhm, ceilfear an painéal seo chun an méid is mó scáileáin a thaispeáint"
+msgstr ""
+"I bhfeidhm, ceilfear an painéal seo chun an méid is mó scáileáin a "
+"thaispeáint"
 
 #: src/panel/settings/settings_panel.vala:255
 msgid "Transparency"
@@ -753,9 +627,11 @@ msgstr "Stíligh réigiúin"
 
 #: src/panel/settings/settings_panel.vala:269
 msgid ""
-"Adds a hint to the panel so that each of the panel's three main areas may be"
-" themed differently."
-msgstr "Cuir leid leis an painéal sa chaoi gur féidir stíl ar leith a chur ar na trí réigiún sa phainéal"
+"Adds a hint to the panel so that each of the panel's three main areas may be "
+"themed differently."
+msgstr ""
+"Cuir leid leis an painéal sa chaoi gur féidir stíl ar leith a chur ar na trí "
+"réigiún sa phainéal"
 
 #: src/panel/settings/settings_panel.vala:276
 msgid "Dock mode"
@@ -765,31 +641,114 @@ msgstr "Mód Duga"
 msgid ""
 "When in dock mode, the panel will use the minimal amount of space possible, "
 "freeing up valuable screen estate"
-msgstr "Nuair atá mód duga i bhfeidhm, úsáideann an painéal an mhéid is lú scáileáin"
+msgstr ""
+"Nuair atá mód duga i bhfeidhm, úsáideann an painéal an mhéid is lú scáileáin"
 
-#: src/panel/settings/settings_panel_applets.vala:22
-msgid "Configure applet"
-msgstr "Cumraigh feidhmchláirín"
+#: src/panel/settings/settings_raven.vala:30
+msgid "Raven"
+msgstr ""
 
-#: src/panel/settings/settings_panel_applets.vala:246
-msgid "Choose a new applet to add to this panel"
-msgstr "Roghnaigh feidhmchláirín nua le cur leis an bpainéal seo"
+#: src/panel/settings/settings_raven.vala:40
+msgid "Allow raising volume above 100%"
+msgstr ""
 
-#: src/panel/settings/settings_panel_applets.vala:260
-msgid "No settings available"
-msgstr "Níl socrú ar bith le fáil"
+#: src/panel/settings/settings_raven.vala:41
+msgid ""
+"Allows raising the volume via Sound Settings as well as the Sound Output "
+"Widget in Raven up to 150%."
+msgstr ""
 
-#: src/panel/settings/settings_panel_applets.vala:415
-msgid "Start"
-msgstr "Tús"
+#: src/panel/settings/settings_raven.vala:45
+msgid "Enable display of week numbers in Calendar"
+msgstr ""
 
-#: src/panel/settings/settings_panel_applets.vala:418
-msgid "Center"
-msgstr "Lár"
+#: src/panel/settings/settings_raven.vala:46
+msgid ""
+"This setting enables the display of week numbers in the Calendar widget."
+msgstr ""
 
-#: src/panel/settings/settings_panel_applets.vala:421
-msgid "End"
-msgstr "Bun"
+#: src/panel/settings/settings_raven.vala:51
+msgid "Show Calendar Widget"
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:52
+msgid "Shows or hides the Calendar Widget in Raven's Applets section."
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:57
+msgid "Show Sound Output Widget"
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:58
+msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:63
+msgid "Show Microphone Input Widget"
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:64
+msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:69
+msgid "Show Media Playback Controls Widget"
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:70
+msgid ""
+"Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets "
+"section."
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:75
+msgid "Show Power Strip"
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:76
+msgid "Shows or hides the Power Strip in the bottom of Raven."
+msgstr ""
+
+#: src/panel/settings/settings_panel_dialogs.vala:29
+msgid "Confirm panel removal"
+msgstr "Dearbhaigh baint painéil"
+
+#: src/panel/settings/settings_panel_dialogs.vala:36
+msgid "Do you really want to remove this panel? This action cannot be undone."
+msgstr ""
+"An bhfuil tú cinnte gur maith leat an painéal seo a bhaint? Ní féidir an "
+"gníomh seo a chur ar ceal."
+
+#: src/panel/settings/settings_panel_dialogs.vala:51
+#: src/panel/settings/settings_panel_dialogs.vala:114
+msgid "Don't ask me again"
+msgstr "Ná cuir an cheist seo orm arís"
+
+#: src/panel/settings/settings_panel_dialogs.vala:60
+msgid "Remove panel"
+msgstr "Bain painéal"
+
+#: src/panel/settings/settings_panel_dialogs.vala:61
+msgid "Keep panel"
+msgstr "Coinnigh painéal"
+
+#: src/panel/settings/settings_panel_dialogs.vala:92
+msgid "Confirm applet removal"
+msgstr "Dearbhaigh baint feidhmchláirín"
+
+#: src/panel/settings/settings_panel_dialogs.vala:99
+msgid "Do you really want to remove this applet? This action cannot be undone."
+msgstr ""
+"An bhfuil tú cinnte gur maith leat an feidhmchláirín seo a bhaint? Ní féidir "
+"an gníomh seo a chur ar ceal."
+
+#: src/panel/settings/settings_panel_dialogs.vala:123
+msgid "Remove applet"
+msgstr "Bain feidhmchláirín"
+
+#: src/panel/settings/settings_panel_dialogs.vala:124
+msgid "Keep applet"
+msgstr "Coinnigh feidhmchláirín"
 
 #: src/panel/settings/settings_desktop.vala:33
 msgid "Desktop"
@@ -801,67 +760,327 @@ msgstr "Deilbhíní Deisce"
 
 #: src/panel/settings/settings_desktop.vala:44
 msgid "Control whether to allow launchers and icons on the desktop"
-msgstr "Rialaigh an mbíonn lainseálaithe agus deilbhíní le feiceáil ar an deasc"
+msgstr ""
+"Rialaigh an mbíonn lainseálaithe agus deilbhíní le feiceáil ar an deasc"
 
-#: src/panel/settings/settings_desktop.vala:49
+#: src/panel/settings/settings_desktop.vala:54
 msgid "Home directory"
 msgstr "Fillteán Baile"
 
-#: src/panel/settings/settings_desktop.vala:50
+#: src/panel/settings/settings_desktop.vala:55
 msgid "Add a shortcut to your home directory on the desktop"
 msgstr "Cuir aicearra chuig d’fhillteán baile ar an deasc"
 
-#: src/panel/settings/settings_desktop.vala:55
+#: src/panel/settings/settings_desktop.vala:60
 msgid "Network servers"
 msgstr "Freastalaithe Líonra"
 
-#: src/panel/settings/settings_desktop.vala:56
+#: src/panel/settings/settings_desktop.vala:61
 msgid "Add a shortcut to your local network servers on the desktop"
 msgstr "Cuir aicearra chuig do fhreastalaithe líonra áitiúla ar an deasc"
 
-#: src/panel/settings/settings_desktop.vala:61
+#: src/panel/settings/settings_desktop.vala:66
 msgid "Trash"
 msgstr "Bruscar"
 
-#: src/panel/settings/settings_desktop.vala:62
+#: src/panel/settings/settings_desktop.vala:67
 msgid "Add a shortcut to the Trash directory on the desktop"
 msgstr "Cuir aicearra chuig an fillteán Bruscair ar an deasc"
 
-#: src/panel/settings/settings_desktop.vala:67
+#: src/panel/settings/settings_desktop.vala:72
 msgid "Mounted volumes"
 msgstr "Imleabhair Feistithe"
 
-#: src/panel/settings/settings_desktop.vala:68
+#: src/panel/settings/settings_desktop.vala:73
 msgid "Mounted volumes & drives will appear on the desktop"
 msgstr "Bíonn imleabhair & tiomántáin feistithe le feiceáil ar an deasc"
+
+#: src/panel/settings/settings_style.vala:32
+msgid "Style"
+msgstr "Stíl"
+
+#: src/panel/settings/settings_style.vala:42
+msgid "Widgets"
+msgstr "Giuirléidí"
+
+#: src/panel/settings/settings_style.vala:43
+msgid "Set the appearance of window decorations and controls"
+msgstr "Socraigh cuma mhaisiúcháin is rialtáin fuinneog"
+
+#: src/panel/settings/settings_style.vala:47
+msgid "Icons"
+msgstr "Deilbhíní"
+
+#: src/panel/settings/settings_style.vala:48
+msgid "Set the globally used icon theme"
+msgstr "Socraigh an téama uilíoch deilbhíní"
+
+#: src/panel/settings/settings_style.vala:52
+msgid "Cursors"
+msgstr "Cúrsóirí"
+
+#: src/panel/settings/settings_style.vala:53
+msgid "Set the globally used mouse cursor theme"
+msgstr "Socraigh an téama uilíoch do chúrsóirí luch"
+
+#: src/panel/settings/settings_style.vala:61
+msgid "Dark theme"
+msgstr "Téama dorcha"
+
+#: src/panel/settings/settings_style.vala:65
+msgid "Built-in theme"
+msgstr "Téama ionsuite"
+
+#: src/panel/settings/settings_style.vala:66
+#, fuzzy
+msgid ""
+"When enabled, the desktop component style will override the built-in one"
+msgstr "Sáróidh an téama ionsuite an stíl do na comhpháirteanna deisce"
+
+#: src/panel/settings/settings_style.vala:70
+msgid "Animations"
+msgstr "Beochaintí"
+
+#: src/panel/settings/settings_style.vala:71
+msgid "Control whether windows and controls use animations"
+msgstr "Rialaigh úsáid beochana ar fhuinneoga agus rialtáin"
+
+#: src/panel/settings/settings_autostart.vala:141
+msgid "Untitled"
+msgstr "Gan teideal"
+
+#: src/panel/settings/settings_autostart.vala:148
+msgid "No description"
+msgstr "Gan cur síos"
+
+#: src/panel/settings/settings_autostart.vala:171
+msgid "running"
+msgstr "ag rith"
+
+#: src/panel/settings/settings_autostart.vala:194
+msgid "Applications"
+msgstr "Feidhmchláir"
+
+#: src/panel/settings/settings_autostart.vala:204
+#: src/panel/settings/settings_autostart.vala:377
+msgid "Add"
+msgstr "Cuir leis"
+
+#: src/panel/settings/settings_autostart.vala:371
+#: src/panel/settings/settings_autostart.vala:404
+msgid "Command"
+msgstr "Ordú"
+
+#: src/panel/settings/settings_autostart.vala:387
+msgid "An entry with that title already exists"
+msgstr "Tá iontráil ann cheana leis an teideal sin"
+
+#: src/panel/settings/settings_autostart.vala:390
+msgid "Title"
+msgstr "Teideal"
+
+#: src/panel/settings/settings_autostart.vala:394
+#: src/panel/settings/settings_autostart.vala:408
+msgid "Required"
+msgstr "Riachtanach"
+
+#: src/panel/settings/settings_autostart.vala:397
+msgid "Description"
+msgstr "Cur Síos"
+
+#: src/panel/settings/settings_autostart.vala:401
+msgid "Optional"
+msgstr "Roghnach"
+
+#: src/panel/settings/settings_autostart.vala:465
+msgid "Autostart"
+msgstr "Uath-thosú"
+
+#: src/panel/settings/settings_autostart.vala:483
+#, fuzzy
+msgid "Autostart apps"
+msgstr "Uath-thosú"
+
+#: src/panel/settings/settings_panel_applets.vala:22
+msgid "Configure applet"
+msgstr "Cumraigh feidhmchláirín"
+
+#: src/panel/settings/settings_panel_applets.vala:245
+#: src/panel/settings/settings_applet_chooser.vala:85
+msgid "Add applet"
+msgstr "Cuir feidhmchláirín leis"
+
+#: src/panel/settings/settings_panel_applets.vala:246
+msgid "Choose a new applet to add to this panel"
+msgstr "Roghnaigh feidhmchláirín nua le cur leis an bpainéal seo"
+
+#: src/panel/settings/settings_panel_applets.vala:260
+msgid "No settings available"
+msgstr "Níl socrú ar bith le fáil"
+
+#: src/panel/settings/settings_panel_applets.vala:414
+msgid "Start"
+msgstr "Tús"
+
+#: src/panel/settings/settings_panel_applets.vala:417
+msgid "Center"
+msgstr "Lár"
+
+#: src/panel/settings/settings_panel_applets.vala:420
+msgid "End"
+msgstr "Bun"
+
+#: src/panel/settings/settings_wm.vala:32
+msgid "Windows"
+msgstr "Fuinneoga"
+
+#: src/panel/settings/settings_wm.vala:41
+msgid "Attach modal dialogs to windows"
+msgstr "Ceangail dialóga módúla le fuinneoga"
+
+#: src/panel/settings/settings_wm.vala:42
+msgid ""
+"Modal dialogs will become attached to the parent window and move together "
+"when dragged"
+msgstr ""
+"Ceanglófar dialóga módúla lena máthairfhuinneoga. Bogfaidh siad le chéile "
+"agus iad á tharraingt"
+
+#: src/panel/settings/settings_wm.vala:47
+msgid "Button layout"
+msgstr "Leagan amach Cnaipí"
+
+#: src/panel/settings/settings_wm.vala:48
+msgid "Change the layout of buttons in application titlebars"
+msgstr "Athraigh leagan amach na gcnaipí i mbarraí teidil"
+
+#: src/panel/settings/settings_wm.vala:53
+msgid "Center new windows on screen"
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:54
+msgid "Center newly launched windows on the current screen"
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:59
+msgid "Disable Night Light mode when windows are fullscreen"
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:60
+msgid ""
+"Disables Night Light mode when a window is fullscreen. Re-enables when "
+"leaving fullscreen."
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:65
+msgid "Automatic tiling"
+msgstr "Tíliú uathoibríoch"
+
+#: src/panel/settings/settings_wm.vala:66
+msgid ""
+"Windows will automatically tile when dragged into the top of the screen or "
+"the far corners"
+msgstr ""
+"Tíleofar fuinneoga go huathoibríoch nuair a tharraingíonn tú go barr an "
+"scáileán nó chuig a chúinní iad"
+
+#: src/panel/settings/settings_wm.vala:71
+msgid "Enable window focus change on mouse enter and leave"
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:72
+msgid ""
+"Enables window focus to apply when the mouse enters the window and unfocus "
+"when the mouse leaves the window."
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:78
+msgid "Disable unredirection of windows"
+msgstr "Díchumasaigh neamhatreorú fuinneog (unredirection)"
+
+#: src/panel/settings/settings_wm.vala:79
+msgid ""
+"This option is for advanced users. Use this if you are having graphical or "
+"performance issues with dedicated GPUs"
+msgstr ""
+"Rogha le haghaidh ardúsáideoirí. Bain úsáid as seo má tá fadhbanna grafacha "
+"nó feidhmíochta agat maidir le GPUanna tiomnaithe"
+
+#: src/panel/settings/settings_wm.vala:86
+msgid "Right (standard)"
+msgstr "Deas (caighdeánach)"
+
+#: src/panel/settings/settings_fonts.vala:33
+msgid "Fonts"
+msgstr "Clófhoirne"
+
+#: src/panel/settings/settings_fonts.vala:44
+msgid "Window Titles"
+msgstr "Teidil Fuinneog"
+
+#: src/panel/settings/settings_fonts.vala:45
+msgid "Set the font used in the titlebars of applications"
+msgstr "Socraigh an clófhoireann le húsáid i mbarraí teidil"
+
+#: src/panel/settings/settings_fonts.vala:51
+msgid "Documents"
+msgstr "Cáipéisí"
+
+#: src/panel/settings/settings_fonts.vala:52
+msgid "Set the display font used by for documents"
+msgstr "Socraigh an clófhoireann le húsáid i gcáipéisí"
+
+#: src/panel/settings/settings_fonts.vala:58
+msgid "Interface"
+msgstr "Comhéadan"
+
+#: src/panel/settings/settings_fonts.vala:59
+msgid "Set the primary font used by application controls"
+msgstr "Socraigh an príomhchlófhoireann le húsáid ar rialtáin feidhmchláir"
+
+#: src/panel/settings/settings_fonts.vala:65
+msgid "Monospace"
+msgstr "Cló Aonleithid"
+
+#: src/panel/settings/settings_fonts.vala:66
+msgid "Set the fixed-width font used by text dominant applications"
+msgstr "Socraigh an cló aonleithid le húsáid i bhfeidhmchláir téacs"
+
+#: src/panel/settings/settings_fonts.vala:72
+msgid "Text scaling"
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:73
+msgid "Set the text scaling factor"
+msgstr ""
+
+#: src/panel/settings/settings_applet_chooser.vala:79
+msgid "Choose an applet"
+msgstr "Roghnaigh feidhmchláirín"
 
 #: src/daemon/endsession.ui.h:2
 msgid "Are you sure you want to end your session?"
 msgstr "An bhfuil tú cinnte gur maith leat deireadh a chur le do sheisiún?"
 
-#: src/daemon/tabswitcher.ui.h:1
-msgid " - "
-msgstr " - "
+#: src/applets/icon-tasklist/settings.ui.h:1
+msgid "Show all windows on click"
+msgstr ""
 
-#: src/applets/places-indicator/settings.ui.h:1
-msgid "Show label"
-msgstr "Taispeáin lipéad"
+#: src/applets/icon-tasklist/settings.ui.h:2
+msgid "Only show favorited"
+msgstr ""
 
-#: src/applets/places-indicator/settings.ui.h:2
-msgid "Show places"
-msgstr "Taispeáin áiteanna"
+#: src/applets/icon-tasklist/settings.ui.h:3
+msgid "Lock icons"
+msgstr ""
 
-#: src/applets/places-indicator/settings.ui.h:3
-msgid "Show network folders"
-msgstr "Taispeáin fillteáin líonra"
+#: src/applets/icon-tasklist/settings.ui.h:4
+msgid "Restrict to Workspace"
+msgstr ""
 
-#: src/applets/places-indicator/settings.ui.h:4
-msgid "Show removable drives"
-msgstr "Taispeáin tiomántáin inbhainte"
-
-#: src/applets/places-indicator/settings.ui.h:5
-msgid "Always expand places"
-msgstr "Méadaigh áiteanna i gcónaí"
+#: src/applets/icon-tasklist/settings.ui.h:5
+msgid "Window grouping"
+msgstr ""
 
 #: src/applets/night-light/indicator_window.ui.h:1
 #: src/applets/night-light/NightLight.plugin.in.h:1
@@ -888,6 +1107,10 @@ msgstr "De Láimh"
 msgid "Display Settings"
 msgstr "Socruithe Taispeána"
 
+#: src/applets/spacer/settings.ui.h:1
+msgid "Spacer size"
+msgstr "Méid an Spásaire"
+
 #: src/applets/budgie-menu/settings.ui.h:1
 msgid "Show Menu Label"
 msgstr "Taispeáin Lipéad Roghchláir"
@@ -912,9 +1135,55 @@ msgstr "Roghchlár Mear"
 msgid "Menu Icon"
 msgstr "Deilbhín Roghchláir"
 
-#: src/applets/spacer/settings.ui.h:1
-msgid "Spacer size"
-msgstr "Méid an Spásaire"
+#: src/applets/workspaces/settings.ui.h:1
+msgid "\"Add\" button visibility"
+msgstr ""
+
+#: src/applets/workspaces/settings.ui.h:2
+msgid "Don't show"
+msgstr ""
+
+#: src/applets/workspaces/settings.ui.h:3
+msgid "Show on mouseover"
+msgstr ""
+
+#: src/applets/workspaces/settings.ui.h:4
+#, fuzzy
+msgid "Always show"
+msgstr "I gCónaí"
+
+#: src/applets/caffeine/settings.ui.h:1
+#, fuzzy
+msgid "Enable notification"
+msgstr "Gan fógra nua"
+
+#: src/applets/caffeine/settings.ui.h:2
+msgid "Maximize brightness"
+msgstr ""
+
+#: src/applets/caffeine/settings.ui.h:3
+msgid "Brightness Level"
+msgstr ""
+
+#: src/applets/places-indicator/settings.ui.h:1
+msgid "Show label"
+msgstr "Taispeáin lipéad"
+
+#: src/applets/places-indicator/settings.ui.h:2
+msgid "Show places"
+msgstr "Taispeáin áiteanna"
+
+#: src/applets/places-indicator/settings.ui.h:3
+msgid "Show network folders"
+msgstr "Taispeáin fillteáin líonra"
+
+#: src/applets/places-indicator/settings.ui.h:4
+msgid "Show removable drives"
+msgstr "Taispeáin tiomántáin inbhainte"
+
+#: src/applets/places-indicator/settings.ui.h:5
+msgid "Always expand places"
+msgstr "Méadaigh áiteanna i gcónaí"
 
 #: src/polkit/dialog.ui.h:1
 msgid "Authentication Required"
@@ -932,8 +1201,8 @@ msgstr "Is riachtanach fíordheimhniú"
 msgid "Authenticate"
 msgstr "Fíordheimhnigh"
 
-#: src/session/budgie-desktop.session.in.in.h:1
 #: src/session/budgie-desktop.desktop.in.in.h:1
+#: src/session/budgie-desktop.session.in.in.h:1
 msgid "Budgie Desktop"
 msgstr "Deasc Budgie"
 
@@ -941,61 +1210,70 @@ msgstr "Deasc Budgie"
 msgid "This session logs you into the Budgie Desktop"
 msgstr "Logáil isteach i seisiún le Deasc Budgie"
 
-#: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
-msgid "Keyboard Layout Indicator"
-msgstr "Táscaire do Leagan Amach an Mhéarchláir"
-
-#: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
-msgid "Show Desktop Button"
-msgstr "Cnaipe “Taispeáin Deasc”"
-
-#: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
-msgid "Raven Sidebar Control"
-msgstr "Rialtán don Taobh-bharra Raven"
-
-#: src/applets/icon-tasklist/IconTasklistApplet.plugin.in.h:1
-msgid "Icon Task List"
-msgstr "Tascbharra Deilbhíní"
-
-#: src/applets/user-indicator/UserIndicator.plugin.in.h:1
-msgid "User Indicator"
-msgstr "Táscaire Úsáideora"
-
-#: src/applets/clock/ClockApplet.plugin.in.h:1
-msgid "Clock"
-msgstr "Clog"
-
-#: src/applets/budgie-menu/BudgieMenu.plugin.in.h:1
-msgid "Budgie Menu"
-msgstr "Roghchlár Budgie"
-
 #: src/applets/tray/TrayApplet.plugin.in.h:1
 msgid "System Tray"
 msgstr "Tráidire Córais"
-
-#: src/applets/separator/SeparatorApplet.plugin.in.h:1
-msgid "Separator"
-msgstr "Deighilteoir"
 
 #: src/applets/status/StatusApplet.plugin.in.h:1
 msgid "Status Indicator"
 msgstr "Táscaire Stádais"
 
+#: src/applets/icon-tasklist/IconTasklistApplet.plugin.in.h:1
+msgid "Icon Task List"
+msgstr "Tascbharra Deilbhíní"
+
 #: src/applets/spacer/SpacerApplet.plugin.in.h:1
 msgid "Spacer"
 msgstr "Spásaire"
 
-#: src/applets/tasklist/TasklistApplet.plugin.in.h:1
-msgid "Task List"
-msgstr "Tascbharra"
+#: src/applets/budgie-menu/BudgieMenu.plugin.in.h:1
+msgid "Budgie Menu"
+msgstr "Roghchlár Budgie"
+
+#: src/applets/lock-keys/LockKeysApplet.plugin.in.h:1
+msgid "Lock Keys Indicator"
+msgstr "Táscaire Eochracha Glasála"
+
+#: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
+msgid "Raven Sidebar Control"
+msgstr "Rialtán don Taobh-bharra Raven"
+
+#: src/applets/clock/ClockApplet.plugin.in.h:1
+msgid "Clock"
+msgstr "Clog"
+
+#: src/applets/separator/SeparatorApplet.plugin.in.h:1
+msgid "Separator"
+msgstr "Deighilteoir"
+
+#: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
+msgid "Show Desktop Button"
+msgstr "Cnaipe “Taispeáin Deasc”"
 
 #: src/applets/workspaces/WorkspacesApplet.plugin.in.h:1
 msgid "Workspace Switcher"
 msgstr "Malartóir Spás Oibre"
 
-#: src/applets/lock-keys/LockKeysApplet.plugin.in.h:1
-msgid "Lock Keys Indicator"
-msgstr "Táscaire Eochracha Glasála"
+#: src/applets/tasklist/TasklistApplet.plugin.in.h:1
+msgid "Task List"
+msgstr "Tascbharra"
+
+#: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
+msgid "Caffeine"
+msgstr ""
+
+#: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
+msgid "Keyboard Layout Indicator"
+msgstr "Táscaire do Leagan Amach an Mhéarchláir"
+
+#: src/applets/user-indicator/UserIndicator.plugin.in.h:1
+msgid "User Indicator"
+msgstr "Táscaire Úsáideora"
+
+#: src/panel/budgie-desktop-settings.desktop.in.h:2
+#, fuzzy
+msgid "Change desktop appearance and behavior"
+msgstr "Athraigh iompraíocht agus cuma na deisce"
 
 #: src/panel/budgie-panel.desktop.in.h:1
 msgid "Budgie Panel"
@@ -1005,12 +1283,24 @@ msgstr "Painéal Budgie"
 msgid ""
 "Launch other applications and provide various utilities to manage windows, "
 "show the time, etc."
-msgstr "Lainseáil feidhmchláir agus cuir áirgí ar fáil chun fuinneoga a bhainistiú, an t-am a thaispeáint, srl."
+msgstr ""
+"Lainseáil feidhmchláir agus cuir áirgí ar fáil chun fuinneoga a bhainistiú, "
+"an t-am a thaispeáint, srl."
 
-#: src/panel/budgie-desktop-settings.desktop.in.h:1
-msgid "Budgie Desktop Settings"
-msgstr "Socruithe Deasc Budgie"
+#~ msgid "Output"
+#~ msgstr "Aschur"
 
-#: src/panel/budgie-desktop-settings.desktop.in.h:2
-msgid "Change desktop appearance and behaviour"
-msgstr "Athraigh iompraíocht agus cuma na deisce"
+#~ msgid "Input"
+#~ msgstr "Ionchur"
+
+#~ msgid "Pin to panel"
+#~ msgstr "Pionnáil leis an bpainéal"
+
+#~ msgid "Unpin from panel"
+#~ msgstr "Díphionnáil den phainéal"
+
+#~ msgid "Budgie Settings"
+#~ msgstr "Socruithe Budgie"
+
+#~ msgid " - "
+#~ msgstr " - "
