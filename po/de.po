@@ -25,9 +25,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2019-01-15 17:47+0000\n"
+"PO-Revision-Date: 2019-01-16 09:46+0000\n"
 "Last-Translator: Girtablulu <flinux@vongellhorn.ch>\n"
-"Language-Team: German <http://translate.getsol.us/projects/budgie-desktop/translations/de/>\n"
+"Language-Team: German <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -63,11 +64,11 @@ msgstr "Einstellungen"
 #. Should show a notification
 #: src/daemon/settings.vala:277
 msgid "Turned on Caffeine Boost"
-msgstr ""
+msgstr "Caffeine-Boost aktiviert"
 
 #: src/daemon/settings.vala:277
 msgid "Turned off Caffeine Boost"
-msgstr ""
+msgstr "Caffeine Boost deaktiviert"
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
@@ -99,7 +100,7 @@ msgstr "Benachrichtigungen"
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
-msgstr ""
+msgstr "Derzeit spielen keine Anwendungen Audio."
 
 #: src/raven/start_listening.vala:24
 msgid "Play some music"
@@ -241,9 +242,8 @@ msgid "Unmaximize"
 msgstr ""
 
 #: src/applets/icon-tasklist/IconPopover.vala:532
-#, fuzzy
 msgid "Close Window"
-msgstr "Fenster"
+msgstr "Fenster schliessen"
 
 #: src/applets/icon-tasklist/IconPopover.vala:534
 #, fuzzy
@@ -1117,14 +1117,12 @@ msgid "Show on mouseover"
 msgstr ""
 
 #: src/applets/workspaces/settings.ui.h:4
-#, fuzzy
 msgid "Always show"
-msgstr "Immer"
+msgstr "Immer anzeigen"
 
 #: src/applets/caffeine/settings.ui.h:1
-#, fuzzy
 msgid "Enable notification"
-msgstr "Keine neuen Benachrichtigungen"
+msgstr "Benachrichtigungen aktivieren"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
@@ -1240,7 +1238,6 @@ msgid "User Indicator"
 msgstr "Benutzeranzeige"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
-#, fuzzy
 msgid "Change desktop appearance and behavior"
 msgstr "Aussehen und Verhalten des Desktops anpassen"
 
