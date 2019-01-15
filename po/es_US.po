@@ -113,6 +113,11 @@ msgstr "Volúmenes locales"
 msgid "Network folders"
 msgstr "Carpetas en red"
 
+#: src/applets/places-indicator/MountItem.vala:34
+#: src/applets/places-indicator/VolumeItem.vala:36
+msgid "Other"
+msgstr "Otro"
+
 #: src/applets/places-indicator/MountItem.vala:60
 #: src/applets/places-indicator/VolumeItem.vala:57
 msgid "Eject"
@@ -127,6 +132,18 @@ msgstr "Desmontar"
 msgid "You can now safely remove"
 msgstr "Ahora puede remover de forma segura"
 
+#: src/applets/places-indicator/MountItem.vala:79
+msgid "Unknown Device"
+msgstr "Dispositivo desconocido"
+
+#: src/applets/places-indicator/MountItem.vala:88
+msgid "Error while ejecting device"
+msgstr "Error al expulsar el dispositivo"
+
+#: src/applets/places-indicator/MountItem.vala:105
+msgid "Error while unmounting volume"
+msgstr "Error al desmontar el volumen"
+
 #: src/applets/places-indicator/PlacesIndicator.vala:85
 #: src/applets/places-indicator/PlacesSection.vala:24
 #: src/applets/places-indicator/PlacesSection.vala:46
@@ -138,6 +155,31 @@ msgstr "Lugares"
 #, c-format
 msgid "Mount and open \"%s\""
 msgstr ""
+
+#: src/applets/places-indicator/VolumeItem.vala:76
+#: src/applets/places-indicator/VolumeItem.vala:121
+msgid "Enter the encryption passphrase to unlock this volume"
+msgstr ""
+
+#: src/applets/places-indicator/VolumeItem.vala:119
+msgid "The password you entered is incorrect"
+msgstr "La contraseña que ingresó es incorrecta"
+
+#: src/applets/places-indicator/VolumeItem.vala:123
+msgid "An unknown error occurred while attempting to mount this volume"
+msgstr ""
+
+#: src/applets/places-indicator/MountHelper.vala:39
+msgid "Volume is in use by other processes"
+msgstr "El volumen está siendo usado por otros procesos"
+
+#: src/applets/places-indicator/MountHelper.vala:45
+msgid "Operation aborted"
+msgstr "Operación abortada"
+
+#: src/applets/places-indicator/MountHelper.vala:57
+msgid "Type your password"
+msgstr "Escriba su contraseña"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:181
 msgid "Nothing to display right now"
@@ -195,10 +237,40 @@ msgstr "Ajustes de tiempo y fecha"
 msgid "Calendar"
 msgstr "Calendario"
 
+#. pack page2
+#: src/applets/clock/ClockApplet.vala:156
+#: src/applets/clock/ClockApplet.vala:187
+msgid "Preferences"
+msgstr "Preferencias"
+
+#: src/applets/clock/ClockApplet.vala:166
+msgid "Show date"
+msgstr "Mostrar fechas"
+
+#: src/applets/clock/ClockApplet.vala:171
+msgid "Show seconds"
+msgstr "Mostrar segundos"
+
+#: src/applets/clock/ClockApplet.vala:177
+msgid "Use 24 hour time"
+msgstr "Usar el formato de 24 horas"
+
 #. Special case, "All"
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:43
 msgid "All"
 msgstr "Todo"
+
+#: src/applets/budgie-menu/IconChooser.vala:27
+msgid "Set menu icon from file"
+msgstr ""
+
+#: src/applets/budgie-menu/IconChooser.vala:37
+msgid "Image files"
+msgstr ""
+
+#: src/applets/budgie-menu/IconChooser.vala:43
+msgid "Any file"
+msgstr "Cualquier archivo"
 
 #: src/applets/budgie-menu/IconChooser.vala:55
 #: src/panel/settings/settings_applet_chooser.vala:84
@@ -207,6 +279,10 @@ msgstr "Todo"
 #: src/polkit/dialog.ui.h:4
 msgid "Cancel"
 msgstr "Cancelar"
+
+#: src/applets/budgie-menu/IconChooser.vala:56
+msgid "Set icon"
+msgstr ""
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
@@ -225,9 +301,17 @@ msgstr "Batería cargando"
 msgid "Battery remaining"
 msgstr "Batería restante"
 
+#: src/applets/status/PowerIndicator.vala:174
+msgid "Show battery percentage"
+msgstr "Mostrar porcentaje de batería"
+
 #: src/applets/status/PowerIndicator.vala:183
 msgid "Power settings"
 msgstr "Ajustes de energía"
+
+#: src/applets/status/SoundIndicator.vala:120
+msgid "Sound settings"
+msgstr "Ajustes de Sonido"
 
 #: src/applets/status/BluetoothIndicator.vala:105
 msgid "Bluetooth is disabled"
@@ -259,6 +343,14 @@ msgstr "Mandar archivos"
 msgid "Bluetooth Airplane Mode"
 msgstr ""
 
+#: src/applets/workspaces/WorkspaceItem.vala:72
+msgid "Rename"
+msgstr "Renombrar"
+
+#: src/applets/workspaces/WorkspaceItem.vala:79
+msgid "Remove"
+msgstr "Remover"
+
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
 msgstr ""
@@ -275,14 +367,62 @@ msgstr ""
 msgid "Num lock is not active"
 msgstr ""
 
+#: src/polkit/polkitdialog.vala:131
+msgid "Authentication failed"
+msgstr ""
+
+#: src/polkit/polkitdialog.vala:230
+msgid "Group:"
+msgstr "Grupo:"
+
 #: src/panel/settings/settings_main.vala:41
 msgid "Appearance"
 msgstr "Apariencia"
+
+#: src/panel/settings/settings_main.vala:42
+msgid "Panels"
+msgstr "Páneles"
+
+#: src/panel/settings/settings_main.vala:43
+msgid "Session"
+msgstr "Sesión"
 
 #. Have to override wmclass for pinning support
 #: src/panel/settings/settings_main.vala:51
 msgid "Budgie Settings"
 msgstr "Ajustes de Budgie"
+
+#: src/panel/settings/settings_main.vala:83
+msgid "Create new panel"
+msgstr "Crear nuevo panel"
+
+#: src/panel/settings/settings_style.vala:34
+msgid "Style"
+msgstr "Estilo"
+
+#: src/panel/settings/settings_style.vala:44
+msgid "Widgets"
+msgstr "Widgets"
+
+#: src/panel/settings/settings_style.vala:45
+msgid "Set the appearance of window decorations and controls"
+msgstr ""
+
+#: src/panel/settings/settings_style.vala:49
+msgid "Icons"
+msgstr "Íconos"
+
+#: src/panel/settings/settings_style.vala:50
+msgid "Set the globally used icon theme"
+msgstr ""
+
+#: src/panel/settings/settings_style.vala:54
+msgid "Cursors"
+msgstr "Cursores"
+
+#: src/panel/settings/settings_style.vala:55
+msgid "Set the globally used mouse cursor theme"
+msgstr ""
 
 #: src/panel/settings/settings_style.vala:63
 msgid "Dark theme"
@@ -290,6 +430,80 @@ msgstr "Tema obscuro"
 
 #: src/panel/settings/settings_style.vala:67
 msgid "Built-in theme"
+msgstr ""
+
+#: src/panel/settings/settings_style.vala:68
+msgid ""
+"When enabled, the desktop component style will be overriden with the built-"
+"in one"
+msgstr ""
+
+#: src/panel/settings/settings_style.vala:72
+msgid "Animations"
+msgstr "Animaciones"
+
+#: src/panel/settings/settings_style.vala:73
+msgid "Control whether windows and controls use animations"
+msgstr ""
+
+#: src/panel/settings/settings_applet_chooser.vala:79
+msgid "Choose an applet"
+msgstr "Elegir un applet"
+
+#: src/panel/settings/settings_applet_chooser.vala:85
+#: src/panel/settings/settings_panel_applets.vala:245
+msgid "Add applet"
+msgstr "Añadir applet"
+
+#: src/panel/settings/settings_autostart.vala:140
+msgid "Untitled"
+msgstr ""
+
+#: src/panel/settings/settings_autostart.vala:147
+msgid "No description"
+msgstr "Sin descripción"
+
+#: src/panel/settings/settings_autostart.vala:170
+msgid "running"
+msgstr ""
+
+#: src/panel/settings/settings_autostart.vala:193
+msgid "Applications"
+msgstr "Aplicaciones"
+
+#: src/panel/settings/settings_autostart.vala:203
+#: src/panel/settings/settings_autostart.vala:366
+msgid "Add"
+msgstr "Agregar"
+
+#: src/panel/settings/settings_autostart.vala:360
+#: src/panel/settings/settings_autostart.vala:393
+msgid "Command"
+msgstr "Comando"
+
+#: src/panel/settings/settings_autostart.vala:376
+msgid "An entry with that title already exists"
+msgstr ""
+
+#: src/panel/settings/settings_autostart.vala:379
+msgid "Title"
+msgstr "Título"
+
+#: src/panel/settings/settings_autostart.vala:383
+#: src/panel/settings/settings_autostart.vala:397
+msgid "Required"
+msgstr "Requerido"
+
+#: src/panel/settings/settings_autostart.vala:386
+msgid "Description"
+msgstr "Descripción"
+
+#: src/panel/settings/settings_autostart.vala:390
+msgid "Optional"
+msgstr "Opcional"
+
+#: src/panel/settings/settings_autostart.vala:454
+msgid "Autostart"
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:29
@@ -300,6 +514,49 @@ msgstr "Ventanas"
 msgid "Button layout"
 msgstr ""
 
+#: src/panel/settings/settings_wm.vala:39
+msgid "Change the layout of buttons in application titlebars"
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:45
+msgid "Right (standard)"
+msgstr "Derecha (estándar) "
+
+#: src/panel/settings/settings_wm.vala:47
+#: src/panel/settings/settings_panel.vala:180
+msgid "Left"
+msgstr "Izquierda"
+
+#: src/panel/settings/settings_wm.vala:59
+msgid "Attach modal dialogs to windows"
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:60
+msgid ""
+"Modal dialogs will become attached to the parent window and move together "
+"when dragged"
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:64
+msgid "Automatic tiling"
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:65
+msgid ""
+"Windows will automatically tile when dragged into the top of the screen or "
+"the far corners"
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:70
+msgid "Disable unredirection of windows"
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:71
+msgid ""
+"This option is for advanced users. Use this if you are having graphical or "
+"performance issues with dedicated GPUs"
+msgstr ""
+
 #: src/panel/settings/settings_fonts.vala:32
 msgid "Fonts"
 msgstr "Fuentes"
@@ -308,17 +565,91 @@ msgstr "Fuentes"
 msgid "Window Titles"
 msgstr ""
 
+#: src/panel/settings/settings_fonts.vala:44
+msgid "Set the font used in the titlebars of applications"
+msgstr ""
+
 #: src/panel/settings/settings_fonts.vala:50
 msgid "Documents"
 msgstr "Documentos"
+
+#: src/panel/settings/settings_fonts.vala:51
+msgid "Set the display font used by for documents"
+msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:57
 msgid "Interface"
 msgstr "Interface"
 
+#: src/panel/settings/settings_fonts.vala:58
+msgid "Set the primary font used by application controls"
+msgstr ""
+
 #: src/panel/settings/settings_fonts.vala:64
 msgid "Monospace"
 msgstr "Monoespaciado"
+
+#: src/panel/settings/settings_fonts.vala:65
+msgid "Set the fixed-width font used by text dominant applications"
+msgstr ""
+
+#: src/panel/settings/settings_panel_dialogs.vala:29
+msgid "Confirm panel removal"
+msgstr ""
+
+#: src/panel/settings/settings_panel_dialogs.vala:36
+msgid "Do you really want to remove this panel? This action cannot be undone."
+msgstr ""
+
+#: src/panel/settings/settings_panel_dialogs.vala:51
+#: src/panel/settings/settings_panel_dialogs.vala:114
+msgid "Don't ask me again"
+msgstr "No preguntarme de nuevo"
+
+#: src/panel/settings/settings_panel_dialogs.vala:60
+msgid "Remove panel"
+msgstr "Remover panel"
+
+#: src/panel/settings/settings_panel_dialogs.vala:61
+msgid "Keep panel"
+msgstr "Conservar el panel"
+
+#: src/panel/settings/settings_panel_dialogs.vala:92
+msgid "Confirm applet removal"
+msgstr ""
+
+#: src/panel/settings/settings_panel_dialogs.vala:99
+msgid ""
+"Do you really want to remove this applet? This action cannot be undone."
+msgstr "¿Está seguro de que quiere remover este applet? Esta acción no puede ser deshecha"
+
+#: src/panel/settings/settings_panel_dialogs.vala:123
+msgid "Remove applet"
+msgstr "Remover applet"
+
+#: src/panel/settings/settings_panel_dialogs.vala:124
+msgid "Keep applet"
+msgstr "Conservar applet"
+
+#: src/panel/settings/settings_panel.vala:80
+msgid "Remove this panel from the screen"
+msgstr ""
+
+#: src/panel/settings/settings_panel.vala:120
+msgid "Top Dock"
+msgstr ""
+
+#: src/panel/settings/settings_panel.vala:122
+msgid "Right Dock"
+msgstr ""
+
+#: src/panel/settings/settings_panel.vala:124
+msgid "Left Dock"
+msgstr ""
+
+#: src/panel/settings/settings_panel.vala:126
+msgid "Bottom Dock"
+msgstr ""
 
 #: src/panel/settings/settings_panel.vala:131
 msgid "Top Panel"
@@ -340,24 +671,108 @@ msgstr ""
 msgid "Top"
 msgstr "Superior"
 
+#: src/panel/settings/settings_panel.vala:178
+msgid "Right"
+msgstr "Derecho"
+
 #: src/panel/settings/settings_panel.vala:182
 msgid "Bottom"
 msgstr "Inferior"
+
+#: src/panel/settings/settings_panel.vala:193
+msgid "Always"
+msgstr "Siempre"
+
+#: src/panel/settings/settings_panel.vala:195
+msgid "Dynamic"
+msgstr "Dinámico"
+
+#: src/panel/settings/settings_panel.vala:198
+msgid "None"
+msgstr "Ninguna"
+
+#: src/panel/settings/settings_panel.vala:209
+msgid "Automatic"
+msgstr "Automático"
+
+#: src/panel/settings/settings_panel.vala:211
+msgid "Intelligent"
+msgstr "Inteligente"
+
+#: src/panel/settings/settings_panel.vala:214
+msgid "Never"
+msgstr "Nunca"
 
 #: src/panel/settings/settings_panel.vala:230
 msgid "Position"
 msgstr "Posición"
 
+#: src/panel/settings/settings_panel.vala:231
+msgid "Set the edge of the screen that this panel will stay on"
+msgstr ""
+
 #: src/panel/settings/settings_panel.vala:239
 msgid "Size"
 msgstr "Tamaño"
+
+#: src/panel/settings/settings_panel.vala:240
+msgid "Set the size (width or height, depending on orientation) of this panel"
+msgstr ""
+
+#: src/panel/settings/settings_panel.vala:247
+msgid "Automatically hide"
+msgstr "Esconder automáticamente"
+
+#: src/panel/settings/settings_panel.vala:248
+msgid "When set, this panel will hide from view to maximize screen estate"
+msgstr ""
+
+#: src/panel/settings/settings_panel.vala:255
+msgid "Transparency"
+msgstr "Transparencia"
+
+#: src/panel/settings/settings_panel.vala:256
+msgid "Control when this panel should have a solid background"
+msgstr "Controlar cuando este panel debe tener un fondo sólido"
 
 #: src/panel/settings/settings_panel.vala:261
 msgid "Shadow"
 msgstr "Sombra"
 
+#: src/panel/settings/settings_panel.vala:262
+msgid "Adds a decorative drop-shadow, ideal for opaque panels"
+msgstr ""
+
 #: src/panel/settings/settings_panel.vala:268
 msgid "Stylize regions"
+msgstr ""
+
+#: src/panel/settings/settings_panel.vala:269
+msgid ""
+"Adds a hint to the panel so that each of the panel's three main areas may be"
+" themed differently."
+msgstr ""
+
+#: src/panel/settings/settings_panel.vala:276
+msgid "Dock mode"
+msgstr ""
+
+#: src/panel/settings/settings_panel.vala:277
+msgid ""
+"When in dock mode, the panel will use the minimal amount of space possible, "
+"freeing up valuable screen estate"
+msgstr ""
+
+#: src/panel/settings/settings_panel_applets.vala:22
+msgid "Configure applet"
+msgstr "Configurar applet"
+
+#: src/panel/settings/settings_panel_applets.vala:246
+msgid "Choose a new applet to add to this panel"
+msgstr "Elige un nuevo applet para añadir a este panel"
+
+#: src/panel/settings/settings_panel_applets.vala:260
+msgid "No settings available"
 msgstr ""
 
 #: src/panel/settings/settings_panel_applets.vala:415
@@ -372,13 +787,57 @@ msgstr "Centro"
 msgid "End"
 msgstr "Final"
 
+#: src/panel/settings/settings_desktop.vala:33
+msgid "Desktop"
+msgstr "Escritorio"
+
 #: src/panel/settings/settings_desktop.vala:43
 msgid "Desktop Icons"
 msgstr "Íconos del escritorio"
 
+#: src/panel/settings/settings_desktop.vala:44
+msgid "Control whether to allow launchers and icons on the desktop"
+msgstr ""
+
+#: src/panel/settings/settings_desktop.vala:49
+msgid "Home directory"
+msgstr ""
+
+#: src/panel/settings/settings_desktop.vala:50
+msgid "Add a shortcut to your home directory on the desktop"
+msgstr ""
+
+#: src/panel/settings/settings_desktop.vala:55
+msgid "Network servers"
+msgstr ""
+
+#: src/panel/settings/settings_desktop.vala:56
+msgid "Add a shortcut to your local network servers on the desktop"
+msgstr ""
+
+#: src/panel/settings/settings_desktop.vala:61
+msgid "Trash"
+msgstr "Basura"
+
+#: src/panel/settings/settings_desktop.vala:62
+msgid "Add a shortcut to the Trash directory on the desktop"
+msgstr ""
+
+#: src/panel/settings/settings_desktop.vala:67
+msgid "Mounted volumes"
+msgstr ""
+
+#: src/panel/settings/settings_desktop.vala:68
+msgid "Mounted volumes & drives will appear on the desktop"
+msgstr ""
+
 #: src/daemon/endsession.ui.h:2
 msgid "Are you sure you want to end your session?"
 msgstr ""
+
+#: src/daemon/tabswitcher.ui.h:1
+msgid " - "
+msgstr " - "
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
@@ -396,8 +855,77 @@ msgstr ""
 msgid "Show removable drives"
 msgstr ""
 
+#: src/applets/places-indicator/settings.ui.h:5
+msgid "Always expand places"
+msgstr ""
+
+#: src/applets/night-light/indicator_window.ui.h:1
+#: src/applets/night-light/NightLight.plugin.in.h:1
+msgid "Night Light"
+msgstr "Luz Nocturna"
+
+#: src/applets/night-light/indicator_window.ui.h:2
+msgid "Temperature"
+msgstr "Temperatura"
+
+#: src/applets/night-light/indicator_window.ui.h:3
+msgid "Schedule"
+msgstr ""
+
+#: src/applets/night-light/indicator_window.ui.h:4
+msgid "Sunset to Sunrise"
+msgstr "Amanecer al Atardecer"
+
+#: src/applets/night-light/indicator_window.ui.h:5
+msgid "Manual"
+msgstr "Manual"
+
+#: src/applets/night-light/indicator_window.ui.h:6
+msgid "Display Settings"
+msgstr ""
+
+#: src/applets/budgie-menu/settings.ui.h:1
+msgid "Show Menu Label"
+msgstr ""
+
+#: src/applets/budgie-menu/settings.ui.h:2
+msgid "Compact Mode"
+msgstr ""
+
+#: src/applets/budgie-menu/settings.ui.h:3
+msgid "Show Headers"
+msgstr "Mostrar encabezados"
+
+#: src/applets/budgie-menu/settings.ui.h:4
+msgid "Menu Label"
+msgstr ""
+
+#: src/applets/budgie-menu/settings.ui.h:5
+msgid "Roll-over mouse"
+msgstr ""
+
+#: src/applets/budgie-menu/settings.ui.h:6
+msgid "Menu Icon"
+msgstr ""
+
 #: src/applets/spacer/settings.ui.h:1
 msgid "Spacer size"
+msgstr ""
+
+#: src/polkit/dialog.ui.h:1
+msgid "Authentication Required"
+msgstr "Autentificación requerida"
+
+#: src/polkit/dialog.ui.h:2
+msgid "Password:"
+msgstr "Contraseña:"
+
+#: src/polkit/dialog.ui.h:3
+msgid "Authentication is required"
+msgstr ""
+
+#: src/polkit/dialog.ui.h:5
+msgid "Authenticate"
 msgstr ""
 
 #: src/session/budgie-desktop.session.in.in.h:1
@@ -409,13 +937,25 @@ msgstr ""
 msgid "This session logs you into the Budgie Desktop"
 msgstr ""
 
+#: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
+msgid "Keyboard Layout Indicator"
+msgstr ""
+
 #: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
 msgid "Show Desktop Button"
 msgstr "Mostrar el botón del escritorio"
 
+#: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
+msgid "Raven Sidebar Control"
+msgstr "Control de la barra lateral Raven"
+
 #: src/applets/icon-tasklist/IconTasklistApplet.plugin.in.h:1
 msgid "Icon Task List"
 msgstr ""
+
+#: src/applets/user-indicator/UserIndicator.plugin.in.h:1
+msgid "User Indicator"
+msgstr "Indicador de usuario"
 
 #: src/applets/clock/ClockApplet.plugin.in.h:1
 msgid "Clock"
@@ -452,3 +992,21 @@ msgstr ""
 #: src/applets/lock-keys/LockKeysApplet.plugin.in.h:1
 msgid "Lock Keys Indicator"
 msgstr ""
+
+#: src/panel/budgie-panel.desktop.in.h:1
+msgid "Budgie Panel"
+msgstr "Panel de Budgie"
+
+#: src/panel/budgie-panel.desktop.in.h:2
+msgid ""
+"Launch other applications and provide various utilities to manage windows, "
+"show the time, etc."
+msgstr "Ejecuta otras aplicaciones y provee diversas herramientas para administrat ventanas, mostrar el tiempo, etc."
+
+#: src/panel/budgie-desktop-settings.desktop.in.h:1
+msgid "Budgie Desktop Settings"
+msgstr "Configuración del entorno de escritorio Budgie"
+
+#: src/panel/budgie-desktop-settings.desktop.in.h:2
+msgid "Change desktop appearance and behaviour"
+msgstr "Cambiar la apariencia y el comportamiento del escritorio"
