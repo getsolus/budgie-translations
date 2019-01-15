@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-20 12:33+0100\n"
-"PO-Revision-Date: 2019-01-15 10:48+0000\n"
+"PO-Revision-Date: 2019-01-15 10:59+0000\n"
 "Last-Translator: Anton Pletten <an1000kg@gmail.com>\n"
 "Language-Team: Norwegian Nynorsk <http://translate.getsol.us/projects/"
 "budgie-desktop/main/nn/>\n"
@@ -561,7 +561,7 @@ msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:32
 msgid "Fonts"
-msgstr "Skrifttypar"
+msgstr "Fontar"
 
 #: src/panel/settings/settings_fonts.vala:43
 msgid "Window Titles"
