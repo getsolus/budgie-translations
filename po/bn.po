@@ -1,18 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the budgie-desktop package.
-# 
+#
 # Translators:
 # sadat daniel <sadatdaniel@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-20 12:33+0100\n"
+"POT-Creation-Date: 2019-01-15 16:29+0200\n"
 "PO-Revision-Date: 2019-01-15 10:59+0000\n"
 "Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
-"Language-Team: Bengali <http://translate.getsol.us/projects/budgie-desktop/"
-"main/bn/>\n"
+"Language-Team: Bengali <http://translate.getsol.us/projects/budgie-desktop/main/bn/>\n"
 "Language: bn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,56 +19,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Weblate 3.4-dev\n"
 
-#: src/raven/notifications_view.vala:79
-msgid "Nothing to see here"
-msgstr "এখানে দেখার মতো কিছু নেই"
-
-#: src/raven/notifications_view.vala:582
-#: src/applets/notifications/NotificationsApplet.vala:75
-#, c-format
-msgid "%u unread notifications"
-msgstr ""
-
-#: src/raven/notifications_view.vala:584
-#: src/applets/notifications/NotificationsApplet.vala:77
-msgid "1 unread notification"
-msgstr ""
-
-#: src/raven/notifications_view.vala:586
-#: src/applets/notifications/NotificationsApplet.vala:79
-msgid "No unread notifications"
-msgstr ""
-
-#: src/raven/notifications_view.vala:710
-msgid "No new notifications"
-msgstr "কোনো নতুন নোটিফিকেশন নেই "
-
-#: src/raven/sound.vala:78
-msgid "Output"
-msgstr "আউটপুট "
-
-#: src/raven/sound.vala:95
-msgid "Input"
-msgstr "ইনপুট "
-
-#: src/raven/main_view.vala:55 src/panel/settings/settings_panel.vala:96
-msgid "Applets"
-msgstr "অ্যাপলেটস "
-
-#: src/raven/main_view.vala:58
-#: src/applets/notifications/NotificationsApplet.plugin.in.h:1
-msgid "Notifications"
-msgstr "নোটিফিকেশনস "
-
-#: src/daemon/endsession.vala:172
+#: src/daemon/endsession.vala:171
 msgid "Log out"
 msgstr "লগ আউট "
 
-#: src/daemon/endsession.vala:176
+#: src/daemon/endsession.vala:175
 msgid "Restart device"
 msgstr "ডিভাইস রিস্টার্ট"
 
-#: src/daemon/endsession.vala:188 src/daemon/endsession.ui.h:1
+#: src/daemon/endsession.vala:187 src/daemon/endsession.ui.h:1
 msgid "Power Off"
 msgstr "পাওয়ার অফ"
 
@@ -77,122 +35,294 @@ msgstr "পাওয়ার অফ"
 msgid "Change background"
 msgstr "ব্যাকগ্রাউন্ড পরিবর্তন "
 
-#: src/daemon/menus.vala:61 src/panel/settings/settings_panel.vala:97
+#: src/daemon/menus.vala:57
+#, fuzzy
+msgid "Displays"
+msgstr "ডিসপ্লে সেটিংস "
+
+#: src/daemon/menus.vala:66 src/panel/settings/settings_panel.vala:97
 msgid "Settings"
 msgstr "সেটিংস "
 
-#: src/applets/show-desktop/ShowDesktopApplet.vala:33
+#. Should show a notification
+#: src/daemon/settings.vala:277
+msgid "Turned on Caffeine Boost"
+msgstr ""
+
+#: src/daemon/settings.vala:277
+msgid "Turned off Caffeine Boost"
+msgstr ""
+
+#. Get our timer number
+#. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
+#: src/daemon/settings.vala:284
+#, c-format
+msgid "a minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/daemon/settings.vala:285
+msgid "Will turn off in"
+msgstr ""
+
+#. Caffeine Notification
+#: src/raven/notifications_group.vala:44
+#: src/applets/caffeine/CaffeineWindow.vala:25
+msgid "Caffeine Mode"
+msgstr ""
+
+#: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
+msgid "Applets"
+msgstr "অ্যাপলেটস "
+
+#: src/raven/main_view.vala:66
+#: src/applets/notifications/NotificationsApplet.plugin.in.h:1
+msgid "Notifications"
+msgstr "নোটিফিকেশনস "
+
+#: src/raven/start_listening.vala:20
+msgid "No apps are currently playing audio."
+msgstr ""
+
+#: src/raven/start_listening.vala:24
+msgid "Play some music"
+msgstr ""
+
+#: src/raven/notifications_view.vala:99
+msgid "Nothing to see here"
+msgstr "এখানে দেখার মতো কিছু নেই"
+
+#: src/raven/notifications_view.vala:667
+#: src/applets/notifications/NotificationsApplet.vala:109
+#, c-format
+msgid "%u unread notifications"
+msgstr ""
+
+#: src/raven/notifications_view.vala:669
+#: src/applets/notifications/NotificationsApplet.vala:111
+msgid "1 unread notification"
+msgstr ""
+
+#: src/raven/notifications_view.vala:671
+#: src/applets/notifications/NotificationsApplet.vala:113
+msgid "No unread notifications"
+msgstr ""
+
+#: src/raven/notifications_view.vala:846
+msgid "No new notifications"
+msgstr "কোনো নতুন নোটিফিকেশন নেই "
+
+#. 125ms
+#: src/raven/sound.vala:151
+msgid "Apps"
+msgstr ""
+
+#: src/raven/sound.vala:152
+msgid "Devices"
+msgstr ""
+
+#: src/applets/status/PowerIndicator.vala:97
+msgid "Battery fully charged."
+msgstr "ব্যাটারি পুরোপুরি চার্জ হয়েছে "
+
+#: src/applets/status/PowerIndicator.vala:100
+msgid "Unknown"
+msgstr ""
+
+#. Set inner charging duration to hours:minutes
+#: src/applets/status/PowerIndicator.vala:109
+msgid "Battery charging"
+msgstr "ব্যাটারি চার্জ হচ্ছে "
+
+#: src/applets/status/PowerIndicator.vala:114
+msgid "Battery remaining"
+msgstr ""
+
+#: src/applets/status/PowerIndicator.vala:168
+msgid "Show battery percentage"
+msgstr ""
+
+#: src/applets/status/PowerIndicator.vala:176
+msgid "Power settings"
+msgstr "পাওয়ার সেটিংস"
+
+#. Settings button
+#: src/applets/status/BluetoothIndicator.vala:56
+msgid "Bluetooth Settings"
+msgstr "ব্লুটুথ সেটিংস "
+
+#. Send files button
+#: src/applets/status/BluetoothIndicator.vala:63
+msgid "Send Files"
+msgstr "ফাইল পাঠান "
+
+#. Airplane mode
+#: src/applets/status/BluetoothIndicator.vala:73
+msgid "Bluetooth Airplane Mode"
+msgstr ""
+
+#: src/applets/status/BluetoothIndicator.vala:179
+msgid "Bluetooth is disabled"
+msgstr ""
+
+#: src/applets/status/BluetoothIndicator.vala:183
+msgid "Bluetooth is active"
+msgstr ""
+
+#: src/applets/status/BluetoothIndicator.vala:188
+#, c-format
+msgid "Connected to %d device"
+msgid_plural "Connected to %d devices"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/applets/status/SoundIndicator.vala:146
+msgid "Sound settings"
+msgstr "সাউন্ড সেটিংস "
+
+#: src/applets/icon-tasklist/IconPopover.vala:92
+msgid "Launch New Instance"
+msgstr ""
+
+#: src/applets/icon-tasklist/IconPopover.vala:95
+msgid "Close All Windows"
+msgstr ""
+
+#: src/applets/icon-tasklist/IconPopover.vala:103
+#, fuzzy
+msgid "Always On Top"
+msgstr "সবসময় "
+
+#: src/applets/icon-tasklist/IconPopover.vala:105
+#: src/applets/icon-tasklist/IconPopover.vala:473
+msgid "Maximize"
+msgstr ""
+
+#: src/applets/icon-tasklist/IconPopover.vala:106
+msgid "Minimize"
+msgstr ""
+
+#: src/applets/icon-tasklist/IconPopover.vala:361
+msgid "Unfavorite"
+msgstr ""
+
+#: src/applets/icon-tasklist/IconPopover.vala:361
+msgid "Favorite"
+msgstr ""
+
+#. If our current amount of workspaces is different than how many we have added
+#. We have items to add
+#. For workspaces we need to add
+#: src/applets/icon-tasklist/IconPopover.vala:373
+#, c-format
+msgid "Move To Workspace %i"
+msgstr ""
+
+#. Update our always on top button
+#: src/applets/icon-tasklist/IconPopover.vala:473
+msgid "Unmaximize"
+msgstr ""
+
+#: src/applets/icon-tasklist/IconPopover.vala:532
+msgid "Close Window"
+msgstr ""
+
+#: src/applets/icon-tasklist/IconPopover.vala:534
+#, fuzzy
+msgid "Show Window Controls"
+msgstr "নেটওয়ার্ক ফোল্ডার গুলো দেখুন "
+
+#: src/applets/budgie-menu/IconChooser.vala:27
+msgid "Set menu icon from file"
+msgstr ""
+
+#: src/applets/budgie-menu/IconChooser.vala:37
+msgid "Image files"
+msgstr ""
+
+#: src/applets/budgie-menu/IconChooser.vala:43
+msgid "Any file"
+msgstr "যেকোনো ফাইল "
+
+#: src/applets/budgie-menu/IconChooser.vala:55
+#: src/panel/settings/settings_autostart.vala:203
+#: src/panel/settings/settings_autostart.vala:376
+#: src/panel/settings/settings_applet_chooser.vala:84
+#: src/daemon/endsession.ui.h:3 src/polkit/dialog.ui.h:4
+msgid "Cancel"
+msgstr ""
+
+#: src/applets/budgie-menu/IconChooser.vala:56
+msgid "Set icon"
+msgstr ""
+
+#. Special case, "All"
+#: src/applets/budgie-menu/BudgieMenuWindow.vala:43
+msgid "All"
+msgstr "সবগুলো "
+
+#. placeholder in case of no results
+#: src/applets/budgie-menu/BudgieMenuWindow.vala:401
+msgid "Sorry, no items found"
+msgstr ""
+
+#: src/applets/lock-keys/LockKeysApplet.vala:62
+msgid "Caps lock is active"
+msgstr ""
+
+#: src/applets/lock-keys/LockKeysApplet.vala:65
+msgid "Caps lock is not active"
+msgstr ""
+
+#: src/applets/lock-keys/LockKeysApplet.vala:75
+msgid "Num lock is active"
+msgstr ""
+
+#: src/applets/lock-keys/LockKeysApplet.vala:78
+msgid "Num lock is not active"
+msgstr ""
+
+#: src/applets/clock/ClockApplet.vala:151
+msgid "Time and date settings"
+msgstr "সময় এবং তারিখ সেটিংস "
+
+#: src/applets/clock/ClockApplet.vala:152
+msgid "Calendar"
+msgstr "ক্যালেন্ডার "
+
+#. pack page2
+#: src/applets/clock/ClockApplet.vala:159
+#: src/applets/clock/ClockApplet.vala:190
+msgid "Preferences"
+msgstr ""
+
+#: src/applets/clock/ClockApplet.vala:169
+msgid "Show date"
+msgstr "তারিখ দেখুন"
+
+#: src/applets/clock/ClockApplet.vala:174
+msgid "Show seconds"
+msgstr "সেকেন্ড দেখুন"
+
+#: src/applets/clock/ClockApplet.vala:180
+msgid "Use 24 hour time"
+msgstr ""
+
+#: src/applets/show-desktop/ShowDesktopApplet.vala:34
 msgid "Toggle the desktop"
 msgstr ""
 
-#: src/applets/icon-tasklist/Buttons.vala:113
-msgid "Pin to panel"
-msgstr ""
+#: src/applets/workspaces/WorkspaceItem.vala:72
+msgid "Rename"
+msgstr "নাম পরিবর্তন করুন "
 
-#: src/applets/icon-tasklist/Buttons.vala:114
-#: src/applets/icon-tasklist/Buttons.vala:483
-msgid "Unpin from panel"
-msgstr ""
+#: src/applets/workspaces/WorkspaceItem.vala:79
+msgid "Remove"
+msgstr "রিমুভ করুন "
 
-#: src/applets/places-indicator/PlaceItem.vala:36
-#: src/applets/places-indicator/MountItem.vala:65
-#, c-format
-msgid "Open \"%s\""
-msgstr ""
-
-#: src/applets/places-indicator/MountItem.vala:25
-#: src/applets/places-indicator/VolumeItem.vala:27
-msgid "Removable devices"
-msgstr ""
-
-#: src/applets/places-indicator/MountItem.vala:27
-#: src/applets/places-indicator/VolumeItem.vala:29
-msgid "Local volumes"
-msgstr "লোকাল ভলিউম গুলো"
-
-#: src/applets/places-indicator/MountItem.vala:31
-#: src/applets/places-indicator/VolumeItem.vala:33
-msgid "Network folders"
-msgstr "নেটওয়ার্ক ফোল্ডার্স "
-
-#: src/applets/places-indicator/MountItem.vala:34
-#: src/applets/places-indicator/VolumeItem.vala:36
-msgid "Other"
-msgstr "অন্যান্য"
-
-#: src/applets/places-indicator/MountItem.vala:60
-#: src/applets/places-indicator/VolumeItem.vala:57
-msgid "Eject"
-msgstr ""
-
-#: src/applets/places-indicator/MountItem.vala:62
-msgid "Unmount"
-msgstr ""
-
-#: src/applets/places-indicator/MountItem.vala:78
-#: src/applets/places-indicator/VolumeItem.vala:87
-msgid "You can now safely remove"
-msgstr "এখন রিমুভ করতে পারেন "
-
-#: src/applets/places-indicator/MountItem.vala:79
-msgid "Unknown Device"
-msgstr ""
-
-#: src/applets/places-indicator/MountItem.vala:88
-msgid "Error while ejecting device"
-msgstr ""
-
-#: src/applets/places-indicator/MountItem.vala:105
-msgid "Error while unmounting volume"
-msgstr ""
-
-#: src/applets/places-indicator/PlacesIndicator.vala:85
-#: src/applets/places-indicator/PlacesSection.vala:24
-#: src/applets/places-indicator/PlacesSection.vala:46
-#: src/applets/places-indicator/PlacesIndicator.plugin.in.h:1
-msgid "Places"
-msgstr ""
-
-#: src/applets/places-indicator/VolumeItem.vala:43
-#, c-format
-msgid "Mount and open \"%s\""
-msgstr ""
-
-#: src/applets/places-indicator/VolumeItem.vala:76
-#: src/applets/places-indicator/VolumeItem.vala:121
-msgid "Enter the encryption passphrase to unlock this volume"
-msgstr ""
-
-#: src/applets/places-indicator/VolumeItem.vala:119
-msgid "The password you entered is incorrect"
-msgstr "আপনি একটি ভুল পাসওয়ার্ড দিয়েছেন "
-
-#: src/applets/places-indicator/VolumeItem.vala:123
-msgid "An unknown error occurred while attempting to mount this volume"
-msgstr ""
-
-#: src/applets/places-indicator/MountHelper.vala:39
-msgid "Volume is in use by other processes"
-msgstr ""
-
-#: src/applets/places-indicator/MountHelper.vala:45
-msgid "Operation aborted"
-msgstr ""
-
-#: src/applets/places-indicator/MountHelper.vala:57
-msgid "Type your password"
-msgstr "পাসওয়ার্ড টাইপ করুন "
-
-#: src/applets/places-indicator/PlacesIndicatorWindow.vala:181
-msgid "Nothing to display right now"
-msgstr ""
-
-#: src/applets/places-indicator/PlacesIndicatorWindow.vala:185
-msgid "Mount some drives"
-msgstr ""
-
-#: src/applets/places-indicator/PlacesIndicatorWindow.vala:185
-msgid "Enable more sections"
+#: src/applets/caffeine/CaffeineWindow.vala:26
+msgid "Timer (minutes)"
 msgstr ""
 
 #. User Menu Creation
@@ -224,149 +354,111 @@ msgstr "রিস্টার্ট "
 msgid "Shutdown"
 msgstr "শাটডাউন "
 
-#. IndicatorItem switch_user_menu = new IndicatorItem(_("Switch User"),
-#. "network-transmit-receive-symbolic", false);
+#. IndicatorItem switch_user_menu = new IndicatorItem(_("Switch User"), "network-transmit-receive-symbolic", false);
 #: src/applets/user-indicator/UserIndicatorWindow.vala:179
 #: src/daemon/endsession.ui.h:4
 msgid "Logout"
 msgstr "লগ আউট"
 
-#: src/applets/clock/ClockApplet.vala:148
-msgid "Time and date settings"
-msgstr "সময় এবং তারিখ সেটিংস "
-
-#: src/applets/clock/ClockApplet.vala:149
-msgid "Calendar"
-msgstr "ক্যালেন্ডার "
-
-#. pack page2
-#: src/applets/clock/ClockApplet.vala:156
-#: src/applets/clock/ClockApplet.vala:187
-msgid "Preferences"
+#: src/applets/places-indicator/PlacesSection.vala:24
+#: src/applets/places-indicator/PlacesSection.vala:46
+#: src/applets/places-indicator/PlacesIndicator.vala:85
+#: src/applets/places-indicator/PlacesIndicator.plugin.in.h:1
+msgid "Places"
 msgstr ""
 
-#: src/applets/clock/ClockApplet.vala:166
-msgid "Show date"
-msgstr "তারিখ দেখুন"
-
-#: src/applets/clock/ClockApplet.vala:171
-msgid "Show seconds"
-msgstr "সেকেন্ড দেখুন"
-
-#: src/applets/clock/ClockApplet.vala:177
-msgid "Use 24 hour time"
+#: src/applets/places-indicator/PlacesIndicatorWindow.vala:181
+msgid "Nothing to display right now"
 msgstr ""
 
-#. Special case, "All"
-#: src/applets/budgie-menu/BudgieMenuWindow.vala:43
-msgid "All"
-msgstr "সবগুলো "
-
-#: src/applets/budgie-menu/IconChooser.vala:27
-msgid "Set menu icon from file"
+#: src/applets/places-indicator/PlacesIndicatorWindow.vala:185
+msgid "Mount some drives"
 msgstr ""
 
-#: src/applets/budgie-menu/IconChooser.vala:37
-msgid "Image files"
+#: src/applets/places-indicator/PlacesIndicatorWindow.vala:185
+msgid "Enable more sections"
 msgstr ""
 
-#: src/applets/budgie-menu/IconChooser.vala:43
-msgid "Any file"
-msgstr "যেকোনো ফাইল "
-
-#: src/applets/budgie-menu/IconChooser.vala:55
-#: src/panel/settings/settings_applet_chooser.vala:84
-#: src/panel/settings/settings_autostart.vala:202
-#: src/panel/settings/settings_autostart.vala:365 src/daemon/endsession.ui.h:3
-#: src/polkit/dialog.ui.h:4
-msgid "Cancel"
-msgstr ""
-
-#: src/applets/budgie-menu/IconChooser.vala:56
-msgid "Set icon"
-msgstr ""
-
-#: src/applets/status/PowerIndicator.vala:97
-msgid "Battery fully charged."
-msgstr "ব্যাটারি পুরোপুরি চার্জ হয়েছে "
-
-#: src/applets/status/PowerIndicator.vala:100
-msgid "Unknown"
-msgstr ""
-
-#. Set inner charging duration to hours:minutes
-#: src/applets/status/PowerIndicator.vala:109
-msgid "Battery charging"
-msgstr "ব্যাটারি চার্জ হচ্ছে "
-
-#: src/applets/status/PowerIndicator.vala:114
-msgid "Battery remaining"
-msgstr ""
-
-#: src/applets/status/PowerIndicator.vala:174
-msgid "Show battery percentage"
-msgstr ""
-
-#: src/applets/status/PowerIndicator.vala:183
-msgid "Power settings"
-msgstr "পাওয়ার সেটিংস"
-
-#: src/applets/status/SoundIndicator.vala:120
-msgid "Sound settings"
-msgstr "সাউন্ড সেটিংস "
-
-#: src/applets/status/BluetoothIndicator.vala:105
-msgid "Bluetooth is disabled"
-msgstr ""
-
-#: src/applets/status/BluetoothIndicator.vala:109
-msgid "Bluetooth is active"
-msgstr ""
-
-#: src/applets/status/BluetoothIndicator.vala:114
+#: src/applets/places-indicator/PlaceItem.vala:38
+#: src/applets/places-indicator/MountItem.vala:65
 #, c-format
-msgid "Connected to %d device"
-msgid_plural "Connected to %d devices"
-msgstr[0] ""
-msgstr[1] ""
-
-#. Settings button
-#: src/applets/status/BluetoothIndicator.vala:179
-msgid "Bluetooth Settings"
-msgstr "ব্লুটুথ সেটিংস "
-
-#. Send files button
-#: src/applets/status/BluetoothIndicator.vala:186
-msgid "Send Files"
-msgstr "ফাইল পাঠান "
-
-#. Airplane mode
-#: src/applets/status/BluetoothIndicator.vala:196
-msgid "Bluetooth Airplane Mode"
+msgid "Open \"%s\""
 msgstr ""
 
-#: src/applets/workspaces/WorkspaceItem.vala:72
-msgid "Rename"
-msgstr "নাম পরিবর্তন করুন "
-
-#: src/applets/workspaces/WorkspaceItem.vala:79
-msgid "Remove"
-msgstr "রিমুভ করুন "
-
-#: src/applets/lock-keys/LockKeysApplet.vala:62
-msgid "Caps lock is active"
+#: src/applets/places-indicator/MountHelper.vala:39
+msgid "Volume is in use by other processes"
 msgstr ""
 
-#: src/applets/lock-keys/LockKeysApplet.vala:65
-msgid "Caps lock is not active"
+#: src/applets/places-indicator/MountHelper.vala:45
+msgid "Operation aborted"
 msgstr ""
 
-#: src/applets/lock-keys/LockKeysApplet.vala:75
-msgid "Num lock is active"
+#: src/applets/places-indicator/MountHelper.vala:57
+msgid "Type your password"
+msgstr "পাসওয়ার্ড টাইপ করুন "
+
+#: src/applets/places-indicator/VolumeItem.vala:27
+#: src/applets/places-indicator/MountItem.vala:25
+msgid "Removable devices"
 msgstr ""
 
-#: src/applets/lock-keys/LockKeysApplet.vala:78
-msgid "Num lock is not active"
+#: src/applets/places-indicator/VolumeItem.vala:29
+#: src/applets/places-indicator/MountItem.vala:27
+msgid "Local volumes"
+msgstr "লোকাল ভলিউম গুলো"
+
+#: src/applets/places-indicator/VolumeItem.vala:33
+#: src/applets/places-indicator/MountItem.vala:31
+msgid "Network folders"
+msgstr "নেটওয়ার্ক ফোল্ডার্স "
+
+#: src/applets/places-indicator/VolumeItem.vala:36
+#: src/applets/places-indicator/MountItem.vala:34
+msgid "Other"
+msgstr "অন্যান্য"
+
+#: src/applets/places-indicator/VolumeItem.vala:43
+#, c-format
+msgid "Mount and open \"%s\""
+msgstr ""
+
+#: src/applets/places-indicator/VolumeItem.vala:57
+#: src/applets/places-indicator/MountItem.vala:60
+msgid "Eject"
+msgstr ""
+
+#: src/applets/places-indicator/VolumeItem.vala:76
+#: src/applets/places-indicator/VolumeItem.vala:121
+msgid "Enter the encryption passphrase to unlock this volume"
+msgstr ""
+
+#: src/applets/places-indicator/VolumeItem.vala:87
+#: src/applets/places-indicator/MountItem.vala:78
+msgid "You can now safely remove"
+msgstr "এখন রিমুভ করতে পারেন "
+
+#: src/applets/places-indicator/VolumeItem.vala:119
+msgid "The password you entered is incorrect"
+msgstr "আপনি একটি ভুল পাসওয়ার্ড দিয়েছেন "
+
+#: src/applets/places-indicator/VolumeItem.vala:123
+msgid "An unknown error occurred while attempting to mount this volume"
+msgstr ""
+
+#: src/applets/places-indicator/MountItem.vala:62
+msgid "Unmount"
+msgstr ""
+
+#: src/applets/places-indicator/MountItem.vala:79
+msgid "Unknown Device"
+msgstr ""
+
+#: src/applets/places-indicator/MountItem.vala:88
+msgid "Error while ejecting device"
+msgstr ""
+
+#: src/applets/places-indicator/MountItem.vala:105
+msgid "Error while unmounting volume"
 msgstr ""
 
 #: src/polkit/polkitdialog.vala:131
@@ -377,261 +469,26 @@ msgstr ""
 msgid "Group:"
 msgstr "গ্রুপ:"
 
-#: src/panel/settings/settings_main.vala:41
+#: src/panel/settings/settings_main.vala:39
 msgid "Appearance"
 msgstr ""
 
-#: src/panel/settings/settings_main.vala:42
+#: src/panel/settings/settings_main.vala:40
 msgid "Panels"
 msgstr ""
 
-#: src/panel/settings/settings_main.vala:43
+#: src/panel/settings/settings_main.vala:41
 msgid "Session"
 msgstr "সেশন "
 
-#. Have to override wmclass for pinning support
-#: src/panel/settings/settings_main.vala:51
-msgid "Budgie Settings"
-msgstr "Budgie সেটিংস "
+#: src/panel/settings/settings_main.vala:50
+#: src/panel/budgie-desktop-settings.desktop.in.h:1
+msgid "Budgie Desktop Settings"
+msgstr "Budgie ডেস্কটপ সেটিংস "
 
-#: src/panel/settings/settings_main.vala:83
+#: src/panel/settings/settings_main.vala:81
 msgid "Create new panel"
 msgstr "নতুন প্যানেল তৈরী করুন "
-
-#: src/panel/settings/settings_style.vala:34
-msgid "Style"
-msgstr "স্টাইল "
-
-#: src/panel/settings/settings_style.vala:44
-msgid "Widgets"
-msgstr "উইজেটস "
-
-#: src/panel/settings/settings_style.vala:45
-msgid "Set the appearance of window decorations and controls"
-msgstr ""
-
-#: src/panel/settings/settings_style.vala:49
-msgid "Icons"
-msgstr ""
-
-#: src/panel/settings/settings_style.vala:50
-msgid "Set the globally used icon theme"
-msgstr ""
-
-#: src/panel/settings/settings_style.vala:54
-msgid "Cursors"
-msgstr "কার্সরস "
-
-#: src/panel/settings/settings_style.vala:55
-msgid "Set the globally used mouse cursor theme"
-msgstr ""
-
-#: src/panel/settings/settings_style.vala:63
-msgid "Dark theme"
-msgstr "ডার্ক থিম "
-
-#: src/panel/settings/settings_style.vala:67
-msgid "Built-in theme"
-msgstr ""
-
-#: src/panel/settings/settings_style.vala:68
-msgid ""
-"When enabled, the desktop component style will be overriden with the built-"
-"in one"
-msgstr ""
-
-#: src/panel/settings/settings_style.vala:72
-msgid "Animations"
-msgstr "এনিমেশনস"
-
-#: src/panel/settings/settings_style.vala:73
-msgid "Control whether windows and controls use animations"
-msgstr ""
-
-#: src/panel/settings/settings_applet_chooser.vala:79
-msgid "Choose an applet"
-msgstr "অ্যাপলেট পছন্দ করুন "
-
-#: src/panel/settings/settings_applet_chooser.vala:85
-#: src/panel/settings/settings_panel_applets.vala:245
-msgid "Add applet"
-msgstr "অ্যাপলেট অ্যাড করুন "
-
-#: src/panel/settings/settings_autostart.vala:140
-msgid "Untitled"
-msgstr "শিরোনামহীন"
-
-#: src/panel/settings/settings_autostart.vala:147
-msgid "No description"
-msgstr ""
-
-#: src/panel/settings/settings_autostart.vala:170
-msgid "running"
-msgstr "চলছে "
-
-#: src/panel/settings/settings_autostart.vala:193
-msgid "Applications"
-msgstr "অ্যাপ্লিকেশনস "
-
-#: src/panel/settings/settings_autostart.vala:203
-#: src/panel/settings/settings_autostart.vala:366
-msgid "Add"
-msgstr "অ্যাড করুন "
-
-#: src/panel/settings/settings_autostart.vala:360
-#: src/panel/settings/settings_autostart.vala:393
-msgid "Command"
-msgstr ""
-
-#: src/panel/settings/settings_autostart.vala:376
-msgid "An entry with that title already exists"
-msgstr ""
-
-#: src/panel/settings/settings_autostart.vala:379
-msgid "Title"
-msgstr ""
-
-#: src/panel/settings/settings_autostart.vala:383
-#: src/panel/settings/settings_autostart.vala:397
-msgid "Required"
-msgstr ""
-
-#: src/panel/settings/settings_autostart.vala:386
-msgid "Description"
-msgstr ""
-
-#: src/panel/settings/settings_autostart.vala:390
-msgid "Optional"
-msgstr ""
-
-#: src/panel/settings/settings_autostart.vala:454
-msgid "Autostart"
-msgstr ""
-
-#: src/panel/settings/settings_wm.vala:29
-msgid "Windows"
-msgstr ""
-
-#: src/panel/settings/settings_wm.vala:38
-msgid "Button layout"
-msgstr ""
-
-#: src/panel/settings/settings_wm.vala:39
-msgid "Change the layout of buttons in application titlebars"
-msgstr ""
-
-#: src/panel/settings/settings_wm.vala:45
-msgid "Right (standard)"
-msgstr "ডানে (স্ট্যান্ডার্ড)"
-
-#: src/panel/settings/settings_wm.vala:47
-#: src/panel/settings/settings_panel.vala:180
-msgid "Left"
-msgstr "বামে "
-
-#: src/panel/settings/settings_wm.vala:59
-msgid "Attach modal dialogs to windows"
-msgstr ""
-
-#: src/panel/settings/settings_wm.vala:60
-msgid ""
-"Modal dialogs will become attached to the parent window and move together "
-"when dragged"
-msgstr ""
-
-#: src/panel/settings/settings_wm.vala:64
-msgid "Automatic tiling"
-msgstr ""
-
-#: src/panel/settings/settings_wm.vala:65
-msgid ""
-"Windows will automatically tile when dragged into the top of the screen or "
-"the far corners"
-msgstr ""
-
-#: src/panel/settings/settings_wm.vala:70
-msgid "Disable unredirection of windows"
-msgstr ""
-
-#: src/panel/settings/settings_wm.vala:71
-msgid ""
-"This option is for advanced users. Use this if you are having graphical or "
-"performance issues with dedicated GPUs"
-msgstr ""
-
-#: src/panel/settings/settings_fonts.vala:32
-msgid "Fonts"
-msgstr "ফন্ট সমূহ "
-
-#: src/panel/settings/settings_fonts.vala:43
-msgid "Window Titles"
-msgstr ""
-
-#: src/panel/settings/settings_fonts.vala:44
-msgid "Set the font used in the titlebars of applications"
-msgstr ""
-
-#: src/panel/settings/settings_fonts.vala:50
-msgid "Documents"
-msgstr "ডকুমেন্টস"
-
-#: src/panel/settings/settings_fonts.vala:51
-msgid "Set the display font used by for documents"
-msgstr ""
-
-#: src/panel/settings/settings_fonts.vala:57
-msgid "Interface"
-msgstr "ইন্টারফেস"
-
-#: src/panel/settings/settings_fonts.vala:58
-msgid "Set the primary font used by application controls"
-msgstr ""
-
-#: src/panel/settings/settings_fonts.vala:64
-msgid "Monospace"
-msgstr "Monospace"
-
-#: src/panel/settings/settings_fonts.vala:65
-msgid "Set the fixed-width font used by text dominant applications"
-msgstr ""
-
-#: src/panel/settings/settings_panel_dialogs.vala:29
-msgid "Confirm panel removal"
-msgstr ""
-
-#: src/panel/settings/settings_panel_dialogs.vala:36
-msgid "Do you really want to remove this panel? This action cannot be undone."
-msgstr ""
-
-#: src/panel/settings/settings_panel_dialogs.vala:51
-#: src/panel/settings/settings_panel_dialogs.vala:114
-msgid "Don't ask me again"
-msgstr ""
-
-#: src/panel/settings/settings_panel_dialogs.vala:60
-msgid "Remove panel"
-msgstr ""
-
-#: src/panel/settings/settings_panel_dialogs.vala:61
-msgid "Keep panel"
-msgstr ""
-
-#: src/panel/settings/settings_panel_dialogs.vala:92
-msgid "Confirm applet removal"
-msgstr ""
-
-#: src/panel/settings/settings_panel_dialogs.vala:99
-msgid ""
-"Do you really want to remove this applet? This action cannot be undone."
-msgstr ""
-
-#: src/panel/settings/settings_panel_dialogs.vala:123
-msgid "Remove applet"
-msgstr "অ্যাপলেট রিমুভ করুন"
-
-#: src/panel/settings/settings_panel_dialogs.vala:124
-msgid "Keep applet"
-msgstr "অ্যাপলেট অপরিবর্তিত রাখুন"
 
 #: src/panel/settings/settings_panel.vala:80
 msgid "Remove this panel from the screen"
@@ -676,6 +533,11 @@ msgstr "উপরে "
 #: src/panel/settings/settings_panel.vala:178
 msgid "Right"
 msgstr "ডানে"
+
+#: src/panel/settings/settings_panel.vala:180
+#: src/panel/settings/settings_wm.vala:88
+msgid "Left"
+msgstr "বামে "
 
 #: src/panel/settings/settings_panel.vala:182
 msgid "Bottom"
@@ -750,9 +612,7 @@ msgid "Stylize regions"
 msgstr ""
 
 #: src/panel/settings/settings_panel.vala:269
-msgid ""
-"Adds a hint to the panel so that each of the panel's three main areas may be"
-" themed differently."
+msgid "Adds a hint to the panel so that each of the panel's three main areas may be themed differently."
 msgstr ""
 
 #: src/panel/settings/settings_panel.vala:276
@@ -760,34 +620,105 @@ msgid "Dock mode"
 msgstr "ডক মোড"
 
 #: src/panel/settings/settings_panel.vala:277
-msgid ""
-"When in dock mode, the panel will use the minimal amount of space possible, "
-"freeing up valuable screen estate"
+msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
 msgstr "ডক মোডে প্যানেলটি যথাসম্ভব কম জায়গা খরচ করার চেষ্টা করবে, স্ক্রিনের মূল্যবান জায়গাগুলো ছেড়ে রেখে "
 
-#: src/panel/settings/settings_panel_applets.vala:22
-msgid "Configure applet"
-msgstr "অ্যাপলেট কনফিগার করুন "
-
-#: src/panel/settings/settings_panel_applets.vala:246
-msgid "Choose a new applet to add to this panel"
-msgstr "একটি নতুন অ্যাপলেট পছন্দ করুন এই প্যানেলটিতে অ্যাড করার জন্য "
-
-#: src/panel/settings/settings_panel_applets.vala:260
-msgid "No settings available"
+#: src/panel/settings/settings_raven.vala:30
+msgid "Raven"
 msgstr ""
 
-#: src/panel/settings/settings_panel_applets.vala:415
-msgid "Start"
-msgstr "শুরুতে "
+#: src/panel/settings/settings_raven.vala:40
+msgid "Allow raising volume above 100%"
+msgstr ""
 
-#: src/panel/settings/settings_panel_applets.vala:418
-msgid "Center"
-msgstr "মাঝখানে "
+#: src/panel/settings/settings_raven.vala:41
+msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
+msgstr ""
 
-#: src/panel/settings/settings_panel_applets.vala:421
-msgid "End"
-msgstr "শেষে "
+#: src/panel/settings/settings_raven.vala:45
+msgid "Enable display of week numbers in Calendar"
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:46
+msgid "This setting enables the display of week numbers in the Calendar widget."
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:51
+msgid "Show Calendar Widget"
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:52
+msgid "Shows or hides the Calendar Widget in Raven's Applets section."
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:57
+msgid "Show Sound Output Widget"
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:58
+msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:63
+msgid "Show Microphone Input Widget"
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:64
+msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:69
+msgid "Show Media Playback Controls Widget"
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:70
+msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:75
+msgid "Show Power Strip"
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:76
+msgid "Shows or hides the Power Strip in the bottom of Raven."
+msgstr ""
+
+#: src/panel/settings/settings_panel_dialogs.vala:29
+msgid "Confirm panel removal"
+msgstr ""
+
+#: src/panel/settings/settings_panel_dialogs.vala:36
+msgid "Do you really want to remove this panel? This action cannot be undone."
+msgstr ""
+
+#: src/panel/settings/settings_panel_dialogs.vala:51
+#: src/panel/settings/settings_panel_dialogs.vala:114
+msgid "Don't ask me again"
+msgstr ""
+
+#: src/panel/settings/settings_panel_dialogs.vala:60
+msgid "Remove panel"
+msgstr ""
+
+#: src/panel/settings/settings_panel_dialogs.vala:61
+msgid "Keep panel"
+msgstr ""
+
+#: src/panel/settings/settings_panel_dialogs.vala:92
+msgid "Confirm applet removal"
+msgstr ""
+
+#: src/panel/settings/settings_panel_dialogs.vala:99
+msgid "Do you really want to remove this applet? This action cannot be undone."
+msgstr ""
+
+#: src/panel/settings/settings_panel_dialogs.vala:123
+msgid "Remove applet"
+msgstr "অ্যাপলেট রিমুভ করুন"
+
+#: src/panel/settings/settings_panel_dialogs.vala:124
+msgid "Keep applet"
+msgstr "অ্যাপলেট অপরিবর্তিত রাখুন"
 
 #: src/panel/settings/settings_desktop.vala:33
 msgid "Desktop"
@@ -801,64 +732,304 @@ msgstr "ডেস্কটপে আইকন "
 msgid "Control whether to allow launchers and icons on the desktop"
 msgstr ""
 
-#: src/panel/settings/settings_desktop.vala:49
+#: src/panel/settings/settings_desktop.vala:54
 msgid "Home directory"
 msgstr "হোম ডিরেক্টরী"
 
-#: src/panel/settings/settings_desktop.vala:50
+#: src/panel/settings/settings_desktop.vala:55
 msgid "Add a shortcut to your home directory on the desktop"
 msgstr "ডেস্কটপে হোম ডিরেক্টরির শর্টকাট অ্যাড করুন "
 
-#: src/panel/settings/settings_desktop.vala:55
+#: src/panel/settings/settings_desktop.vala:60
 msgid "Network servers"
 msgstr "নেটওয়ার্ক সার্ভারসমূহ "
 
-#: src/panel/settings/settings_desktop.vala:56
+#: src/panel/settings/settings_desktop.vala:61
 msgid "Add a shortcut to your local network servers on the desktop"
 msgstr "ডেস্কটপে অ্যাড করুন নেটওয়ার্ক সার্ভারের শর্টকাট"
 
-#: src/panel/settings/settings_desktop.vala:61
+#: src/panel/settings/settings_desktop.vala:66
 msgid "Trash"
 msgstr "ট্র্যাশ"
 
-#: src/panel/settings/settings_desktop.vala:62
+#: src/panel/settings/settings_desktop.vala:67
 msgid "Add a shortcut to the Trash directory on the desktop"
 msgstr "ট্র্যাশ ডিরেক্টরি অ্যাড করুন ডেস্কটপে "
 
-#: src/panel/settings/settings_desktop.vala:67
+#: src/panel/settings/settings_desktop.vala:72
 msgid "Mounted volumes"
 msgstr ""
 
-#: src/panel/settings/settings_desktop.vala:68
+#: src/panel/settings/settings_desktop.vala:73
 msgid "Mounted volumes & drives will appear on the desktop"
 msgstr ""
+
+#: src/panel/settings/settings_style.vala:32
+msgid "Style"
+msgstr "স্টাইল "
+
+#: src/panel/settings/settings_style.vala:42
+msgid "Widgets"
+msgstr "উইজেটস "
+
+#: src/panel/settings/settings_style.vala:43
+msgid "Set the appearance of window decorations and controls"
+msgstr ""
+
+#: src/panel/settings/settings_style.vala:47
+msgid "Icons"
+msgstr ""
+
+#: src/panel/settings/settings_style.vala:48
+msgid "Set the globally used icon theme"
+msgstr ""
+
+#: src/panel/settings/settings_style.vala:52
+msgid "Cursors"
+msgstr "কার্সরস "
+
+#: src/panel/settings/settings_style.vala:53
+msgid "Set the globally used mouse cursor theme"
+msgstr ""
+
+#: src/panel/settings/settings_style.vala:61
+msgid "Dark theme"
+msgstr "ডার্ক থিম "
+
+#: src/panel/settings/settings_style.vala:65
+msgid "Built-in theme"
+msgstr ""
+
+#: src/panel/settings/settings_style.vala:66
+msgid "When enabled, the desktop component style will override the built-in one"
+msgstr ""
+
+#: src/panel/settings/settings_style.vala:70
+msgid "Animations"
+msgstr "এনিমেশনস"
+
+#: src/panel/settings/settings_style.vala:71
+msgid "Control whether windows and controls use animations"
+msgstr ""
+
+#: src/panel/settings/settings_autostart.vala:141
+msgid "Untitled"
+msgstr "শিরোনামহীন"
+
+#: src/panel/settings/settings_autostart.vala:148
+msgid "No description"
+msgstr ""
+
+#: src/panel/settings/settings_autostart.vala:171
+msgid "running"
+msgstr "চলছে "
+
+#: src/panel/settings/settings_autostart.vala:194
+msgid "Applications"
+msgstr "অ্যাপ্লিকেশনস "
+
+#: src/panel/settings/settings_autostart.vala:204
+#: src/panel/settings/settings_autostart.vala:377
+msgid "Add"
+msgstr "অ্যাড করুন "
+
+#: src/panel/settings/settings_autostart.vala:371
+#: src/panel/settings/settings_autostart.vala:404
+msgid "Command"
+msgstr ""
+
+#: src/panel/settings/settings_autostart.vala:387
+msgid "An entry with that title already exists"
+msgstr ""
+
+#: src/panel/settings/settings_autostart.vala:390
+msgid "Title"
+msgstr ""
+
+#: src/panel/settings/settings_autostart.vala:394
+#: src/panel/settings/settings_autostart.vala:408
+msgid "Required"
+msgstr ""
+
+#: src/panel/settings/settings_autostart.vala:397
+msgid "Description"
+msgstr ""
+
+#: src/panel/settings/settings_autostart.vala:401
+msgid "Optional"
+msgstr ""
+
+#: src/panel/settings/settings_autostart.vala:465
+msgid "Autostart"
+msgstr ""
+
+#: src/panel/settings/settings_autostart.vala:483
+msgid "Autostart apps"
+msgstr ""
+
+#: src/panel/settings/settings_panel_applets.vala:22
+msgid "Configure applet"
+msgstr "অ্যাপলেট কনফিগার করুন "
+
+#: src/panel/settings/settings_panel_applets.vala:245
+#: src/panel/settings/settings_applet_chooser.vala:85
+msgid "Add applet"
+msgstr "অ্যাপলেট অ্যাড করুন "
+
+#: src/panel/settings/settings_panel_applets.vala:246
+msgid "Choose a new applet to add to this panel"
+msgstr "একটি নতুন অ্যাপলেট পছন্দ করুন এই প্যানেলটিতে অ্যাড করার জন্য "
+
+#: src/panel/settings/settings_panel_applets.vala:260
+msgid "No settings available"
+msgstr ""
+
+#: src/panel/settings/settings_panel_applets.vala:414
+msgid "Start"
+msgstr "শুরুতে "
+
+#: src/panel/settings/settings_panel_applets.vala:417
+msgid "Center"
+msgstr "মাঝখানে "
+
+#: src/panel/settings/settings_panel_applets.vala:420
+msgid "End"
+msgstr "শেষে "
+
+#: src/panel/settings/settings_wm.vala:32
+msgid "Windows"
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:41
+msgid "Attach modal dialogs to windows"
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:42
+msgid "Modal dialogs will become attached to the parent window and move together when dragged"
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:47
+msgid "Button layout"
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:48
+msgid "Change the layout of buttons in application titlebars"
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:53
+msgid "Center new windows on screen"
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:54
+msgid "Center newly launched windows on the current screen"
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:59
+msgid "Disable Night Light mode when windows are fullscreen"
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:60
+msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:65
+msgid "Automatic tiling"
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:66
+msgid "Windows will automatically tile when dragged into the top of the screen or the far corners"
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:71
+msgid "Enable window focus change on mouse enter and leave"
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:72
+msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:78
+msgid "Disable unredirection of windows"
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:79
+msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs"
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:86
+msgid "Right (standard)"
+msgstr "ডানে (স্ট্যান্ডার্ড)"
+
+#: src/panel/settings/settings_fonts.vala:33
+msgid "Fonts"
+msgstr "ফন্ট সমূহ "
+
+#: src/panel/settings/settings_fonts.vala:44
+msgid "Window Titles"
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:45
+msgid "Set the font used in the titlebars of applications"
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:51
+msgid "Documents"
+msgstr "ডকুমেন্টস"
+
+#: src/panel/settings/settings_fonts.vala:52
+msgid "Set the display font used by for documents"
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:58
+msgid "Interface"
+msgstr "ইন্টারফেস"
+
+#: src/panel/settings/settings_fonts.vala:59
+msgid "Set the primary font used by application controls"
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:65
+msgid "Monospace"
+msgstr "Monospace"
+
+#: src/panel/settings/settings_fonts.vala:66
+msgid "Set the fixed-width font used by text dominant applications"
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:72
+msgid "Text scaling"
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:73
+msgid "Set the text scaling factor"
+msgstr ""
+
+#: src/panel/settings/settings_applet_chooser.vala:79
+msgid "Choose an applet"
+msgstr "অ্যাপলেট পছন্দ করুন "
 
 #: src/daemon/endsession.ui.h:2
 msgid "Are you sure you want to end your session?"
 msgstr "আসলেই চাচ্ছেন সেশনটি শেষ করতে?"
 
-#: src/daemon/tabswitcher.ui.h:1
-msgid " - "
-msgstr "-"
-
-#: src/applets/places-indicator/settings.ui.h:1
-msgid "Show label"
+#: src/applets/icon-tasklist/settings.ui.h:1
+msgid "Show all windows on click"
 msgstr ""
 
-#: src/applets/places-indicator/settings.ui.h:2
-msgid "Show places"
+#: src/applets/icon-tasklist/settings.ui.h:2
+msgid "Only show favorited"
 msgstr ""
 
-#: src/applets/places-indicator/settings.ui.h:3
-msgid "Show network folders"
-msgstr "নেটওয়ার্ক ফোল্ডার গুলো দেখুন "
-
-#: src/applets/places-indicator/settings.ui.h:4
-msgid "Show removable drives"
+#: src/applets/icon-tasklist/settings.ui.h:3
+msgid "Lock icons"
 msgstr ""
 
-#: src/applets/places-indicator/settings.ui.h:5
-msgid "Always expand places"
+#: src/applets/icon-tasklist/settings.ui.h:4
+msgid "Restrict to Workspace"
+msgstr ""
+
+#: src/applets/icon-tasklist/settings.ui.h:5
+msgid "Window grouping"
 msgstr ""
 
 #: src/applets/night-light/indicator_window.ui.h:1
@@ -886,6 +1057,10 @@ msgstr "ম্যানুয়াল"
 msgid "Display Settings"
 msgstr "ডিসপ্লে সেটিংস "
 
+#: src/applets/spacer/settings.ui.h:1
+msgid "Spacer size"
+msgstr ""
+
 #: src/applets/budgie-menu/settings.ui.h:1
 msgid "Show Menu Label"
 msgstr "মেনুর নাম দেখুন"
@@ -910,8 +1085,54 @@ msgstr ""
 msgid "Menu Icon"
 msgstr "মেনু আইকন "
 
-#: src/applets/spacer/settings.ui.h:1
-msgid "Spacer size"
+#: src/applets/workspaces/settings.ui.h:1
+msgid "\"Add\" button visibility"
+msgstr ""
+
+#: src/applets/workspaces/settings.ui.h:2
+msgid "Don't show"
+msgstr ""
+
+#: src/applets/workspaces/settings.ui.h:3
+msgid "Show on mouseover"
+msgstr ""
+
+#: src/applets/workspaces/settings.ui.h:4
+#, fuzzy
+msgid "Always show"
+msgstr "সবসময় "
+
+#: src/applets/caffeine/settings.ui.h:1
+#, fuzzy
+msgid "Enable notification"
+msgstr "কোনো নতুন নোটিফিকেশন নেই "
+
+#: src/applets/caffeine/settings.ui.h:2
+msgid "Maximize brightness"
+msgstr ""
+
+#: src/applets/caffeine/settings.ui.h:3
+msgid "Brightness Level"
+msgstr ""
+
+#: src/applets/places-indicator/settings.ui.h:1
+msgid "Show label"
+msgstr ""
+
+#: src/applets/places-indicator/settings.ui.h:2
+msgid "Show places"
+msgstr ""
+
+#: src/applets/places-indicator/settings.ui.h:3
+msgid "Show network folders"
+msgstr "নেটওয়ার্ক ফোল্ডার গুলো দেখুন "
+
+#: src/applets/places-indicator/settings.ui.h:4
+msgid "Show removable drives"
+msgstr ""
+
+#: src/applets/places-indicator/settings.ui.h:5
+msgid "Always expand places"
 msgstr ""
 
 #: src/polkit/dialog.ui.h:1
@@ -930,8 +1151,8 @@ msgstr ""
 msgid "Authenticate"
 msgstr ""
 
-#: src/session/budgie-desktop.session.in.in.h:1
 #: src/session/budgie-desktop.desktop.in.in.h:1
+#: src/session/budgie-desktop.session.in.in.h:1
 msgid "Budgie Desktop"
 msgstr "Budgie ডেস্কটপ "
 
@@ -939,76 +1160,75 @@ msgstr "Budgie ডেস্কটপ "
 msgid "This session logs you into the Budgie Desktop"
 msgstr "এই সেশনটির মাধ্যমে আপনি Budgie ডেস্কটপে প্রবেশ করবেন "
 
-#: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
-msgid "Keyboard Layout Indicator"
-msgstr ""
-
-#: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
-msgid "Show Desktop Button"
-msgstr "ডেস্কটপ বাটন শো করুন "
-
-#: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
-msgid "Raven Sidebar Control"
-msgstr "Raven স্লাইডবার কন্ট্রোল "
-
-#: src/applets/icon-tasklist/IconTasklistApplet.plugin.in.h:1
-msgid "Icon Task List"
-msgstr ""
-
-#: src/applets/user-indicator/UserIndicator.plugin.in.h:1
-msgid "User Indicator"
-msgstr "ইউজার ইনডিকেটর "
-
-#: src/applets/clock/ClockApplet.plugin.in.h:1
-msgid "Clock"
-msgstr "সময় "
-
-#: src/applets/budgie-menu/BudgieMenu.plugin.in.h:1
-msgid "Budgie Menu"
-msgstr "Budgie মেনু "
-
 #: src/applets/tray/TrayApplet.plugin.in.h:1
 msgid "System Tray"
 msgstr "সিস্টেম ট্রে"
 
-#: src/applets/separator/SeparatorApplet.plugin.in.h:1
-msgid "Separator"
-msgstr ""
-
 #: src/applets/status/StatusApplet.plugin.in.h:1
 msgid "Status Indicator"
+msgstr ""
+
+#: src/applets/icon-tasklist/IconTasklistApplet.plugin.in.h:1
+msgid "Icon Task List"
 msgstr ""
 
 #: src/applets/spacer/SpacerApplet.plugin.in.h:1
 msgid "Spacer"
 msgstr ""
 
-#: src/applets/tasklist/TasklistApplet.plugin.in.h:1
-msgid "Task List"
+#: src/applets/budgie-menu/BudgieMenu.plugin.in.h:1
+msgid "Budgie Menu"
+msgstr "Budgie মেনু "
+
+#: src/applets/lock-keys/LockKeysApplet.plugin.in.h:1
+msgid "Lock Keys Indicator"
 msgstr ""
+
+#: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
+msgid "Raven Sidebar Control"
+msgstr "Raven স্লাইডবার কন্ট্রোল "
+
+#: src/applets/clock/ClockApplet.plugin.in.h:1
+msgid "Clock"
+msgstr "সময় "
+
+#: src/applets/separator/SeparatorApplet.plugin.in.h:1
+msgid "Separator"
+msgstr ""
+
+#: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
+msgid "Show Desktop Button"
+msgstr "ডেস্কটপ বাটন শো করুন "
 
 #: src/applets/workspaces/WorkspacesApplet.plugin.in.h:1
 msgid "Workspace Switcher"
 msgstr ""
 
-#: src/applets/lock-keys/LockKeysApplet.plugin.in.h:1
-msgid "Lock Keys Indicator"
+#: src/applets/tasklist/TasklistApplet.plugin.in.h:1
+msgid "Task List"
 msgstr ""
+
+#: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
+msgid "Caffeine"
+msgstr ""
+
+#: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
+msgid "Keyboard Layout Indicator"
+msgstr ""
+
+#: src/applets/user-indicator/UserIndicator.plugin.in.h:1
+msgid "User Indicator"
+msgstr "ইউজার ইনডিকেটর "
+
+#: src/panel/budgie-desktop-settings.desktop.in.h:2
+#, fuzzy
+msgid "Change desktop appearance and behavior"
+msgstr "ডেস্কটপ যেরকম দেখতে ও যেভাবে কাজ করে তা পরিবর্তন করুন"
 
 #: src/panel/budgie-panel.desktop.in.h:1
 msgid "Budgie Panel"
 msgstr "Budgie প্যানেল "
 
 #: src/panel/budgie-panel.desktop.in.h:2
-msgid ""
-"Launch other applications and provide various utilities to manage windows, "
-"show the time, etc."
+msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
 msgstr ""
-
-#: src/panel/budgie-desktop-settings.desktop.in.h:1
-msgid "Budgie Desktop Settings"
-msgstr "Budgie ডেস্কটপ সেটিংস "
-
-#: src/panel/budgie-desktop-settings.desktop.in.h:2
-msgid "Change desktop appearance and behaviour"
-msgstr "ডেস্কটপ যেরকম দেখতে ও যেভাবে কাজ করে তা পরিবর্তন করুন"
