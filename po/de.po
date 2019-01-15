@@ -25,10 +25,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-20 12:33+0100\n"
-"PO-Revision-Date: 2019-01-15 10:59+0000\n"
+"PO-Revision-Date: 2019-01-15 17:47+0000\n"
 "Last-Translator: Girtablulu <flinux@vongellhorn.ch>\n"
 "Language-Team: German <http://translate.getsol.us/projects/budgie-desktop/"
-"main/de/>\n"
+"translations/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -160,7 +160,7 @@ msgstr "Fehler beim Auswerfen"
 
 #: src/applets/places-indicator/MountItem.vala:105
 msgid "Error while unmounting volume"
-msgstr "Fehler beim  Aushängen"
+msgstr "Fehler beim Aushängen"
 
 #: src/applets/places-indicator/PlacesIndicator.vala:85
 #: src/applets/places-indicator/PlacesSection.vala:24
