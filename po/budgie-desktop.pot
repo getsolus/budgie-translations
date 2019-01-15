@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: budgie-desktop 10.4\n"
+"Project-Id-Version: budgie-desktop 10.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-15 13:05+0200\n"
+"POT-Creation-Date: 2019-01-15 16:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -608,9 +608,7 @@ msgid "Stylize regions"
 msgstr ""
 
 #: src/panel/settings/settings_panel.vala:269
-msgid ""
-"Adds a hint to the panel so that each of the panel's three main areas may be "
-"themed differently."
+msgid "Adds a hint to the panel so that each of the panel's three main areas may be themed differently."
 msgstr ""
 
 #: src/panel/settings/settings_panel.vala:276
@@ -618,9 +616,7 @@ msgid "Dock mode"
 msgstr ""
 
 #: src/panel/settings/settings_panel.vala:277
-msgid ""
-"When in dock mode, the panel will use the minimal amount of space possible, "
-"freeing up valuable screen estate"
+msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
 msgstr ""
 
 #: src/panel/settings/settings_raven.vala:30
@@ -632,9 +628,7 @@ msgid "Allow raising volume above 100%"
 msgstr ""
 
 #: src/panel/settings/settings_raven.vala:41
-msgid ""
-"Allows raising the volume via Sound Settings as well as the Sound Output "
-"Widget in Raven up to 150%."
+msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
 msgstr ""
 
 #: src/panel/settings/settings_raven.vala:45
@@ -642,8 +636,7 @@ msgid "Enable display of week numbers in Calendar"
 msgstr ""
 
 #: src/panel/settings/settings_raven.vala:46
-msgid ""
-"This setting enables the display of week numbers in the Calendar widget."
+msgid "This setting enables the display of week numbers in the Calendar widget."
 msgstr ""
 
 #: src/panel/settings/settings_raven.vala:51
@@ -675,9 +668,7 @@ msgid "Show Media Playback Controls Widget"
 msgstr ""
 
 #: src/panel/settings/settings_raven.vala:70
-msgid ""
-"Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets "
-"section."
+msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
 msgstr ""
 
 #: src/panel/settings/settings_raven.vala:75
@@ -806,8 +797,7 @@ msgid "Built-in theme"
 msgstr ""
 
 #: src/panel/settings/settings_style.vala:66
-msgid ""
-"When enabled, the desktop component style will override the built-in one"
+msgid "When enabled, the desktop component style will override the built-in one"
 msgstr ""
 
 #: src/panel/settings/settings_style.vala:70
@@ -911,9 +901,7 @@ msgid "Attach modal dialogs to windows"
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:42
-msgid ""
-"Modal dialogs will become attached to the parent window and move together "
-"when dragged"
+msgid "Modal dialogs will become attached to the parent window and move together when dragged"
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:47
@@ -937,9 +925,7 @@ msgid "Disable Night Light mode when windows are fullscreen"
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:60
-msgid ""
-"Disables Night Light mode when a window is fullscreen. Re-enables when "
-"leaving fullscreen."
+msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:65
@@ -947,9 +933,7 @@ msgid "Automatic tiling"
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:66
-msgid ""
-"Windows will automatically tile when dragged into the top of the screen or "
-"the far corners"
+msgid "Windows will automatically tile when dragged into the top of the screen or the far corners"
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:71
@@ -957,9 +941,7 @@ msgid "Enable window focus change on mouse enter and leave"
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:72
-msgid ""
-"Enables window focus to apply when the mouse enters the window and unfocus "
-"when the mouse leaves the window."
+msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:78
@@ -967,9 +949,7 @@ msgid "Disable unredirection of windows"
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:79
-msgid ""
-"This option is for advanced users. Use this if you are having graphical or "
-"performance issues with dedicated GPUs"
+msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs"
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:86
@@ -1243,7 +1223,5 @@ msgid "Budgie Panel"
 msgstr ""
 
 #: src/panel/budgie-panel.desktop.in.h:2
-msgid ""
-"Launch other applications and provide various utilities to manage windows, "
-"show the time, etc."
+msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
 msgstr ""
