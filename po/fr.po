@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-20 12:33+0100\n"
-"PO-Revision-Date: 2019-01-15 17:47+0000\n"
+"PO-Revision-Date: 2019-01-15 18:43+0000\n"
 "Last-Translator: Pierre-Yves <pyu@riseup.net>\n"
 "Language-Team: French <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/fr/>\n"
@@ -637,7 +637,7 @@ msgstr "Supprimer le panneau"
 
 #: src/panel/settings/settings_panel_dialogs.vala:61
 msgid "Keep panel"
-msgstr "Garder le panneau"
+msgstr "Conserver le panneau"
 
 #: src/panel/settings/settings_panel_dialogs.vala:92
 msgid "Confirm applet removal"
@@ -660,7 +660,7 @@ msgstr "Garder l'applet"
 
 #: src/panel/settings/settings_panel.vala:80
 msgid "Remove this panel from the screen"
-msgstr "Supprimer le panneau de l'écran"
+msgstr "Retirer ce panneau de l'écran"
 
 #: src/panel/settings/settings_panel.vala:120
 msgid "Top Dock"
