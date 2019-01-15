@@ -12,10 +12,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-20 12:33+0100\n"
-"PO-Revision-Date: 2019-01-15 10:59+0000\n"
-"Last-Translator: Enrico Fasoli <enrico.fasoli1996@gmail.com>\n"
+"PO-Revision-Date: 2019-01-15 17:47+0000\n"
+"Last-Translator: samplasion <ercolino2004@gmail.com>\n"
 "Language-Team: Italian <http://translate.getsol.us/projects/budgie-desktop/"
-"main/it/>\n"
+"translations/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,17 +31,17 @@ msgstr "Non c'è niente da vedere qui"
 #: src/applets/notifications/NotificationsApplet.vala:75
 #, c-format
 msgid "%u unread notifications"
-msgstr "%u Notifiche non lette"
+msgstr "%u notifiche non lette"
 
 #: src/raven/notifications_view.vala:584
 #: src/applets/notifications/NotificationsApplet.vala:77
 msgid "1 unread notification"
-msgstr "1 Notifica non letta"
+msgstr "1 notifica non letta"
 
 #: src/raven/notifications_view.vala:586
 #: src/applets/notifications/NotificationsApplet.vala:79
 msgid "No unread notifications"
-msgstr "Nessuna Notifica non letta"
+msgstr "Nessuna notifica non letta"
 
 #: src/raven/notifications_view.vala:710
 msgid "No new notifications"
