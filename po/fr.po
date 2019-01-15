@@ -22,9 +22,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2019-01-15 18:43+0000\n"
-"Last-Translator: Kévin Bergue <kevin@be-ta.art>\n"
-"Language-Team: French <http://translate.getsol.us/projects/budgie-desktop/translations/fr/>\n"
+"PO-Revision-Date: 2019-01-16 11:04+0000\n"
+"Last-Translator: Pierre-Yves <pyu@riseup.net>\n"
+"Language-Team: French <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -60,7 +61,7 @@ msgstr "Paramètres"
 #. Should show a notification
 #: src/daemon/settings.vala:277
 msgid "Turned on Caffeine Boost"
-msgstr ""
+msgstr "Activer l'injection de caféine"
 
 #: src/daemon/settings.vala:277
 msgid "Turned off Caffeine Boost"
@@ -83,7 +84,7 @@ msgstr ""
 #: src/raven/notifications_group.vala:44
 #: src/applets/caffeine/CaffeineWindow.vala:25
 msgid "Caffeine Mode"
-msgstr ""
+msgstr "Mode caféine"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
@@ -133,7 +134,7 @@ msgstr ""
 
 #: src/raven/sound.vala:152
 msgid "Devices"
-msgstr ""
+msgstr "Périphériques"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
@@ -196,33 +197,32 @@ msgstr "Paramètres du son"
 
 #: src/applets/icon-tasklist/IconPopover.vala:92
 msgid "Launch New Instance"
-msgstr ""
+msgstr "Lancer une nouvelle instance"
 
 #: src/applets/icon-tasklist/IconPopover.vala:95
 msgid "Close All Windows"
-msgstr ""
+msgstr "Fermer toutes les fenêtres"
 
 #: src/applets/icon-tasklist/IconPopover.vala:103
-#, fuzzy
 msgid "Always On Top"
-msgstr "Toujours"
+msgstr "Toujours en avant-plan"
 
 #: src/applets/icon-tasklist/IconPopover.vala:105
 #: src/applets/icon-tasklist/IconPopover.vala:473
 msgid "Maximize"
-msgstr ""
+msgstr "Maximiser"
 
 #: src/applets/icon-tasklist/IconPopover.vala:106
 msgid "Minimize"
-msgstr ""
+msgstr "Minimiser"
 
 #: src/applets/icon-tasklist/IconPopover.vala:361
 msgid "Unfavorite"
-msgstr ""
+msgstr "Enlever des favoris"
 
 #: src/applets/icon-tasklist/IconPopover.vala:361
 msgid "Favorite"
-msgstr ""
+msgstr "Ajouter aux favoris"
 
 #. If our current amount of workspaces is different than how many we have added
 #. We have items to add
@@ -230,7 +230,7 @@ msgstr ""
 #: src/applets/icon-tasklist/IconPopover.vala:373
 #, c-format
 msgid "Move To Workspace %i"
-msgstr ""
+msgstr "Passer à l'espace de travail %i"
 
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:473
@@ -238,9 +238,8 @@ msgid "Unmaximize"
 msgstr ""
 
 #: src/applets/icon-tasklist/IconPopover.vala:532
-#, fuzzy
 msgid "Close Window"
-msgstr "Fenêtres"
+msgstr "Fermer la fenêtre"
 
 #: src/applets/icon-tasklist/IconPopover.vala:534
 #, fuzzy
@@ -337,7 +336,7 @@ msgstr "Supprimer"
 
 #: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Timer (minutes)"
-msgstr ""
+msgstr "Minuteur"
 
 #. User Menu Creation
 #: src/applets/user-indicator/UserIndicatorWindow.vala:95
@@ -627,7 +626,9 @@ msgstr "Styliser les régions"
 
 #: src/panel/settings/settings_panel.vala:269
 msgid "Adds a hint to the panel so that each of the panel's three main areas may be themed differently."
-msgstr "Ajoute une \"trace\" au panneau afin que chacune des trois zones principales puissent avoir un thème différent"
+msgstr ""
+"Ajoute une \"trace\" au panneau afin que chacune des trois zones principales "
+"puissent avoir un thème différent."
 
 #: src/panel/settings/settings_panel.vala:276
 msgid "Dock mode"
@@ -639,11 +640,11 @@ msgstr "En mode dock, le panneau utilisera le moins de place possible, libérant
 
 #: src/panel/settings/settings_raven.vala:30
 msgid "Raven"
-msgstr ""
+msgstr "Raven"
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
-msgstr ""
+msgstr "Permettre d'augmenter le volume au-delà de 100%"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
@@ -1018,7 +1019,7 @@ msgstr "Définit la police à largeur fixe utilisée par les applications texte"
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
-msgstr ""
+msgstr "Mise à l'échelle du texte"
 
 #: src/panel/settings/settings_fonts.vala:73
 msgid "Set the text scaling factor"
@@ -1042,7 +1043,7 @@ msgstr ""
 
 #: src/applets/icon-tasklist/settings.ui.h:3
 msgid "Lock icons"
-msgstr ""
+msgstr "Verrouiller les icônes"
 
 #: src/applets/icon-tasklist/settings.ui.h:4
 msgid "Restrict to Workspace"
@@ -1111,7 +1112,7 @@ msgstr ""
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
-msgstr ""
+msgstr "Ne pas montrer"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
@@ -1129,11 +1130,11 @@ msgstr "Aucune nouvelle notification"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
-msgstr ""
+msgstr "Maximiser la luminosité"
 
 #: src/applets/caffeine/settings.ui.h:3
 msgid "Brightness Level"
-msgstr ""
+msgstr "Niveau de luminosité"
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
@@ -1230,7 +1231,7 @@ msgstr "Barre des tâches"
 
 #: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
 msgid "Caffeine"
-msgstr ""
+msgstr "Caféine"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
