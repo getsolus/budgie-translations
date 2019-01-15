@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-20 12:33+0100\n"
 "PO-Revision-Date: 2019-01-15 10:59+0000\n"
-"Last-Translator: Jarno T <watpi@posteo.net>\n"
+"Last-Translator: Juuso Kaitila <juuso.kaitila@solus.mail.kapsi.fi>\n"
 "Language-Team: Finnish <http://translate.getsol.us/projects/budgie-desktop/"
 "main/fi/>\n"
 "Language: fi\n"
@@ -450,7 +450,7 @@ msgstr "Animaatiot"
 
 #: src/panel/settings/settings_style.vala:73
 msgid "Control whether windows and controls use animations"
-msgstr "Määritä käyttävätkö ikkunat ja säätimet animaatioita"
+msgstr "Hallinnoi käyttävätkö ikkunat ja painikkeet animaatioita"
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
@@ -552,6 +552,7 @@ msgid ""
 "Windows will automatically tile when dragged into the top of the screen or "
 "the far corners"
 msgstr ""
+"Ikkunat asetellaan automaattisesti raahattaessa näytön yläreunaan tai kulmiin"
 
 #: src/panel/settings/settings_wm.vala:70
 msgid "Disable unredirection of windows"
@@ -599,7 +600,7 @@ msgstr "Tasalevyinen"
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Set the fixed-width font used by text dominant applications"
-msgstr ""
+msgstr "Aseta tasalevyinen fontti tekstipainotteisille sovelluksille"
 
 #: src/panel/settings/settings_panel_dialogs.vala:29
 msgid "Confirm panel removal"
@@ -717,7 +718,7 @@ msgstr "Sijainti"
 
 #: src/panel/settings/settings_panel.vala:231
 msgid "Set the edge of the screen that this panel will stay on"
-msgstr ""
+msgstr "Aseta ruudun sivu, johon tämä paneeli kiinnittyy"
 
 #: src/panel/settings/settings_panel.vala:239
 msgid "Size"
@@ -750,6 +751,8 @@ msgstr "Varjo"
 #: src/panel/settings/settings_panel.vala:262
 msgid "Adds a decorative drop-shadow, ideal for opaque panels"
 msgstr ""
+"Lisää koristeellisen varjostuksen, ihanteellinen läpikuultamattomille "
+"paneeleille"
 
 #: src/panel/settings/settings_panel.vala:268
 msgid "Stylize regions"
@@ -894,19 +897,19 @@ msgstr "Näytön asetukset"
 
 #: src/applets/budgie-menu/settings.ui.h:1
 msgid "Show Menu Label"
-msgstr ""
+msgstr "Näytä valikkoteksti"
 
 #: src/applets/budgie-menu/settings.ui.h:2
 msgid "Compact Mode"
-msgstr ""
+msgstr "Kompakti-tila"
 
 #: src/applets/budgie-menu/settings.ui.h:3
 msgid "Show Headers"
-msgstr ""
+msgstr "Näytä otsikot"
 
 #: src/applets/budgie-menu/settings.ui.h:4
 msgid "Menu Label"
-msgstr ""
+msgstr "Valikkoteksti"
 
 #: src/applets/budgie-menu/settings.ui.h:5
 msgid "Roll-over mouse"
