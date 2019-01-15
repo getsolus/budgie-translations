@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the budgie-desktop package.
-#
+# 
 # Translators:
 # John McCormack <john@twistedpixels.ie>, 2015-2016
 # Pablo Chere <pablo.foche@gmail.com>, 2017
@@ -9,26 +9,66 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-15 16:29+0200\n"
+"POT-Creation-Date: 2017-07-20 12:33+0100\n"
 "PO-Revision-Date: 2017-09-22 18:57+0000\n"
 "Last-Translator: Pablo Chere <pablo.foche@gmail.com>\n"
-"Language-Team: Esperanto (http://www.transifex.com/budgie-desktop/budgie-"
-"desktop/language/eo/)\n"
-"Language: eo\n"
+"Language-Team: Esperanto (http://www.transifex.com/budgie-desktop/budgie-desktop/language/eo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: eo\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/daemon/endsession.vala:171
+#: src/raven/notifications_view.vala:79
+msgid "Nothing to see here"
+msgstr "Nenio videbla ĉi tie"
+
+#: src/raven/notifications_view.vala:582
+#: src/applets/notifications/NotificationsApplet.vala:75
+#, c-format
+msgid "%u unread notifications"
+msgstr "%u nelegitaj sciigoj"
+
+#: src/raven/notifications_view.vala:584
+#: src/applets/notifications/NotificationsApplet.vala:77
+msgid "1 unread notification"
+msgstr "1 nelegita sciigo"
+
+#: src/raven/notifications_view.vala:586
+#: src/applets/notifications/NotificationsApplet.vala:79
+msgid "No unread notifications"
+msgstr "Neniu nelegita sciigo"
+
+#: src/raven/notifications_view.vala:710
+msgid "No new notifications"
+msgstr "Neniu nova sciigo"
+
+#: src/raven/sound.vala:78
+msgid "Output"
+msgstr "Eligo"
+
+#: src/raven/sound.vala:95
+msgid "Input"
+msgstr "Enigo"
+
+#: src/raven/main_view.vala:55 src/panel/settings/settings_panel.vala:96
+msgid "Applets"
+msgstr "Aplikaĵetoj"
+
+#: src/raven/main_view.vala:58
+#: src/applets/notifications/NotificationsApplet.plugin.in.h:1
+msgid "Notifications"
+msgstr "Sciigoj"
+
+#: src/daemon/endsession.vala:172
 msgid "Log out"
 msgstr "Elsaluti"
 
-#: src/daemon/endsession.vala:175
+#: src/daemon/endsession.vala:176
 msgid "Restart device"
 msgstr "Restartigi aparaton"
 
-#: src/daemon/endsession.vala:187 src/daemon/endsession.ui.h:1
+#: src/daemon/endsession.vala:188 src/daemon/endsession.ui.h:1
 msgid "Power Off"
 msgstr "Malŝalti"
 
@@ -36,296 +76,123 @@ msgstr "Malŝalti"
 msgid "Change background"
 msgstr "Ŝanĝi la fonon"
 
-#: src/daemon/menus.vala:57
-#, fuzzy
-msgid "Displays"
-msgstr "Ekranaj agordoj"
-
-#: src/daemon/menus.vala:66 src/panel/settings/settings_panel.vala:97
+#: src/daemon/menus.vala:61 src/panel/settings/settings_panel.vala:97
 msgid "Settings"
 msgstr "Agordoj"
 
-#. Should show a notification
-#: src/daemon/settings.vala:277
-msgid "Turned on Caffeine Boost"
-msgstr ""
-
-#: src/daemon/settings.vala:277
-msgid "Turned off Caffeine Boost"
-msgstr ""
-
-#. Get our timer number
-#. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
-#: src/daemon/settings.vala:284
-#, c-format
-msgid "a minute"
-msgid_plural "%d minutes"
-msgstr[0] ""
-msgstr[1] ""
-
-#: src/daemon/settings.vala:285
-msgid "Will turn off in"
-msgstr ""
-
-#. Caffeine Notification
-#: src/raven/notifications_group.vala:44
-#: src/applets/caffeine/CaffeineWindow.vala:25
-msgid "Caffeine Mode"
-msgstr ""
-
-#: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
-msgid "Applets"
-msgstr "Aplikaĵetoj"
-
-#: src/raven/main_view.vala:66
-#: src/applets/notifications/NotificationsApplet.plugin.in.h:1
-msgid "Notifications"
-msgstr "Sciigoj"
-
-#: src/raven/start_listening.vala:20
-msgid "No apps are currently playing audio."
-msgstr ""
-
-#: src/raven/start_listening.vala:24
-msgid "Play some music"
-msgstr ""
-
-#: src/raven/notifications_view.vala:99
-msgid "Nothing to see here"
-msgstr "Nenio videbla ĉi tie"
-
-#: src/raven/notifications_view.vala:667
-#: src/applets/notifications/NotificationsApplet.vala:109
-#, c-format
-msgid "%u unread notifications"
-msgstr "%u nelegitaj sciigoj"
-
-#: src/raven/notifications_view.vala:669
-#: src/applets/notifications/NotificationsApplet.vala:111
-msgid "1 unread notification"
-msgstr "1 nelegita sciigo"
-
-#: src/raven/notifications_view.vala:671
-#: src/applets/notifications/NotificationsApplet.vala:113
-msgid "No unread notifications"
-msgstr "Neniu nelegita sciigo"
-
-#: src/raven/notifications_view.vala:846
-msgid "No new notifications"
-msgstr "Neniu nova sciigo"
-
-#. 125ms
-#: src/raven/sound.vala:151
-msgid "Apps"
-msgstr ""
-
-#: src/raven/sound.vala:152
-msgid "Devices"
-msgstr ""
-
-#: src/applets/status/PowerIndicator.vala:97
-msgid "Battery fully charged."
-msgstr "Baterio tute ŝarĝita"
-
-#: src/applets/status/PowerIndicator.vala:100
-msgid "Unknown"
-msgstr "Nekonata"
-
-#. Set inner charging duration to hours:minutes
-#: src/applets/status/PowerIndicator.vala:109
-msgid "Battery charging"
-msgstr "Baterio ŝarĝante"
-
-#: src/applets/status/PowerIndicator.vala:114
-msgid "Battery remaining"
-msgstr "Restanta baterio"
-
-#: src/applets/status/PowerIndicator.vala:168
-msgid "Show battery percentage"
-msgstr "Montri baterian procenton"
-
-#: src/applets/status/PowerIndicator.vala:176
-msgid "Power settings"
-msgstr "Kurento-agordoj"
-
-#. Settings button
-#: src/applets/status/BluetoothIndicator.vala:56
-msgid "Bluetooth Settings"
-msgstr "Bludento-agordoj"
-
-#. Send files button
-#: src/applets/status/BluetoothIndicator.vala:63
-msgid "Send Files"
-msgstr "Sendi dosierojn"
-
-#. Airplane mode
-#: src/applets/status/BluetoothIndicator.vala:73
-msgid "Bluetooth Airplane Mode"
-msgstr "Bludenta aviadil-reĝimo"
-
-#: src/applets/status/BluetoothIndicator.vala:179
-msgid "Bluetooth is disabled"
-msgstr "Bludento malŝaltita"
-
-#: src/applets/status/BluetoothIndicator.vala:183
-msgid "Bluetooth is active"
-msgstr "Bludento ŝaltita"
-
-#: src/applets/status/BluetoothIndicator.vala:188
-#, c-format
-msgid "Connected to %d device"
-msgid_plural "Connected to %d devices"
-msgstr[0] "Konektita al %d aparato"
-msgstr[1] "Konektita al %d aparatoj"
-
-#: src/applets/status/SoundIndicator.vala:146
-msgid "Sound settings"
-msgstr "Sono-agordoj"
-
-#: src/applets/icon-tasklist/IconPopover.vala:92
-msgid "Launch New Instance"
-msgstr ""
-
-#: src/applets/icon-tasklist/IconPopover.vala:95
-msgid "Close All Windows"
-msgstr ""
-
-#: src/applets/icon-tasklist/IconPopover.vala:103
-#, fuzzy
-msgid "Always On Top"
-msgstr "Ĉiam"
-
-#: src/applets/icon-tasklist/IconPopover.vala:105
-#: src/applets/icon-tasklist/IconPopover.vala:473
-msgid "Maximize"
-msgstr ""
-
-#: src/applets/icon-tasklist/IconPopover.vala:106
-msgid "Minimize"
-msgstr ""
-
-#: src/applets/icon-tasklist/IconPopover.vala:361
-msgid "Unfavorite"
-msgstr ""
-
-#: src/applets/icon-tasklist/IconPopover.vala:361
-msgid "Favorite"
-msgstr ""
-
-#. If our current amount of workspaces is different than how many we have added
-#. We have items to add
-#. For workspaces we need to add
-#: src/applets/icon-tasklist/IconPopover.vala:373
-#, c-format
-msgid "Move To Workspace %i"
-msgstr ""
-
-#. Update our always on top button
-#: src/applets/icon-tasklist/IconPopover.vala:473
-msgid "Unmaximize"
-msgstr ""
-
-#: src/applets/icon-tasklist/IconPopover.vala:532
-#, fuzzy
-msgid "Close Window"
-msgstr "Fenestroj"
-
-#: src/applets/icon-tasklist/IconPopover.vala:534
-#, fuzzy
-msgid "Show Window Controls"
-msgstr "Fenestraj titoloj"
-
-#: src/applets/budgie-menu/IconChooser.vala:27
-msgid "Set menu icon from file"
-msgstr "Preni menuan piktogramon el dosiero"
-
-#: src/applets/budgie-menu/IconChooser.vala:37
-msgid "Image files"
-msgstr "Bildaj dosieroj"
-
-#: src/applets/budgie-menu/IconChooser.vala:43
-msgid "Any file"
-msgstr "Iu ajn dosiero"
-
-#: src/applets/budgie-menu/IconChooser.vala:55
-#: src/panel/settings/settings_autostart.vala:203
-#: src/panel/settings/settings_autostart.vala:376
-#: src/panel/settings/settings_applet_chooser.vala:84
-#: src/daemon/endsession.ui.h:3 src/polkit/dialog.ui.h:4
-msgid "Cancel"
-msgstr "Nuligi"
-
-#: src/applets/budgie-menu/IconChooser.vala:56
-msgid "Set icon"
-msgstr "Ŝalti piktogramon"
-
-#. Special case, "All"
-#: src/applets/budgie-menu/BudgieMenuWindow.vala:43
-msgid "All"
-msgstr "Ĉiuj"
-
-#. placeholder in case of no results
-#: src/applets/budgie-menu/BudgieMenuWindow.vala:401
-msgid "Sorry, no items found"
-msgstr ""
-
-#: src/applets/lock-keys/LockKeysApplet.vala:62
-msgid "Caps lock is active"
-msgstr "Majuskliga baskulo estas aktiva"
-
-#: src/applets/lock-keys/LockKeysApplet.vala:65
-msgid "Caps lock is not active"
-msgstr "Majuskliga baskulo ne estas aktiva"
-
-#: src/applets/lock-keys/LockKeysApplet.vala:75
-msgid "Num lock is active"
-msgstr "Nombro baskulo estas aktiva"
-
-#: src/applets/lock-keys/LockKeysApplet.vala:78
-msgid "Num lock is not active"
-msgstr "Nombro baskulo ne estas aktiva"
-
-#: src/applets/clock/ClockApplet.vala:151
-msgid "Time and date settings"
-msgstr "Agordo de tempo kaj dato"
-
-#: src/applets/clock/ClockApplet.vala:152
-msgid "Calendar"
-msgstr "Kalendaro"
-
-#. pack page2
-#: src/applets/clock/ClockApplet.vala:159
-#: src/applets/clock/ClockApplet.vala:190
-msgid "Preferences"
-msgstr "Agordoj"
-
-#: src/applets/clock/ClockApplet.vala:169
-msgid "Show date"
-msgstr "Montri daton"
-
-#: src/applets/clock/ClockApplet.vala:174
-msgid "Show seconds"
-msgstr "Montri sekundojn"
-
-#: src/applets/clock/ClockApplet.vala:180
-msgid "Use 24 hour time"
-msgstr "Uzi 24-horan tempon"
-
-#: src/applets/show-desktop/ShowDesktopApplet.vala:34
+#: src/applets/show-desktop/ShowDesktopApplet.vala:33
 msgid "Toggle the desktop"
 msgstr "Baskuligi la labortablon"
 
-#: src/applets/workspaces/WorkspaceItem.vala:72
-msgid "Rename"
-msgstr "Ŝanĝi nomon"
+#: src/applets/icon-tasklist/Buttons.vala:113
+msgid "Pin to panel"
+msgstr "Fiksi al panelo"
 
-#: src/applets/workspaces/WorkspaceItem.vala:79
-msgid "Remove"
-msgstr "Forigi"
+#: src/applets/icon-tasklist/Buttons.vala:114
+#: src/applets/icon-tasklist/Buttons.vala:483
+msgid "Unpin from panel"
+msgstr "Malfiksi el panelo"
 
-#: src/applets/caffeine/CaffeineWindow.vala:26
-msgid "Timer (minutes)"
-msgstr ""
+#: src/applets/places-indicator/PlaceItem.vala:36
+#: src/applets/places-indicator/MountItem.vala:65
+#, c-format
+msgid "Open \"%s\""
+msgstr "Malfermi \"%s\""
+
+#: src/applets/places-indicator/MountItem.vala:25
+#: src/applets/places-indicator/VolumeItem.vala:27
+msgid "Removable devices"
+msgstr "Demeteblaj aparatoj"
+
+#: src/applets/places-indicator/MountItem.vala:27
+#: src/applets/places-indicator/VolumeItem.vala:29
+msgid "Local volumes"
+msgstr "Lokaj datumportiloj"
+
+#: src/applets/places-indicator/MountItem.vala:31
+#: src/applets/places-indicator/VolumeItem.vala:33
+msgid "Network folders"
+msgstr "Retaj dosierujoj"
+
+#: src/applets/places-indicator/MountItem.vala:34
+#: src/applets/places-indicator/VolumeItem.vala:36
+msgid "Other"
+msgstr "Alia"
+
+#: src/applets/places-indicator/MountItem.vala:60
+#: src/applets/places-indicator/VolumeItem.vala:57
+msgid "Eject"
+msgstr "Elĵeti"
+
+#: src/applets/places-indicator/MountItem.vala:62
+msgid "Unmount"
+msgstr "Demeti"
+
+#: src/applets/places-indicator/MountItem.vala:78
+#: src/applets/places-indicator/VolumeItem.vala:87
+msgid "You can now safely remove"
+msgstr "Vi povas nun sekure forigi"
+
+#: src/applets/places-indicator/MountItem.vala:79
+msgid "Unknown Device"
+msgstr "Nekonata aparato"
+
+#: src/applets/places-indicator/MountItem.vala:88
+msgid "Error while ejecting device"
+msgstr "Eraro dum la aparata elĵeto"
+
+#: src/applets/places-indicator/MountItem.vala:105
+msgid "Error while unmounting volume"
+msgstr "Eraro dum la demeto de la datumportilo"
+
+#: src/applets/places-indicator/PlacesIndicator.vala:85
+#: src/applets/places-indicator/PlacesSection.vala:24
+#: src/applets/places-indicator/PlacesSection.vala:46
+#: src/applets/places-indicator/PlacesIndicator.plugin.in.h:1
+msgid "Places"
+msgstr "Lokoj"
+
+#: src/applets/places-indicator/VolumeItem.vala:43
+#, c-format
+msgid "Mount and open \"%s\""
+msgstr "Surmeti kaj malfermi \"%s\""
+
+#: src/applets/places-indicator/VolumeItem.vala:76
+#: src/applets/places-indicator/VolumeItem.vala:121
+msgid "Enter the encryption passphrase to unlock this volume"
+msgstr "Enigu la ĉifrad-pasvorton por malŝlosi ĉi tiun datumportilon"
+
+#: src/applets/places-indicator/VolumeItem.vala:119
+msgid "The password you entered is incorrect"
+msgstr "La pasvorto enigita ne estas ĝusta"
+
+#: src/applets/places-indicator/VolumeItem.vala:123
+msgid "An unknown error occurred while attempting to mount this volume"
+msgstr "Nekonata eraro okazis dum la surmeto de ĉi tiu datumportilo"
+
+#: src/applets/places-indicator/MountHelper.vala:39
+msgid "Volume is in use by other processes"
+msgstr "Datumportilo estas uzata de aliaj procezoj"
+
+#: src/applets/places-indicator/MountHelper.vala:45
+msgid "Operation aborted"
+msgstr "Operacio ĉesigita"
+
+#: src/applets/places-indicator/MountHelper.vala:57
+msgid "Type your password"
+msgstr "Enigu vian pasvorton"
+
+#: src/applets/places-indicator/PlacesIndicatorWindow.vala:181
+msgid "Nothing to display right now"
+msgstr "Nenio montrebla nun"
+
+#: src/applets/places-indicator/PlacesIndicatorWindow.vala:185
+msgid "Mount some drives"
+msgstr "Surmeti kelkajn diskojn "
+
+#: src/applets/places-indicator/PlacesIndicatorWindow.vala:185
+msgid "Enable more sections"
+msgstr "Ŝalti pliajn sekciojn"
 
 #. User Menu Creation
 #: src/applets/user-indicator/UserIndicatorWindow.vala:95
@@ -356,112 +223,150 @@ msgstr "Restartigi"
 msgid "Shutdown"
 msgstr "Malŝalti"
 
-#. IndicatorItem switch_user_menu = new IndicatorItem(_("Switch User"), "network-transmit-receive-symbolic", false);
+#. IndicatorItem switch_user_menu = new IndicatorItem(_("Switch User"),
+#. "network-transmit-receive-symbolic", false);
 #: src/applets/user-indicator/UserIndicatorWindow.vala:179
 #: src/daemon/endsession.ui.h:4
 msgid "Logout"
 msgstr "Elsaluti"
 
-#: src/applets/places-indicator/PlacesSection.vala:24
-#: src/applets/places-indicator/PlacesSection.vala:46
-#: src/applets/places-indicator/PlacesIndicator.vala:85
-#: src/applets/places-indicator/PlacesIndicator.plugin.in.h:1
-msgid "Places"
-msgstr "Lokoj"
+#: src/applets/clock/ClockApplet.vala:148
+msgid "Time and date settings"
+msgstr "Agordo de tempo kaj dato"
 
-#: src/applets/places-indicator/PlacesIndicatorWindow.vala:181
-msgid "Nothing to display right now"
-msgstr "Nenio montrebla nun"
+#: src/applets/clock/ClockApplet.vala:149
+msgid "Calendar"
+msgstr "Kalendaro"
 
-#: src/applets/places-indicator/PlacesIndicatorWindow.vala:185
-msgid "Mount some drives"
-msgstr "Surmeti kelkajn diskojn "
+#. pack page2
+#: src/applets/clock/ClockApplet.vala:156
+#: src/applets/clock/ClockApplet.vala:187
+msgid "Preferences"
+msgstr "Agordoj"
 
-#: src/applets/places-indicator/PlacesIndicatorWindow.vala:185
-msgid "Enable more sections"
-msgstr "Ŝalti pliajn sekciojn"
+#: src/applets/clock/ClockApplet.vala:166
+msgid "Show date"
+msgstr "Montri daton"
 
-#: src/applets/places-indicator/PlaceItem.vala:38
-#: src/applets/places-indicator/MountItem.vala:65
+#: src/applets/clock/ClockApplet.vala:171
+msgid "Show seconds"
+msgstr "Montri sekundojn"
+
+#: src/applets/clock/ClockApplet.vala:177
+msgid "Use 24 hour time"
+msgstr "Uzi 24-horan tempon"
+
+#. Special case, "All"
+#: src/applets/budgie-menu/BudgieMenuWindow.vala:43
+msgid "All"
+msgstr "Ĉiuj"
+
+#: src/applets/budgie-menu/IconChooser.vala:27
+msgid "Set menu icon from file"
+msgstr "Preni menuan piktogramon el dosiero"
+
+#: src/applets/budgie-menu/IconChooser.vala:37
+msgid "Image files"
+msgstr "Bildaj dosieroj"
+
+#: src/applets/budgie-menu/IconChooser.vala:43
+msgid "Any file"
+msgstr "Iu ajn dosiero"
+
+#: src/applets/budgie-menu/IconChooser.vala:55
+#: src/panel/settings/settings_applet_chooser.vala:84
+#: src/panel/settings/settings_autostart.vala:202
+#: src/panel/settings/settings_autostart.vala:365 src/daemon/endsession.ui.h:3
+#: src/polkit/dialog.ui.h:4
+msgid "Cancel"
+msgstr "Nuligi"
+
+#: src/applets/budgie-menu/IconChooser.vala:56
+msgid "Set icon"
+msgstr "Ŝalti piktogramon"
+
+#: src/applets/status/PowerIndicator.vala:97
+msgid "Battery fully charged."
+msgstr "Baterio tute ŝarĝita"
+
+#: src/applets/status/PowerIndicator.vala:100
+msgid "Unknown"
+msgstr "Nekonata"
+
+#. Set inner charging duration to hours:minutes
+#: src/applets/status/PowerIndicator.vala:109
+msgid "Battery charging"
+msgstr "Baterio ŝarĝante"
+
+#: src/applets/status/PowerIndicator.vala:114
+msgid "Battery remaining"
+msgstr "Restanta baterio"
+
+#: src/applets/status/PowerIndicator.vala:174
+msgid "Show battery percentage"
+msgstr "Montri baterian procenton"
+
+#: src/applets/status/PowerIndicator.vala:183
+msgid "Power settings"
+msgstr "Kurento-agordoj"
+
+#: src/applets/status/SoundIndicator.vala:120
+msgid "Sound settings"
+msgstr "Sono-agordoj"
+
+#: src/applets/status/BluetoothIndicator.vala:105
+msgid "Bluetooth is disabled"
+msgstr "Bludento malŝaltita"
+
+#: src/applets/status/BluetoothIndicator.vala:109
+msgid "Bluetooth is active"
+msgstr "Bludento ŝaltita"
+
+#: src/applets/status/BluetoothIndicator.vala:114
 #, c-format
-msgid "Open \"%s\""
-msgstr "Malfermi \"%s\""
+msgid "Connected to %d device"
+msgid_plural "Connected to %d devices"
+msgstr[0] "Konektita al %d aparato"
+msgstr[1] "Konektita al %d aparatoj"
 
-#: src/applets/places-indicator/MountHelper.vala:39
-msgid "Volume is in use by other processes"
-msgstr "Datumportilo estas uzata de aliaj procezoj"
+#. Settings button
+#: src/applets/status/BluetoothIndicator.vala:179
+msgid "Bluetooth Settings"
+msgstr "Bludento-agordoj"
 
-#: src/applets/places-indicator/MountHelper.vala:45
-msgid "Operation aborted"
-msgstr "Operacio ĉesigita"
+#. Send files button
+#: src/applets/status/BluetoothIndicator.vala:186
+msgid "Send Files"
+msgstr "Sendi dosierojn"
 
-#: src/applets/places-indicator/MountHelper.vala:57
-msgid "Type your password"
-msgstr "Enigu vian pasvorton"
+#. Airplane mode
+#: src/applets/status/BluetoothIndicator.vala:196
+msgid "Bluetooth Airplane Mode"
+msgstr "Bludenta aviadil-reĝimo"
 
-#: src/applets/places-indicator/VolumeItem.vala:27
-#: src/applets/places-indicator/MountItem.vala:25
-msgid "Removable devices"
-msgstr "Demeteblaj aparatoj"
+#: src/applets/workspaces/WorkspaceItem.vala:72
+msgid "Rename"
+msgstr "Ŝanĝi nomon"
 
-#: src/applets/places-indicator/VolumeItem.vala:29
-#: src/applets/places-indicator/MountItem.vala:27
-msgid "Local volumes"
-msgstr "Lokaj datumportiloj"
+#: src/applets/workspaces/WorkspaceItem.vala:79
+msgid "Remove"
+msgstr "Forigi"
 
-#: src/applets/places-indicator/VolumeItem.vala:33
-#: src/applets/places-indicator/MountItem.vala:31
-msgid "Network folders"
-msgstr "Retaj dosierujoj"
+#: src/applets/lock-keys/LockKeysApplet.vala:62
+msgid "Caps lock is active"
+msgstr "Majuskliga baskulo estas aktiva"
 
-#: src/applets/places-indicator/VolumeItem.vala:36
-#: src/applets/places-indicator/MountItem.vala:34
-msgid "Other"
-msgstr "Alia"
+#: src/applets/lock-keys/LockKeysApplet.vala:65
+msgid "Caps lock is not active"
+msgstr "Majuskliga baskulo ne estas aktiva"
 
-#: src/applets/places-indicator/VolumeItem.vala:43
-#, c-format
-msgid "Mount and open \"%s\""
-msgstr "Surmeti kaj malfermi \"%s\""
+#: src/applets/lock-keys/LockKeysApplet.vala:75
+msgid "Num lock is active"
+msgstr "Nombro baskulo estas aktiva"
 
-#: src/applets/places-indicator/VolumeItem.vala:57
-#: src/applets/places-indicator/MountItem.vala:60
-msgid "Eject"
-msgstr "Elĵeti"
-
-#: src/applets/places-indicator/VolumeItem.vala:76
-#: src/applets/places-indicator/VolumeItem.vala:121
-msgid "Enter the encryption passphrase to unlock this volume"
-msgstr "Enigu la ĉifrad-pasvorton por malŝlosi ĉi tiun datumportilon"
-
-#: src/applets/places-indicator/VolumeItem.vala:87
-#: src/applets/places-indicator/MountItem.vala:78
-msgid "You can now safely remove"
-msgstr "Vi povas nun sekure forigi"
-
-#: src/applets/places-indicator/VolumeItem.vala:119
-msgid "The password you entered is incorrect"
-msgstr "La pasvorto enigita ne estas ĝusta"
-
-#: src/applets/places-indicator/VolumeItem.vala:123
-msgid "An unknown error occurred while attempting to mount this volume"
-msgstr "Nekonata eraro okazis dum la surmeto de ĉi tiu datumportilo"
-
-#: src/applets/places-indicator/MountItem.vala:62
-msgid "Unmount"
-msgstr "Demeti"
-
-#: src/applets/places-indicator/MountItem.vala:79
-msgid "Unknown Device"
-msgstr "Nekonata aparato"
-
-#: src/applets/places-indicator/MountItem.vala:88
-msgid "Error while ejecting device"
-msgstr "Eraro dum la aparata elĵeto"
-
-#: src/applets/places-indicator/MountItem.vala:105
-msgid "Error while unmounting volume"
-msgstr "Eraro dum la demeto de la datumportilo"
+#: src/applets/lock-keys/LockKeysApplet.vala:78
+msgid "Num lock is not active"
+msgstr "Nombro baskulo ne estas aktiva"
 
 #: src/polkit/polkitdialog.vala:131
 msgid "Authentication failed"
@@ -471,26 +376,261 @@ msgstr "Aŭtentigo malsukcesis"
 msgid "Group:"
 msgstr "Grupo:"
 
-#: src/panel/settings/settings_main.vala:39
+#: src/panel/settings/settings_main.vala:41
 msgid "Appearance"
 msgstr "Aspekto"
 
-#: src/panel/settings/settings_main.vala:40
+#: src/panel/settings/settings_main.vala:42
 msgid "Panels"
 msgstr "Paneloj"
 
-#: src/panel/settings/settings_main.vala:41
+#: src/panel/settings/settings_main.vala:43
 msgid "Session"
 msgstr "Seanco"
 
-#: src/panel/settings/settings_main.vala:50
-#: src/panel/budgie-desktop-settings.desktop.in.h:1
-msgid "Budgie Desktop Settings"
-msgstr "Agordoj de la labortablo \"Budgie\""
+#. Have to override wmclass for pinning support
+#: src/panel/settings/settings_main.vala:51
+msgid "Budgie Settings"
+msgstr "Agordo de Budgie"
 
-#: src/panel/settings/settings_main.vala:81
+#: src/panel/settings/settings_main.vala:83
 msgid "Create new panel"
 msgstr "Krei novan panelon"
+
+#: src/panel/settings/settings_style.vala:34
+msgid "Style"
+msgstr "Stilo"
+
+#: src/panel/settings/settings_style.vala:44
+msgid "Widgets"
+msgstr "Fenestraĵoj"
+
+#: src/panel/settings/settings_style.vala:45
+msgid "Set the appearance of window decorations and controls"
+msgstr "Elekti la aspekton de fenestraj ornamaĵoj kaj kontroliloj"
+
+#: src/panel/settings/settings_style.vala:49
+msgid "Icons"
+msgstr "Piktogramoj"
+
+#: src/panel/settings/settings_style.vala:50
+msgid "Set the globally used icon theme"
+msgstr "Elekti la ĝeneralan piktogramo-temon"
+
+#: src/panel/settings/settings_style.vala:54
+msgid "Cursors"
+msgstr "Kursoroj"
+
+#: src/panel/settings/settings_style.vala:55
+msgid "Set the globally used mouse cursor theme"
+msgstr "Elekti la ĝeneralan kursor-temon"
+
+#: src/panel/settings/settings_style.vala:63
+msgid "Dark theme"
+msgstr "Malluma temo"
+
+#: src/panel/settings/settings_style.vala:67
+msgid "Built-in theme"
+msgstr "Integrita temo"
+
+#: src/panel/settings/settings_style.vala:68
+msgid ""
+"When enabled, the desktop component style will be overriden with the built-"
+"in one"
+msgstr "Se ĝi estas ŝaltita, la labortabla komponanto-stilo estos transpasita fare de la integrita"
+
+#: src/panel/settings/settings_style.vala:72
+msgid "Animations"
+msgstr "Animacioj"
+
+#: src/panel/settings/settings_style.vala:73
+msgid "Control whether windows and controls use animations"
+msgstr "Ĝi starigas ĉu fenestroj kaj kontroliloj uzas animaciojn"
+
+#: src/panel/settings/settings_applet_chooser.vala:79
+msgid "Choose an applet"
+msgstr "Elekti apleton"
+
+#: src/panel/settings/settings_applet_chooser.vala:85
+#: src/panel/settings/settings_panel_applets.vala:245
+msgid "Add applet"
+msgstr "Aldoni apleton"
+
+#: src/panel/settings/settings_autostart.vala:140
+msgid "Untitled"
+msgstr "Sentitola"
+
+#: src/panel/settings/settings_autostart.vala:147
+msgid "No description"
+msgstr "Sen priskribo"
+
+#: src/panel/settings/settings_autostart.vala:170
+msgid "running"
+msgstr "funkcianta"
+
+#: src/panel/settings/settings_autostart.vala:193
+msgid "Applications"
+msgstr "Aplikaĵoj"
+
+#: src/panel/settings/settings_autostart.vala:203
+#: src/panel/settings/settings_autostart.vala:366
+msgid "Add"
+msgstr "Aldoni"
+
+#: src/panel/settings/settings_autostart.vala:360
+#: src/panel/settings/settings_autostart.vala:393
+msgid "Command"
+msgstr "Komando"
+
+#: src/panel/settings/settings_autostart.vala:376
+msgid "An entry with that title already exists"
+msgstr "Elemento kun tiu titolo jam ekzistas"
+
+#: src/panel/settings/settings_autostart.vala:379
+msgid "Title"
+msgstr "Titolo"
+
+#: src/panel/settings/settings_autostart.vala:383
+#: src/panel/settings/settings_autostart.vala:397
+msgid "Required"
+msgstr "Bezonata"
+
+#: src/panel/settings/settings_autostart.vala:386
+msgid "Description"
+msgstr "Priskribo"
+
+#: src/panel/settings/settings_autostart.vala:390
+msgid "Optional"
+msgstr "Malnepra"
+
+#: src/panel/settings/settings_autostart.vala:454
+msgid "Autostart"
+msgstr "Aŭtolanĉo"
+
+#: src/panel/settings/settings_wm.vala:29
+msgid "Windows"
+msgstr "Fenestroj"
+
+#: src/panel/settings/settings_wm.vala:38
+msgid "Button layout"
+msgstr "Butono-aranĝo"
+
+#: src/panel/settings/settings_wm.vala:39
+msgid "Change the layout of buttons in application titlebars"
+msgstr "Ĝi ŝanĝas la buton-aranĝon en aplikaĵaj titolbretoj"
+
+#: src/panel/settings/settings_wm.vala:45
+msgid "Right (standard)"
+msgstr "Desktra (defaŭlte)"
+
+#: src/panel/settings/settings_wm.vala:47
+#: src/panel/settings/settings_panel.vala:180
+msgid "Left"
+msgstr "Maldekstra"
+
+#: src/panel/settings/settings_wm.vala:59
+msgid "Attach modal dialogs to windows"
+msgstr "Kunligi dialogojn al fenestroj"
+
+#: src/panel/settings/settings_wm.vala:60
+msgid ""
+"Modal dialogs will become attached to the parent window and move together "
+"when dragged"
+msgstr "Dialogoj estos kunligitaj al la patra fenestro, ili moviĝos kune kiam ili estos trenitaj"
+
+#: src/panel/settings/settings_wm.vala:64
+msgid "Automatic tiling"
+msgstr "Aŭtomata kahelo"
+
+#: src/panel/settings/settings_wm.vala:65
+msgid ""
+"Windows will automatically tile when dragged into the top of the screen or "
+"the far corners"
+msgstr "Fenestroj estos aŭtomate kahelitaj kiam ili estos trenitaj al la ekran-supro aŭ al la ekran-anguloj"
+
+#: src/panel/settings/settings_wm.vala:70
+msgid "Disable unredirection of windows"
+msgstr "Malŝalti la fenestran \"unredirection\""
+
+#: src/panel/settings/settings_wm.vala:71
+msgid ""
+"This option is for advanced users. Use this if you are having graphical or "
+"performance issues with dedicated GPUs"
+msgstr "Ĉi tiu elekto estas por avangardaj uzuloj. Uzu ĝin se vi havas grafikajn aŭ rendimentajn problemojn kun dediĉitaj grafik-kartojn"
+
+#: src/panel/settings/settings_fonts.vala:32
+msgid "Fonts"
+msgstr "Tiparoj"
+
+#: src/panel/settings/settings_fonts.vala:43
+msgid "Window Titles"
+msgstr "Fenestraj titoloj"
+
+#: src/panel/settings/settings_fonts.vala:44
+msgid "Set the font used in the titlebars of applications"
+msgstr "Elekti la fonton uzitan en la titol-breto de la aplikaĵoj"
+
+#: src/panel/settings/settings_fonts.vala:50
+msgid "Documents"
+msgstr "Dokumentoj"
+
+#: src/panel/settings/settings_fonts.vala:51
+msgid "Set the display font used by for documents"
+msgstr "Elekti la fonton uzitan de dokumentoj"
+
+#: src/panel/settings/settings_fonts.vala:57
+msgid "Interface"
+msgstr "Interfaco"
+
+#: src/panel/settings/settings_fonts.vala:58
+msgid "Set the primary font used by application controls"
+msgstr "Elekti la ĉefan fonton uzitan de aplikaĵ-agordiloj"
+
+#: src/panel/settings/settings_fonts.vala:64
+msgid "Monospace"
+msgstr "Egallarĝa"
+
+#: src/panel/settings/settings_fonts.vala:65
+msgid "Set the fixed-width font used by text dominant applications"
+msgstr "Ĝi starigas la fiksitan larĝecon uzotan de aplikaĵoj"
+
+#: src/panel/settings/settings_panel_dialogs.vala:29
+msgid "Confirm panel removal"
+msgstr "Konfirmi panelan forigon"
+
+#: src/panel/settings/settings_panel_dialogs.vala:36
+msgid "Do you really want to remove this panel? This action cannot be undone."
+msgstr "Ĉu vi vere volas forigi ĉi tiun panelon? Tiu ago ne povas esti malfarita"
+
+#: src/panel/settings/settings_panel_dialogs.vala:51
+#: src/panel/settings/settings_panel_dialogs.vala:114
+msgid "Don't ask me again"
+msgstr "Ne demandu plu"
+
+#: src/panel/settings/settings_panel_dialogs.vala:60
+msgid "Remove panel"
+msgstr "Forigi panelon"
+
+#: src/panel/settings/settings_panel_dialogs.vala:61
+msgid "Keep panel"
+msgstr "Konservi panelon"
+
+#: src/panel/settings/settings_panel_dialogs.vala:92
+msgid "Confirm applet removal"
+msgstr "Konfirmi apletan forigon"
+
+#: src/panel/settings/settings_panel_dialogs.vala:99
+msgid ""
+"Do you really want to remove this applet? This action cannot be undone."
+msgstr "Ĉu vi vere volas forigi tiun apleton? Tiu ago ne povas esti malfarita"
+
+#: src/panel/settings/settings_panel_dialogs.vala:123
+msgid "Remove applet"
+msgstr "Forigi apleton"
+
+#: src/panel/settings/settings_panel_dialogs.vala:124
+msgid "Keep applet"
+msgstr "Konservi apleton"
 
 #: src/panel/settings/settings_panel.vala:80
 msgid "Remove this panel from the screen"
@@ -536,11 +676,6 @@ msgstr "Supro"
 msgid "Right"
 msgstr "Dekstra"
 
-#: src/panel/settings/settings_panel.vala:180
-#: src/panel/settings/settings_wm.vala:88
-msgid "Left"
-msgstr "Maldekstra"
-
 #: src/panel/settings/settings_panel.vala:182
 msgid "Bottom"
 msgstr "Malsupro"
@@ -583,9 +718,7 @@ msgstr "Grandeco"
 
 #: src/panel/settings/settings_panel.vala:240
 msgid "Set the size (width or height, depending on orientation) of this panel"
-msgstr ""
-"Fiksi la grandon (larĝeco aŭ alteco, depende de la orientiĝo) de ĉi tiu "
-"panelo"
+msgstr "Fiksi la grandon (larĝeco aŭ alteco, depende de la orientiĝo) de ĉi tiu panelo"
 
 #: src/panel/settings/settings_panel.vala:247
 msgid "Automatically hide"
@@ -593,9 +726,7 @@ msgstr "Aŭtomate kaŝi"
 
 #: src/panel/settings/settings_panel.vala:248
 msgid "When set, this panel will hide from view to maximize screen estate"
-msgstr ""
-"Kiam ĝi estas aktiva, la panelo ne estos videbla por maksimumigi la ekranan "
-"spacon"
+msgstr "Kiam ĝi estas aktiva, la panelo ne estos videbla por maksimumigi la ekranan spacon"
 
 #: src/panel/settings/settings_panel.vala:255
 msgid "Transparency"
@@ -619,11 +750,9 @@ msgstr "Stiligi regionojn"
 
 #: src/panel/settings/settings_panel.vala:269
 msgid ""
-"Adds a hint to the panel so that each of the panel's three main areas may be "
-"themed differently."
-msgstr ""
-"Ĝi apartigas la tri ĉefajn areojn de la panelo por ke ili povu esti "
-"agorditaj malsammaniere"
+"Adds a hint to the panel so that each of the panel's three main areas may be"
+" themed differently."
+msgstr "Ĝi apartigas la tri ĉefajn areojn de la panelo por ke ili povu esti agorditaj malsammaniere"
 
 #: src/panel/settings/settings_panel.vala:276
 msgid "Dock mode"
@@ -633,112 +762,31 @@ msgstr "Doka reĝimo"
 msgid ""
 "When in dock mode, the panel will use the minimal amount of space possible, "
 "freeing up valuable screen estate"
-msgstr ""
-"Kiam doka reĝimo estas aktiva, la panelo uzos la minimuman eblan kvanton da "
-"spaco, liberigante tiel ekranan spacon"
+msgstr "Kiam doka reĝimo estas aktiva, la panelo uzos la minimuman eblan kvanton da spaco, liberigante tiel ekranan spacon"
 
-#: src/panel/settings/settings_raven.vala:30
-msgid "Raven"
-msgstr ""
+#: src/panel/settings/settings_panel_applets.vala:22
+msgid "Configure applet"
+msgstr "Agordi apleton"
 
-#: src/panel/settings/settings_raven.vala:40
-msgid "Allow raising volume above 100%"
-msgstr ""
+#: src/panel/settings/settings_panel_applets.vala:246
+msgid "Choose a new applet to add to this panel"
+msgstr "Elektu novan apleton por aldoni al ĉi tiu panelo"
 
-#: src/panel/settings/settings_raven.vala:41
-msgid ""
-"Allows raising the volume via Sound Settings as well as the Sound Output "
-"Widget in Raven up to 150%."
-msgstr ""
+#: src/panel/settings/settings_panel_applets.vala:260
+msgid "No settings available"
+msgstr "Agordoj ne disponeblaj"
 
-#: src/panel/settings/settings_raven.vala:45
-msgid "Enable display of week numbers in Calendar"
-msgstr ""
+#: src/panel/settings/settings_panel_applets.vala:415
+msgid "Start"
+msgstr "Komenco"
 
-#: src/panel/settings/settings_raven.vala:46
-msgid ""
-"This setting enables the display of week numbers in the Calendar widget."
-msgstr ""
+#: src/panel/settings/settings_panel_applets.vala:418
+msgid "Center"
+msgstr "Centro"
 
-#: src/panel/settings/settings_raven.vala:51
-msgid "Show Calendar Widget"
-msgstr ""
-
-#: src/panel/settings/settings_raven.vala:52
-msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr ""
-
-#: src/panel/settings/settings_raven.vala:57
-msgid "Show Sound Output Widget"
-msgstr ""
-
-#: src/panel/settings/settings_raven.vala:58
-msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr ""
-
-#: src/panel/settings/settings_raven.vala:63
-msgid "Show Microphone Input Widget"
-msgstr ""
-
-#: src/panel/settings/settings_raven.vala:64
-msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
-msgstr ""
-
-#: src/panel/settings/settings_raven.vala:69
-msgid "Show Media Playback Controls Widget"
-msgstr ""
-
-#: src/panel/settings/settings_raven.vala:70
-msgid ""
-"Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets "
-"section."
-msgstr ""
-
-#: src/panel/settings/settings_raven.vala:75
-msgid "Show Power Strip"
-msgstr ""
-
-#: src/panel/settings/settings_raven.vala:76
-msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr ""
-
-#: src/panel/settings/settings_panel_dialogs.vala:29
-msgid "Confirm panel removal"
-msgstr "Konfirmi panelan forigon"
-
-#: src/panel/settings/settings_panel_dialogs.vala:36
-msgid "Do you really want to remove this panel? This action cannot be undone."
-msgstr ""
-"Ĉu vi vere volas forigi ĉi tiun panelon? Tiu ago ne povas esti malfarita"
-
-#: src/panel/settings/settings_panel_dialogs.vala:51
-#: src/panel/settings/settings_panel_dialogs.vala:114
-msgid "Don't ask me again"
-msgstr "Ne demandu plu"
-
-#: src/panel/settings/settings_panel_dialogs.vala:60
-msgid "Remove panel"
-msgstr "Forigi panelon"
-
-#: src/panel/settings/settings_panel_dialogs.vala:61
-msgid "Keep panel"
-msgstr "Konservi panelon"
-
-#: src/panel/settings/settings_panel_dialogs.vala:92
-msgid "Confirm applet removal"
-msgstr "Konfirmi apletan forigon"
-
-#: src/panel/settings/settings_panel_dialogs.vala:99
-msgid "Do you really want to remove this applet? This action cannot be undone."
-msgstr "Ĉu vi vere volas forigi tiun apleton? Tiu ago ne povas esti malfarita"
-
-#: src/panel/settings/settings_panel_dialogs.vala:123
-msgid "Remove applet"
-msgstr "Forigi apleton"
-
-#: src/panel/settings/settings_panel_dialogs.vala:124
-msgid "Keep applet"
-msgstr "Konservi apleton"
+#: src/panel/settings/settings_panel_applets.vala:421
+msgid "End"
+msgstr "Fino"
 
 #: src/panel/settings/settings_desktop.vala:33
 msgid "Desktop"
@@ -750,331 +798,67 @@ msgstr "Labortablaj piktogramoj"
 
 #: src/panel/settings/settings_desktop.vala:44
 msgid "Control whether to allow launchers and icons on the desktop"
-msgstr ""
-"Ĝi regas ĉu estas permesita la ĉeesto de lanĉiloj kaj piktogramoj en la "
-"labortablo"
+msgstr "Ĝi regas ĉu estas permesita la ĉeesto de lanĉiloj kaj piktogramoj en la labortablo"
 
-#: src/panel/settings/settings_desktop.vala:54
+#: src/panel/settings/settings_desktop.vala:49
 msgid "Home directory"
 msgstr "Hejma dosierujo"
 
-#: src/panel/settings/settings_desktop.vala:55
+#: src/panel/settings/settings_desktop.vala:50
 msgid "Add a shortcut to your home directory on the desktop"
 msgstr "Ĝi aldonas simbolan ligilon al via hejma dosierujo en la labortablo"
 
-#: src/panel/settings/settings_desktop.vala:60
+#: src/panel/settings/settings_desktop.vala:55
 msgid "Network servers"
 msgstr "Ret-serviloj"
 
-#: src/panel/settings/settings_desktop.vala:61
+#: src/panel/settings/settings_desktop.vala:56
 msgid "Add a shortcut to your local network servers on the desktop"
-msgstr ""
-"Ĝi aldonas simbolan ligilon al viaj lokaj ret-serviloj en la labortablo"
+msgstr "Ĝi aldonas simbolan ligilon al viaj lokaj ret-serviloj en la labortablo"
 
-#: src/panel/settings/settings_desktop.vala:66
+#: src/panel/settings/settings_desktop.vala:61
 msgid "Trash"
 msgstr "Rubujo"
 
-#: src/panel/settings/settings_desktop.vala:67
+#: src/panel/settings/settings_desktop.vala:62
 msgid "Add a shortcut to the Trash directory on the desktop"
 msgstr "Ĝi aldonas simbolan ligilon al la rubuja dosierujo en la labortablo"
 
-#: src/panel/settings/settings_desktop.vala:72
+#: src/panel/settings/settings_desktop.vala:67
 msgid "Mounted volumes"
 msgstr "Muntitaj datumportiloj"
 
-#: src/panel/settings/settings_desktop.vala:73
+#: src/panel/settings/settings_desktop.vala:68
 msgid "Mounted volumes & drives will appear on the desktop"
 msgstr "Muntitaj datumportiloj kaj diskoj aperos en la labortablo"
-
-#: src/panel/settings/settings_style.vala:32
-msgid "Style"
-msgstr "Stilo"
-
-#: src/panel/settings/settings_style.vala:42
-msgid "Widgets"
-msgstr "Fenestraĵoj"
-
-#: src/panel/settings/settings_style.vala:43
-msgid "Set the appearance of window decorations and controls"
-msgstr "Elekti la aspekton de fenestraj ornamaĵoj kaj kontroliloj"
-
-#: src/panel/settings/settings_style.vala:47
-msgid "Icons"
-msgstr "Piktogramoj"
-
-#: src/panel/settings/settings_style.vala:48
-msgid "Set the globally used icon theme"
-msgstr "Elekti la ĝeneralan piktogramo-temon"
-
-#: src/panel/settings/settings_style.vala:52
-msgid "Cursors"
-msgstr "Kursoroj"
-
-#: src/panel/settings/settings_style.vala:53
-msgid "Set the globally used mouse cursor theme"
-msgstr "Elekti la ĝeneralan kursor-temon"
-
-#: src/panel/settings/settings_style.vala:61
-msgid "Dark theme"
-msgstr "Malluma temo"
-
-#: src/panel/settings/settings_style.vala:65
-msgid "Built-in theme"
-msgstr "Integrita temo"
-
-#: src/panel/settings/settings_style.vala:66
-#, fuzzy
-msgid ""
-"When enabled, the desktop component style will override the built-in one"
-msgstr ""
-"Se ĝi estas ŝaltita, la labortabla komponanto-stilo estos transpasita fare "
-"de la integrita"
-
-#: src/panel/settings/settings_style.vala:70
-msgid "Animations"
-msgstr "Animacioj"
-
-#: src/panel/settings/settings_style.vala:71
-msgid "Control whether windows and controls use animations"
-msgstr "Ĝi starigas ĉu fenestroj kaj kontroliloj uzas animaciojn"
-
-#: src/panel/settings/settings_autostart.vala:141
-msgid "Untitled"
-msgstr "Sentitola"
-
-#: src/panel/settings/settings_autostart.vala:148
-msgid "No description"
-msgstr "Sen priskribo"
-
-#: src/panel/settings/settings_autostart.vala:171
-msgid "running"
-msgstr "funkcianta"
-
-#: src/panel/settings/settings_autostart.vala:194
-msgid "Applications"
-msgstr "Aplikaĵoj"
-
-#: src/panel/settings/settings_autostart.vala:204
-#: src/panel/settings/settings_autostart.vala:377
-msgid "Add"
-msgstr "Aldoni"
-
-#: src/panel/settings/settings_autostart.vala:371
-#: src/panel/settings/settings_autostart.vala:404
-msgid "Command"
-msgstr "Komando"
-
-#: src/panel/settings/settings_autostart.vala:387
-msgid "An entry with that title already exists"
-msgstr "Elemento kun tiu titolo jam ekzistas"
-
-#: src/panel/settings/settings_autostart.vala:390
-msgid "Title"
-msgstr "Titolo"
-
-#: src/panel/settings/settings_autostart.vala:394
-#: src/panel/settings/settings_autostart.vala:408
-msgid "Required"
-msgstr "Bezonata"
-
-#: src/panel/settings/settings_autostart.vala:397
-msgid "Description"
-msgstr "Priskribo"
-
-#: src/panel/settings/settings_autostart.vala:401
-msgid "Optional"
-msgstr "Malnepra"
-
-#: src/panel/settings/settings_autostart.vala:465
-msgid "Autostart"
-msgstr "Aŭtolanĉo"
-
-#: src/panel/settings/settings_autostart.vala:483
-#, fuzzy
-msgid "Autostart apps"
-msgstr "Aŭtolanĉo"
-
-#: src/panel/settings/settings_panel_applets.vala:22
-msgid "Configure applet"
-msgstr "Agordi apleton"
-
-#: src/panel/settings/settings_panel_applets.vala:245
-#: src/panel/settings/settings_applet_chooser.vala:85
-msgid "Add applet"
-msgstr "Aldoni apleton"
-
-#: src/panel/settings/settings_panel_applets.vala:246
-msgid "Choose a new applet to add to this panel"
-msgstr "Elektu novan apleton por aldoni al ĉi tiu panelo"
-
-#: src/panel/settings/settings_panel_applets.vala:260
-msgid "No settings available"
-msgstr "Agordoj ne disponeblaj"
-
-#: src/panel/settings/settings_panel_applets.vala:414
-msgid "Start"
-msgstr "Komenco"
-
-#: src/panel/settings/settings_panel_applets.vala:417
-msgid "Center"
-msgstr "Centro"
-
-#: src/panel/settings/settings_panel_applets.vala:420
-msgid "End"
-msgstr "Fino"
-
-#: src/panel/settings/settings_wm.vala:32
-msgid "Windows"
-msgstr "Fenestroj"
-
-#: src/panel/settings/settings_wm.vala:41
-msgid "Attach modal dialogs to windows"
-msgstr "Kunligi dialogojn al fenestroj"
-
-#: src/panel/settings/settings_wm.vala:42
-msgid ""
-"Modal dialogs will become attached to the parent window and move together "
-"when dragged"
-msgstr ""
-"Dialogoj estos kunligitaj al la patra fenestro, ili moviĝos kune kiam ili "
-"estos trenitaj"
-
-#: src/panel/settings/settings_wm.vala:47
-msgid "Button layout"
-msgstr "Butono-aranĝo"
-
-#: src/panel/settings/settings_wm.vala:48
-msgid "Change the layout of buttons in application titlebars"
-msgstr "Ĝi ŝanĝas la buton-aranĝon en aplikaĵaj titolbretoj"
-
-#: src/panel/settings/settings_wm.vala:53
-msgid "Center new windows on screen"
-msgstr ""
-
-#: src/panel/settings/settings_wm.vala:54
-msgid "Center newly launched windows on the current screen"
-msgstr ""
-
-#: src/panel/settings/settings_wm.vala:59
-msgid "Disable Night Light mode when windows are fullscreen"
-msgstr ""
-
-#: src/panel/settings/settings_wm.vala:60
-msgid ""
-"Disables Night Light mode when a window is fullscreen. Re-enables when "
-"leaving fullscreen."
-msgstr ""
-
-#: src/panel/settings/settings_wm.vala:65
-msgid "Automatic tiling"
-msgstr "Aŭtomata kahelo"
-
-#: src/panel/settings/settings_wm.vala:66
-msgid ""
-"Windows will automatically tile when dragged into the top of the screen or "
-"the far corners"
-msgstr ""
-"Fenestroj estos aŭtomate kahelitaj kiam ili estos trenitaj al la ekran-supro "
-"aŭ al la ekran-anguloj"
-
-#: src/panel/settings/settings_wm.vala:71
-msgid "Enable window focus change on mouse enter and leave"
-msgstr ""
-
-#: src/panel/settings/settings_wm.vala:72
-msgid ""
-"Enables window focus to apply when the mouse enters the window and unfocus "
-"when the mouse leaves the window."
-msgstr ""
-
-#: src/panel/settings/settings_wm.vala:78
-msgid "Disable unredirection of windows"
-msgstr "Malŝalti la fenestran \"unredirection\""
-
-#: src/panel/settings/settings_wm.vala:79
-msgid ""
-"This option is for advanced users. Use this if you are having graphical or "
-"performance issues with dedicated GPUs"
-msgstr ""
-"Ĉi tiu elekto estas por avangardaj uzuloj. Uzu ĝin se vi havas grafikajn aŭ "
-"rendimentajn problemojn kun dediĉitaj grafik-kartojn"
-
-#: src/panel/settings/settings_wm.vala:86
-msgid "Right (standard)"
-msgstr "Desktra (defaŭlte)"
-
-#: src/panel/settings/settings_fonts.vala:33
-msgid "Fonts"
-msgstr "Tiparoj"
-
-#: src/panel/settings/settings_fonts.vala:44
-msgid "Window Titles"
-msgstr "Fenestraj titoloj"
-
-#: src/panel/settings/settings_fonts.vala:45
-msgid "Set the font used in the titlebars of applications"
-msgstr "Elekti la fonton uzitan en la titol-breto de la aplikaĵoj"
-
-#: src/panel/settings/settings_fonts.vala:51
-msgid "Documents"
-msgstr "Dokumentoj"
-
-#: src/panel/settings/settings_fonts.vala:52
-msgid "Set the display font used by for documents"
-msgstr "Elekti la fonton uzitan de dokumentoj"
-
-#: src/panel/settings/settings_fonts.vala:58
-msgid "Interface"
-msgstr "Interfaco"
-
-#: src/panel/settings/settings_fonts.vala:59
-msgid "Set the primary font used by application controls"
-msgstr "Elekti la ĉefan fonton uzitan de aplikaĵ-agordiloj"
-
-#: src/panel/settings/settings_fonts.vala:65
-msgid "Monospace"
-msgstr "Egallarĝa"
-
-#: src/panel/settings/settings_fonts.vala:66
-msgid "Set the fixed-width font used by text dominant applications"
-msgstr "Ĝi starigas la fiksitan larĝecon uzotan de aplikaĵoj"
-
-#: src/panel/settings/settings_fonts.vala:72
-msgid "Text scaling"
-msgstr ""
-
-#: src/panel/settings/settings_fonts.vala:73
-msgid "Set the text scaling factor"
-msgstr ""
-
-#: src/panel/settings/settings_applet_chooser.vala:79
-msgid "Choose an applet"
-msgstr "Elekti apleton"
 
 #: src/daemon/endsession.ui.h:2
 msgid "Are you sure you want to end your session?"
 msgstr "Ĉu vi vere volas fini vian seancon?"
 
-#: src/applets/icon-tasklist/settings.ui.h:1
-msgid "Show all windows on click"
-msgstr ""
+#: src/daemon/tabswitcher.ui.h:1
+msgid " - "
+msgstr "-"
 
-#: src/applets/icon-tasklist/settings.ui.h:2
-msgid "Only show favorited"
-msgstr ""
+#: src/applets/places-indicator/settings.ui.h:1
+msgid "Show label"
+msgstr "Montri etikedon"
 
-#: src/applets/icon-tasklist/settings.ui.h:3
-msgid "Lock icons"
-msgstr ""
+#: src/applets/places-indicator/settings.ui.h:2
+msgid "Show places"
+msgstr "Montri lokojn"
 
-#: src/applets/icon-tasklist/settings.ui.h:4
-msgid "Restrict to Workspace"
-msgstr ""
+#: src/applets/places-indicator/settings.ui.h:3
+msgid "Show network folders"
+msgstr "Montri retajn dosierujojn"
 
-#: src/applets/icon-tasklist/settings.ui.h:5
-msgid "Window grouping"
-msgstr ""
+#: src/applets/places-indicator/settings.ui.h:4
+msgid "Show removable drives"
+msgstr "Montri demeteblajn diskojn"
+
+#: src/applets/places-indicator/settings.ui.h:5
+msgid "Always expand places"
+msgstr "Ĉiam etendi lokojn"
 
 #: src/applets/night-light/indicator_window.ui.h:1
 #: src/applets/night-light/NightLight.plugin.in.h:1
@@ -1101,10 +885,6 @@ msgstr "Mane"
 msgid "Display Settings"
 msgstr "Ekranaj agordoj"
 
-#: src/applets/spacer/settings.ui.h:1
-msgid "Spacer size"
-msgstr "Interspaco grandeco"
-
 #: src/applets/budgie-menu/settings.ui.h:1
 msgid "Show Menu Label"
 msgstr "Montri menuan etikedon"
@@ -1129,55 +909,9 @@ msgstr "Inversigita muso"
 msgid "Menu Icon"
 msgstr "Menua piktogramo"
 
-#: src/applets/workspaces/settings.ui.h:1
-msgid "\"Add\" button visibility"
-msgstr ""
-
-#: src/applets/workspaces/settings.ui.h:2
-msgid "Don't show"
-msgstr ""
-
-#: src/applets/workspaces/settings.ui.h:3
-msgid "Show on mouseover"
-msgstr ""
-
-#: src/applets/workspaces/settings.ui.h:4
-#, fuzzy
-msgid "Always show"
-msgstr "Ĉiam"
-
-#: src/applets/caffeine/settings.ui.h:1
-#, fuzzy
-msgid "Enable notification"
-msgstr "Neniu nova sciigo"
-
-#: src/applets/caffeine/settings.ui.h:2
-msgid "Maximize brightness"
-msgstr ""
-
-#: src/applets/caffeine/settings.ui.h:3
-msgid "Brightness Level"
-msgstr ""
-
-#: src/applets/places-indicator/settings.ui.h:1
-msgid "Show label"
-msgstr "Montri etikedon"
-
-#: src/applets/places-indicator/settings.ui.h:2
-msgid "Show places"
-msgstr "Montri lokojn"
-
-#: src/applets/places-indicator/settings.ui.h:3
-msgid "Show network folders"
-msgstr "Montri retajn dosierujojn"
-
-#: src/applets/places-indicator/settings.ui.h:4
-msgid "Show removable drives"
-msgstr "Montri demeteblajn diskojn"
-
-#: src/applets/places-indicator/settings.ui.h:5
-msgid "Always expand places"
-msgstr "Ĉiam etendi lokojn"
+#: src/applets/spacer/settings.ui.h:1
+msgid "Spacer size"
+msgstr "Interspaco grandeco"
 
 #: src/polkit/dialog.ui.h:1
 msgid "Authentication Required"
@@ -1195,8 +929,8 @@ msgstr "Aŭtentigo estas nepra"
 msgid "Authenticate"
 msgstr "Aŭtentigo"
 
-#: src/session/budgie-desktop.desktop.in.in.h:1
 #: src/session/budgie-desktop.session.in.in.h:1
+#: src/session/budgie-desktop.desktop.in.in.h:1
 msgid "Budgie Desktop"
 msgstr "Budgie Labortablo"
 
@@ -1204,70 +938,61 @@ msgstr "Budgie Labortablo"
 msgid "This session logs you into the Budgie Desktop"
 msgstr "Ĉi tiu seanco registras vin en la Budgie Labortablo"
 
-#: src/applets/tray/TrayApplet.plugin.in.h:1
-msgid "System Tray"
-msgstr "Sistempleto"
-
-#: src/applets/status/StatusApplet.plugin.in.h:1
-msgid "Status Indicator"
-msgstr "Statusa Indikilo"
-
-#: src/applets/icon-tasklist/IconTasklistApplet.plugin.in.h:1
-msgid "Icon Task List"
-msgstr "Ikona Taskaro"
-
-#: src/applets/spacer/SpacerApplet.plugin.in.h:1
-msgid "Spacer"
-msgstr "Interspaco"
-
-#: src/applets/budgie-menu/BudgieMenu.plugin.in.h:1
-msgid "Budgie Menu"
-msgstr "Menuo de Budgie"
-
-#: src/applets/lock-keys/LockKeysApplet.plugin.in.h:1
-msgid "Lock Keys Indicator"
-msgstr "Baskul-klavaj Indikilo"
-
-#: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
-msgid "Raven Sidebar Control"
-msgstr "Raven Flanka-breta Agordilo"
-
-#: src/applets/clock/ClockApplet.plugin.in.h:1
-msgid "Clock"
-msgstr "Horloĝo"
-
-#: src/applets/separator/SeparatorApplet.plugin.in.h:1
-msgid "Separator"
-msgstr "Apartigilo"
+#: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
+msgid "Keyboard Layout Indicator"
+msgstr "Klavararanĝa Indikilo"
 
 #: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
 msgid "Show Desktop Button"
 msgstr "Montru Labortabla Butono"
 
-#: src/applets/workspaces/WorkspacesApplet.plugin.in.h:1
-msgid "Workspace Switcher"
-msgstr "Laborspaco Ŝanĝilo"
+#: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
+msgid "Raven Sidebar Control"
+msgstr "Raven Flanka-breta Agordilo"
 
-#: src/applets/tasklist/TasklistApplet.plugin.in.h:1
-msgid "Task List"
-msgstr "Taskaro"
-
-#: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
-msgid "Caffeine"
-msgstr ""
-
-#: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
-msgid "Keyboard Layout Indicator"
-msgstr "Klavararanĝa Indikilo"
+#: src/applets/icon-tasklist/IconTasklistApplet.plugin.in.h:1
+msgid "Icon Task List"
+msgstr "Ikona Taskaro"
 
 #: src/applets/user-indicator/UserIndicator.plugin.in.h:1
 msgid "User Indicator"
 msgstr "Uzul-indikilo"
 
-#: src/panel/budgie-desktop-settings.desktop.in.h:2
-#, fuzzy
-msgid "Change desktop appearance and behavior"
-msgstr "Ĝi ŝanĝas labortablan aspekton kaj konduton"
+#: src/applets/clock/ClockApplet.plugin.in.h:1
+msgid "Clock"
+msgstr "Horloĝo"
+
+#: src/applets/budgie-menu/BudgieMenu.plugin.in.h:1
+msgid "Budgie Menu"
+msgstr "Menuo de Budgie"
+
+#: src/applets/tray/TrayApplet.plugin.in.h:1
+msgid "System Tray"
+msgstr "Sistempleto"
+
+#: src/applets/separator/SeparatorApplet.plugin.in.h:1
+msgid "Separator"
+msgstr "Apartigilo"
+
+#: src/applets/status/StatusApplet.plugin.in.h:1
+msgid "Status Indicator"
+msgstr "Statusa Indikilo"
+
+#: src/applets/spacer/SpacerApplet.plugin.in.h:1
+msgid "Spacer"
+msgstr "Interspaco"
+
+#: src/applets/tasklist/TasklistApplet.plugin.in.h:1
+msgid "Task List"
+msgstr "Taskaro"
+
+#: src/applets/workspaces/WorkspacesApplet.plugin.in.h:1
+msgid "Workspace Switcher"
+msgstr "Laborspaco Ŝanĝilo"
+
+#: src/applets/lock-keys/LockKeysApplet.plugin.in.h:1
+msgid "Lock Keys Indicator"
+msgstr "Baskul-klavaj Indikilo"
 
 #: src/panel/budgie-panel.desktop.in.h:1
 msgid "Budgie Panel"
@@ -1277,24 +1002,12 @@ msgstr "Panelo de Budgie"
 msgid ""
 "Launch other applications and provide various utilities to manage windows, "
 "show the time, etc."
-msgstr ""
-"Ĝi lanĉas aliajn aplikaĵojn kaj havigas kelkajn utilaĵojn por mastrumi "
-"vindozojn, montri la tempon, ktp."
+msgstr "Ĝi lanĉas aliajn aplikaĵojn kaj havigas kelkajn utilaĵojn por mastrumi vindozojn, montri la tempon, ktp."
 
-#~ msgid "Output"
-#~ msgstr "Eligo"
+#: src/panel/budgie-desktop-settings.desktop.in.h:1
+msgid "Budgie Desktop Settings"
+msgstr "Agordoj de la labortablo \"Budgie\""
 
-#~ msgid "Input"
-#~ msgstr "Enigo"
-
-#~ msgid "Pin to panel"
-#~ msgstr "Fiksi al panelo"
-
-#~ msgid "Unpin from panel"
-#~ msgstr "Malfiksi el panelo"
-
-#~ msgid "Budgie Settings"
-#~ msgstr "Agordo de Budgie"
-
-#~ msgid " - "
-#~ msgstr "-"
+#: src/panel/budgie-desktop-settings.desktop.in.h:2
+msgid "Change desktop appearance and behaviour"
+msgstr "Ĝi ŝanĝas labortablan aspekton kaj konduton"
