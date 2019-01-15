@@ -22,8 +22,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-20 12:33+0100\n"
-"PO-Revision-Date: 2019-01-15 10:22+0000\n"
-"Last-Translator: Skyeun <eressea667@gmail.com>\n"
+"PO-Revision-Date: 2019-01-15 11:08+0000\n"
+"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
 "Language-Team: French <http://translate.getsol.us/projects/budgie-desktop/"
 "main/fr/>\n"
 "Language: fr\n"
@@ -766,7 +766,6 @@ msgid "Stylize regions"
 msgstr "Styliser les régions"
 
 #: src/panel/settings/settings_panel.vala:269
-#, fuzzy
 msgid ""
 "Adds a hint to the panel so that each of the panel's three main areas may be"
 " themed differently."
