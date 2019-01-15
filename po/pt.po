@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-05 23:55+0100\n"
-"PO-Revision-Date: 2019-01-15 17:47+0000\n"
+"PO-Revision-Date: 2019-01-15 18:43+0000\n"
 "Last-Translator: Mário Alberto Basto <maralbas@hotmail.com>\n"
 "Language-Team: Portuguese <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/pt/>\n"
@@ -166,7 +166,7 @@ msgstr "Erro ao ejetar dispositivo"
 
 #: src/applets/places-indicator/MountItem.vala:105
 msgid "Error while unmounting volume"
-msgstr ""
+msgstr "Erro ao desmontar volume"
 
 #: src/applets/places-indicator/PlacesIndicator.vala:85
 #: src/applets/places-indicator/PlacesSection.vala:24
