@@ -1,6 +1,6 @@
 # budgie-translations
 
-Budgie Desktop Translations is the official repository for the [Budgie Desktop](https://github.com/solus-project/budgie-desktop). All changes here come from two places:
+Budgie Desktop Translations is the official translations repository for the [Budgie Desktop](https://github.com/solus-project/budgie-desktop). All changes here come from two places:
 
 1. Manual updating of the base `budgie-desktop.pot` file
 2. Our [Weblate Instance](https://translate.getsol.us)
