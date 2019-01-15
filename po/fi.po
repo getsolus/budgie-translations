@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-20 12:33+0100\n"
 "PO-Revision-Date: 2019-01-15 10:12+0000\n"
-"Last-Translator: Juuso Kaitila <juuso.kaitila@solus.mail.kapsi.fi>\n"
+"Last-Translator: Jarno T <watpi@posteo.net>\n"
 "Language-Team: Finnish <http://translate.getsol.us/projects/budgie-desktop/"
 "main/fi/>\n"
 "Language: fi\n"
@@ -412,7 +412,7 @@ msgstr "Widgetit"
 
 #: src/panel/settings/settings_style.vala:45
 msgid "Set the appearance of window decorations and controls"
-msgstr ""
+msgstr "Muokkaa ikkunoiden reunuksia ja säätimiä"
 
 #: src/panel/settings/settings_style.vala:49
 msgid "Icons"
@@ -450,7 +450,7 @@ msgstr "Animaatiot"
 
 #: src/panel/settings/settings_style.vala:73
 msgid "Control whether windows and controls use animations"
-msgstr ""
+msgstr "Määritä käyttävätkö ikkunat ja säätimet animaatioita"
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
@@ -535,13 +535,13 @@ msgstr "Vasen"
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Attach modal dialogs to windows"
-msgstr ""
+msgstr "Valintaikkunat seuraavat ikkunoita"
 
 #: src/panel/settings/settings_wm.vala:60
 msgid ""
 "Modal dialogs will become attached to the parent window and move together "
 "when dragged"
-msgstr ""
+msgstr "Valintaikkunat kiinnittyvät pääikkunaan ja raahautuvat niiden mukana"
 
 #: src/panel/settings/settings_wm.vala:64
 msgid "Automatic tiling"
@@ -555,7 +555,7 @@ msgstr ""
 
 #: src/panel/settings/settings_wm.vala:70
 msgid "Disable unredirection of windows"
-msgstr ""
+msgstr "Poista ikkunoiden uudelleenohjaus käytöstä"
 
 #: src/panel/settings/settings_wm.vala:71
 msgid ""
