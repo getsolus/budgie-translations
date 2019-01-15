@@ -114,11 +114,6 @@ msgstr "אמצעי אחסון מקומיים"
 msgid "Network folders"
 msgstr "תיקיות רשת"
 
-#: src/applets/places-indicator/MountItem.vala:34
-#: src/applets/places-indicator/VolumeItem.vala:36
-msgid "Other"
-msgstr "אחר"
-
 #: src/applets/places-indicator/MountItem.vala:60
 #: src/applets/places-indicator/VolumeItem.vala:57
 msgid "Eject"
@@ -133,18 +128,6 @@ msgstr "בטל טעינה"
 msgid "You can now safely remove"
 msgstr "אתה יכול כעת להוציא בבטחה"
 
-#: src/applets/places-indicator/MountItem.vala:79
-msgid "Unknown Device"
-msgstr "התקן לא מזוהה"
-
-#: src/applets/places-indicator/MountItem.vala:88
-msgid "Error while ejecting device"
-msgstr "שגיאה בעת ניתוק התקן"
-
-#: src/applets/places-indicator/MountItem.vala:105
-msgid "Error while unmounting volume"
-msgstr "שגיאה בעת ביטול הפעלת המחיצה"
-
 #: src/applets/places-indicator/PlacesIndicator.vala:85
 #: src/applets/places-indicator/PlacesSection.vala:24
 #: src/applets/places-indicator/PlacesSection.vala:46
@@ -156,31 +139,6 @@ msgstr "מקומות"
 #, c-format
 msgid "Mount and open \"%s\""
 msgstr "טען ופתח \"%s\""
-
-#: src/applets/places-indicator/VolumeItem.vala:76
-#: src/applets/places-indicator/VolumeItem.vala:121
-msgid "Enter the encryption passphrase to unlock this volume"
-msgstr "הכנס את סיסמת ההצפנה כדי לפתוח מחיצה זו"
-
-#: src/applets/places-indicator/VolumeItem.vala:119
-msgid "The password you entered is incorrect"
-msgstr "הסיסמה שהקלדת אינה נכונה"
-
-#: src/applets/places-indicator/VolumeItem.vala:123
-msgid "An unknown error occurred while attempting to mount this volume"
-msgstr "שגיאה בלתי ידועב אירעה בעת נסיון טעינת מחיצה זו"
-
-#: src/applets/places-indicator/MountHelper.vala:39
-msgid "Volume is in use by other processes"
-msgstr "המחיצה נמצאת בשימוש על ידי פעולות אחרות"
-
-#: src/applets/places-indicator/MountHelper.vala:45
-msgid "Operation aborted"
-msgstr "הפעולה בוטלה"
-
-#: src/applets/places-indicator/MountHelper.vala:57
-msgid "Type your password"
-msgstr "הקלד את סיסמתך"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:181
 msgid "Nothing to display right now"
@@ -238,40 +196,10 @@ msgstr "הגדרות זמן ותאריך"
 msgid "Calendar"
 msgstr "לוח שנה"
 
-#. pack page2
-#: src/applets/clock/ClockApplet.vala:156
-#: src/applets/clock/ClockApplet.vala:187
-msgid "Preferences"
-msgstr "מאפיינים"
-
-#: src/applets/clock/ClockApplet.vala:166
-msgid "Show date"
-msgstr "הצג תאריך"
-
-#: src/applets/clock/ClockApplet.vala:171
-msgid "Show seconds"
-msgstr "הצג שניות"
-
-#: src/applets/clock/ClockApplet.vala:177
-msgid "Use 24 hour time"
-msgstr "עשה שימוש במערכת 24 שעות"
-
 #. Special case, "All"
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:43
 msgid "All"
 msgstr "הכל"
-
-#: src/applets/budgie-menu/IconChooser.vala:27
-msgid "Set menu icon from file"
-msgstr "הגדר סמל תפריט מקובץ"
-
-#: src/applets/budgie-menu/IconChooser.vala:37
-msgid "Image files"
-msgstr "קובצי תמונה"
-
-#: src/applets/budgie-menu/IconChooser.vala:43
-msgid "Any file"
-msgstr "כל קובץ"
 
 #: src/applets/budgie-menu/IconChooser.vala:55
 #: src/panel/settings/settings_applet_chooser.vala:84
@@ -280,10 +208,6 @@ msgstr "כל קובץ"
 #: src/polkit/dialog.ui.h:4
 msgid "Cancel"
 msgstr "ביטול"
-
-#: src/applets/budgie-menu/IconChooser.vala:56
-msgid "Set icon"
-msgstr "קבע סמל"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
@@ -302,17 +226,9 @@ msgstr "סוללה נטענת"
 msgid "Battery remaining"
 msgstr "סוללה נותרה"
 
-#: src/applets/status/PowerIndicator.vala:174
-msgid "Show battery percentage"
-msgstr "הצג אחוזי סוללה"
-
 #: src/applets/status/PowerIndicator.vala:183
 msgid "Power settings"
 msgstr "הגדרות צריכת חשמל"
-
-#: src/applets/status/SoundIndicator.vala:120
-msgid "Sound settings"
-msgstr "הגדרות שמע"
 
 #: src/applets/status/BluetoothIndicator.vala:105
 msgid "Bluetooth is disabled"
@@ -344,14 +260,6 @@ msgstr "שלח קובץ"
 msgid "Bluetooth Airplane Mode"
 msgstr "Bluetooth מצב מטוס"
 
-#: src/applets/workspaces/WorkspaceItem.vala:72
-msgid "Rename"
-msgstr "שנה שם"
-
-#: src/applets/workspaces/WorkspaceItem.vala:79
-msgid "Remove"
-msgstr "הסר"
-
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
 msgstr "מקש Caps lock הינו פעיל"
@@ -368,62 +276,14 @@ msgstr "מקש Num lock הינו פעיל"
 msgid "Num lock is not active"
 msgstr "מקש Num lock אינו פעיל"
 
-#: src/polkit/polkitdialog.vala:131
-msgid "Authentication failed"
-msgstr "אימות נכשל"
-
-#: src/polkit/polkitdialog.vala:230
-msgid "Group:"
-msgstr "קבוצה:"
-
 #: src/panel/settings/settings_main.vala:41
 msgid "Appearance"
 msgstr "הופעה"
-
-#: src/panel/settings/settings_main.vala:42
-msgid "Panels"
-msgstr "לוחות"
-
-#: src/panel/settings/settings_main.vala:43
-msgid "Session"
-msgstr "הפעלה"
 
 #. Have to override wmclass for pinning support
 #: src/panel/settings/settings_main.vala:51
 msgid "Budgie Settings"
 msgstr "הגדרות Budgie"
-
-#: src/panel/settings/settings_main.vala:83
-msgid "Create new panel"
-msgstr "צור לוח חדש"
-
-#: src/panel/settings/settings_style.vala:34
-msgid "Style"
-msgstr "סגנון"
-
-#: src/panel/settings/settings_style.vala:44
-msgid "Widgets"
-msgstr "יישומונים"
-
-#: src/panel/settings/settings_style.vala:45
-msgid "Set the appearance of window decorations and controls"
-msgstr "קבע את מראה קישוטי ופקדי החלונות"
-
-#: src/panel/settings/settings_style.vala:49
-msgid "Icons"
-msgstr "סמלים"
-
-#: src/panel/settings/settings_style.vala:50
-msgid "Set the globally used icon theme"
-msgstr "קבע את ערכת נושא הסמלים הכללית"
-
-#: src/panel/settings/settings_style.vala:54
-msgid "Cursors"
-msgstr "סמנים"
-
-#: src/panel/settings/settings_style.vala:55
-msgid "Set the globally used mouse cursor theme"
-msgstr "קבע את ערכת נושא הסמן הכללית"
 
 #: src/panel/settings/settings_style.vala:63
 msgid "Dark theme"
@@ -433,80 +293,6 @@ msgstr "ערכת נושא אפל"
 msgid "Built-in theme"
 msgstr "ערכת נושא מובנית"
 
-#: src/panel/settings/settings_style.vala:68
-msgid ""
-"When enabled, the desktop component style will be overriden with the built-"
-"in one"
-msgstr "כאשר מופעל, סגנון רכיב שולחן העבודה יועקף על ידי הסגנון המובנה"
-
-#: src/panel/settings/settings_style.vala:72
-msgid "Animations"
-msgstr "הנפשות"
-
-#: src/panel/settings/settings_style.vala:73
-msgid "Control whether windows and controls use animations"
-msgstr "בחר האם חלונות ופקדים ישתמשו בהנפשות"
-
-#: src/panel/settings/settings_applet_chooser.vala:79
-msgid "Choose an applet"
-msgstr "בחר יישומון"
-
-#: src/panel/settings/settings_applet_chooser.vala:85
-#: src/panel/settings/settings_panel_applets.vala:245
-msgid "Add applet"
-msgstr "הוסף יישומון"
-
-#: src/panel/settings/settings_autostart.vala:140
-msgid "Untitled"
-msgstr "ללא שם"
-
-#: src/panel/settings/settings_autostart.vala:147
-msgid "No description"
-msgstr "אין תאור"
-
-#: src/panel/settings/settings_autostart.vala:170
-msgid "running"
-msgstr "פועל"
-
-#: src/panel/settings/settings_autostart.vala:193
-msgid "Applications"
-msgstr "יישומים"
-
-#: src/panel/settings/settings_autostart.vala:203
-#: src/panel/settings/settings_autostart.vala:366
-msgid "Add"
-msgstr "הוסף"
-
-#: src/panel/settings/settings_autostart.vala:360
-#: src/panel/settings/settings_autostart.vala:393
-msgid "Command"
-msgstr "פקודה"
-
-#: src/panel/settings/settings_autostart.vala:376
-msgid "An entry with that title already exists"
-msgstr "ערך בשם זה כבר קיים"
-
-#: src/panel/settings/settings_autostart.vala:379
-msgid "Title"
-msgstr "כותרת"
-
-#: src/panel/settings/settings_autostart.vala:383
-#: src/panel/settings/settings_autostart.vala:397
-msgid "Required"
-msgstr "נדרש(ים)"
-
-#: src/panel/settings/settings_autostart.vala:386
-msgid "Description"
-msgstr "תיאור"
-
-#: src/panel/settings/settings_autostart.vala:390
-msgid "Optional"
-msgstr "רשות"
-
-#: src/panel/settings/settings_autostart.vala:454
-msgid "Autostart"
-msgstr "אתחל באופן אוטומטי"
-
 #: src/panel/settings/settings_wm.vala:29
 msgid "Windows"
 msgstr "חלונות"
@@ -514,49 +300,6 @@ msgstr "חלונות"
 #: src/panel/settings/settings_wm.vala:38
 msgid "Button layout"
 msgstr "פריסת הלחצנים"
-
-#: src/panel/settings/settings_wm.vala:39
-msgid "Change the layout of buttons in application titlebars"
-msgstr "שנה את פריסת הלחצנים בשורת הכותרת של חלונות"
-
-#: src/panel/settings/settings_wm.vala:45
-msgid "Right (standard)"
-msgstr "ימין (רגיל)"
-
-#: src/panel/settings/settings_wm.vala:47
-#: src/panel/settings/settings_panel.vala:180
-msgid "Left"
-msgstr "שמאל"
-
-#: src/panel/settings/settings_wm.vala:59
-msgid "Attach modal dialogs to windows"
-msgstr "חבר תיבות דו-שיח צורניות לחלונות"
-
-#: src/panel/settings/settings_wm.vala:60
-msgid ""
-"Modal dialogs will become attached to the parent window and move together "
-"when dragged"
-msgstr "תיבות דו-שיח צורניות יחוברו לחלון ההורה ויזוזו ביחד כאשר יימשכו"
-
-#: src/panel/settings/settings_wm.vala:64
-msgid "Automatic tiling"
-msgstr "ריצוף אוטומטי"
-
-#: src/panel/settings/settings_wm.vala:65
-msgid ""
-"Windows will automatically tile when dragged into the top of the screen or "
-"the far corners"
-msgstr "חלונות ירוצפו בופן אוטומטי כאשר יימשכו לקצה העליון של המסך או הפינות הרחוקות"
-
-#: src/panel/settings/settings_wm.vala:70
-msgid "Disable unredirection of windows"
-msgstr "בטל ביטול ניתוב מחדש של חלונות במסך מלא"
-
-#: src/panel/settings/settings_wm.vala:71
-msgid ""
-"This option is for advanced users. Use this if you are having graphical or "
-"performance issues with dedicated GPUs"
-msgstr "אפשרות זו מיועדת למשתמשים מתקדמים. השתמש בה אם הינך נתקל בבעיות חזותיות או ביצועיות עם כרטיסי מסך יעודיים."
 
 #: src/panel/settings/settings_fonts.vala:32
 msgid "Fonts"
@@ -566,91 +309,17 @@ msgstr "גופנים"
 msgid "Window Titles"
 msgstr "כותרות חלון"
 
-#: src/panel/settings/settings_fonts.vala:44
-msgid "Set the font used in the titlebars of applications"
-msgstr "קבע את הגופן לשימוש בשורה העליונה של יישומים"
-
 #: src/panel/settings/settings_fonts.vala:50
 msgid "Documents"
 msgstr "מסמכים"
-
-#: src/panel/settings/settings_fonts.vala:51
-msgid "Set the display font used by for documents"
-msgstr "קבע את גופן התצוגה לשימוש על ידי מסמכים"
 
 #: src/panel/settings/settings_fonts.vala:57
 msgid "Interface"
 msgstr "ממשק"
 
-#: src/panel/settings/settings_fonts.vala:58
-msgid "Set the primary font used by application controls"
-msgstr "קבע את הגופן העיקרי לשימוש על ידי פקדי יישומים"
-
 #: src/panel/settings/settings_fonts.vala:64
 msgid "Monospace"
 msgstr "Monospace"
-
-#: src/panel/settings/settings_fonts.vala:65
-msgid "Set the fixed-width font used by text dominant applications"
-msgstr "קבע את הגופן בעל הרוחב האחיד אשר נמצא בשימוש על ידי יישומים אשר בעיקר טקסט"
-
-#: src/panel/settings/settings_panel_dialogs.vala:29
-msgid "Confirm panel removal"
-msgstr "אשר הסרת לוח"
-
-#: src/panel/settings/settings_panel_dialogs.vala:36
-msgid "Do you really want to remove this panel? This action cannot be undone."
-msgstr "האם אתה באמת רוצה להסיר לוח זה? פעולה זו אינה ניתנת לביטול"
-
-#: src/panel/settings/settings_panel_dialogs.vala:51
-#: src/panel/settings/settings_panel_dialogs.vala:114
-msgid "Don't ask me again"
-msgstr "אל תשאל אותי שוב"
-
-#: src/panel/settings/settings_panel_dialogs.vala:60
-msgid "Remove panel"
-msgstr "הסר לוח"
-
-#: src/panel/settings/settings_panel_dialogs.vala:61
-msgid "Keep panel"
-msgstr "שמור לוח"
-
-#: src/panel/settings/settings_panel_dialogs.vala:92
-msgid "Confirm applet removal"
-msgstr "אשר הסרת יישומון"
-
-#: src/panel/settings/settings_panel_dialogs.vala:99
-msgid ""
-"Do you really want to remove this applet? This action cannot be undone."
-msgstr "האם הינך בטוך שברצונך להסיר יישומון זה? פעולה זו לא ניתנת לשיחזור."
-
-#: src/panel/settings/settings_panel_dialogs.vala:123
-msgid "Remove applet"
-msgstr "הסר יישומון"
-
-#: src/panel/settings/settings_panel_dialogs.vala:124
-msgid "Keep applet"
-msgstr "שמור יישומון"
-
-#: src/panel/settings/settings_panel.vala:80
-msgid "Remove this panel from the screen"
-msgstr "הסר לוח זה מהמסך"
-
-#: src/panel/settings/settings_panel.vala:120
-msgid "Top Dock"
-msgstr "מעגן עליון"
-
-#: src/panel/settings/settings_panel.vala:122
-msgid "Right Dock"
-msgstr "מעגן ימני"
-
-#: src/panel/settings/settings_panel.vala:124
-msgid "Left Dock"
-msgstr "מעגן שמאלי"
-
-#: src/panel/settings/settings_panel.vala:126
-msgid "Bottom Dock"
-msgstr "מעגן תחתון"
 
 #: src/panel/settings/settings_panel.vala:131
 msgid "Top Panel"
@@ -672,109 +341,25 @@ msgstr "לוח תחתון"
 msgid "Top"
 msgstr "עליון"
 
-#: src/panel/settings/settings_panel.vala:178
-msgid "Right"
-msgstr "ימין"
-
 #: src/panel/settings/settings_panel.vala:182
 msgid "Bottom"
 msgstr "תחתון"
-
-#: src/panel/settings/settings_panel.vala:193
-msgid "Always"
-msgstr "תמיד"
-
-#: src/panel/settings/settings_panel.vala:195
-msgid "Dynamic"
-msgstr "משתנה"
-
-#: src/panel/settings/settings_panel.vala:198
-msgid "None"
-msgstr "ללא"
-
-#: src/panel/settings/settings_panel.vala:209
-msgid "Automatic"
-msgstr "אוטומטי"
-
-#: src/panel/settings/settings_panel.vala:211
-msgid "Intelligent"
-msgstr "חכם"
-
-#: src/panel/settings/settings_panel.vala:214
-msgid "Never"
-msgstr "אף פעם"
 
 #: src/panel/settings/settings_panel.vala:230
 msgid "Position"
 msgstr "מיקום"
 
-#: src/panel/settings/settings_panel.vala:231
-msgid "Set the edge of the screen that this panel will stay on"
-msgstr "קבע את קצה המסך שלוח זה ישאר עליו"
-
 #: src/panel/settings/settings_panel.vala:239
 msgid "Size"
 msgstr "גודל"
-
-#: src/panel/settings/settings_panel.vala:240
-msgid "Set the size (width or height, depending on orientation) of this panel"
-msgstr "קבע את גודל (רוחב או אורך, תלוי בכיוון מסך) של לוח זה"
-
-#: src/panel/settings/settings_panel.vala:247
-msgid "Automatically hide"
-msgstr "הסתר באופן אוטומטי"
-
-#: src/panel/settings/settings_panel.vala:248
-msgid "When set, this panel will hide from view to maximize screen estate"
-msgstr "כאשר אפשרות זו מופעלת, לוח זה יוסתר מראייה כדי להרבות את קניין המסך"
-
-#: src/panel/settings/settings_panel.vala:255
-msgid "Transparency"
-msgstr "שקיפות"
-
-#: src/panel/settings/settings_panel.vala:256
-msgid "Control when this panel should have a solid background"
-msgstr "בחר מתי יהיה ללוח זה רקע מלא"
 
 #: src/panel/settings/settings_panel.vala:261
 msgid "Shadow"
 msgstr "צל"
 
-#: src/panel/settings/settings_panel.vala:262
-msgid "Adds a decorative drop-shadow, ideal for opaque panels"
-msgstr "מוסיף צל נשלף, מתאים ללוחות אטומים"
-
 #: src/panel/settings/settings_panel.vala:268
 msgid "Stylize regions"
 msgstr "עיצוב אזורים"
-
-#: src/panel/settings/settings_panel.vala:269
-msgid ""
-"Adds a hint to the panel so that each of the panel's three main areas may be"
-" themed differently."
-msgstr "מוסיף רמז ללוח כדי שכל אחד משלושת האזורים המרכזיים יוכלו להיצבע באופן שונה."
-
-#: src/panel/settings/settings_panel.vala:276
-msgid "Dock mode"
-msgstr "מצב מעגן"
-
-#: src/panel/settings/settings_panel.vala:277
-msgid ""
-"When in dock mode, the panel will use the minimal amount of space possible, "
-"freeing up valuable screen estate"
-msgstr "כאשר הלוח נמצא במצב מעגן, הלוח ישתמש בכמות מקום מזערית ככל שניתן, דבר אשר משחרר קניין מסך יקר"
-
-#: src/panel/settings/settings_panel_applets.vala:22
-msgid "Configure applet"
-msgstr "הגדר יישומון"
-
-#: src/panel/settings/settings_panel_applets.vala:246
-msgid "Choose a new applet to add to this panel"
-msgstr "בחר יישומון חדש להוסיף ללוח זה"
-
-#: src/panel/settings/settings_panel_applets.vala:260
-msgid "No settings available"
-msgstr "אין הגדרות זמינות"
 
 #: src/panel/settings/settings_panel_applets.vala:415
 msgid "Start"
@@ -788,57 +373,13 @@ msgstr "מרכז"
 msgid "End"
 msgstr "סוף"
 
-#: src/panel/settings/settings_desktop.vala:33
-msgid "Desktop"
-msgstr "שולחן עבודה"
-
 #: src/panel/settings/settings_desktop.vala:43
 msgid "Desktop Icons"
 msgstr "סמלי שולחן עבודה"
 
-#: src/panel/settings/settings_desktop.vala:44
-msgid "Control whether to allow launchers and icons on the desktop"
-msgstr "בחר האם לאפשר מפעילים וסמלים על גבי שולחן העבודה"
-
-#: src/panel/settings/settings_desktop.vala:49
-msgid "Home directory"
-msgstr "תיקיית בית"
-
-#: src/panel/settings/settings_desktop.vala:50
-msgid "Add a shortcut to your home directory on the desktop"
-msgstr "הוסף קיצור דרך לתיקיית הבית שלך לשולחן העבודה"
-
-#: src/panel/settings/settings_desktop.vala:55
-msgid "Network servers"
-msgstr "מיקומי רשת"
-
-#: src/panel/settings/settings_desktop.vala:56
-msgid "Add a shortcut to your local network servers on the desktop"
-msgstr "הוסף קיצור דרך למיקומי הרשת המקומיים שלך לשולחן העבודה"
-
-#: src/panel/settings/settings_desktop.vala:61
-msgid "Trash"
-msgstr "סל האשפה"
-
-#: src/panel/settings/settings_desktop.vala:62
-msgid "Add a shortcut to the Trash directory on the desktop"
-msgstr "הוסף קיצור דרך לסל האשפה לשולחן העבודה"
-
-#: src/panel/settings/settings_desktop.vala:67
-msgid "Mounted volumes"
-msgstr "מחיצות טעונות"
-
-#: src/panel/settings/settings_desktop.vala:68
-msgid "Mounted volumes & drives will appear on the desktop"
-msgstr "מחיצות וכוננים טעונים יוצגו על גבי שולחן העבודה"
-
 #: src/daemon/endsession.ui.h:2
 msgid "Are you sure you want to end your session?"
 msgstr "האם אתה בטוח כי ברצונך לסיים את הסשן שלך?"
-
-#: src/daemon/tabswitcher.ui.h:1
-msgid " - "
-msgstr "-"
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
@@ -856,78 +397,9 @@ msgstr "הצג תיקיות רשת"
 msgid "Show removable drives"
 msgstr "הצג כוננים נשלפים"
 
-#: src/applets/places-indicator/settings.ui.h:5
-msgid "Always expand places"
-msgstr "תמיד הרחב מקומות"
-
-#: src/applets/night-light/indicator_window.ui.h:1
-#: src/applets/night-light/NightLight.plugin.in.h:1
-msgid "Night Light"
-msgstr "מנורת לילה"
-
-#: src/applets/night-light/indicator_window.ui.h:2
-msgid "Temperature"
-msgstr "דרגת חום"
-
-#: src/applets/night-light/indicator_window.ui.h:3
-msgid "Schedule"
-msgstr "תיזמון"
-
-#: src/applets/night-light/indicator_window.ui.h:4
-msgid "Sunset to Sunrise"
-msgstr "זריחה עד שקיעה"
-
-#: src/applets/night-light/indicator_window.ui.h:5
-msgid "Manual"
-msgstr "ידני"
-
-#: src/applets/night-light/indicator_window.ui.h:6
-msgid "Display Settings"
-msgstr "הגדרות תצוגה"
-
-#: src/applets/budgie-menu/settings.ui.h:1
-msgid "Show Menu Label"
-msgstr "הצג תוית תפריט"
-
-#: src/applets/budgie-menu/settings.ui.h:2
-msgid "Compact Mode"
-msgstr "מצב דחוס"
-
-#: src/applets/budgie-menu/settings.ui.h:3
-msgid "Show Headers"
-msgstr "הצג כותרות"
-
-#: src/applets/budgie-menu/settings.ui.h:4
-msgid "Menu Label"
-msgstr "תוית תפריט"
-
-#: src/applets/budgie-menu/settings.ui.h:5
-msgid "Roll-over mouse"
-msgstr "גלגל על ידי עכבר"
-
-#: src/applets/budgie-menu/settings.ui.h:6
-msgid "Menu Icon"
-msgstr "סמל תפריט"
-
 #: src/applets/spacer/settings.ui.h:1
 msgid "Spacer size"
 msgstr "מידת מרווח"
-
-#: src/polkit/dialog.ui.h:1
-msgid "Authentication Required"
-msgstr "אימות נדרש"
-
-#: src/polkit/dialog.ui.h:2
-msgid "Password:"
-msgstr "סיסמה:"
-
-#: src/polkit/dialog.ui.h:3
-msgid "Authentication is required"
-msgstr "אימות נדרש"
-
-#: src/polkit/dialog.ui.h:5
-msgid "Authenticate"
-msgstr "אמת"
 
 #: src/session/budgie-desktop.session.in.in.h:1
 #: src/session/budgie-desktop.desktop.in.in.h:1
@@ -938,25 +410,13 @@ msgstr "שולחן עבודה Budgie"
 msgid "This session logs you into the Budgie Desktop"
 msgstr "סשן זה מכניס אותך לתוך שולחן עבודה Budgie"
 
-#: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
-msgid "Keyboard Layout Indicator"
-msgstr "מחוון פריסת המקלדת"
-
 #: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
 msgid "Show Desktop Button"
 msgstr "הצג לחצן שולחן עבודה"
 
-#: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
-msgid "Raven Sidebar Control"
-msgstr "פקד סרגל צידי רייבן"
-
 #: src/applets/icon-tasklist/IconTasklistApplet.plugin.in.h:1
 msgid "Icon Task List"
 msgstr "סמל רשימת משימות"
-
-#: src/applets/user-indicator/UserIndicator.plugin.in.h:1
-msgid "User Indicator"
-msgstr "מחוון משתמש"
 
 #: src/applets/clock/ClockApplet.plugin.in.h:1
 msgid "Clock"
@@ -993,21 +453,3 @@ msgstr "מחליף מרחב עבודה"
 #: src/applets/lock-keys/LockKeysApplet.plugin.in.h:1
 msgid "Lock Keys Indicator"
 msgstr "מחוון קלידי נעילה"
-
-#: src/panel/budgie-panel.desktop.in.h:1
-msgid "Budgie Panel"
-msgstr "לוח באדג'י"
-
-#: src/panel/budgie-panel.desktop.in.h:2
-msgid ""
-"Launch other applications and provide various utilities to manage windows, "
-"show the time, etc."
-msgstr "הרץ יישומים אחרים וספק כלים שונים לנהל חלונות, הצגת השעה, וכו'."
-
-#: src/panel/budgie-desktop-settings.desktop.in.h:1
-msgid "Budgie Desktop Settings"
-msgstr "הגדרות ממשק באדג'י"
-
-#: src/panel/budgie-desktop-settings.desktop.in.h:2
-msgid "Change desktop appearance and behaviour"
-msgstr "שנה מראה והתנהגות של שולחן העבודה"

@@ -119,11 +119,6 @@ msgstr "Paikalliset asemat"
 msgid "Network folders"
 msgstr "Verkkokansiot"
 
-#: src/applets/places-indicator/MountItem.vala:34
-#: src/applets/places-indicator/VolumeItem.vala:36
-msgid "Other"
-msgstr "Muut"
-
 #: src/applets/places-indicator/MountItem.vala:60
 #: src/applets/places-indicator/VolumeItem.vala:57
 msgid "Eject"
@@ -138,18 +133,6 @@ msgstr "Poista käytöstä"
 msgid "You can now safely remove"
 msgstr "Laite voidaan nyt poistaa tietokoneesta turvallisesti"
 
-#: src/applets/places-indicator/MountItem.vala:79
-msgid "Unknown Device"
-msgstr "Tuntematon laite"
-
-#: src/applets/places-indicator/MountItem.vala:88
-msgid "Error while ejecting device"
-msgstr "Virhe laitetta irrottaessa"
-
-#: src/applets/places-indicator/MountItem.vala:105
-msgid "Error while unmounting volume"
-msgstr "Virhe taltion liitosta irrottaessa"
-
 #: src/applets/places-indicator/PlacesIndicator.vala:85
 #: src/applets/places-indicator/PlacesSection.vala:24
 #: src/applets/places-indicator/PlacesSection.vala:46
@@ -161,31 +144,6 @@ msgstr "Sijainnit"
 #, c-format
 msgid "Mount and open \"%s\""
 msgstr "Liitä ja avaa \"%s\""
-
-#: src/applets/places-indicator/VolumeItem.vala:76
-#: src/applets/places-indicator/VolumeItem.vala:121
-msgid "Enter the encryption passphrase to unlock this volume"
-msgstr "Kirjoita salauksen tunnuslause avataksesi taltion"
-
-#: src/applets/places-indicator/VolumeItem.vala:119
-msgid "The password you entered is incorrect"
-msgstr "Kirjoittamasi salasana oli väärin"
-
-#: src/applets/places-indicator/VolumeItem.vala:123
-msgid "An unknown error occurred while attempting to mount this volume"
-msgstr "Tämän taltion liittämistä yrittäessä tapahtui tuntematon virhe"
-
-#: src/applets/places-indicator/MountHelper.vala:39
-msgid "Volume is in use by other processes"
-msgstr "Taltio on toisen prosessin käytössä"
-
-#: src/applets/places-indicator/MountHelper.vala:45
-msgid "Operation aborted"
-msgstr "Toimenpide keskeytetty"
-
-#: src/applets/places-indicator/MountHelper.vala:57
-msgid "Type your password"
-msgstr "Kirjoita salasanasi"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:181
 msgid "Nothing to display right now"
@@ -243,40 +201,10 @@ msgstr "Päivä- ja aika-asetukset"
 msgid "Calendar"
 msgstr "Kalenteri"
 
-#. pack page2
-#: src/applets/clock/ClockApplet.vala:156
-#: src/applets/clock/ClockApplet.vala:187
-msgid "Preferences"
-msgstr "Asetukset"
-
-#: src/applets/clock/ClockApplet.vala:166
-msgid "Show date"
-msgstr "Näytä päiväys"
-
-#: src/applets/clock/ClockApplet.vala:171
-msgid "Show seconds"
-msgstr "Näytä sekunnit"
-
-#: src/applets/clock/ClockApplet.vala:177
-msgid "Use 24 hour time"
-msgstr "Käytä 24 tunnin kelloa"
-
 #. Special case, "All"
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:43
 msgid "All"
 msgstr "Kaikki"
-
-#: src/applets/budgie-menu/IconChooser.vala:27
-msgid "Set menu icon from file"
-msgstr "Aseta valikkokuvake tiedostosta"
-
-#: src/applets/budgie-menu/IconChooser.vala:37
-msgid "Image files"
-msgstr "Kuvatiedostot"
-
-#: src/applets/budgie-menu/IconChooser.vala:43
-msgid "Any file"
-msgstr "Mikä tahansa tiedosto"
 
 #: src/applets/budgie-menu/IconChooser.vala:55
 #: src/panel/settings/settings_applet_chooser.vala:84
@@ -285,10 +213,6 @@ msgstr "Mikä tahansa tiedosto"
 #: src/polkit/dialog.ui.h:4
 msgid "Cancel"
 msgstr "Peru"
-
-#: src/applets/budgie-menu/IconChooser.vala:56
-msgid "Set icon"
-msgstr "Aseta kuvake"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
@@ -307,17 +231,9 @@ msgstr "Akku latautuu"
 msgid "Battery remaining"
 msgstr "Akkua jäljellä"
 
-#: src/applets/status/PowerIndicator.vala:174
-msgid "Show battery percentage"
-msgstr "Näytä akun prosentti"
-
 #: src/applets/status/PowerIndicator.vala:183
 msgid "Power settings"
 msgstr "Virranhallinta-asetukset"
-
-#: src/applets/status/SoundIndicator.vala:120
-msgid "Sound settings"
-msgstr "Ääniasetukset"
 
 #: src/applets/status/BluetoothIndicator.vala:105
 msgid "Bluetooth is disabled"
@@ -349,14 +265,6 @@ msgstr "Lähetä tiedostoja"
 msgid "Bluetooth Airplane Mode"
 msgstr "Bluetoothin lentokonetila"
 
-#: src/applets/workspaces/WorkspaceItem.vala:72
-msgid "Rename"
-msgstr "Nimeä uudelleen"
-
-#: src/applets/workspaces/WorkspaceItem.vala:79
-msgid "Remove"
-msgstr "Poista"
-
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
 msgstr "Caps lock käytössä"
@@ -373,62 +281,14 @@ msgstr "Num lock käytössä"
 msgid "Num lock is not active"
 msgstr "Num lock ei ole käytössä"
 
-#: src/polkit/polkitdialog.vala:131
-msgid "Authentication failed"
-msgstr "Tunnistautuminen epäonnistui"
-
-#: src/polkit/polkitdialog.vala:230
-msgid "Group:"
-msgstr "Ryhmä:"
-
 #: src/panel/settings/settings_main.vala:41
 msgid "Appearance"
 msgstr "Ulkoasu"
-
-#: src/panel/settings/settings_main.vala:42
-msgid "Panels"
-msgstr "Paneelit"
-
-#: src/panel/settings/settings_main.vala:43
-msgid "Session"
-msgstr "Istunto"
 
 #. Have to override wmclass for pinning support
 #: src/panel/settings/settings_main.vala:51
 msgid "Budgie Settings"
 msgstr "Budgien asetukset"
-
-#: src/panel/settings/settings_main.vala:83
-msgid "Create new panel"
-msgstr "Luo uusi paneeli"
-
-#: src/panel/settings/settings_style.vala:34
-msgid "Style"
-msgstr "Tyyli"
-
-#: src/panel/settings/settings_style.vala:44
-msgid "Widgets"
-msgstr "Widgetit"
-
-#: src/panel/settings/settings_style.vala:45
-msgid "Set the appearance of window decorations and controls"
-msgstr "Muokkaa ikkunoiden reunuksia ja säätimiä"
-
-#: src/panel/settings/settings_style.vala:49
-msgid "Icons"
-msgstr "Kuvakkeet"
-
-#: src/panel/settings/settings_style.vala:50
-msgid "Set the globally used icon theme"
-msgstr "Aseta käytettävä kuvaketeema"
-
-#: src/panel/settings/settings_style.vala:54
-msgid "Cursors"
-msgstr "Osoittimet"
-
-#: src/panel/settings/settings_style.vala:55
-msgid "Set the globally used mouse cursor theme"
-msgstr "Aseta käytettävä hiiren osoitinteema"
 
 #: src/panel/settings/settings_style.vala:63
 msgid "Dark theme"
@@ -438,80 +298,6 @@ msgstr "Tumma teema"
 msgid "Built-in theme"
 msgstr "Sisäänrakennettu teema"
 
-#: src/panel/settings/settings_style.vala:68
-msgid ""
-"When enabled, the desktop component style will be overriden with the built-"
-"in one"
-msgstr ""
-
-#: src/panel/settings/settings_style.vala:72
-msgid "Animations"
-msgstr "Animaatiot"
-
-#: src/panel/settings/settings_style.vala:73
-msgid "Control whether windows and controls use animations"
-msgstr "Hallinnoi käyttävätkö ikkunat ja painikkeet animaatioita"
-
-#: src/panel/settings/settings_applet_chooser.vala:79
-msgid "Choose an applet"
-msgstr "Valitse appletti"
-
-#: src/panel/settings/settings_applet_chooser.vala:85
-#: src/panel/settings/settings_panel_applets.vala:245
-msgid "Add applet"
-msgstr "Lisää appletti"
-
-#: src/panel/settings/settings_autostart.vala:140
-msgid "Untitled"
-msgstr "Nimetön"
-
-#: src/panel/settings/settings_autostart.vala:147
-msgid "No description"
-msgstr "Ei kuvausta"
-
-#: src/panel/settings/settings_autostart.vala:170
-msgid "running"
-msgstr "käynnissä"
-
-#: src/panel/settings/settings_autostart.vala:193
-msgid "Applications"
-msgstr "Sovellukset"
-
-#: src/panel/settings/settings_autostart.vala:203
-#: src/panel/settings/settings_autostart.vala:366
-msgid "Add"
-msgstr "Lisää"
-
-#: src/panel/settings/settings_autostart.vala:360
-#: src/panel/settings/settings_autostart.vala:393
-msgid "Command"
-msgstr "Komento"
-
-#: src/panel/settings/settings_autostart.vala:376
-msgid "An entry with that title already exists"
-msgstr "Samalla nimellä on jo olemassa kohde"
-
-#: src/panel/settings/settings_autostart.vala:379
-msgid "Title"
-msgstr "Nimi"
-
-#: src/panel/settings/settings_autostart.vala:383
-#: src/panel/settings/settings_autostart.vala:397
-msgid "Required"
-msgstr "Vaadittu"
-
-#: src/panel/settings/settings_autostart.vala:386
-msgid "Description"
-msgstr "Kuvaus"
-
-#: src/panel/settings/settings_autostart.vala:390
-msgid "Optional"
-msgstr "Valinnainen"
-
-#: src/panel/settings/settings_autostart.vala:454
-msgid "Autostart"
-msgstr "Automaattinen käynnistys"
-
 #: src/panel/settings/settings_wm.vala:29
 msgid "Windows"
 msgstr "Ikkunat"
@@ -519,52 +305,6 @@ msgstr "Ikkunat"
 #: src/panel/settings/settings_wm.vala:38
 msgid "Button layout"
 msgstr "Painikkeiden asettelu"
-
-#: src/panel/settings/settings_wm.vala:39
-msgid "Change the layout of buttons in application titlebars"
-msgstr "Muuta painikkeiden asettelua ohjelmien otsikkopalkissa"
-
-#: src/panel/settings/settings_wm.vala:45
-msgid "Right (standard)"
-msgstr "Oikea (standardi)"
-
-#: src/panel/settings/settings_wm.vala:47
-#: src/panel/settings/settings_panel.vala:180
-msgid "Left"
-msgstr "Vasen"
-
-#: src/panel/settings/settings_wm.vala:59
-msgid "Attach modal dialogs to windows"
-msgstr "Määritä valintaikkunat seuraamaan ikkunoita"
-
-#: src/panel/settings/settings_wm.vala:60
-msgid ""
-"Modal dialogs will become attached to the parent window and move together "
-"when dragged"
-msgstr "Valintaikkunat kiinnittyvät pääikkunaan ja raahautuvat niiden mukana"
-
-#: src/panel/settings/settings_wm.vala:64
-msgid "Automatic tiling"
-msgstr "Automaattinen asettelu"
-
-#: src/panel/settings/settings_wm.vala:65
-msgid ""
-"Windows will automatically tile when dragged into the top of the screen or "
-"the far corners"
-msgstr ""
-"Ikkunat asetellaan automaattisesti raahattaessa näytön yläreunaan tai kulmiin"
-
-#: src/panel/settings/settings_wm.vala:70
-msgid "Disable unredirection of windows"
-msgstr "Poista ikkunoiden uudelleenohjaus käytöstä"
-
-#: src/panel/settings/settings_wm.vala:71
-msgid ""
-"This option is for advanced users. Use this if you are having graphical or "
-"performance issues with dedicated GPUs"
-msgstr ""
-"Tämä asetus on edistyneille käyttäjille. Käytä tätä, jos sinulla on "
-"graafisia tai suorituskykyyn liittyviä ongelmia erillisillä näytönohjaimilla"
 
 #: src/panel/settings/settings_fonts.vala:32
 msgid "Fonts"
@@ -574,91 +314,17 @@ msgstr "Fontit"
 msgid "Window Titles"
 msgstr "Ikkunoiden otsikot"
 
-#: src/panel/settings/settings_fonts.vala:44
-msgid "Set the font used in the titlebars of applications"
-msgstr "Aseta sovellusten otsikkopalkeissa käytettävä fontti"
-
 #: src/panel/settings/settings_fonts.vala:50
 msgid "Documents"
 msgstr "Asiakirjat"
-
-#: src/panel/settings/settings_fonts.vala:51
-msgid "Set the display font used by for documents"
-msgstr "Aseta dokumenttien esittämisessä käytettävä fontti"
 
 #: src/panel/settings/settings_fonts.vala:57
 msgid "Interface"
 msgstr "Käyttöliittymä"
 
-#: src/panel/settings/settings_fonts.vala:58
-msgid "Set the primary font used by application controls"
-msgstr "Aseta ensisijainen fontti sovellusten kontrolleille"
-
 #: src/panel/settings/settings_fonts.vala:64
 msgid "Monospace"
 msgstr "Tasalevyinen"
-
-#: src/panel/settings/settings_fonts.vala:65
-msgid "Set the fixed-width font used by text dominant applications"
-msgstr "Aseta tasalevyinen fontti tekstipainotteisille sovelluksille"
-
-#: src/panel/settings/settings_panel_dialogs.vala:29
-msgid "Confirm panel removal"
-msgstr "Vahvista paneelin poistaminen"
-
-#: src/panel/settings/settings_panel_dialogs.vala:36
-msgid "Do you really want to remove this panel? This action cannot be undone."
-msgstr "Haluatko varmasti poistaa tämän paneelin? Tätä toimintoa ei voi perua."
-
-#: src/panel/settings/settings_panel_dialogs.vala:51
-#: src/panel/settings/settings_panel_dialogs.vala:114
-msgid "Don't ask me again"
-msgstr "Älä kysy uudelleen"
-
-#: src/panel/settings/settings_panel_dialogs.vala:60
-msgid "Remove panel"
-msgstr "Poista paneeli"
-
-#: src/panel/settings/settings_panel_dialogs.vala:61
-msgid "Keep panel"
-msgstr "Säilytä paneeli"
-
-#: src/panel/settings/settings_panel_dialogs.vala:92
-msgid "Confirm applet removal"
-msgstr "Vahvista appletin poistaminen"
-
-#: src/panel/settings/settings_panel_dialogs.vala:99
-msgid ""
-"Do you really want to remove this applet? This action cannot be undone."
-msgstr "Haluatko varmasti poistaa tämän appletin? Tätä toimintoa ei voi perua."
-
-#: src/panel/settings/settings_panel_dialogs.vala:123
-msgid "Remove applet"
-msgstr "Poista appletti"
-
-#: src/panel/settings/settings_panel_dialogs.vala:124
-msgid "Keep applet"
-msgstr "Säilytä appletti"
-
-#: src/panel/settings/settings_panel.vala:80
-msgid "Remove this panel from the screen"
-msgstr "Poista tämä paneeli ruudulta"
-
-#: src/panel/settings/settings_panel.vala:120
-msgid "Top Dock"
-msgstr "Ylätelakka"
-
-#: src/panel/settings/settings_panel.vala:122
-msgid "Right Dock"
-msgstr "Oikea telakka"
-
-#: src/panel/settings/settings_panel.vala:124
-msgid "Left Dock"
-msgstr "Vasen telakka"
-
-#: src/panel/settings/settings_panel.vala:126
-msgid "Bottom Dock"
-msgstr "Alatelakka"
 
 #: src/panel/settings/settings_panel.vala:131
 msgid "Top Panel"
@@ -680,111 +346,25 @@ msgstr "Alapaneeli"
 msgid "Top"
 msgstr "Ylä"
 
-#: src/panel/settings/settings_panel.vala:178
-msgid "Right"
-msgstr "Oikea"
-
 #: src/panel/settings/settings_panel.vala:182
 msgid "Bottom"
 msgstr "Ala"
-
-#: src/panel/settings/settings_panel.vala:193
-msgid "Always"
-msgstr "Aina"
-
-#: src/panel/settings/settings_panel.vala:195
-msgid "Dynamic"
-msgstr "Dynaaminen"
-
-#: src/panel/settings/settings_panel.vala:198
-msgid "None"
-msgstr "Ei mitään"
-
-#: src/panel/settings/settings_panel.vala:209
-msgid "Automatic"
-msgstr "Automaattinen"
-
-#: src/panel/settings/settings_panel.vala:211
-msgid "Intelligent"
-msgstr "Älykäs"
-
-#: src/panel/settings/settings_panel.vala:214
-msgid "Never"
-msgstr "Ei koskaan"
 
 #: src/panel/settings/settings_panel.vala:230
 msgid "Position"
 msgstr "Sijainti"
 
-#: src/panel/settings/settings_panel.vala:231
-msgid "Set the edge of the screen that this panel will stay on"
-msgstr "Aseta ruudun sivu, johon tämä paneeli kiinnittyy"
-
 #: src/panel/settings/settings_panel.vala:239
 msgid "Size"
 msgstr "Koko"
-
-#: src/panel/settings/settings_panel.vala:240
-msgid "Set the size (width or height, depending on orientation) of this panel"
-msgstr "Aseta tämän paneelin koko (leveys tai korkeus riippuen suunnasta)"
-
-#: src/panel/settings/settings_panel.vala:247
-msgid "Automatically hide"
-msgstr "Piilota automaattisesti"
-
-#: src/panel/settings/settings_panel.vala:248
-msgid "When set, this panel will hide from view to maximize screen estate"
-msgstr ""
-
-#: src/panel/settings/settings_panel.vala:255
-msgid "Transparency"
-msgstr "Läpinäkyvyys"
-
-#: src/panel/settings/settings_panel.vala:256
-msgid "Control when this panel should have a solid background"
-msgstr ""
 
 #: src/panel/settings/settings_panel.vala:261
 msgid "Shadow"
 msgstr "Varjo"
 
-#: src/panel/settings/settings_panel.vala:262
-msgid "Adds a decorative drop-shadow, ideal for opaque panels"
-msgstr ""
-"Lisää koristeellisen varjostuksen, ihanteellinen läpikuultamattomille "
-"paneeleille"
-
 #: src/panel/settings/settings_panel.vala:268
 msgid "Stylize regions"
 msgstr "Muotoile alueet"
-
-#: src/panel/settings/settings_panel.vala:269
-msgid ""
-"Adds a hint to the panel so that each of the panel's three main areas may be"
-" themed differently."
-msgstr ""
-
-#: src/panel/settings/settings_panel.vala:276
-msgid "Dock mode"
-msgstr "Telakkatila"
-
-#: src/panel/settings/settings_panel.vala:277
-msgid ""
-"When in dock mode, the panel will use the minimal amount of space possible, "
-"freeing up valuable screen estate"
-msgstr ""
-
-#: src/panel/settings/settings_panel_applets.vala:22
-msgid "Configure applet"
-msgstr "Muokkaa applettia"
-
-#: src/panel/settings/settings_panel_applets.vala:246
-msgid "Choose a new applet to add to this panel"
-msgstr "Valitse tähän paneeliin lisättävä uusi appletti"
-
-#: src/panel/settings/settings_panel_applets.vala:260
-msgid "No settings available"
-msgstr "Ei asetuksia käytettävissä"
 
 #: src/panel/settings/settings_panel_applets.vala:415
 msgid "Start"
@@ -798,57 +378,13 @@ msgstr "Keski"
 msgid "End"
 msgstr "Loppu"
 
-#: src/panel/settings/settings_desktop.vala:33
-msgid "Desktop"
-msgstr "Työpöytä"
-
 #: src/panel/settings/settings_desktop.vala:43
 msgid "Desktop Icons"
 msgstr "Työpöytäkuvakkeet"
 
-#: src/panel/settings/settings_desktop.vala:44
-msgid "Control whether to allow launchers and icons on the desktop"
-msgstr "Määritä sallitaanko käynnistimet ja kuvakkeet työpöydällä"
-
-#: src/panel/settings/settings_desktop.vala:49
-msgid "Home directory"
-msgstr "Kotikansio"
-
-#: src/panel/settings/settings_desktop.vala:50
-msgid "Add a shortcut to your home directory on the desktop"
-msgstr "Lisää kotikansioon osoittava pikakuvake työpöydälle"
-
-#: src/panel/settings/settings_desktop.vala:55
-msgid "Network servers"
-msgstr "Verkkopalvelimet"
-
-#: src/panel/settings/settings_desktop.vala:56
-msgid "Add a shortcut to your local network servers on the desktop"
-msgstr "Lisää paikallisiin verkkopalvelimiin osoittava pikakuvake työpöydälle"
-
-#: src/panel/settings/settings_desktop.vala:61
-msgid "Trash"
-msgstr "Roskakori"
-
-#: src/panel/settings/settings_desktop.vala:62
-msgid "Add a shortcut to the Trash directory on the desktop"
-msgstr "Lisää roskakoriin osoittava pikakuvake työpöydälle"
-
-#: src/panel/settings/settings_desktop.vala:67
-msgid "Mounted volumes"
-msgstr "Liitetyt taltiot"
-
-#: src/panel/settings/settings_desktop.vala:68
-msgid "Mounted volumes & drives will appear on the desktop"
-msgstr "Liitetyt taltiot ja asemat näkyvät työpöydällä"
-
 #: src/daemon/endsession.ui.h:2
 msgid "Are you sure you want to end your session?"
 msgstr "Haluatko varmasti päättää istunnon?"
-
-#: src/daemon/tabswitcher.ui.h:1
-msgid " - "
-msgstr " - "
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
@@ -866,78 +402,9 @@ msgstr "Näytä verkkokansiot"
 msgid "Show removable drives"
 msgstr "Näytä siirrettävät asemat"
 
-#: src/applets/places-indicator/settings.ui.h:5
-msgid "Always expand places"
-msgstr "Laajenna aina sijainnit"
-
-#: src/applets/night-light/indicator_window.ui.h:1
-#: src/applets/night-light/NightLight.plugin.in.h:1
-msgid "Night Light"
-msgstr "Yövalo"
-
-#: src/applets/night-light/indicator_window.ui.h:2
-msgid "Temperature"
-msgstr "Lämpötila"
-
-#: src/applets/night-light/indicator_window.ui.h:3
-msgid "Schedule"
-msgstr "Aikataulu"
-
-#: src/applets/night-light/indicator_window.ui.h:4
-msgid "Sunset to Sunrise"
-msgstr "Auringonlaskusta auringonnousuun"
-
-#: src/applets/night-light/indicator_window.ui.h:5
-msgid "Manual"
-msgstr "Manuaalinen"
-
-#: src/applets/night-light/indicator_window.ui.h:6
-msgid "Display Settings"
-msgstr "Näytön asetukset"
-
-#: src/applets/budgie-menu/settings.ui.h:1
-msgid "Show Menu Label"
-msgstr "Näytä valikkoteksti"
-
-#: src/applets/budgie-menu/settings.ui.h:2
-msgid "Compact Mode"
-msgstr "Kompakti-tila"
-
-#: src/applets/budgie-menu/settings.ui.h:3
-msgid "Show Headers"
-msgstr "Näytä otsikot"
-
-#: src/applets/budgie-menu/settings.ui.h:4
-msgid "Menu Label"
-msgstr "Valikkoteksti"
-
-#: src/applets/budgie-menu/settings.ui.h:5
-msgid "Roll-over mouse"
-msgstr ""
-
-#: src/applets/budgie-menu/settings.ui.h:6
-msgid "Menu Icon"
-msgstr "Valikkokuvake"
-
 #: src/applets/spacer/settings.ui.h:1
 msgid "Spacer size"
 msgstr "Välin koko"
-
-#: src/polkit/dialog.ui.h:1
-msgid "Authentication Required"
-msgstr "Tunnistautuminen vaaditaan"
-
-#: src/polkit/dialog.ui.h:2
-msgid "Password:"
-msgstr "Salasana:"
-
-#: src/polkit/dialog.ui.h:3
-msgid "Authentication is required"
-msgstr "Tunnistautuminen vaaditaan"
-
-#: src/polkit/dialog.ui.h:5
-msgid "Authenticate"
-msgstr "Tunnistaudu"
 
 #: src/session/budgie-desktop.session.in.in.h:1
 #: src/session/budgie-desktop.desktop.in.in.h:1
@@ -948,25 +415,13 @@ msgstr "Budgie-työpöytä"
 msgid "This session logs you into the Budgie Desktop"
 msgstr "Tämä istunto kirjaa sinut Budgie-työpöydälle"
 
-#: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
-msgid "Keyboard Layout Indicator"
-msgstr "Näppäimistöasettelun ilmaisin"
-
 #: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
 msgid "Show Desktop Button"
 msgstr "Näytä työpöytä -painike"
 
-#: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
-msgid "Raven Sidebar Control"
-msgstr "Raven-sivupalkin hallinta"
-
 #: src/applets/icon-tasklist/IconTasklistApplet.plugin.in.h:1
 msgid "Icon Task List"
 msgstr "Tehtävälista kuvakkeilla"
-
-#: src/applets/user-indicator/UserIndicator.plugin.in.h:1
-msgid "User Indicator"
-msgstr "Käyttäjäilmaisin"
 
 #: src/applets/clock/ClockApplet.plugin.in.h:1
 msgid "Clock"
@@ -1003,21 +458,3 @@ msgstr "Työtilanvaihdin"
 #: src/applets/lock-keys/LockKeysApplet.plugin.in.h:1
 msgid "Lock Keys Indicator"
 msgstr "Lukitusnäppäinilmaisin"
-
-#: src/panel/budgie-panel.desktop.in.h:1
-msgid "Budgie Panel"
-msgstr "Budgie-paneeli"
-
-#: src/panel/budgie-panel.desktop.in.h:2
-msgid ""
-"Launch other applications and provide various utilities to manage windows, "
-"show the time, etc."
-msgstr ""
-
-#: src/panel/budgie-desktop-settings.desktop.in.h:1
-msgid "Budgie Desktop Settings"
-msgstr "Budgie-työpöydän asetukset"
-
-#: src/panel/budgie-desktop-settings.desktop.in.h:2
-msgid "Change desktop appearance and behaviour"
-msgstr "Muuta työpöydän ulkoasua ja toimintaa"
