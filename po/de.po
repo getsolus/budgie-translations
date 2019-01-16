@@ -1106,7 +1106,7 @@ msgstr ""
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
-msgstr ""
+msgstr "Nicht anzeigen"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
