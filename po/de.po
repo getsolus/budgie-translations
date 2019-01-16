@@ -199,7 +199,7 @@ msgstr "Audioeinstellungen"
 
 #: src/applets/icon-tasklist/IconPopover.vala:92
 msgid "Launch New Instance"
-msgstr ""
+msgstr "Neue Instanz starten"
 
 #: src/applets/icon-tasklist/IconPopover.vala:95
 msgid "Close All Windows"
