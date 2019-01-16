@@ -244,9 +244,8 @@ msgid "Close Window"
 msgstr "Fenster schliessen"
 
 #: src/applets/icon-tasklist/IconPopover.vala:534
-#, fuzzy
 msgid "Show Window Controls"
-msgstr "Fenstertitel"
+msgstr "Fensterleiste anzeigen"
 
 #: src/applets/budgie-menu/IconChooser.vala:27
 msgid "Set menu icon from file"
