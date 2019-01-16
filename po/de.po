@@ -26,7 +26,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
 "PO-Revision-Date: 2019-01-16 09:48+0000\n"
-"Last-Translator: Girtablulu <flinux@vongellhorn.ch>\n"
+"Last-Translator: Sebastian Kutter <sebastian@skutter.de>\n"
 "Language-Team: German <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/de/>\n"
 "Language: de\n"
@@ -206,9 +206,8 @@ msgid "Close All Windows"
 msgstr "Alle Fenster schliessen"
 
 #: src/applets/icon-tasklist/IconPopover.vala:103
-#, fuzzy
 msgid "Always On Top"
-msgstr "Immer"
+msgstr "Im Vordergrund behalten"
 
 #: src/applets/icon-tasklist/IconPopover.vala:105
 #: src/applets/icon-tasklist/IconPopover.vala:473
