@@ -1,5 +1,5 @@
 project(
-    'budgie-translations',
+    'budgie-desktop',
     version: '10.5',
     license: 'GPL-2.0-only',
 )
