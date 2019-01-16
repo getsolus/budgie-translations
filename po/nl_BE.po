@@ -12,14 +12,16 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2017-09-22 03:47+0000\n"
+"PO-Revision-Date: 2019-01-16 11:04+0000\n"
 "Last-Translator: Geert Verheyde <geert.verheyde@gmail.com>\n"
-"Language-Team: Dutch (Belgium) (http://www.transifex.com/budgie-desktop/budgie-desktop/language/nl_BE/)\n"
+"Language-Team: Flemish <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/nl_BE/>\n"
 "Language: nl_BE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.4-dev\n"
 
 #: src/daemon/endsession.vala:171
 msgid "Log out"
@@ -40,7 +42,7 @@ msgstr "Achtergrond aanpassen"
 #: src/daemon/menus.vala:57
 #, fuzzy
 msgid "Displays"
-msgstr "Beeldscherm instellingen"
+msgstr "Beeldschermen"
 
 #: src/daemon/menus.vala:66 src/panel/settings/settings_panel.vala:97
 msgid "Settings"
@@ -49,11 +51,11 @@ msgstr "Instellingen"
 #. Should show a notification
 #: src/daemon/settings.vala:277
 msgid "Turned on Caffeine Boost"
-msgstr ""
+msgstr "Caffeine Boot werd ingeschakeld"
 
 #: src/daemon/settings.vala:277
 msgid "Turned off Caffeine Boost"
-msgstr ""
+msgstr "Caffeine Boot werd uitgeschakeld"
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
@@ -66,13 +68,13 @@ msgstr[1] ""
 
 #: src/daemon/settings.vala:285
 msgid "Will turn off in"
-msgstr ""
+msgstr "Wordt uitgeschakeld binnen"
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:44
 #: src/applets/caffeine/CaffeineWindow.vala:25
 msgid "Caffeine Mode"
-msgstr ""
+msgstr "Caffeine Mode"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
@@ -85,11 +87,11 @@ msgstr "Meldingen"
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
-msgstr ""
+msgstr "Geen enkele app gebruikt momenteel audio."
 
 #: src/raven/start_listening.vala:24
 msgid "Play some music"
-msgstr ""
+msgstr "Maak wat muziek"
 
 #: src/raven/notifications_view.vala:99
 msgid "Nothing to see here"
@@ -118,11 +120,11 @@ msgstr "Geen nieuwe meldingen"
 #. 125ms
 #: src/raven/sound.vala:151
 msgid "Apps"
-msgstr ""
+msgstr "Apps"
 
 #: src/raven/sound.vala:152
 msgid "Devices"
-msgstr ""
+msgstr "Apparaten"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
@@ -185,33 +187,32 @@ msgstr "Geluidsinstellingen"
 
 #: src/applets/icon-tasklist/IconPopover.vala:92
 msgid "Launch New Instance"
-msgstr ""
+msgstr "Nieuw Venster"
 
 #: src/applets/icon-tasklist/IconPopover.vala:95
 msgid "Close All Windows"
-msgstr ""
+msgstr "Alle Vensters Sluiten"
 
 #: src/applets/icon-tasklist/IconPopover.vala:103
-#, fuzzy
 msgid "Always On Top"
-msgstr "Altijd"
+msgstr "Altijd bovenop"
 
 #: src/applets/icon-tasklist/IconPopover.vala:105
 #: src/applets/icon-tasklist/IconPopover.vala:473
 msgid "Maximize"
-msgstr ""
+msgstr "Maximaliseren"
 
 #: src/applets/icon-tasklist/IconPopover.vala:106
 msgid "Minimize"
-msgstr ""
+msgstr "Minimaliseren"
 
 #: src/applets/icon-tasklist/IconPopover.vala:361
 msgid "Unfavorite"
-msgstr ""
+msgstr "Losmaken"
 
 #: src/applets/icon-tasklist/IconPopover.vala:361
 msgid "Favorite"
-msgstr ""
+msgstr "Vastpinnen"
 
 #. If our current amount of workspaces is different than how many we have added
 #. We have items to add
@@ -219,7 +220,7 @@ msgstr ""
 #: src/applets/icon-tasklist/IconPopover.vala:373
 #, c-format
 msgid "Move To Workspace %i"
-msgstr ""
+msgstr "Verplaats naar Werkblad %i"
 
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:473
@@ -628,63 +629,67 @@ msgstr "Eens in dock modus, zal het paneel de kleinst mogelijke ruimte gebruiken
 
 #: src/panel/settings/settings_raven.vala:30
 msgid "Raven"
-msgstr ""
+msgstr "Raven"
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
-msgstr ""
+msgstr "Laat volumeverhoging boven 100% toe"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
 msgstr ""
+"Laat volumeverhoging tot 150% toe, zowel via Geluidsinstellingen alsook via "
+"de Sound Output Widget in Raven."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
-msgstr ""
+msgstr "Toon weeknummers in Calendar"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr ""
+msgstr "Instelling om de weeknummers te tonen in de Calender Widget"
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
-msgstr ""
+msgstr "Toon Calender Widget"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr ""
+msgstr "Toont of verbergt de Calender Widget in Raven's Applets sectie"
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
-msgstr ""
+msgstr "Toon Geluidsweergave Widget"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr ""
+msgstr "Toont of verbergt de Geluidsweergave Widget in Raven's Applets sectie"
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
-msgstr ""
+msgstr "Toon de Microfooninvoer Widget"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
-msgstr ""
+msgstr "Toont of verbergt de Microfooninvoer Widget in Raven's Applets sectie."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
-msgstr ""
+msgstr "Toon Media-Afspeel-bediening Widget"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
 msgstr ""
+"Toont of verbergt de Media Afspeel Bediening (MPRIS) Widget in Raven's "
+"Applet sectie."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
-msgstr ""
+msgstr "Toon de \"Power\" Strook"
 
 #: src/panel/settings/settings_raven.vala:76
 msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr ""
+msgstr "Toont of verrbergt de \"Power\" strook onderaan in Raven."
 
 #: src/panel/settings/settings_panel_dialogs.vala:29
 msgid "Confirm panel removal"
@@ -923,19 +928,21 @@ msgstr "Wijzig de layout van de toepassingsbedieningsknoppen"
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
-msgstr ""
+msgstr "Centreer nieuwe vensters op het scherm"
 
 #: src/panel/settings/settings_wm.vala:54
 msgid "Center newly launched windows on the current screen"
-msgstr ""
+msgstr "Centreer nieuw geopende vensters op het huidig scherm"
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
-msgstr ""
+msgstr "Schakel Night Light uit bij schermvullende vensters."
 
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr ""
+"Schakelt Night Light modus uit wanneer een venster schermvullend is. "
+"Schakelt het terug in wanneer schermvullend verlaten wordt."
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
@@ -1003,11 +1010,11 @@ msgstr "Bepaal het vaste-breedte lettertype gebruikt door dominante toepassingen
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
-msgstr ""
+msgstr "Tekstschaling"
 
 #: src/panel/settings/settings_fonts.vala:73
 msgid "Set the text scaling factor"
-msgstr ""
+msgstr "Stel de tekstschalingsfactor in"
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
@@ -1019,23 +1026,23 @@ msgstr "Bent u zeker dat u uw sessie wilt beëindigen?"
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
-msgstr ""
+msgstr "Toon alle venster met een klik"
 
 #: src/applets/icon-tasklist/settings.ui.h:2
 msgid "Only show favorited"
-msgstr ""
+msgstr "Toon enkel de favorieten"
 
 #: src/applets/icon-tasklist/settings.ui.h:3
 msgid "Lock icons"
-msgstr ""
+msgstr "Iconen vastpinnen"
 
 #: src/applets/icon-tasklist/settings.ui.h:4
 msgid "Restrict to Workspace"
-msgstr ""
+msgstr "Beperk tot Werkruimte"
 
 #: src/applets/icon-tasklist/settings.ui.h:5
 msgid "Window grouping"
-msgstr ""
+msgstr "Venstergroepering"
 
 #: src/applets/night-light/indicator_window.ui.h:1
 #: src/applets/night-light/NightLight.plugin.in.h:1
@@ -1096,7 +1103,7 @@ msgstr ""
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
-msgstr ""
+msgstr "Niet tonen"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
@@ -1114,11 +1121,11 @@ msgstr "Geen nieuwe meldingen"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
-msgstr ""
+msgstr "Helderheid maximaliseren"
 
 #: src/applets/caffeine/settings.ui.h:3
 msgid "Brightness Level"
-msgstr ""
+msgstr "Helderheidsniveau"
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
@@ -1215,7 +1222,7 @@ msgstr "Takenlijst"
 
 #: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
 msgid "Caffeine"
-msgstr ""
+msgstr "Caffeine"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
