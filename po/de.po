@@ -216,7 +216,7 @@ msgstr "Maximieren"
 
 #: src/applets/icon-tasklist/IconPopover.vala:106
 msgid "Minimize"
-msgstr ""
+msgstr "Minimieren"
 
 #: src/applets/icon-tasklist/IconPopover.vala:361
 msgid "Unfavorite"
