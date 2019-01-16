@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2019-01-16 12:56+0000\n"
+"PO-Revision-Date: 2019-01-17 07:05+0000\n"
 "Last-Translator: Geert Verheyde <geert.verheyde@gmail.com>\n"
 "Language-Team: Dutch <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/nl/>\n"
@@ -41,9 +41,8 @@ msgid "Change background"
 msgstr "Achtergrond aanpassen"
 
 #: src/daemon/menus.vala:57
-#, fuzzy
 msgid "Displays"
-msgstr "Scherminstellingen"
+msgstr "Beeldschermen"
 
 #: src/daemon/menus.vala:66 src/panel/settings/settings_panel.vala:97
 msgid "Settings"
@@ -52,11 +51,11 @@ msgstr "Instellingen"
 #. Should show a notification
 #: src/daemon/settings.vala:277
 msgid "Turned on Caffeine Boost"
-msgstr "Caffeine Boot werd ingeschakeld"
+msgstr "Caffeine Boost werd ingeschakeld"
 
 #: src/daemon/settings.vala:277
 msgid "Turned off Caffeine Boost"
-msgstr "Caffeine Boot werd uitgeschakeld"
+msgstr "Caffeine Boost werd uitgeschakeld"
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
@@ -96,7 +95,7 @@ msgstr "Maak wat muziek"
 
 #: src/raven/notifications_view.vala:99
 msgid "Nothing to see here"
-msgstr "Hier is niets te zien"
+msgstr "Helemaal niets"
 
 #: src/raven/notifications_view.vala:667
 #: src/applets/notifications/NotificationsApplet.vala:109
@@ -129,7 +128,7 @@ msgstr "Apparaten"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
-msgstr "Accu vol"
+msgstr "Accu vol."
 
 #: src/applets/status/PowerIndicator.vala:100
 msgid "Unknown"
@@ -146,26 +145,26 @@ msgstr "Accu resterend"
 
 #: src/applets/status/PowerIndicator.vala:168
 msgid "Show battery percentage"
-msgstr "Batterijpercentage weergeven"
+msgstr "Toon accu %"
 
 #: src/applets/status/PowerIndicator.vala:176
 msgid "Power settings"
-msgstr "Energie-instellingen"
+msgstr "Energie instellingen"
 
 #. Settings button
 #: src/applets/status/BluetoothIndicator.vala:56
 msgid "Bluetooth Settings"
-msgstr "Bluetooth-instellingen"
+msgstr "Bluetooth Instellingen"
 
 #. Send files button
 #: src/applets/status/BluetoothIndicator.vala:63
 msgid "Send Files"
-msgstr "Bestanden versturen"
+msgstr "Zend Bestanden"
 
 #. Airplane mode
 #: src/applets/status/BluetoothIndicator.vala:73
 msgid "Bluetooth Airplane Mode"
-msgstr "Bluetooth vliegtuigmodus"
+msgstr "Bluetooth Vliegtuig Modus"
 
 #: src/applets/status/BluetoothIndicator.vala:179
 msgid "Bluetooth is disabled"
@@ -196,7 +195,7 @@ msgstr "Alle Vensters Sluiten"
 
 #: src/applets/icon-tasklist/IconPopover.vala:103
 msgid "Always On Top"
-msgstr "Altijd Bovenop"
+msgstr "Altijd bovenop"
 
 #: src/applets/icon-tasklist/IconPopover.vala:105
 #: src/applets/icon-tasklist/IconPopover.vala:473
@@ -221,7 +220,7 @@ msgstr "Vastpinnen"
 #: src/applets/icon-tasklist/IconPopover.vala:373
 #, c-format
 msgid "Move To Workspace %i"
-msgstr "Verplaatsen Naar Werkblad %i"
+msgstr "Verplaats naar Werkblad %i"
 
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:473
@@ -238,7 +237,7 @@ msgstr "Toon Vensterknoppen"
 
 #: src/applets/budgie-menu/IconChooser.vala:27
 msgid "Set menu icon from file"
-msgstr "Menu-icoon kiezen van bestand"
+msgstr "Wijzig het menu icoon via bestand"
 
 #: src/applets/budgie-menu/IconChooser.vala:37
 msgid "Image files"
@@ -258,7 +257,7 @@ msgstr "Annuleren"
 
 #: src/applets/budgie-menu/IconChooser.vala:56
 msgid "Set icon"
-msgstr "Icoon instellen"
+msgstr "Icoon wijzigen"
 
 #. Special case, "All"
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:43
@@ -272,23 +271,23 @@ msgstr "Helaas, niets gevonden"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
-msgstr "Caps  lock is ingeschakeld"
+msgstr "Caps lock ingeschakeld"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:65
 msgid "Caps lock is not active"
-msgstr "Caps lock is uitgeschakeld"
+msgstr "Caps lock uitgeschakeld"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:75
 msgid "Num lock is active"
-msgstr "Num lock is ingeschakeld"
+msgstr "Num lock ingeschakeld"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:78
 msgid "Num lock is not active"
-msgstr "Num lock is uitgeschakeld"
+msgstr "Num lock uitgeschakeld"
 
 #: src/applets/clock/ClockApplet.vala:151
 msgid "Time and date settings"
-msgstr "Datum en tijd instellingen"
+msgstr "Instellingen datum en tijd"
 
 #: src/applets/clock/ClockApplet.vala:152
 msgid "Calendar"
@@ -298,19 +297,19 @@ msgstr "Kalender"
 #: src/applets/clock/ClockApplet.vala:159
 #: src/applets/clock/ClockApplet.vala:190
 msgid "Preferences"
-msgstr "Instellingen"
+msgstr "Voorkeuren"
 
 #: src/applets/clock/ClockApplet.vala:169
 msgid "Show date"
-msgstr "Datum weergeven"
+msgstr "Toon datum"
 
 #: src/applets/clock/ClockApplet.vala:174
 msgid "Show seconds"
-msgstr "Seconden weergeven"
+msgstr "Toon seconden"
 
 #: src/applets/clock/ClockApplet.vala:180
 msgid "Use 24 hour time"
-msgstr "24-uurstijd gebruiken"
+msgstr "24-uurs indeling"
 
 #: src/applets/show-desktop/ShowDesktopApplet.vala:34
 msgid "Toggle the desktop"
@@ -318,11 +317,11 @@ msgstr "Bureaublad zichtbaar"
 
 #: src/applets/workspaces/WorkspaceItem.vala:72
 msgid "Rename"
-msgstr "Hernoemen"
+msgstr "Hernoem"
 
 #: src/applets/workspaces/WorkspaceItem.vala:79
 msgid "Remove"
-msgstr "Verwijderen"
+msgstr "Verwijder"
 
 #: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Timer (minutes)"
@@ -341,7 +340,7 @@ msgstr "Vergrendelen"
 
 #: src/applets/user-indicator/UserIndicatorWindow.vala:102
 msgid "Suspend"
-msgstr "Onderbreek"
+msgstr "Onderbreken"
 
 #: src/applets/user-indicator/UserIndicatorWindow.vala:103
 msgid "Hibernate"
@@ -390,30 +389,30 @@ msgstr "Open \"%s\""
 
 #: src/applets/places-indicator/MountHelper.vala:39
 msgid "Volume is in use by other processes"
-msgstr "Partitie in gebruik door andere processen"
+msgstr "Dit volume wordt gebruikt door andere processen"
 
 #: src/applets/places-indicator/MountHelper.vala:45
 msgid "Operation aborted"
-msgstr "Handeling afgebroken"
+msgstr "Operatie gestopt"
 
 #: src/applets/places-indicator/MountHelper.vala:57
 msgid "Type your password"
-msgstr "Voer uw wachtwoord in"
+msgstr "Voer uw paswoord in"
 
 #: src/applets/places-indicator/VolumeItem.vala:27
 #: src/applets/places-indicator/MountItem.vala:25
 msgid "Removable devices"
-msgstr "Externe apparaten"
+msgstr "Verwijderbare schijven"
 
 #: src/applets/places-indicator/VolumeItem.vala:29
 #: src/applets/places-indicator/MountItem.vala:27
 msgid "Local volumes"
-msgstr "Lokale partities"
+msgstr "Lokale schijven"
 
 #: src/applets/places-indicator/VolumeItem.vala:33
 #: src/applets/places-indicator/MountItem.vala:31
 msgid "Network folders"
-msgstr "Netwerkmappen"
+msgstr "Netwerk mappen"
 
 #: src/applets/places-indicator/VolumeItem.vala:36
 #: src/applets/places-indicator/MountItem.vala:34
@@ -433,20 +432,21 @@ msgstr "Uitwerpen"
 #: src/applets/places-indicator/VolumeItem.vala:76
 #: src/applets/places-indicator/VolumeItem.vala:121
 msgid "Enter the encryption passphrase to unlock this volume"
-msgstr "Voer het versleutelde wachtwoord in om deze partitie te ontgrendelen"
+msgstr "Voer het encryptiepaswoord in om toegang te hebben tot dit volume"
 
 #: src/applets/places-indicator/VolumeItem.vala:87
 #: src/applets/places-indicator/MountItem.vala:78
 msgid "You can now safely remove"
-msgstr "U kunt nu veilig ontkoppelen"
+msgstr "Nu veilig verwijderen"
 
 #: src/applets/places-indicator/VolumeItem.vala:119
 msgid "The password you entered is incorrect"
-msgstr "Het ingevoerde wachtwoord is onjuist"
+msgstr "Het ingevoerde paswoord is niet correct"
 
 #: src/applets/places-indicator/VolumeItem.vala:123
 msgid "An unknown error occurred while attempting to mount this volume"
-msgstr "Een onbekende fout is opgetreden bij het koppelen van deze partitie"
+msgstr ""
+"Een onbekende fout deed zich voor tijdens het aankoppelen van dit volume"
 
 #: src/applets/places-indicator/MountItem.vala:62
 msgid "Unmount"
@@ -458,15 +458,15 @@ msgstr "Onbekend apparaat"
 
 #: src/applets/places-indicator/MountItem.vala:88
 msgid "Error while ejecting device"
-msgstr "Fout bij het uitwerpen van het apparaat"
+msgstr "Fout tijdens het uitwerpen van het apparaat"
 
 #: src/applets/places-indicator/MountItem.vala:105
 msgid "Error while unmounting volume"
-msgstr "Fout bij het ontkoppelen van partitie"
+msgstr "Fout tijdens het afkoppelen van het volume"
 
 #: src/polkit/polkitdialog.vala:131
 msgid "Authentication failed"
-msgstr "Verificatie mislukt"
+msgstr "Authenticatie mislukt"
 
 #: src/polkit/polkitdialog.vala:230
 msgid "Group:"
@@ -487,11 +487,11 @@ msgstr "Sessie"
 #: src/panel/settings/settings_main.vala:50
 #: src/panel/budgie-desktop-settings.desktop.in.h:1
 msgid "Budgie Desktop Settings"
-msgstr "Budgie-instellingen"
+msgstr "Budgie Bureablad Instellingen"
 
 #: src/panel/settings/settings_main.vala:81
 msgid "Create new panel"
-msgstr "Nieuw paneel aanmaken"
+msgstr "Nieuw paneel"
 
 #: src/panel/settings/settings_panel.vala:80
 msgid "Remove this panel from the screen"
@@ -499,19 +499,19 @@ msgstr "Verwijder dit paneel van het scherm"
 
 #: src/panel/settings/settings_panel.vala:120
 msgid "Top Dock"
-msgstr "Dock Boven"
+msgstr "Bovenste Dock"
 
 #: src/panel/settings/settings_panel.vala:122
 msgid "Right Dock"
-msgstr "Dock Rechts"
+msgstr "Rechtse Dock"
 
 #: src/panel/settings/settings_panel.vala:124
 msgid "Left Dock"
-msgstr "Dock Links"
+msgstr "Linkse Dock"
 
 #: src/panel/settings/settings_panel.vala:126
 msgid "Bottom Dock"
-msgstr "Dock Onder"
+msgstr "Onderste Dock"
 
 #: src/panel/settings/settings_panel.vala:131
 msgid "Top Panel"
@@ -564,7 +564,7 @@ msgstr "Automatisch"
 
 #: src/panel/settings/settings_panel.vala:211
 msgid "Intelligent"
-msgstr "Slim"
+msgstr "Intelligent"
 
 #: src/panel/settings/settings_panel.vala:214
 msgid "Never"
@@ -576,7 +576,7 @@ msgstr "Positie"
 
 #: src/panel/settings/settings_panel.vala:231
 msgid "Set the edge of the screen that this panel will stay on"
-msgstr "De rand van het scherm waar dit paneel zal blijven instellen"
+msgstr "Op welke rand van het schem moet het paneel vastgepind worden"
 
 #: src/panel/settings/settings_panel.vala:239
 msgid "Size"
@@ -584,7 +584,9 @@ msgstr "Grootte"
 
 #: src/panel/settings/settings_panel.vala:240
 msgid "Set the size (width or height, depending on orientation) of this panel"
-msgstr "De grootte (breedte of hoogte, afhankelijk van oriëntatie) van dit paneel"
+msgstr ""
+"Bepaal het formaat (hoogte of breedte, afhankelijk van de oriëntatie) van "
+"dit paneel"
 
 #: src/panel/settings/settings_panel.vala:247
 msgid "Automatically hide"
@@ -592,15 +594,17 @@ msgstr "Automatisch verbergen"
 
 #: src/panel/settings/settings_panel.vala:248
 msgid "When set, this panel will hide from view to maximize screen estate"
-msgstr "Wanneer ingesteld, zal dit paneel zich verbergen om schermruimte te maximaliseren"
+msgstr ""
+"Wanneer zo ingesteld zal het paneel zich verbergen om maximale "
+"schermoppervlakte te voorzien"
 
 #: src/panel/settings/settings_panel.vala:255
 msgid "Transparency"
-msgstr "Doorzichtigheid"
+msgstr "Transparantie"
 
 #: src/panel/settings/settings_panel.vala:256
 msgid "Control when this panel should have a solid background"
-msgstr "Kies of dit paneel een vaste achtergrond moet hebben"
+msgstr "Bepaal de opaciteit van het paneel"
 
 #: src/panel/settings/settings_panel.vala:261
 msgid "Shadow"
@@ -608,23 +612,27 @@ msgstr "Schaduw"
 
 #: src/panel/settings/settings_panel.vala:262
 msgid "Adds a decorative drop-shadow, ideal for opaque panels"
-msgstr "Voegt een decoratieve schaduw toe, ideaal voor doorzichtige panelen"
+msgstr "Voegt onderaan een decoratieve schaduw toe, ideaal voor opaque panelen"
 
 #: src/panel/settings/settings_panel.vala:268
 msgid "Stylize regions"
-msgstr "Duid gebieden aan"
+msgstr "Opaciteit Paneelzones"
 
 #: src/panel/settings/settings_panel.vala:269
 msgid "Adds a hint to the panel so that each of the panel's three main areas may be themed differently."
-msgstr "Voegt een scheiding in het paneel toe zodat de drie primaire gebieden anders kunnen worden aangepast."
+msgstr ""
+"Geeft een speciale toets aan het paneel om de drie hoofdzones te "
+"onderscheiden."
 
 #: src/panel/settings/settings_panel.vala:276
 msgid "Dock mode"
-msgstr "Dockmodus"
+msgstr "Dock modus"
 
 #: src/panel/settings/settings_panel.vala:277
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
-msgstr "Wanneer de dockmodus is geactiveerd, zal het paneel zo min mogelijk ruimte in nemen"
+msgstr ""
+"Eens in dock modus, zal het paneel de kleinst mogelijke ruimte gebruiken,om "
+"zoveel mogelijk nuttige plaats op het scherm vrij te maken"
 
 #: src/panel/settings/settings_raven.vala:30
 msgid "Raven"
@@ -632,72 +640,78 @@ msgstr "Raven"
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
-msgstr ""
+msgstr "Laat volumeverhoging boven 100% toe"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
 msgstr ""
+"Laat volumeverhoging tot 150% toe, zowel via Geluidsinstellingen alsook via "
+"de Sound Output Widget in Raven."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
-msgstr ""
+msgstr "Toon weeknummers in Kalender"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr ""
+msgstr "Instelling om de weeknummers te tonen in de Kalender Widget."
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
-msgstr ""
+msgstr "Toon Kalender Widget"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr ""
+msgstr "Toont of verbergt de Kalender Widget in Raven's Applets sectie."
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
-msgstr ""
+msgstr "Toon Geluidsweergave Widget"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr ""
+msgstr "Toont of verbergt de Geluidsweergave Widget in Raven's Applets sectie."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
-msgstr ""
+msgstr "Toon de Microfooninvoer Widget"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
-msgstr ""
+msgstr "Toont of verbergt de Microfooninvoer Widget in Raven's Applets sectie."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
-msgstr ""
+msgstr "Toon Media-Afspeel-bediening Widget"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
 msgstr ""
+"Toont of verbergt de Media Afspeel Bediening (MPRIS) Widget in Raven's "
+"Applet sectie."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
-msgstr ""
+msgstr "Toon de \"Power\" Strook"
 
 #: src/panel/settings/settings_raven.vala:76
 msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr ""
+msgstr "Toont of verbergt de \"Power\" strook onderaan in Raven."
 
 #: src/panel/settings/settings_panel_dialogs.vala:29
 msgid "Confirm panel removal"
-msgstr "Bevestig paneelverwijdering"
+msgstr "Verwijdering paneel bevestigen"
 
 #: src/panel/settings/settings_panel_dialogs.vala:36
 msgid "Do you really want to remove this panel? This action cannot be undone."
-msgstr "Weet u zeker dat u dit paneel wilt verwijderen? Deze handeling kan niet ongedaan worden gemaakt."
+msgstr ""
+"Wil je werkelijk dit paneel verwijderen? Deze actie kan niet ongedaan "
+"gemaakt worden."
 
 #: src/panel/settings/settings_panel_dialogs.vala:51
 #: src/panel/settings/settings_panel_dialogs.vala:114
 msgid "Don't ask me again"
-msgstr "Vraag mij niet opnieuw"
+msgstr "Niet meer vragen"
 
 #: src/panel/settings/settings_panel_dialogs.vala:60
 msgid "Remove panel"
@@ -709,11 +723,13 @@ msgstr "Paneel behouden"
 
 #: src/panel/settings/settings_panel_dialogs.vala:92
 msgid "Confirm applet removal"
-msgstr "Bevestig appletverwijdering"
+msgstr "Verwijdering applet bevestigen"
 
 #: src/panel/settings/settings_panel_dialogs.vala:99
 msgid "Do you really want to remove this applet? This action cannot be undone."
-msgstr "Weet u zeker dat u deze applet wilt verwijderen? Deze handeling kan niet ongedaan worden gemaakt."
+msgstr ""
+"Wil je werkelijk deze applet verwijderen? Deze actie kan niet ongedaan "
+"gemaakt worden."
 
 #: src/panel/settings/settings_panel_dialogs.vala:123
 msgid "Remove applet"
@@ -729,27 +745,28 @@ msgstr "Bureaublad"
 
 #: src/panel/settings/settings_desktop.vala:43
 msgid "Desktop Icons"
-msgstr "Bureaubladiconen"
+msgstr "Bureaublad Iconen"
 
 #: src/panel/settings/settings_desktop.vala:44
 msgid "Control whether to allow launchers and icons on the desktop"
-msgstr "Kies of snelkoppelingen en iconen toegestaan zijn op het bureaublad"
+msgstr "Bepaal of je al dan niet starters en iconen op het bureaublad wil"
 
 #: src/panel/settings/settings_desktop.vala:54
 msgid "Home directory"
-msgstr "Gebruikersmap"
+msgstr "Persoonlijke map"
 
 #: src/panel/settings/settings_desktop.vala:55
 msgid "Add a shortcut to your home directory on the desktop"
-msgstr "Voeg een snelkoppeling toe naar uw gebruikersmap op het bureaublad"
+msgstr "Plaats een snelkoppeling naar je Persoonlijke map op het bureaublad"
 
 #: src/panel/settings/settings_desktop.vala:60
 msgid "Network servers"
-msgstr "Netwerkservers"
+msgstr "Netwerk servers"
 
 #: src/panel/settings/settings_desktop.vala:61
 msgid "Add a shortcut to your local network servers on the desktop"
-msgstr "Voeg een snelkoppeling toe naar uw locale netwerkservers op het bureaublad"
+msgstr ""
+"Plaats een snelkoppeling naar uw locale netwerk servers op het bureaublad"
 
 #: src/panel/settings/settings_desktop.vala:66
 msgid "Trash"
@@ -757,15 +774,15 @@ msgstr "Prullenbak"
 
 #: src/panel/settings/settings_desktop.vala:67
 msgid "Add a shortcut to the Trash directory on the desktop"
-msgstr "Voeg een snelkoppeling toe naar de prullenbak op het bureaublad"
+msgstr "Plaats een snelkoppeling naar de Prullenbak op het bureaublad"
 
 #: src/panel/settings/settings_desktop.vala:72
 msgid "Mounted volumes"
-msgstr "Gekoppelde partities"
+msgstr "Aangekoppelde volumes"
 
 #: src/panel/settings/settings_desktop.vala:73
 msgid "Mounted volumes & drives will appear on the desktop"
-msgstr "Gekoppelde partities en schijven zullen op het bureaublad verschijnen"
+msgstr "Aangekoppelde volumes en schijven zullen op het bureaublad verschijnen"
 
 #: src/panel/settings/settings_style.vala:32
 msgid "Style"
@@ -777,7 +794,7 @@ msgstr "Widgets"
 
 #: src/panel/settings/settings_style.vala:43
 msgid "Set the appearance of window decorations and controls"
-msgstr "Het uiterlijk van vensters en bediening instellen"
+msgstr "Stel het uiterlijk in van de vensters en hun bedieningen"
 
 #: src/panel/settings/settings_style.vala:47
 msgid "Icons"
@@ -785,7 +802,7 @@ msgstr "Iconen"
 
 #: src/panel/settings/settings_style.vala:48
 msgid "Set the globally used icon theme"
-msgstr "Stel het standaard iconenthema in"
+msgstr "Kies het standaard icoon thema"
 
 #: src/panel/settings/settings_style.vala:52
 msgid "Cursors"
@@ -793,7 +810,7 @@ msgstr "Cursors"
 
 #: src/panel/settings/settings_style.vala:53
 msgid "Set the globally used mouse cursor theme"
-msgstr "Stel het standaard muiscursor thema in"
+msgstr "Kies het standaard muisaanwijzer thema"
 
 #: src/panel/settings/settings_style.vala:61
 msgid "Dark theme"
@@ -804,17 +821,18 @@ msgid "Built-in theme"
 msgstr "Ingebouwd thema"
 
 #: src/panel/settings/settings_style.vala:66
-#, fuzzy
 msgid "When enabled, the desktop component style will override the built-in one"
-msgstr "Wanneer ingeschakeld, zullen de desktopcomponenten overschreven worden door het standaard thema"
+msgstr ""
+"Wanneer ingeschakeld wordt de bureaublad componentenstijl vervangen door de "
+"ingebouwde instellingen"
 
 #: src/panel/settings/settings_style.vala:70
 msgid "Animations"
-msgstr "Animaties"
+msgstr "Animatie"
 
 #: src/panel/settings/settings_style.vala:71
 msgid "Control whether windows and controls use animations"
-msgstr "Kies of vensters en bediening animaties gebruiken"
+msgstr "Bepaal of vensters of bedieningen animatie gebruiken"
 
 #: src/panel/settings/settings_autostart.vala:141
 msgid "Untitled"
@@ -826,11 +844,11 @@ msgstr "Geen beschrijving"
 
 #: src/panel/settings/settings_autostart.vala:171
 msgid "running"
-msgstr "draait"
+msgstr "actief"
 
 #: src/panel/settings/settings_autostart.vala:194
 msgid "Applications"
-msgstr "Applicaties"
+msgstr "Toepassingen"
 
 #: src/panel/settings/settings_autostart.vala:204
 #: src/panel/settings/settings_autostart.vala:377
@@ -844,7 +862,7 @@ msgstr "Commando"
 
 #: src/panel/settings/settings_autostart.vala:387
 msgid "An entry with that title already exists"
-msgstr "Deze titel is al in gebruik"
+msgstr "Er bestaat al een opdracht met deze titel"
 
 #: src/panel/settings/settings_autostart.vala:390
 msgid "Title"
@@ -865,25 +883,24 @@ msgstr "Optioneel"
 
 #: src/panel/settings/settings_autostart.vala:465
 msgid "Autostart"
-msgstr "Automatisch starten"
+msgstr "Autostart"
 
 #: src/panel/settings/settings_autostart.vala:483
-#, fuzzy
 msgid "Autostart apps"
-msgstr "Automatisch starten"
+msgstr "Autostart apps"
 
 #: src/panel/settings/settings_panel_applets.vala:22
 msgid "Configure applet"
-msgstr "Applet configureren"
+msgstr "De applet instellen"
 
 #: src/panel/settings/settings_panel_applets.vala:245
 #: src/panel/settings/settings_applet_chooser.vala:85
 msgid "Add applet"
-msgstr "Applet toevoegen"
+msgstr "Een applet toevoegen"
 
 #: src/panel/settings/settings_panel_applets.vala:246
 msgid "Choose a new applet to add to this panel"
-msgstr "Kies een nieuwe applet om aan dit paneel toe te voegen"
+msgstr "Kies een nieuwe applet om aan het paneel toe te voegen"
 
 #: src/panel/settings/settings_panel_applets.vala:260
 msgid "No settings available"
@@ -919,7 +936,7 @@ msgstr "Opmaak knoppen"
 
 #: src/panel/settings/settings_wm.vala:48
 msgid "Change the layout of buttons in application titlebars"
-msgstr "De lay-out van knoppen in de titelbalk van applicaties aanpassen"
+msgstr "Wijzig de layout van de toepassingsbedieningsknoppen"
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
@@ -931,7 +948,7 @@ msgstr "Centreer nieuw geopende vensters op het huidig scherm"
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
-msgstr "Schakel Night Light uit bij schermvullende vensters."
+msgstr "Schakel Night Light uit bij schermvullende vensters"
 
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
@@ -941,11 +958,13 @@ msgstr ""
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
-msgstr "Automatisch schikken"
+msgstr "Automatisch uitvouwen"
 
 #: src/panel/settings/settings_wm.vala:66
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners"
-msgstr "Vensters zullen automatisch schikken wanneer ze bovenaan of in de hoeken van het scherm worden gesleept"
+msgstr ""
+"Vensters vouwen zich automatisch uit wanneer ze naar de bovenkant van het "
+"scherm of naar een van de hoekranden gesleept worden"
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
@@ -959,11 +978,13 @@ msgstr ""
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
-msgstr "Schakel het niet verwijzen van vensters uit"
+msgstr "Unredirection of windows uitzetten"
 
 #: src/panel/settings/settings_wm.vala:79
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs"
-msgstr "Deze instelling is voor geavanceerde gebruikers. Gebruik dit als u grafische of snelheidsproblemen ondervindt met aparte videokaarten."
+msgstr ""
+"Deze optie is voor geavanceerde gebruikers. Gebruik dit wanneer je grafische-"
+" of performantieproblemen hebt met bepaalde GPU's"
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
@@ -975,7 +996,7 @@ msgstr "Lettertypes"
 
 #: src/panel/settings/settings_fonts.vala:44
 msgid "Window Titles"
-msgstr "Venstertitels"
+msgstr "Venster titels"
 
 #: src/panel/settings/settings_fonts.vala:45
 msgid "Set the font used in the titlebars of applications"
@@ -987,7 +1008,7 @@ msgstr "Documenten"
 
 #: src/panel/settings/settings_fonts.vala:52
 msgid "Set the display font used by for documents"
-msgstr "Het weergegeven lettertype in documenten instellen"
+msgstr "Bepaal het lettertype gebruikt in documenten"
 
 #: src/panel/settings/settings_fonts.vala:58
 msgid "Interface"
@@ -995,7 +1016,7 @@ msgstr "Interface"
 
 #: src/panel/settings/settings_fonts.vala:59
 msgid "Set the primary font used by application controls"
-msgstr "Het voornaamste lettertype voor de bediening van applicaties instellen"
+msgstr "Bepaal het hoofd-lettertype gebruikt door toepassingsbedieningen"
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Monospace"
@@ -1003,52 +1024,53 @@ msgstr "Monospace"
 
 #: src/panel/settings/settings_fonts.vala:66
 msgid "Set the fixed-width font used by text dominant applications"
-msgstr "Het lettertype met vaste breedtes instellen"
+msgstr ""
+"Bepaal het vaste-breedte lettertype gebruikt door dominante toepassingen"
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
-msgstr ""
+msgstr "Tekstschaling"
 
 #: src/panel/settings/settings_fonts.vala:73
 msgid "Set the text scaling factor"
-msgstr ""
+msgstr "Stel de tekstschalingsfactor in"
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
-msgstr "Een applet kiezen"
+msgstr "Kies een applet"
 
 #: src/daemon/endsession.ui.h:2
 msgid "Are you sure you want to end your session?"
-msgstr "Weet u zeker dat u uw sessie wilt beëindigen?"
+msgstr "Bent u zeker dat u uw sessie wilt beëindigen?"
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
-msgstr ""
+msgstr "Toon alle venster met een klik"
 
 #: src/applets/icon-tasklist/settings.ui.h:2
 msgid "Only show favorited"
-msgstr ""
+msgstr "Toon enkel de vastgepinde"
 
 #: src/applets/icon-tasklist/settings.ui.h:3
 msgid "Lock icons"
-msgstr ""
+msgstr "Iconen vastpinnen"
 
 #: src/applets/icon-tasklist/settings.ui.h:4
 msgid "Restrict to Workspace"
-msgstr ""
+msgstr "Beperk tot Werkruimte"
 
 #: src/applets/icon-tasklist/settings.ui.h:5
 msgid "Window grouping"
-msgstr ""
+msgstr "Venstergroepering"
 
 #: src/applets/night-light/indicator_window.ui.h:1
 #: src/applets/night-light/NightLight.plugin.in.h:1
 msgid "Night Light"
-msgstr "filter"
+msgstr "Night Light"
 
 #: src/applets/night-light/indicator_window.ui.h:2
 msgid "Temperature"
-msgstr "Kleurtemperatuur"
+msgstr "Temperatuur"
 
 #: src/applets/night-light/indicator_window.ui.h:3
 msgid "Schedule"
@@ -1056,15 +1078,15 @@ msgstr "Schema"
 
 #: src/applets/night-light/indicator_window.ui.h:4
 msgid "Sunset to Sunrise"
-msgstr "Zonsopgang tot Zonsondergang"
+msgstr "Van zonsondergang tot zonsopgang"
 
 #: src/applets/night-light/indicator_window.ui.h:5
 msgid "Manual"
-msgstr "Handmatig"
+msgstr "Manueel"
 
 #: src/applets/night-light/indicator_window.ui.h:6
 msgid "Display Settings"
-msgstr "Scherminstellingen"
+msgstr "Beeldscherm instellingen"
 
 #: src/applets/spacer/settings.ui.h:1
 msgid "Spacer size"
@@ -1072,7 +1094,7 @@ msgstr "Grootte Tussenstuk"
 
 #: src/applets/budgie-menu/settings.ui.h:1
 msgid "Show Menu Label"
-msgstr "Menutekst weergeven"
+msgstr "Toon Menu Label"
 
 #: src/applets/budgie-menu/settings.ui.h:2
 msgid "Compact Mode"
@@ -1080,49 +1102,47 @@ msgstr "Compacte Modus"
 
 #: src/applets/budgie-menu/settings.ui.h:3
 msgid "Show Headers"
-msgstr "Headers weergeven"
+msgstr "Toon de hoofdingen"
 
 #: src/applets/budgie-menu/settings.ui.h:4
 msgid "Menu Label"
-msgstr "Menutekst"
+msgstr "Menu Label"
 
 #: src/applets/budgie-menu/settings.ui.h:5
 msgid "Roll-over mouse"
-msgstr "Overgaande muis"
+msgstr "Roll-over muis"
 
 #: src/applets/budgie-menu/settings.ui.h:6
 msgid "Menu Icon"
-msgstr "Menupictogram"
+msgstr "Menu Icoon"
 
 #: src/applets/workspaces/settings.ui.h:1
 msgid "\"Add\" button visibility"
-msgstr ""
+msgstr "Zichtbaarheid \"Toevoegen\"-knop"
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
-msgstr ""
+msgstr "Niet tonen"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
-msgstr ""
+msgstr "Toon bij mouseover"
 
 #: src/applets/workspaces/settings.ui.h:4
-#, fuzzy
 msgid "Always show"
-msgstr "Altijd"
+msgstr "Altijd tonen"
 
 #: src/applets/caffeine/settings.ui.h:1
-#, fuzzy
 msgid "Enable notification"
-msgstr "Geen nieuwe meldingen"
+msgstr "Activeer meldingen"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
-msgstr ""
+msgstr "Helderheid maximaliseren"
 
 #: src/applets/caffeine/settings.ui.h:3
 msgid "Brightness Level"
-msgstr ""
+msgstr "Helderheidsniveau"
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
@@ -1142,23 +1162,23 @@ msgstr "Verwijderbare schijven weergeven"
 
 #: src/applets/places-indicator/settings.ui.h:5
 msgid "Always expand places"
-msgstr "Altijd plekken uitbreiden"
+msgstr "Altijd locaties uitvouwen"
 
 #: src/polkit/dialog.ui.h:1
 msgid "Authentication Required"
-msgstr "Verificatie vereist"
+msgstr "Authentificatie Vereist"
 
 #: src/polkit/dialog.ui.h:2
 msgid "Password:"
-msgstr "Wachtwoord:"
+msgstr "Paswoord:"
 
 #: src/polkit/dialog.ui.h:3
 msgid "Authentication is required"
-msgstr "Verificatie is vereist"
+msgstr "Authentificatie is vereist"
 
 #: src/polkit/dialog.ui.h:5
 msgid "Authenticate"
-msgstr "Verifieer"
+msgstr "Authentificeer"
 
 #: src/session/budgie-desktop.desktop.in.in.h:1
 #: src/session/budgie-desktop.session.in.in.h:1
@@ -1167,7 +1187,7 @@ msgstr "Budgie Desktop"
 
 #: src/session/budgie-desktop.desktop.in.in.h:2
 msgid "This session logs you into the Budgie Desktop"
-msgstr "Deze sessie meldt je aan op Budgie Desktop"
+msgstr "Aanmelden in de Budgie Desktop"
 
 #: src/applets/tray/TrayApplet.plugin.in.h:1
 msgid "System Tray"
@@ -1175,11 +1195,11 @@ msgstr "Systeemvak"
 
 #: src/applets/status/StatusApplet.plugin.in.h:1
 msgid "Status Indicator"
-msgstr "Status Indicator"
+msgstr "Status Aanwijzer"
 
 #: src/applets/icon-tasklist/IconTasklistApplet.plugin.in.h:1
 msgid "Icon Task List"
-msgstr "Pictogram Takenlijst"
+msgstr "Icoon Takenlijst"
 
 #: src/applets/spacer/SpacerApplet.plugin.in.h:1
 msgid "Spacer"
@@ -1195,7 +1215,7 @@ msgstr "Toetsenblokkering Aanwijzer"
 
 #: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
 msgid "Raven Sidebar Control"
-msgstr "Raven Zijpaneel Beheer"
+msgstr "Raven zijpaneel Bediener"
 
 #: src/applets/clock/ClockApplet.plugin.in.h:1
 msgid "Clock"
@@ -1219,7 +1239,7 @@ msgstr "Takenlijst"
 
 #: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
 msgid "Caffeine"
-msgstr ""
+msgstr "Caffeine"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
@@ -1230,14 +1250,15 @@ msgid "User Indicator"
 msgstr "Gebruikersindicator"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
-#, fuzzy
 msgid "Change desktop appearance and behavior"
-msgstr "Uiterlijk en gedrag instellen"
+msgstr "Wijzig uiterlijk en gedrag van het bureaublad"
 
 #: src/panel/budgie-panel.desktop.in.h:1
 msgid "Budgie Panel"
-msgstr "Budgie Paneel"
+msgstr "Budgie Panel"
 
 #: src/panel/budgie-panel.desktop.in.h:2
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
-msgstr "Start andere applicaties op en handigheidjes leveren om vensters te beheren, de tijd weer te geven, etc."
+msgstr ""
+"Andere toepassingen opstarten die diverse tools verstrekken om vensters in "
+"te stellen ,de tijd tonen, etc."
