@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
 "PO-Revision-Date: 2019-01-16 11:04+0000\n"
-"Last-Translator: Yurizal Susanto <yursan9@pm.me>\n"
+"Last-Translator: Satria Adhi Kusuma <shay.ryu@gmail.com>\n"
 "Language-Team: Indonesian <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/id/>\n"
 "Language: id\n"
@@ -345,7 +345,7 @@ msgstr "Hibernasi"
 #: src/applets/user-indicator/UserIndicatorWindow.vala:104
 #: src/daemon/endsession.ui.h:5
 msgid "Restart"
-msgstr "Mula Ulang"
+msgstr "Ulangi"
 
 #: src/applets/user-indicator/UserIndicatorWindow.vala:105
 #: src/daemon/endsession.ui.h:6
@@ -623,63 +623,69 @@ msgstr "Saat di mode dok, panel akan menggunakan ruang sekecil mungkin, meluangk
 
 #: src/panel/settings/settings_raven.vala:30
 msgid "Raven"
-msgstr ""
+msgstr "Raven"
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
-msgstr ""
+msgstr "Ijinkan menaikkan volume diatas 100%"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
 msgstr ""
+"Ijinkan menaikkan volume melalui Pengaturan Suara serta Widget Output Suara "
+"di Raven hingga 150%."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
-msgstr ""
+msgstr "Aktifkan tampilan minggu di Kalender"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr ""
+msgstr "Pengaturan ini memungkinkan tampilan minggu di widget Kalender."
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
-msgstr ""
+msgstr "Munculkan widget Kalender"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr ""
+msgstr "Perlihatkan atau sembunyikan Widget Kalender di bagian Applet Raven."
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
-msgstr ""
+msgstr "Tampilkan Widget Output Suara"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
 msgstr ""
+"Perlihatkan atau Sembunyikan Widget Output Suara di bagian Applet Raven."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
-msgstr ""
+msgstr "Tampilkan Widget masukan mikrofon"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
 msgstr ""
+"Perlihatkan atau Sembunyikan Widget Input Mikrofon di bagian Applet Raven."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
-msgstr ""
+msgstr "Tampilkan Widget Kontrol Pemutaran Media"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
 msgstr ""
+"Perlihatkan atau Sembunyikan Widget Media Playback Controls (MPRIS) di "
+"bagian Applet Raven."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
-msgstr ""
+msgstr "Tampilkan Strip Daya"
 
 #: src/panel/settings/settings_raven.vala:76
 msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr ""
+msgstr "Tampilkan atau Sembunyikan Strip Daya dibagian bawah Raven"
 
 #: src/panel/settings/settings_panel_dialogs.vala:29
 msgid "Confirm panel removal"
@@ -863,9 +869,8 @@ msgid "Autostart"
 msgstr "Mulai otomatis"
 
 #: src/panel/settings/settings_autostart.vala:483
-#, fuzzy
 msgid "Autostart apps"
-msgstr "Mulai otomatis"
+msgstr "Aplikasi Mulai otomatis"
 
 #: src/panel/settings/settings_panel_applets.vala:22
 msgid "Configure applet"
@@ -918,19 +923,21 @@ msgstr "Ganti tata letak tombol di bar judul aplikasi"
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
-msgstr ""
+msgstr "Pusatkan jendela baru di layar"
 
 #: src/panel/settings/settings_wm.vala:54
 msgid "Center newly launched windows on the current screen"
-msgstr ""
+msgstr "Pusatkan jendela yang baru diluncurkan pada layar saat ini"
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
-msgstr ""
+msgstr "Nonaktifkan mode Cahaya Malam saat windows layar penuh"
 
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr ""
+"Nonaktifkan mode Cahaya Malam saat jendela layar penuh. Aktifkan kembali "
+"saat meninggalkan layar penuh."
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
@@ -942,11 +949,13 @@ msgstr "Jendela akan menempatkan diri saat digeser ke atas atau sisi sudut"
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
-msgstr ""
+msgstr "Aktifkan perubahan fokus saat mouse masuk dan keluar dari jendela"
 
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
 msgstr ""
+"Aktifkan fokus jendela untuk diterapkan saat mouse memasuki jendela dan "
+"berhenti fokus saat mouse meninggalkan jendela."
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
@@ -998,11 +1007,11 @@ msgstr "Tentukan fonta lebar tetap yang digunakan oleh aplikasi dominan teks"
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
-msgstr ""
+msgstr "Skalakan teks"
 
 #: src/panel/settings/settings_fonts.vala:73
 msgid "Set the text scaling factor"
-msgstr ""
+msgstr "Atur faktor penyekalaan teks"
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
@@ -1014,23 +1023,23 @@ msgstr "Apa Anda yakin akan mengakhiri sesi ini?"
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
-msgstr ""
+msgstr "Tampilkan semua jendela saat klik"
 
 #: src/applets/icon-tasklist/settings.ui.h:2
 msgid "Only show favorited"
-msgstr ""
+msgstr "Hanya tampilkan yang disukai"
 
 #: src/applets/icon-tasklist/settings.ui.h:3
 msgid "Lock icons"
-msgstr ""
+msgstr "Kunci icon"
 
 #: src/applets/icon-tasklist/settings.ui.h:4
 msgid "Restrict to Workspace"
-msgstr ""
+msgstr "Batasi ke Ruang Kerja"
 
 #: src/applets/icon-tasklist/settings.ui.h:5
 msgid "Window grouping"
-msgstr ""
+msgstr "Pengelompokan jendela"
 
 #: src/applets/night-light/indicator_window.ui.h:1
 #: src/applets/night-light/NightLight.plugin.in.h:1
@@ -1087,33 +1096,31 @@ msgstr "Ikon menu"
 
 #: src/applets/workspaces/settings.ui.h:1
 msgid "\"Add\" button visibility"
-msgstr ""
+msgstr "\"Tambahkan\" visibilitas tombol"
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
-msgstr ""
+msgstr "Jangan tampilkan"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
-msgstr ""
+msgstr "Tampilkan saat mouse diatas"
 
 #: src/applets/workspaces/settings.ui.h:4
-#, fuzzy
 msgid "Always show"
-msgstr "Selalu"
+msgstr "Selalu tampilkan"
 
 #: src/applets/caffeine/settings.ui.h:1
-#, fuzzy
 msgid "Enable notification"
-msgstr "Tidak ada notifikasi baru"
+msgstr "Aktifkan notifikasi"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
-msgstr ""
+msgstr "Maksimalkan kecerahan"
 
 #: src/applets/caffeine/settings.ui.h:3
 msgid "Brightness Level"
-msgstr ""
+msgstr "Tingkat Kecerahan"
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
@@ -1210,7 +1217,7 @@ msgstr "Daftar Tugas"
 
 #: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
 msgid "Caffeine"
-msgstr ""
+msgstr "Kafein"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
@@ -1221,7 +1228,6 @@ msgid "User Indicator"
 msgstr "Indikator Pengguna"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
-#, fuzzy
 msgid "Change desktop appearance and behavior"
 msgstr "Ganti tampilan dan perilaku desktop"
 
