@@ -73,7 +73,6 @@ i18n.gettext(meson.project_name(), languages : langs, args : [
     '--add-comments',
     '--package-name=' + meson.project_name(),
     '--package-version=' + meson.project_version(),
-    '--directory=po/',
     '--keyword=_',
     '--keyword=N_',
     '--keyword=C_:1c,2',
