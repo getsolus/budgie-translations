@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: budgie-desktop 10.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-15 16:29+0200\n"
+"POT-Creation-Date: 2019-01-16 15:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -725,7 +725,7 @@ msgid "Desktop Icons"
 msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:44
-msgid "Control whether to allow launchers and icons on the desktop"
+msgid "Control whether to allow launchers and icons on the desktop."
 msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:54
@@ -733,7 +733,7 @@ msgid "Home directory"
 msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:55
-msgid "Add a shortcut to your home directory on the desktop"
+msgid "Add a shortcut to your home directory on the desktop."
 msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:60
@@ -741,7 +741,7 @@ msgid "Network servers"
 msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:61
-msgid "Add a shortcut to your local network servers on the desktop"
+msgid "Add a shortcut to your local network servers on the desktop."
 msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:66
@@ -749,7 +749,7 @@ msgid "Trash"
 msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:67
-msgid "Add a shortcut to the Trash directory on the desktop"
+msgid "Add a shortcut to the Trash directory on the desktop."
 msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:72
@@ -757,7 +757,7 @@ msgid "Mounted volumes"
 msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:73
-msgid "Mounted volumes & drives will appear on the desktop"
+msgid "Mounted volumes & drives will appear on the desktop."
 msgstr ""
 
 #: src/panel/settings/settings_style.vala:32
@@ -901,7 +901,7 @@ msgid "Attach modal dialogs to windows"
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:42
-msgid "Modal dialogs will become attached to the parent window and move together when dragged"
+msgid "Modal dialogs will become attached to the parent window and move together when dragged."
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:47
@@ -909,7 +909,7 @@ msgid "Button layout"
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:48
-msgid "Change the layout of buttons in application titlebars"
+msgid "Change the layout of buttons in application titlebars."
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:53
@@ -917,7 +917,7 @@ msgid "Center new windows on screen"
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:54
-msgid "Center newly launched windows on the current screen"
+msgid "Center newly launched windows on the current screen."
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:59
@@ -933,7 +933,7 @@ msgid "Automatic tiling"
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:66
-msgid "Windows will automatically tile when dragged into the top of the screen or the far corners"
+msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:71
@@ -949,7 +949,7 @@ msgid "Disable unredirection of windows"
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:79
-msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs"
+msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:86
@@ -965,7 +965,7 @@ msgid "Window Titles"
 msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:45
-msgid "Set the font used in the titlebars of applications"
+msgid "Set the font used in the titlebars of applications."
 msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:51
@@ -973,7 +973,7 @@ msgid "Documents"
 msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:52
-msgid "Set the display font used by for documents"
+msgid "Set the display font used by for documents."
 msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:58
@@ -981,7 +981,7 @@ msgid "Interface"
 msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:59
-msgid "Set the primary font used by application controls"
+msgid "Set the primary font used by application controls."
 msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:65
@@ -989,7 +989,7 @@ msgid "Monospace"
 msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:66
-msgid "Set the fixed-width font used by text dominant applications"
+msgid "Set the fixed-width font used by text dominant applications."
 msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:72
@@ -997,7 +997,7 @@ msgid "Text scaling"
 msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:73
-msgid "Set the text scaling factor"
+msgid "Set the text scaling factor."
 msgstr ""
 
 #: src/panel/settings/settings_applet_chooser.vala:79
