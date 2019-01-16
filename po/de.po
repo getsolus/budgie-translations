@@ -1013,7 +1013,7 @@ msgstr "Schriftart mit festgelegter Breite für Text basierte Anwendungen festle
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
-msgstr ""
+msgstr "Skalierung der Texte"
 
 #: src/panel/settings/settings_fonts.vala:73
 msgid "Set the text scaling factor"
