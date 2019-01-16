@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2019-01-16 11:04+0000\n"
+"PO-Revision-Date: 2019-01-16 12:56+0000\n"
 "Last-Translator: Geert Verheyde <geert.verheyde@gmail.com>\n"
 "Language-Team: Dutch <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/nl/>\n"
@@ -221,22 +221,20 @@ msgstr "Vastpinnen"
 #: src/applets/icon-tasklist/IconPopover.vala:373
 #, c-format
 msgid "Move To Workspace %i"
-msgstr ""
+msgstr "Verplaatsen Naar Werkblad %i"
 
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:473
 msgid "Unmaximize"
-msgstr ""
+msgstr "Verkleinen"
 
 #: src/applets/icon-tasklist/IconPopover.vala:532
-#, fuzzy
 msgid "Close Window"
-msgstr "Vensters"
+msgstr "Venster Sluiten"
 
 #: src/applets/icon-tasklist/IconPopover.vala:534
-#, fuzzy
 msgid "Show Window Controls"
-msgstr "Venstertitels"
+msgstr "Toon Vensterknoppen"
 
 #: src/applets/budgie-menu/IconChooser.vala:27
 msgid "Set menu icon from file"
@@ -270,7 +268,7 @@ msgstr "Alle"
 #. placeholder in case of no results
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:401
 msgid "Sorry, no items found"
-msgstr ""
+msgstr "Helaas, niets gevonden"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
@@ -328,7 +326,7 @@ msgstr "Verwijderen"
 
 #: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Timer (minutes)"
-msgstr ""
+msgstr "Timer (minuten)"
 
 #. User Menu Creation
 #: src/applets/user-indicator/UserIndicatorWindow.vala:95
@@ -630,7 +628,7 @@ msgstr "Wanneer de dockmodus is geactiveerd, zal het paneel zo min mogelijk ruim
 
 #: src/panel/settings/settings_raven.vala:30
 msgid "Raven"
-msgstr ""
+msgstr "Raven"
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
@@ -925,19 +923,21 @@ msgstr "De lay-out van knoppen in de titelbalk van applicaties aanpassen"
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
-msgstr ""
+msgstr "Centreer nieuwe vensters op het scherm"
 
 #: src/panel/settings/settings_wm.vala:54
 msgid "Center newly launched windows on the current screen"
-msgstr ""
+msgstr "Centreer nieuw geopende vensters op het huidig scherm"
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
-msgstr ""
+msgstr "Schakel Night Light uit bij schermvullende vensters."
 
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr ""
+"Schakelt Night Light modus uit wanneer een venster schermvullend is. "
+"Schakelt het terug in wanneer schermvullend verlaten wordt."
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
@@ -949,11 +949,13 @@ msgstr "Vensters zullen automatisch schikken wanneer ze bovenaan of in de hoeken
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
-msgstr ""
+msgstr "Activeer wijzing vensterfocus bij in- en uitgaan van de muisaanwijzer"
 
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
 msgstr ""
+"Activeert de vensterfocus toe te passen bij het in- en uitgaan van de "
+"muisaanwijzer."
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
