@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2019-01-16 12:56+0000\n"
+"PO-Revision-Date: 2019-01-16 14:33+0000\n"
 "Last-Translator: Geert Verheyde <geert.verheyde@gmail.com>\n"
 "Language-Team: Flemish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/nl_BE/>\n"
@@ -50,11 +50,11 @@ msgstr "Instellingen"
 #. Should show a notification
 #: src/daemon/settings.vala:277
 msgid "Turned on Caffeine Boost"
-msgstr "Caffeine Boot werd ingeschakeld"
+msgstr "Caffeine Boost werd ingeschakeld"
 
 #: src/daemon/settings.vala:277
 msgid "Turned off Caffeine Boost"
-msgstr "Caffeine Boot werd uitgeschakeld"
+msgstr "Caffeine Boost werd uitgeschakeld"
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
@@ -642,19 +642,19 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
-msgstr "Toon weeknummers in Calendar"
+msgstr "Toon weeknummers in Kalender"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr "Instelling om de weeknummers te tonen in de Calender Widget."
+msgstr "Instelling om de weeknummers te tonen in de Kalender Widget."
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
-msgstr "Toon Calender Widget"
+msgstr "Toon Kalender Widget"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr "Toont of verbergt de Calender Widget in Raven's Applets sectie."
+msgstr "Toont of verbergt de Kalender Widget in Raven's Applets sectie."
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
@@ -688,7 +688,7 @@ msgstr "Toon de \"Power\" Strook"
 
 #: src/panel/settings/settings_raven.vala:76
 msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr "Toont of verrbergt de \"Power\" strook onderaan in Raven."
+msgstr "Toont of verbergt de \"Power\" strook onderaan in Raven."
 
 #: src/panel/settings/settings_panel_dialogs.vala:29
 msgid "Confirm panel removal"
@@ -797,7 +797,7 @@ msgstr "Cursors"
 
 #: src/panel/settings/settings_style.vala:53
 msgid "Set the globally used mouse cursor theme"
-msgstr "Kies het algemeen muisaanwijzer thema"
+msgstr "Kies het standaard muisaanwijzer thema"
 
 #: src/panel/settings/settings_style.vala:61
 msgid "Dark theme"
@@ -831,7 +831,7 @@ msgstr "Geen beschrijving"
 
 #: src/panel/settings/settings_autostart.vala:171
 msgid "running"
-msgstr "lopende"
+msgstr "actief"
 
 #: src/panel/settings/settings_autostart.vala:194
 msgid "Applications"
@@ -965,7 +965,7 @@ msgstr ""
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
-msgstr "unredirection of windows uitzetten"
+msgstr "Unredirection of windows uitzetten"
 
 #: src/panel/settings/settings_wm.vala:79
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs"
@@ -1003,7 +1003,7 @@ msgstr "Interface"
 
 #: src/panel/settings/settings_fonts.vala:59
 msgid "Set the primary font used by application controls"
-msgstr "Bepaal het hoofdlettertype gebruikt door toepassingsbedieningen"
+msgstr "Bepaal het hoofd-lettertype gebruikt door toepassingsbedieningen"
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Monospace"
@@ -1035,7 +1035,7 @@ msgstr "Toon alle venster met een klik"
 
 #: src/applets/icon-tasklist/settings.ui.h:2
 msgid "Only show favorited"
-msgstr "Toon enkel de favorieten"
+msgstr "Toon enkel de vastgepinde"
 
 #: src/applets/icon-tasklist/settings.ui.h:3
 msgid "Lock icons"
@@ -1096,7 +1096,7 @@ msgstr "Menu Label"
 
 #: src/applets/budgie-menu/settings.ui.h:5
 msgid "Roll-over mouse"
-msgstr "Click of Scroll"
+msgstr "Roll-over muis"
 
 #: src/applets/budgie-menu/settings.ui.h:6
 msgid "Menu Icon"
@@ -1104,7 +1104,7 @@ msgstr "Menu Icoon"
 
 #: src/applets/workspaces/settings.ui.h:1
 msgid "\"Add\" button visibility"
-msgstr "Zichtbaarheid \"Toevoegen\" knop"
+msgstr "Zichtbaarheid \"Toevoegen\"-knop"
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
