@@ -10,14 +10,17 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2018-01-21 08:36+0000\n"
+"PO-Revision-Date: 2019-01-16 11:04+0000\n"
 "Last-Translator: Seán Ó Séaghdha <sean.anseo@gmail.com>\n"
-"Language-Team: Irish (http://www.transifex.com/budgie-desktop/budgie-desktop/language/ga/)\n"
+"Language-Team: Irish <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/ga/>\n"
 "Language: ga\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4);\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4);\n"
+"X-Generator: Weblate 3.4-dev\n"
 
 #: src/daemon/endsession.vala:171
 msgid "Log out"
@@ -36,9 +39,8 @@ msgid "Change background"
 msgstr "Athraigh an cúlra"
 
 #: src/daemon/menus.vala:57
-#, fuzzy
 msgid "Displays"
-msgstr "Socruithe Taispeána"
+msgstr "Taispeáintí"
 
 #: src/daemon/menus.vala:66 src/panel/settings/settings_panel.vala:97
 msgid "Settings"
@@ -67,13 +69,13 @@ msgstr[4] ""
 
 #: src/daemon/settings.vala:285
 msgid "Will turn off in"
-msgstr ""
+msgstr "Múchfar é i gceann"
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:44
 #: src/applets/caffeine/CaffeineWindow.vala:25
 msgid "Caffeine Mode"
-msgstr ""
+msgstr "Mód Caiféine"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
@@ -86,11 +88,11 @@ msgstr "Fógraí"
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
-msgstr ""
+msgstr "Níl aip ar bith ag úsáid fuaime faoi láthair"
 
 #: src/raven/start_listening.vala:24
 msgid "Play some music"
-msgstr ""
+msgstr "Seinn roinnt ceoil"
 
 #: src/raven/notifications_view.vala:99
 msgid "Nothing to see here"
@@ -119,11 +121,11 @@ msgstr "Gan fógra nua"
 #. 125ms
 #: src/raven/sound.vala:151
 msgid "Apps"
-msgstr ""
+msgstr "Aipeanna"
 
 #: src/raven/sound.vala:152
 msgid "Devices"
-msgstr ""
+msgstr "Gléasanna"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
@@ -189,33 +191,32 @@ msgstr "Socruithe Fuaime"
 
 #: src/applets/icon-tasklist/IconPopover.vala:92
 msgid "Launch New Instance"
-msgstr ""
+msgstr "Lainseáil ásc nua"
 
 #: src/applets/icon-tasklist/IconPopover.vala:95
 msgid "Close All Windows"
-msgstr ""
+msgstr "Dún Gach Fuinneog"
 
 #: src/applets/icon-tasklist/IconPopover.vala:103
-#, fuzzy
 msgid "Always On Top"
-msgstr "I gCónaí"
+msgstr "Ar Barr I gCónaí"
 
 #: src/applets/icon-tasklist/IconPopover.vala:105
 #: src/applets/icon-tasklist/IconPopover.vala:473
 msgid "Maximize"
-msgstr ""
+msgstr "Uasmhéadaigh"
 
 #: src/applets/icon-tasklist/IconPopover.vala:106
 msgid "Minimize"
-msgstr ""
+msgstr "Íoslaghdaigh"
 
 #: src/applets/icon-tasklist/IconPopover.vala:361
 msgid "Unfavorite"
-msgstr ""
+msgstr "Bain de na Ceanáin"
 
 #: src/applets/icon-tasklist/IconPopover.vala:361
 msgid "Favorite"
-msgstr ""
+msgstr "Cuir leis na gCeanáin"
 
 #. If our current amount of workspaces is different than how many we have added
 #. We have items to add
@@ -223,22 +224,20 @@ msgstr ""
 #: src/applets/icon-tasklist/IconPopover.vala:373
 #, c-format
 msgid "Move To Workspace %i"
-msgstr ""
+msgstr "Bog go Spás Oibre %i"
 
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:473
 msgid "Unmaximize"
-msgstr ""
+msgstr "Dí-uasmhéadaigh"
 
 #: src/applets/icon-tasklist/IconPopover.vala:532
-#, fuzzy
 msgid "Close Window"
-msgstr "Fuinneoga"
+msgstr "Dún an Fhuinneog"
 
 #: src/applets/icon-tasklist/IconPopover.vala:534
-#, fuzzy
 msgid "Show Window Controls"
-msgstr "Teidil Fuinneog"
+msgstr "Taispeáin Rialtáin Fuinneoga"
 
 #: src/applets/budgie-menu/IconChooser.vala:27
 msgid "Set menu icon from file"
@@ -272,7 +271,7 @@ msgstr "Gach rud"
 #. placeholder in case of no results
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:401
 msgid "Sorry, no items found"
-msgstr ""
+msgstr "Brón orm, ní bhfuarthas dada"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
@@ -330,7 +329,7 @@ msgstr "Bain"
 
 #: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Timer (minutes)"
-msgstr ""
+msgstr "Uaineadóir (nóiméid)"
 
 #. User Menu Creation
 #: src/applets/user-indicator/UserIndicatorWindow.vala:95
@@ -632,55 +631,66 @@ msgstr "Nuair atá mód duga i bhfeidhm, úsáideann an painéal an mhéid is l�
 
 #: src/panel/settings/settings_raven.vala:30
 msgid "Raven"
-msgstr ""
+msgstr "Raven"
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
-msgstr ""
+msgstr "Lig ardú fuaime os cionn 100%"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
 msgstr ""
+"Ligeann sé seo duit an fhuaim a ardú go 150% i Socruithe Fuaime agus sa "
+"Ghiuirléid Aschur Fuaime in Raven."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
-msgstr ""
+msgstr "Cumasaigh taispeáint uimhreacha na seachtainí san Fhéilire"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
 msgstr ""
+"Cumasaíonn an socruithe seo taispeáint uimhreacha na seachtainí sa "
+"ghiuirléid Féilire."
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
-msgstr ""
+msgstr "Taispeáin Giuirléid Féilire"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
 msgstr ""
+"Taispeáin nó ceil an Ghiuirléid Féilire sa rannóg Feidhmchláiríní Raven."
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
-msgstr ""
+msgstr "Taispeáin Giuirléid Aschur Fuaime"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
 msgstr ""
+"Taispeáin nó ceil an Ghiuirléid Aschur Fuaime sa rannóg Feidhmchláiríní "
+"Raven."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
-msgstr ""
+msgstr "Taispeáin Giuirléid Ionchur Micreafóin"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
 msgstr ""
+"Taispeáin nó ceil an Ghiuirléid Ionchur Micreafóin sa rannóg Feidhmchláiríní "
+"Raven."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
-msgstr ""
+msgstr "Taispeáin Giuirléid Rialtáin Ilmheán"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
 msgstr ""
+"Taispeáin nó ceil an Ghiuirléid Rialtáin Ilmheán (MPRIS) sa rannóg "
+"Feidhmchláiríní Raven."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
@@ -872,9 +882,8 @@ msgid "Autostart"
 msgstr "Uath-thosú"
 
 #: src/panel/settings/settings_autostart.vala:483
-#, fuzzy
 msgid "Autostart apps"
-msgstr "Uath-thosú"
+msgstr "Aipeanna Uath-thosaithe"
 
 #: src/panel/settings/settings_panel_applets.vala:22
 msgid "Configure applet"
@@ -927,19 +936,21 @@ msgstr "Athraigh leagan amach na gcnaipí i mbarraí teidil"
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
-msgstr ""
+msgstr "Cuir fuinneoga nua i lár an scáileáin"
 
 #: src/panel/settings/settings_wm.vala:54
 msgid "Center newly launched windows on the current screen"
-msgstr ""
+msgstr "Cuir fuinneoga nualainseáilte i lár an scáileáin"
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
-msgstr ""
+msgstr "Díchumasaigh mód Sholas Oíche nuair atá fuinneoga lánscáileáin ann"
 
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr ""
+"Díchumasaítear mód Sholas Oíche nuair atá fuinneog i mód lánscáileáin. "
+"Cumasaítear arís é ag fágáil lánscáileán."
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
@@ -951,11 +962,13 @@ msgstr "Tíleofar fuinneoga go huathoibríoch nuair a tharraingíonn tú go barr
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
-msgstr ""
+msgstr "Cumasaigh athrú fhócas fuinneoige ar dul isteach nó fágáil na luiche"
 
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
 msgstr ""
+"Cumasaítear fócas fuinneoige a bheith ann nuair a thagann an luch isteach "
+"san fhuinneog agus díchumasaítear é nuair a fhágann an luch an fhuinneog."
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
@@ -1007,11 +1020,11 @@ msgstr "Socraigh an cló aonleithid le húsáid i bhfeidhmchláir téacs"
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
-msgstr ""
+msgstr "Scálú Téacs"
 
 #: src/panel/settings/settings_fonts.vala:73
 msgid "Set the text scaling factor"
-msgstr ""
+msgstr "Socraigh an mhéid scálú téacs"
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
@@ -1023,23 +1036,23 @@ msgstr "An bhfuil tú cinnte gur maith leat deireadh a chur le do sheisiún?"
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
-msgstr ""
+msgstr "Taispeáin gach fuinneog ar cliceáil"
 
 #: src/applets/icon-tasklist/settings.ui.h:2
 msgid "Only show favorited"
-msgstr ""
+msgstr "Ná taispeáin ach ceanáin"
 
 #: src/applets/icon-tasklist/settings.ui.h:3
 msgid "Lock icons"
-msgstr ""
+msgstr "Cuir deilbhíní faoi ghlas"
 
 #: src/applets/icon-tasklist/settings.ui.h:4
 msgid "Restrict to Workspace"
-msgstr ""
+msgstr "Teorannaigh don Spás Oibre"
 
 #: src/applets/icon-tasklist/settings.ui.h:5
 msgid "Window grouping"
-msgstr ""
+msgstr "Grúpáil Fuinneog"
 
 #: src/applets/night-light/indicator_window.ui.h:1
 #: src/applets/night-light/NightLight.plugin.in.h:1
@@ -1100,29 +1113,27 @@ msgstr ""
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
-msgstr ""
+msgstr "Ná taispeáin"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
-msgstr ""
+msgstr "Taispeáin ar ainliú luiche"
 
 #: src/applets/workspaces/settings.ui.h:4
-#, fuzzy
 msgid "Always show"
-msgstr "I gCónaí"
+msgstr "Taispeáin I gCónaí"
 
 #: src/applets/caffeine/settings.ui.h:1
-#, fuzzy
 msgid "Enable notification"
-msgstr "Gan fógra nua"
+msgstr "Cumasaigh fógra"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
-msgstr ""
+msgstr "Uasmhéadaigh an ghile"
 
 #: src/applets/caffeine/settings.ui.h:3
 msgid "Brightness Level"
-msgstr ""
+msgstr "Leibhéal Gile"
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
@@ -1219,7 +1230,7 @@ msgstr "Tascbharra"
 
 #: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
 msgid "Caffeine"
-msgstr ""
+msgstr "Caiféin"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
@@ -1230,9 +1241,8 @@ msgid "User Indicator"
 msgstr "Táscaire Úsáideora"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
-#, fuzzy
 msgid "Change desktop appearance and behavior"
-msgstr "Athraigh iompraíocht agus cuma na deisce"
+msgstr "Athraigh cuma agus iompraíocht na deisce"
 
 #: src/panel/budgie-panel.desktop.in.h:1
 msgid "Budgie Panel"
