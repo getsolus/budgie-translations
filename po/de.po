@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2019-01-16 09:46+0000\n"
+"PO-Revision-Date: 2019-01-16 09:47+0000\n"
 "Last-Translator: Sebastian Kutter <sebastian@skutter.de>\n"
 "Language-Team: German <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/de/>\n"
@@ -136,7 +136,7 @@ msgstr ""
 
 #: src/raven/sound.vala:152
 msgid "Devices"
-msgstr ""
+msgstr "Geräte"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
