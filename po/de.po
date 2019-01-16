@@ -1126,7 +1126,7 @@ msgstr ""
 
 #: src/applets/caffeine/settings.ui.h:3
 msgid "Brightness Level"
-msgstr ""
+msgstr "Helligkeit"
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
