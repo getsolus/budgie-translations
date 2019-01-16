@@ -86,7 +86,7 @@ msgstr ""
 #: src/raven/notifications_group.vala:44
 #: src/applets/caffeine/CaffeineWindow.vala:25
 msgid "Caffeine Mode"
-msgstr ""
+msgstr "Caffeine Modus"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
