@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2019-01-16 11:04+0000\n"
+"PO-Revision-Date: 2019-01-16 12:56+0000\n"
 "Last-Translator: Geert Verheyde <geert.verheyde@gmail.com>\n"
 "Language-Team: Flemish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/nl_BE/>\n"
@@ -40,7 +40,6 @@ msgid "Change background"
 msgstr "Achtergrond aanpassen"
 
 #: src/daemon/menus.vala:57
-#, fuzzy
 msgid "Displays"
 msgstr "Beeldschermen"
 
@@ -128,7 +127,7 @@ msgstr "Apparaten"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
-msgstr "Accu vol"
+msgstr "Accu vol."
 
 #: src/applets/status/PowerIndicator.vala:100
 msgid "Unknown"
@@ -225,17 +224,15 @@ msgstr "Verplaats naar Werkblad %i"
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:473
 msgid "Unmaximize"
-msgstr ""
+msgstr "Verkleinen"
 
 #: src/applets/icon-tasklist/IconPopover.vala:532
-#, fuzzy
 msgid "Close Window"
-msgstr "Vensters"
+msgstr "Venster Sluiten"
 
 #: src/applets/icon-tasklist/IconPopover.vala:534
-#, fuzzy
 msgid "Show Window Controls"
-msgstr "Venster titels"
+msgstr "Toon Vensterknoppen"
 
 #: src/applets/budgie-menu/IconChooser.vala:27
 msgid "Set menu icon from file"
@@ -243,11 +240,11 @@ msgstr "Wijzig het menu icoon via bestand"
 
 #: src/applets/budgie-menu/IconChooser.vala:37
 msgid "Image files"
-msgstr "Beeldbestanden"
+msgstr "Afbeeldingen"
 
 #: src/applets/budgie-menu/IconChooser.vala:43
 msgid "Any file"
-msgstr "elk bestand"
+msgstr "Elk bestand"
 
 #: src/applets/budgie-menu/IconChooser.vala:55
 #: src/panel/settings/settings_autostart.vala:203
@@ -269,7 +266,7 @@ msgstr "Alle"
 #. placeholder in case of no results
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:401
 msgid "Sorry, no items found"
-msgstr ""
+msgstr "Helaas, niets gevonden"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
@@ -327,7 +324,7 @@ msgstr "Verwijder"
 
 #: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Timer (minutes)"
-msgstr ""
+msgstr "Timer (minuten)"
 
 #. User Menu Creation
 #: src/applets/user-indicator/UserIndicatorWindow.vala:95
@@ -373,7 +370,7 @@ msgstr "Locaties"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:181
 msgid "Nothing to display right now"
-msgstr "Momenteel niets weer te geven "
+msgstr "Momenteel niets weer te geven"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:185
 msgid "Mount some drives"
@@ -577,7 +574,7 @@ msgstr "Positie"
 
 #: src/panel/settings/settings_panel.vala:231
 msgid "Set the edge of the screen that this panel will stay on"
-msgstr "Op welke rand van het schem moet het paneel vastgepind worden?"
+msgstr "Op welke rand van het schem moet het paneel vastgepind worden"
 
 #: src/panel/settings/settings_panel.vala:239
 msgid "Size"
@@ -609,7 +606,7 @@ msgstr "Schaduw"
 
 #: src/panel/settings/settings_panel.vala:262
 msgid "Adds a decorative drop-shadow, ideal for opaque panels"
-msgstr "Voegt onderaan een decoratieve schaduw toe, ideaal voor opaque panelen "
+msgstr "Voegt onderaan een decoratieve schaduw toe, ideaal voor opaque panelen"
 
 #: src/panel/settings/settings_panel.vala:268
 msgid "Stylize regions"
@@ -617,7 +614,9 @@ msgstr "Opaciteit Paneelzones"
 
 #: src/panel/settings/settings_panel.vala:269
 msgid "Adds a hint to the panel so that each of the panel's three main areas may be themed differently."
-msgstr "Geeft een speciale toets aan het paneel om de drie hoofdzones te onderscheiden"
+msgstr ""
+"Geeft een speciale toets aan het paneel om de drie hoofdzones te "
+"onderscheiden."
 
 #: src/panel/settings/settings_panel.vala:276
 msgid "Dock mode"
@@ -647,7 +646,7 @@ msgstr "Toon weeknummers in Calendar"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr "Instelling om de weeknummers te tonen in de Calender Widget"
+msgstr "Instelling om de weeknummers te tonen in de Calender Widget."
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
@@ -655,7 +654,7 @@ msgstr "Toon Calender Widget"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr "Toont of verbergt de Calender Widget in Raven's Applets sectie"
+msgstr "Toont of verbergt de Calender Widget in Raven's Applets sectie."
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
@@ -663,7 +662,7 @@ msgstr "Toon Geluidsweergave Widget"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr "Toont of verbergt de Geluidsweergave Widget in Raven's Applets sectie"
+msgstr "Toont of verbergt de Geluidsweergave Widget in Raven's Applets sectie."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
@@ -738,7 +737,7 @@ msgstr "Bureaublad Iconen"
 
 #: src/panel/settings/settings_desktop.vala:44
 msgid "Control whether to allow launchers and icons on the desktop"
-msgstr "Bepaal of je al dan niet starters en iconen op het bureaublad wil."
+msgstr "Bepaal of je al dan niet starters en iconen op het bureaublad wil"
 
 #: src/panel/settings/settings_desktop.vala:54
 msgid "Home directory"
@@ -809,9 +808,10 @@ msgid "Built-in theme"
 msgstr "Ingebouwd thema"
 
 #: src/panel/settings/settings_style.vala:66
-#, fuzzy
 msgid "When enabled, the desktop component style will override the built-in one"
-msgstr "Wanneer ingeschakeld wordt de bureablad componentenstijl vervangen door de ingebouwde instellingen"
+msgstr ""
+"Wanneer ingeschakeld wordt de bureaublad componentenstijl vervangen door de "
+"ingebouwde instellingen"
 
 #: src/panel/settings/settings_style.vala:70
 msgid "Animations"
@@ -873,9 +873,8 @@ msgid "Autostart"
 msgstr "Autostart"
 
 #: src/panel/settings/settings_autostart.vala:483
-#, fuzzy
 msgid "Autostart apps"
-msgstr "Autostart"
+msgstr "Autostart apps"
 
 #: src/panel/settings/settings_panel_applets.vala:22
 msgid "Configure applet"
@@ -936,7 +935,7 @@ msgstr "Centreer nieuw geopende vensters op het huidig scherm"
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
-msgstr "Schakel Night Light uit bij schermvullende vensters."
+msgstr "Schakel Night Light uit bij schermvullende vensters"
 
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
@@ -946,19 +945,23 @@ msgstr ""
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
-msgstr "Automatisch uitvouwen "
+msgstr "Automatisch uitvouwen"
 
 #: src/panel/settings/settings_wm.vala:66
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners"
-msgstr "Vensters vouwen zich automatisch uit wanneer ze naar de bovenkant van het scherm of naar een van de hoekranden gesleept worden "
+msgstr ""
+"Vensters vouwen zich automatisch uit wanneer ze naar de bovenkant van het "
+"scherm of naar een van de hoekranden gesleept worden"
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
-msgstr ""
+msgstr "Activeer wijzing vensterfocus bij in- en uitgaan van de muisaanwijzer"
 
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
 msgstr ""
+"Activeert de vensterfocus toe te passen bij het in- en uitgaan van de "
+"muisaanwijzer."
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
@@ -966,7 +969,9 @@ msgstr "unredirection of windows uitzetten"
 
 #: src/panel/settings/settings_wm.vala:79
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs"
-msgstr "Deze optie is voor geavanceerde gebruikers. Gebruik dit wanneer je grafische- of performantieproblemen hebt met bepaalde GPU's "
+msgstr ""
+"Deze optie is voor geavanceerde gebruikers. Gebruik dit wanneer je grafische-"
+" of performantieproblemen hebt met bepaalde GPU's"
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
@@ -1099,7 +1104,7 @@ msgstr "Menu Icoon"
 
 #: src/applets/workspaces/settings.ui.h:1
 msgid "\"Add\" button visibility"
-msgstr ""
+msgstr "Zichtbaarheid \"Toevoegen\" knop"
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
@@ -1107,17 +1112,15 @@ msgstr "Niet tonen"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
-msgstr ""
+msgstr "Toon bij mouseover"
 
 #: src/applets/workspaces/settings.ui.h:4
-#, fuzzy
 msgid "Always show"
-msgstr "Altijd"
+msgstr "Altijd tonen"
 
 #: src/applets/caffeine/settings.ui.h:1
-#, fuzzy
 msgid "Enable notification"
-msgstr "Geen nieuwe meldingen"
+msgstr "Activeer meldingen"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
@@ -1233,14 +1236,15 @@ msgid "User Indicator"
 msgstr "Gebruikersindicator"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
-#, fuzzy
 msgid "Change desktop appearance and behavior"
-msgstr "Wijzig het uiterlijk en het gedrag van het bureaublad"
+msgstr "Wijzig uiterlijk en gedrag van het bureaublad"
 
 #: src/panel/budgie-panel.desktop.in.h:1
 msgid "Budgie Panel"
-msgstr "Budgie Panel "
+msgstr "Budgie Panel"
 
 #: src/panel/budgie-panel.desktop.in.h:2
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
-msgstr "Andere toepassingen opstarten die diverse tools verstrekken om vensters in te stellen ,de tijd tonen, etc"
+msgstr ""
+"Andere toepassingen opstarten die diverse tools verstrekken om vensters in "
+"te stellen ,de tijd tonen, etc."
