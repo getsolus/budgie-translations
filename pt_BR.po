@@ -18,9 +18,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2019-01-15 10:59+0000\n"
-"Last-Translator: Daniel Henrique Ferreira <daniel_henrique@outlook.com>\n"
-"Language-Team: Portuguese (Brazil) <http://translate.getsol.us/projects/budgie-desktop/main/pt_BR/>\n"
+"PO-Revision-Date: 2019-01-18 06:43+0000\n"
+"Last-Translator: Alisson Silva <alissonsilva498@outlook.com.br>\n"
+"Language-Team: Portuguese (Brazil) <http://translate.getsol.us/projects/"
+"budgie-desktop/translations/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,9 +46,8 @@ msgid "Change background"
 msgstr "Alterar plano de fundo"
 
 #: src/daemon/menus.vala:57
-#, fuzzy
 msgid "Displays"
-msgstr "Configurações de exibição"
+msgstr "Tela"
 
 #: src/daemon/menus.vala:66 src/panel/settings/settings_panel.vala:97
 msgid "Settings"
@@ -56,11 +56,11 @@ msgstr "Configurações"
 #. Should show a notification
 #: src/daemon/settings.vala:277
 msgid "Turned on Caffeine Boost"
-msgstr ""
+msgstr "Modo Cafeína Ativado"
 
 #: src/daemon/settings.vala:277
 msgid "Turned off Caffeine Boost"
-msgstr ""
+msgstr "Modo Cafeína Desativado"
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
@@ -73,13 +73,13 @@ msgstr[1] ""
 
 #: src/daemon/settings.vala:285
 msgid "Will turn off in"
-msgstr ""
+msgstr "Será desligado em"
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:44
 #: src/applets/caffeine/CaffeineWindow.vala:25
 msgid "Caffeine Mode"
-msgstr ""
+msgstr "Modo Cafeinado"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
@@ -92,11 +92,11 @@ msgstr "Notificações"
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
-msgstr ""
+msgstr "Nada está reproduzindo som no momento."
 
 #: src/raven/start_listening.vala:24
 msgid "Play some music"
-msgstr ""
+msgstr "Toque alguma música"
 
 #: src/raven/notifications_view.vala:99
 msgid "Nothing to see here"
@@ -125,11 +125,11 @@ msgstr "Sem novas notificações"
 #. 125ms
 #: src/raven/sound.vala:151
 msgid "Apps"
-msgstr ""
+msgstr "Aplicativos"
 
 #: src/raven/sound.vala:152
 msgid "Devices"
-msgstr ""
+msgstr "Dispositivos"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
