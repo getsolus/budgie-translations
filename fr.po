@@ -22,8 +22,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2019-01-17 22:05+0000\n"
-"Last-Translator: Ludovic G. <contact@ludovicgeneix.fr>\n"
+"PO-Revision-Date: 2019-01-17 22:09+0000\n"
+"Last-Translator: Pierre-Yves <pyu@riseup.net>\n"
 "Language-Team: French <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/fr/>\n"
 "Language: fr\n"
@@ -961,7 +961,7 @@ msgstr "Désactiver le Mode Nuit quand une fenêtre est en plein écran"
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr ""
 "Désactive le Mode Nuit quand une fenêtre passe en plein écran, le réactive "
-"après"
+"après."
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
@@ -972,8 +972,11 @@ msgid "Windows will automatically tile when dragged into the top of the screen o
 msgstr "Les fenêtres seront automatiquement redimensionnées lorsque entraînées vers le haut ou un des coins de l'écran"
 
 #: src/panel/settings/settings_wm.vala:71
+#, fuzzy
 msgid "Enable window focus change on mouse enter and leave"
 msgstr ""
+"Activer le changement de focus de la fenêtre à l'entrée et à la sortie de la "
+"souris"
 
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
