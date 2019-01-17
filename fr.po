@@ -22,8 +22,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2019-01-17 22:09+0000\n"
-"Last-Translator: Kévin Bergue <kevin@be-ta.art>\n"
+"PO-Revision-Date: 2019-01-18 07:03+0000\n"
+"Last-Translator: Pierre-Yves <pyu@riseup.net>\n"
 "Language-Team: French <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/fr/>\n"
 "Language: fr\n"
@@ -979,6 +979,7 @@ msgstr ""
 "souris"
 
 #: src/panel/settings/settings_wm.vala:72
+#, fuzzy
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
 msgstr "Change le focus des fenêtres en fonction de la position de la souris"
 
@@ -1036,7 +1037,7 @@ msgstr "Mise à l'échelle du texte"
 
 #: src/panel/settings/settings_fonts.vala:73
 msgid "Set the text scaling factor"
-msgstr ""
+msgstr "Définir le facteur de mise à l'échelle du texte"
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
@@ -1120,8 +1121,9 @@ msgid "Menu Icon"
 msgstr "Icône du menu"
 
 #: src/applets/workspaces/settings.ui.h:1
+#, fuzzy
 msgid "\"Add\" button visibility"
-msgstr ""
+msgstr "Visibilité du bouton \"Ajouter\""
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
