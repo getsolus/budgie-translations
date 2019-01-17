@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
 "PO-Revision-Date: 2019-01-17 07:05+0000\n"
-"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
+"Last-Translator: Davide Pucci <posta@davidepucci.it>\n"
 "Language-Team: Italian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/it/>\n"
 "Language: it\n"
@@ -677,19 +677,21 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
-msgstr ""
+msgstr "Mostra Widget di Controllo Riproduzione Multimediale"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
 msgstr ""
+"Mostra o nasconde il Widget di Controllo Riproduzione Multimediale (MPRIS) "
+"nella sezione Applets di Raven."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
-msgstr ""
+msgstr "Mostra opzioni di Alimentazione"
 
 #: src/panel/settings/settings_raven.vala:76
 msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr ""
+msgstr "Mostra o nascone le opzioni di Alimentazione in fondo a Raven."
 
 #: src/panel/settings/settings_panel_dialogs.vala:29
 msgid "Confirm panel removal"
@@ -809,9 +811,10 @@ msgid "Built-in theme"
 msgstr "Tema Predefinito"
 
 #: src/panel/settings/settings_style.vala:66
-#, fuzzy
 msgid "When enabled, the desktop component style will override the built-in one"
-msgstr "Quando abilitato, lo stile dei componenti del desktop verrà sovrascritto con quello predefinito"
+msgstr ""
+"Quando abilitato, lo stile dei componenti del desktop sovrascriverà il "
+"predefinito"
 
 #: src/panel/settings/settings_style.vala:70
 msgid "Animations"
@@ -873,9 +876,8 @@ msgid "Autostart"
 msgstr "Avvio automatico"
 
 #: src/panel/settings/settings_autostart.vala:483
-#, fuzzy
 msgid "Autostart apps"
-msgstr "Avvio automatico"
+msgstr "Applicazioni di avvio automatico"
 
 #: src/panel/settings/settings_panel_applets.vala:22
 msgid "Configure applet"
@@ -928,19 +930,22 @@ msgstr "Cambia la disposizione dei pulsanti sulle barre delle applicazioni"
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
-msgstr ""
+msgstr "Centra le nuove finestre"
 
 #: src/panel/settings/settings_wm.vala:54
 msgid "Center newly launched windows on the current screen"
-msgstr ""
+msgstr "Centra le finestre appena aperte nello schermo corrente"
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
 msgstr ""
+"Disabilita la modalità Night Light quando le finestre sono a schermo intero"
 
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr ""
+"Disabilita la modalità Night Light quando una finestra è a schermo intero. "
+"La riattiva quando si esce dalla modalità schermo intero."
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
@@ -953,10 +958,14 @@ msgstr "Le finestre saranno piastrellate automaticamente quando trascinate in ci
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
 msgstr ""
+"Abilita il cambiamento di focus della finestra quando il mouse si entra ed "
+"esce dai margini"
 
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
 msgstr ""
+"Abilita il focus su una finestra quando il mouse entra nei margini e la "
+"perdita di focus quando ne esce."
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
@@ -1008,11 +1017,11 @@ msgstr "Imposta il font a larghezza fissa usato dalle applicazioni di testo"
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
-msgstr ""
+msgstr "Ridimensionamento testo"
 
 #: src/panel/settings/settings_fonts.vala:73
 msgid "Set the text scaling factor"
-msgstr ""
+msgstr "Imposta fattore di ridimensionamento testo"
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
@@ -1024,23 +1033,23 @@ msgstr "Sei sicuro di voler terminare la tua sessione?"
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
-msgstr ""
+msgstr "Mostra tutte le finestre al click"
 
 #: src/applets/icon-tasklist/settings.ui.h:2
 msgid "Only show favorited"
-msgstr ""
+msgstr "Mostra solo preferiti"
 
 #: src/applets/icon-tasklist/settings.ui.h:3
 msgid "Lock icons"
-msgstr ""
+msgstr "Blocca icone"
 
 #: src/applets/icon-tasklist/settings.ui.h:4
 msgid "Restrict to Workspace"
-msgstr ""
+msgstr "Restringi all'area di lavoro"
 
 #: src/applets/icon-tasklist/settings.ui.h:5
 msgid "Window grouping"
-msgstr ""
+msgstr "Raggruppamento finestre"
 
 #: src/applets/night-light/indicator_window.ui.h:1
 #: src/applets/night-light/NightLight.plugin.in.h:1
@@ -1097,33 +1106,31 @@ msgstr "Icona menu"
 
 #: src/applets/workspaces/settings.ui.h:1
 msgid "\"Add\" button visibility"
-msgstr ""
+msgstr "Visibilità pulsante \"Aggiungi\""
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
-msgstr ""
+msgstr "Non mostrare"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
-msgstr ""
+msgstr "Mostra al passaggio del mouse"
 
 #: src/applets/workspaces/settings.ui.h:4
-#, fuzzy
 msgid "Always show"
-msgstr "Sempre"
+msgstr "Mostra sempre"
 
 #: src/applets/caffeine/settings.ui.h:1
-#, fuzzy
 msgid "Enable notification"
-msgstr "Nessuna nuova notifica"
+msgstr "Abilita notifica"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
-msgstr ""
+msgstr "Massimizza luminosità"
 
 #: src/applets/caffeine/settings.ui.h:3
 msgid "Brightness Level"
-msgstr ""
+msgstr "Livello di luminosità"
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
@@ -1220,7 +1227,7 @@ msgstr "Lista Task"
 
 #: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
 msgid "Caffeine"
-msgstr ""
+msgstr "Caffeina"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
@@ -1231,7 +1238,6 @@ msgid "User Indicator"
 msgstr "Indicatore utente"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
-#, fuzzy
 msgid "Change desktop appearance and behavior"
 msgstr "Cambia aspetto e comportamento del desktop"
 
