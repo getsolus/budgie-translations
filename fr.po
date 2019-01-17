@@ -23,7 +23,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
 "PO-Revision-Date: 2019-01-17 21:39+0000\n"
-"Last-Translator: Pierre-Yves <pyu@riseup.net>\n"
+"Last-Translator: Yume Network <Yume.network@protonmail.com>\n"
 "Language-Team: French <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/fr/>\n"
 "Language: fr\n"
@@ -234,7 +234,7 @@ msgstr "Passer à l'espace de travail %i"
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:473
 msgid "Unmaximize"
-msgstr ""
+msgstr "Démaximiser"
 
 #: src/applets/icon-tasklist/IconPopover.vala:532
 msgid "Close Window"
@@ -276,7 +276,7 @@ msgstr "Tout"
 #. placeholder in case of no results
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:401
 msgid "Sorry, no items found"
-msgstr ""
+msgstr "Désolé, aucun résultats trouvés"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
