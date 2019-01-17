@@ -12,9 +12,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2019-01-15 17:47+0000\n"
-"Last-Translator: samplasion <ercolino2004@gmail.com>\n"
-"Language-Team: Italian <http://translate.getsol.us/projects/budgie-desktop/translations/it/>\n"
+"PO-Revision-Date: 2019-01-17 06:45+0000\n"
+"Last-Translator: Giorgio Micotti <giorgiomicotti@gmail.com>\n"
+"Language-Team: Italian <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +25,7 @@ msgstr ""
 
 #: src/daemon/endsession.vala:171
 msgid "Log out"
-msgstr "Esci"
+msgstr "Termina sessione"
 
 #: src/daemon/endsession.vala:175
 msgid "Restart device"
@@ -638,6 +639,8 @@ msgstr ""
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
 msgstr ""
+"Consente l'innalzamento del volume attraverso le Impostazioni Audio e il "
+"Widget Raven di Output Audio fino al 150%."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
@@ -646,6 +649,8 @@ msgstr ""
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
 msgstr ""
+"Questa impostazione abilita la visualizzazione del numero della settimana "
+"nel widget Calendario."
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
@@ -653,15 +658,16 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr ""
+msgstr "Mostra o nasconde il Widget Calendario nella sezione Applets di Raven."
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
-msgstr ""
+msgstr "Mostra Widget di Output Audio"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
 msgstr ""
+"Mostra o nasconde il Widget di Output Audio nella sezione Applets di Raven."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
