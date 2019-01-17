@@ -22,8 +22,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2019-01-17 07:05+0000\n"
-"Last-Translator: Leo Pourcelot <leo.pourcelot@protonmail.com>\n"
+"PO-Revision-Date: 2019-01-17 20:38+0000\n"
+"Last-Translator: Kévin Bergue <kevin@be-ta.art>\n"
 "Language-Team: French <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/fr/>\n"
 "Language: fr\n"
@@ -50,9 +50,8 @@ msgid "Change background"
 msgstr "Changer l'arrière-plan du bureau"
 
 #: src/daemon/menus.vala:57
-#, fuzzy
 msgid "Displays"
-msgstr "Paramètres d'affichage"
+msgstr "Écrans"
 
 #: src/daemon/menus.vala:66 src/panel/settings/settings_panel.vala:97
 msgid "Settings"
