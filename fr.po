@@ -22,8 +22,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2019-01-17 21:58+0000\n"
-"Last-Translator: Kévin Bergue <kevin@be-ta.art>\n"
+"PO-Revision-Date: 2019-01-17 22:05+0000\n"
+"Last-Translator: Pierre-Yves <pyu@riseup.net>\n"
 "Language-Team: French <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/fr/>\n"
 "Language: fr\n"
@@ -704,7 +704,7 @@ msgstr "Afficher la barre de contrôle de l'alimentation"
 
 #: src/panel/settings/settings_raven.vala:76
 msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr "Montre les contrôles d'alimentation en bas de Raven"
+msgstr "Affiche ou masque les contrôles d'alimentation en bas de Raven"
 
 #: src/panel/settings/settings_panel_dialogs.vala:29
 msgid "Confirm panel removal"
@@ -951,7 +951,7 @@ msgstr "Centrer les nouvelles fenêtres"
 
 #: src/panel/settings/settings_wm.vala:54
 msgid "Center newly launched windows on the current screen"
-msgstr ""
+msgstr "Center les fenêtres nouvellement ouvertes au milieu de l'écran actif"
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
