@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
 "PO-Revision-Date: 2019-01-17 06:45+0000\n"
-"Last-Translator: Giorgio Micotti <giorgiomicotti@gmail.com>\n"
+"Last-Translator: Davide Pucci <posta@davidepucci.it>\n"
 "Language-Team: Italian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/it/>\n"
 "Language: it\n"
@@ -40,9 +40,8 @@ msgid "Change background"
 msgstr "Cambia sfondo"
 
 #: src/daemon/menus.vala:57
-#, fuzzy
 msgid "Displays"
-msgstr "Impostazioni dello Schermo"
+msgstr "Schermi"
 
 #: src/daemon/menus.vala:66 src/panel/settings/settings_panel.vala:97
 msgid "Settings"
@@ -51,11 +50,11 @@ msgstr "Impostazioni"
 #. Should show a notification
 #: src/daemon/settings.vala:277
 msgid "Turned on Caffeine Boost"
-msgstr ""
+msgstr "Attivato il Caffeine Boost"
 
 #: src/daemon/settings.vala:277
 msgid "Turned off Caffeine Boost"
-msgstr ""
+msgstr "Disattivato il Caffeine Boost"
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
@@ -68,13 +67,13 @@ msgstr[1] ""
 
 #: src/daemon/settings.vala:285
 msgid "Will turn off in"
-msgstr ""
+msgstr "Spegnimento in"
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:44
 #: src/applets/caffeine/CaffeineWindow.vala:25
 msgid "Caffeine Mode"
-msgstr ""
+msgstr "Modalità Caffeine"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
@@ -87,11 +86,11 @@ msgstr "Notifiche"
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
-msgstr ""
+msgstr "Nessuna applicazione sta riproducendo audio."
 
 #: src/raven/start_listening.vala:24
 msgid "Play some music"
-msgstr ""
+msgstr "Ascolta della musica"
 
 #: src/raven/notifications_view.vala:99
 msgid "Nothing to see here"
@@ -120,11 +119,11 @@ msgstr "Nessuna nuova notifica"
 #. 125ms
 #: src/raven/sound.vala:151
 msgid "Apps"
-msgstr ""
+msgstr "Applicazioni"
 
 #: src/raven/sound.vala:152
 msgid "Devices"
-msgstr ""
+msgstr "Dispositivi"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
@@ -164,7 +163,7 @@ msgstr "Invia file"
 #. Airplane mode
 #: src/applets/status/BluetoothIndicator.vala:73
 msgid "Bluetooth Airplane Mode"
-msgstr "Modalità aeroplano bluetooth "
+msgstr "Modalità aeroplano bluetooth"
 
 #: src/applets/status/BluetoothIndicator.vala:179
 msgid "Bluetooth is disabled"
@@ -187,33 +186,32 @@ msgstr "Impostazioni suono"
 
 #: src/applets/icon-tasklist/IconPopover.vala:92
 msgid "Launch New Instance"
-msgstr ""
+msgstr "Lancia nuova istanza"
 
 #: src/applets/icon-tasklist/IconPopover.vala:95
 msgid "Close All Windows"
-msgstr ""
+msgstr "Chiudi tutte le finestre"
 
 #: src/applets/icon-tasklist/IconPopover.vala:103
-#, fuzzy
 msgid "Always On Top"
-msgstr "Sempre"
+msgstr "Sempre in primo piano"
 
 #: src/applets/icon-tasklist/IconPopover.vala:105
 #: src/applets/icon-tasklist/IconPopover.vala:473
 msgid "Maximize"
-msgstr ""
+msgstr "Massimizza"
 
 #: src/applets/icon-tasklist/IconPopover.vala:106
 msgid "Minimize"
-msgstr ""
+msgstr "Minimizza"
 
 #: src/applets/icon-tasklist/IconPopover.vala:361
 msgid "Unfavorite"
-msgstr ""
+msgstr "Rimuovi preferito"
 
 #: src/applets/icon-tasklist/IconPopover.vala:361
 msgid "Favorite"
-msgstr ""
+msgstr "Aggiungi favorito"
 
 #. If our current amount of workspaces is different than how many we have added
 #. We have items to add
@@ -221,22 +219,20 @@ msgstr ""
 #: src/applets/icon-tasklist/IconPopover.vala:373
 #, c-format
 msgid "Move To Workspace %i"
-msgstr ""
+msgstr "Sposta su spazio di lavoro %i"
 
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:473
 msgid "Unmaximize"
-msgstr ""
+msgstr "Demassimizza"
 
 #: src/applets/icon-tasklist/IconPopover.vala:532
-#, fuzzy
 msgid "Close Window"
-msgstr "Finestre"
+msgstr "Chiudi finestra"
 
 #: src/applets/icon-tasklist/IconPopover.vala:534
-#, fuzzy
 msgid "Show Window Controls"
-msgstr "Titolo finestre"
+msgstr "Mostra controlli finestra"
 
 #: src/applets/budgie-menu/IconChooser.vala:27
 msgid "Set menu icon from file"
@@ -270,7 +266,7 @@ msgstr "Tutto"
 #. placeholder in case of no results
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:401
 msgid "Sorry, no items found"
-msgstr ""
+msgstr "Spiacenti, nessun elemento trovato"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
@@ -328,7 +324,7 @@ msgstr "Rimuovi"
 
 #: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Timer (minutes)"
-msgstr ""
+msgstr "Timer (minuti)"
 
 #. User Menu Creation
 #: src/applets/user-indicator/UserIndicatorWindow.vala:95
@@ -630,11 +626,11 @@ msgstr "Quando in modalità dock, il pannello utilizza il minimo spazio disponib
 
 #: src/panel/settings/settings_raven.vala:30
 msgid "Raven"
-msgstr ""
+msgstr "Raven"
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
-msgstr ""
+msgstr "Permetti aumento del volume oltre il 100%"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
@@ -644,7 +640,7 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
-msgstr ""
+msgstr "Abilita la visualizzazione dei numeri della settimana nel Calendario"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
@@ -654,7 +650,7 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
-msgstr ""
+msgstr "Mostra Widget Calendario"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
@@ -671,11 +667,12 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
-msgstr ""
+msgstr "Mostra Widget Input Microfono"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
 msgstr ""
+"Mostra o nasconde il Widget di Input Microfono nella sezione Applets di Raven"
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
