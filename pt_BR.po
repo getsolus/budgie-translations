@@ -19,7 +19,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
 "PO-Revision-Date: 2019-01-18 07:03+0000\n"
-"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
+"Last-Translator: Alisson Silva <alissonsilva498@outlook.com.br>\n"
 "Language-Team: Portuguese (Brazil) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -670,27 +670,29 @@ msgstr "Mostra ou oculta o widget de Saída de Som nos Applets do Raven."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
-msgstr ""
+msgstr "Mostrar o widget de Entrada do Microfone"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
-msgstr ""
+msgstr "Mostra ou oculta o widget de Entrada do Microfone nos Applets do Raven."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
-msgstr ""
+msgstr "Mostrar o widget de controles de mídia."
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
 msgstr ""
+"Mostra ou oculta o widget de Controles de Reprodução de Mídia (MPRIS) nos "
+"Applets do Raven."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
-msgstr ""
+msgstr "Mostrar a barra de Energia"
 
 #: src/panel/settings/settings_raven.vala:76
 msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr ""
+msgstr "Mostra ou oculta a barra de Energia na parte inferior do Raven"
 
 #: src/panel/settings/settings_panel_dialogs.vala:29
 msgid "Confirm panel removal"
@@ -874,9 +876,8 @@ msgid "Autostart"
 msgstr "Iniciar automaticamente"
 
 #: src/panel/settings/settings_autostart.vala:483
-#, fuzzy
 msgid "Autostart apps"
-msgstr "Iniciar automaticamente"
+msgstr "Programas de Inicialização"
 
 #: src/panel/settings/settings_panel_applets.vala:22
 msgid "Configure applet"
@@ -929,19 +930,21 @@ msgstr "Alterar o layout dos botões da barra de título dos aplicativos"
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
-msgstr ""
+msgstr "Centralizar novas Janelas na tela"
 
 #: src/panel/settings/settings_wm.vala:54
 msgid "Center newly launched windows on the current screen"
-msgstr ""
+msgstr "Centraliza janelas que forem abertas na tela atual"
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
-msgstr ""
+msgstr "Desativar o modo Luz Noturna quando em Tela Cheia"
 
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr ""
+"Desativa o modo de Luz Noturna quando uma janela estiver em Tela Cheia. "
+"Reativa ao sair."
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
@@ -953,11 +956,12 @@ msgstr "As janelas serão automaticamente agrupadas lado a lado quando arrastada
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
-msgstr ""
+msgstr "Ativar a mudança de foco com o movimento do mouse"
 
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
 msgstr ""
+"Permite que o mouse ative o foco ao entrar uma janela e desative ao sair."
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
@@ -1009,11 +1013,11 @@ msgstr "Defina a fonte de largura fixa usada por aplicativos dominantes de texto
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
-msgstr ""
+msgstr "Dimensionamento de Texto"
 
 #: src/panel/settings/settings_fonts.vala:73
 msgid "Set the text scaling factor"
-msgstr ""
+msgstr "Define o fator de dimensionamento do texto"
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
@@ -1025,23 +1029,23 @@ msgstr "Tem certeza que deseja encerrar sua sessão?"
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
-msgstr ""
+msgstr "Mostrar todas as janelas ao clicar"
 
 #: src/applets/icon-tasklist/settings.ui.h:2
 msgid "Only show favorited"
-msgstr ""
+msgstr "Mostrar apenas Favoritos"
 
 #: src/applets/icon-tasklist/settings.ui.h:3
 msgid "Lock icons"
-msgstr ""
+msgstr "Travar ícones"
 
 #: src/applets/icon-tasklist/settings.ui.h:4
 msgid "Restrict to Workspace"
-msgstr ""
+msgstr "Restringir ao Espaço de Trabalho"
 
 #: src/applets/icon-tasklist/settings.ui.h:5
 msgid "Window grouping"
-msgstr ""
+msgstr "Agrupamento de janelas"
 
 #: src/applets/night-light/indicator_window.ui.h:1
 #: src/applets/night-light/NightLight.plugin.in.h:1
@@ -1098,33 +1102,31 @@ msgstr "Ícone do menu"
 
 #: src/applets/workspaces/settings.ui.h:1
 msgid "\"Add\" button visibility"
-msgstr ""
+msgstr "Exibição do botão \"Adicionar\""
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
-msgstr ""
+msgstr "Não mostrar"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
-msgstr ""
+msgstr "Mostrar ao apontar o mouse"
 
 #: src/applets/workspaces/settings.ui.h:4
-#, fuzzy
 msgid "Always show"
-msgstr "Sempre"
+msgstr "Sempre mostrar"
 
 #: src/applets/caffeine/settings.ui.h:1
-#, fuzzy
 msgid "Enable notification"
-msgstr "Sem novas notificações"
+msgstr "Ativar Notificação"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
-msgstr ""
+msgstr "Brilho Máximo"
 
 #: src/applets/caffeine/settings.ui.h:3
 msgid "Brightness Level"
-msgstr ""
+msgstr "Nível de brilho"
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
@@ -1165,15 +1167,15 @@ msgstr "Autenticar"
 #: src/session/budgie-desktop.desktop.in.in.h:1
 #: src/session/budgie-desktop.session.in.in.h:1
 msgid "Budgie Desktop"
-msgstr "Budgie Desktop"
+msgstr "Área de Trabalho Budgie"
 
 #: src/session/budgie-desktop.desktop.in.in.h:2
 msgid "This session logs you into the Budgie Desktop"
-msgstr "Esta sessão loga você no Budgie Desktop"
+msgstr "Esta sessão loga você na Área de Trabalho Budgie"
 
 #: src/applets/tray/TrayApplet.plugin.in.h:1
 msgid "System Tray"
-msgstr "Área de notificação"
+msgstr "Bandeja do Sistema"
 
 #: src/applets/status/StatusApplet.plugin.in.h:1
 msgid "Status Indicator"
@@ -1221,7 +1223,7 @@ msgstr "Lista de tarefas"
 
 #: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
 msgid "Caffeine"
-msgstr ""
+msgstr "Cafeína"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
@@ -1232,9 +1234,8 @@ msgid "User Indicator"
 msgstr "Indicador de Usuário"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
-#, fuzzy
 msgid "Change desktop appearance and behavior"
-msgstr "Alterar a aparência e o comportamento da área de trabalho"
+msgstr "Alterar a aparência e o comportamento da Área de Trabalho"
 
 #: src/panel/budgie-panel.desktop.in.h:1
 msgid "Budgie Panel"
