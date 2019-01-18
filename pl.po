@@ -21,14 +21,18 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2017-09-22 03:47+0000\n"
-"Last-Translator: Axel Rechenberg <axelreche@gmail.com>\n"
-"Language-Team: Polish (http://www.transifex.com/budgie-desktop/budgie-desktop/language/pl/)\n"
+"PO-Revision-Date: 2019-01-18 07:03+0000\n"
+"Last-Translator: Stanisław Cierniak <scierniak55@gmail.com>\n"
+"Language-Team: Polish <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<"
+"12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) ||"
+" (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 3.4-dev\n"
 
 #: src/daemon/endsession.vala:171
 msgid "Log out"
@@ -47,9 +51,8 @@ msgid "Change background"
 msgstr "Zmień tło"
 
 #: src/daemon/menus.vala:57
-#, fuzzy
 msgid "Displays"
-msgstr "Ustawienia wyświetlacza"
+msgstr "Ekrany"
 
 #: src/daemon/menus.vala:66 src/panel/settings/settings_panel.vala:97
 msgid "Settings"
@@ -77,13 +80,13 @@ msgstr[3] ""
 
 #: src/daemon/settings.vala:285
 msgid "Will turn off in"
-msgstr ""
+msgstr "Wyłączenie za"
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:44
 #: src/applets/caffeine/CaffeineWindow.vala:25
 msgid "Caffeine Mode"
-msgstr ""
+msgstr "Tryb kofeinowy"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
@@ -96,11 +99,11 @@ msgstr "Powiadomienia"
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
-msgstr ""
+msgstr "Żadne aplikacje obecnie nie odtwarzają dźwięku"
 
 #: src/raven/start_listening.vala:24
 msgid "Play some music"
-msgstr ""
+msgstr "Odtwórz muzykę"
 
 #: src/raven/notifications_view.vala:99
 msgid "Nothing to see here"
@@ -129,15 +132,15 @@ msgstr "Brak nowych powiadomień"
 #. 125ms
 #: src/raven/sound.vala:151
 msgid "Apps"
-msgstr ""
+msgstr "Aplikacje"
 
 #: src/raven/sound.vala:152
 msgid "Devices"
-msgstr ""
+msgstr "Urządzenia"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
-msgstr "Bateria w pełni naładowana"
+msgstr "Bateria w pełni naładowana."
 
 #: src/applets/status/PowerIndicator.vala:100
 msgid "Unknown"
@@ -198,11 +201,11 @@ msgstr "Ustawienia dźwięku"
 
 #: src/applets/icon-tasklist/IconPopover.vala:92
 msgid "Launch New Instance"
-msgstr ""
+msgstr "Uruchom nową instancję"
 
 #: src/applets/icon-tasklist/IconPopover.vala:95
 msgid "Close All Windows"
-msgstr ""
+msgstr "Zamknij wszystkie okna"
 
 #: src/applets/icon-tasklist/IconPopover.vala:103
 #, fuzzy
@@ -212,19 +215,19 @@ msgstr "Zawsze"
 #: src/applets/icon-tasklist/IconPopover.vala:105
 #: src/applets/icon-tasklist/IconPopover.vala:473
 msgid "Maximize"
-msgstr ""
+msgstr "Maksymalizuj"
 
 #: src/applets/icon-tasklist/IconPopover.vala:106
 msgid "Minimize"
-msgstr ""
+msgstr "Minimalizuj"
 
 #: src/applets/icon-tasklist/IconPopover.vala:361
 msgid "Unfavorite"
-msgstr ""
+msgstr "Odlub"
 
 #: src/applets/icon-tasklist/IconPopover.vala:361
 msgid "Favorite"
-msgstr ""
+msgstr "Ulubiony"
 
 #. If our current amount of workspaces is different than how many we have added
 #. We have items to add
@@ -232,22 +235,20 @@ msgstr ""
 #: src/applets/icon-tasklist/IconPopover.vala:373
 #, c-format
 msgid "Move To Workspace %i"
-msgstr ""
+msgstr "Przenieś do obszaru roboczego %i1"
 
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:473
 msgid "Unmaximize"
-msgstr ""
+msgstr "Odmaksymalizuj"
 
 #: src/applets/icon-tasklist/IconPopover.vala:532
-#, fuzzy
 msgid "Close Window"
-msgstr "Okna"
+msgstr "Zamknij okno"
 
 #: src/applets/icon-tasklist/IconPopover.vala:534
-#, fuzzy
 msgid "Show Window Controls"
-msgstr "Nagłówki okien"
+msgstr "Pokaż sterowanie oknami"
 
 #: src/applets/budgie-menu/IconChooser.vala:27
 msgid "Set menu icon from file"
@@ -281,7 +282,7 @@ msgstr "Wszystkie"
 #. placeholder in case of no results
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:401
 msgid "Sorry, no items found"
-msgstr ""
+msgstr "Przepraszamy, nie znaleziono plików"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
@@ -339,7 +340,7 @@ msgstr "Usuń"
 
 #: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Timer (minutes)"
-msgstr ""
+msgstr "Minutnik (minuty)"
 
 #. User Menu Creation
 #: src/applets/user-indicator/UserIndicatorWindow.vala:95
@@ -641,63 +642,69 @@ msgstr "Kiedy w trybie doku, ten panel będzie używał możliwie najmniej miejs
 
 #: src/panel/settings/settings_raven.vala:30
 msgid "Raven"
-msgstr ""
+msgstr "Raven"
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
-msgstr ""
+msgstr "Pozwól na zwiększenie głośności ponad 100%"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
 msgstr ""
+"Pozwól na zwiększenie głośności w Ustawieniach dźwięku a także poprzez "
+"Widżet Wyjścia Dźwięku w Raven na ponad 150%"
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
-msgstr ""
+msgstr "Włącz wyświetlanie numeru tygodnia w Kalendarzu"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
 msgstr ""
+"To ustawienie umożliwia wyświetlanie numerów tygodni w widżecie Kalendarz."
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
-msgstr ""
+msgstr "Pokaż widżet Kalendarza"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr ""
+msgstr "Pokazuje albo ukrywa widżet Kalendarza w sekcji Apletów Raven."
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
-msgstr ""
+msgstr "Pokaż widżet Wyjścia Dźwięku"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr ""
+msgstr "Pokazuje albo ukrywa widżet Wyjścia dźwięku w sekcji Apletów Raven."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
-msgstr ""
+msgstr "Pokaż widżet Wejścia mikrofonowego"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
 msgstr ""
+"Pokazuje albo ukrywa widżet Wejścia mikrofonowego w sekcji Apletów Raven."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
-msgstr ""
+msgstr "Pokaż widżet Kontroli multimedialnych"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
 msgstr ""
+"Pokazuje albo ukrywa widżet Kontroli multimedialnych (MPRIS) w sekcji "
+"Apletów Raven."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
-msgstr ""
+msgstr "Pokaż panel zasilania"
 
 #: src/panel/settings/settings_raven.vala:76
 msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr ""
+msgstr "Pokazuje albo ukrywa Panel zasilania w dolnej części Raven."
 
 #: src/panel/settings/settings_panel_dialogs.vala:29
 msgid "Confirm panel removal"
@@ -881,9 +888,8 @@ msgid "Autostart"
 msgstr "Autostart"
 
 #: src/panel/settings/settings_autostart.vala:483
-#, fuzzy
 msgid "Autostart apps"
-msgstr "Autostart"
+msgstr "Autostartujące aplikacje"
 
 #: src/panel/settings/settings_panel_applets.vala:22
 msgid "Configure applet"
@@ -936,19 +942,21 @@ msgstr "Zmień układ przycisków na pasku tytułowym aplikacji"
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
-msgstr ""
+msgstr "Wyśrodkuj nowe okno na ekranie"
 
 #: src/panel/settings/settings_wm.vala:54
 msgid "Center newly launched windows on the current screen"
-msgstr ""
+msgstr "Wyśrodkuj nowo otwarte okna na bieżącym ekranie"
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
-msgstr ""
+msgstr "Wyłącz tryb Nocnego Światła gdy okna są w trybie pełnoekranowym"
 
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr ""
+"Wyłącza tryb Nocnego Światła gdy okno jest w trybie pełnoekranowym. Włącza "
+"go ponownie przy opuszczaniu trybu pełnoekranowego."
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
@@ -960,11 +968,11 @@ msgstr "Okna będą automatycznie kafelkowane, kiedy zostaną przeciągnięte do
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
-msgstr ""
+msgstr "Włącz zmianę uwagi okien poprzez wskazywanie myszką"
 
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
-msgstr ""
+msgstr "Włącza zmianę uwagi okna gdy myszka wskazuje na okno i je opuszcza."
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
@@ -1016,11 +1024,11 @@ msgstr "Ustaw czcionkę o stałej szerokości używanej przez aplikacje tekstowe
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
-msgstr ""
+msgstr "Skalowanie tekstu"
 
 #: src/panel/settings/settings_fonts.vala:73
 msgid "Set the text scaling factor"
-msgstr ""
+msgstr "Ustaw czynnik skalowania tekstu"
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
@@ -1032,23 +1040,23 @@ msgstr "Zakończyć sesję?"
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
-msgstr ""
+msgstr "Pokaż wszystkie okna poprzez kliknięcie"
 
 #: src/applets/icon-tasklist/settings.ui.h:2
 msgid "Only show favorited"
-msgstr ""
+msgstr "Pokaż tylko ulubione"
 
 #: src/applets/icon-tasklist/settings.ui.h:3
 msgid "Lock icons"
-msgstr ""
+msgstr "Zablokuj ikony"
 
 #: src/applets/icon-tasklist/settings.ui.h:4
 msgid "Restrict to Workspace"
-msgstr ""
+msgstr "Ogranicz do obszaru roboczego"
 
 #: src/applets/icon-tasklist/settings.ui.h:5
 msgid "Window grouping"
-msgstr ""
+msgstr "Grupowanie okien"
 
 #: src/applets/night-light/indicator_window.ui.h:1
 #: src/applets/night-light/NightLight.plugin.in.h:1
@@ -1105,33 +1113,31 @@ msgstr "Ikona menu"
 
 #: src/applets/workspaces/settings.ui.h:1
 msgid "\"Add\" button visibility"
-msgstr ""
+msgstr "Widoczność przycisku \"Dodaj\""
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
-msgstr ""
+msgstr "Nie pokazuj"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
-msgstr ""
+msgstr "Pokaż po najechaniu myszką"
 
 #: src/applets/workspaces/settings.ui.h:4
-#, fuzzy
 msgid "Always show"
-msgstr "Zawsze"
+msgstr "Zawsze pokazuj"
 
 #: src/applets/caffeine/settings.ui.h:1
-#, fuzzy
 msgid "Enable notification"
-msgstr "Brak nowych powiadomień"
+msgstr "Włącz powiadomienie"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
-msgstr ""
+msgstr "Maksymalizuj jasność"
 
 #: src/applets/caffeine/settings.ui.h:3
 msgid "Brightness Level"
-msgstr ""
+msgstr "Poziom jasności"
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
@@ -1155,7 +1161,7 @@ msgstr "Zawsze powiększaj miejsca"
 
 #: src/polkit/dialog.ui.h:1
 msgid "Authentication Required"
-msgstr "undefined"
+msgstr "Wymagane uwierzytelnienie"
 
 #: src/polkit/dialog.ui.h:2
 msgid "Password:"
@@ -1228,7 +1234,7 @@ msgstr "Lista okien"
 
 #: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
 msgid "Caffeine"
-msgstr ""
+msgstr "Kofeina"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
