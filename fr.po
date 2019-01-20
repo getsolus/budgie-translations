@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2019-01-20 11:53+0000\n"
+"PO-Revision-Date: 2019-01-20 11:54+0000\n"
 "Last-Translator: Skyeun <eressea667@gmail.com>\n"
 "Language-Team: French <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/fr/>\n"
@@ -531,7 +531,7 @@ msgstr "Panneau latéral droit"
 
 #: src/panel/settings/settings_panel.vala:135
 msgid "Left Panel"
-msgstr "Panneau de gauche"
+msgstr "Panneau latéral gauche"
 
 #: src/panel/settings/settings_panel.vala:137
 msgid "Bottom Panel"
