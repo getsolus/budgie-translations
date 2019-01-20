@@ -22,8 +22,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2019-01-20 20:58+0000\n"
-"Last-Translator: Skyeun <eressea667@gmail.com>\n"
+"PO-Revision-Date: 2019-01-21 13:04+0000\n"
+"Last-Translator: Pierre-Yves <pyu@riseup.net>\n"
 "Language-Team: French <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/fr/>\n"
 "Language: fr\n"
@@ -630,11 +630,13 @@ msgstr ""
 
 #: src/panel/settings/settings_panel.vala:276
 msgid "Dock mode"
-msgstr "Mode barre de lancement"
+msgstr "Mode barre de lancement (dock)"
 
 #: src/panel/settings/settings_panel.vala:277
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
-msgstr "En mode dock, le panneau utilisera le moins de place possible, libérant de l'espace sur l'écran"
+msgstr ""
+"En mode barre de lancement, le panneau utilisera le moins de place possible, "
+"libérant de l'espace sur l'écran"
 
 #: src/panel/settings/settings_raven.vala:30
 msgid "Raven"
