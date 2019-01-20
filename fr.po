@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2019-01-20 11:47+0000\n"
+"PO-Revision-Date: 2019-01-20 11:53+0000\n"
 "Last-Translator: Skyeun <eressea667@gmail.com>\n"
 "Language-Team: French <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/fr/>\n"
@@ -527,7 +527,7 @@ msgstr "Panneau supérieur"
 
 #: src/panel/settings/settings_panel.vala:133
 msgid "Right Panel"
-msgstr "Panneau de droite"
+msgstr "Panneau latéral droit"
 
 #: src/panel/settings/settings_panel.vala:135
 msgid "Left Panel"
@@ -584,7 +584,7 @@ msgstr "Position"
 
 #: src/panel/settings/settings_panel.vala:231
 msgid "Set the edge of the screen that this panel will stay on"
-msgstr "Définit le bord de l'écran où sera le panneau"
+msgstr "Définit le bord de l'écran où sera positionné le panneau"
 
 #: src/panel/settings/settings_panel.vala:239
 msgid "Size"
