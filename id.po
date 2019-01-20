@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2019-01-16 11:04+0000\n"
-"Last-Translator: Satria Adhi Kusuma <shay.ryu@gmail.com>\n"
+"PO-Revision-Date: 2019-01-21 13:04+0000\n"
+"Last-Translator: Yurizal Susanto <yursan9@pm.me>\n"
 "Language-Team: Indonesian <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/id/>\n"
 "Language: id\n"
@@ -84,7 +84,7 @@ msgstr "Notifikasi"
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
-msgstr "Tidak ada aplikasi yang memainkan suara"
+msgstr "Tidak ada aplikasi yang memainkan suara."
 
 #: src/raven/start_listening.vala:24
 msgid "Play some music"
@@ -611,7 +611,9 @@ msgstr "Sesuaikan daerah"
 
 #: src/panel/settings/settings_panel.vala:269
 msgid "Adds a hint to the panel so that each of the panel's three main areas may be themed differently."
-msgstr "Menambahkan hiasan ke panel sehingga masing-masing tiga area utama panel dapat berbeda tema"
+msgstr ""
+"Menambahkan hiasan ke panel sehingga masing-masing tiga area utama panel "
+"dapat berbeda tema."
 
 #: src/panel/settings/settings_panel.vala:276
 msgid "Dock mode"
@@ -685,7 +687,7 @@ msgstr "Tampilkan Strip Daya"
 
 #: src/panel/settings/settings_raven.vala:76
 msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr "Tampilkan atau Sembunyikan Strip Daya dibagian bawah Raven"
+msgstr "Tampilkan atau Sembunyikan Strip Daya dibagian bawah Raven."
 
 #: src/panel/settings/settings_panel_dialogs.vala:29
 msgid "Confirm panel removal"
@@ -805,9 +807,8 @@ msgid "Built-in theme"
 msgstr "Tema bawaan"
 
 #: src/panel/settings/settings_style.vala:66
-#, fuzzy
 msgid "When enabled, the desktop component style will override the built-in one"
-msgstr "Saat diaktifkan, gaya komponen desktop akan ditimpa dengan pengaturan gaya bawaan"
+msgstr "Saat diaktifkan, gaya komponen desktop akan ditimpa dengan gaya bawaan"
 
 #: src/panel/settings/settings_style.vala:70
 msgid "Animations"
@@ -1156,16 +1157,16 @@ msgstr "Otentikasi diperlukan"
 
 #: src/polkit/dialog.ui.h:5
 msgid "Authenticate"
-msgstr "Autentikasi"
+msgstr "Otentikasi"
 
 #: src/session/budgie-desktop.desktop.in.in.h:1
 #: src/session/budgie-desktop.session.in.in.h:1
 msgid "Budgie Desktop"
-msgstr "Destop Budgie "
+msgstr "Desktop Budgie"
 
 #: src/session/budgie-desktop.desktop.in.in.h:2
 msgid "This session logs you into the Budgie Desktop"
-msgstr "Sesi ini membawa Anda masuk ke Destop Budgie "
+msgstr "Sesi ini membawa Anda masuk ke Desktop Budgie"
 
 #: src/applets/tray/TrayApplet.plugin.in.h:1
 msgid "System Tray"
@@ -1177,7 +1178,7 @@ msgstr "Indikator Status"
 
 #: src/applets/icon-tasklist/IconTasklistApplet.plugin.in.h:1
 msgid "Icon Task List"
-msgstr "Ikon Daftar Tugas "
+msgstr "Ikon Daftar Tugas"
 
 #: src/applets/spacer/SpacerApplet.plugin.in.h:1
 msgid "Spacer"
