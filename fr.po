@@ -22,8 +22,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2019-01-20 20:53+0000\n"
-"Last-Translator: Pierre-Yves <pyu@riseup.net>\n"
+"PO-Revision-Date: 2019-01-20 20:54+0000\n"
+"Last-Translator: Skyeun <eressea667@gmail.com>\n"
 "Language-Team: French <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/fr/>\n"
 "Language: fr\n"
@@ -507,15 +507,15 @@ msgstr "Retirer ce panneau de l'écran"
 
 #: src/panel/settings/settings_panel.vala:120
 msgid "Top Dock"
-msgstr "Dock supérieur"
+msgstr "Barre de lancement supérieure"
 
 #: src/panel/settings/settings_panel.vala:122
 msgid "Right Dock"
-msgstr "Dock de droite"
+msgstr "Barre de lancement latérale droite"
 
 #: src/panel/settings/settings_panel.vala:124
 msgid "Left Dock"
-msgstr "Dock de gauche"
+msgstr "Barre de lancement latérale gauche"
 
 #: src/panel/settings/settings_panel.vala:126
 msgid "Bottom Dock"
@@ -1127,7 +1127,7 @@ msgstr "Ne pas montrer"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
-msgstr "Montrer au passage de la souris"
+msgstr "Afficher au passage de la souris"
 
 #: src/applets/workspaces/settings.ui.h:4
 msgid "Always show"
