@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2019-01-18 07:03+0000\n"
+"PO-Revision-Date: 2019-01-21 13:04+0000\n"
 "Last-Translator: Balogh Zsolt <huneater@gmail.com>\n"
 "Language-Team: Hungarian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/hu/>\n"
@@ -41,7 +41,7 @@ msgstr "Háttérkép cseréje"
 
 #: src/daemon/menus.vala:57
 msgid "Displays"
-msgstr "Képernyők"
+msgstr "Kijelzők"
 
 #: src/daemon/menus.vala:66 src/panel/settings/settings_panel.vala:97
 msgid "Settings"
