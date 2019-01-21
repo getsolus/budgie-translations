@@ -26,7 +26,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
 "PO-Revision-Date: 2019-01-21 13:04+0000\n"
-"Last-Translator: Girtablulu <flinux@vongellhorn.ch>\n"
+"Last-Translator: Jonathan Schaefer <jonathanschaefer@protonmail.com>\n"
 "Language-Team: German <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/de/>\n"
 "Language: de\n"
@@ -80,7 +80,7 @@ msgstr[1] ""
 
 #: src/daemon/settings.vala:285
 msgid "Will turn off in"
-msgstr ""
+msgstr "Abschalten in"
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:44
