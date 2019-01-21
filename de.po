@@ -690,7 +690,7 @@ msgstr "Mediensteuerung anzeigen"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
-msgstr "Zeigt oder versteckt  die Mediensteuerung in Ravens Applet Abschnitt."
+msgstr "Zeigt oder versteckt die Mediensteuerung in Ravens Applet Abschnitt."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
