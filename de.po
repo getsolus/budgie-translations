@@ -26,7 +26,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
 "PO-Revision-Date: 2019-01-21 13:16+0000\n"
-"Last-Translator: Girtablulu <flinux@vongellhorn.ch>\n"
+"Last-Translator: Jonathan Schaefer <jonathanschaefer@protonmail.com>\n"
 "Language-Team: German <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/de/>\n"
 "Language: de\n"
@@ -111,7 +111,7 @@ msgstr "Keine Benachrichtigungen"
 
 #: src/raven/notifications_view.vala:667
 #: src/applets/notifications/NotificationsApplet.vala:109
-#, c-format, fuzzy
+#, c-format
 msgid "%u unread notifications"
 msgstr "%u ungelesene Benachrichtigungen"
 
@@ -818,9 +818,9 @@ msgid "Built-in theme"
 msgstr "Eingebautes Thema"
 
 #: src/panel/settings/settings_style.vala:66
-#, fuzzy
 msgid "When enabled, the desktop component style will override the built-in one"
-msgstr "Aktivieren um den Stil des Desktops mit dem integrierten zu überschreiben"
+msgstr ""
+"Wenn aktiviert wird der integrierte Stil vom Desktop Thema überschrieben"
 
 #: src/panel/settings/settings_style.vala:70
 msgid "Animations"
@@ -962,11 +962,11 @@ msgstr "Fenster passen sich automatisch ihre Grösse an, wenn sie zum oberen Ran
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
-msgstr ""
+msgstr "Wechselt Fensterfokus bei Mauskontakt"
 
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
-msgstr ""
+msgstr "Automatisch fokussiert das Fenster, das sich unter der Maus befindet."
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
