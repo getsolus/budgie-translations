@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2019-01-21 13:04+0000\n"
+"PO-Revision-Date: 2019-01-24 16:24+0000\n"
 "Last-Translator: Pierre-Yves <pyu@riseup.net>\n"
 "Language-Team: French <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/fr/>\n"
@@ -503,7 +503,7 @@ msgstr "Créer un nouveau panneau"
 
 #: src/panel/settings/settings_panel.vala:80
 msgid "Remove this panel from the screen"
-msgstr "Retirer ce panneau de l'écran"
+msgstr "Retirer ce panneau"
 
 #: src/panel/settings/settings_panel.vala:120
 msgid "Top Dock"
