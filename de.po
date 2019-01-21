@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2019-01-21 13:04+0000\n"
+"PO-Revision-Date: 2019-01-21 13:06+0000\n"
 "Last-Translator: Jonathan Schaefer <jonathanschaefer@protonmail.com>\n"
 "Language-Team: German <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/de/>\n"
@@ -279,7 +279,7 @@ msgstr "Alle"
 #. placeholder in case of no results
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:401
 msgid "Sorry, no items found"
-msgstr ""
+msgstr "Sorry, keine Ergebnisse gefunden"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
@@ -337,7 +337,7 @@ msgstr "Entfernen"
 
 #: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Timer (minutes)"
-msgstr ""
+msgstr "Zeit (Minuten)"
 
 #. User Menu Creation
 #: src/applets/user-indicator/UserIndicatorWindow.vala:95
@@ -648,6 +648,8 @@ msgstr "Lautstärke über 100% anheben"
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
 msgstr ""
+"Ermöglichen, die Lautstärke über die Soundeinstellungen und das Sound Widget "
+"in Raven auf bis zu 150% zu erhöhen."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
@@ -655,7 +657,7 @@ msgstr "Wochennummern im Kalender anzeigen"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr ""
+msgstr "Diese Einstellung zeigt oder versteckt Kalenderwochen im Kalender."
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
@@ -667,19 +669,20 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
-msgstr ""
+msgstr "Zeige Sound Ausgang Widget"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
 msgstr ""
+"Zeigt oder versteckt das Sound Ausgang Widget in Ravens Applet Abschnitt."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
-msgstr ""
+msgstr "Zeige Mikrofon Widget"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
-msgstr ""
+msgstr "Zeigt oder versteckt das Mikrofon Widget in Ravens Applet Abschnitt."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
@@ -687,7 +690,7 @@ msgstr "Mediensteuerung anzeigen"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
-msgstr ""
+msgstr "Zeigt oder versteckt  die Mediensteuerung in Ravens Applet Abschnitt."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
