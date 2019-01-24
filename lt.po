@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2019-01-21 13:04+0000\n"
+"PO-Revision-Date: 2019-01-25 09:45+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/lt/>\n"
@@ -68,13 +68,13 @@ msgstr[2] ""
 
 #: src/daemon/settings.vala:285
 msgid "Will turn off in"
-msgstr ""
+msgstr "Išsijungs po"
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:44
 #: src/applets/caffeine/CaffeineWindow.vala:25
 msgid "Caffeine Mode"
-msgstr ""
+msgstr "Kofeino veiksena"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
@@ -120,7 +120,7 @@ msgstr "Naujų pranešimų nėra"
 #. 125ms
 #: src/raven/sound.vala:151
 msgid "Apps"
-msgstr ""
+msgstr "Programos"
 
 #: src/raven/sound.vala:152
 msgid "Devices"
@@ -209,11 +209,11 @@ msgstr "Suskleisti"
 
 #: src/applets/icon-tasklist/IconPopover.vala:361
 msgid "Unfavorite"
-msgstr ""
+msgstr "Nebemėgstama"
 
 #: src/applets/icon-tasklist/IconPopover.vala:361
 msgid "Favorite"
-msgstr ""
+msgstr "Mėgstama"
 
 #. If our current amount of workspaces is different than how many we have added
 #. We have items to add
@@ -226,7 +226,7 @@ msgstr "Perkelti į darbo sritį %i"
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:473
 msgid "Unmaximize"
-msgstr ""
+msgstr "Grąžinti iš išskleidimo"
 
 #: src/applets/icon-tasklist/IconPopover.vala:532
 msgid "Close Window"
@@ -326,7 +326,7 @@ msgstr "Šalinti"
 
 #: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Timer (minutes)"
-msgstr ""
+msgstr "Laikmatis (minutės)"
 
 #. User Menu Creation
 #: src/applets/user-indicator/UserIndicatorWindow.vala:95
@@ -640,11 +640,11 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
-msgstr ""
+msgstr "Įjungti savaičių numerių rodymą kalendoriuje"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr ""
+msgstr "Šis nustatymas įjungia savaičių numerių rodymą kalendoriaus valdiklyje."
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
@@ -652,15 +652,15 @@ msgstr "Rodyti kalendoriaus valdiklį"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr ""
+msgstr "Rodo arba slepia kalendoriaus valdiklį Raven programėlių sekcijoje."
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
-msgstr ""
+msgstr "Rodyti garso išvesties valdiklį"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr ""
+msgstr "Rodo arba slepia garso išvesties valdiklį Raven programėlių sekcijoje."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
@@ -669,6 +669,7 @@ msgstr "Rodyti mikrofono įvesties valdiklį"
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
 msgstr ""
+"Rodo arba slepia mikrofono įvesties valdiklį Raven programėlių sekcijoje."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
