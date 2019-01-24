@@ -10,9 +10,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2019-01-15 17:47+0000\n"
-"Last-Translator: Kévin Bergue <kevin@be-ta.art>\n"
-"Language-Team: French (Belgium) <http://translate.getsol.us/projects/budgie-desktop/translations/fr_BE/>\n"
+"PO-Revision-Date: 2019-01-24 16:02+0000\n"
+"Last-Translator: Syn Leaf <ya.amrouch@protonmail.com>\n"
+"Language-Team: French (Belgium) <http://translate.getsol.us/projects/"
+"budgie-desktop/translations/fr_BE/>\n"
 "Language: fr_BE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,9 +38,8 @@ msgid "Change background"
 msgstr "Changer l'arrière-plan"
 
 #: src/daemon/menus.vala:57
-#, fuzzy
 msgid "Displays"
-msgstr "Afficher les paramètres"
+msgstr "Écrans"
 
 #: src/daemon/menus.vala:66 src/panel/settings/settings_panel.vala:97
 msgid "Settings"
@@ -65,17 +65,17 @@ msgstr[1] ""
 
 #: src/daemon/settings.vala:285
 msgid "Will turn off in"
-msgstr ""
+msgstr "S'éteindra dans"
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:44
 #: src/applets/caffeine/CaffeineWindow.vala:25
 msgid "Caffeine Mode"
-msgstr ""
+msgstr "Mode caféine"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
-msgstr "Appliquettes"
+msgstr "Applets"
 
 #: src/raven/main_view.vala:66
 #: src/applets/notifications/NotificationsApplet.plugin.in.h:1
@@ -84,11 +84,11 @@ msgstr "Notifications"
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
-msgstr ""
+msgstr "Pas de lecture audio en cours."
 
 #: src/raven/start_listening.vala:24
 msgid "Play some music"
-msgstr ""
+msgstr "Écouter de la musique"
 
 #: src/raven/notifications_view.vala:99
 msgid "Nothing to see here"
@@ -98,7 +98,7 @@ msgstr "Rien à voir ici"
 #: src/applets/notifications/NotificationsApplet.vala:109
 #, c-format
 msgid "%u unread notifications"
-msgstr "%ude notifications non lues"
+msgstr "%u notifications non lues"
 
 #: src/raven/notifications_view.vala:669
 #: src/applets/notifications/NotificationsApplet.vala:111
@@ -112,16 +112,16 @@ msgstr "Pas de notifications non lues"
 
 #: src/raven/notifications_view.vala:846
 msgid "No new notifications"
-msgstr "Pas de nouvelles notifications"
+msgstr "Pas de nouvelle notification"
 
 #. 125ms
 #: src/raven/sound.vala:151
 msgid "Apps"
-msgstr ""
+msgstr "Applications"
 
 #: src/raven/sound.vala:152
 msgid "Devices"
-msgstr ""
+msgstr "Périphériques"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
@@ -226,14 +226,12 @@ msgid "Unmaximize"
 msgstr ""
 
 #: src/applets/icon-tasklist/IconPopover.vala:532
-#, fuzzy
 msgid "Close Window"
-msgstr "Fenêtres"
+msgstr "Fermer la fenêtre"
 
 #: src/applets/icon-tasklist/IconPopover.vala:534
-#, fuzzy
 msgid "Show Window Controls"
-msgstr "Titres de fenêtre"
+msgstr "Montrer les contrôles de la fenêtre"
 
 #: src/applets/budgie-menu/IconChooser.vala:27
 msgid "Set menu icon from file"
