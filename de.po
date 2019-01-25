@@ -971,7 +971,7 @@ msgstr "Wechselt Fensterfokus bei Mauskontakt"
 
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
-msgstr "Automatisch fokussiert das Fenster, das sich unter der Maus befindet."
+msgstr "Fokussiert automatisch das Fenster, das sich unter der Maus befindet."
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
