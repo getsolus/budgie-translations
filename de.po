@@ -747,7 +747,7 @@ msgstr "Desktop"
 
 #: src/panel/settings/settings_desktop.vala:43
 msgid "Desktop Icons"
-msgstr "Desktopsymbole"
+msgstr "Desktop-Symbole"
 
 #: src/panel/settings/settings_desktop.vala:44
 msgid "Control whether to allow launchers and icons on the desktop"
