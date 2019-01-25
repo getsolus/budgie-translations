@@ -767,7 +767,8 @@ msgstr "Netzwerk-Server"
 
 #: src/panel/settings/settings_desktop.vala:61
 msgid "Add a shortcut to your local network servers on the desktop"
-msgstr "Eine Verknüpfung zu lokalen Netzwerkservern auf dem Schreibtisch hinzufügen"
+msgstr ""
+"Eine Verknüpfung zu lokalen Netzwerk-Servern auf dem Schreibtisch hinzufügen"
 
 #: src/panel/settings/settings_desktop.vala:66
 msgid "Trash"
