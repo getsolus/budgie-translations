@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
 "PO-Revision-Date: 2019-01-25 09:45+0000\n"
-"Last-Translator: Daniel Illes <daniel.illes.90@gmail.com>\n"
+"Last-Translator: Balogh Zsolt <huneater@gmail.com>\n"
 "Language-Team: Hungarian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/hu/>\n"
 "Language: hu\n"
@@ -657,7 +657,7 @@ msgstr "Megjeleníti/elrejti a naptár modult a Raven aplletek szekciójában."
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
-msgstr ""
+msgstr "Hangkimeneti modul megjelenítése"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
@@ -667,7 +667,7 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
-msgstr ""
+msgstr "Mikrofon bemeneti modul megjelenítése"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
@@ -929,15 +929,15 @@ msgstr "Módosítsa az alkalmazások címsorainak gombelrendezését"
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
-msgstr ""
+msgstr "Új ablakok középre igazítása a képernyőn"
 
 #: src/panel/settings/settings_wm.vala:54
 msgid "Center newly launched windows on the current screen"
-msgstr ""
+msgstr "Újonnan indított ablakok középre igazítása a jelenlegi képernyőn"
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
-msgstr ""
+msgstr "Teljes képernyős ablakok esetén az éjszakai fény kikapcsolása"
 
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
@@ -1013,11 +1013,11 @@ msgstr "Állítsa be a fix szélességű betűtípust a szöveges alkalmazások 
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
-msgstr ""
+msgstr "Szöveg méretezés"
 
 #: src/panel/settings/settings_fonts.vala:73
 msgid "Set the text scaling factor"
-msgstr ""
+msgstr "Beállítja a szöveg méretezési faktorát"
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
@@ -1029,23 +1029,23 @@ msgstr "Biztosan be szeretné fejezni a munkamenetet?"
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
-msgstr ""
+msgstr "Minden ablak megjelenítése klikkeléskor"
 
 #: src/applets/icon-tasklist/settings.ui.h:2
 msgid "Only show favorited"
-msgstr ""
+msgstr "Csak a kedvencek megjelenítése"
 
 #: src/applets/icon-tasklist/settings.ui.h:3
 msgid "Lock icons"
-msgstr ""
+msgstr "Ikonok zárolása"
 
 #: src/applets/icon-tasklist/settings.ui.h:4
 msgid "Restrict to Workspace"
-msgstr ""
+msgstr "Munkaterületre korlátozás"
 
 #: src/applets/icon-tasklist/settings.ui.h:5
 msgid "Window grouping"
-msgstr ""
+msgstr "Ablak csoportosítás"
 
 #: src/applets/night-light/indicator_window.ui.h:1
 #: src/applets/night-light/NightLight.plugin.in.h:1
@@ -1106,7 +1106,7 @@ msgstr "„Hozzáadás” gomb láthatósága"
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
-msgstr ""
+msgstr "Ne mutassa"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
@@ -1122,11 +1122,11 @@ msgstr "Értesítés bekapcsolása"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
-msgstr ""
+msgstr "Fényerősség maximalizálása"
 
 #: src/applets/caffeine/settings.ui.h:3
 msgid "Brightness Level"
-msgstr ""
+msgstr "Fényerő"
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
