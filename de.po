@@ -397,7 +397,7 @@ msgstr "Mehr Unterteilungen anzeigen"
 #: src/applets/places-indicator/MountItem.vala:65
 #, c-format
 msgid "Open \"%s\""
-msgstr "»%s« öffnen"
+msgstr "\"%s\" öffnen"
 
 #: src/applets/places-indicator/MountHelper.vala:39
 msgid "Volume is in use by other processes"
