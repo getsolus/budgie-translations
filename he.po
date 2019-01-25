@@ -10,14 +10,16 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2017-09-22 18:57+0000\n"
-"Last-Translator: Moriel Ever\n"
-"Language-Team: Hebrew (http://www.transifex.com/budgie-desktop/budgie-desktop/language/he/)\n"
+"PO-Revision-Date: 2019-01-25 09:45+0000\n"
+"Last-Translator: Ido Galili <ido.galili@zoho.com>\n"
+"Language-Team: Hebrew <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 3.4-dev\n"
 
 #: src/daemon/endsession.vala:171
 msgid "Log out"
@@ -36,9 +38,8 @@ msgid "Change background"
 msgstr "החלף רקע"
 
 #: src/daemon/menus.vala:57
-#, fuzzy
 msgid "Displays"
-msgstr "הגדרות תצוגה"
+msgstr "צגים"
 
 #: src/daemon/menus.vala:66 src/panel/settings/settings_panel.vala:97
 msgid "Settings"
@@ -47,11 +48,11 @@ msgstr "הגדרות"
 #. Should show a notification
 #: src/daemon/settings.vala:277
 msgid "Turned on Caffeine Boost"
-msgstr ""
+msgstr "קפאין הופעל"
 
 #: src/daemon/settings.vala:277
 msgid "Turned off Caffeine Boost"
-msgstr ""
+msgstr "קפאין הופסק"
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
@@ -64,7 +65,7 @@ msgstr[1] ""
 
 #: src/daemon/settings.vala:285
 msgid "Will turn off in"
-msgstr ""
+msgstr "ייכבה בעוד"
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:44
@@ -87,7 +88,7 @@ msgstr ""
 
 #: src/raven/start_listening.vala:24
 msgid "Play some music"
-msgstr ""
+msgstr "נגן מוסיקה כלשהי"
 
 #: src/raven/notifications_view.vala:99
 msgid "Nothing to see here"
@@ -116,11 +117,11 @@ msgstr "אין התראות חדשות"
 #. 125ms
 #: src/raven/sound.vala:151
 msgid "Apps"
-msgstr ""
+msgstr "תוכנות"
 
 #: src/raven/sound.vala:152
 msgid "Devices"
-msgstr ""
+msgstr "התקנים"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
@@ -183,16 +184,15 @@ msgstr "הגדרות שמע"
 
 #: src/applets/icon-tasklist/IconPopover.vala:92
 msgid "Launch New Instance"
-msgstr ""
+msgstr "פתח מופע חדש"
 
 #: src/applets/icon-tasklist/IconPopover.vala:95
 msgid "Close All Windows"
-msgstr ""
+msgstr "סגור את כל החלונות"
 
 #: src/applets/icon-tasklist/IconPopover.vala:103
-#, fuzzy
 msgid "Always On Top"
-msgstr "תמיד"
+msgstr "תמיד מלפנים"
 
 #: src/applets/icon-tasklist/IconPopover.vala:105
 #: src/applets/icon-tasklist/IconPopover.vala:473
@@ -201,7 +201,7 @@ msgstr ""
 
 #: src/applets/icon-tasklist/IconPopover.vala:106
 msgid "Minimize"
-msgstr ""
+msgstr "מזער"
 
 #: src/applets/icon-tasklist/IconPopover.vala:361
 msgid "Unfavorite"
@@ -209,7 +209,7 @@ msgstr ""
 
 #: src/applets/icon-tasklist/IconPopover.vala:361
 msgid "Favorite"
-msgstr ""
+msgstr "מועדף"
 
 #. If our current amount of workspaces is different than how many we have added
 #. We have items to add
@@ -225,12 +225,10 @@ msgid "Unmaximize"
 msgstr ""
 
 #: src/applets/icon-tasklist/IconPopover.vala:532
-#, fuzzy
 msgid "Close Window"
-msgstr "חלונות"
+msgstr "סגור את החלון"
 
 #: src/applets/icon-tasklist/IconPopover.vala:534
-#, fuzzy
 msgid "Show Window Controls"
 msgstr "כותרות חלון"
 
