@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2019-01-21 13:04+0000\n"
-"Last-Translator: Balogh Zsolt <huneater@gmail.com>\n"
+"PO-Revision-Date: 2019-01-25 09:45+0000\n"
+"Last-Translator: Daniel Illes <daniel.illes.90@gmail.com>\n"
 "Language-Team: Hungarian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/hu/>\n"
 "Language: hu\n"
@@ -67,7 +67,7 @@ msgstr[1] ""
 
 #: src/daemon/settings.vala:285
 msgid "Will turn off in"
-msgstr ""
+msgstr "Kikapcsolás ennyi idő múlva: "
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:44
@@ -662,6 +662,8 @@ msgstr ""
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
 msgstr ""
+"Megjeleníti vagy elrejti a hangkimeneti modult a Raven alkalmazások "
+"szekciójában."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
@@ -670,22 +672,26 @@ msgstr ""
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
 msgstr ""
+"Megjeleníti vagy elrejti a mikrofon bemeneti modult a Raven alkalmazások "
+"szekciójában."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
-msgstr ""
+msgstr "Média lejátszási kezelőszervek megjelenítése"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
 msgstr ""
+"Megjeleníti vagy elrejti a média lejátszási kezelőszervek modult a Raven "
+"alkalmazások szekciójában."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
-msgstr ""
+msgstr "Energiagazdálkodási sáv megjelenítése"
 
 #: src/panel/settings/settings_raven.vala:76
 msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr ""
+msgstr "Megjeleníti vagy elrejti az energiagazdálkodási sávot a Raven alján."
 
 #: src/panel/settings/settings_panel_dialogs.vala:29
 msgid "Confirm panel removal"
@@ -936,6 +942,8 @@ msgstr ""
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr ""
+"Letiltja az éjszakai fényt teljes képernyős ablak esetén. Teljes képernyő "
+"elhagyásakor újra engedélyezi."
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
@@ -947,11 +955,13 @@ msgstr "Az ablakok automatikusan csempéződnek, amikor a képernyő tetejére, 
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
-msgstr ""
+msgstr "Ablak fókuszváltás engedélyezése az egérmutató be- és kilépésekor"
 
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
 msgstr ""
+"Engedélyezi az ablak fókuszba helyezését az egérmutató belépésekor, illetve "
+"letiltja ha az egérmutató elhagyja az ablakot."
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
@@ -1092,7 +1102,7 @@ msgstr "Menü ikon"
 
 #: src/applets/workspaces/settings.ui.h:1
 msgid "\"Add\" button visibility"
-msgstr ""
+msgstr "„Hozzáadás” gomb láthatósága"
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
@@ -1100,7 +1110,7 @@ msgstr ""
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
-msgstr ""
+msgstr "Megjelenítés egérmutató áthaladásakor"
 
 #: src/applets/workspaces/settings.ui.h:4
 msgid "Always show"
