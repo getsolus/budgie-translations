@@ -808,7 +808,7 @@ msgstr "Das universelle Symbolthema festlegen"
 
 #: src/panel/settings/settings_style.vala:52
 msgid "Cursors"
-msgstr "Zeiger"
+msgstr "Mauszeiger"
 
 #: src/panel/settings/settings_style.vala:53
 msgid "Set the globally used mouse cursor theme"
