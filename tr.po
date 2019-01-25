@@ -10,9 +10,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2019-01-15 10:59+0000\n"
-"Last-Translator: Abdulkadir Furkan Şanlı <abdulkadirfsanli@protonmail.com>\n"
-"Language-Team: Turkish <http://translate.getsol.us/projects/budgie-desktop/main/tr/>\n"
+"PO-Revision-Date: 2019-01-25 09:45+0000\n"
+"Last-Translator: Hüsamettin Göker <husamettingoker@gmail.com>\n"
+"Language-Team: Turkish <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +23,7 @@ msgstr ""
 
 #: src/daemon/endsession.vala:171
 msgid "Log out"
-msgstr "Oturum kapat"
+msgstr "Oturumu kapat"
 
 #: src/daemon/endsession.vala:175
 msgid "Restart device"
