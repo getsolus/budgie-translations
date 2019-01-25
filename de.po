@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2019-01-25 13:50+0000\n"
+"PO-Revision-Date: 2019-01-25 13:51+0000\n"
 "Last-Translator: Philipp <philipp@trulson.de>\n"
 "Language-Team: German <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/de/>\n"
@@ -763,7 +763,7 @@ msgstr "Eine Verknüpfung zum persönlichen Ordner auf dem Schreibtisch hinzufü
 
 #: src/panel/settings/settings_desktop.vala:60
 msgid "Network servers"
-msgstr "Netzwerkserver"
+msgstr "Netzwerk-Server"
 
 #: src/panel/settings/settings_desktop.vala:61
 msgid "Add a shortcut to your local network servers on the desktop"
