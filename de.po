@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2019-01-25 13:36+0000\n"
+"PO-Revision-Date: 2019-01-25 13:37+0000\n"
 "Last-Translator: Philipp <philipp@trulson.de>\n"
 "Language-Team: German <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/de/>\n"
@@ -671,7 +671,7 @@ msgstr "Zeigt oder versteckt das Kalender Widget in Ravens Applets Abschnitt."
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
-msgstr "Zeige Sound Ausgang Widget"
+msgstr "Zeige Audio-Ausgang Widget"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
