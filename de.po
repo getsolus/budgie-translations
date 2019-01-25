@@ -667,7 +667,7 @@ msgstr "Kalender anzeigen"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr "Zeigt oder versteckt das Kalender Widget in Raven's Applets Abschnitt."
+msgstr "Zeigt oder versteckt das Kalender Widget in Ravens Applets Abschnitt."
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
