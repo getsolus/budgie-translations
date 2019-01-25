@@ -676,7 +676,7 @@ msgstr "Zeige Audio-Ausgang Widget"
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
 msgstr ""
-"Zeigt oder versteckt das Sound Ausgang Widget in Ravens Applet Abschnitt."
+"Zeigt oder versteckt das Audio-Ausgang Widget in Ravens Applet Abschnitt."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
