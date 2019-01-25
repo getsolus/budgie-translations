@@ -631,7 +631,7 @@ msgstr "Eine Hinweis zur Leiste hinzufügen, sodass jede der drei Hauptbereiche 
 
 #: src/panel/settings/settings_panel.vala:276
 msgid "Dock mode"
-msgstr "Dock Modus"
+msgstr "Dock-Modus"
 
 #: src/panel/settings/settings_panel.vala:277
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
