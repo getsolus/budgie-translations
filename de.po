@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2019-01-25 13:52+0000\n"
+"PO-Revision-Date: 2019-01-25 13:54+0000\n"
 "Last-Translator: Philipp <philipp@trulson.de>\n"
 "Language-Team: German <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/de/>\n"
@@ -1019,7 +1019,8 @@ msgstr "Monospace"
 
 #: src/panel/settings/settings_fonts.vala:66
 msgid "Set the fixed-width font used by text dominant applications"
-msgstr "Schriftart mit festgelegter Breite für Text basierte Anwendungen festlegen"
+msgstr ""
+"Schriftart mit festgelegter Breite für textbasierte Anwendungen festlegen"
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
