@@ -26,7 +26,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
 "PO-Revision-Date: 2019-01-25 13:10+0000\n"
-"Last-Translator: Girtablulu <flinux@vongellhorn.ch>\n"
+"Last-Translator: Philipp <philipp@trulson.de>\n"
 "Language-Team: German <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/de/>\n"
 "Language: de\n"
@@ -153,7 +153,7 @@ msgstr "Akku wird aufgeladen"
 
 #: src/applets/status/PowerIndicator.vala:114
 msgid "Battery remaining"
-msgstr "verbleibender Akku"
+msgstr "Verbleibender Akku"
 
 #: src/applets/status/PowerIndicator.vala:168
 msgid "Show battery percentage"
