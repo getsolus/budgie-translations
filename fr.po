@@ -22,8 +22,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 16:29+0200\n"
-"PO-Revision-Date: 2019-01-24 16:24+0000\n"
-"Last-Translator: Pierre-Yves <pyu@riseup.net>\n"
+"PO-Revision-Date: 2019-01-26 13:43+0000\n"
+"Last-Translator: Skyeun <eressea667@gmail.com>\n"
 "Language-Team: French <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/fr/>\n"
 "Language: fr\n"
@@ -217,7 +217,7 @@ msgstr "Minimiser"
 
 #: src/applets/icon-tasklist/IconPopover.vala:361
 msgid "Unfavorite"
-msgstr "Enlever des favoris"
+msgstr "Supprimer des favoris"
 
 #: src/applets/icon-tasklist/IconPopover.vala:361
 msgid "Favorite"
