@@ -12,7 +12,8 @@ msgstr ""
 "POT-Creation-Date: 2019-01-29 16:03+0200\n"
 "PO-Revision-Date: 2019-01-25 09:45+0000\n"
 "Last-Translator: Ido Galili <ido.galili@zoho.com>\n"
-"Language-Team: Hebrew <http://translate.getsol.us/projects/budgie-desktop/translations/he/>\n"
+"Language-Team: Hebrew <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +23,7 @@ msgstr ""
 
 #: src/daemon/endsession.vala:171
 msgid "Log out"
-msgstr "יציאה"
+msgstr "התנתק"
 
 #: src/daemon/endsession.vala:175
 msgid "Restart device"
@@ -83,7 +84,7 @@ msgstr "התראות"
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
-msgstr ""
+msgstr "אף תוכנה אינה מנגנת שמע כרגע."
 
 #: src/raven/start_listening.vala:24
 msgid "Play some music"
@@ -116,7 +117,7 @@ msgstr "אין התראות חדשות"
 #. 125ms
 #: src/raven/sound.vala:151
 msgid "Apps"
-msgstr "תוכנות"
+msgstr "יישומים"
 
 #: src/raven/sound.vala:152
 msgid "Devices"
@@ -136,6 +137,7 @@ msgid "Battery charging"
 msgstr "סוללה נטענת"
 
 #: src/applets/status/PowerIndicator.vala:114
+#, fuzzy
 msgid "Battery remaining"
 msgstr "סוללה נותרה"
 
@@ -150,25 +152,25 @@ msgstr "הגדרות צריכת חשמל"
 #. Settings button
 #: src/applets/status/BluetoothIndicator.vala:56
 msgid "Bluetooth Settings"
-msgstr "הגדרות Bluetooth"
+msgstr "הגדרות בלוטות'"
 
 #. Send files button
 #: src/applets/status/BluetoothIndicator.vala:63
 msgid "Send Files"
-msgstr "שלח קובץ"
+msgstr "שלח קבצים"
 
 #. Airplane mode
 #: src/applets/status/BluetoothIndicator.vala:73
 msgid "Bluetooth Airplane Mode"
-msgstr "Bluetooth מצב מטוס"
+msgstr "מצב טיסה בלוטות'"
 
 #: src/applets/status/BluetoothIndicator.vala:179
 msgid "Bluetooth is disabled"
-msgstr "‏Bluetooth מנוטרל"
+msgstr "בלוטות' מושבת"
 
 #: src/applets/status/BluetoothIndicator.vala:183
 msgid "Bluetooth is active"
-msgstr "‏Bluetooth מופעל"
+msgstr "בלוטות' פעיל"
 
 #: src/applets/status/BluetoothIndicator.vala:188
 #, c-format
@@ -196,7 +198,7 @@ msgstr "תמיד מלפנים"
 #: src/applets/icon-tasklist/IconPopover.vala:106
 #: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Maximize"
-msgstr ""
+msgstr "מקסם"
 
 #: src/applets/icon-tasklist/IconPopover.vala:107
 msgid "Minimize"
@@ -216,7 +218,7 @@ msgstr "מועדף"
 #: src/applets/icon-tasklist/IconPopover.vala:384
 #, c-format
 msgid "Move To Workspace %i"
-msgstr ""
+msgstr "העבר למרחב עבודה %i"
 
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:484
@@ -229,7 +231,7 @@ msgstr "סגור את החלון"
 
 #: src/applets/icon-tasklist/IconPopover.vala:545
 msgid "Show Window Controls"
-msgstr "כותרות חלון"
+msgstr "הצג כפתורי חלון"
 
 #: src/applets/budgie-menu/IconChooser.vala:27
 msgid "Set menu icon from file"
@@ -237,7 +239,7 @@ msgstr "הגדר סמל תפריט מקובץ"
 
 #: src/applets/budgie-menu/IconChooser.vala:37
 msgid "Image files"
-msgstr "קובצי תמונה"
+msgstr "קבצי תמונה"
 
 #: src/applets/budgie-menu/IconChooser.vala:43
 msgid "Any file"
@@ -249,11 +251,11 @@ msgstr "כל קובץ"
 #: src/panel/settings/settings_applet_chooser.vala:84
 #: src/daemon/endsession.ui.h:3 src/polkit/dialog.ui.h:4
 msgid "Cancel"
-msgstr "ביטול"
+msgstr "בטל"
 
 #: src/applets/budgie-menu/IconChooser.vala:56
 msgid "Set icon"
-msgstr "קבע סמל"
+msgstr "הגדר סמל"
 
 #. Special case, "All"
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:43
