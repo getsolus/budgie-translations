@@ -738,45 +738,41 @@ msgid "Desktop Icons"
 msgstr "Desktop-Symbole"
 
 #: src/panel/settings/settings_desktop.vala:44
-#, fuzzy
 msgid "Control whether to allow launchers and icons on the desktop."
-msgstr "Festlegen, ob Anwendungen und Symbole auf dem Schreibtisch zu sehen sind"
+msgstr "Festlegen, ob Anwendungen und Symbole auf dem Desktop zu sehen sind."
 
 #: src/panel/settings/settings_desktop.vala:54
 msgid "Home directory"
 msgstr "Persönlicher Ordner"
 
 #: src/panel/settings/settings_desktop.vala:55
-#, fuzzy
 msgid "Add a shortcut to your home directory on the desktop."
-msgstr "Eine Verknüpfung zum persönlichen Ordner auf dem Schreibtisch hinzufügen"
+msgstr "Fügt eine Verknüpfung zum Persönlichen Ordner auf dem Desktop hinzu."
 
 #: src/panel/settings/settings_desktop.vala:60
 msgid "Network servers"
 msgstr "Netzwerk-Server"
 
 #: src/panel/settings/settings_desktop.vala:61
-#, fuzzy
 msgid "Add a shortcut to your local network servers on the desktop."
-msgstr "Eine Verknüpfung zu lokalen Netzwerk-Servern auf dem Schreibtisch hinzufügen"
+msgstr ""
+"Fügt eine Verknüpfung zu lokalen Netzwerk-Servern  auf dem Desktop hinzu."
 
 #: src/panel/settings/settings_desktop.vala:66
 msgid "Trash"
 msgstr "Papierkorb"
 
 #: src/panel/settings/settings_desktop.vala:67
-#, fuzzy
 msgid "Add a shortcut to the Trash directory on the desktop."
-msgstr "Fügt eine Verknüpfung zum Papierkorb auf dem Schreibtisch hinzu"
+msgstr "Fügt eine Verknüpfung zum Papierkorb auf dem Desktop hinzu."
 
 #: src/panel/settings/settings_desktop.vala:72
 msgid "Mounted volumes"
 msgstr "Eingehängte Geräte"
 
 #: src/panel/settings/settings_desktop.vala:73
-#, fuzzy
 msgid "Mounted volumes & drives will appear on the desktop."
-msgstr "Eingehängte Geräte werden auf dem Schreibtisch erscheinen"
+msgstr "Eingehängte Geräte werden auf dem Desktop angezeigt."
 
 #: src/panel/settings/settings_style.vala:33
 msgid "Style"
@@ -807,13 +803,12 @@ msgid "Set the globally used mouse cursor theme"
 msgstr "Das universelle Mauszeigerthema festlegen"
 
 #: src/panel/settings/settings_style.vala:58
-#, fuzzy
 msgid "Notification Position"
-msgstr "Benachrichtigungen"
+msgstr "Benachrichtigungsposition"
 
 #: src/panel/settings/settings_style.vala:59
 msgid "Set the location for notification popups"
-msgstr ""
+msgstr "Festlegen der Position des Benachrichtigungs-Popup"
 
 #: src/panel/settings/settings_style.vala:68
 msgid "Dark theme"
@@ -824,9 +819,9 @@ msgid "Built-in theme"
 msgstr "Eingebautes Thema"
 
 #: src/panel/settings/settings_style.vala:73
-#, fuzzy
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr "Wenn aktiviert wird der integrierte Stil vom Desktop Thema überschrieben"
+msgstr ""
+"Wenn aktiviert wird der integrierte Stil vom Desktop Thema überschrieben"
 
 #: src/panel/settings/settings_style.vala:77
 msgid "Animations"
@@ -837,24 +832,20 @@ msgid "Control whether windows and controls use animations"
 msgstr "Festlegen, ob Fenster und Bedienelemente animiert werden"
 
 #: src/panel/settings/settings_style.vala:195
-#, fuzzy
 msgid "Top Left"
-msgstr "Links"
+msgstr "Oben links"
 
 #: src/panel/settings/settings_style.vala:197
-#, fuzzy
 msgid "Bottom Left"
-msgstr "Unten"
+msgstr "Unten links"
 
 #: src/panel/settings/settings_style.vala:199
-#, fuzzy
 msgid "Bottom Right"
-msgstr "Unten"
+msgstr "Unten rechts"
 
 #: src/panel/settings/settings_style.vala:202
-#, fuzzy
 msgid "Top Right"
-msgstr "Rechts"
+msgstr "Oben rechts"
 
 #: src/panel/settings/settings_autostart.vala:141
 msgid "Untitled"
@@ -949,27 +940,26 @@ msgid "Attach modal dialogs to windows"
 msgstr "Modale Dialoge an Fenster verankern"
 
 #: src/panel/settings/settings_wm.vala:42
-#, fuzzy
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr "Modale Dialoge werden am Hauptfenster verankert und bewegen sich gemeinsam, wenn diese verschoben werden"
+msgstr ""
+"Modale Dialoge werden am Hauptfenster verankert und bewegen sich gemeinsam, "
+"wenn diese verschoben werden."
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Button layout"
 msgstr "Schaltflächenanordnung"
 
 #: src/panel/settings/settings_wm.vala:48
-#, fuzzy
 msgid "Change the layout of buttons in application titlebars."
-msgstr "Das Layout der Schaltflächen in den Anwendungstitelleisten ändern"
+msgstr "Das Layout der Schaltflächen in den Anwendungstitelleisten ändern."
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
 msgstr "Neue Fenster auf dem Bildschirm zentrieren"
 
 #: src/panel/settings/settings_wm.vala:54
-#, fuzzy
 msgid "Center newly launched windows on the current screen."
-msgstr "Neue Fenster werden in der Mitte des Bildschirms geöffnet"
+msgstr "Neue Fenster werden in der Mitte des aktuellen Bildschirms geöffnet."
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
@@ -984,9 +974,10 @@ msgid "Automatic tiling"
 msgstr "Automatisches Andocken"
 
 #: src/panel/settings/settings_wm.vala:66
-#, fuzzy
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr "Fenster passen sich automatisch ihre Grösse an, wenn sie zum oberen Rand des Bildschirms oder in die Ecken gezogen werden"
+msgstr ""
+"Fenster passen sich automatisch ihre Grösse an, wenn sie zum oberen Rand des "
+"Bildschirms oder in die Ecken gezogen werden."
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
@@ -1001,9 +992,10 @@ msgid "Disable unredirection of windows"
 msgstr "Nicht-Weiterleitung von Fenstern deaktivieren"
 
 #: src/panel/settings/settings_wm.vala:79
-#, fuzzy
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr "Diese Option ist für erfahrene Benutzer. Verwenden, falls graphische oder Performance-Probleme mit dedizierten GPUs auftreten"
+msgstr ""
+"Diese Option ist für erfahrene Benutzer. Verwenden, falls graphische oder "
+"Performance-Probleme mit dedizierten GPUs auftreten."
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
@@ -1018,45 +1010,41 @@ msgid "Window Titles"
 msgstr "Fenstertitel"
 
 #: src/panel/settings/settings_fonts.vala:45
-#, fuzzy
 msgid "Set the font used in the titlebars of applications."
-msgstr "Schriftart für die Fenstertitelleisten festlegen"
+msgstr "Schriftart für die Fenstertitelleisten festlegen."
 
 #: src/panel/settings/settings_fonts.vala:51
 msgid "Documents"
 msgstr "Dokumente"
 
 #: src/panel/settings/settings_fonts.vala:52
-#, fuzzy
 msgid "Set the display font used by for documents."
-msgstr "Schriftart für Dokumente festlegen"
+msgstr "Schriftart für Dokumente festlegen."
 
 #: src/panel/settings/settings_fonts.vala:58
 msgid "Interface"
 msgstr "Oberfläche"
 
 #: src/panel/settings/settings_fonts.vala:59
-#, fuzzy
 msgid "Set the primary font used by application controls."
-msgstr "Die primäre Schriftart für Anwendungsbedienelemente festlegen"
+msgstr "Die primäre Schriftart für Anwendungsbedienelemente festlegen."
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Monospace"
 msgstr "Monospace"
 
 #: src/panel/settings/settings_fonts.vala:66
-#, fuzzy
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr "Schriftart mit festgelegter Breite für textbasierte Anwendungen festlegen"
+msgstr ""
+"Schriftart mit festgelegter Breite für textbasierte Anwendungen festlegen."
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
 msgstr "Skalierung der Texte"
 
 #: src/panel/settings/settings_fonts.vala:73
-#, fuzzy
 msgid "Set the text scaling factor."
-msgstr "Lege Text Skalierungsfaktor fest"
+msgstr "Lege Text Skalierungsfaktor fest."
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
