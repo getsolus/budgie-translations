@@ -11,11 +11,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-15 16:29+0200\n"
+"POT-Creation-Date: 2019-01-21 11:28+0200\n"
 "PO-Revision-Date: 2019-01-25 09:45+0000\n"
 "Last-Translator: Balogh Zsolt <huneater@gmail.com>\n"
-"Language-Team: Hungarian <http://translate.getsol.us/projects/budgie-desktop/"
-"translations/hu/>\n"
+"Language-Team: Hungarian <http://translate.getsol.us/projects/budgie-desktop/translations/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -92,27 +91,27 @@ msgstr "Egy applikáció sem ad ki hangot."
 msgid "Play some music"
 msgstr "Játssz le zenét"
 
-#: src/raven/notifications_view.vala:99
+#: src/raven/notifications_view.vala:106
 msgid "Nothing to see here"
 msgstr "Nincs itt semmi látnivaló"
 
-#: src/raven/notifications_view.vala:667
+#: src/raven/notifications_view.vala:674
 #: src/applets/notifications/NotificationsApplet.vala:109
 #, c-format
 msgid "%u unread notifications"
 msgstr "%u olvasatlan értesítés"
 
-#: src/raven/notifications_view.vala:669
+#: src/raven/notifications_view.vala:676
 #: src/applets/notifications/NotificationsApplet.vala:111
 msgid "1 unread notification"
 msgstr "1 olvasatlan értesítés"
 
-#: src/raven/notifications_view.vala:671
+#: src/raven/notifications_view.vala:678
 #: src/applets/notifications/NotificationsApplet.vala:113
 msgid "No unread notifications"
 msgstr "Nincs olvasatlan értesítés"
 
-#: src/raven/notifications_view.vala:846
+#: src/raven/notifications_view.vala:913
 msgid "No new notifications"
 msgstr "Nincs új értesítés"
 
@@ -184,53 +183,53 @@ msgstr[1] "Kapcsolódva %d eszközhöz"
 msgid "Sound settings"
 msgstr "Hangbeállítások"
 
-#: src/applets/icon-tasklist/IconPopover.vala:92
+#: src/applets/icon-tasklist/IconPopover.vala:93
 msgid "Launch New Instance"
 msgstr "Új példány indítása"
 
-#: src/applets/icon-tasklist/IconPopover.vala:95
+#: src/applets/icon-tasklist/IconPopover.vala:96
 msgid "Close All Windows"
 msgstr "Összes ablak bezárása"
 
-#: src/applets/icon-tasklist/IconPopover.vala:103
+#: src/applets/icon-tasklist/IconPopover.vala:104
 msgid "Always On Top"
 msgstr "Mindig legfelül"
 
-#: src/applets/icon-tasklist/IconPopover.vala:105
-#: src/applets/icon-tasklist/IconPopover.vala:473
+#: src/applets/icon-tasklist/IconPopover.vala:106
+#: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Maximize"
 msgstr "Maximalizál"
 
-#: src/applets/icon-tasklist/IconPopover.vala:106
+#: src/applets/icon-tasklist/IconPopover.vala:107
 msgid "Minimize"
 msgstr "Minimalizál"
 
-#: src/applets/icon-tasklist/IconPopover.vala:361
+#: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Unfavorite"
 msgstr "Nem kedvenc"
 
-#: src/applets/icon-tasklist/IconPopover.vala:361
+#: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Favorite"
 msgstr "Kedvenc"
 
 #. If our current amount of workspaces is different than how many we have added
 #. We have items to add
 #. For workspaces we need to add
-#: src/applets/icon-tasklist/IconPopover.vala:373
+#: src/applets/icon-tasklist/IconPopover.vala:384
 #, c-format
 msgid "Move To Workspace %i"
 msgstr "Mozgatás a %i. munkaterületre"
 
 #. Update our always on top button
-#: src/applets/icon-tasklist/IconPopover.vala:473
+#: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Unmaximize"
 msgstr "Eredeti méret"
 
-#: src/applets/icon-tasklist/IconPopover.vala:532
+#: src/applets/icon-tasklist/IconPopover.vala:543
 msgid "Close Window"
 msgstr "Ablak bezárása"
 
-#: src/applets/icon-tasklist/IconPopover.vala:534
+#: src/applets/icon-tasklist/IconPopover.vala:545
 msgid "Show Window Controls"
 msgstr "Ablak vezérlők mutatása"
 
@@ -634,9 +633,7 @@ msgstr "Engedélyezd a hangerő 100% főlé emelését "
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
-msgstr ""
-"Engedélyezi a hangerő 150%-ig emelését a hang beállításokban és a Raven hang "
-"moduljában."
+msgstr "Engedélyezi a hangerő 150%-ig emelését a hang beállításokban és a Raven hang moduljában."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
@@ -644,8 +641,7 @@ msgstr "Hetek számának mutatása a Naptárban"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr ""
-"Ez a beállítás engedélyezi a hetek számának mutatását a Naptár modulban."
+msgstr "Ez a beállítás engedélyezi a hetek számának mutatását a Naptár modulban."
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
@@ -661,9 +657,7 @@ msgstr "Hangkimeneti modul megjelenítése"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr ""
-"Megjeleníti vagy elrejti a hangkimeneti modult a Raven alkalmazások "
-"szekciójában."
+msgstr "Megjeleníti vagy elrejti a hangkimeneti modult a Raven alkalmazások szekciójában."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
@@ -671,9 +665,7 @@ msgstr "Mikrofon bemeneti modul megjelenítése"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
-msgstr ""
-"Megjeleníti vagy elrejti a mikrofon bemeneti modult a Raven alkalmazások "
-"szekciójában."
+msgstr "Megjeleníti vagy elrejti a mikrofon bemeneti modult a Raven alkalmazások szekciójában."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
@@ -681,9 +673,7 @@ msgstr "Média lejátszási kezelőszervek megjelenítése"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
-msgstr ""
-"Megjeleníti vagy elrejti a média lejátszási kezelőszervek modult a Raven "
-"alkalmazások szekciójában."
+msgstr "Megjeleníti vagy elrejti a média lejátszási kezelőszervek modult a Raven alkalmazások szekciójában."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
@@ -739,7 +729,8 @@ msgid "Desktop Icons"
 msgstr "Asztali ikonok"
 
 #: src/panel/settings/settings_desktop.vala:44
-msgid "Control whether to allow launchers and icons on the desktop"
+#, fuzzy
+msgid "Control whether to allow launchers and icons on the desktop."
 msgstr "Vezérelje, hogy engedélyezi-e az indítókat és ikonokat az asztalon"
 
 #: src/panel/settings/settings_desktop.vala:54
@@ -747,7 +738,8 @@ msgid "Home directory"
 msgstr "Saját mappa"
 
 #: src/panel/settings/settings_desktop.vala:55
-msgid "Add a shortcut to your home directory on the desktop"
+#, fuzzy
+msgid "Add a shortcut to your home directory on the desktop."
 msgstr "Saját mappa parancsikonjának elhelyezése az asztalon"
 
 #: src/panel/settings/settings_desktop.vala:60
@@ -755,7 +747,8 @@ msgid "Network servers"
 msgstr "Hálózati szerverek"
 
 #: src/panel/settings/settings_desktop.vala:61
-msgid "Add a shortcut to your local network servers on the desktop"
+#, fuzzy
+msgid "Add a shortcut to your local network servers on the desktop."
 msgstr "Helyi hálózati szerverek parancsikonjának elhelyezése az asztalon"
 
 #: src/panel/settings/settings_desktop.vala:66
@@ -763,7 +756,8 @@ msgid "Trash"
 msgstr "Lomtár"
 
 #: src/panel/settings/settings_desktop.vala:67
-msgid "Add a shortcut to the Trash directory on the desktop"
+#, fuzzy
+msgid "Add a shortcut to the Trash directory on the desktop."
 msgstr "Kuka parancsikonjának elhelyezése az asztalon"
 
 #: src/panel/settings/settings_desktop.vala:72
@@ -771,57 +765,87 @@ msgid "Mounted volumes"
 msgstr "Csatolt kötetek"
 
 #: src/panel/settings/settings_desktop.vala:73
-msgid "Mounted volumes & drives will appear on the desktop"
+#, fuzzy
+msgid "Mounted volumes & drives will appear on the desktop."
 msgstr "Csatolt kötetek és meghajtók megjelenítése az asztalon"
 
-#: src/panel/settings/settings_style.vala:32
+#: src/panel/settings/settings_style.vala:33
 msgid "Style"
 msgstr "Stílus"
 
-#: src/panel/settings/settings_style.vala:42
+#: src/panel/settings/settings_style.vala:43
 msgid "Widgets"
 msgstr "Widgetek"
 
-#: src/panel/settings/settings_style.vala:43
+#: src/panel/settings/settings_style.vala:44
 msgid "Set the appearance of window decorations and controls"
 msgstr "Állítsa be az ablakdekorációkat és a vezérlőket"
 
-#: src/panel/settings/settings_style.vala:47
+#: src/panel/settings/settings_style.vala:48
 msgid "Icons"
 msgstr "Ikonok"
 
-#: src/panel/settings/settings_style.vala:48
+#: src/panel/settings/settings_style.vala:49
 msgid "Set the globally used icon theme"
 msgstr "Állítsa be a globálisan használt ikontémát"
 
-#: src/panel/settings/settings_style.vala:52
+#: src/panel/settings/settings_style.vala:53
 msgid "Cursors"
 msgstr "Kurzorok"
 
-#: src/panel/settings/settings_style.vala:53
+#: src/panel/settings/settings_style.vala:54
 msgid "Set the globally used mouse cursor theme"
 msgstr "Állítsa be a globálisan használt egérkurzor témát"
 
-#: src/panel/settings/settings_style.vala:61
+#: src/panel/settings/settings_style.vala:58
+#, fuzzy
+msgid "Notification Position"
+msgstr "Értesítések"
+
+#: src/panel/settings/settings_style.vala:59
+msgid "Set the location for notification popups"
+msgstr ""
+
+#: src/panel/settings/settings_style.vala:68
 msgid "Dark theme"
 msgstr "Sötét téma"
 
-#: src/panel/settings/settings_style.vala:65
+#: src/panel/settings/settings_style.vala:72
 msgid "Built-in theme"
 msgstr "Beépített téma"
 
-#: src/panel/settings/settings_style.vala:66
-msgid "When enabled, the desktop component style will override the built-in one"
-msgstr ""
-"Engedélyezéskor az asztal komponens stílusa felülbírálja a beépített stílust"
+#: src/panel/settings/settings_style.vala:73
+#, fuzzy
+msgid "When enabled, the built-in theme will override the desktop component styling"
+msgstr "Engedélyezéskor az asztal komponens stílusa felülbírálja a beépített stílust"
 
-#: src/panel/settings/settings_style.vala:70
+#: src/panel/settings/settings_style.vala:77
 msgid "Animations"
 msgstr "Animációk"
 
-#: src/panel/settings/settings_style.vala:71
+#: src/panel/settings/settings_style.vala:78
 msgid "Control whether windows and controls use animations"
 msgstr "Meghatározhatja, hogy az ablakok és vezérlők animációkat használjanak"
+
+#: src/panel/settings/settings_style.vala:195
+#, fuzzy
+msgid "Top Left"
+msgstr "Bal"
+
+#: src/panel/settings/settings_style.vala:197
+#, fuzzy
+msgid "Bottom Left"
+msgstr "Alsó"
+
+#: src/panel/settings/settings_style.vala:199
+#, fuzzy
+msgid "Bottom Right"
+msgstr "Alsó"
+
+#: src/panel/settings/settings_style.vala:202
+#, fuzzy
+msgid "Top Right"
+msgstr "Jobb"
 
 #: src/panel/settings/settings_autostart.vala:141
 msgid "Untitled"
@@ -916,7 +940,8 @@ msgid "Attach modal dialogs to windows"
 msgstr "Csatolja a felbukkanó párbeszédablakokat a szülőablakokra"
 
 #: src/panel/settings/settings_wm.vala:42
-msgid "Modal dialogs will become attached to the parent window and move together when dragged"
+#, fuzzy
+msgid "Modal dialogs will become attached to the parent window and move together when dragged."
 msgstr "A felbukkanó párbeszédpanelek a szülőablakhoz csatlakoznak, és velük együtt mozognak"
 
 #: src/panel/settings/settings_wm.vala:47
@@ -924,7 +949,8 @@ msgid "Button layout"
 msgstr "Gombok elrendezése"
 
 #: src/panel/settings/settings_wm.vala:48
-msgid "Change the layout of buttons in application titlebars"
+#, fuzzy
+msgid "Change the layout of buttons in application titlebars."
 msgstr "Módosítsa az alkalmazások címsorainak gombelrendezését"
 
 #: src/panel/settings/settings_wm.vala:53
@@ -932,7 +958,8 @@ msgid "Center new windows on screen"
 msgstr "Új ablakok középre igazítása a képernyőn"
 
 #: src/panel/settings/settings_wm.vala:54
-msgid "Center newly launched windows on the current screen"
+#, fuzzy
+msgid "Center newly launched windows on the current screen."
 msgstr "Újonnan indított ablakok középre igazítása a jelenlegi képernyőn"
 
 #: src/panel/settings/settings_wm.vala:59
@@ -941,16 +968,15 @@ msgstr "Teljes képernyős ablakok esetén az éjszakai fény kikapcsolása"
 
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
-msgstr ""
-"Letiltja az éjszakai fényt teljes képernyős ablak esetén. Teljes képernyő "
-"elhagyásakor újra engedélyezi."
+msgstr "Letiltja az éjszakai fényt teljes képernyős ablak esetén. Teljes képernyő elhagyásakor újra engedélyezi."
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
 msgstr "Automatikus csempézés"
 
 #: src/panel/settings/settings_wm.vala:66
-msgid "Windows will automatically tile when dragged into the top of the screen or the far corners"
+#, fuzzy
+msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
 msgstr "Az ablakok automatikusan csempéződnek, amikor a képernyő tetejére, vagy a sarkokhoz közel húzza őket"
 
 #: src/panel/settings/settings_wm.vala:71
@@ -959,16 +985,15 @@ msgstr "Ablak fókuszváltás engedélyezése az egérmutató be- és kilépése
 
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
-msgstr ""
-"Engedélyezi az ablak fókuszba helyezését az egérmutató belépésekor, illetve "
-"letiltja ha az egérmutató elhagyja az ablakot."
+msgstr "Engedélyezi az ablak fókuszba helyezését az egérmutató belépésekor, illetve letiltja ha az egérmutató elhagyja az ablakot."
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
 msgstr "Ablakok közti átirányítás kikapcsolása"
 
 #: src/panel/settings/settings_wm.vala:79
-msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs"
+#, fuzzy
+msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
 msgstr "Haladó fejlesztők számára. Használja ezt, ha megjelenítési, vagy teljesítményproblémákat tapasztal a dedikált GPU-val kapcsolatban"
 
 #: src/panel/settings/settings_wm.vala:86
@@ -984,7 +1009,8 @@ msgid "Window Titles"
 msgstr "Ablak címek"
 
 #: src/panel/settings/settings_fonts.vala:45
-msgid "Set the font used in the titlebars of applications"
+#, fuzzy
+msgid "Set the font used in the titlebars of applications."
 msgstr "Állítsa be az alkalmazások címsoraiban használt betűtípust"
 
 #: src/panel/settings/settings_fonts.vala:51
@@ -992,7 +1018,8 @@ msgid "Documents"
 msgstr "Dokumentumok"
 
 #: src/panel/settings/settings_fonts.vala:52
-msgid "Set the display font used by for documents"
+#, fuzzy
+msgid "Set the display font used by for documents."
 msgstr "Állítsa be a dokumentumok által használt megjelenítési betűtípust"
 
 #: src/panel/settings/settings_fonts.vala:58
@@ -1000,7 +1027,8 @@ msgid "Interface"
 msgstr "Felület"
 
 #: src/panel/settings/settings_fonts.vala:59
-msgid "Set the primary font used by application controls"
+#, fuzzy
+msgid "Set the primary font used by application controls."
 msgstr "Állítsa be az alkalmazásvezérlések által használt elsődleges betűtípust"
 
 #: src/panel/settings/settings_fonts.vala:65
@@ -1008,7 +1036,8 @@ msgid "Monospace"
 msgstr "Fix szélességű"
 
 #: src/panel/settings/settings_fonts.vala:66
-msgid "Set the fixed-width font used by text dominant applications"
+#, fuzzy
+msgid "Set the fixed-width font used by text dominant applications."
 msgstr "Állítsa be a fix szélességű betűtípust a szöveges alkalmazások számára"
 
 #: src/panel/settings/settings_fonts.vala:72
@@ -1016,7 +1045,8 @@ msgid "Text scaling"
 msgstr "Szöveg méretezés"
 
 #: src/panel/settings/settings_fonts.vala:73
-msgid "Set the text scaling factor"
+#, fuzzy
+msgid "Set the text scaling factor."
 msgstr "Beállítja a szöveg méretezési faktorát"
 
 #: src/panel/settings/settings_applet_chooser.vala:79

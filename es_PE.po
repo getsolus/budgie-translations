@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-15 16:29+0200\n"
+"POT-Creation-Date: 2019-01-21 11:28+0200\n"
 "PO-Revision-Date: 2017-11-19 20:44+0000\n"
 "Last-Translator: mrkucho <vhugo642@gmail.com>\n"
 "Language-Team: Spanish (Peru) (http://www.transifex.com/budgie-desktop/budgie-desktop/language/es_PE/)\n"
@@ -88,27 +88,27 @@ msgstr ""
 msgid "Play some music"
 msgstr ""
 
-#: src/raven/notifications_view.vala:99
+#: src/raven/notifications_view.vala:106
 msgid "Nothing to see here"
 msgstr "No hay nada que ver aquí"
 
-#: src/raven/notifications_view.vala:667
+#: src/raven/notifications_view.vala:674
 #: src/applets/notifications/NotificationsApplet.vala:109
 #, c-format
 msgid "%u unread notifications"
 msgstr "%u notificaciones no leídas"
 
-#: src/raven/notifications_view.vala:669
+#: src/raven/notifications_view.vala:676
 #: src/applets/notifications/NotificationsApplet.vala:111
 msgid "1 unread notification"
 msgstr "1 notificación no leída "
 
-#: src/raven/notifications_view.vala:671
+#: src/raven/notifications_view.vala:678
 #: src/applets/notifications/NotificationsApplet.vala:113
 msgid "No unread notifications"
 msgstr "No hay nuevas notificaciones"
 
-#: src/raven/notifications_view.vala:846
+#: src/raven/notifications_view.vala:913
 msgid "No new notifications"
 msgstr "No hay nuevas notificaciones"
 
@@ -180,55 +180,55 @@ msgstr[1] "Conectado a %d dispositivos"
 msgid "Sound settings"
 msgstr "Configuración de sonido"
 
-#: src/applets/icon-tasklist/IconPopover.vala:92
+#: src/applets/icon-tasklist/IconPopover.vala:93
 msgid "Launch New Instance"
 msgstr ""
 
-#: src/applets/icon-tasklist/IconPopover.vala:95
+#: src/applets/icon-tasklist/IconPopover.vala:96
 msgid "Close All Windows"
 msgstr ""
 
-#: src/applets/icon-tasklist/IconPopover.vala:103
+#: src/applets/icon-tasklist/IconPopover.vala:104
 #, fuzzy
 msgid "Always On Top"
 msgstr "Siempre"
 
-#: src/applets/icon-tasklist/IconPopover.vala:105
-#: src/applets/icon-tasklist/IconPopover.vala:473
+#: src/applets/icon-tasklist/IconPopover.vala:106
+#: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Maximize"
 msgstr ""
 
-#: src/applets/icon-tasklist/IconPopover.vala:106
+#: src/applets/icon-tasklist/IconPopover.vala:107
 msgid "Minimize"
 msgstr ""
 
-#: src/applets/icon-tasklist/IconPopover.vala:361
+#: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Unfavorite"
 msgstr ""
 
-#: src/applets/icon-tasklist/IconPopover.vala:361
+#: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Favorite"
 msgstr ""
 
 #. If our current amount of workspaces is different than how many we have added
 #. We have items to add
 #. For workspaces we need to add
-#: src/applets/icon-tasklist/IconPopover.vala:373
+#: src/applets/icon-tasklist/IconPopover.vala:384
 #, c-format
 msgid "Move To Workspace %i"
 msgstr ""
 
 #. Update our always on top button
-#: src/applets/icon-tasklist/IconPopover.vala:473
+#: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Unmaximize"
 msgstr ""
 
-#: src/applets/icon-tasklist/IconPopover.vala:532
+#: src/applets/icon-tasklist/IconPopover.vala:543
 #, fuzzy
 msgid "Close Window"
 msgstr "Ventanas"
 
-#: src/applets/icon-tasklist/IconPopover.vala:534
+#: src/applets/icon-tasklist/IconPopover.vala:545
 #, fuzzy
 msgid "Show Window Controls"
 msgstr "Títulos de las ventanas"
@@ -729,7 +729,8 @@ msgid "Desktop Icons"
 msgstr "Iconos del escritorio"
 
 #: src/panel/settings/settings_desktop.vala:44
-msgid "Control whether to allow launchers and icons on the desktop"
+#, fuzzy
+msgid "Control whether to allow launchers and icons on the desktop."
 msgstr "Controle si se permiten lanzadores e iconos en el escritorio"
 
 #: src/panel/settings/settings_desktop.vala:54
@@ -737,7 +738,8 @@ msgid "Home directory"
 msgstr "Carpeta personal"
 
 #: src/panel/settings/settings_desktop.vala:55
-msgid "Add a shortcut to your home directory on the desktop"
+#, fuzzy
+msgid "Add a shortcut to your home directory on the desktop."
 msgstr "Agregar acceso directo a la carpeta personal o al escritorio"
 
 #: src/panel/settings/settings_desktop.vala:60
@@ -745,7 +747,8 @@ msgid "Network servers"
 msgstr "Servidores de red"
 
 #: src/panel/settings/settings_desktop.vala:61
-msgid "Add a shortcut to your local network servers on the desktop"
+#, fuzzy
+msgid "Add a shortcut to your local network servers on the desktop."
 msgstr "Agregue un acceso directo a sus servidores de red local en el escritorio"
 
 #: src/panel/settings/settings_desktop.vala:66
@@ -753,7 +756,8 @@ msgid "Trash"
 msgstr "Papelera"
 
 #: src/panel/settings/settings_desktop.vala:67
-msgid "Add a shortcut to the Trash directory on the desktop"
+#, fuzzy
+msgid "Add a shortcut to the Trash directory on the desktop."
 msgstr "Agregue un acceso directo de la Papelera en el escritorio"
 
 #: src/panel/settings/settings_desktop.vala:72
@@ -761,57 +765,87 @@ msgid "Mounted volumes"
 msgstr "Volúmenes montados"
 
 #: src/panel/settings/settings_desktop.vala:73
-msgid "Mounted volumes & drives will appear on the desktop"
+#, fuzzy
+msgid "Mounted volumes & drives will appear on the desktop."
 msgstr "Discos y volúmenes montados aparecerán en el escritorio"
 
-#: src/panel/settings/settings_style.vala:32
+#: src/panel/settings/settings_style.vala:33
 msgid "Style"
 msgstr "Estilo"
 
-#: src/panel/settings/settings_style.vala:42
+#: src/panel/settings/settings_style.vala:43
 msgid "Widgets"
 msgstr "Widgets"
 
-#: src/panel/settings/settings_style.vala:43
+#: src/panel/settings/settings_style.vala:44
 msgid "Set the appearance of window decorations and controls"
 msgstr "Establecer el aspecto de las decoraciones y controles de la ventana"
 
-#: src/panel/settings/settings_style.vala:47
+#: src/panel/settings/settings_style.vala:48
 msgid "Icons"
 msgstr "Iconos"
 
-#: src/panel/settings/settings_style.vala:48
+#: src/panel/settings/settings_style.vala:49
 msgid "Set the globally used icon theme"
 msgstr "Establecer el tema de icono utilizado globalmente"
 
-#: src/panel/settings/settings_style.vala:52
+#: src/panel/settings/settings_style.vala:53
 msgid "Cursors"
 msgstr "Cursores"
 
-#: src/panel/settings/settings_style.vala:53
+#: src/panel/settings/settings_style.vala:54
 msgid "Set the globally used mouse cursor theme"
 msgstr "Establecer el tema de cursor utilizado globalmente"
 
-#: src/panel/settings/settings_style.vala:61
+#: src/panel/settings/settings_style.vala:58
+#, fuzzy
+msgid "Notification Position"
+msgstr "Notificaciones"
+
+#: src/panel/settings/settings_style.vala:59
+msgid "Set the location for notification popups"
+msgstr ""
+
+#: src/panel/settings/settings_style.vala:68
 msgid "Dark theme"
 msgstr "Tema oscuro"
 
-#: src/panel/settings/settings_style.vala:65
+#: src/panel/settings/settings_style.vala:72
 msgid "Built-in theme"
 msgstr "Tema integrado"
 
-#: src/panel/settings/settings_style.vala:66
+#: src/panel/settings/settings_style.vala:73
 #, fuzzy
-msgid "When enabled, the desktop component style will override the built-in one"
+msgid "When enabled, the built-in theme will override the desktop component styling"
 msgstr "Cuando está habilitado, el estilo del tema de escritorio será anulado con el incorporado"
 
-#: src/panel/settings/settings_style.vala:70
+#: src/panel/settings/settings_style.vala:77
 msgid "Animations"
 msgstr "Animaciones"
 
-#: src/panel/settings/settings_style.vala:71
+#: src/panel/settings/settings_style.vala:78
 msgid "Control whether windows and controls use animations"
 msgstr "Controle si las ventanas y los controles usan animaciones"
+
+#: src/panel/settings/settings_style.vala:195
+#, fuzzy
+msgid "Top Left"
+msgstr "Izquierda"
+
+#: src/panel/settings/settings_style.vala:197
+#, fuzzy
+msgid "Bottom Left"
+msgstr "Inferior"
+
+#: src/panel/settings/settings_style.vala:199
+#, fuzzy
+msgid "Bottom Right"
+msgstr "Inferior"
+
+#: src/panel/settings/settings_style.vala:202
+#, fuzzy
+msgid "Top Right"
+msgstr "Derecha"
 
 #: src/panel/settings/settings_autostart.vala:141
 msgid "Untitled"
@@ -907,7 +941,8 @@ msgid "Attach modal dialogs to windows"
 msgstr "Adjunte diálogos modales a las ventanas"
 
 #: src/panel/settings/settings_wm.vala:42
-msgid "Modal dialogs will become attached to the parent window and move together when dragged"
+#, fuzzy
+msgid "Modal dialogs will become attached to the parent window and move together when dragged."
 msgstr "Los diálogos modales se adjuntarán a la ventana principal y se moverán juntos cuando se los arrastre"
 
 #: src/panel/settings/settings_wm.vala:47
@@ -915,7 +950,8 @@ msgid "Button layout"
 msgstr "Disposición de los botones"
 
 #: src/panel/settings/settings_wm.vala:48
-msgid "Change the layout of buttons in application titlebars"
+#, fuzzy
+msgid "Change the layout of buttons in application titlebars."
 msgstr "Cambiar de lugar los botones de la barra de título"
 
 #: src/panel/settings/settings_wm.vala:53
@@ -923,7 +959,7 @@ msgid "Center new windows on screen"
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:54
-msgid "Center newly launched windows on the current screen"
+msgid "Center newly launched windows on the current screen."
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:59
@@ -939,7 +975,8 @@ msgid "Automatic tiling"
 msgstr "Mosaico automático"
 
 #: src/panel/settings/settings_wm.vala:66
-msgid "Windows will automatically tile when dragged into the top of the screen or the far corners"
+#, fuzzy
+msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
 msgstr "Las ventanas se adjuntarán automáticamente cuando se arrastren a la parte superior de la pantalla o las esquinas lejanas"
 
 #: src/panel/settings/settings_wm.vala:71
@@ -955,7 +992,8 @@ msgid "Disable unredirection of windows"
 msgstr "Deshabilitar la falta de redirección de ventanas"
 
 #: src/panel/settings/settings_wm.vala:79
-msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs"
+#, fuzzy
+msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
 msgstr "Esta opción es para usuarios avanzados. Úselo si tiene problemas gráficos o de rendimiento con GPU dedicadas."
 
 #: src/panel/settings/settings_wm.vala:86
@@ -971,7 +1009,8 @@ msgid "Window Titles"
 msgstr "Títulos de las ventanas"
 
 #: src/panel/settings/settings_fonts.vala:45
-msgid "Set the font used in the titlebars of applications"
+#, fuzzy
+msgid "Set the font used in the titlebars of applications."
 msgstr "Establecer fuente usada en los títulos de las aplicaciones"
 
 #: src/panel/settings/settings_fonts.vala:51
@@ -979,7 +1018,8 @@ msgid "Documents"
 msgstr "Documentos"
 
 #: src/panel/settings/settings_fonts.vala:52
-msgid "Set the display font used by for documents"
+#, fuzzy
+msgid "Set the display font used by for documents."
 msgstr "Establecer fuente usada por los documentos"
 
 #: src/panel/settings/settings_fonts.vala:58
@@ -987,7 +1027,8 @@ msgid "Interface"
 msgstr "Interfaz"
 
 #: src/panel/settings/settings_fonts.vala:59
-msgid "Set the primary font used by application controls"
+#, fuzzy
+msgid "Set the primary font used by application controls."
 msgstr "Establecer fuente usada en los controles de las aplicaciones"
 
 #: src/panel/settings/settings_fonts.vala:65
@@ -995,7 +1036,8 @@ msgid "Monospace"
 msgstr "Monoespacio"
 
 #: src/panel/settings/settings_fonts.vala:66
-msgid "Set the fixed-width font used by text dominant applications"
+#, fuzzy
+msgid "Set the fixed-width font used by text dominant applications."
 msgstr "Establecer la fuente de ancho fijo utilizado por aplicaciones predominantes de texto"
 
 #: src/panel/settings/settings_fonts.vala:72
@@ -1003,7 +1045,7 @@ msgid "Text scaling"
 msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:73
-msgid "Set the text scaling factor"
+msgid "Set the text scaling factor."
 msgstr ""
 
 #: src/panel/settings/settings_applet_chooser.vala:79

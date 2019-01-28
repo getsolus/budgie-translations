@@ -9,11 +9,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-15 16:29+0200\n"
+"POT-Creation-Date: 2019-01-21 11:28+0200\n"
 "PO-Revision-Date: 2019-01-25 09:45+0000\n"
 "Last-Translator: Ido Galili <ido.galili@zoho.com>\n"
-"Language-Team: Hebrew <http://translate.getsol.us/projects/budgie-desktop/"
-"translations/he/>\n"
+"Language-Team: Hebrew <http://translate.getsol.us/projects/budgie-desktop/translations/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -90,27 +89,27 @@ msgstr ""
 msgid "Play some music"
 msgstr "נגן מוסיקה כלשהי"
 
-#: src/raven/notifications_view.vala:99
+#: src/raven/notifications_view.vala:106
 msgid "Nothing to see here"
 msgstr "אין מה לראות כאן"
 
-#: src/raven/notifications_view.vala:667
+#: src/raven/notifications_view.vala:674
 #: src/applets/notifications/NotificationsApplet.vala:109
 #, c-format
 msgid "%u unread notifications"
 msgstr "%u התראות שלא נקראו"
 
-#: src/raven/notifications_view.vala:669
+#: src/raven/notifications_view.vala:676
 #: src/applets/notifications/NotificationsApplet.vala:111
 msgid "1 unread notification"
 msgstr "התראה 1 שלא נקראה"
 
-#: src/raven/notifications_view.vala:671
+#: src/raven/notifications_view.vala:678
 #: src/applets/notifications/NotificationsApplet.vala:113
 msgid "No unread notifications"
 msgstr "אין התראות שלא נקראו"
 
-#: src/raven/notifications_view.vala:846
+#: src/raven/notifications_view.vala:913
 msgid "No new notifications"
 msgstr "אין התראות חדשות"
 
@@ -182,53 +181,53 @@ msgstr[1] "מחובר עם %d התקנים"
 msgid "Sound settings"
 msgstr "הגדרות שמע"
 
-#: src/applets/icon-tasklist/IconPopover.vala:92
+#: src/applets/icon-tasklist/IconPopover.vala:93
 msgid "Launch New Instance"
 msgstr "פתח מופע חדש"
 
-#: src/applets/icon-tasklist/IconPopover.vala:95
+#: src/applets/icon-tasklist/IconPopover.vala:96
 msgid "Close All Windows"
 msgstr "סגור את כל החלונות"
 
-#: src/applets/icon-tasklist/IconPopover.vala:103
+#: src/applets/icon-tasklist/IconPopover.vala:104
 msgid "Always On Top"
 msgstr "תמיד מלפנים"
 
-#: src/applets/icon-tasklist/IconPopover.vala:105
-#: src/applets/icon-tasklist/IconPopover.vala:473
+#: src/applets/icon-tasklist/IconPopover.vala:106
+#: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Maximize"
 msgstr ""
 
-#: src/applets/icon-tasklist/IconPopover.vala:106
+#: src/applets/icon-tasklist/IconPopover.vala:107
 msgid "Minimize"
 msgstr "מזער"
 
-#: src/applets/icon-tasklist/IconPopover.vala:361
+#: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Unfavorite"
 msgstr ""
 
-#: src/applets/icon-tasklist/IconPopover.vala:361
+#: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Favorite"
 msgstr "מועדף"
 
 #. If our current amount of workspaces is different than how many we have added
 #. We have items to add
 #. For workspaces we need to add
-#: src/applets/icon-tasklist/IconPopover.vala:373
+#: src/applets/icon-tasklist/IconPopover.vala:384
 #, c-format
 msgid "Move To Workspace %i"
 msgstr ""
 
 #. Update our always on top button
-#: src/applets/icon-tasklist/IconPopover.vala:473
+#: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Unmaximize"
 msgstr ""
 
-#: src/applets/icon-tasklist/IconPopover.vala:532
+#: src/applets/icon-tasklist/IconPopover.vala:543
 msgid "Close Window"
 msgstr "סגור את החלון"
 
-#: src/applets/icon-tasklist/IconPopover.vala:534
+#: src/applets/icon-tasklist/IconPopover.vala:545
 msgid "Show Window Controls"
 msgstr "כותרות חלון"
 
@@ -728,7 +727,8 @@ msgid "Desktop Icons"
 msgstr "סמלי שולחן עבודה"
 
 #: src/panel/settings/settings_desktop.vala:44
-msgid "Control whether to allow launchers and icons on the desktop"
+#, fuzzy
+msgid "Control whether to allow launchers and icons on the desktop."
 msgstr "בחר האם לאפשר מפעילים וסמלים על גבי שולחן העבודה"
 
 #: src/panel/settings/settings_desktop.vala:54
@@ -736,7 +736,8 @@ msgid "Home directory"
 msgstr "תיקיית בית"
 
 #: src/panel/settings/settings_desktop.vala:55
-msgid "Add a shortcut to your home directory on the desktop"
+#, fuzzy
+msgid "Add a shortcut to your home directory on the desktop."
 msgstr "הוסף קיצור דרך לתיקיית הבית שלך לשולחן העבודה"
 
 #: src/panel/settings/settings_desktop.vala:60
@@ -744,7 +745,8 @@ msgid "Network servers"
 msgstr "מיקומי רשת"
 
 #: src/panel/settings/settings_desktop.vala:61
-msgid "Add a shortcut to your local network servers on the desktop"
+#, fuzzy
+msgid "Add a shortcut to your local network servers on the desktop."
 msgstr "הוסף קיצור דרך למיקומי הרשת המקומיים שלך לשולחן העבודה"
 
 #: src/panel/settings/settings_desktop.vala:66
@@ -752,7 +754,8 @@ msgid "Trash"
 msgstr "סל האשפה"
 
 #: src/panel/settings/settings_desktop.vala:67
-msgid "Add a shortcut to the Trash directory on the desktop"
+#, fuzzy
+msgid "Add a shortcut to the Trash directory on the desktop."
 msgstr "הוסף קיצור דרך לסל האשפה לשולחן העבודה"
 
 #: src/panel/settings/settings_desktop.vala:72
@@ -760,57 +763,87 @@ msgid "Mounted volumes"
 msgstr "מחיצות טעונות"
 
 #: src/panel/settings/settings_desktop.vala:73
-msgid "Mounted volumes & drives will appear on the desktop"
+#, fuzzy
+msgid "Mounted volumes & drives will appear on the desktop."
 msgstr "מחיצות וכוננים טעונים יוצגו על גבי שולחן העבודה"
 
-#: src/panel/settings/settings_style.vala:32
+#: src/panel/settings/settings_style.vala:33
 msgid "Style"
 msgstr "סגנון"
 
-#: src/panel/settings/settings_style.vala:42
+#: src/panel/settings/settings_style.vala:43
 msgid "Widgets"
 msgstr "יישומונים"
 
-#: src/panel/settings/settings_style.vala:43
+#: src/panel/settings/settings_style.vala:44
 msgid "Set the appearance of window decorations and controls"
 msgstr "קבע את מראה קישוטי ופקדי החלונות"
 
-#: src/panel/settings/settings_style.vala:47
+#: src/panel/settings/settings_style.vala:48
 msgid "Icons"
 msgstr "סמלים"
 
-#: src/panel/settings/settings_style.vala:48
+#: src/panel/settings/settings_style.vala:49
 msgid "Set the globally used icon theme"
 msgstr "קבע את ערכת נושא הסמלים הכללית"
 
-#: src/panel/settings/settings_style.vala:52
+#: src/panel/settings/settings_style.vala:53
 msgid "Cursors"
 msgstr "סמנים"
 
-#: src/panel/settings/settings_style.vala:53
+#: src/panel/settings/settings_style.vala:54
 msgid "Set the globally used mouse cursor theme"
 msgstr "קבע את ערכת נושא הסמן הכללית"
 
-#: src/panel/settings/settings_style.vala:61
+#: src/panel/settings/settings_style.vala:58
+#, fuzzy
+msgid "Notification Position"
+msgstr "התראות"
+
+#: src/panel/settings/settings_style.vala:59
+msgid "Set the location for notification popups"
+msgstr ""
+
+#: src/panel/settings/settings_style.vala:68
 msgid "Dark theme"
 msgstr "ערכת נושא אפל"
 
-#: src/panel/settings/settings_style.vala:65
+#: src/panel/settings/settings_style.vala:72
 msgid "Built-in theme"
 msgstr "ערכת נושא מובנית"
 
-#: src/panel/settings/settings_style.vala:66
+#: src/panel/settings/settings_style.vala:73
 #, fuzzy
-msgid "When enabled, the desktop component style will override the built-in one"
+msgid "When enabled, the built-in theme will override the desktop component styling"
 msgstr "כאשר מופעל, סגנון רכיב שולחן העבודה יועקף על ידי הסגנון המובנה"
 
-#: src/panel/settings/settings_style.vala:70
+#: src/panel/settings/settings_style.vala:77
 msgid "Animations"
 msgstr "הנפשות"
 
-#: src/panel/settings/settings_style.vala:71
+#: src/panel/settings/settings_style.vala:78
 msgid "Control whether windows and controls use animations"
 msgstr "בחר האם חלונות ופקדים ישתמשו בהנפשות"
+
+#: src/panel/settings/settings_style.vala:195
+#, fuzzy
+msgid "Top Left"
+msgstr "שמאל"
+
+#: src/panel/settings/settings_style.vala:197
+#, fuzzy
+msgid "Bottom Left"
+msgstr "תחתון"
+
+#: src/panel/settings/settings_style.vala:199
+#, fuzzy
+msgid "Bottom Right"
+msgstr "תחתון"
+
+#: src/panel/settings/settings_style.vala:202
+#, fuzzy
+msgid "Top Right"
+msgstr "ימין"
 
 #: src/panel/settings/settings_autostart.vala:141
 msgid "Untitled"
@@ -906,7 +939,8 @@ msgid "Attach modal dialogs to windows"
 msgstr "חבר תיבות דו-שיח צורניות לחלונות"
 
 #: src/panel/settings/settings_wm.vala:42
-msgid "Modal dialogs will become attached to the parent window and move together when dragged"
+#, fuzzy
+msgid "Modal dialogs will become attached to the parent window and move together when dragged."
 msgstr "תיבות דו-שיח צורניות יחוברו לחלון ההורה ויזוזו ביחד כאשר יימשכו"
 
 #: src/panel/settings/settings_wm.vala:47
@@ -914,7 +948,8 @@ msgid "Button layout"
 msgstr "פריסת הלחצנים"
 
 #: src/panel/settings/settings_wm.vala:48
-msgid "Change the layout of buttons in application titlebars"
+#, fuzzy
+msgid "Change the layout of buttons in application titlebars."
 msgstr "שנה את פריסת הלחצנים בשורת הכותרת של חלונות"
 
 #: src/panel/settings/settings_wm.vala:53
@@ -922,7 +957,7 @@ msgid "Center new windows on screen"
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:54
-msgid "Center newly launched windows on the current screen"
+msgid "Center newly launched windows on the current screen."
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:59
@@ -938,7 +973,8 @@ msgid "Automatic tiling"
 msgstr "ריצוף אוטומטי"
 
 #: src/panel/settings/settings_wm.vala:66
-msgid "Windows will automatically tile when dragged into the top of the screen or the far corners"
+#, fuzzy
+msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
 msgstr "חלונות ירוצפו בופן אוטומטי כאשר יימשכו לקצה העליון של המסך או הפינות הרחוקות"
 
 #: src/panel/settings/settings_wm.vala:71
@@ -954,7 +990,8 @@ msgid "Disable unredirection of windows"
 msgstr "בטל ביטול ניתוב מחדש של חלונות במסך מלא"
 
 #: src/panel/settings/settings_wm.vala:79
-msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs"
+#, fuzzy
+msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
 msgstr "אפשרות זו מיועדת למשתמשים מתקדמים. השתמש בה אם הינך נתקל בבעיות חזותיות או ביצועיות עם כרטיסי מסך יעודיים."
 
 #: src/panel/settings/settings_wm.vala:86
@@ -970,7 +1007,8 @@ msgid "Window Titles"
 msgstr "כותרות חלון"
 
 #: src/panel/settings/settings_fonts.vala:45
-msgid "Set the font used in the titlebars of applications"
+#, fuzzy
+msgid "Set the font used in the titlebars of applications."
 msgstr "קבע את הגופן לשימוש בשורה העליונה של יישומים"
 
 #: src/panel/settings/settings_fonts.vala:51
@@ -978,7 +1016,8 @@ msgid "Documents"
 msgstr "מסמכים"
 
 #: src/panel/settings/settings_fonts.vala:52
-msgid "Set the display font used by for documents"
+#, fuzzy
+msgid "Set the display font used by for documents."
 msgstr "קבע את גופן התצוגה לשימוש על ידי מסמכים"
 
 #: src/panel/settings/settings_fonts.vala:58
@@ -986,7 +1025,8 @@ msgid "Interface"
 msgstr "ממשק"
 
 #: src/panel/settings/settings_fonts.vala:59
-msgid "Set the primary font used by application controls"
+#, fuzzy
+msgid "Set the primary font used by application controls."
 msgstr "קבע את הגופן העיקרי לשימוש על ידי פקדי יישומים"
 
 #: src/panel/settings/settings_fonts.vala:65
@@ -994,7 +1034,8 @@ msgid "Monospace"
 msgstr "Monospace"
 
 #: src/panel/settings/settings_fonts.vala:66
-msgid "Set the fixed-width font used by text dominant applications"
+#, fuzzy
+msgid "Set the fixed-width font used by text dominant applications."
 msgstr "קבע את הגופן בעל הרוחב האחיד אשר נמצא בשימוש על ידי יישומים אשר בעיקר טקסט"
 
 #: src/panel/settings/settings_fonts.vala:72
@@ -1002,7 +1043,7 @@ msgid "Text scaling"
 msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:73
-msgid "Set the text scaling factor"
+msgid "Set the text scaling factor."
 msgstr ""
 
 #: src/panel/settings/settings_applet_chooser.vala:79

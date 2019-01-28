@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-15 16:29+0200\n"
+"POT-Creation-Date: 2019-01-21 11:28+0200\n"
 "PO-Revision-Date: 2017-07-05 22:56+0000\n"
 "Last-Translator: Ikey Doherty <ikey@solus-project.com>\n"
 "Language-Team: Serbian (Serbia) (http://www.transifex.com/budgie-desktop/budgie-desktop/language/sr_RS/)\n"
@@ -88,27 +88,27 @@ msgstr ""
 msgid "Play some music"
 msgstr ""
 
-#: src/raven/notifications_view.vala:99
+#: src/raven/notifications_view.vala:106
 msgid "Nothing to see here"
 msgstr "Ништа за приказати"
 
-#: src/raven/notifications_view.vala:667
+#: src/raven/notifications_view.vala:674
 #: src/applets/notifications/NotificationsApplet.vala:109
 #, c-format
 msgid "%u unread notifications"
 msgstr "%u непрочитаних обавештења"
 
-#: src/raven/notifications_view.vala:669
+#: src/raven/notifications_view.vala:676
 #: src/applets/notifications/NotificationsApplet.vala:111
 msgid "1 unread notification"
 msgstr "1 непрочитано обавештење"
 
-#: src/raven/notifications_view.vala:671
+#: src/raven/notifications_view.vala:678
 #: src/applets/notifications/NotificationsApplet.vala:113
 msgid "No unread notifications"
 msgstr "Нема непрочитаних обавештења"
 
-#: src/raven/notifications_view.vala:846
+#: src/raven/notifications_view.vala:913
 msgid "No new notifications"
 msgstr "Нема нових обавештења"
 
@@ -181,54 +181,54 @@ msgstr[2] "Конектован на %d уређаја"
 msgid "Sound settings"
 msgstr ""
 
-#: src/applets/icon-tasklist/IconPopover.vala:92
+#: src/applets/icon-tasklist/IconPopover.vala:93
 msgid "Launch New Instance"
 msgstr ""
 
-#: src/applets/icon-tasklist/IconPopover.vala:95
+#: src/applets/icon-tasklist/IconPopover.vala:96
 msgid "Close All Windows"
 msgstr ""
 
-#: src/applets/icon-tasklist/IconPopover.vala:103
+#: src/applets/icon-tasklist/IconPopover.vala:104
 msgid "Always On Top"
 msgstr ""
 
-#: src/applets/icon-tasklist/IconPopover.vala:105
-#: src/applets/icon-tasklist/IconPopover.vala:473
+#: src/applets/icon-tasklist/IconPopover.vala:106
+#: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Maximize"
 msgstr ""
 
-#: src/applets/icon-tasklist/IconPopover.vala:106
+#: src/applets/icon-tasklist/IconPopover.vala:107
 msgid "Minimize"
 msgstr ""
 
-#: src/applets/icon-tasklist/IconPopover.vala:361
+#: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Unfavorite"
 msgstr ""
 
-#: src/applets/icon-tasklist/IconPopover.vala:361
+#: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Favorite"
 msgstr ""
 
 #. If our current amount of workspaces is different than how many we have added
 #. We have items to add
 #. For workspaces we need to add
-#: src/applets/icon-tasklist/IconPopover.vala:373
+#: src/applets/icon-tasklist/IconPopover.vala:384
 #, c-format
 msgid "Move To Workspace %i"
 msgstr ""
 
 #. Update our always on top button
-#: src/applets/icon-tasklist/IconPopover.vala:473
+#: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Unmaximize"
 msgstr ""
 
-#: src/applets/icon-tasklist/IconPopover.vala:532
+#: src/applets/icon-tasklist/IconPopover.vala:543
 #, fuzzy
 msgid "Close Window"
 msgstr "Прозори"
 
-#: src/applets/icon-tasklist/IconPopover.vala:534
+#: src/applets/icon-tasklist/IconPopover.vala:545
 #, fuzzy
 msgid "Show Window Controls"
 msgstr "Наслови прозора"
@@ -730,7 +730,7 @@ msgid "Desktop Icons"
 msgstr "Десктоп иконице"
 
 #: src/panel/settings/settings_desktop.vala:44
-msgid "Control whether to allow launchers and icons on the desktop"
+msgid "Control whether to allow launchers and icons on the desktop."
 msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:54
@@ -738,7 +738,7 @@ msgid "Home directory"
 msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:55
-msgid "Add a shortcut to your home directory on the desktop"
+msgid "Add a shortcut to your home directory on the desktop."
 msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:60
@@ -746,7 +746,7 @@ msgid "Network servers"
 msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:61
-msgid "Add a shortcut to your local network servers on the desktop"
+msgid "Add a shortcut to your local network servers on the desktop."
 msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:66
@@ -754,7 +754,7 @@ msgid "Trash"
 msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:67
-msgid "Add a shortcut to the Trash directory on the desktop"
+msgid "Add a shortcut to the Trash directory on the desktop."
 msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:72
@@ -762,55 +762,82 @@ msgid "Mounted volumes"
 msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:73
-msgid "Mounted volumes & drives will appear on the desktop"
+msgid "Mounted volumes & drives will appear on the desktop."
 msgstr ""
 
-#: src/panel/settings/settings_style.vala:32
+#: src/panel/settings/settings_style.vala:33
 msgid "Style"
 msgstr ""
 
-#: src/panel/settings/settings_style.vala:42
+#: src/panel/settings/settings_style.vala:43
 msgid "Widgets"
 msgstr ""
 
-#: src/panel/settings/settings_style.vala:43
+#: src/panel/settings/settings_style.vala:44
 msgid "Set the appearance of window decorations and controls"
 msgstr ""
 
-#: src/panel/settings/settings_style.vala:47
+#: src/panel/settings/settings_style.vala:48
 msgid "Icons"
 msgstr ""
 
-#: src/panel/settings/settings_style.vala:48
+#: src/panel/settings/settings_style.vala:49
 msgid "Set the globally used icon theme"
 msgstr ""
 
-#: src/panel/settings/settings_style.vala:52
+#: src/panel/settings/settings_style.vala:53
 msgid "Cursors"
 msgstr ""
 
-#: src/panel/settings/settings_style.vala:53
+#: src/panel/settings/settings_style.vala:54
 msgid "Set the globally used mouse cursor theme"
 msgstr ""
 
-#: src/panel/settings/settings_style.vala:61
+#: src/panel/settings/settings_style.vala:58
+#, fuzzy
+msgid "Notification Position"
+msgstr "Обавештења"
+
+#: src/panel/settings/settings_style.vala:59
+msgid "Set the location for notification popups"
+msgstr ""
+
+#: src/panel/settings/settings_style.vala:68
 msgid "Dark theme"
 msgstr "Тамна варијанта теме"
 
-#: src/panel/settings/settings_style.vala:65
+#: src/panel/settings/settings_style.vala:72
 msgid "Built-in theme"
 msgstr "Уграђена тема"
 
-#: src/panel/settings/settings_style.vala:66
-msgid "When enabled, the desktop component style will override the built-in one"
+#: src/panel/settings/settings_style.vala:73
+msgid "When enabled, the built-in theme will override the desktop component styling"
 msgstr ""
 
-#: src/panel/settings/settings_style.vala:70
+#: src/panel/settings/settings_style.vala:77
 msgid "Animations"
 msgstr ""
 
-#: src/panel/settings/settings_style.vala:71
+#: src/panel/settings/settings_style.vala:78
 msgid "Control whether windows and controls use animations"
+msgstr ""
+
+#: src/panel/settings/settings_style.vala:195
+msgid "Top Left"
+msgstr ""
+
+#: src/panel/settings/settings_style.vala:197
+#, fuzzy
+msgid "Bottom Left"
+msgstr "Дно"
+
+#: src/panel/settings/settings_style.vala:199
+#, fuzzy
+msgid "Bottom Right"
+msgstr "Дно"
+
+#: src/panel/settings/settings_style.vala:202
+msgid "Top Right"
 msgstr ""
 
 #: src/panel/settings/settings_autostart.vala:141
@@ -906,7 +933,7 @@ msgid "Attach modal dialogs to windows"
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:42
-msgid "Modal dialogs will become attached to the parent window and move together when dragged"
+msgid "Modal dialogs will become attached to the parent window and move together when dragged."
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:47
@@ -914,7 +941,7 @@ msgid "Button layout"
 msgstr "Распоред дугмади"
 
 #: src/panel/settings/settings_wm.vala:48
-msgid "Change the layout of buttons in application titlebars"
+msgid "Change the layout of buttons in application titlebars."
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:53
@@ -922,7 +949,7 @@ msgid "Center new windows on screen"
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:54
-msgid "Center newly launched windows on the current screen"
+msgid "Center newly launched windows on the current screen."
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:59
@@ -938,7 +965,7 @@ msgid "Automatic tiling"
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:66
-msgid "Windows will automatically tile when dragged into the top of the screen or the far corners"
+msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:71
@@ -954,7 +981,7 @@ msgid "Disable unredirection of windows"
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:79
-msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs"
+msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:86
@@ -970,7 +997,7 @@ msgid "Window Titles"
 msgstr "Наслови прозора"
 
 #: src/panel/settings/settings_fonts.vala:45
-msgid "Set the font used in the titlebars of applications"
+msgid "Set the font used in the titlebars of applications."
 msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:51
@@ -978,7 +1005,7 @@ msgid "Documents"
 msgstr "Документи"
 
 #: src/panel/settings/settings_fonts.vala:52
-msgid "Set the display font used by for documents"
+msgid "Set the display font used by for documents."
 msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:58
@@ -986,7 +1013,7 @@ msgid "Interface"
 msgstr "Интерфејс"
 
 #: src/panel/settings/settings_fonts.vala:59
-msgid "Set the primary font used by application controls"
+msgid "Set the primary font used by application controls."
 msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:65
@@ -994,7 +1021,7 @@ msgid "Monospace"
 msgstr "Моноспејс"
 
 #: src/panel/settings/settings_fonts.vala:66
-msgid "Set the fixed-width font used by text dominant applications"
+msgid "Set the fixed-width font used by text dominant applications."
 msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:72
@@ -1002,7 +1029,7 @@ msgid "Text scaling"
 msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:73
-msgid "Set the text scaling factor"
+msgid "Set the text scaling factor."
 msgstr ""
 
 #: src/panel/settings/settings_applet_chooser.vala:79
