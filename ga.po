@@ -12,12 +12,14 @@ msgstr ""
 "POT-Creation-Date: 2019-01-29 16:03+0200\n"
 "PO-Revision-Date: 2019-01-18 07:03+0000\n"
 "Last-Translator: Seán Ó Séaghdha <sean.anseo@gmail.com>\n"
-"Language-Team: Irish <http://translate.getsol.us/projects/budgie-desktop/translations/ga/>\n"
+"Language-Team: Irish <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/ga/>\n"
 "Language: ga\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4);\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4);\n"
 "X-Generator: Weblate 3.4-dev\n"
 
 #: src/daemon/endsession.vala:171
@@ -742,27 +744,24 @@ msgid "Home directory"
 msgstr "Fillteán Baile"
 
 #: src/panel/settings/settings_desktop.vala:55
-#, fuzzy
 msgid "Add a shortcut to your home directory on the desktop."
-msgstr "Cuir aicearra chuig d’fhillteán baile ar an deasc"
+msgstr "Cuir aicearra chuig d’fhillteán baile ar an deasc."
 
 #: src/panel/settings/settings_desktop.vala:60
 msgid "Network servers"
 msgstr "Freastalaithe Líonra"
 
 #: src/panel/settings/settings_desktop.vala:61
-#, fuzzy
 msgid "Add a shortcut to your local network servers on the desktop."
-msgstr "Cuir aicearra chuig do fhreastalaithe líonra áitiúla ar an deasc"
+msgstr "Cuir aicearra chuig do fhreastalaithe líonra áitiúla ar an deasc."
 
 #: src/panel/settings/settings_desktop.vala:66
 msgid "Trash"
 msgstr "Bruscar"
 
 #: src/panel/settings/settings_desktop.vala:67
-#, fuzzy
 msgid "Add a shortcut to the Trash directory on the desktop."
-msgstr "Cuir aicearra chuig an fillteán Bruscair ar an deasc"
+msgstr "Cuir aicearra chuig an fillteán Bruscair ar an deasc."
 
 #: src/panel/settings/settings_desktop.vala:72
 msgid "Mounted volumes"
