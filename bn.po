@@ -996,7 +996,7 @@ msgstr "ডানে (স্ট্যান্ডার্ড)"
 
 #: src/panel/settings/settings_fonts.vala:33
 msgid "Fonts"
-msgstr "ফন্ট সমূহ "
+msgstr "ফন্টগুলো"
 
 #: src/panel/settings/settings_fonts.vala:44
 msgid "Window Titles"
