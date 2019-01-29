@@ -10,9 +10,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-29 16:42+0200\n"
-"PO-Revision-Date: 2019-01-17 07:05+0000\n"
+"PO-Revision-Date: 2019-02-01 16:17+0000\n"
 "Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
-"Language-Team: English (United Kingdom) <http://translate.getsol.us/projects/budgie-desktop/translations/en_GB/>\n"
+"Language-Team: English (United Kingdom) <http://translate.getsol.us/projects/"
+"budgie-desktop/translations/en_GB/>\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -723,45 +724,40 @@ msgid "Desktop Icons"
 msgstr "Desktop Icons"
 
 #: src/panel/settings/settings_desktop.vala:44
-#, fuzzy
 msgid "Control whether to allow launchers and icons on the desktop."
-msgstr "Control whether to allow launchers and icons on the desktop"
+msgstr "Control whether to allow launchers and icons on the desktop."
 
 #: src/panel/settings/settings_desktop.vala:54
 msgid "Home directory"
 msgstr "Home directory"
 
 #: src/panel/settings/settings_desktop.vala:55
-#, fuzzy
 msgid "Add a shortcut to your home directory on the desktop."
-msgstr "Add a shortcut to your home directory on the desktop"
+msgstr "Add a shortcut to your home directory on the desktop."
 
 #: src/panel/settings/settings_desktop.vala:60
 msgid "Network servers"
 msgstr "Network servers"
 
 #: src/panel/settings/settings_desktop.vala:61
-#, fuzzy
 msgid "Add a shortcut to your local network servers on the desktop."
-msgstr "Add a shortcut to your local network servers on the desktop"
+msgstr "Add a shortcut to your local network servers on the desktop."
 
 #: src/panel/settings/settings_desktop.vala:66
 msgid "Trash"
 msgstr "Trash"
 
 #: src/panel/settings/settings_desktop.vala:67
-#, fuzzy
 msgid "Add a shortcut to the Trash directory on the desktop."
-msgstr "Add a shortcut to the Trash directory on the desktop"
+msgstr "Add a shortcut to the Trash directory on the desktop."
 
 #: src/panel/settings/settings_desktop.vala:72
 msgid "Mounted volumes"
 msgstr "Mounted volumes"
 
 #: src/panel/settings/settings_desktop.vala:73
-#, fuzzy
 msgid "Mounted volumes & drives will appear on the desktop."
-msgstr "Mounted volumes & drives will appear on the desktop"
+msgstr "Mounted volumes & drives will appear on the desktop."
 
 #: src/panel/settings/settings_style.vala:33
 msgid "Style"
@@ -792,13 +788,12 @@ msgid "Set the globally used mouse cursor theme"
 msgstr "Set the globally used mouse cursor theme"
 
 #: src/panel/settings/settings_style.vala:58
-#, fuzzy
 msgid "Notification Position"
-msgstr "Notifications"
+msgstr "Notification Position"
 
 #: src/panel/settings/settings_style.vala:59
 msgid "Set the location for notification popups"
-msgstr ""
+msgstr "Set the location for notification popups"
 
 #: src/panel/settings/settings_style.vala:68
 msgid "Dark theme"
@@ -809,9 +804,9 @@ msgid "Built-in theme"
 msgstr "Built-in theme"
 
 #: src/panel/settings/settings_style.vala:73
-#, fuzzy
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr "When enabled, the desktop component style will override the built-in one"
+msgstr ""
+"When enabled, the built-in theme will override the desktop component styling"
 
 #: src/panel/settings/settings_style.vala:77
 msgid "Animations"
@@ -822,24 +817,20 @@ msgid "Control whether windows and controls use animations"
 msgstr "Control whether windows and controls use animations"
 
 #: src/panel/settings/settings_style.vala:195
-#, fuzzy
 msgid "Top Left"
-msgstr "Left"
+msgstr "Top Left"
 
 #: src/panel/settings/settings_style.vala:197
-#, fuzzy
 msgid "Bottom Left"
-msgstr "Bottom"
+msgstr "Bottom Left"
 
 #: src/panel/settings/settings_style.vala:199
-#, fuzzy
 msgid "Bottom Right"
-msgstr "Bottom"
+msgstr "Bottom Right"
 
 #: src/panel/settings/settings_style.vala:202
-#, fuzzy
 msgid "Top Right"
-msgstr "Right"
+msgstr "Top Right"
 
 #: src/panel/settings/settings_autostart.vala:141
 msgid "Untitled"
@@ -934,27 +925,26 @@ msgid "Attach modal dialogs to windows"
 msgstr "Attach modal dialogs to windows"
 
 #: src/panel/settings/settings_wm.vala:42
-#, fuzzy
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr "Modal dialogs will become attached to the parent window and move together when dragged"
+msgstr ""
+"Modal dialogs will become attached to the parent window and move together "
+"when dragged."
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Button layout"
 msgstr "Button layout"
 
 #: src/panel/settings/settings_wm.vala:48
-#, fuzzy
 msgid "Change the layout of buttons in application titlebars."
-msgstr "Change the layout of buttons in application titlebars"
+msgstr "Change the layout of buttons in application titlebars."
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
 msgstr "Center new windows on screen"
 
 #: src/panel/settings/settings_wm.vala:54
-#, fuzzy
 msgid "Center newly launched windows on the current screen."
-msgstr "Center newly launched windows on the current screen"
+msgstr "Center newly launched windows on the current screen."
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
@@ -969,9 +959,10 @@ msgid "Automatic tiling"
 msgstr "Automatic tiling"
 
 #: src/panel/settings/settings_wm.vala:66
-#, fuzzy
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr "Windows will automatically tile when dragged into the top of the screen or the far corners"
+msgstr ""
+"Windows will automatically tile when dragged into the top of the screen or "
+"the far corners."
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
@@ -986,9 +977,10 @@ msgid "Disable unredirection of windows"
 msgstr "Disable unredirection of windows"
 
 #: src/panel/settings/settings_wm.vala:79
-#, fuzzy
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs"
+msgstr ""
+"This option is for advanced users. Use this if you are having graphical or "
+"performance issues with dedicated GPUs."
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
@@ -1003,45 +995,40 @@ msgid "Window Titles"
 msgstr "Window Titles"
 
 #: src/panel/settings/settings_fonts.vala:45
-#, fuzzy
 msgid "Set the font used in the titlebars of applications."
-msgstr "Set the font used in the titlebars of applications"
+msgstr "Set the font used in the titlebars of applications."
 
 #: src/panel/settings/settings_fonts.vala:51
 msgid "Documents"
 msgstr "Documents"
 
 #: src/panel/settings/settings_fonts.vala:52
-#, fuzzy
 msgid "Set the display font used by for documents."
-msgstr "Set the display font used by for documents"
+msgstr "Set the display font used by for documents."
 
 #: src/panel/settings/settings_fonts.vala:58
 msgid "Interface"
 msgstr "Interface"
 
 #: src/panel/settings/settings_fonts.vala:59
-#, fuzzy
 msgid "Set the primary font used by application controls."
-msgstr "Set the primary font used by application controls"
+msgstr "Set the primary font used by application controls."
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Monospace"
 msgstr "Monospace"
 
 #: src/panel/settings/settings_fonts.vala:66
-#, fuzzy
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr "Set the fixed-width font used by text dominant applications"
+msgstr "Set the fixed-width font used by text dominant applications."
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
 msgstr "Text scaling"
 
 #: src/panel/settings/settings_fonts.vala:73
-#, fuzzy
 msgid "Set the text scaling factor."
-msgstr "Set the text scaling factor"
+msgstr "Set the text scaling factor."
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
