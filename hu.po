@@ -193,7 +193,7 @@ msgstr "Összes ablak bezárása"
 
 #: src/applets/icon-tasklist/IconPopover.vala:104
 msgid "Always On Top"
-msgstr "Mindig legfelül"
+msgstr "Mindig felül"
 
 #: src/applets/icon-tasklist/IconPopover.vala:106
 #: src/applets/icon-tasklist/IconPopover.vala:484
