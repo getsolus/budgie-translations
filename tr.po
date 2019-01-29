@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-21 11:28+0200\n"
+"POT-Creation-Date: 2019-01-29 16:03+0200\n"
 "PO-Revision-Date: 2019-01-25 09:45+0000\n"
 "Last-Translator: Abdulkadir Furkan Şanlı <abdulkadirfsanli@protonmail.com>\n"
 "Language-Team: Turkish <http://translate.getsol.us/projects/budgie-desktop/translations/tr/>\n"
@@ -45,24 +45,24 @@ msgid "Settings"
 msgstr "Ayarlar"
 
 #. Should show a notification
-#: src/daemon/settings.vala:277
+#: src/daemon/settings.vala:310
 msgid "Turned on Caffeine Boost"
 msgstr "Kafein takviyesi yapıldı"
 
-#: src/daemon/settings.vala:277
+#: src/daemon/settings.vala:310
 msgid "Turned off Caffeine Boost"
 msgstr "Kafein takviyesi kesildi"
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
-#: src/daemon/settings.vala:284
+#: src/daemon/settings.vala:317
 #, c-format
 msgid "a minute"
 msgid_plural "%d minutes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/daemon/settings.vala:285
+#: src/daemon/settings.vala:318
 msgid "Will turn off in"
 msgstr ""
 
@@ -620,10 +620,6 @@ msgstr "Dock Panel Modu"
 #: src/panel/settings/settings_panel.vala:277
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
 msgstr "Liman modundayken, panel mümkün olan en az alanı kullanır ve ekranı boş bırakır"
-
-#: src/panel/settings/settings_raven.vala:30
-msgid "Raven"
-msgstr "Raven"
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"

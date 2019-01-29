@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-21 11:28+0200\n"
+"POT-Creation-Date: 2019-01-29 16:03+0200\n"
 "PO-Revision-Date: 2018-06-21 11:24+0000\n"
 "Last-Translator: Horazone Detex <thmmt2017d@gmail.com>\n"
 "Language-Team: Vietnamese (Viet Nam) (http://www.transifex.com/budgie-desktop/budgie-desktop/language/vi_VN/)\n"
@@ -45,23 +45,23 @@ msgid "Settings"
 msgstr "Cài đặt"
 
 #. Should show a notification
-#: src/daemon/settings.vala:277
+#: src/daemon/settings.vala:310
 msgid "Turned on Caffeine Boost"
 msgstr ""
 
-#: src/daemon/settings.vala:277
+#: src/daemon/settings.vala:310
 msgid "Turned off Caffeine Boost"
 msgstr ""
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
-#: src/daemon/settings.vala:284
+#: src/daemon/settings.vala:317
 #, c-format
 msgid "a minute"
 msgid_plural "%d minutes"
 msgstr[0] ""
 
-#: src/daemon/settings.vala:285
+#: src/daemon/settings.vala:318
 msgid "Will turn off in"
 msgstr ""
 
@@ -621,10 +621,6 @@ msgstr "Chế độ Dock"
 #: src/panel/settings/settings_panel.vala:277
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
 msgstr "Khi trong chế độ dock, bảng sẽ sử dụng diện tích tối thiểu, giải phóng chỗ để hiển thị tài nguyên màn hình"
-
-#: src/panel/settings/settings_raven.vala:30
-msgid "Raven"
-msgstr ""
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"

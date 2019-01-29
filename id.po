@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-21 11:28+0200\n"
+"POT-Creation-Date: 2019-01-29 16:03+0200\n"
 "PO-Revision-Date: 2019-01-21 13:04+0000\n"
 "Last-Translator: Yurizal Susanto <yursan9@pm.me>\n"
 "Language-Team: Indonesian <http://translate.getsol.us/projects/budgie-desktop/translations/id/>\n"
@@ -46,23 +46,23 @@ msgid "Settings"
 msgstr "Pengaturan"
 
 #. Should show a notification
-#: src/daemon/settings.vala:277
+#: src/daemon/settings.vala:310
 msgid "Turned on Caffeine Boost"
 msgstr "Mengaktifkan Kafein"
 
-#: src/daemon/settings.vala:277
+#: src/daemon/settings.vala:310
 msgid "Turned off Caffeine Boost"
 msgstr "Mematikan Kafein"
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
-#: src/daemon/settings.vala:284
+#: src/daemon/settings.vala:317
 #, c-format
 msgid "a minute"
 msgid_plural "%d minutes"
 msgstr[0] ""
 
-#: src/daemon/settings.vala:285
+#: src/daemon/settings.vala:318
 msgid "Will turn off in"
 msgstr "Akan mati dalam"
 
@@ -619,10 +619,6 @@ msgstr "Mode dok"
 #: src/panel/settings/settings_panel.vala:277
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
 msgstr "Saat di mode dok, panel akan menggunakan ruang sekecil mungkin, meluangkan ruang berharga untuk tampilan"
-
-#: src/panel/settings/settings_raven.vala:30
-msgid "Raven"
-msgstr "Raven"
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
