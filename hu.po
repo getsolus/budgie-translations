@@ -12,9 +12,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-21 11:28+0200\n"
-"PO-Revision-Date: 2019-01-25 09:45+0000\n"
+"PO-Revision-Date: 2019-01-29 13:54+0000\n"
 "Last-Translator: Balogh Zsolt <huneater@gmail.com>\n"
-"Language-Team: Hungarian <http://translate.getsol.us/projects/budgie-desktop/translations/hu/>\n"
+"Language-Team: Hungarian <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -66,13 +67,13 @@ msgstr[1] ""
 
 #: src/daemon/settings.vala:285
 msgid "Will turn off in"
-msgstr "Kikapcsolás ennyi idő múlva: "
+msgstr "Kikapcsolás ennyi idő múlva"
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:44
 #: src/applets/caffeine/CaffeineWindow.vala:25
 msgid "Caffeine Mode"
-msgstr "Koffein Mód"
+msgstr "Caffeine Mód"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
@@ -729,45 +730,40 @@ msgid "Desktop Icons"
 msgstr "Asztali ikonok"
 
 #: src/panel/settings/settings_desktop.vala:44
-#, fuzzy
 msgid "Control whether to allow launchers and icons on the desktop."
-msgstr "Vezérelje, hogy engedélyezi-e az indítókat és ikonokat az asztalon"
+msgstr "Az asztalon található ikonok megjelenítésének kontrollálása."
 
 #: src/panel/settings/settings_desktop.vala:54
 msgid "Home directory"
 msgstr "Saját mappa"
 
 #: src/panel/settings/settings_desktop.vala:55
-#, fuzzy
 msgid "Add a shortcut to your home directory on the desktop."
-msgstr "Saját mappa parancsikonjának elhelyezése az asztalon"
+msgstr "Saját mappa parancsikonjának megjelenítése az asztalon."
 
 #: src/panel/settings/settings_desktop.vala:60
 msgid "Network servers"
 msgstr "Hálózati szerverek"
 
 #: src/panel/settings/settings_desktop.vala:61
-#, fuzzy
 msgid "Add a shortcut to your local network servers on the desktop."
-msgstr "Helyi hálózati szerverek parancsikonjának elhelyezése az asztalon"
+msgstr "Helyi hálózati szerverek parancsikonjának megjelenítése az asztalon."
 
 #: src/panel/settings/settings_desktop.vala:66
 msgid "Trash"
 msgstr "Lomtár"
 
 #: src/panel/settings/settings_desktop.vala:67
-#, fuzzy
 msgid "Add a shortcut to the Trash directory on the desktop."
-msgstr "Kuka parancsikonjának elhelyezése az asztalon"
+msgstr "Kuka parancsikonjának megjelenítése az asztalon."
 
 #: src/panel/settings/settings_desktop.vala:72
 msgid "Mounted volumes"
 msgstr "Csatolt kötetek"
 
 #: src/panel/settings/settings_desktop.vala:73
-#, fuzzy
 msgid "Mounted volumes & drives will appear on the desktop."
-msgstr "Csatolt kötetek és meghajtók megjelenítése az asztalon"
+msgstr "Csatolt kötetek és meghajtók megjelenítése az asztalon."
 
 #: src/panel/settings/settings_style.vala:33
 msgid "Style"
@@ -798,13 +794,12 @@ msgid "Set the globally used mouse cursor theme"
 msgstr "Állítsa be a globálisan használt egérkurzor témát"
 
 #: src/panel/settings/settings_style.vala:58
-#, fuzzy
 msgid "Notification Position"
-msgstr "Értesítések"
+msgstr "Értesítések pozíciója"
 
 #: src/panel/settings/settings_style.vala:59
 msgid "Set the location for notification popups"
-msgstr ""
+msgstr "Felugró értesítések pozíciójának beállítása"
 
 #: src/panel/settings/settings_style.vala:68
 msgid "Dark theme"
@@ -815,9 +810,9 @@ msgid "Built-in theme"
 msgstr "Beépített téma"
 
 #: src/panel/settings/settings_style.vala:73
-#, fuzzy
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr "Engedélyezéskor az asztal komponens stílusa felülbírálja a beépített stílust"
+msgstr ""
+"Engedélyezéskor a beépített stílus felülírja az asztali komponensek stílusát"
 
 #: src/panel/settings/settings_style.vala:77
 msgid "Animations"
@@ -828,24 +823,20 @@ msgid "Control whether windows and controls use animations"
 msgstr "Meghatározhatja, hogy az ablakok és vezérlők animációkat használjanak"
 
 #: src/panel/settings/settings_style.vala:195
-#, fuzzy
 msgid "Top Left"
-msgstr "Bal"
+msgstr "Bal felül"
 
 #: src/panel/settings/settings_style.vala:197
-#, fuzzy
 msgid "Bottom Left"
-msgstr "Alsó"
+msgstr "Bal alul"
 
 #: src/panel/settings/settings_style.vala:199
-#, fuzzy
 msgid "Bottom Right"
-msgstr "Alsó"
+msgstr "Jobb alul"
 
 #: src/panel/settings/settings_style.vala:202
-#, fuzzy
 msgid "Top Right"
-msgstr "Jobb"
+msgstr "Jobb felül"
 
 #: src/panel/settings/settings_autostart.vala:141
 msgid "Untitled"
@@ -940,27 +931,26 @@ msgid "Attach modal dialogs to windows"
 msgstr "Csatolja a felbukkanó párbeszédablakokat a szülőablakokra"
 
 #: src/panel/settings/settings_wm.vala:42
-#, fuzzy
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr "A felbukkanó párbeszédpanelek a szülőablakhoz csatlakoznak, és velük együtt mozognak"
+msgstr ""
+"A felbukkanó párbeszédpanelek a szülőablakhoz csatolódnak, és velük együtt "
+"mozognak."
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Button layout"
 msgstr "Gombok elrendezése"
 
 #: src/panel/settings/settings_wm.vala:48
-#, fuzzy
 msgid "Change the layout of buttons in application titlebars."
-msgstr "Módosítsa az alkalmazások címsorainak gombelrendezését"
+msgstr "Módosítsa az alkalmazások címsorainak gombelrendezését."
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
 msgstr "Új ablakok középre igazítása a képernyőn"
 
 #: src/panel/settings/settings_wm.vala:54
-#, fuzzy
 msgid "Center newly launched windows on the current screen."
-msgstr "Újonnan indított ablakok középre igazítása a jelenlegi képernyőn"
+msgstr "Újonnan indított ablakok középre igazítása a jelenlegi képernyőn."
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
@@ -975,9 +965,10 @@ msgid "Automatic tiling"
 msgstr "Automatikus csempézés"
 
 #: src/panel/settings/settings_wm.vala:66
-#, fuzzy
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr "Az ablakok automatikusan csempéződnek, amikor a képernyő tetejére, vagy a sarkokhoz közel húzza őket"
+msgstr ""
+"Az ablakok automatikusan csempéződnek, amikor a képernyő tetejére, vagy a "
+"sarkokhoz közel húzza őket."
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
@@ -992,9 +983,10 @@ msgid "Disable unredirection of windows"
 msgstr "Ablakok közti átirányítás kikapcsolása"
 
 #: src/panel/settings/settings_wm.vala:79
-#, fuzzy
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr "Haladó fejlesztők számára. Használja ezt, ha megjelenítési, vagy teljesítményproblémákat tapasztal a dedikált GPU-val kapcsolatban"
+msgstr ""
+"Haladó felhasználók számára. Használja ezt, ha megjelenítési vagy "
+"teljesítménybeli problémákat tapasztal dedikált GPU esetén."
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
@@ -1009,45 +1001,41 @@ msgid "Window Titles"
 msgstr "Ablak címek"
 
 #: src/panel/settings/settings_fonts.vala:45
-#, fuzzy
 msgid "Set the font used in the titlebars of applications."
-msgstr "Állítsa be az alkalmazások címsoraiban használt betűtípust"
+msgstr "Állítsa be az alkalmazások címsoraiban használt betűtípust."
 
 #: src/panel/settings/settings_fonts.vala:51
 msgid "Documents"
 msgstr "Dokumentumok"
 
 #: src/panel/settings/settings_fonts.vala:52
-#, fuzzy
 msgid "Set the display font used by for documents."
-msgstr "Állítsa be a dokumentumok által használt megjelenítési betűtípust"
+msgstr "Állítsa be a dokumentumok által használt megjelenítési betűtípust."
 
 #: src/panel/settings/settings_fonts.vala:58
 msgid "Interface"
 msgstr "Felület"
 
 #: src/panel/settings/settings_fonts.vala:59
-#, fuzzy
 msgid "Set the primary font used by application controls."
-msgstr "Állítsa be az alkalmazásvezérlések által használt elsődleges betűtípust"
+msgstr ""
+"Állítsa be az alkalmazásvezérlések által használt elsődleges betűtípust."
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Monospace"
 msgstr "Fix szélességű"
 
 #: src/panel/settings/settings_fonts.vala:66
-#, fuzzy
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr "Állítsa be a fix szélességű betűtípust a szöveges alkalmazások számára"
+msgstr "Állítsa be a fix szélességű betűtípust a szöveges alkalmazások számára."
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
 msgstr "Szöveg méretezés"
 
 #: src/panel/settings/settings_fonts.vala:73
-#, fuzzy
 msgid "Set the text scaling factor."
-msgstr "Beállítja a szöveg méretezési faktorát"
+msgstr "Állítsa be a szöveg méretezési faktorát."
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
