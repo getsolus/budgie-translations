@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-21 11:28+0200\n"
 "PO-Revision-Date: 2019-01-29 13:54+0000\n"
-"Last-Translator: Balogh Zsolt <huneater@gmail.com>\n"
+"Last-Translator: Ferenc Papp <pappfer@gmail.com>\n"
 "Language-Team: Hungarian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/hu/>\n"
 "Language: hu\n"
@@ -119,7 +119,7 @@ msgstr "Nincs új értesítés"
 #. 125ms
 #: src/raven/sound.vala:151
 msgid "Apps"
-msgstr "Applikációk"
+msgstr "Alkalmazások"
 
 #: src/raven/sound.vala:152
 msgid "Devices"
