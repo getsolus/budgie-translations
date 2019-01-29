@@ -13,9 +13,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-29 16:42+0200\n"
-"PO-Revision-Date: 2019-01-17 07:05+0000\n"
+"PO-Revision-Date: 2019-02-01 16:17+0000\n"
 "Last-Translator: Geert Verheyde <geert.verheyde@gmail.com>\n"
-"Language-Team: Dutch <http://translate.getsol.us/projects/budgie-desktop/translations/nl/>\n"
+"Language-Team: Dutch <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -726,45 +727,41 @@ msgid "Desktop Icons"
 msgstr "Bureaublad Iconen"
 
 #: src/panel/settings/settings_desktop.vala:44
-#, fuzzy
 msgid "Control whether to allow launchers and icons on the desktop."
-msgstr "Bepaal of je al dan niet starters en iconen op het bureaublad wil"
+msgstr "Bepaal of je al dan niet starters en iconen op het bureaublad wil."
 
 #: src/panel/settings/settings_desktop.vala:54
 msgid "Home directory"
 msgstr "Persoonlijke map"
 
 #: src/panel/settings/settings_desktop.vala:55
-#, fuzzy
 msgid "Add a shortcut to your home directory on the desktop."
-msgstr "Plaats een snelkoppeling naar je Persoonlijke map op het bureaublad"
+msgstr "Plaats een snelkoppeling naar je persoonlijke map op het bureaublad."
 
 #: src/panel/settings/settings_desktop.vala:60
 msgid "Network servers"
 msgstr "Netwerk servers"
 
 #: src/panel/settings/settings_desktop.vala:61
-#, fuzzy
 msgid "Add a shortcut to your local network servers on the desktop."
-msgstr "Plaats een snelkoppeling naar uw locale netwerk servers op het bureaublad"
+msgstr ""
+"Plaats een snelkoppeling naar uw locale netwerk servers op het bureaublad."
 
 #: src/panel/settings/settings_desktop.vala:66
 msgid "Trash"
 msgstr "Prullenbak"
 
 #: src/panel/settings/settings_desktop.vala:67
-#, fuzzy
 msgid "Add a shortcut to the Trash directory on the desktop."
-msgstr "Plaats een snelkoppeling naar de Prullenbak op het bureaublad"
+msgstr "Plaats een snelkoppeling naar de Prullenbak op het bureaublad."
 
 #: src/panel/settings/settings_desktop.vala:72
 msgid "Mounted volumes"
 msgstr "Aangekoppelde volumes"
 
 #: src/panel/settings/settings_desktop.vala:73
-#, fuzzy
 msgid "Mounted volumes & drives will appear on the desktop."
-msgstr "Aangekoppelde volumes en schijven zullen op het bureaublad verschijnen"
+msgstr "Aangekoppelde volumes en schijven zullen op het bureaublad verschijnen."
 
 #: src/panel/settings/settings_style.vala:33
 msgid "Style"
@@ -795,13 +792,12 @@ msgid "Set the globally used mouse cursor theme"
 msgstr "Kies het standaard muisaanwijzer thema"
 
 #: src/panel/settings/settings_style.vala:58
-#, fuzzy
 msgid "Notification Position"
-msgstr "Meldingen"
+msgstr "Positie Meldingen"
 
 #: src/panel/settings/settings_style.vala:59
 msgid "Set the location for notification popups"
-msgstr ""
+msgstr "Bepaal de plaats voor de meldingenpop-ups"
 
 #: src/panel/settings/settings_style.vala:68
 msgid "Dark theme"
@@ -812,9 +808,10 @@ msgid "Built-in theme"
 msgstr "Ingebouwd thema"
 
 #: src/panel/settings/settings_style.vala:73
-#, fuzzy
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr "Wanneer ingeschakeld wordt de bureaublad componentenstijl vervangen door de ingebouwde instellingen"
+msgstr ""
+"Wanneer ingeschakeld wordt de bureaublad componentenstijl vervangen door het "
+"ingebouwde thema"
 
 #: src/panel/settings/settings_style.vala:77
 msgid "Animations"
@@ -825,24 +822,20 @@ msgid "Control whether windows and controls use animations"
 msgstr "Bepaal of vensters of bedieningen animatie gebruiken"
 
 #: src/panel/settings/settings_style.vala:195
-#, fuzzy
 msgid "Top Left"
-msgstr "Links"
+msgstr "Boven Links"
 
 #: src/panel/settings/settings_style.vala:197
-#, fuzzy
 msgid "Bottom Left"
-msgstr "Onder"
+msgstr "Onder Links"
 
 #: src/panel/settings/settings_style.vala:199
-#, fuzzy
 msgid "Bottom Right"
-msgstr "Onder"
+msgstr "Onder Rechts"
 
 #: src/panel/settings/settings_style.vala:202
-#, fuzzy
 msgid "Top Right"
-msgstr "Rechts"
+msgstr "Boven Rechts"
 
 #: src/panel/settings/settings_autostart.vala:141
 msgid "Untitled"
@@ -937,27 +930,26 @@ msgid "Attach modal dialogs to windows"
 msgstr "Koppel modale dialoogvensters"
 
 #: src/panel/settings/settings_wm.vala:42
-#, fuzzy
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr "Modale dialoogvensters zullen gekoppeld worden aan hun moedervenster en samen bewegen indien versleept"
+msgstr ""
+"Modale dialoogvensters zullen gekoppeld worden aan hun moedervenster en "
+"samen bewegen indien versleept."
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Button layout"
 msgstr "Opmaak knoppen"
 
 #: src/panel/settings/settings_wm.vala:48
-#, fuzzy
 msgid "Change the layout of buttons in application titlebars."
-msgstr "Wijzig de layout van de toepassingsbedieningsknoppen"
+msgstr "Wijzig de layout van de toepassingsbedieningsknoppen."
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
 msgstr "Centreer nieuwe vensters op het scherm"
 
 #: src/panel/settings/settings_wm.vala:54
-#, fuzzy
 msgid "Center newly launched windows on the current screen."
-msgstr "Centreer nieuw geopende vensters op het huidig scherm"
+msgstr "Centreer nieuw geopende vensters op het huidig scherm."
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
@@ -972,9 +964,10 @@ msgid "Automatic tiling"
 msgstr "Automatisch uitvouwen"
 
 #: src/panel/settings/settings_wm.vala:66
-#, fuzzy
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr "Vensters vouwen zich automatisch uit wanneer ze naar de bovenkant van het scherm of naar een van de hoekranden gesleept worden"
+msgstr ""
+"Vensters vouwen zich automatisch uit wanneer ze naar de bovenkant van het "
+"scherm of naar een van de hoekranden gesleept worden."
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
@@ -989,9 +982,10 @@ msgid "Disable unredirection of windows"
 msgstr "Unredirection of windows uitzetten"
 
 #: src/panel/settings/settings_wm.vala:79
-#, fuzzy
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr "Deze optie is voor geavanceerde gebruikers. Gebruik dit wanneer je grafische- of performantieproblemen hebt met bepaalde GPU's"
+msgstr ""
+"Deze optie is voor geavanceerde gebruikers. Gebruik dit wanneer je grafische-"
+" of performantieproblemen hebt met bepaalde GPU's."
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
@@ -1006,45 +1000,42 @@ msgid "Window Titles"
 msgstr "Venster titels"
 
 #: src/panel/settings/settings_fonts.vala:45
-#, fuzzy
 msgid "Set the font used in the titlebars of applications."
-msgstr "Het lettertype van titelbalken instellen"
+msgstr "Het lettertype van de titelbalken instellen."
 
 #: src/panel/settings/settings_fonts.vala:51
 msgid "Documents"
 msgstr "Documenten"
 
 #: src/panel/settings/settings_fonts.vala:52
-#, fuzzy
 msgid "Set the display font used by for documents."
-msgstr "Bepaal het lettertype gebruikt in documenten"
+msgstr "Bepaal het lettertype gebruikt in documenten."
 
 #: src/panel/settings/settings_fonts.vala:58
 msgid "Interface"
 msgstr "Interface"
 
 #: src/panel/settings/settings_fonts.vala:59
-#, fuzzy
 msgid "Set the primary font used by application controls."
-msgstr "Bepaal het hoofd-lettertype gebruikt door toepassingsbedieningen"
+msgstr "Bepaal het hoofd-lettertype gebruikt door toepassingsbedieningen."
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Monospace"
 msgstr "Monospace"
 
 #: src/panel/settings/settings_fonts.vala:66
-#, fuzzy
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr "Bepaal het vaste-breedte lettertype gebruikt door dominante toepassingen"
+msgstr ""
+"Bepaal het vaste-breedte lettertype gebruikt door tekst-dominante "
+"toepassingen."
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
 msgstr "Tekstschaling"
 
 #: src/panel/settings/settings_fonts.vala:73
-#, fuzzy
 msgid "Set the text scaling factor."
-msgstr "Stel de tekstschalingsfactor in"
+msgstr "Stel de tekstschalingsfactor in."
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
