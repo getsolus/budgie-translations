@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-29 16:03+0200\n"
-"PO-Revision-Date: 2019-01-15 10:59+0000\n"
-"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
-"Language-Team: Bengali <http://translate.getsol.us/projects/budgie-desktop/main/bn/>\n"
+"POT-Creation-Date: 2019-01-21 11:28+0200\n"
+"PO-Revision-Date: 2019-01-29 14:09+0000\n"
+"Last-Translator: Reback 00 <reback00@mailfence.com>\n"
+"Language-Team: Bengali <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/bn/>\n"
 "Language: bn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1040,7 +1041,7 @@ msgstr "লেখা স্কেল করার জন্য পরিমা�
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
-msgstr "অ্যাপলেট পছন্দ করুন "
+msgstr "অ্যাপলেট পছন্দ করুন"
 
 #: src/daemon/endsession.ui.h:2
 msgid "Are you sure you want to end your session?"
@@ -1077,11 +1078,11 @@ msgstr "তাপমাত্রা"
 
 #: src/applets/night-light/indicator_window.ui.h:3
 msgid "Schedule"
-msgstr "শিডিউল "
+msgstr "শিডিউল"
 
 #: src/applets/night-light/indicator_window.ui.h:4
 msgid "Sunset to Sunrise"
-msgstr "সূর্যাস্ত থেকে সূর্যোদয় পর্যন্ত "
+msgstr "সূর্যাস্ত থেকে সূর্যোদয় পর্যন্ত"
 
 #: src/applets/night-light/indicator_window.ui.h:5
 msgid "Manual"
@@ -1089,7 +1090,7 @@ msgstr "ম্যানুয়াল"
 
 #: src/applets/night-light/indicator_window.ui.h:6
 msgid "Display Settings"
-msgstr "ডিসপ্লে সেটিংস "
+msgstr "ডিসপ্লে সেটিংস"
 
 #: src/applets/spacer/settings.ui.h:1
 msgid "Spacer size"
@@ -1117,7 +1118,7 @@ msgstr "মাউস উপরে নিলে মেনু খুলবে"
 
 #: src/applets/budgie-menu/settings.ui.h:6
 msgid "Menu Icon"
-msgstr "মেনু আইকন "
+msgstr "মেনু আইকন"
 
 #: src/applets/workspaces/settings.ui.h:1
 msgid "\"Add\" button visibility"
@@ -1157,7 +1158,7 @@ msgstr "জায়গাগুলো দেখাও"
 
 #: src/applets/places-indicator/settings.ui.h:3
 msgid "Show network folders"
-msgstr "নেটওয়ার্ক ফোল্ডার গুলো দেখুন "
+msgstr "নেটওয়ার্ক ফোল্ডারগুলো দেখুন"
 
 #: src/applets/places-indicator/settings.ui.h:4
 msgid "Show removable drives"
@@ -1186,11 +1187,11 @@ msgstr "লগইন করো"
 #: src/session/budgie-desktop.desktop.in.in.h:1
 #: src/session/budgie-desktop.session.in.in.h:1
 msgid "Budgie Desktop"
-msgstr "Budgie ডেস্কটপ "
+msgstr "Budgie ডেস্কটপ"
 
 #: src/session/budgie-desktop.desktop.in.in.h:2
 msgid "This session logs you into the Budgie Desktop"
-msgstr "এই সেশনটির মাধ্যমে আপনি Budgie ডেস্কটপে প্রবেশ করবেন "
+msgstr "এই সেশনটির মাধ্যমে আপনি Budgie ডেস্কটপে প্রবেশ করবেন"
 
 #: src/applets/tray/TrayApplet.plugin.in.h:1
 msgid "System Tray"
@@ -1222,7 +1223,7 @@ msgstr "Raven স্লাইডবার কন্ট্রোল "
 
 #: src/applets/clock/ClockApplet.plugin.in.h:1
 msgid "Clock"
-msgstr "সময় "
+msgstr "সময়"
 
 #: src/applets/separator/SeparatorApplet.plugin.in.h:1
 msgid "Separator"
@@ -1230,7 +1231,7 @@ msgstr "সেপারেটর"
 
 #: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
 msgid "Show Desktop Button"
-msgstr "ডেস্কটপ বাটন শো করুন "
+msgstr "ডেস্কটপ বাটন দেখাও"
 
 #: src/applets/workspaces/WorkspacesApplet.plugin.in.h:1
 msgid "Workspace Switcher"
@@ -1250,7 +1251,7 @@ msgstr "কিবোর্ড লেআউট ইন্ডিকেটর"
 
 #: src/applets/user-indicator/UserIndicator.plugin.in.h:1
 msgid "User Indicator"
-msgstr "ইউজার ইনডিকেটর "
+msgstr "ইউজার ইন্ডিকেটর"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
 msgid "Change desktop appearance and behavior"
