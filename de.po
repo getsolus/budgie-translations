@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-29 16:03+0200\n"
+"POT-Creation-Date: 2019-01-29 16:42+0200\n"
 "PO-Revision-Date: 2019-01-25 14:02+0000\n"
 "Last-Translator: Philipp <philipp@trulson.de>\n"
 "Language-Team: German <http://translate.getsol.us/projects/budgie-desktop/translations/de/>\n"
@@ -755,8 +755,7 @@ msgstr "Netzwerk-Server"
 
 #: src/panel/settings/settings_desktop.vala:61
 msgid "Add a shortcut to your local network servers on the desktop."
-msgstr ""
-"Fügt eine Verknüpfung zu lokalen Netzwerk-Servern  auf dem Desktop hinzu."
+msgstr "Fügt eine Verknüpfung zu lokalen Netzwerk-Servern  auf dem Desktop hinzu."
 
 #: src/panel/settings/settings_desktop.vala:66
 msgid "Trash"
@@ -820,8 +819,7 @@ msgstr "Eingebautes Thema"
 
 #: src/panel/settings/settings_style.vala:73
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr ""
-"Wenn aktiviert wird der integrierte Stil vom Desktop Thema überschrieben"
+msgstr "Wenn aktiviert wird der integrierte Stil vom Desktop Thema überschrieben"
 
 #: src/panel/settings/settings_style.vala:77
 msgid "Animations"
@@ -941,9 +939,7 @@ msgstr "Modale Dialoge an Fenster verankern"
 
 #: src/panel/settings/settings_wm.vala:42
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr ""
-"Modale Dialoge werden am Hauptfenster verankert und bewegen sich gemeinsam, "
-"wenn diese verschoben werden."
+msgstr "Modale Dialoge werden am Hauptfenster verankert und bewegen sich gemeinsam, wenn diese verschoben werden."
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Button layout"
@@ -975,9 +971,7 @@ msgstr "Automatisches Andocken"
 
 #: src/panel/settings/settings_wm.vala:66
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr ""
-"Fenster passen sich automatisch ihre Grösse an, wenn sie zum oberen Rand des "
-"Bildschirms oder in die Ecken gezogen werden."
+msgstr "Fenster passen sich automatisch ihre Grösse an, wenn sie zum oberen Rand des Bildschirms oder in die Ecken gezogen werden."
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
@@ -993,9 +987,7 @@ msgstr "Nicht-Weiterleitung von Fenstern deaktivieren"
 
 #: src/panel/settings/settings_wm.vala:79
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr ""
-"Diese Option ist für erfahrene Benutzer. Verwenden, falls graphische oder "
-"Performance-Probleme mit dedizierten GPUs auftreten."
+msgstr "Diese Option ist für erfahrene Benutzer. Verwenden, falls graphische oder Performance-Probleme mit dedizierten GPUs auftreten."
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
@@ -1035,8 +1027,7 @@ msgstr "Monospace"
 
 #: src/panel/settings/settings_fonts.vala:66
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr ""
-"Schriftart mit festgelegter Breite für textbasierte Anwendungen festlegen."
+msgstr "Schriftart mit festgelegter Breite für textbasierte Anwendungen festlegen."
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"

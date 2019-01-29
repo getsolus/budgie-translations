@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-29 16:03+0200\n"
+"POT-Creation-Date: 2019-01-29 16:42+0200\n"
 "PO-Revision-Date: 2019-01-26 13:43+0000\n"
 "Last-Translator: Skyeun <eressea667@gmail.com>\n"
 "Language-Team: French <http://translate.getsol.us/projects/budgie-desktop/translations/fr/>\n"
@@ -820,9 +820,7 @@ msgstr "Thème Intégré"
 
 #: src/panel/settings/settings_style.vala:73
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr ""
-"Lorsque cette option est activée, le style des éléments est remplacé par le "
-"style du bureau"
+msgstr "Lorsque cette option est activée, le style des éléments est remplacé par le style du bureau"
 
 #: src/panel/settings/settings_style.vala:77
 msgid "Animations"
@@ -942,9 +940,7 @@ msgstr "Joindre les boîtes de dialogue aux fenêtres"
 
 #: src/panel/settings/settings_wm.vala:42
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr ""
-"Les boîtes de dialogues seront liées avec la fenêtre parente et se "
-"déplaceront ensemble."
+msgstr "Les boîtes de dialogues seront liées avec la fenêtre parente et se déplaceront ensemble."
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Button layout"
@@ -952,8 +948,7 @@ msgstr "Disposition des boutons"
 
 #: src/panel/settings/settings_wm.vala:48
 msgid "Change the layout of buttons in application titlebars."
-msgstr ""
-"Modifie la disposition des boutons dans la barre de titre des applications."
+msgstr "Modifie la disposition des boutons dans la barre de titre des applications."
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
@@ -977,9 +972,7 @@ msgstr "Ancrage automatique"
 
 #: src/panel/settings/settings_wm.vala:66
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr ""
-"Les fenêtres seront automatiquement redimensionnées lorsque entraînées vers "
-"le haut ou un des coins de l'écran."
+msgstr "Les fenêtres seront automatiquement redimensionnées lorsque entraînées vers le haut ou un des coins de l'écran."
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
@@ -995,9 +988,7 @@ msgstr "Désactiver la non-redirection des fenêtres"
 
 #: src/panel/settings/settings_wm.vala:79
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr ""
-"Cette option s'adresse aux utilisateurs avancés. Utilisez-la si vous "
-"rencontrez des problèmes graphiques ou de performance avec des GPUs dédiés."
+msgstr "Cette option s'adresse aux utilisateurs avancés. Utilisez-la si vous rencontrez des problèmes graphiques ou de performance avec des GPUs dédiés."
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
@@ -1013,9 +1004,7 @@ msgstr "Titre des fenêtres"
 
 #: src/panel/settings/settings_fonts.vala:45
 msgid "Set the font used in the titlebars of applications."
-msgstr ""
-"Définit la police d'écriture utilisée dans la barre de titre des "
-"applications."
+msgstr "Définit la police d'écriture utilisée dans la barre de titre des applications."
 
 #: src/panel/settings/settings_fonts.vala:51
 msgid "Documents"
