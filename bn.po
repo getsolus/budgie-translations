@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-21 11:28+0200\n"
-"PO-Revision-Date: 2019-01-29 14:09+0000\n"
+"PO-Revision-Date: 2019-01-29 14:29+0000\n"
 "Last-Translator: Reback 00 <reback00@mailfence.com>\n"
 "Language-Team: Bengali <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/bn/>\n"
@@ -241,7 +241,7 @@ msgstr "ছবির ফাইল"
 
 #: src/applets/budgie-menu/IconChooser.vala:43
 msgid "Any file"
-msgstr "যেকোনো ফাইল "
+msgstr "যেকোনো ফাইল"
 
 #: src/applets/budgie-menu/IconChooser.vala:55
 #: src/panel/settings/settings_autostart.vala:203
@@ -433,7 +433,7 @@ msgstr "ভলিউমটি আনলক করার জন্য এনক�
 #: src/applets/places-indicator/VolumeItem.vala:87
 #: src/applets/places-indicator/MountItem.vala:78
 msgid "You can now safely remove"
-msgstr "এখন রিমুভ করতে পারেন "
+msgstr "এখন রিমুভ করতে পারেন"
 
 #: src/applets/places-indicator/VolumeItem.vala:119
 msgid "The password you entered is incorrect"
@@ -1265,4 +1265,4 @@ msgstr "Budgie প্যানেল "
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
 msgstr ""
 "এ্যাপ্লিকেশনগুলো চালু করে এবং উইন্ডোগুলো নিয়ন্ত্রণ, সময় দেখানো ইত্যাদির জন্য "
-"বিভিন্ন সুবিধা দেয়"
+"বিভিন্ন সুবিধা দেয়।"
