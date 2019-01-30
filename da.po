@@ -12,14 +12,16 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-29 16:42+0200\n"
-"PO-Revision-Date: 2017-10-19 20:55+0000\n"
-"Last-Translator: scootergrisen\n"
-"Language-Team: Danish (http://www.transifex.com/budgie-desktop/budgie-desktop/language/da/)\n"
+"PO-Revision-Date: 2019-01-30 10:12+0000\n"
+"Last-Translator: Kim Trolle Wadum <kim@ktw.dk>\n"
+"Language-Team: Danish <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.4-dev\n"
 
 #: src/daemon/endsession.vala:171
 msgid "Log out"
@@ -49,11 +51,11 @@ msgstr "Indstillinger"
 #. Should show a notification
 #: src/daemon/settings.vala:310
 msgid "Turned on Caffeine Boost"
-msgstr ""
+msgstr "Slog koffein boost til"
 
 #: src/daemon/settings.vala:310
 msgid "Turned off Caffeine Boost"
-msgstr ""
+msgstr "Slog koffein boost fra"
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
@@ -66,13 +68,13 @@ msgstr[1] ""
 
 #: src/daemon/settings.vala:318
 msgid "Will turn off in"
-msgstr ""
+msgstr "Slukker om"
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:44
 #: src/applets/caffeine/CaffeineWindow.vala:25
 msgid "Caffeine Mode"
-msgstr ""
+msgstr "Koffein tilstand"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
@@ -85,11 +87,11 @@ msgstr "Notifikationer"
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
-msgstr ""
+msgstr "Ingen programmer afspiller i øjeblikket lyd"
 
 #: src/raven/start_listening.vala:24
 msgid "Play some music"
-msgstr ""
+msgstr "Spil noget musik"
 
 #: src/raven/notifications_view.vala:106
 msgid "Nothing to see here"
@@ -118,11 +120,11 @@ msgstr "Ingen nye notifikationer"
 #. 125ms
 #: src/raven/sound.vala:151
 msgid "Apps"
-msgstr ""
+msgstr "Applikationer"
 
 #: src/raven/sound.vala:152
 msgid "Devices"
-msgstr ""
+msgstr "Enheder"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
@@ -185,33 +187,32 @@ msgstr "Lydindstillinger"
 
 #: src/applets/icon-tasklist/IconPopover.vala:93
 msgid "Launch New Instance"
-msgstr ""
+msgstr "Start ny instans"
 
 #: src/applets/icon-tasklist/IconPopover.vala:96
 msgid "Close All Windows"
-msgstr ""
+msgstr "Luk alle vinduer"
 
 #: src/applets/icon-tasklist/IconPopover.vala:104
-#, fuzzy
 msgid "Always On Top"
-msgstr "Altid"
+msgstr "Altid øverst"
 
 #: src/applets/icon-tasklist/IconPopover.vala:106
 #: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Maximize"
-msgstr ""
+msgstr "Maksimér"
 
 #: src/applets/icon-tasklist/IconPopover.vala:107
 msgid "Minimize"
-msgstr ""
+msgstr "Minimér"
 
 #: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Unfavorite"
-msgstr ""
+msgstr "Fjern favorit"
 
 #: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Favorite"
-msgstr ""
+msgstr "Tilføj favorit"
 
 #. If our current amount of workspaces is different than how many we have added
 #. We have items to add
@@ -219,22 +220,20 @@ msgstr ""
 #: src/applets/icon-tasklist/IconPopover.vala:384
 #, c-format
 msgid "Move To Workspace %i"
-msgstr ""
+msgstr "Flyt til arbejdsområde %i"
 
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Unmaximize"
-msgstr ""
+msgstr "Gendan"
 
 #: src/applets/icon-tasklist/IconPopover.vala:543
-#, fuzzy
 msgid "Close Window"
-msgstr "Vinduer"
+msgstr "Luk vindue"
 
 #: src/applets/icon-tasklist/IconPopover.vala:545
-#, fuzzy
 msgid "Show Window Controls"
-msgstr "Vinduestitler"
+msgstr "Vis vindueskontroller"
 
 #: src/applets/budgie-menu/IconChooser.vala:27
 msgid "Set menu icon from file"
@@ -268,7 +267,7 @@ msgstr "Alle"
 #. placeholder in case of no results
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:401
 msgid "Sorry, no items found"
-msgstr ""
+msgstr "Beklager, ingenting fundet"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
@@ -326,7 +325,7 @@ msgstr "Fjern"
 
 #: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Timer (minutes)"
-msgstr ""
+msgstr "Timer (minutter)"
 
 #. User Menu Creation
 #: src/applets/user-indicator/UserIndicatorWindow.vala:95
@@ -403,7 +402,7 @@ msgstr "Skriv din adgangskode"
 #: src/applets/places-indicator/VolumeItem.vala:27
 #: src/applets/places-indicator/MountItem.vala:25
 msgid "Removable devices"
-msgstr "Fjernbare enheder"
+msgstr "Flytbare enheder"
 
 #: src/applets/places-indicator/VolumeItem.vala:29
 #: src/applets/places-indicator/MountItem.vala:27
@@ -576,7 +575,7 @@ msgstr "Placering"
 
 #: src/panel/settings/settings_panel.vala:231
 msgid "Set the edge of the screen that this panel will stay on"
-msgstr "Sæt skærmkanten hvor panelet skal være på"
+msgstr "Angiv skærmkanten hvor panelet skal placeres"
 
 #: src/panel/settings/settings_panel.vala:239
 msgid "Size"
@@ -628,59 +627,63 @@ msgstr "I doktilstand, bruger panelet mindst muligt plads, så værdifulde områ
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
-msgstr ""
+msgstr "Tillad at volumen overstiger 100%"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
 msgstr ""
+"Tillader styring af volumen via lydindstillinger såvel som i lydudgang "
+"widget med op til 150%"
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
-msgstr ""
+msgstr "Slå visning af ugenumre til i kalender"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr ""
+msgstr "Denne indstilling slår visning af ugenumre til i kalender widget."
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
-msgstr ""
+msgstr "Vis kalender widget"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr ""
+msgstr "Viser eller skjuler kalender widget i Ravens Applet sektion."
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
-msgstr ""
+msgstr "Vis lydudgang widget"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr ""
+msgstr "Viser eller skjuler lydudgang widget i Ravens applet sektion."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
-msgstr ""
+msgstr "Vis mikrofon indgang widget"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
-msgstr ""
+msgstr "Viser eller skjuler mikrofon indgang widget i Ravens appplet sektion."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
-msgstr ""
+msgstr "Vis medieafspilnings kontroller widget"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
 msgstr ""
+"Viser eller skjuler medieafspilnings kontroller (MPRIS) widget i Ravens "
+"applet sektion."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
-msgstr ""
+msgstr "Vis power bjælke"
 
 #: src/panel/settings/settings_raven.vala:76
 msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr ""
+msgstr "Viser eller skjuler power bjælken i bunden af Raven."
 
 #: src/panel/settings/settings_panel_dialogs.vala:29
 msgid "Confirm panel removal"
@@ -693,7 +696,7 @@ msgstr "Vil du virkelig fjerne panelet? Handlingen kan ikke fortrydes."
 #: src/panel/settings/settings_panel_dialogs.vala:51
 #: src/panel/settings/settings_panel_dialogs.vala:114
 msgid "Don't ask me again"
-msgstr "Sprøg mig ikke igen"
+msgstr "Spørg mig ikke igen"
 
 #: src/panel/settings/settings_panel_dialogs.vala:60
 msgid "Remove panel"
@@ -728,16 +731,15 @@ msgid "Desktop Icons"
 msgstr "Skrivebordsikoner"
 
 #: src/panel/settings/settings_desktop.vala:44
-#, fuzzy
 msgid "Control whether to allow launchers and icons on the desktop."
-msgstr "Bestemt hvorvidt programstartere og ikoner skal tillades på skrivebordet"
+msgstr ""
+"Bestemt hvorvidt programstartere og ikoner skal tillades på skrivebordet"
 
 #: src/panel/settings/settings_desktop.vala:54
 msgid "Home directory"
 msgstr "Hjemmemappe"
 
 #: src/panel/settings/settings_desktop.vala:55
-#, fuzzy
 msgid "Add a shortcut to your home directory on the desktop."
 msgstr "Tilføj en genvej til din hjemmemappe på skrivebordet"
 
@@ -746,7 +748,6 @@ msgid "Network servers"
 msgstr "Netværksservere"
 
 #: src/panel/settings/settings_desktop.vala:61
-#, fuzzy
 msgid "Add a shortcut to your local network servers on the desktop."
 msgstr "Tilføj en genvej til dine lokale servere på skrivebordet"
 
@@ -755,7 +756,6 @@ msgid "Trash"
 msgstr "Papirkurv"
 
 #: src/panel/settings/settings_desktop.vala:67
-#, fuzzy
 msgid "Add a shortcut to the Trash directory on the desktop."
 msgstr "Tilføj en genvej til papirkurvsmappen på skrivebordet"
 
@@ -764,7 +764,6 @@ msgid "Mounted volumes"
 msgstr "Monterede diskenheder"
 
 #: src/panel/settings/settings_desktop.vala:73
-#, fuzzy
 msgid "Mounted volumes & drives will appear on the desktop."
 msgstr "Monterede diskenheder og drev vil blive vist på skrivebordet"
 
@@ -778,7 +777,7 @@ msgstr "Widgets"
 
 #: src/panel/settings/settings_style.vala:44
 msgid "Set the appearance of window decorations and controls"
-msgstr "Sæt udseendet af vinduesdekorationer og kontroller"
+msgstr "Angiv udseendet af vinduesdekorationer og kontroller"
 
 #: src/panel/settings/settings_style.vala:48
 msgid "Icons"
