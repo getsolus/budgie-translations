@@ -20,7 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-29 16:42+0200\n"
 "PO-Revision-Date: 2019-02-01 16:17+0000\n"
-"Last-Translator: Tobias Croby <tobias@croby.se>\n"
+"Last-Translator: Holger JS <holger.johanssonskarin@gmail.com>\n"
 "Language-Team: Swedish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/sv/>\n"
 "Language: sv\n"
@@ -741,7 +741,6 @@ msgid "Home directory"
 msgstr "Hemkatalog"
 
 #: src/panel/settings/settings_desktop.vala:55
-#, fuzzy
 msgid "Add a shortcut to your home directory on the desktop."
 msgstr "Lägg till en genväg till din hemkatalog på skrivbordet"
 
@@ -758,18 +757,16 @@ msgid "Trash"
 msgstr "Papperskorgen"
 
 #: src/panel/settings/settings_desktop.vala:67
-#, fuzzy
 msgid "Add a shortcut to the Trash directory on the desktop."
-msgstr "Lägg till en genväg till papperskorgen på skrivbordet"
+msgstr "Lägg till en genväg till papperskorgen på skrivbordet."
 
 #: src/panel/settings/settings_desktop.vala:72
 msgid "Mounted volumes"
 msgstr "Monterade volymer"
 
 #: src/panel/settings/settings_desktop.vala:73
-#, fuzzy
 msgid "Mounted volumes & drives will appear on the desktop."
-msgstr "Monterade volymer och diskar kommer att visas på skrivbordet"
+msgstr "Monterade volymer och diskar kommer att visas på skrivbordet."
 
 #: src/panel/settings/settings_style.vala:33
 msgid "Style"
@@ -816,9 +813,10 @@ msgid "Built-in theme"
 msgstr "Inbyggt tema"
 
 #: src/panel/settings/settings_style.vala:73
-#, fuzzy
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr "Om påslagen kommer skrivbordets komponentstil att ha företräde över den inbyggda stilen."
+msgstr ""
+"Om påslagen kommer skrivbordets komponentstil att ha företräde över den "
+"inbyggda stilen."
 
 #: src/panel/settings/settings_style.vala:77
 msgid "Animations"
@@ -941,27 +939,26 @@ msgid "Attach modal dialogs to windows"
 msgstr "Fäst modala dialogrutor till dess fönster"
 
 #: src/panel/settings/settings_wm.vala:42
-#, fuzzy
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr "Modala dialoger fästs vid fönstren som de berör och följer med när fönstret flyttas"
+msgstr ""
+"Modala dialoger fästs vid fönstren som de berör och följer med när fönstret "
+"flyttas."
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Button layout"
 msgstr "Knapplacering"
 
 #: src/panel/settings/settings_wm.vala:48
-#, fuzzy
 msgid "Change the layout of buttons in application titlebars."
-msgstr "Ändra placering av fönsterknappar"
+msgstr "Ändra placering av fönsterknappar."
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
 msgstr "Centrera nya fönster på skärmen"
 
 #: src/panel/settings/settings_wm.vala:54
-#, fuzzy
 msgid "Center newly launched windows on the current screen."
-msgstr "Centrera nya fönster på aktuell skärm"
+msgstr "Centrera nya fönster på aktuell skärm."
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
@@ -976,9 +973,9 @@ msgid "Automatic tiling"
 msgstr "Automatiskt rutnät"
 
 #: src/panel/settings/settings_wm.vala:66
-#, fuzzy
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr "Fönster passar automatiskt in i rutnätet när de dras in i hörn eller kanter"
+msgstr ""
+"Fönster passar automatiskt in i rutnätet när de dras in i hörn eller kanter."
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
@@ -993,9 +990,10 @@ msgid "Disable unredirection of windows"
 msgstr "Inaktivera avomdirigering av fönster"
 
 #: src/panel/settings/settings_wm.vala:79
-#, fuzzy
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr "Detta alternativ är för avancerade användare. Om du har ett dedikerat grafikkort kan du prova detta om du har problem med grafik eller prestanda."
+msgstr ""
+"Detta alternativ är för avancerade användare. Om du har ett dedikerat "
+"grafikkort kan du prova detta om du har problem med grafik eller prestanda."
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
@@ -1010,45 +1008,40 @@ msgid "Window Titles"
 msgstr "Fönstertitlar"
 
 #: src/panel/settings/settings_fonts.vala:45
-#, fuzzy
 msgid "Set the font used in the titlebars of applications."
-msgstr "Välj typsnitt för fönstertiteln i applikationer"
+msgstr "Välj typsnitt för fönstertiteln i applikationer."
 
 #: src/panel/settings/settings_fonts.vala:51
 msgid "Documents"
 msgstr "Dokument"
 
 #: src/panel/settings/settings_fonts.vala:52
-#, fuzzy
 msgid "Set the display font used by for documents."
-msgstr "Välj typsnitt som används för dokument"
+msgstr "Välj typsnitt som används för dokument."
 
 #: src/panel/settings/settings_fonts.vala:58
 msgid "Interface"
 msgstr "Gränssnitt"
 
 #: src/panel/settings/settings_fonts.vala:59
-#, fuzzy
 msgid "Set the primary font used by application controls."
-msgstr "Välj primärt typsnitt för applikationskontroller"
+msgstr "Välj primärt typsnitt för applikationskontroller."
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Monospace"
 msgstr "Monospace"
 
 #: src/panel/settings/settings_fonts.vala:66
-#, fuzzy
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr "Välj typsnitt med fast bredd för textbaserade applikationer"
+msgstr "Välj typsnitt med fast bredd för textbaserade applikationer."
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
 msgstr "Textskalning"
 
 #: src/panel/settings/settings_fonts.vala:73
-#, fuzzy
 msgid "Set the text scaling factor."
-msgstr "Sätt textskalningsfaktor"
+msgstr "Ställ in textskalningsfaktor."
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
