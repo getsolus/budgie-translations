@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-29 16:42+0200\n"
 "PO-Revision-Date: 2019-02-01 15:50+0000\n"
-"Last-Translator: Jorge <teamevomagix@gmail.com>\n"
+"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
 "Language-Team: Spanish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/es_/>\n"
 "Language: es_419\n"
@@ -102,7 +102,7 @@ msgstr "%u notificaciones no leídas"
 #: src/raven/notifications_view.vala:676
 #: src/applets/notifications/NotificationsApplet.vala:111
 msgid "1 unread notification"
-msgstr "1 notificación no leída "
+msgstr "1 notificación no leída"
 
 #: src/raven/notifications_view.vala:678
 #: src/applets/notifications/NotificationsApplet.vala:113
