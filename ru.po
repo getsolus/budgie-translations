@@ -14,14 +14,17 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-29 16:42+0200\n"
-"PO-Revision-Date: 2019-01-25 09:45+0000\n"
-"Last-Translator: Andrey Nikolaev <sorcessor@gmail.com>\n"
-"Language-Team: Russian <http://translate.getsol.us/projects/budgie-desktop/translations/ru/>\n"
+"PO-Revision-Date: 2019-02-01 16:17+0000\n"
+"Last-Translator: Pavel Datsenko <pavel.datsenko@gmail.com>\n"
+"Language-Team: Russian <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 3.4-dev\n"
 
 #: src/daemon/endsession.vala:171
@@ -191,11 +194,11 @@ msgstr "Настройки звука"
 
 #: src/applets/icon-tasklist/IconPopover.vala:93
 msgid "Launch New Instance"
-msgstr ""
+msgstr "Запустить новый экземпляр"
 
 #: src/applets/icon-tasklist/IconPopover.vala:96
 msgid "Close All Windows"
-msgstr ""
+msgstr "Закрыть все окна"
 
 #: src/applets/icon-tasklist/IconPopover.vala:104
 #, fuzzy
@@ -209,15 +212,15 @@ msgstr ""
 
 #: src/applets/icon-tasklist/IconPopover.vala:107
 msgid "Minimize"
-msgstr ""
+msgstr "Свернуть"
 
 #: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Unfavorite"
-msgstr ""
+msgstr "Удалить из избранного"
 
 #: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Favorite"
-msgstr ""
+msgstr "Добавить в избранное"
 
 #. If our current amount of workspaces is different than how many we have added
 #. We have items to add
@@ -225,22 +228,20 @@ msgstr ""
 #: src/applets/icon-tasklist/IconPopover.vala:384
 #, c-format
 msgid "Move To Workspace %i"
-msgstr ""
+msgstr "Переместить на Рабочее место %i"
 
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Unmaximize"
-msgstr ""
+msgstr "Восстановить"
 
 #: src/applets/icon-tasklist/IconPopover.vala:543
-#, fuzzy
 msgid "Close Window"
-msgstr "Окна"
+msgstr "Закрыть окно"
 
 #: src/applets/icon-tasklist/IconPopover.vala:545
-#, fuzzy
 msgid "Show Window Controls"
-msgstr "Заголовки окон"
+msgstr "Показать кнопки управления окном"
 
 #: src/applets/budgie-menu/IconChooser.vala:27
 msgid "Set menu icon from file"
@@ -274,7 +275,7 @@ msgstr "Всё"
 #. placeholder in case of no results
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:401
 msgid "Sorry, no items found"
-msgstr ""
+msgstr "Извините, ничего не найдено"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
@@ -332,7 +333,7 @@ msgstr "Удалить"
 
 #: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Timer (minutes)"
-msgstr ""
+msgstr "Таймер (минут)"
 
 #. User Menu Creation
 #: src/applets/user-indicator/UserIndicatorWindow.vala:95
@@ -634,59 +635,67 @@ msgstr "При использовании режима док-панели, он
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
-msgstr ""
+msgstr "Разрешить увеличение громкости выше 100%"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
 msgstr ""
+"Позволяет увеличивать громкость в настройках звука, а также виджете вывода "
+"звука на панели Raven до 150%."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
-msgstr ""
+msgstr "Включить отображение номеров недель в календаре"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr ""
+msgstr "Эта настройка включает отображение номеров недель в виджете календаря."
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
-msgstr ""
+msgstr "Показывать виджет календаря"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
 msgstr ""
+"Показывает или скрывает виджет календаря в секции апплетов панели Raven."
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
-msgstr ""
+msgstr "Показывать виджет вывода звука"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
 msgstr ""
+"Показывает или скрывает виджет вывода звука в секции апплетов панели Raven."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
-msgstr ""
+msgstr "Показывать виджет микрофонного ввода"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
 msgstr ""
+"Показывает или скрывает виджет микрофонного ввода в секции апплетов панели "
+"Raven."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
-msgstr ""
+msgstr "Показывать виджет управления воспроизведением медиа"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
 msgstr ""
+"Показывает или скрывает виджет управления воспроизведением медиа (MPRIS) в "
+"секции апплетов панели Raven."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
-msgstr ""
+msgstr "Показывать панель управления питанием"
 
 #: src/panel/settings/settings_raven.vala:76
 msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr ""
+msgstr "Показывает или скрывает панель управления питанием внизу панели Raven."
 
 #: src/panel/settings/settings_panel_dialogs.vala:29
 msgid "Confirm panel removal"
@@ -734,45 +743,40 @@ msgid "Desktop Icons"
 msgstr "Значки рабочего стола"
 
 #: src/panel/settings/settings_desktop.vala:44
-#, fuzzy
 msgid "Control whether to allow launchers and icons on the desktop."
-msgstr "Управлять иконками и ярлыками на рабочем столе"
+msgstr "Управлять возможностью использовать ярлыки и иконки на рабочем столе."
 
 #: src/panel/settings/settings_desktop.vala:54
 msgid "Home directory"
 msgstr "Домашняя папка"
 
 #: src/panel/settings/settings_desktop.vala:55
-#, fuzzy
 msgid "Add a shortcut to your home directory on the desktop."
-msgstr "Добавить на рабочий стол ярлык домашней папки"
+msgstr "Добавить ярлык домашней папки на рабочий стол."
 
 #: src/panel/settings/settings_desktop.vala:60
 msgid "Network servers"
 msgstr "Сетевые серверы"
 
 #: src/panel/settings/settings_desktop.vala:61
-#, fuzzy
 msgid "Add a shortcut to your local network servers on the desktop."
-msgstr "Добавить на рабочий стол ярлык к серверам локальной сети"
+msgstr "Добавить ярлык серверов локальной сети на рабочий стол."
 
 #: src/panel/settings/settings_desktop.vala:66
 msgid "Trash"
 msgstr "Корзина"
 
 #: src/panel/settings/settings_desktop.vala:67
-#, fuzzy
 msgid "Add a shortcut to the Trash directory on the desktop."
-msgstr "Добавить на рабочий стол ярлык Корзины"
+msgstr "Добавить ярлык Корзины на рабочий стол."
 
 #: src/panel/settings/settings_desktop.vala:72
 msgid "Mounted volumes"
 msgstr "Монтированные разделы"
 
 #: src/panel/settings/settings_desktop.vala:73
-#, fuzzy
 msgid "Mounted volumes & drives will appear on the desktop."
-msgstr "Монтированные диски и разделы будут появляться на рабочем столе"
+msgstr "Примонтированные разделы и диски будут появляться на рабочем столе."
 
 #: src/panel/settings/settings_style.vala:33
 msgid "Style"
@@ -803,13 +807,12 @@ msgid "Set the globally used mouse cursor theme"
 msgstr "Задать глобально используемую тему для курсоров мыши"
 
 #: src/panel/settings/settings_style.vala:58
-#, fuzzy
 msgid "Notification Position"
-msgstr "Уведомления"
+msgstr "Позиция уведомлений"
 
 #: src/panel/settings/settings_style.vala:59
 msgid "Set the location for notification popups"
-msgstr ""
+msgstr "Установить местоположение всплывающих окон уведомлений"
 
 #: src/panel/settings/settings_style.vala:68
 msgid "Dark theme"
@@ -820,9 +823,10 @@ msgid "Built-in theme"
 msgstr "Встроенная тема"
 
 #: src/panel/settings/settings_style.vala:73
-#, fuzzy
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr "Когда включено, стиль компонентов рабочего стола будет заменен на встроенный"
+msgstr ""
+"Когда включено, стиль компонентов рабочего стола будет заменен встроенной "
+"темой"
 
 #: src/panel/settings/settings_style.vala:77
 msgid "Animations"
@@ -833,24 +837,20 @@ msgid "Control whether windows and controls use animations"
 msgstr "Задать использование анимации для окон и элементов управления"
 
 #: src/panel/settings/settings_style.vala:195
-#, fuzzy
 msgid "Top Left"
-msgstr "Слева"
+msgstr "Вверху слева"
 
 #: src/panel/settings/settings_style.vala:197
-#, fuzzy
 msgid "Bottom Left"
-msgstr "Низ"
+msgstr "Внизу слева"
 
 #: src/panel/settings/settings_style.vala:199
-#, fuzzy
 msgid "Bottom Right"
-msgstr "Низ"
+msgstr "Внизу справа"
 
 #: src/panel/settings/settings_style.vala:202
-#, fuzzy
 msgid "Top Right"
-msgstr "Справа"
+msgstr "Вверху справа"
 
 #: src/panel/settings/settings_autostart.vala:141
 msgid "Untitled"
@@ -904,9 +904,8 @@ msgid "Autostart"
 msgstr "Автозагрузка"
 
 #: src/panel/settings/settings_autostart.vala:483
-#, fuzzy
 msgid "Autostart apps"
-msgstr "Автозагрузка"
+msgstr "Автозагрузка приложений"
 
 #: src/panel/settings/settings_panel_applets.vala:22
 msgid "Configure applet"
@@ -946,60 +945,67 @@ msgid "Attach modal dialogs to windows"
 msgstr "Присоединить модальные диалоги к окнам"
 
 #: src/panel/settings/settings_wm.vala:42
-#, fuzzy
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr "Модальные диалоги будут присоединены к родительскому окну и будут перемещаться вместе с ним при перетаскивании"
+msgstr ""
+"Модальные диалоги будут присоединены к родительскому окну и будут "
+"перемещаться вместе с ним при перетаскивании."
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Button layout"
 msgstr "Расположение кнопок"
 
 #: src/panel/settings/settings_wm.vala:48
-#, fuzzy
 msgid "Change the layout of buttons in application titlebars."
-msgstr "Задать расположение кнопок в заголовке окна приложения"
+msgstr "Изменить расположение кнопок в заголовке окна приложения."
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
-msgstr ""
+msgstr "Центрировать новые окна на экране"
 
 #: src/panel/settings/settings_wm.vala:54
 msgid "Center newly launched windows on the current screen."
-msgstr ""
+msgstr "Центрировать новые окна на текущем экране."
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
-msgstr ""
+msgstr "Отключить режим ночного света, когда окна развернуты на весь экран"
 
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr ""
+"Отключает режим ночного света, когда какое-либо окно развернуто на весь "
+"экран. Включает обратно, когда осуществляется выход из полноэкранного режима."
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
 msgstr "Автоматическое выравнивание"
 
 #: src/panel/settings/settings_wm.vala:66
-#, fuzzy
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr "Окна будут автоматически выравниваться при перетаскивании в верхнюю или дальние боковые части экрана"
+msgstr ""
+"Окна будут автоматически выравниваться при перетаскивании в верхнюю часть "
+"или углы экрана."
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
 msgstr ""
+"Включить изменение фокуса окна при перемещении курсора внутрь него и наружу"
 
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
 msgstr ""
+"Позволяет захватывать фокус, когда курсор мыши перемещается внутрь окна, и "
+"освобождать фокус, когда курсор мыши выходит за пределы окна."
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
 msgstr "Включить распределение окон"
 
 #: src/panel/settings/settings_wm.vala:79
-#, fuzzy
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr "Опция для продвинутых пользователей. Используйте только при наличии проблем с графикой или производительностью с дискретными видеокартами"
+msgstr ""
+"Опция для продвинутых пользователей. Используйте только при наличии проблем "
+"с графикой или производительностью с дискретными видеокартами."
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
@@ -1014,44 +1020,40 @@ msgid "Window Titles"
 msgstr "Заголовки окон"
 
 #: src/panel/settings/settings_fonts.vala:45
-#, fuzzy
 msgid "Set the font used in the titlebars of applications."
-msgstr "Задать шрифт для заголовков окон приложений"
+msgstr "Задать шрифт для заголовков окон приложений."
 
 #: src/panel/settings/settings_fonts.vala:51
 msgid "Documents"
 msgstr "Документы"
 
 #: src/panel/settings/settings_fonts.vala:52
-#, fuzzy
 msgid "Set the display font used by for documents."
-msgstr "Задать шрифт для текста документов"
+msgstr "Задать шрифт для текста документов."
 
 #: src/panel/settings/settings_fonts.vala:58
 msgid "Interface"
 msgstr "Интерфейс"
 
 #: src/panel/settings/settings_fonts.vala:59
-#, fuzzy
 msgid "Set the primary font used by application controls."
-msgstr "Задать основной шрифт для элементов управления"
+msgstr "Задать основной шрифт для элементов управления приложениями."
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Monospace"
 msgstr "Моноширинный"
 
 #: src/panel/settings/settings_fonts.vala:66
-#, fuzzy
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr "Задать моноширинный шрифт для текстовых приложений"
+msgstr "Задать моноширинный шрифт для текстовых приложений."
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
-msgstr ""
+msgstr "Масштабирование текста"
 
 #: src/panel/settings/settings_fonts.vala:73
 msgid "Set the text scaling factor."
-msgstr ""
+msgstr "Задать коэффициент масштабирования текста."
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
@@ -1063,23 +1065,23 @@ msgstr "Вы уверены, что хотите завершить работу
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
-msgstr ""
+msgstr "Показывать все окна при нажатии"
 
 #: src/applets/icon-tasklist/settings.ui.h:2
 msgid "Only show favorited"
-msgstr ""
+msgstr "Показывать только избранные приложения"
 
 #: src/applets/icon-tasklist/settings.ui.h:3
 msgid "Lock icons"
-msgstr ""
+msgstr "Закрепить значки"
 
 #: src/applets/icon-tasklist/settings.ui.h:4
 msgid "Restrict to Workspace"
-msgstr ""
+msgstr "Ограничить Рабочим местом"
 
 #: src/applets/icon-tasklist/settings.ui.h:5
 msgid "Window grouping"
-msgstr ""
+msgstr "Группировка окон"
 
 #: src/applets/night-light/indicator_window.ui.h:1
 #: src/applets/night-light/NightLight.plugin.in.h:1
@@ -1136,33 +1138,31 @@ msgstr "Иконка Меню"
 
 #: src/applets/workspaces/settings.ui.h:1
 msgid "\"Add\" button visibility"
-msgstr ""
+msgstr "Видимость кнопки \"Добавить\""
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
-msgstr ""
+msgstr "Не показывать"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
-msgstr ""
+msgstr "Показывать при наведении курсора мыши"
 
 #: src/applets/workspaces/settings.ui.h:4
-#, fuzzy
 msgid "Always show"
-msgstr "Всегда"
+msgstr "Всегда показывать"
 
 #: src/applets/caffeine/settings.ui.h:1
-#, fuzzy
 msgid "Enable notification"
-msgstr "Нет новых уведомлений"
+msgstr "Включить уведомления"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
-msgstr ""
+msgstr "Максимизировать яркость"
 
 #: src/applets/caffeine/settings.ui.h:3
 msgid "Brightness Level"
-msgstr ""
+msgstr "Уровень яркости"
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
@@ -1259,7 +1259,7 @@ msgstr "Список задач "
 
 #: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
 msgid "Caffeine"
-msgstr ""
+msgstr "Кофеин"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
@@ -1270,7 +1270,6 @@ msgid "User Indicator"
 msgstr "Индикатор пользователя"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
-#, fuzzy
 msgid "Change desktop appearance and behavior"
 msgstr "Изменить вид и поведение рабочего стола"
 
