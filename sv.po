@@ -19,9 +19,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-29 16:42+0200\n"
-"PO-Revision-Date: 2019-01-17 07:06+0000\n"
+"PO-Revision-Date: 2019-02-01 16:17+0000\n"
 "Last-Translator: Tobias Croby <tobias@croby.se>\n"
-"Language-Team: Swedish <http://translate.getsol.us/projects/budgie-desktop/translations/sv/>\n"
+"Language-Team: Swedish <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -732,9 +733,8 @@ msgid "Desktop Icons"
 msgstr "Skrivbordsikoner"
 
 #: src/panel/settings/settings_desktop.vala:44
-#, fuzzy
 msgid "Control whether to allow launchers and icons on the desktop."
-msgstr "Ställ in om ikoner och genvägar tillåts på skrivbordet"
+msgstr "Ange om ikoner och genvägar ska tillåtas på skrivbordet"
 
 #: src/panel/settings/settings_desktop.vala:54
 msgid "Home directory"
@@ -750,7 +750,6 @@ msgid "Network servers"
 msgstr "Nätverksservrar"
 
 #: src/panel/settings/settings_desktop.vala:61
-#, fuzzy
 msgid "Add a shortcut to your local network servers on the desktop."
 msgstr "Lägg till en genväg till dina lokala nätverksservrar på skrivbordet"
 
@@ -801,13 +800,12 @@ msgid "Set the globally used mouse cursor theme"
 msgstr "Välj globalt muspekartema"
 
 #: src/panel/settings/settings_style.vala:58
-#, fuzzy
 msgid "Notification Position"
-msgstr "Meddelanden"
+msgstr "Meddelandeposition"
 
 #: src/panel/settings/settings_style.vala:59
 msgid "Set the location for notification popups"
-msgstr ""
+msgstr "Ange plats för notifieringsmeddelanden"
 
 #: src/panel/settings/settings_style.vala:68
 msgid "Dark theme"
