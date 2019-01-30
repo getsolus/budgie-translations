@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-29 16:42+0200\n"
 "PO-Revision-Date: 2019-01-30 18:25+0000\n"
-"Last-Translator: Δημήτρης Δρόσος <jimmydrososs@gmail.com>\n"
+"Last-Translator: Dimitrs Roumeliotis <dimitrisroom20@gmail.com>\n"
 "Language-Team: Greek <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/el/>\n"
 "Language: el_GR\n"
@@ -143,7 +143,7 @@ msgstr "Η μπαταρία φορτίζει"
 
 #: src/applets/status/PowerIndicator.vala:114
 msgid "Battery remaining"
-msgstr "Ποσοστό μπαταρίας απομένει"
+msgstr "Υπολειπόμενη μπαταρία"
 
 #: src/applets/status/PowerIndicator.vala:168
 msgid "Show battery percentage"
@@ -193,7 +193,7 @@ msgstr "Ξεκίνησε καινούργια συνεδρία"
 
 #: src/applets/icon-tasklist/IconPopover.vala:96
 msgid "Close All Windows"
-msgstr ""
+msgstr "Κλείσιμο όλων των παραθύρων"
 
 #: src/applets/icon-tasklist/IconPopover.vala:104
 msgid "Always On Top"
@@ -202,19 +202,19 @@ msgstr "Πάντα από πάνω"
 #: src/applets/icon-tasklist/IconPopover.vala:106
 #: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Maximize"
-msgstr ""
+msgstr "Μεγιστοποίηση"
 
 #: src/applets/icon-tasklist/IconPopover.vala:107
 msgid "Minimize"
-msgstr ""
+msgstr "Ελαχιστοποίηση"
 
 #: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Unfavorite"
-msgstr ""
+msgstr "Αφαίρεση απο τα αγαπημένα"
 
 #: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Favorite"
-msgstr ""
+msgstr "Πρόσθεση στα αγαπημένα"
 
 #. If our current amount of workspaces is different than how many we have added
 #. We have items to add
