@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-29 16:42+0200\n"
-"PO-Revision-Date: 2019-01-30 15:46+0000\n"
+"PO-Revision-Date: 2019-01-30 18:25+0000\n"
 "Last-Translator: Δημήτρης Δρόσος <jimmydrososs@gmail.com>\n"
 "Language-Team: Greek <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/el/>\n"
@@ -70,7 +70,7 @@ msgstr[1] ""
 
 #: src/daemon/settings.vala:318
 msgid "Will turn off in"
-msgstr "Θα απενεργοποιηθεί"
+msgstr "Θα απενεργοποιηθεί σε"
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:44
@@ -93,7 +93,7 @@ msgstr "Καμία εφαρμογή δεν αναπαράγει ήχο."
 
 #: src/raven/start_listening.vala:24
 msgid "Play some music"
-msgstr "Ακούστε μουσική"
+msgstr "Παίξε μουσική"
 
 #: src/raven/notifications_view.vala:106
 msgid "Nothing to see here"
@@ -139,7 +139,7 @@ msgstr "Άγνωστο"
 #. Set inner charging duration to hours:minutes
 #: src/applets/status/PowerIndicator.vala:109
 msgid "Battery charging"
-msgstr "Η Μπαταρία φορτήζει"
+msgstr "Η μπαταρία φορτίζει"
 
 #: src/applets/status/PowerIndicator.vala:114
 msgid "Battery remaining"
@@ -151,7 +151,7 @@ msgstr "Προβολή ποσοστού μπαταρίας"
 
 #: src/applets/status/PowerIndicator.vala:176
 msgid "Power settings"
-msgstr "Ρυθμίσεις ενέργιας"
+msgstr "Ρυθμίσεις ενέργειας"
 
 #. Settings button
 #: src/applets/status/BluetoothIndicator.vala:56
@@ -166,7 +166,7 @@ msgstr "Αποστολή αρχείων"
 #. Airplane mode
 #: src/applets/status/BluetoothIndicator.vala:73
 msgid "Bluetooth Airplane Mode"
-msgstr "Κατάσταση αεροπλάνου για bluetooth"
+msgstr "Κατάσταση αεροπλάνου για Bluetooth"
 
 #: src/applets/status/BluetoothIndicator.vala:179
 msgid "Bluetooth is disabled"
@@ -189,16 +189,15 @@ msgstr "Ρυθμίσεις ήχου"
 
 #: src/applets/icon-tasklist/IconPopover.vala:93
 msgid "Launch New Instance"
-msgstr ""
+msgstr "Ξεκίνησε καινούργια συνεδρία"
 
 #: src/applets/icon-tasklist/IconPopover.vala:96
 msgid "Close All Windows"
 msgstr ""
 
 #: src/applets/icon-tasklist/IconPopover.vala:104
-#, fuzzy
 msgid "Always On Top"
-msgstr "Πάντα"
+msgstr "Πάντα από πάνω"
 
 #: src/applets/icon-tasklist/IconPopover.vala:106
 #: src/applets/icon-tasklist/IconPopover.vala:484
@@ -223,22 +222,20 @@ msgstr ""
 #: src/applets/icon-tasklist/IconPopover.vala:384
 #, c-format
 msgid "Move To Workspace %i"
-msgstr ""
+msgstr "Μετακίνηση Στην Επιφάνεια Εργασίας %i"
 
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Unmaximize"
-msgstr ""
+msgstr "Σμίκρυνση"
 
 #: src/applets/icon-tasklist/IconPopover.vala:543
-#, fuzzy
 msgid "Close Window"
-msgstr "Παράθυρα"
+msgstr "Κλείσιμο Παραθύρου"
 
 #: src/applets/icon-tasklist/IconPopover.vala:545
-#, fuzzy
 msgid "Show Window Controls"
-msgstr "Τίτλοι παραθύρων"
+msgstr "Δείξε Ενέργειες Παραθύρου"
 
 #: src/applets/budgie-menu/IconChooser.vala:27
 msgid "Set menu icon from file"
@@ -262,7 +259,7 @@ msgstr "Άκυρο"
 
 #: src/applets/budgie-menu/IconChooser.vala:56
 msgid "Set icon"
-msgstr "Επιλογή εικόνας"
+msgstr "Επιλογή εικονιδίου"
 
 #. Special case, "All"
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:43
@@ -272,7 +269,7 @@ msgstr "Όλα"
 #. placeholder in case of no results
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:401
 msgid "Sorry, no items found"
-msgstr ""
+msgstr "Δεν βρέθηκαν αποτελέσματα"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
@@ -314,11 +311,12 @@ msgstr "Προβολή δευτερολέπτων"
 
 #: src/applets/clock/ClockApplet.vala:180
 msgid "Use 24 hour time"
-msgstr "Χρήση 24ώρου χρόνου"
+msgstr "Χρήση 24ωρου ρολογιού"
 
 #: src/applets/show-desktop/ShowDesktopApplet.vala:34
+#, fuzzy
 msgid "Toggle the desktop"
-msgstr ""
+msgstr "Ενεργοποίησε την επιφάνεια εργασίας"
 
 #: src/applets/workspaces/WorkspaceItem.vala:72
 msgid "Rename"
@@ -330,7 +328,7 @@ msgstr "Αφαίρεση"
 
 #: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Timer (minutes)"
-msgstr ""
+msgstr "Χρονόμετρο (λεπτά)"
 
 #. User Menu Creation
 #: src/applets/user-indicator/UserIndicatorWindow.vala:95
@@ -354,12 +352,12 @@ msgstr "Αδρανοποίηση"
 #: src/applets/user-indicator/UserIndicatorWindow.vala:104
 #: src/daemon/endsession.ui.h:5
 msgid "Restart"
-msgstr "Επανεκκίνηση "
+msgstr "Επανεκκίνηση"
 
 #: src/applets/user-indicator/UserIndicatorWindow.vala:105
 #: src/daemon/endsession.ui.h:6
 msgid "Shutdown"
-msgstr "Τερματισμός "
+msgstr "Τερματισμός"
 
 #. IndicatorItem switch_user_menu = new IndicatorItem(_("Switch User"), "network-transmit-receive-symbolic", false);
 #: src/applets/user-indicator/UserIndicatorWindow.vala:179
@@ -372,7 +370,7 @@ msgstr "Αποσύνδεση"
 #: src/applets/places-indicator/PlacesIndicator.vala:85
 #: src/applets/places-indicator/PlacesIndicator.plugin.in.h:1
 msgid "Places"
-msgstr "Περιοχές"
+msgstr "Μέρη"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:181
 msgid "Nothing to display right now"
@@ -384,7 +382,7 @@ msgstr "Προσάρτηση ορισμένων δίσκων"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:185
 msgid "Enable more sections"
-msgstr "Ενεργοποίηση περισσότερων τομέων"
+msgstr "Ενεργοποίηση περισσότερων τόμων"
 
 #: src/applets/places-indicator/PlaceItem.vala:38
 #: src/applets/places-indicator/MountItem.vala:65
@@ -394,11 +392,11 @@ msgstr "Ανοίξτε το \"%s\""
 
 #: src/applets/places-indicator/MountHelper.vala:39
 msgid "Volume is in use by other processes"
-msgstr "Ο τόμος είναι σε χρήση από άλλες διαδικασίες"
+msgstr "Ο τόμος είναι σε χρήση από άλλες διεργασίες"
 
 #: src/applets/places-indicator/MountHelper.vala:45
 msgid "Operation aborted"
-msgstr "Η λειτουργία ακυρώθηκε "
+msgstr "Η λειτουργία ακυρώθηκε"
 
 #: src/applets/places-indicator/MountHelper.vala:57
 msgid "Type your password"
@@ -454,11 +452,11 @@ msgstr "Παρουσιάστηκε άγνωστο σφάλμα κατά την �
 
 #: src/applets/places-indicator/MountItem.vala:62
 msgid "Unmount"
-msgstr "αποπροσάρτηση"
+msgstr "Aποπροσάρτηση"
 
 #: src/applets/places-indicator/MountItem.vala:79
 msgid "Unknown Device"
-msgstr "Άγνωση συσκευή"
+msgstr "Άγνωστη συσκευή"
 
 #: src/applets/places-indicator/MountItem.vala:88
 msgid "Error while ejecting device"
@@ -470,7 +468,7 @@ msgstr "Σφάλμα κατά την αποπροσάρτηση του τόμο�
 
 #: src/polkit/polkitdialog.vala:131
 msgid "Authentication failed"
-msgstr "Η πιστοποίηση απέτυχε"
+msgstr "Η αυθεντικοποίηση απέτυχε"
 
 #: src/polkit/polkitdialog.vala:230
 msgid "Group:"
@@ -482,11 +480,11 @@ msgstr "Εμφάνιση"
 
 #: src/panel/settings/settings_main.vala:40
 msgid "Panels"
-msgstr "Πάνελς"
+msgstr "Πάνελ"
 
 #: src/panel/settings/settings_main.vala:41
 msgid "Session"
-msgstr "Συνεδρία "
+msgstr "Συνεδρία"
 
 #: src/panel/settings/settings_main.vala:50
 #: src/panel/budgie-desktop-settings.desktop.in.h:1
@@ -515,23 +513,23 @@ msgstr "Αριστερή μπάρα"
 
 #: src/panel/settings/settings_panel.vala:126
 msgid "Bottom Dock"
-msgstr ""
+msgstr "Κάτω Μπάρα"
 
 #: src/panel/settings/settings_panel.vala:131
 msgid "Top Panel"
-msgstr "Πάνω Πίνακας"
+msgstr "Πάνω Πάνελ"
 
 #: src/panel/settings/settings_panel.vala:133
 msgid "Right Panel"
-msgstr "Δεξιά Πίνακας"
+msgstr "Δεξιά Πάνελ"
 
 #: src/panel/settings/settings_panel.vala:135
 msgid "Left Panel"
-msgstr "Αριστερά Πίνακας"
+msgstr "Αριστερό Πάνελ"
 
 #: src/panel/settings/settings_panel.vala:137
 msgid "Bottom Panel"
-msgstr "Κάτω Πίνακας"
+msgstr "Κάτω Πάνελ"
 
 #: src/panel/settings/settings_panel.vala:176
 msgid "Top"
@@ -568,7 +566,7 @@ msgstr "Αυτόματα"
 
 #: src/panel/settings/settings_panel.vala:211
 msgid "Intelligent"
-msgstr ""
+msgstr "Έξυπνο"
 
 #: src/panel/settings/settings_panel.vala:214
 msgid "Never"
@@ -580,7 +578,7 @@ msgstr "Θέση"
 
 #: src/panel/settings/settings_panel.vala:231
 msgid "Set the edge of the screen that this panel will stay on"
-msgstr ""
+msgstr "Ορίστε την άκρη της οθόνης ώστε ο πίνακας αυτός να παραμείνει αναμμένος"
 
 #: src/panel/settings/settings_panel.vala:239
 msgid "Size"
@@ -604,7 +602,7 @@ msgstr "Διαφάνεια"
 
 #: src/panel/settings/settings_panel.vala:256
 msgid "Control when this panel should have a solid background"
-msgstr ""
+msgstr "Ελέγξτε πότε αυτό το πλαίσιο θα πρέπει να έχει ένα συμπαγές φόντο"
 
 #: src/panel/settings/settings_panel.vala:261
 msgid "Shadow"
@@ -612,15 +610,17 @@ msgstr "Σκίαση"
 
 #: src/panel/settings/settings_panel.vala:262
 msgid "Adds a decorative drop-shadow, ideal for opaque panels"
-msgstr ""
+msgstr "Προσθέτει διακοσμητική σκιά, ιδανική για αδιαφανή πάνελ"
 
 #: src/panel/settings/settings_panel.vala:268
 msgid "Stylize regions"
-msgstr ""
+msgstr "Στολισμένες περιοχές"
 
 #: src/panel/settings/settings_panel.vala:269
 msgid "Adds a hint to the panel so that each of the panel's three main areas may be themed differently."
 msgstr ""
+"Προσθέτει έναν υπαινιγμό στον πίνακα έτσι ώστε κάθε μία από τις τρεις κύριες "
+"περιοχές του πίνακα να μπορεί να είναι διαφορετική."
 
 #: src/panel/settings/settings_panel.vala:276
 msgid "Dock mode"
@@ -629,70 +629,86 @@ msgstr "Κατάσταση μπάρας"
 #: src/panel/settings/settings_panel.vala:277
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
 msgstr ""
+"Όταν βρίσκεται σε κατάσταση μπάρας, ο πίνακας θα χρησιμοποιήσει το ελάχιστο "
+"δυνατό χώρο, απελευθερώνοντας πολύτιμο χώρο οθόνης"
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
-msgstr ""
+msgstr "Επιτρέψτε την αύξηση της έντασης πάνω από το 100%"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
 msgstr ""
+"Επιτρέπει την αύξηση της έντασης του ήχου μέσω των ρυθμίσεων ήχου καθώς και "
+"του Widget ήχου εξόδου στο Raven έως 150%."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
-msgstr ""
+msgstr "Ενεργοποιήστε την εμφάνιση αριθμών εβδομάδων στο Ημερολόγιο"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
 msgstr ""
+"Αυτή η ρύθμιση επιτρέπει την εμφάνιση αριθμών εβδομάδων στο γραφικό στοιχείο "
+"Ημερολογίου."
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
-msgstr ""
+msgstr "Εμφάνιση Γραφικού Στοιχείου Ημερολογίου"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
 msgstr ""
+"Εμφανίζει ή αποκρύπτει το γραφικό στοιχείο ημερολογίου στο τμήμα Applets του "
+"Raven."
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
-msgstr ""
+msgstr "Εμφάνιση του γραφικού στοιχείου για την έξοδο ήχου"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
 msgstr ""
+"Εμφανίζει ή αποκρύπτει το γραφικό στοιχείο εξόδου ήχου στο τμήμα Applets της "
+"Raven."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
-msgstr ""
+msgstr "Εμφάνιση μικροεφαρμογής εισαγωγής μικροφώνου"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
 msgstr ""
+"Εμφανίζει ή αποκρύπτει το γραφικό στοιχείο εισόδου μικροφώνου στο τμήμα "
+"Applets της Raven."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
-msgstr ""
+msgstr "Εμφάνιση του γραφικού στοιχείου Controls Playback Media"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
 msgstr ""
+"Εμφανίζει ή αποκρύπτει το γραφικό στοιχείο του MPRIS (Media Playback "
+"Controls) στο τμήμα Applets της Raven."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
-msgstr ""
+msgstr "Εμφάνιση λωρίδας ισχύος"
 
 #: src/panel/settings/settings_raven.vala:76
 msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr ""
+msgstr "Δείχνει ή κρύβει την λωρίδα ισχύος στο κάτω μέρος του Raven."
 
 #: src/panel/settings/settings_panel_dialogs.vala:29
 msgid "Confirm panel removal"
-msgstr "Επιβεβαίωση αφαίρεσης panel"
+msgstr "Επιβεβαίωση αφαίρεσης πάνελ"
 
 #: src/panel/settings/settings_panel_dialogs.vala:36
 msgid "Do you really want to remove this panel? This action cannot be undone."
-msgstr "Θέλετε σίγουρα να αφαιρέσετε αυτό το panel; Αυτή η ενέργεια δεν μπορεί να αναιρεθεί."
+msgstr ""
+"Θέλετε σίγουρα να αφαιρέσετε αυτό το πάνελ; Αυτή η ενέργεια δεν μπορεί να "
+"αναιρεθεί."
 
 #: src/panel/settings/settings_panel_dialogs.vala:51
 #: src/panel/settings/settings_panel_dialogs.vala:114
@@ -701,11 +717,11 @@ msgstr "Μη με ρωτήσεις ξανά"
 
 #: src/panel/settings/settings_panel_dialogs.vala:60
 msgid "Remove panel"
-msgstr "Αφαίρεση panel"
+msgstr "Αφαίρεση πάνελ"
 
 #: src/panel/settings/settings_panel_dialogs.vala:61
 msgid "Keep panel"
-msgstr ""
+msgstr "Κρατήστε τον πίνακα"
 
 #: src/panel/settings/settings_panel_dialogs.vala:92
 msgid "Confirm applet removal"
@@ -714,6 +730,8 @@ msgstr "Επιβεβαίωση αφαίρεσης applet"
 #: src/panel/settings/settings_panel_dialogs.vala:99
 msgid "Do you really want to remove this applet? This action cannot be undone."
 msgstr ""
+"Θέλετε πραγματικά να καταργήσετε αυτό το applet; Αυτή η πράξη δε μπορεί να "
+"αναιρεθεί."
 
 #: src/panel/settings/settings_panel_dialogs.vala:123
 msgid "Remove applet"
@@ -725,63 +743,63 @@ msgstr "Διατήρηση applet"
 
 #: src/panel/settings/settings_desktop.vala:33
 msgid "Desktop"
-msgstr "Επιφάνεια εργασείας"
+msgstr "Επιφάνεια εργασίας"
 
 #: src/panel/settings/settings_desktop.vala:43
 msgid "Desktop Icons"
-msgstr "Εικόνες Επιφάνιας Εργασίας"
+msgstr "Εικονίδια Επιφάνειας Εργασίας"
 
 #: src/panel/settings/settings_desktop.vala:44
 msgid "Control whether to allow launchers and icons on the desktop."
 msgstr ""
+"Ελέγξτε εάν θα επιτρέψετε εκτοξευτές και εικονίδια στην επιφάνεια εργασίας."
 
 #: src/panel/settings/settings_desktop.vala:54
 msgid "Home directory"
-msgstr ""
+msgstr "Αρχική σελίδα"
 
 #: src/panel/settings/settings_desktop.vala:55
-#, fuzzy
 msgid "Add a shortcut to your home directory on the desktop."
-msgstr "Προσθήκη συντόμευσης του φακέλου Σκουπιδιών στην επιφάνεια εργασίας"
+msgstr "Προσθήκη συντόμευσης του φακέλου Σκουπιδιών στην επιφάνεια εργασίας."
 
 #: src/panel/settings/settings_desktop.vala:60
 msgid "Network servers"
 msgstr "Διακομιστές δικτύωσης"
 
 #: src/panel/settings/settings_desktop.vala:61
-#, fuzzy
 msgid "Add a shortcut to your local network servers on the desktop."
-msgstr "Προσθήκη συντόμευσης των διακομιστών του τοπικού σας δικτύου στην επιφάνεια εργασίας"
+msgstr ""
+"Προσθήκη συντόμευσης των διακομιστών του τοπικού σας δικτύου στην επιφάνεια "
+"εργασίας."
 
 #: src/panel/settings/settings_desktop.vala:66
 msgid "Trash"
 msgstr "Σκουπίδια"
 
 #: src/panel/settings/settings_desktop.vala:67
-#, fuzzy
 msgid "Add a shortcut to the Trash directory on the desktop."
-msgstr "Προσθήκη συντόμευσης του φακέλου Σκουπιδιών στην επιφάνεια εργασίας"
+msgstr "Προσθήκη συντόμευσης του φακέλου Σκουπιδιών στην επιφάνεια εργασίας."
 
 #: src/panel/settings/settings_desktop.vala:72
 msgid "Mounted volumes"
 msgstr "Προσαρτημένοι τόμοι"
 
 #: src/panel/settings/settings_desktop.vala:73
-#, fuzzy
 msgid "Mounted volumes & drives will appear on the desktop."
-msgstr "Οι προσαρτημένοι τόμοι και δίσκοι θα εμφανίζονται στην επιφάνεια εργασίας"
+msgstr ""
+"Οι προσαρτημένοι τόμοι και δίσκοι θα εμφανίζονται στην επιφάνεια εργασίας."
 
 #: src/panel/settings/settings_style.vala:33
 msgid "Style"
-msgstr "Στύλ"
+msgstr "Στιλ"
 
 #: src/panel/settings/settings_style.vala:43
 msgid "Widgets"
-msgstr "Εφαρμογές "
+msgstr "Εφαρμογές"
 
 #: src/panel/settings/settings_style.vala:44
 msgid "Set the appearance of window decorations and controls"
-msgstr "Ορισμός διακόσμησης παραθύρων  "
+msgstr "Ρυθμίστε την εμφάνιση διακοσμήσεων και χειριστηρίων των παραθύρων"
 
 #: src/panel/settings/settings_style.vala:48
 msgid "Icons"
@@ -800,26 +818,26 @@ msgid "Set the globally used mouse cursor theme"
 msgstr "Επιλογή του ευρέως χρησιμοποιούμενου θέματος κέρσορα ποντικιού"
 
 #: src/panel/settings/settings_style.vala:58
-#, fuzzy
 msgid "Notification Position"
-msgstr "Ειδοποιήσεις"
+msgstr "Θέση ειδοποίησης"
 
 #: src/panel/settings/settings_style.vala:59
 msgid "Set the location for notification popups"
-msgstr ""
+msgstr "Ορίστε τη θέση για τα αναδυόμενα παράθυρα ειδοποιήσεων"
 
 #: src/panel/settings/settings_style.vala:68
 msgid "Dark theme"
-msgstr "Σκούρο θέμα"
+msgstr "Σκοτεινό θέμα"
 
 #: src/panel/settings/settings_style.vala:72
 msgid "Built-in theme"
 msgstr "Ενσωματωμένο θέμα"
 
 #: src/panel/settings/settings_style.vala:73
-#, fuzzy
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr "Όταν ενεργοποιηθεί ,η εξάρτηση θέματος  επιφάνειας εργασίας θα αντικατασταθεί με την ενσωματωμένη ."
+msgstr ""
+"Όταν ενεργοποιηθεί, το ενσωματωμένο θέμα θα αντικαταστήσει αυτό της "
+"επιφάνειας εργασίας του στοιχείου"
 
 #: src/panel/settings/settings_style.vala:77
 msgid "Animations"
@@ -827,27 +845,25 @@ msgstr "Εφέ κίνησης"
 
 #: src/panel/settings/settings_style.vala:78
 msgid "Control whether windows and controls use animations"
-msgstr "Επιλέξατε  εάν θέλετε τα παράθυρα και τα χειριστήρια να χρησιμοποιούν κινούμενες εικόνες"
+msgstr ""
+"Επιλέξατε εάν θέλετε τα παράθυρα και τα χειριστήρια να χρησιμοποιούν "
+"κινούμενες εικόνες"
 
 #: src/panel/settings/settings_style.vala:195
-#, fuzzy
 msgid "Top Left"
-msgstr "Αριστερά"
+msgstr "Πάνω αριστερά"
 
 #: src/panel/settings/settings_style.vala:197
-#, fuzzy
 msgid "Bottom Left"
-msgstr "Κάτω"
+msgstr "Κάτω αριστερά"
 
 #: src/panel/settings/settings_style.vala:199
-#, fuzzy
 msgid "Bottom Right"
-msgstr "Κάτω"
+msgstr "Κάτω δεξιά"
 
 #: src/panel/settings/settings_style.vala:202
-#, fuzzy
 msgid "Top Right"
-msgstr "Δεξιά"
+msgstr "Πάνω δεξιά"
 
 #: src/panel/settings/settings_autostart.vala:141
 msgid "Untitled"
@@ -901,9 +917,8 @@ msgid "Autostart"
 msgstr "Αυτόματη εκκίνηση"
 
 #: src/panel/settings/settings_autostart.vala:483
-#, fuzzy
 msgid "Autostart apps"
-msgstr "Αυτόματη εκκίνηση"
+msgstr "Αυτόματη εκκίνηση εφαρμογών"
 
 #: src/panel/settings/settings_panel_applets.vala:22
 msgid "Configure applet"
@@ -916,7 +931,7 @@ msgstr "Προσθήκη applet"
 
 #: src/panel/settings/settings_panel_applets.vala:246
 msgid "Choose a new applet to add to this panel"
-msgstr "Επιλέξτε ένα νέο applet για να προσθέσετε σε αυτό το panel"
+msgstr "Επιλέξτε ένα νέο applet για να προσθέσετε σε αυτό το πάνελ"
 
 #: src/panel/settings/settings_panel_applets.vala:260
 msgid "No settings available"
@@ -940,66 +955,77 @@ msgstr "Παράθυρα"
 
 #: src/panel/settings/settings_wm.vala:41
 msgid "Attach modal dialogs to windows"
-msgstr "Επισύναψη παραθύρου διαλόγου στα παράθυρα "
+msgstr "Επισύναψη παραθύρου διαλόγου στα παράθυρα"
 
 #: src/panel/settings/settings_wm.vala:42
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
 msgstr ""
+"Τα παράθυρα διαλόγου θα προσαρτηθούν στο γονικό παράθυρο και θα μετακινηθούν "
+"μαζί όταν σύρονται."
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Button layout"
-msgstr "Διάταξη Πλήκτων"
+msgstr "Διάταξη Πλήκτρων"
 
 #: src/panel/settings/settings_wm.vala:48
-#, fuzzy
 msgid "Change the layout of buttons in application titlebars."
-msgstr "Αλλαγή διάταξης κουμπιών στις γραμμές εφαρμογών"
+msgstr "Αλλάξτε τη διάταξη των κουμπιών στις γραμμές τίτλου της εφαρμογής."
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
-msgstr ""
+msgstr "Κεντράρετε τα νέα παράθυρα στην οθόνη"
 
 #: src/panel/settings/settings_wm.vala:54
 msgid "Center newly launched windows on the current screen."
-msgstr ""
+msgstr "Κεντράρετε νέα τοποθετημένα παράθυρα στην τρέχουσα οθόνη."
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
 msgstr ""
+"Απενεργοποιήστε τη λειτουργία νυχτός όταν τα παράθυρα είναι σε πλήρης οθόνη"
 
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr ""
+"Απενεργοποιεί τη λειτουργία νυχτός όταν ένα παράθυρο είναι σε πλήρης οθόνη. "
+"Ενεργοποιείται εκ νέου κατά την αναχώρηση ολόκληρης της οθόνης."
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
-msgstr "Αυτόματη ενσωμάτωση "
+msgstr "Αυτόματη ενσωμάτωση"
 
 #: src/panel/settings/settings_wm.vala:66
-#, fuzzy
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr "Τα παράθυρα θα ενσωματώνονται αυτόματα όταν μετακινούνται στην άνω πλευρά της οθόνης ή στης γωνίες αυτής"
+msgstr ""
+"Τα παράθυρα θα ενσωματώνονται αυτόματα όταν μετακινούνται στην άνω πλευρά "
+"της οθόνης ή στης γωνίες αυτής."
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
 msgstr ""
+"Ενεργοποίηση αλλαγής εστίασης παραθύρου στο ποντίκι όταν εισάγετε και φεύγει"
 
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
 msgstr ""
+"Ενεργοποιεί την εστίαση του παραθύρου που εφαρμόζεται όταν το ποντίκι "
+"εισέρχεται στο παράθυρο και την απενεργοποιεί όταν το ποντίκι εγκαταλείπει "
+"το παράθυρο."
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
 msgstr "Απενεργοποίηση αναπροσανατολισμού των παραθύρων"
 
 #: src/panel/settings/settings_wm.vala:79
-#, fuzzy
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr "Η συγκεκριμένη επιλογή προορίζεται για προχωρημένους χρήστες. Επιλέξτε το αν έχετε προβλήματα με τα γραφικά και τις επιδόσεις της πρόσθετης κάρτας γραφικών "
+msgstr ""
+"Η συγκεκριμένη επιλογή προορίζεται για προχωρημένους χρήστες. Επιλέξτε το αν "
+"έχετε προβλήματα με τα γραφικά και τις επιδόσεις της πρόσθετης κάρτας "
+"γραφικών ."
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
-msgstr "Δεξιά (στάνταρ) "
+msgstr "Δεξιά (στάνταρ)"
 
 #: src/panel/settings/settings_fonts.vala:33
 msgid "Fonts"
@@ -1010,48 +1036,50 @@ msgid "Window Titles"
 msgstr "Τίτλοι παραθύρων"
 
 #: src/panel/settings/settings_fonts.vala:45
-#, fuzzy
 msgid "Set the font used in the titlebars of applications."
-msgstr "Ρυθμίστε τη γραμματοσειρά που θα χρησιμοποιείται στις μπάρες τίτλου εφαρμογών"
+msgstr ""
+"Ρυθμίστε τη γραμματοσειρά που θα χρησιμοποιείται στις μπάρες τίτλου "
+"εφαρμογών."
 
 #: src/panel/settings/settings_fonts.vala:51
 msgid "Documents"
 msgstr "Έγγραφα"
 
 #: src/panel/settings/settings_fonts.vala:52
-#, fuzzy
 msgid "Set the display font used by for documents."
-msgstr "Ρυθμίστε τη γραμματοσειρά που θα χρησιμοποιείται για έγγραφα"
+msgstr "Ρυθμίστε τη γραμματοσειρά που θα χρησιμοποιείται για έγγραφα."
 
 #: src/panel/settings/settings_fonts.vala:58
 msgid "Interface"
 msgstr "Διεπαφή"
 
 #: src/panel/settings/settings_fonts.vala:59
-#, fuzzy
 msgid "Set the primary font used by application controls."
-msgstr "Ρυθμίστε την κύρια γραμματοσειρά που θα χρησιμοποιείται από τα στοιχεία ελέγχου εφαρμογών"
+msgstr ""
+"Ρυθμίστε την κύρια γραμματοσειρά που θα χρησιμοποιείται από τα στοιχεία "
+"ελέγχου εφαρμογών."
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Monospace"
 msgstr "Monospace"
 
 #: src/panel/settings/settings_fonts.vala:66
-#, fuzzy
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr "Ρυθμίστε τη γραμματοσειρά που θα χρησιμοποιείται στις μπάρες τίτλου εφαρμογών"
+msgstr ""
+"Ρυθμίστε τη γραμματοσειρά που θα χρησιμοποιείται στις μπάρες τίτλου "
+"εφαρμογών."
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
-msgstr ""
+msgstr "Κλιμάκωση κειμένου"
 
 #: src/panel/settings/settings_fonts.vala:73
 msgid "Set the text scaling factor."
-msgstr ""
+msgstr "Ορίστε τον συντελεστή κλιμάκωσης κειμένου."
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
-msgstr "Επιλογή εφαρμογής"
+msgstr "Επιλογή applet"
 
 #: src/daemon/endsession.ui.h:2
 msgid "Are you sure you want to end your session?"
@@ -1059,28 +1087,28 @@ msgstr "Είστε σίγουροι για τον τερματισμό της σ
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
-msgstr ""
+msgstr "Εμφάνιση όλων των παραθύρων με κλικ"
 
 #: src/applets/icon-tasklist/settings.ui.h:2
 msgid "Only show favorited"
-msgstr ""
+msgstr "Εμφάνιση μόνο των αγαπημένων"
 
 #: src/applets/icon-tasklist/settings.ui.h:3
 msgid "Lock icons"
-msgstr ""
+msgstr "Κλείδωμα εικονιδίων"
 
 #: src/applets/icon-tasklist/settings.ui.h:4
 msgid "Restrict to Workspace"
-msgstr ""
+msgstr "Περιορίστε στο χώρο εργασίας"
 
 #: src/applets/icon-tasklist/settings.ui.h:5
 msgid "Window grouping"
-msgstr ""
+msgstr "Ομαδοποίηση παραθύρων"
 
 #: src/applets/night-light/indicator_window.ui.h:1
 #: src/applets/night-light/NightLight.plugin.in.h:1
 msgid "Night Light"
-msgstr "Βραδινό φώς "
+msgstr "Βραδινό φως"
 
 #: src/applets/night-light/indicator_window.ui.h:2
 msgid "Temperature"
@@ -1112,7 +1140,7 @@ msgstr "Προβολή Ετικέτας Μενού"
 
 #: src/applets/budgie-menu/settings.ui.h:2
 msgid "Compact Mode"
-msgstr ""
+msgstr "Συμπαγής λειτουργία"
 
 #: src/applets/budgie-menu/settings.ui.h:3
 msgid "Show Headers"
@@ -1124,7 +1152,7 @@ msgstr "Ετικέτα Μενού"
 
 #: src/applets/budgie-menu/settings.ui.h:5
 msgid "Roll-over mouse"
-msgstr ""
+msgstr "Κύλινδρος ποντικιού"
 
 #: src/applets/budgie-menu/settings.ui.h:6
 msgid "Menu Icon"
@@ -1132,33 +1160,31 @@ msgstr "Εικονίδιο Μενού"
 
 #: src/applets/workspaces/settings.ui.h:1
 msgid "\"Add\" button visibility"
-msgstr ""
+msgstr "Ορατότητα του κουμπιού \"Προσθήκη\""
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
-msgstr ""
+msgstr "Μην εμφανίζετε"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
-msgstr ""
+msgstr "Εμφάνιση στο κατά το πέρασμα του ποντικιού"
 
 #: src/applets/workspaces/settings.ui.h:4
-#, fuzzy
 msgid "Always show"
-msgstr "Πάντα"
+msgstr "Εμφάνιση πάντα"
 
 #: src/applets/caffeine/settings.ui.h:1
-#, fuzzy
 msgid "Enable notification"
-msgstr "Καμία νέα ειδοποίηση"
+msgstr "Ενεργοποίηση ειδοποιήσεων"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
-msgstr ""
+msgstr "Μεγιστοποίηση φωτεινότητας"
 
 #: src/applets/caffeine/settings.ui.h:3
 msgid "Brightness Level"
-msgstr ""
+msgstr "Επίπεδο Φωτεινότητας"
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
@@ -1170,7 +1196,7 @@ msgstr "Εμφάνιση τοποθεσιών"
 
 #: src/applets/places-indicator/settings.ui.h:3
 msgid "Show network folders"
-msgstr "Δείξε φακέλους δυκτιου"
+msgstr "Δείξε φακέλους δικτύου"
 
 #: src/applets/places-indicator/settings.ui.h:4
 msgid "Show removable drives"
@@ -1178,7 +1204,7 @@ msgstr "Προβολή αφαιρούμενων δίσκων"
 
 #: src/applets/places-indicator/settings.ui.h:5
 msgid "Always expand places"
-msgstr ""
+msgstr "Πάντα να επεκτείνετε τα μέρη"
 
 #: src/polkit/dialog.ui.h:1
 msgid "Authentication Required"
@@ -1190,7 +1216,7 @@ msgstr "Κωδικός:"
 
 #: src/polkit/dialog.ui.h:3
 msgid "Authentication is required"
-msgstr "Η πιστοποίηση απαιτείται"
+msgstr "Απαιτείται πιστοποίηση"
 
 #: src/polkit/dialog.ui.h:5
 msgid "Authenticate"
@@ -1199,7 +1225,7 @@ msgstr "Πιστοποιήστε"
 #: src/session/budgie-desktop.desktop.in.in.h:1
 #: src/session/budgie-desktop.session.in.in.h:1
 msgid "Budgie Desktop"
-msgstr "Επιφάνια Εργασίας Budgie"
+msgstr "Επιφάνεια Εργασίας Budgie"
 
 #: src/session/budgie-desktop.desktop.in.in.h:2
 msgid "This session logs you into the Budgie Desktop"
@@ -1207,11 +1233,11 @@ msgstr "Αυτή η συνεδρία σας συνδέει στο Budgie Desktop
 
 #: src/applets/tray/TrayApplet.plugin.in.h:1
 msgid "System Tray"
-msgstr ""
+msgstr "Εικονίδια Συστήματος"
 
 #: src/applets/status/StatusApplet.plugin.in.h:1
 msgid "Status Indicator"
-msgstr "Δείκτης κατάστασης "
+msgstr "Δείκτης κατάστασης"
 
 #: src/applets/icon-tasklist/IconTasklistApplet.plugin.in.h:1
 msgid "Icon Task List"
@@ -1231,7 +1257,7 @@ msgstr "Ένδειξη Κλειδώματος Πλήκτρων"
 
 #: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
 msgid "Raven Sidebar Control"
-msgstr ""
+msgstr "Έλεγχος πλευρικής γραμμής Raven"
 
 #: src/applets/clock/ClockApplet.plugin.in.h:1
 msgid "Clock"
@@ -1243,7 +1269,7 @@ msgstr "Διαχωριστής"
 
 #: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
 msgid "Show Desktop Button"
-msgstr "Πλήκτρο Εμφάνισης Επιφάνιας Εργασίας"
+msgstr "Πλήκτρο Εμφάνισης Επιφάνειας Εργασίας"
 
 #: src/applets/workspaces/WorkspacesApplet.plugin.in.h:1
 msgid "Workspace Switcher"
@@ -1255,7 +1281,7 @@ msgstr "Λίστα εργασιών"
 
 #: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
 msgid "Caffeine"
-msgstr ""
+msgstr "Caffeine"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
@@ -1266,14 +1292,15 @@ msgid "User Indicator"
 msgstr "Δείκτης Χρήστη"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
-#, fuzzy
 msgid "Change desktop appearance and behavior"
 msgstr "Αλλάξτε την εμφάνιση και συμπεριφορά της επιφάνειας εργασίας"
 
 #: src/panel/budgie-panel.desktop.in.h:1
 msgid "Budgie Panel"
-msgstr "Budgie Panel"
+msgstr "Budgie Πάνελ"
 
 #: src/panel/budgie-panel.desktop.in.h:2
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
-msgstr "Εκτέλεση άλλων εφαρμογών και παροχή διάφορων εργαλείων για τη διαχείριση παραθήρων, εμφάνιση της ώρας, κλπ"
+msgstr ""
+"Εκτέλεση άλλων εφαρμογών και παροχή διάφορων εργαλείων για τη διαχείριση "
+"παραθύρων, εμφάνιση της ώρας, κλπ."
