@@ -20,8 +20,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-29 16:42+0200\n"
-"PO-Revision-Date: 2019-01-31 16:46+0000\n"
-"Last-Translator: Iair Poloniecki <iapolo.90@gmail.com>\n"
+"PO-Revision-Date: 2019-02-01 14:35+0000\n"
+"Last-Translator: Evan Maddock <maddock.evan@vivaldi.net>\n"
 "Language-Team: Spanish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/es/>\n"
 "Language: es\n"
@@ -691,11 +691,11 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
-msgstr ""
+msgstr "Mostrar la regleta"
 
 #: src/panel/settings/settings_raven.vala:76
 msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr ""
+msgstr "Mostrar u ocultar la tira de energía en la parte inferior de Raven."
 
 #: src/panel/settings/settings_panel_dialogs.vala:29
 msgid "Confirm panel removal"
@@ -744,7 +744,7 @@ msgstr "Iconos del escritorio"
 
 #: src/panel/settings/settings_desktop.vala:44
 msgid "Control whether to allow launchers and icons on the desktop."
-msgstr "Controle si se permiten lanzadores e íconos en el escritorio"
+msgstr "Controle si se permiten lanzadores e íconos en el escritorio."
 
 #: src/panel/settings/settings_desktop.vala:54
 msgid "Home directory"
@@ -813,7 +813,7 @@ msgstr "Posición de notificaciones"
 
 #: src/panel/settings/settings_style.vala:59
 msgid "Set the location for notification popups"
-msgstr ""
+msgstr "Establecer la ubicación de los popups de notificación"
 
 #: src/panel/settings/settings_style.vala:68
 msgid "Dark theme"
@@ -824,9 +824,10 @@ msgid "Built-in theme"
 msgstr "Tema integrado"
 
 #: src/panel/settings/settings_style.vala:73
-#, fuzzy
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr "Cuando está activada, el estilo del tema de escritorio será anulado con el incorporado"
+msgstr ""
+"Cuando está activada, el tema integrado invalidará el estilo de componente "
+"de escritorio"
 
 #: src/panel/settings/settings_style.vala:77
 msgid "Animations"
@@ -945,34 +946,37 @@ msgid "Attach modal dialogs to windows"
 msgstr "Adjunte diálogos modales a las ventanas"
 
 #: src/panel/settings/settings_wm.vala:42
-#, fuzzy
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr "Los diálogos modales se adjuntarán a la ventana principal y se moverán juntos cuando se los arrastre"
+msgstr ""
+"Los diálogos modales se adjuntarán a la ventana principal y se moverán "
+"juntos cuando se los arrastre."
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Button layout"
 msgstr "Disposición de los botones"
 
 #: src/panel/settings/settings_wm.vala:48
-#, fuzzy
 msgid "Change the layout of buttons in application titlebars."
-msgstr "Cambiar de lugar los botones de la barra de título"
+msgstr ""
+"Cambie el diseño de los botones en las barras de título de la aplicación."
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
-msgstr ""
+msgstr "Centrar ventanas nuevas en la pantalla"
 
 #: src/panel/settings/settings_wm.vala:54
 msgid "Center newly launched windows on the current screen."
-msgstr ""
+msgstr "Centrar las ventanas recién lanzadas en la pantalla actual."
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
-msgstr ""
+msgstr "Desactivar el modo noche cuando las ventanas están a pantalla completa"
 
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr ""
+"Desactiva el modo noche cuando una ventana está a pantalla completa. Vuelve "
+"a activar al salir de pantalla completa."
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
@@ -996,9 +1000,10 @@ msgid "Disable unredirection of windows"
 msgstr "Deshabilitar desredirección de ventanas"
 
 #: src/panel/settings/settings_wm.vala:79
-#, fuzzy
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr "Esta opción es para usuarios avanzados. Use esto si tiene problemas gráficos o de rendimiento con GPU dedicadas"
+msgstr ""
+"Esta opción es para usuarios avanzados. Utilice esta función si tiene "
+"problemas gráficos o de rendimiento con las GPU dedicadas."
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
@@ -1040,17 +1045,18 @@ msgid "Monospace"
 msgstr "Monoespacio"
 
 #: src/panel/settings/settings_fonts.vala:66
-#, fuzzy
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr "Establecer la fuente de ancho fijo utilizado por aplicaciones predominantes de texto"
+msgstr ""
+"Establezca la fuente de ancho fijo utilizada por las aplicaciones de texto "
+"dominante."
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
-msgstr ""
+msgstr "Escalado de texto"
 
 #: src/panel/settings/settings_fonts.vala:73
 msgid "Set the text scaling factor."
-msgstr ""
+msgstr "Establezca el factor de escala de texto."
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
@@ -1062,23 +1068,23 @@ msgstr "¿Está seguro de que quiere cerrar la sesión?"
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
-msgstr ""
+msgstr "Mostrar todas las ventanas cuando se hace clic"
 
 #: src/applets/icon-tasklist/settings.ui.h:2
 msgid "Only show favorited"
-msgstr ""
+msgstr "Mostrar solo marcado como favorito"
 
 #: src/applets/icon-tasklist/settings.ui.h:3
 msgid "Lock icons"
-msgstr ""
+msgstr "Bloquear los iconos"
 
 #: src/applets/icon-tasklist/settings.ui.h:4
 msgid "Restrict to Workspace"
-msgstr ""
+msgstr "Restringir al espacio de trabajo"
 
 #: src/applets/icon-tasklist/settings.ui.h:5
 msgid "Window grouping"
-msgstr ""
+msgstr "Agrupación de ventanas"
 
 #: src/applets/night-light/indicator_window.ui.h:1
 #: src/applets/night-light/NightLight.plugin.in.h:1
@@ -1135,15 +1141,15 @@ msgstr "Icono del menú"
 
 #: src/applets/workspaces/settings.ui.h:1
 msgid "\"Add\" button visibility"
-msgstr ""
+msgstr "Visibilidad del botón \"Añadir\""
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
-msgstr ""
+msgstr "No mostrar"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
-msgstr ""
+msgstr "Mostrar cuando se mouseover"
 
 #: src/applets/workspaces/settings.ui.h:4
 msgid "Always show"
@@ -1155,11 +1161,11 @@ msgstr "Activar notificación"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
-msgstr ""
+msgstr "Maximice el brillo"
 
 #: src/applets/caffeine/settings.ui.h:3
 msgid "Brightness Level"
-msgstr ""
+msgstr "Nivel de brillo"
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
@@ -1256,7 +1262,7 @@ msgstr "Lista del Tareas"
 
 #: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
 msgid "Caffeine"
-msgstr ""
+msgstr "Caffeine"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
