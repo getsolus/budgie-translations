@@ -21,7 +21,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-29 16:42+0200\n"
 "PO-Revision-Date: 2019-01-31 16:26+0000\n"
-"Last-Translator: Evan Maddock <maddock.evan@vivaldi.net>\n"
+"Last-Translator: Juan Bente <jcbente@gmail.com>\n"
 "Language-Team: Spanish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/es/>\n"
 "Language: es\n"
@@ -98,7 +98,7 @@ msgstr "No hay aplicaciones que están reproduciendo audio actualmente."
 
 #: src/raven/start_listening.vala:24
 msgid "Play some music"
-msgstr "Tocar algo de música"
+msgstr "Reproducir música"
 
 #: src/raven/notifications_view.vala:106
 msgid "Nothing to see here"
