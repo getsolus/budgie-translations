@@ -20,9 +20,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-29 16:42+0200\n"
-"PO-Revision-Date: 2019-01-25 09:45+0000\n"
+"PO-Revision-Date: 2019-01-31 15:25+0000\n"
 "Last-Translator: Evan Maddock <maddock.evan@vivaldi.net>\n"
-"Language-Team: Spanish <http://translate.getsol.us/projects/budgie-desktop/translations/es/>\n"
+"Language-Team: Spanish <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -52,7 +53,7 @@ msgstr "Configuración de pantallas"
 
 #: src/daemon/menus.vala:66 src/panel/settings/settings_panel.vala:97
 msgid "Settings"
-msgstr "Ajustes"
+msgstr "Configuraciónes"
 
 #. Should show a notification
 #: src/daemon/settings.vala:310
@@ -107,7 +108,7 @@ msgstr "Nada que ver aquí"
 #: src/applets/notifications/NotificationsApplet.vala:109
 #, c-format
 msgid "%u unread notifications"
-msgstr "%u notificaciones no leídas"
+msgstr "%u notificaciónes no leídas"
 
 #: src/raven/notifications_view.vala:676
 #: src/applets/notifications/NotificationsApplet.vala:111
@@ -117,11 +118,11 @@ msgstr "1 notificación no leída"
 #: src/raven/notifications_view.vala:678
 #: src/applets/notifications/NotificationsApplet.vala:113
 msgid "No unread notifications"
-msgstr "No hay notificaciones no leídas"
+msgstr "No hay notificaciónes no leídas"
 
 #: src/raven/notifications_view.vala:913
 msgid "No new notifications"
-msgstr "No hay nuevas notificaciones"
+msgstr "No hay notificaciones nuevas"
 
 #. 125ms
 #: src/raven/sound.vala:151
@@ -143,7 +144,7 @@ msgstr "Desconocido"
 #. Set inner charging duration to hours:minutes
 #: src/applets/status/PowerIndicator.vala:109
 msgid "Battery charging"
-msgstr "Batería cargando"
+msgstr "Batería está cargando"
 
 #: src/applets/status/PowerIndicator.vala:114
 msgid "Battery remaining"
