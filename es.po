@@ -20,8 +20,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-29 16:42+0200\n"
-"PO-Revision-Date: 2019-01-31 15:28+0000\n"
-"Last-Translator: Juan Bente <jcbente@gmail.com>\n"
+"PO-Revision-Date: 2019-01-31 16:26+0000\n"
+"Last-Translator: Evan Maddock <maddock.evan@vivaldi.net>\n"
 "Language-Team: Spanish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/es/>\n"
 "Language: es\n"
@@ -85,7 +85,7 @@ msgstr ""
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
-msgstr "Complementos"
+msgstr "Applets"
 
 #: src/raven/main_view.vala:66
 #: src/applets/notifications/NotificationsApplet.plugin.in.h:1
@@ -277,7 +277,7 @@ msgstr "Todo"
 #. placeholder in case of no results
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:401
 msgid "Sorry, no items found"
-msgstr "No se han encontrado resultados."
+msgstr "No se han encontrado resultados"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
@@ -323,7 +323,7 @@ msgstr "Usar formado de 24h"
 
 #: src/applets/show-desktop/ShowDesktopApplet.vala:34
 msgid "Toggle the desktop"
-msgstr "Alternar el escritorio"
+msgstr "Pasar el escritorio"
 
 #: src/applets/workspaces/WorkspaceItem.vala:72
 msgid "Rename"
@@ -399,11 +399,11 @@ msgstr "Abrir \"%s\""
 
 #: src/applets/places-indicator/MountHelper.vala:39
 msgid "Volume is in use by other processes"
-msgstr "El disco está siendo usado por otros procesos"
+msgstr "El disco está siendo usado por procesos otros"
 
 #: src/applets/places-indicator/MountHelper.vala:45
 msgid "Operation aborted"
-msgstr "Operación abortada"
+msgstr "Operación se abortada"
 
 #: src/applets/places-indicator/MountHelper.vala:57
 msgid "Type your password"
@@ -447,7 +447,7 @@ msgstr "Introduzca la contraseña de cifrado para desbloquear este volumen"
 #: src/applets/places-indicator/VolumeItem.vala:87
 #: src/applets/places-indicator/MountItem.vala:78
 msgid "You can now safely remove"
-msgstr "Ahora puede eliminar con seguridad"
+msgstr "Ahora puede sacar con seguridad"
 
 #: src/applets/places-indicator/VolumeItem.vala:119
 msgid "The password you entered is incorrect"
@@ -455,7 +455,7 @@ msgstr "La contraseña es incorrecta"
 
 #: src/applets/places-indicator/VolumeItem.vala:123
 msgid "An unknown error occurred while attempting to mount this volume"
-msgstr "Ha ocurrido un error desconocido intentando montar este volumen"
+msgstr "Ha ocurrido un error desconocido intentando a montar este volumen"
 
 #: src/applets/places-indicator/MountItem.vala:62
 msgid "Unmount"
@@ -475,7 +475,7 @@ msgstr "Error al desmontar el volumen"
 
 #: src/polkit/polkitdialog.vala:131
 msgid "Authentication failed"
-msgstr "Autenticación fallida"
+msgstr "Autenticación se fallida"
 
 #: src/polkit/polkitdialog.vala:230
 msgid "Group:"
@@ -553,7 +553,7 @@ msgstr "Izquierda"
 
 #: src/panel/settings/settings_panel.vala:182
 msgid "Bottom"
-msgstr "Inferior"
+msgstr "Fondo"
 
 #: src/panel/settings/settings_panel.vala:193
 msgid "Always"
@@ -565,7 +565,7 @@ msgstr "Dinámico"
 
 #: src/panel/settings/settings_panel.vala:198
 msgid "None"
-msgstr "Ninguno"
+msgstr "Nada"
 
 #: src/panel/settings/settings_panel.vala:209
 msgid "Automatic"
@@ -913,12 +913,12 @@ msgstr "Autoiniciar"
 
 #: src/panel/settings/settings_panel_applets.vala:22
 msgid "Configure applet"
-msgstr "Configurar applet"
+msgstr "Configuraciónes del applet"
 
 #: src/panel/settings/settings_panel_applets.vala:245
 #: src/panel/settings/settings_applet_chooser.vala:85
 msgid "Add applet"
-msgstr "Agregar applet"
+msgstr "Agregar un applet"
 
 #: src/panel/settings/settings_panel_applets.vala:246
 msgid "Choose a new applet to add to this panel"
@@ -1135,7 +1135,7 @@ msgstr "Al pasar el cursor"
 
 #: src/applets/budgie-menu/settings.ui.h:6
 msgid "Menu Icon"
-msgstr "Icono de menú"
+msgstr "Icono del menú"
 
 #: src/applets/workspaces/settings.ui.h:1
 msgid "\"Add\" button visibility"
@@ -1169,23 +1169,23 @@ msgstr ""
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
-msgstr "Mostrar etiqueta"
+msgstr "Mostrar la etiqueta"
 
 #: src/applets/places-indicator/settings.ui.h:2
 msgid "Show places"
-msgstr "Mostrar lugares"
+msgstr "Mostrar los lugares"
 
 #: src/applets/places-indicator/settings.ui.h:3
 msgid "Show network folders"
-msgstr "Mostrar carpetas de red"
+msgstr "Mostrar las carpetas de red"
 
 #: src/applets/places-indicator/settings.ui.h:4
 msgid "Show removable drives"
-msgstr "Mostrar dispositivos extraíbles"
+msgstr "Mostrar los dispositivos extraíbles"
 
 #: src/applets/places-indicator/settings.ui.h:5
 msgid "Always expand places"
-msgstr "Siempre expandir lugares"
+msgstr "Siempre expandir los lugares"
 
 #: src/polkit/dialog.ui.h:1
 msgid "Authentication Required"
@@ -1197,7 +1197,7 @@ msgstr "Contraseña:"
 
 #: src/polkit/dialog.ui.h:3
 msgid "Authentication is required"
-msgstr "Autenticación es requerida"
+msgstr "Autenticación esta requerida"
 
 #: src/polkit/dialog.ui.h:5
 msgid "Authenticate"
@@ -1214,11 +1214,11 @@ msgstr "Esta sesión te permite ingresar al Escritorio Budgie"
 
 #: src/applets/tray/TrayApplet.plugin.in.h:1
 msgid "System Tray"
-msgstr "Bandeja de Sistema"
+msgstr "Bandeja del Sistema"
 
 #: src/applets/status/StatusApplet.plugin.in.h:1
 msgid "Status Indicator"
-msgstr "Indicador de Estado"
+msgstr "Indicador del Estado"
 
 #: src/applets/icon-tasklist/IconTasklistApplet.plugin.in.h:1
 msgid "Icon Task List"
@@ -1250,15 +1250,15 @@ msgstr "Separador"
 
 #: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
 msgid "Show Desktop Button"
-msgstr "Mostrar/Ocultar Escritorio"
+msgstr "Mostrar/Ocultar el Escritorio"
 
 #: src/applets/workspaces/WorkspacesApplet.plugin.in.h:1
 msgid "Workspace Switcher"
-msgstr "Cambiar de espacio de trabajo"
+msgstr "Cambiar del espacio de trabajo"
 
 #: src/applets/tasklist/TasklistApplet.plugin.in.h:1
 msgid "Task List"
-msgstr "Lista de Tareas"
+msgstr "Lista del Tareas"
 
 #: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
 msgid "Caffeine"
@@ -1270,7 +1270,7 @@ msgstr "Indicador de disposición de teclado"
 
 #: src/applets/user-indicator/UserIndicator.plugin.in.h:1
 msgid "User Indicator"
-msgstr "Indicador de usuario"
+msgstr "Indicador del usuario"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
 #, fuzzy
@@ -1283,4 +1283,6 @@ msgstr "Panel Budgie"
 
 #: src/panel/budgie-panel.desktop.in.h:2
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
-msgstr "Correr otras aplicaciones y proveer varias utilidades para configurar ventanas, tiempo, etc."
+msgstr ""
+"Iniciar otras aplicaciones y proveer utilidades varias para configurar las "
+"ventanas, el tiempo, etc."
