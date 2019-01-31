@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-29 16:42+0200\n"
-"PO-Revision-Date: 2019-01-31 15:25+0000\n"
+"PO-Revision-Date: 2019-01-31 15:28+0000\n"
 "Last-Translator: Juan Bente <jcbente@gmail.com>\n"
 "Language-Team: Spanish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/es/>\n"
@@ -216,7 +216,7 @@ msgstr "Minimizar"
 
 #: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Unfavorite"
-msgstr "Quitar de favoritos"
+msgstr "Sacar de favoritos"
 
 #: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Favorite"
@@ -228,7 +228,7 @@ msgstr "Agregar a Favoritos"
 #: src/applets/icon-tasklist/IconPopover.vala:384
 #, c-format
 msgid "Move To Workspace %i"
-msgstr "Mover al espacio de trabajo %i"
+msgstr "Mover al área de trabajo %i"
 
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:484
@@ -277,7 +277,7 @@ msgstr "Todo"
 #. placeholder in case of no results
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:401
 msgid "Sorry, no items found"
-msgstr "Lo sentimos, no se encontraron artículos"
+msgstr "No se han encontrado resultados."
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
