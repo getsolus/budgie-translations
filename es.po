@@ -20,8 +20,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-29 16:42+0200\n"
-"PO-Revision-Date: 2019-01-31 16:38+0000\n"
-"Last-Translator: Iair Poloniecki <iapolo.90@gmail.com>\n"
+"PO-Revision-Date: 2019-01-31 16:45+0000\n"
+"Last-Translator: Evan Maddock <maddock.evan@vivaldi.net>\n"
 "Language-Team: Spanish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/es/>\n"
 "Language: es\n"
@@ -652,7 +652,7 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
-msgstr "Mostrar widget Calendario"
+msgstr "Mostrar el widget Calendario"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
@@ -906,9 +906,8 @@ msgid "Autostart"
 msgstr "Autoiniciar"
 
 #: src/panel/settings/settings_autostart.vala:483
-#, fuzzy
 msgid "Autostart apps"
-msgstr "Autoiniciar"
+msgstr "Aplicaciones de inicio automático"
 
 #: src/panel/settings/settings_panel_applets.vala:22
 msgid "Configure applet"
@@ -1149,14 +1148,12 @@ msgid "Show on mouseover"
 msgstr ""
 
 #: src/applets/workspaces/settings.ui.h:4
-#, fuzzy
 msgid "Always show"
-msgstr "Siempre"
+msgstr "Siempre mostrar"
 
 #: src/applets/caffeine/settings.ui.h:1
-#, fuzzy
 msgid "Enable notification"
-msgstr "No hay nuevas notificaciones"
+msgstr "Activar notificación"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
@@ -1272,7 +1269,6 @@ msgid "User Indicator"
 msgstr "Indicador del usuario"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
-#, fuzzy
 msgid "Change desktop appearance and behavior"
 msgstr "Cambiar apariencia y comportamiento del escritorio"
 
