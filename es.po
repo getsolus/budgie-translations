@@ -20,8 +20,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-29 16:42+0200\n"
-"PO-Revision-Date: 2019-01-31 16:45+0000\n"
-"Last-Translator: Evan Maddock <maddock.evan@vivaldi.net>\n"
+"PO-Revision-Date: 2019-01-31 16:46+0000\n"
+"Last-Translator: Iair Poloniecki <iapolo.90@gmail.com>\n"
 "Language-Team: Spanish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/es/>\n"
 "Language: es\n"
@@ -657,30 +657,37 @@ msgstr "Mostrar el widget Calendario"
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
 msgstr ""
+"Muestra u oculta el Widget Calendario en la sección de Applets del Raven."
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
-msgstr ""
+msgstr "Mostrar el Widget de Salida de Sonido"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
 msgstr ""
+"Muestra u oculta el Widget de Salida de Sonido en la sección de Applets del "
+"Raven."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
-msgstr ""
+msgstr "Mostrar el Widget de Entrada de Micrófono"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
 msgstr ""
+"Muestra u oculta el Widget de Entrada de Micrófono en la sección de Applets "
+"del Raven."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
-msgstr ""
+msgstr "Mostrar el Widget de Control de la Reproducción Multimedia"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
 msgstr ""
+"Muestra u oculta el Widget de Control de la Reproducción Multimedia (MPRIS) "
+"en la sección de Applets del Raven."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
@@ -736,45 +743,41 @@ msgid "Desktop Icons"
 msgstr "Iconos del escritorio"
 
 #: src/panel/settings/settings_desktop.vala:44
-#, fuzzy
 msgid "Control whether to allow launchers and icons on the desktop."
-msgstr "Controle si se permiten lanzadores e iconos en el escritorio"
+msgstr "Controle si se permiten lanzadores e íconos en el escritorio"
 
 #: src/panel/settings/settings_desktop.vala:54
 msgid "Home directory"
 msgstr "Carpeta personal"
 
 #: src/panel/settings/settings_desktop.vala:55
-#, fuzzy
 msgid "Add a shortcut to your home directory on the desktop."
-msgstr "Agregar acceso directo a la carpeta personal o al escritorio"
+msgstr "Agregar un acceso directo a la carpeta personal en el escritorio."
 
 #: src/panel/settings/settings_desktop.vala:60
 msgid "Network servers"
 msgstr "Servidores de red"
 
 #: src/panel/settings/settings_desktop.vala:61
-#, fuzzy
 msgid "Add a shortcut to your local network servers on the desktop."
-msgstr "Agregue un acceso directo a sus servidores de red local en el escritorio"
+msgstr ""
+"Agregue un acceso directo a sus servidores de red local en el escritorio."
 
 #: src/panel/settings/settings_desktop.vala:66
 msgid "Trash"
 msgstr "Papelera"
 
 #: src/panel/settings/settings_desktop.vala:67
-#, fuzzy
 msgid "Add a shortcut to the Trash directory on the desktop."
-msgstr "Agregue un acceso directo de la Papelera en el escritorio"
+msgstr "Agregue un acceso directo a la Papelera en el escritorio."
 
 #: src/panel/settings/settings_desktop.vala:72
 msgid "Mounted volumes"
 msgstr "Volúmenes montados"
 
 #: src/panel/settings/settings_desktop.vala:73
-#, fuzzy
 msgid "Mounted volumes & drives will appear on the desktop."
-msgstr "Discos y volúmenes montados aparecerán en el escritorio"
+msgstr "Discos y volúmenes montados aparecerán en el escritorio."
 
 #: src/panel/settings/settings_style.vala:33
 msgid "Style"
@@ -805,9 +808,8 @@ msgid "Set the globally used mouse cursor theme"
 msgstr "Establecer el tema de cursor utilizado globalmente"
 
 #: src/panel/settings/settings_style.vala:58
-#, fuzzy
 msgid "Notification Position"
-msgstr "Notificaciónes"
+msgstr "Posición de notificaciones"
 
 #: src/panel/settings/settings_style.vala:59
 msgid "Set the location for notification popups"
@@ -835,24 +837,20 @@ msgid "Control whether windows and controls use animations"
 msgstr "Controle si las ventanas y los controles usan animaciones"
 
 #: src/panel/settings/settings_style.vala:195
-#, fuzzy
 msgid "Top Left"
-msgstr "Izquierda"
+msgstr "Superior Izquierda"
 
 #: src/panel/settings/settings_style.vala:197
-#, fuzzy
 msgid "Bottom Left"
-msgstr "Inferior"
+msgstr "Inferior Izquierda"
 
 #: src/panel/settings/settings_style.vala:199
-#, fuzzy
 msgid "Bottom Right"
-msgstr "Inferior"
+msgstr "Inferior Derecha"
 
 #: src/panel/settings/settings_style.vala:202
-#, fuzzy
 msgid "Top Right"
-msgstr "Derecha"
+msgstr "Superior Derecha"
 
 #: src/panel/settings/settings_autostart.vala:141
 msgid "Untitled"
