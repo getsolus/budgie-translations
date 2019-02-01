@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-29 16:42+0200\n"
-"PO-Revision-Date: 2019-02-01 16:05+0000\n"
+"PO-Revision-Date: 2019-02-01 16:11+0000\n"
 "Last-Translator: Juan Reyna <jreyna.f@gmail.com>\n"
 "Language-Team: Spanish (Mexico) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/es_MX/>\n"
@@ -67,13 +67,13 @@ msgstr[1] ""
 
 #: src/daemon/settings.vala:318
 msgid "Will turn off in"
-msgstr ""
+msgstr "Se apagará en"
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:44
 #: src/applets/caffeine/CaffeineWindow.vala:25
 msgid "Caffeine Mode"
-msgstr ""
+msgstr "Modo Caffeine "
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
@@ -86,11 +86,11 @@ msgstr "Notificaciones"
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
-msgstr ""
+msgstr "No hay aplicaciones reproduciendo audio actualmente."
 
 #: src/raven/start_listening.vala:24
 msgid "Play some music"
-msgstr ""
+msgstr "Toca algo de música"
 
 #: src/raven/notifications_view.vala:106
 msgid "Nothing to see here"
@@ -119,11 +119,11 @@ msgstr "No hay nuevas notificaciones"
 #. 125ms
 #: src/raven/sound.vala:151
 msgid "Apps"
-msgstr ""
+msgstr "Aplicaciones"
 
 #: src/raven/sound.vala:152
 msgid "Devices"
-msgstr ""
+msgstr "Dispositivos"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
@@ -186,33 +186,32 @@ msgstr "Ajustes de sonido"
 
 #: src/applets/icon-tasklist/IconPopover.vala:93
 msgid "Launch New Instance"
-msgstr ""
+msgstr "Iniciar nueva instancia"
 
 #: src/applets/icon-tasklist/IconPopover.vala:96
 msgid "Close All Windows"
-msgstr ""
+msgstr "Cerrar todas las ventanas"
 
 #: src/applets/icon-tasklist/IconPopover.vala:104
-#, fuzzy
 msgid "Always On Top"
-msgstr "Siempre"
+msgstr "Siempre visible"
 
 #: src/applets/icon-tasklist/IconPopover.vala:106
 #: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Maximize"
-msgstr ""
+msgstr "Maximizar"
 
 #: src/applets/icon-tasklist/IconPopover.vala:107
 msgid "Minimize"
-msgstr ""
+msgstr "Minimizar"
 
 #: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Unfavorite"
-msgstr ""
+msgstr "Remover de favoritos"
 
 #: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Favorite"
-msgstr ""
+msgstr "Agregar a favoritos"
 
 #. If our current amount of workspaces is different than how many we have added
 #. We have items to add
@@ -220,22 +219,20 @@ msgstr ""
 #: src/applets/icon-tasklist/IconPopover.vala:384
 #, c-format
 msgid "Move To Workspace %i"
-msgstr ""
+msgstr "Mover al espacio de trabajo %i"
 
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Unmaximize"
-msgstr ""
+msgstr "Restaurar"
 
 #: src/applets/icon-tasklist/IconPopover.vala:543
-#, fuzzy
 msgid "Close Window"
-msgstr "Ventanas"
+msgstr "Cerrar Ventana"
 
 #: src/applets/icon-tasklist/IconPopover.vala:545
-#, fuzzy
 msgid "Show Window Controls"
-msgstr "Titulos de ventana"
+msgstr "Mostrar opciones de ventana"
 
 #: src/applets/budgie-menu/IconChooser.vala:27
 msgid "Set menu icon from file"
@@ -269,7 +266,7 @@ msgstr "Todo"
 #. placeholder in case of no results
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:401
 msgid "Sorry, no items found"
-msgstr ""
+msgstr "No se encontró ningún resultado"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
@@ -327,7 +324,7 @@ msgstr "Quitar"
 
 #: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Timer (minutes)"
-msgstr ""
+msgstr "Temporizador (minutos)"
 
 #. User Menu Creation
 #: src/applets/user-indicator/UserIndicatorWindow.vala:95
@@ -373,7 +370,7 @@ msgstr "Lugares"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:181
 msgid "Nothing to display right now"
-msgstr "Nada que mostrar ahora."
+msgstr "Nada que mostrar en este momento"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:185
 msgid "Mount some drives"
@@ -625,55 +622,69 @@ msgstr "Modo Dock"
 
 #: src/panel/settings/settings_panel.vala:277
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
-msgstr "Cuando se pone en modo Dock, el panel usará la menor cantidad de espacio posible."
+msgstr ""
+"Cuando se pone en modo Dock, el panel usará la menor cantidad de espacio "
+"posible, liberando espacio en la pantalla"
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
-msgstr ""
+msgstr "Permitir que el volumen suba por encima de 100%"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
 msgstr ""
+"Permitir que el volumen suba por medio de la configuración de sonido, así "
+"como el complemento de salida en Raven hasta 150%"
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
-msgstr ""
+msgstr "Mostrar el día de la semana en el Calendario"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
 msgstr ""
+"Estos ajustes permiten mostrar el numero de semana en el complemento de "
+"Calendario"
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
-msgstr ""
+msgstr "Mostrar complemento de Calendario"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
 msgstr ""
+"Mostrar u ocultar el complemento de Calendario en la sección de Applets de "
+"Raven"
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
-msgstr ""
+msgstr "Mostrar complemento de salida de sonido"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
 msgstr ""
+"Mostrar u ocultar el complemento de salida de sonido en la sección Applets "
+"de Raven"
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
-msgstr ""
+msgstr "Mostrar complemento de entrada de micrófono "
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
 msgstr ""
+"Mostrar u ocultar el complemento de entrada del micrófono en la sección de "
+"Applets de Raven"
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
-msgstr ""
+msgstr "Mostrar el complemento de los controles de reproducción multimedia"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
 msgstr ""
+"Mostrar u ocultar el complemento de los controles de reproducción multimedia "
+"(MPRIS) en los Applets de Raven"
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
@@ -899,9 +910,8 @@ msgid "Autostart"
 msgstr "Autoarranque"
 
 #: src/panel/settings/settings_autostart.vala:483
-#, fuzzy
 msgid "Autostart apps"
-msgstr "Autoarranque"
+msgstr "Aplicaciones de inicio automático"
 
 #: src/panel/settings/settings_panel_applets.vala:22
 msgid "Configure applet"
@@ -956,7 +966,7 @@ msgstr "Cambiar el disenño de los botones en las barras de titulo de las aplica
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
-msgstr ""
+msgstr "Centrar nueva ventana en la pantalla"
 
 #: src/panel/settings/settings_wm.vala:54
 msgid "Center newly launched windows on the current screen."
@@ -964,11 +974,13 @@ msgstr ""
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
-msgstr ""
+msgstr "Desactivar modo de luz nocturna cuando las ventanas estén maximizadas"
 
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr ""
+"Desactivar modo de luz nocturna cuando la ventana este en pantalla completa, "
+"re-activar cuando salga de pantalla completa"
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
@@ -982,10 +994,13 @@ msgstr "Las ventanas se acomodaran automáticamente cuando se arrastren a la par
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
 msgstr ""
+"Habilitar el cambio de enfoque de la ventana en el ratón al entrar y salir.\n"
 
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
 msgstr ""
+"Permite que el enfoque de la ventana se aplique cuando el ratón entra en la "
+"ventana y se desenfoca cuando el ratón abandona la ventana."
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
@@ -1042,7 +1057,7 @@ msgstr "Establecer el ancho predeterminado usadpo por el texto dominante en las 
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
-msgstr ""
+msgstr "Escala de texto"
 
 #: src/panel/settings/settings_fonts.vala:73
 msgid "Set the text scaling factor."
@@ -1058,23 +1073,23 @@ msgstr "¿Estas seguro de querer terminar la sesión?"
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
-msgstr ""
+msgstr "Mostrar todas las ventanas al hacer click"
 
 #: src/applets/icon-tasklist/settings.ui.h:2
 msgid "Only show favorited"
-msgstr ""
+msgstr "Solo mostrar favoritos"
 
 #: src/applets/icon-tasklist/settings.ui.h:3
 msgid "Lock icons"
-msgstr ""
+msgstr "Iconos de bloqueo"
 
 #: src/applets/icon-tasklist/settings.ui.h:4
 msgid "Restrict to Workspace"
-msgstr ""
+msgstr "Restringir a espacio de trabajo"
 
 #: src/applets/icon-tasklist/settings.ui.h:5
 msgid "Window grouping"
-msgstr ""
+msgstr "Agrupamiento de ventanas"
 
 #: src/applets/night-light/indicator_window.ui.h:1
 #: src/applets/night-light/NightLight.plugin.in.h:1
@@ -1131,33 +1146,31 @@ msgstr "Ícono del Menú"
 
 #: src/applets/workspaces/settings.ui.h:1
 msgid "\"Add\" button visibility"
-msgstr ""
+msgstr "\"Agregar\" visibilidad de botton"
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
-msgstr ""
+msgstr "No mostrar"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
-msgstr ""
+msgstr "Mostrar al sobreponer ratón"
 
 #: src/applets/workspaces/settings.ui.h:4
-#, fuzzy
 msgid "Always show"
-msgstr "Siempre"
+msgstr "Mostrar siempre"
 
 #: src/applets/caffeine/settings.ui.h:1
-#, fuzzy
 msgid "Enable notification"
-msgstr "No hay nuevas notificaciones"
+msgstr "Habilitar notificación"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
-msgstr ""
+msgstr "Maximizar brillo"
 
 #: src/applets/caffeine/settings.ui.h:3
 msgid "Brightness Level"
-msgstr ""
+msgstr "Nivel de brillo"
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
@@ -1185,7 +1198,7 @@ msgstr "Autenticación requerida"
 
 #: src/polkit/dialog.ui.h:2
 msgid "Password:"
-msgstr "Contraseña"
+msgstr "Contraseña:"
 
 #: src/polkit/dialog.ui.h:3
 msgid "Authentication is required"
@@ -1254,7 +1267,7 @@ msgstr "Lista de tareas"
 
 #: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
 msgid "Caffeine"
-msgstr ""
+msgstr "Cafeína"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
@@ -1265,7 +1278,6 @@ msgid "User Indicator"
 msgstr "Indicador de Usuario"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
-#, fuzzy
 msgid "Change desktop appearance and behavior"
 msgstr "Cambiar la apariencia del escritorio y comportamiento"
 
