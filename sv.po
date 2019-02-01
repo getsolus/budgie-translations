@@ -19,8 +19,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-29 16:42+0200\n"
-"PO-Revision-Date: 2019-02-01 16:17+0000\n"
-"Last-Translator: Nora <tsumugikotobuki@tfwno.gf>\n"
+"PO-Revision-Date: 2019-02-02 01:34+0000\n"
+"Last-Translator: Tobias Croby <tobias@croby.se>\n"
 "Language-Team: Swedish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/sv/>\n"
 "Language: sv\n"
@@ -44,7 +44,7 @@ msgstr "Stäng av"
 
 #: src/daemon/menus.vala:52
 msgid "Change background"
-msgstr "Byt bakgrund"
+msgstr "Ändra bakgrund"
 
 #: src/daemon/menus.vala:57
 msgid "Displays"
@@ -84,7 +84,7 @@ msgstr "Caffeine-läge"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
-msgstr "Miniprogram"
+msgstr "Applets"
 
 #: src/raven/main_view.vala:66
 #: src/applets/notifications/NotificationsApplet.plugin.in.h:1
@@ -107,7 +107,7 @@ msgstr "Inget att se här"
 #: src/applets/notifications/NotificationsApplet.vala:109
 #, c-format
 msgid "%u unread notifications"
-msgstr "%u olästa meddelanden"
+msgstr "Antal olästa meddelanden: %u"
 
 #: src/raven/notifications_view.vala:676
 #: src/applets/notifications/NotificationsApplet.vala:111
@@ -134,7 +134,7 @@ msgstr "Enheter"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
-msgstr "Batteriet uppladdat."
+msgstr "Batteriet fulladdat."
 
 #: src/applets/status/PowerIndicator.vala:100
 msgid "Unknown"
@@ -147,7 +147,7 @@ msgstr "Batteriet laddas"
 
 #: src/applets/status/PowerIndicator.vala:114
 msgid "Battery remaining"
-msgstr "Batteri återstående"
+msgstr "Kvarvarande batteri"
 
 #: src/applets/status/PowerIndicator.vala:168
 msgid "Show battery percentage"
@@ -251,7 +251,7 @@ msgstr "Bildfiler"
 
 #: src/applets/budgie-menu/IconChooser.vala:43
 msgid "Any file"
-msgstr "Alla filer"
+msgstr "Vilken fil som helst"
 
 #: src/applets/budgie-menu/IconChooser.vala:55
 #: src/panel/settings/settings_autostart.vala:203
@@ -259,7 +259,7 @@ msgstr "Alla filer"
 #: src/panel/settings/settings_applet_chooser.vala:84
 #: src/daemon/endsession.ui.h:3 src/polkit/dialog.ui.h:4
 msgid "Cancel"
-msgstr "Ångra"
+msgstr "Avbryt"
 
 #: src/applets/budgie-menu/IconChooser.vala:56
 msgid "Set icon"
@@ -277,19 +277,19 @@ msgstr "Ledsen, inga resultat hittades"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
-msgstr "Skiftlås är aktiverad"
+msgstr "Caps lock är aktiverat"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:65
 msgid "Caps lock is not active"
-msgstr "Skiftlås är inte aktiverad"
+msgstr "Caps lock är inte aktiverat"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:75
 msgid "Num lock is active"
-msgstr "Numeriskt lås är aktiverat"
+msgstr "Num lock är aktiverat"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:78
 msgid "Num lock is not active"
-msgstr "Numeriskt lås är inte aktiverat"
+msgstr "Num lock är inte aktiverat"
 
 #: src/applets/clock/ClockApplet.vala:151
 msgid "Time and date settings"
@@ -315,7 +315,7 @@ msgstr "Visa sekunder"
 
 #: src/applets/clock/ClockApplet.vala:180
 msgid "Use 24 hour time"
-msgstr "Använd 24-timmarsklocka"
+msgstr "Använd 24-timmars tidvisning"
 
 #: src/applets/show-desktop/ShowDesktopApplet.vala:34
 msgid "Toggle the desktop"
@@ -403,7 +403,7 @@ msgstr "Operationen avbröts"
 
 #: src/applets/places-indicator/MountHelper.vala:57
 msgid "Type your password"
-msgstr "Skriv ditt lösenord"
+msgstr "Ange ditt lösenord"
 
 #: src/applets/places-indicator/VolumeItem.vala:27
 #: src/applets/places-indicator/MountItem.vala:25
@@ -438,7 +438,7 @@ msgstr "Mata ut"
 #: src/applets/places-indicator/VolumeItem.vala:76
 #: src/applets/places-indicator/VolumeItem.vala:121
 msgid "Enter the encryption passphrase to unlock this volume"
-msgstr "Skriv in krypteringslösenord för att låsa upp denna volym"
+msgstr "Skriv in det krypterade lösenordet för att låsa upp den här volymen"
 
 #: src/applets/places-indicator/VolumeItem.vala:87
 #: src/applets/places-indicator/MountItem.vala:78
@@ -447,11 +447,11 @@ msgstr "Du kan nu säkert koppla från"
 
 #: src/applets/places-indicator/VolumeItem.vala:119
 msgid "The password you entered is incorrect"
-msgstr "Lösenordet du skrev in är inkorrekt"
+msgstr "Lösenordet som du angett är felaktigt"
 
 #: src/applets/places-indicator/VolumeItem.vala:123
 msgid "An unknown error occurred while attempting to mount this volume"
-msgstr "Ett okänt fel inträffade vid montering av denna volym"
+msgstr "Ett okänt fel inträffade vid montering av den här volymen"
 
 #: src/applets/places-indicator/MountItem.vala:62
 msgid "Unmount"
@@ -459,11 +459,11 @@ msgstr "Avmontera"
 
 #: src/applets/places-indicator/MountItem.vala:79
 msgid "Unknown Device"
-msgstr "Okänd Enhet"
+msgstr "Okänd enhet"
 
 #: src/applets/places-indicator/MountItem.vala:88
 msgid "Error while ejecting device"
-msgstr "Fel uppstod vid utmatning av enhet"
+msgstr "Fel uppstod när enheten skulle matas ut"
 
 #: src/applets/places-indicator/MountItem.vala:105
 msgid "Error while unmounting volume"
@@ -471,7 +471,7 @@ msgstr "Fel uppstod vid avmontering av volym"
 
 #: src/polkit/polkitdialog.vala:131
 msgid "Authentication failed"
-msgstr "Autentiseringen misslyckades"
+msgstr "Autentisering misslyckad"
 
 #: src/polkit/polkitdialog.vala:230
 msgid "Group:"
@@ -492,7 +492,7 @@ msgstr "Session"
 #: src/panel/settings/settings_main.vala:50
 #: src/panel/budgie-desktop-settings.desktop.in.h:1
 msgid "Budgie Desktop Settings"
-msgstr "Inställningar för Budgie-skrivbordsmiljö"
+msgstr "Skrivbordsinställningar för Budgie"
 
 #: src/panel/settings/settings_main.vala:81
 msgid "Create new panel"
@@ -500,23 +500,23 @@ msgstr "Skapa ny panel"
 
 #: src/panel/settings/settings_panel.vala:80
 msgid "Remove this panel from the screen"
-msgstr "Ta bort denna panel från skärmen"
+msgstr "Ta bort den här panelen från skärmen"
 
 #: src/panel/settings/settings_panel.vala:120
 msgid "Top Dock"
-msgstr "Fäst i toppen"
+msgstr "Docka längst upp"
 
 #: src/panel/settings/settings_panel.vala:122
 msgid "Right Dock"
-msgstr "Fäst till höger"
+msgstr "Docka till höger"
 
 #: src/panel/settings/settings_panel.vala:124
 msgid "Left Dock"
-msgstr "Fäst till vänster"
+msgstr "Docka till vänster"
 
 #: src/panel/settings/settings_panel.vala:126
 msgid "Bottom Dock"
-msgstr "Fäst i botten"
+msgstr "Docka längst ner"
 
 #: src/panel/settings/settings_panel.vala:131
 msgid "Top Panel"
@@ -561,7 +561,7 @@ msgstr "Dynamisk"
 
 #: src/panel/settings/settings_panel.vala:198
 msgid "None"
-msgstr "Inget"
+msgstr "Ingen"
 
 #: src/panel/settings/settings_panel.vala:209
 msgid "Automatic"
@@ -581,7 +581,7 @@ msgstr "Position"
 
 #: src/panel/settings/settings_panel.vala:231
 msgid "Set the edge of the screen that this panel will stay on"
-msgstr "Välj vilken kant på skärmen denna panel ska fästas mot"
+msgstr "Välj vart på skärmen den här panelen ska dockas"
 
 #: src/panel/settings/settings_panel.vala:239
 msgid "Size"
@@ -597,7 +597,9 @@ msgstr "Dölj automatiskt"
 
 #: src/panel/settings/settings_panel.vala:248
 msgid "When set, this panel will hide from view to maximize screen estate"
-msgstr "Om detta är påslaget så kommer panelen att döljas för att maximera tillgänglig skärmyta"
+msgstr ""
+"Om aktiverat så kommer panelen att döljas för att maximera tillgänglig "
+"skärmyta"
 
 #: src/panel/settings/settings_panel.vala:255
 msgid "Transparency"
@@ -613,15 +615,17 @@ msgstr "Skugga"
 
 #: src/panel/settings/settings_panel.vala:262
 msgid "Adds a decorative drop-shadow, ideal for opaque panels"
-msgstr "Lägger till en dekorativ skugga, passande för ogenomskinliga paneler"
+msgstr "Lägger till en dekorativ skugga som passar för ogenomskinliga paneler"
 
 #: src/panel/settings/settings_panel.vala:268
 msgid "Stylize regions"
-msgstr "Stilisera regioner"
+msgstr "Tema för regioner"
 
 #: src/panel/settings/settings_panel.vala:269
 msgid "Adds a hint to the panel so that each of the panel's three main areas may be themed differently."
-msgstr "Lägger till en antydan så att de tre huvudområdena i panelen kan få olika stil."
+msgstr ""
+"Lägger till hint i panelen så att varje område i de tre huvudområdena kan "
+"justeras olika i teman."
 
 #: src/panel/settings/settings_panel.vala:276
 msgid "Dock mode"
@@ -653,7 +657,7 @@ msgstr "Visa kalenderwidget"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr "Visar eller döljer kalenderwidgeten i Ravens Applets-sektion"
+msgstr "Visar eller döljer kalenderwidgeten i Ravens Applets-sektion."
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
@@ -661,7 +665,7 @@ msgstr "Visa ljudinställningswidget"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr "Visar eller döljer ljudinställningswidgeten i Ravens Applets-sektion"
+msgstr "Visar eller döljer ljudinställningswidgeten i Ravens Applets-sektion."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
@@ -693,7 +697,7 @@ msgstr "Bekräfta borttagande av panel"
 
 #: src/panel/settings/settings_panel_dialogs.vala:36
 msgid "Do you really want to remove this panel? This action cannot be undone."
-msgstr "Vill du verkligen ta bort denna panel? Denna åtgärd kan inte återställas."
+msgstr "Vill du verkligen ta bort den här panelen? Åtgärden kan inte ångras."
 
 #: src/panel/settings/settings_panel_dialogs.vala:51
 #: src/panel/settings/settings_panel_dialogs.vala:114
@@ -714,7 +718,7 @@ msgstr "Bekräfta borttagande av applet"
 
 #: src/panel/settings/settings_panel_dialogs.vala:99
 msgid "Do you really want to remove this applet? This action cannot be undone."
-msgstr "Vill du verkligen ta bort denna applet? Denna åtgärd kan inte återställas."
+msgstr "Vill du verkligen ta bort den här appleten? Åtgärden kan inte ångras."
 
 #: src/panel/settings/settings_panel_dialogs.vala:123
 msgid "Remove applet"
@@ -734,7 +738,7 @@ msgstr "Skrivbordsikoner"
 
 #: src/panel/settings/settings_desktop.vala:44
 msgid "Control whether to allow launchers and icons on the desktop."
-msgstr "Ange om ikoner och genvägar ska tillåtas på skrivbordet"
+msgstr "Ange om ikoner och genvägar ska tillåtas på skrivbordet."
 
 #: src/panel/settings/settings_desktop.vala:54
 msgid "Home directory"
@@ -742,7 +746,7 @@ msgstr "Hemkatalog"
 
 #: src/panel/settings/settings_desktop.vala:55
 msgid "Add a shortcut to your home directory on the desktop."
-msgstr "Lägg till en genväg till din hemkatalog på skrivbordet"
+msgstr "Lägg till en genväg till din hemkatalog på skrivbordet."
 
 #: src/panel/settings/settings_desktop.vala:60
 msgid "Network servers"
@@ -750,7 +754,7 @@ msgstr "Nätverksservrar"
 
 #: src/panel/settings/settings_desktop.vala:61
 msgid "Add a shortcut to your local network servers on the desktop."
-msgstr "Lägg till en genväg till dina lokala nätverksservrar på skrivbordet"
+msgstr "Lägg till genvägar till dina lokala nätverksservrar på skrivbordet."
 
 #: src/panel/settings/settings_desktop.vala:66
 msgid "Trash"
@@ -774,11 +778,11 @@ msgstr "Stil"
 
 #: src/panel/settings/settings_style.vala:43
 msgid "Widgets"
-msgstr "Komponenter"
+msgstr "Widgets"
 
 #: src/panel/settings/settings_style.vala:44
 msgid "Set the appearance of window decorations and controls"
-msgstr "Ställ in utseendet för fönsterdekorationer och kontroller"
+msgstr "Välj utseende för fönsterdekorationer och kontroller"
 
 #: src/panel/settings/settings_style.vala:48
 msgid "Icons"
@@ -786,19 +790,19 @@ msgstr "Ikoner"
 
 #: src/panel/settings/settings_style.vala:49
 msgid "Set the globally used icon theme"
-msgstr "Välj globalt ikontema"
+msgstr "Välj globalt tema för ikoner"
 
 #: src/panel/settings/settings_style.vala:53
 msgid "Cursors"
-msgstr "Pekare"
+msgstr "Muspekare"
 
 #: src/panel/settings/settings_style.vala:54
 msgid "Set the globally used mouse cursor theme"
-msgstr "Välj globalt muspekartema"
+msgstr "Välj globalt tema för muspekare"
 
 #: src/panel/settings/settings_style.vala:58
 msgid "Notification Position"
-msgstr "Meddelandeposition"
+msgstr "Position för notifieringsmeddelande"
 
 #: src/panel/settings/settings_style.vala:59
 msgid "Set the location for notification popups"
@@ -815,8 +819,8 @@ msgstr "Inbyggt tema"
 #: src/panel/settings/settings_style.vala:73
 msgid "When enabled, the built-in theme will override the desktop component styling"
 msgstr ""
-"Om påslagen kommer skrivbordets komponentstil att ha företräde över den "
-"inbyggda stilen."
+"Om aktiverat kommer det inbyggda temat att ha företräde över skrivbordets "
+"komponenttema"
 
 #: src/panel/settings/settings_style.vala:77
 msgid "Animations"
@@ -828,23 +832,23 @@ msgstr "Ställ in animationer för fönster och kontroller"
 
 #: src/panel/settings/settings_style.vala:195
 msgid "Top Left"
-msgstr "Övre Vänstra"
+msgstr "Uppe till vänster"
 
 #: src/panel/settings/settings_style.vala:197
 msgid "Bottom Left"
-msgstr "Nedre vänstra"
+msgstr "Nere till vänster"
 
 #: src/panel/settings/settings_style.vala:199
 msgid "Bottom Right"
-msgstr "Nedre högra"
+msgstr "Nere till höger"
 
 #: src/panel/settings/settings_style.vala:202
 msgid "Top Right"
-msgstr "Övre högra"
+msgstr "Uppe till höger"
 
 #: src/panel/settings/settings_autostart.vala:141
 msgid "Untitled"
-msgstr "Inget namn"
+msgstr "Inte namngiven"
 
 #: src/panel/settings/settings_autostart.vala:148
 msgid "No description"
@@ -852,7 +856,7 @@ msgstr "Ingen beskrivning"
 
 #: src/panel/settings/settings_autostart.vala:171
 msgid "running"
-msgstr "igång"
+msgstr "körs"
 
 #: src/panel/settings/settings_autostart.vala:194
 msgid "Applications"
@@ -870,7 +874,7 @@ msgstr "Kommando"
 
 #: src/panel/settings/settings_autostart.vala:387
 msgid "An entry with that title already exists"
-msgstr "En post med denna titel finns redan"
+msgstr "En post med den här titeln finns redan"
 
 #: src/panel/settings/settings_autostart.vala:390
 msgid "Title"
@@ -887,7 +891,7 @@ msgstr "Beskrivning"
 
 #: src/panel/settings/settings_autostart.vala:401
 msgid "Optional"
-msgstr "Valfritt"
+msgstr "Valfri"
 
 #: src/panel/settings/settings_autostart.vala:465
 msgid "Autostart"
@@ -895,7 +899,7 @@ msgstr "Autostart"
 
 #: src/panel/settings/settings_autostart.vala:483
 msgid "Autostart apps"
-msgstr "Autostart"
+msgstr "Starta appar automatiskt"
 
 #: src/panel/settings/settings_panel_applets.vala:22
 msgid "Configure applet"
@@ -904,11 +908,11 @@ msgstr "Konfigurera applet"
 #: src/panel/settings/settings_panel_applets.vala:245
 #: src/panel/settings/settings_applet_chooser.vala:85
 msgid "Add applet"
-msgstr "Lägg till ett miniprogram"
+msgstr "Lägg till applet"
 
 #: src/panel/settings/settings_panel_applets.vala:246
 msgid "Choose a new applet to add to this panel"
-msgstr "Välj en ny applet att lägga till i denna panel"
+msgstr "Lägg till en ny applet i den här panelen"
 
 #: src/panel/settings/settings_panel_applets.vala:260
 msgid "No settings available"
@@ -932,12 +936,12 @@ msgstr "Fönster"
 
 #: src/panel/settings/settings_wm.vala:41
 msgid "Attach modal dialogs to windows"
-msgstr "Fäst modala dialogrutor till dess fönster"
+msgstr "Fäst modala dialogrutor i fönster"
 
 #: src/panel/settings/settings_wm.vala:42
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
 msgstr ""
-"Modala dialoger fästs vid fönstren som de berör och följer med när fönstret "
+"Modala dialogrutor fästs vid huvudfönstren och följer med när fönstret "
 "flyttas."
 
 #: src/panel/settings/settings_wm.vala:47
@@ -971,25 +975,29 @@ msgstr "Automatiskt rutnät"
 #: src/panel/settings/settings_wm.vala:66
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
 msgstr ""
-"Fönster passar automatiskt in i rutnätet när de dras in i hörn eller kanter."
+"Fönster anpassas automatiskt till rutnätet när de dras in mot hörn eller "
+"kanter."
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
-msgstr "Aktivera fokus på fönster med hjälp av enbart muspekaren"
+msgstr ""
+"Aktivera automatiskt fokus på fönster när muspekaren flyttas över fönstret"
 
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
-msgstr "Aktiverar automatisk fokus på fönster när muspekaren förs över fönstret och avaktiverar fokus när muspekaren förs bort från fönstret."
+msgstr ""
+"Aktiverar automatiskt fokus på fönster när muspekaren förs över fönstret och "
+"avaktiverar fokus när muspekaren förs bort från fönstret."
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
-msgstr "Inaktivera avomdirigering av fönster"
+msgstr "Inaktivera dirigering av fönster"
 
 #: src/panel/settings/settings_wm.vala:79
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
 msgstr ""
-"Detta alternativ är för avancerade användare. Om du har ett dedikerat "
-"grafikkort kan du prova detta om du har problem med grafik eller prestanda."
+"Det här alternativet är för avancerade användare. Använd om du har problem "
+"med grafik eller prestanda med dedikerade GPUs."
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
@@ -1005,7 +1013,7 @@ msgstr "Fönstertitlar"
 
 #: src/panel/settings/settings_fonts.vala:45
 msgid "Set the font used in the titlebars of applications."
-msgstr "Välj typsnitt för fönstertiteln i applikationer."
+msgstr "Välj typsnitt för fönstertitlar i applikationer."
 
 #: src/panel/settings/settings_fonts.vala:51
 msgid "Documents"
@@ -1029,7 +1037,8 @@ msgstr "Monospace"
 
 #: src/panel/settings/settings_fonts.vala:66
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr "Välj typsnitt med fast bredd för textbaserade applikationer."
+msgstr ""
+"Välj ett typsnitt med fast bredd som används av textbaserade applikationer."
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
@@ -1037,15 +1046,15 @@ msgstr "Textskalning"
 
 #: src/panel/settings/settings_fonts.vala:73
 msgid "Set the text scaling factor."
-msgstr "Ställ in textskalningsfaktor."
+msgstr "Ange textskalningsfaktor."
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
-msgstr "Välj ett miniprogram"
+msgstr "Välj en applet"
 
 #: src/daemon/endsession.ui.h:2
 msgid "Are you sure you want to end your session?"
-msgstr "Vill du verkligen avsluta sessionen?"
+msgstr "Vill du verkligen avsluta din session?"
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
@@ -1106,7 +1115,7 @@ msgstr "Kompakt läge"
 
 #: src/applets/budgie-menu/settings.ui.h:3
 msgid "Show Headers"
-msgstr "Visa Rubriker"
+msgstr "Visa rubriker"
 
 #: src/applets/budgie-menu/settings.ui.h:4
 msgid "Menu Label"
@@ -1130,7 +1139,7 @@ msgstr "Visa inte"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
-msgstr "Visa med muspekare"
+msgstr "Visa när muspekaren förs över"
 
 #: src/applets/workspaces/settings.ui.h:4
 msgid "Always show"
@@ -1138,7 +1147,7 @@ msgstr "Visa alltid"
 
 #: src/applets/caffeine/settings.ui.h:1
 msgid "Enable notification"
-msgstr "Aktivera notifiering"
+msgstr "Aktivera notifieringsmeddelande"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
@@ -1178,7 +1187,7 @@ msgstr "Lösenord:"
 
 #: src/polkit/dialog.ui.h:3
 msgid "Authentication is required"
-msgstr "Autentisering är ett måste"
+msgstr "Autentisering krävs"
 
 #: src/polkit/dialog.ui.h:5
 msgid "Authenticate"
@@ -1187,11 +1196,11 @@ msgstr "Autentisera"
 #: src/session/budgie-desktop.desktop.in.in.h:1
 #: src/session/budgie-desktop.session.in.in.h:1
 msgid "Budgie Desktop"
-msgstr "Budgie skrivbord"
+msgstr "Budgie Desktop"
 
 #: src/session/budgie-desktop.desktop.in.in.h:2
 msgid "This session logs you into the Budgie Desktop"
-msgstr "Denna session loggar in till Budgie skrivbordet"
+msgstr "Den här sessionen startar Budgie Desktop"
 
 #: src/applets/tray/TrayApplet.plugin.in.h:1
 msgid "System Tray"
@@ -1211,15 +1220,15 @@ msgstr "Mellanrum"
 
 #: src/applets/budgie-menu/BudgieMenu.plugin.in.h:1
 msgid "Budgie Menu"
-msgstr "Budgie meny"
+msgstr "Budgie-meny"
 
 #: src/applets/lock-keys/LockKeysApplet.plugin.in.h:1
 msgid "Lock Keys Indicator"
-msgstr "Låstangents indikator"
+msgstr "Lock Keys indikator"
 
 #: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
 msgid "Raven Sidebar Control"
-msgstr "Raven sidofält kontroll"
+msgstr "Raven sidopanelskontroll"
 
 #: src/applets/clock/ClockApplet.plugin.in.h:1
 msgid "Clock"
@@ -1231,7 +1240,7 @@ msgstr "Avskiljare"
 
 #: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
 msgid "Show Desktop Button"
-msgstr "Visa skrivbordet"
+msgstr "Visa skrivbordet-knapp"
 
 #: src/applets/workspaces/WorkspacesApplet.plugin.in.h:1
 msgid "Workspace Switcher"
@@ -1247,7 +1256,7 @@ msgstr "Caffeine"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
-msgstr "Tangentbordslayout indikator"
+msgstr "Indikator för tangentbordslayout"
 
 #: src/applets/user-indicator/UserIndicator.plugin.in.h:1
 msgid "User Indicator"
@@ -1255,7 +1264,7 @@ msgstr "Användarindikator"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
 msgid "Change desktop appearance and behavior"
-msgstr "Ändra utseende och beteende för skrivbordet"
+msgstr "Ändra skrivbordets utseende och beteende"
 
 #: src/panel/budgie-panel.desktop.in.h:1
 msgid "Budgie Panel"
