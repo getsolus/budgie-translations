@@ -21,14 +21,17 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-29 16:42+0200\n"
-"PO-Revision-Date: 2019-01-18 07:03+0000\n"
-"Last-Translator: Stanisław Cierniak <scierniak55@gmail.com>\n"
-"Language-Team: Polish <http://translate.getsol.us/projects/budgie-desktop/translations/pl/>\n"
+"PO-Revision-Date: 2019-02-01 20:08+0000\n"
+"Last-Translator: Krzysztof <kk@fw190.info>\n"
+"Language-Team: Polish <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<"
+"12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) ||"
+" (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Weblate 3.4-dev\n"
 
 #: src/daemon/endsession.vala:171
@@ -96,7 +99,7 @@ msgstr "Powiadomienia"
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
-msgstr "Żadne aplikacje obecnie nie odtwarzają dźwięku"
+msgstr "Żadne aplikacje nie odtwarzają obecnie dźwięku."
 
 #: src/raven/start_listening.vala:24
 msgid "Play some music"
@@ -205,9 +208,8 @@ msgid "Close All Windows"
 msgstr "Zamknij wszystkie okna"
 
 #: src/applets/icon-tasklist/IconPopover.vala:104
-#, fuzzy
 msgid "Always On Top"
-msgstr "Zawsze"
+msgstr "Zawsze na wierzchu"
 
 #: src/applets/icon-tasklist/IconPopover.vala:106
 #: src/applets/icon-tasklist/IconPopover.vala:484
@@ -643,7 +645,9 @@ msgstr "Pozwól na zwiększenie głośności ponad 100%"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
-msgstr "Pozwól na zwiększenie głośności w Ustawieniach dźwięku a także poprzez Widżet Wyjścia Dźwięku w Raven na ponad 150%"
+msgstr ""
+"Pozwala na zwiększenie głośności w Ustawieniach dźwięku, a także poprzez "
+"Widżet Wyjścia Dźwięku w Raven do 150%."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
@@ -739,45 +743,40 @@ msgid "Desktop Icons"
 msgstr "Ikony pulpitu"
 
 #: src/panel/settings/settings_desktop.vala:44
-#, fuzzy
 msgid "Control whether to allow launchers and icons on the desktop."
-msgstr "Kontroluj widoczność aktywatorów i ikon na pulpicie"
+msgstr "Kontroluj widoczność aktywatorów i ikon na pulpicie."
 
 #: src/panel/settings/settings_desktop.vala:54
 msgid "Home directory"
 msgstr "Katalog domowy"
 
 #: src/panel/settings/settings_desktop.vala:55
-#, fuzzy
 msgid "Add a shortcut to your home directory on the desktop."
-msgstr "Dodaj skrót do katalogu domowego na pulpicie"
+msgstr "Dodaj skrót do katalogu domowego na pulpicie."
 
 #: src/panel/settings/settings_desktop.vala:60
 msgid "Network servers"
 msgstr "Serwery sieciowe"
 
 #: src/panel/settings/settings_desktop.vala:61
-#, fuzzy
 msgid "Add a shortcut to your local network servers on the desktop."
-msgstr "Dodaj skrót do lokalnych serwerów sieciowych na pulpicie"
+msgstr "Dodaj skrót do lokalnych serwerów sieciowych na pulpicie."
 
 #: src/panel/settings/settings_desktop.vala:66
 msgid "Trash"
 msgstr "Kosz"
 
 #: src/panel/settings/settings_desktop.vala:67
-#, fuzzy
 msgid "Add a shortcut to the Trash directory on the desktop."
-msgstr "Dodaj skrót do Kosza na pulpicie"
+msgstr "Dodaj skrót do Kosza na pulpicie."
 
 #: src/panel/settings/settings_desktop.vala:72
 msgid "Mounted volumes"
 msgstr "Zamontowane woluminy"
 
 #: src/panel/settings/settings_desktop.vala:73
-#, fuzzy
 msgid "Mounted volumes & drives will appear on the desktop."
-msgstr "Zamontowane woluminy i dyski pojawią się na pulpicie"
+msgstr "Zamontowane woluminy i dyski pojawią się na pulpicie."
 
 #: src/panel/settings/settings_style.vala:33
 msgid "Style"
@@ -808,13 +807,12 @@ msgid "Set the globally used mouse cursor theme"
 msgstr "Ustaw globalny motyw kursora"
 
 #: src/panel/settings/settings_style.vala:58
-#, fuzzy
 msgid "Notification Position"
-msgstr "Powiadomienia"
+msgstr "Umiejscowienie powiadomień"
 
 #: src/panel/settings/settings_style.vala:59
 msgid "Set the location for notification popups"
-msgstr ""
+msgstr "Ustaw lokalizację powiadomień"
 
 #: src/panel/settings/settings_style.vala:68
 msgid "Dark theme"
@@ -825,7 +823,6 @@ msgid "Built-in theme"
 msgstr "Wbudowany styl"
 
 #: src/panel/settings/settings_style.vala:73
-#, fuzzy
 msgid "When enabled, the built-in theme will override the desktop component styling"
 msgstr "Kiedy aktywne, styl komponentów pulpitu zostanie zastąpiony wbudowanym"
 
@@ -838,24 +835,20 @@ msgid "Control whether windows and controls use animations"
 msgstr "Kontroluj, czy okna i przyciski mają używać animacji"
 
 #: src/panel/settings/settings_style.vala:195
-#, fuzzy
 msgid "Top Left"
-msgstr "Lewy"
+msgstr "Lewy górny"
 
 #: src/panel/settings/settings_style.vala:197
-#, fuzzy
 msgid "Bottom Left"
-msgstr "Dół"
+msgstr "Lewy dolny"
 
 #: src/panel/settings/settings_style.vala:199
-#, fuzzy
 msgid "Bottom Right"
-msgstr "Dół"
+msgstr "Prawy dolny"
 
 #: src/panel/settings/settings_style.vala:202
-#, fuzzy
 msgid "Top Right"
-msgstr "Prawy"
+msgstr "Prawy górny"
 
 #: src/panel/settings/settings_autostart.vala:141
 msgid "Untitled"
@@ -950,27 +943,26 @@ msgid "Attach modal dialogs to windows"
 msgstr "Przypnij modalny dialog do okna"
 
 #: src/panel/settings/settings_wm.vala:42
-#, fuzzy
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr "Modalne dialogi zostaną przypięte do nadrzędnego okna i będą poruszać się razem przy przeciąganiu"
+msgstr ""
+"Modalne dialogi zostaną przypięte do nadrzędnego okna i będą poruszać się "
+"razem przy przeciąganiu."
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Button layout"
 msgstr "Układ przycisków"
 
 #: src/panel/settings/settings_wm.vala:48
-#, fuzzy
 msgid "Change the layout of buttons in application titlebars."
-msgstr "Zmień układ przycisków na pasku tytułowym aplikacji"
+msgstr "Zmień układ przycisków na pasku tytułowym aplikacji."
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
 msgstr "Wyśrodkuj nowe okno na ekranie"
 
 #: src/panel/settings/settings_wm.vala:54
-#, fuzzy
 msgid "Center newly launched windows on the current screen."
-msgstr "Wyśrodkuj nowo otwarte okna na bieżącym ekranie"
+msgstr "Wyśrodkuj nowo otwarte okna na bieżącym ekranie."
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
@@ -985,9 +977,10 @@ msgid "Automatic tiling"
 msgstr "Automatyczne kafelkowanie"
 
 #: src/panel/settings/settings_wm.vala:66
-#, fuzzy
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr "Okna będą automatycznie kafelkowane, kiedy zostaną przeciągnięte do górnej lub skrajnej krawędzi ekranu"
+msgstr ""
+"Okna będą automatycznie kafelkowane, kiedy zostaną przeciągnięte do górnej "
+"lub skrajnej krawędzi ekranu."
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
@@ -1002,9 +995,10 @@ msgid "Disable unredirection of windows"
 msgstr "Wyłącz cofnięcie przekierowania okien"
 
 #: src/panel/settings/settings_wm.vala:79
-#, fuzzy
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr "Ta opcja jest dla zaawansowanych użytkowników. Użyj jej, jeśli masz problemy z grafiką lub wydajnością dedykowanych GPU"
+msgstr ""
+"Ta opcja jest dla zaawansowanych użytkowników. Użyj jej, jeśli masz problemy "
+"z grafiką lub wydajnością dedykowanych GPU."
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
@@ -1019,45 +1013,40 @@ msgid "Window Titles"
 msgstr "Nagłówki okien"
 
 #: src/panel/settings/settings_fonts.vala:45
-#, fuzzy
 msgid "Set the font used in the titlebars of applications."
-msgstr "Ustaw czcionkę używaną w paskach tytułowych aplikacji"
+msgstr "Ustaw czcionkę używaną w paskach tytułowych aplikacji."
 
 #: src/panel/settings/settings_fonts.vala:51
 msgid "Documents"
 msgstr "Dokumenty"
 
 #: src/panel/settings/settings_fonts.vala:52
-#, fuzzy
 msgid "Set the display font used by for documents."
-msgstr "Ustaw czcionkę używaną do dokumentów"
+msgstr "Ustaw czcionkę używaną dla dokumentów."
 
 #: src/panel/settings/settings_fonts.vala:58
 msgid "Interface"
 msgstr "Interfejs"
 
 #: src/panel/settings/settings_fonts.vala:59
-#, fuzzy
 msgid "Set the primary font used by application controls."
-msgstr "Ustaw główną czcionkę używaną przez przyciski aplikacji"
+msgstr "Ustaw główną czcionkę używaną przez przyciski aplikacji."
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Monospace"
 msgstr "Czcionka o stałej szerokości"
 
 #: src/panel/settings/settings_fonts.vala:66
-#, fuzzy
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr "Ustaw czcionkę o stałej szerokości używanej przez aplikacje tekstowe"
+msgstr "Ustaw czcionkę o stałej szerokości używanej przez aplikacje tekstowe."
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
 msgstr "Skalowanie tekstu"
 
 #: src/panel/settings/settings_fonts.vala:73
-#, fuzzy
 msgid "Set the text scaling factor."
-msgstr "Ustaw czynnik skalowania tekstu"
+msgstr "Ustaw współczynnik skalowania tekstu."
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
@@ -1247,7 +1236,7 @@ msgstr "Zegar"
 
 #: src/applets/separator/SeparatorApplet.plugin.in.h:1
 msgid "Separator"
-msgstr "Separator"
+msgstr "Oddzielacz"
 
 #: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
 msgid "Show Desktop Button"
@@ -1274,7 +1263,6 @@ msgid "User Indicator"
 msgstr "Użytkownik"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
-#, fuzzy
 msgid "Change desktop appearance and behavior"
 msgstr "Zmień wygląd i zachowanie pulpitu"
 
