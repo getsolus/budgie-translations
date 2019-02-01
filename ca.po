@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-29 16:42+0200\n"
 "PO-Revision-Date: 2019-02-01 15:26+0000\n"
-"Last-Translator: David M <medipas@gmail.com>\n"
+"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
 "Language-Team: Catalan <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ca/>\n"
 "Language: ca\n"
@@ -623,7 +623,7 @@ msgstr "En mode d'acoblador, el plafó usarà la mínima quantitat d'espai possi
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
-msgstr "Permet augmentar el volum a més del 100 %"
+msgstr "Permet augmentar el volum a més del 100%"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
