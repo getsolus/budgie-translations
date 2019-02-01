@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-29 16:42+0200\n"
-"PO-Revision-Date: 2019-02-01 14:35+0000\n"
+"PO-Revision-Date: 2019-02-01 14:51+0000\n"
 "Last-Translator: Iair Poloniecki <iapolo.90@gmail.com>\n"
 "Language-Team: Spanish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/es/>\n"
@@ -108,7 +108,7 @@ msgstr "Nada que ver aquí"
 #: src/applets/notifications/NotificationsApplet.vala:109
 #, c-format
 msgid "%u unread notifications"
-msgstr "%u notificaciónes no leídas"
+msgstr "%u notificaciones no leídas"
 
 #: src/raven/notifications_view.vala:676
 #: src/applets/notifications/NotificationsApplet.vala:111
@@ -127,7 +127,7 @@ msgstr "No hay notificaciones nuevas"
 #. 125ms
 #: src/raven/sound.vala:151
 msgid "Apps"
-msgstr "Aplicaciónes"
+msgstr "Aplicaciones"
 
 #: src/raven/sound.vala:152
 msgid "Devices"
@@ -1049,16 +1049,16 @@ msgstr "Monoespacio"
 #: src/panel/settings/settings_fonts.vala:66
 msgid "Set the fixed-width font used by text dominant applications."
 msgstr ""
-"Establezca la fuente de ancho fijo utilizada por las aplicaciones de texto "
-"dominante."
+"Establecer la fuente de ancho fijo utilizada en las aplicaciones donde "
+"predomina el texto."
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
-msgstr "Escalado de texto"
+msgstr "Escala del texto"
 
 #: src/panel/settings/settings_fonts.vala:73
 msgid "Set the text scaling factor."
-msgstr "Establezca el factor de escala de texto."
+msgstr "Establecer el factor de escala del texto."
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
@@ -1074,7 +1074,7 @@ msgstr "Mostrar todas las ventanas cuando se hace clic"
 
 #: src/applets/icon-tasklist/settings.ui.h:2
 msgid "Only show favorited"
-msgstr "Mostrar solo marcado como favorito"
+msgstr "Mostrar solo los favoritos"
 
 #: src/applets/icon-tasklist/settings.ui.h:3
 msgid "Lock icons"
@@ -1151,7 +1151,7 @@ msgstr "No mostrar"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
-msgstr "Mostrar cuando se mouseover"
+msgstr "Mostrar cuando el mouse pase por encima"
 
 #: src/applets/workspaces/settings.ui.h:4
 msgid "Always show"
@@ -1163,11 +1163,11 @@ msgstr "Activar notificación"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
-msgstr "Maximice el brillo"
+msgstr "Maximizar el brillo"
 
 #: src/applets/caffeine/settings.ui.h:3
 msgid "Brightness Level"
-msgstr "Nivel de brillo"
+msgstr "Nivel del brillo"
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
