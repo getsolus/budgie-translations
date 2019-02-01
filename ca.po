@@ -9,9 +9,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-29 16:42+0200\n"
-"PO-Revision-Date: 2019-01-15 17:47+0000\n"
-"Last-Translator: Kévin Bergue <kevin@be-ta.art>\n"
-"Language-Team: Catalan <http://translate.getsol.us/projects/budgie-desktop/translations/ca/>\n"
+"PO-Revision-Date: 2019-02-01 15:26+0000\n"
+"Last-Translator: Colomain <colomain@gmail.com>\n"
+"Language-Team: Catalan <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,9 +37,8 @@ msgid "Change background"
 msgstr "Canvia el fons"
 
 #: src/daemon/menus.vala:57
-#, fuzzy
 msgid "Displays"
-msgstr "Paràmetres de visualització"
+msgstr "Pantalles"
 
 #: src/daemon/menus.vala:66 src/panel/settings/settings_panel.vala:97
 msgid "Settings"
@@ -83,11 +83,11 @@ msgstr "Notificacions"
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
-msgstr ""
+msgstr "Ni ha ha cap aplicació actualment reproduïnt audio."
 
 #: src/raven/start_listening.vala:24
 msgid "Play some music"
-msgstr ""
+msgstr "Reprodueix algo de música"
 
 #: src/raven/notifications_view.vala:106
 msgid "Nothing to see here"
@@ -116,11 +116,11 @@ msgstr "No hi ha notificacions noves"
 #. 125ms
 #: src/raven/sound.vala:151
 msgid "Apps"
-msgstr ""
+msgstr "Aplicacions"
 
 #: src/raven/sound.vala:152
 msgid "Devices"
-msgstr ""
+msgstr "Dispositius"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
