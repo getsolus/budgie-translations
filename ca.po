@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-29 16:42+0200\n"
 "PO-Revision-Date: 2019-02-01 16:17+0000\n"
-"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
+"Last-Translator: David M <medipas@gmail.com>\n"
 "Language-Team: Catalan <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ca/>\n"
 "Language: ca\n"
@@ -1151,22 +1151,20 @@ msgid "Show on mouseover"
 msgstr "Mostra'l en passar-hi el ratolí"
 
 #: src/applets/workspaces/settings.ui.h:4
-#, fuzzy
 msgid "Always show"
-msgstr "Sempre"
+msgstr "Mostra'l sempre"
 
 #: src/applets/caffeine/settings.ui.h:1
-#, fuzzy
 msgid "Enable notification"
-msgstr "No hi ha notificacions noves"
+msgstr "Habilita les notificacions"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
-msgstr ""
+msgstr "Maximitza la brillantor"
 
 #: src/applets/caffeine/settings.ui.h:3
 msgid "Brightness Level"
-msgstr ""
+msgstr "Nivell de la brillantor"
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
@@ -1235,11 +1233,11 @@ msgstr "Menú del Budgie"
 
 #: src/applets/lock-keys/LockKeysApplet.plugin.in.h:1
 msgid "Lock Keys Indicator"
-msgstr "Indicador de bloqueig de tecles"
+msgstr "Indicador del bloqueig de tecles"
 
 #: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
 msgid "Raven Sidebar Control"
-msgstr "Control de la barra lateral Raven"
+msgstr "Control de la barra lateral del Raven"
 
 #: src/applets/clock/ClockApplet.plugin.in.h:1
 msgid "Clock"
@@ -1263,7 +1261,7 @@ msgstr "Llista de tasques"
 
 #: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
 msgid "Caffeine"
-msgstr ""
+msgstr "Cafeïna"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
@@ -1274,7 +1272,6 @@ msgid "User Indicator"
 msgstr "Indicador de l'usuari"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
-#, fuzzy
 msgid "Change desktop appearance and behavior"
 msgstr "Canvieu l'aparença i el comportament de l'escriptori"
 
