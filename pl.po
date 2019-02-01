@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-29 16:42+0200\n"
-"PO-Revision-Date: 2019-02-01 20:11+0000\n"
+"PO-Revision-Date: 2019-02-02 01:34+0000\n"
 "Last-Translator: Krzysztof <kk@fw190.info>\n"
 "Language-Team: Polish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/pl/>\n"
@@ -113,7 +113,7 @@ msgstr "Nic do wyświetlenia"
 #: src/applets/notifications/NotificationsApplet.vala:109
 #, c-format
 msgid "%u unread notifications"
-msgstr "%u nieprzeczytane powiadomienia"
+msgstr "Nieprzeczytane powiadomienia: %u"
 
 #: src/raven/notifications_view.vala:676
 #: src/applets/notifications/NotificationsApplet.vala:111
@@ -144,7 +144,7 @@ msgstr "Bateria w pełni naładowana."
 
 #: src/applets/status/PowerIndicator.vala:100
 msgid "Unknown"
-msgstr "Nieznany"
+msgstr "Status nieznany"
 
 #. Set inner charging duration to hours:minutes
 #: src/applets/status/PowerIndicator.vala:109
@@ -157,7 +157,7 @@ msgstr "Pozostały czas działania"
 
 #: src/applets/status/PowerIndicator.vala:168
 msgid "Show battery percentage"
-msgstr "Pokaż procenty baterii"
+msgstr "Pokaż procent baterii"
 
 #: src/applets/status/PowerIndicator.vala:176
 msgid "Power settings"
@@ -222,7 +222,7 @@ msgstr "Minimalizuj"
 
 #: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Unfavorite"
-msgstr "Odlub"
+msgstr "Usuń z ulubionych"
 
 #: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Favorite"
@@ -239,7 +239,7 @@ msgstr "Przenieś do obszaru roboczego %i1"
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Unmaximize"
-msgstr "Odmaksymalizuj"
+msgstr "Cofnij maksymalizację"
 
 #: src/applets/icon-tasklist/IconPopover.vala:543
 msgid "Close Window"
@@ -289,7 +289,7 @@ msgstr "Klawisz Caps lock jest włączony"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:65
 msgid "Caps lock is not active"
-msgstr "Klawisz Caps lock jest wyłaczony"
+msgstr "Klawisz Caps lock jest wyłączony"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:75
 msgid "Num lock is active"
@@ -629,7 +629,9 @@ msgstr "Stylizowanie obszarów"
 
 #: src/panel/settings/settings_panel.vala:269
 msgid "Adds a hint to the panel so that each of the panel's three main areas may be themed differently."
-msgstr "Dodaje podpowiedź do panelu, dzięki której każdy z trzech głównych obszarów panelu mógł mieć inny motyw."
+msgstr ""
+"Dodaje podpowiedź do panelu, dzięki której każdy z trzech głównych obszarów "
+"panelu może mieć inny motyw."
 
 #: src/panel/settings/settings_panel.vala:276
 msgid "Dock mode"
@@ -683,11 +685,13 @@ msgstr "Pokazuje albo ukrywa widżet Wejścia mikrofonowego w sekcji Apletów Ra
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
-msgstr "Pokaż widżet Kontroli multimedialnych"
+msgstr "Pokaż widżet sterowania odtwarzaniem mediów"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
-msgstr "Pokazuje albo ukrywa widżet Kontroli multimedialnych (MPRIS) w sekcji Apletów Raven."
+msgstr ""
+"Pokazuje albo ukrywa widżet sterowanie odtwarzaniem mediów (MPRIS) w sekcji "
+"Apletów Raven."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
@@ -703,7 +707,7 @@ msgstr "Potwierdź usunięcie panelu"
 
 #: src/panel/settings/settings_panel_dialogs.vala:36
 msgid "Do you really want to remove this panel? This action cannot be undone."
-msgstr "Czy na pewno chcesz usunąć ten panel? Tej czynności nie można odwrócić."
+msgstr "Czy na pewno chcesz usunąć ten panel? Tej czynności nie można cofnąć."
 
 #: src/panel/settings/settings_panel_dialogs.vala:51
 #: src/panel/settings/settings_panel_dialogs.vala:114
@@ -724,7 +728,7 @@ msgstr "Potwierdź usunięcie apletu"
 
 #: src/panel/settings/settings_panel_dialogs.vala:99
 msgid "Do you really want to remove this applet? This action cannot be undone."
-msgstr "Czy na pewno chcesz usunąć ten aplet? Tej czynności nie można odwrócić."
+msgstr "Czy na pewno chcesz usunąć ten aplet? Tej czynności nie można cofnąć."
 
 #: src/panel/settings/settings_panel_dialogs.vala:123
 msgid "Remove applet"
@@ -812,7 +816,7 @@ msgstr "Umiejscowienie powiadomień"
 
 #: src/panel/settings/settings_style.vala:59
 msgid "Set the location for notification popups"
-msgstr "Ustaw lokalizację powiadomień"
+msgstr "Ustaw umiejscowienie powiadomień"
 
 #: src/panel/settings/settings_style.vala:68
 msgid "Dark theme"
@@ -940,7 +944,7 @@ msgstr "Okna"
 
 #: src/panel/settings/settings_wm.vala:41
 msgid "Attach modal dialogs to windows"
-msgstr "Przypnij modalny dialog do okna"
+msgstr "Przypnij modalne dialogi do okien"
 
 #: src/panel/settings/settings_wm.vala:42
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
@@ -958,7 +962,7 @@ msgstr "Zmień układ przycisków na pasku tytułowym aplikacji."
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
-msgstr "Wyśrodkuj nowe okno na ekranie"
+msgstr "Wyśrodkuj nowe okna na ekranie"
 
 #: src/panel/settings/settings_wm.vala:54
 msgid "Center newly launched windows on the current screen."
@@ -1054,7 +1058,7 @@ msgstr "Wybierz aplet"
 
 #: src/daemon/endsession.ui.h:2
 msgid "Are you sure you want to end your session?"
-msgstr "Zakończyć sesję?"
+msgstr "Jesteś pewien, że chcesz zakończyć sesję?"
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
@@ -1212,7 +1216,7 @@ msgstr "Wskaźnik stanu"
 
 #: src/applets/icon-tasklist/IconTasklistApplet.plugin.in.h:1
 msgid "Icon Task List"
-msgstr "Ikony okien"
+msgstr "Ikona listy zadań"
 
 #: src/applets/spacer/SpacerApplet.plugin.in.h:1
 msgid "Spacer"
@@ -1228,7 +1232,7 @@ msgstr "Wskaźnik klawiszy przełączających"
 
 #: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
 msgid "Raven Sidebar Control"
-msgstr "Ustawienia Paska Raven"
+msgstr "Ustawienia paska bocznego Raven"
 
 #: src/applets/clock/ClockApplet.plugin.in.h:1
 msgid "Clock"
@@ -1240,7 +1244,7 @@ msgstr "Oddzielacz"
 
 #: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
 msgid "Show Desktop Button"
-msgstr "Przycisk wyświetlania pulpitu"
+msgstr "Pokaż przycisk wyświetlania pulpitu"
 
 #: src/applets/workspaces/WorkspacesApplet.plugin.in.h:1
 msgid "Workspace Switcher"
@@ -1256,11 +1260,11 @@ msgstr "Kofeina"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
-msgstr "Układ klawiatury"
+msgstr "Wskaźnik układu klawiatury"
 
 #: src/applets/user-indicator/UserIndicator.plugin.in.h:1
 msgid "User Indicator"
-msgstr "Użytkownik"
+msgstr "Wskaźnik użytkownik"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
 msgid "Change desktop appearance and behavior"
