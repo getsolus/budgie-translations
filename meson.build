@@ -19,7 +19,6 @@ langs = [
     'en_GB',
     'en_US',
     'eo',
-    'es_419',
     'es_AR',
     'es_CL',
     'es_MX',
