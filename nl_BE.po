@@ -11,11 +11,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-29 16:42+0200\n"
+"POT-Creation-Date: 2019-02-02 03:35+0200\n"
 "PO-Revision-Date: 2019-02-01 16:17+0000\n"
 "Last-Translator: Geert Verheyde <geert.verheyde@gmail.com>\n"
-"Language-Team: Flemish <http://translate.getsol.us/projects/budgie-desktop/"
-"translations/nl_BE/>\n"
+"Language-Team: Flemish <http://translate.getsol.us/projects/budgie-desktop/translations/nl_BE/>\n"
 "Language: nl_BE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -117,11 +116,11 @@ msgid "No new notifications"
 msgstr "Geen nieuwe meldingen"
 
 #. 125ms
-#: src/raven/sound.vala:151
+#: src/raven/sound.vala:158
 msgid "Apps"
 msgstr "Apps"
 
-#: src/raven/sound.vala:152
+#: src/raven/sound.vala:159
 msgid "Devices"
 msgstr "Apparaten"
 
@@ -743,8 +742,7 @@ msgstr "Netwerk servers"
 
 #: src/panel/settings/settings_desktop.vala:61
 msgid "Add a shortcut to your local network servers on the desktop."
-msgstr ""
-"Plaats een snelkoppeling naar uw locale netwerk servers op het bureaublad."
+msgstr "Plaats een snelkoppeling naar uw locale netwerk servers op het bureaublad."
 
 #: src/panel/settings/settings_desktop.vala:66
 msgid "Trash"
@@ -766,73 +764,71 @@ msgstr "Aangekoppelde volumes en schijven zullen op het bureaublad verschijnen."
 msgid "Style"
 msgstr "Stijl"
 
-#: src/panel/settings/settings_style.vala:43
+#: src/panel/settings/settings_style.vala:47
 msgid "Widgets"
 msgstr "Widgets"
 
-#: src/panel/settings/settings_style.vala:44
+#: src/panel/settings/settings_style.vala:48
 msgid "Set the appearance of window decorations and controls"
 msgstr "Stel het uiterlijk in van de vensters en hun bedieningen"
 
-#: src/panel/settings/settings_style.vala:48
+#: src/panel/settings/settings_style.vala:52
 msgid "Icons"
 msgstr "Iconen"
 
-#: src/panel/settings/settings_style.vala:49
+#: src/panel/settings/settings_style.vala:53
 msgid "Set the globally used icon theme"
 msgstr "Kies het standaard icoon thema"
 
-#: src/panel/settings/settings_style.vala:53
+#: src/panel/settings/settings_style.vala:57
 msgid "Cursors"
 msgstr "Cursors"
 
-#: src/panel/settings/settings_style.vala:54
+#: src/panel/settings/settings_style.vala:58
 msgid "Set the globally used mouse cursor theme"
 msgstr "Kies het standaard muisaanwijzer thema"
 
-#: src/panel/settings/settings_style.vala:58
+#: src/panel/settings/settings_style.vala:62
 msgid "Notification Position"
 msgstr "Positie Meldingen"
 
-#: src/panel/settings/settings_style.vala:59
+#: src/panel/settings/settings_style.vala:63
 msgid "Set the location for notification popups"
 msgstr "Bepaal de positie van de meldingenpop-ups"
 
-#: src/panel/settings/settings_style.vala:68
+#: src/panel/settings/settings_style.vala:72
 msgid "Dark theme"
 msgstr "Donker thema"
 
-#: src/panel/settings/settings_style.vala:72
+#: src/panel/settings/settings_style.vala:79
 msgid "Built-in theme"
 msgstr "Ingebouwd thema"
 
-#: src/panel/settings/settings_style.vala:73
+#: src/panel/settings/settings_style.vala:80
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr ""
-"Wanneer ingeschakeld wordt de bureaublad componentenstijl vervangen door het "
-"ingebouwde thema"
+msgstr "Wanneer ingeschakeld wordt de bureaublad componentenstijl vervangen door het ingebouwde thema"
 
-#: src/panel/settings/settings_style.vala:77
+#: src/panel/settings/settings_style.vala:87
 msgid "Animations"
 msgstr "Animatie"
 
-#: src/panel/settings/settings_style.vala:78
+#: src/panel/settings/settings_style.vala:88
 msgid "Control whether windows and controls use animations"
 msgstr "Bepaal of vensters of bedieningen animatie gebruiken"
 
-#: src/panel/settings/settings_style.vala:195
+#: src/panel/settings/settings_style.vala:209
 msgid "Top Left"
 msgstr "Boven Links"
 
-#: src/panel/settings/settings_style.vala:197
+#: src/panel/settings/settings_style.vala:211
 msgid "Bottom Left"
 msgstr "Onder Links"
 
-#: src/panel/settings/settings_style.vala:199
+#: src/panel/settings/settings_style.vala:213
 msgid "Bottom Right"
 msgstr "Onder Rechts"
 
-#: src/panel/settings/settings_style.vala:202
+#: src/panel/settings/settings_style.vala:216
 msgid "Top Right"
 msgstr "Boven Rechts"
 
@@ -930,9 +926,7 @@ msgstr "Koppel modale dialoogvensters"
 
 #: src/panel/settings/settings_wm.vala:42
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr ""
-"Modale dialoogvensters zullen gekoppeld worden aan hun moedervenster en "
-"samen bewegen indien versleept."
+msgstr "Modale dialoogvensters zullen gekoppeld worden aan hun moedervenster en samen bewegen indien versleept."
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Button layout"
@@ -964,9 +958,7 @@ msgstr "Automatisch uitvouwen"
 
 #: src/panel/settings/settings_wm.vala:66
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr ""
-"Vensters vouwen zich automatisch uit wanneer ze naar de bovenkant van het "
-"scherm of naar een van de hoekranden gesleept worden."
+msgstr "Vensters vouwen zich automatisch uit wanneer ze naar de bovenkant van het scherm of naar een van de hoekranden gesleept worden."
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
@@ -982,9 +974,7 @@ msgstr "Unredirection of windows uitzetten"
 
 #: src/panel/settings/settings_wm.vala:79
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr ""
-"Deze optie is voor geavanceerde gebruikers. Gebruik dit wanneer je grafische-"
-" of performantieproblemen hebt met bepaalde GPU's."
+msgstr "Deze optie is voor geavanceerde gebruikers. Gebruik dit wanneer je grafische- of performantieproblemen hebt met bepaalde GPU's."
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
@@ -1024,9 +1014,7 @@ msgstr "Monospace"
 
 #: src/panel/settings/settings_fonts.vala:66
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr ""
-"Bepaal het vaste-breedte lettertype gebruikt door tekst-dominante "
-"toepassingen."
+msgstr "Bepaal het vaste-breedte lettertype gebruikt door tekst-dominante toepassingen."
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"

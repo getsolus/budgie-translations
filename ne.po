@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-29 16:42+0200\n"
+"POT-Creation-Date: 2019-02-02 03:35+0200\n"
 "PO-Revision-Date: 2017-11-06 15:26+0000\n"
 "Last-Translator: Rabin Adhikari <rabin.adk1@gmail.com>\n"
 "Language-Team: Nepali (http://www.transifex.com/budgie-desktop/budgie-desktop/language/ne/)\n"
@@ -112,11 +112,11 @@ msgid "No new notifications"
 msgstr "नयाँ सूचनाहरू छैनन्"
 
 #. 125ms
-#: src/raven/sound.vala:151
+#: src/raven/sound.vala:158
 msgid "Apps"
 msgstr ""
 
-#: src/raven/sound.vala:152
+#: src/raven/sound.vala:159
 msgid "Devices"
 msgstr ""
 
@@ -761,74 +761,74 @@ msgstr ""
 msgid "Style"
 msgstr "शैली"
 
-#: src/panel/settings/settings_style.vala:43
+#: src/panel/settings/settings_style.vala:47
 msgid "Widgets"
 msgstr "विजेटहरू"
 
-#: src/panel/settings/settings_style.vala:44
+#: src/panel/settings/settings_style.vala:48
 msgid "Set the appearance of window decorations and controls"
 msgstr "सञ्झ्याल सजावट र नियन्त्रणको रुप सेट गर्नुहोस्"
 
-#: src/panel/settings/settings_style.vala:48
+#: src/panel/settings/settings_style.vala:52
 msgid "Icons"
 msgstr "प्रतिमाहरू"
 
-#: src/panel/settings/settings_style.vala:49
+#: src/panel/settings/settings_style.vala:53
 msgid "Set the globally used icon theme"
 msgstr "विश्वव्यापी प्रयोग गरिएको प्रतिमा विषयवस्तु सेट गर्नुहोस्"
 
-#: src/panel/settings/settings_style.vala:53
+#: src/panel/settings/settings_style.vala:57
 msgid "Cursors"
 msgstr "कर्सर्स"
 
-#: src/panel/settings/settings_style.vala:54
+#: src/panel/settings/settings_style.vala:58
 msgid "Set the globally used mouse cursor theme"
 msgstr "विश्वव्यापी प्रयोग माउस कर्सर विषयवस्तु सेट गर्नुहोस्"
 
-#: src/panel/settings/settings_style.vala:58
+#: src/panel/settings/settings_style.vala:62
 #, fuzzy
 msgid "Notification Position"
 msgstr "सूचनाहरू"
 
-#: src/panel/settings/settings_style.vala:59
+#: src/panel/settings/settings_style.vala:63
 msgid "Set the location for notification popups"
 msgstr ""
 
-#: src/panel/settings/settings_style.vala:68
+#: src/panel/settings/settings_style.vala:72
 msgid "Dark theme"
 msgstr "गाढा विषयवस्तु"
 
-#: src/panel/settings/settings_style.vala:72
+#: src/panel/settings/settings_style.vala:79
 msgid "Built-in theme"
 msgstr "निर्मित गरिएको विषयवस्तु"
 
-#: src/panel/settings/settings_style.vala:73
+#: src/panel/settings/settings_style.vala:80
 #, fuzzy
 msgid "When enabled, the built-in theme will override the desktop component styling"
 msgstr "सक्षम भएपछि, डेस्कटप घटक शैली  निर्मित गरिएको विषयबस्तुसँग ओभरराइड गरिनेछ"
 
-#: src/panel/settings/settings_style.vala:77
+#: src/panel/settings/settings_style.vala:87
 msgid "Animations"
 msgstr "एनिमेशन"
 
-#: src/panel/settings/settings_style.vala:78
+#: src/panel/settings/settings_style.vala:88
 msgid "Control whether windows and controls use animations"
 msgstr "विन्डोजहरु र नियन्त्रण एनिमेशनहरू प्रयोग गर्छ कि गर्दैन नियन्त्रण गर्नुहोस्"
 
-#: src/panel/settings/settings_style.vala:195
+#: src/panel/settings/settings_style.vala:209
 #, fuzzy
 msgid "Top Left"
 msgstr "बायाँ"
 
-#: src/panel/settings/settings_style.vala:197
+#: src/panel/settings/settings_style.vala:211
 msgid "Bottom Left"
 msgstr ""
 
-#: src/panel/settings/settings_style.vala:199
+#: src/panel/settings/settings_style.vala:213
 msgid "Bottom Right"
 msgstr ""
 
-#: src/panel/settings/settings_style.vala:202
+#: src/panel/settings/settings_style.vala:216
 msgid "Top Right"
 msgstr ""
 

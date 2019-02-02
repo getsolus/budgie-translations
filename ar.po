@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-29 16:42+0200\n"
+"POT-Creation-Date: 2019-02-02 03:35+0200\n"
 "PO-Revision-Date: 2019-01-15 10:59+0000\n"
 "Last-Translator: George Mamar <george.mamar@hotmail.com>\n"
 "Language-Team: Arabic <http://translate.getsol.us/projects/budgie-desktop/main/ar/>\n"
@@ -122,11 +122,11 @@ msgid "No new notifications"
 msgstr "لا إشعارات جديدة"
 
 #. 125ms
-#: src/raven/sound.vala:151
+#: src/raven/sound.vala:158
 msgid "Apps"
 msgstr ""
 
-#: src/raven/sound.vala:152
+#: src/raven/sound.vala:159
 msgid "Devices"
 msgstr ""
 
@@ -782,76 +782,76 @@ msgstr "الاقراص و المحركات المثبتة ستظهر على سط
 msgid "Style"
 msgstr "نمط"
 
-#: src/panel/settings/settings_style.vala:43
+#: src/panel/settings/settings_style.vala:47
 msgid "Widgets"
 msgstr "الأدوات"
 
-#: src/panel/settings/settings_style.vala:44
+#: src/panel/settings/settings_style.vala:48
 msgid "Set the appearance of window decorations and controls"
 msgstr "اختيار مظهر مفاتيح وزخرفة النافذة"
 
-#: src/panel/settings/settings_style.vala:48
+#: src/panel/settings/settings_style.vala:52
 msgid "Icons"
 msgstr "الأيقونات"
 
-#: src/panel/settings/settings_style.vala:49
+#: src/panel/settings/settings_style.vala:53
 msgid "Set the globally used icon theme"
 msgstr "إختيار مظهر الأيقونات المستخدم لكل النظام"
 
-#: src/panel/settings/settings_style.vala:53
+#: src/panel/settings/settings_style.vala:57
 msgid "Cursors"
 msgstr "المؤشر"
 
-#: src/panel/settings/settings_style.vala:54
+#: src/panel/settings/settings_style.vala:58
 msgid "Set the globally used mouse cursor theme"
 msgstr "اختيار مظهر المؤشر المستخدم لكل النظام"
 
-#: src/panel/settings/settings_style.vala:58
+#: src/panel/settings/settings_style.vala:62
 #, fuzzy
 msgid "Notification Position"
 msgstr "الإشعارات"
 
-#: src/panel/settings/settings_style.vala:59
+#: src/panel/settings/settings_style.vala:63
 msgid "Set the location for notification popups"
 msgstr ""
 
-#: src/panel/settings/settings_style.vala:68
+#: src/panel/settings/settings_style.vala:72
 msgid "Dark theme"
 msgstr "المظهر الداكن"
 
-#: src/panel/settings/settings_style.vala:72
+#: src/panel/settings/settings_style.vala:79
 msgid "Built-in theme"
 msgstr "المظهر المدمج"
 
-#: src/panel/settings/settings_style.vala:73
+#: src/panel/settings/settings_style.vala:80
 #, fuzzy
 msgid "When enabled, the built-in theme will override the desktop component styling"
 msgstr "عندما يتم تشغيله, سوف يتم تجاوز شكل عناصر سطح المكتب بالشكل المدمج"
 
-#: src/panel/settings/settings_style.vala:77
+#: src/panel/settings/settings_style.vala:87
 msgid "Animations"
 msgstr "الرسوم المتحركة"
 
-#: src/panel/settings/settings_style.vala:78
+#: src/panel/settings/settings_style.vala:88
 msgid "Control whether windows and controls use animations"
 msgstr "تحكم اذا النوافذ والتحكمات تستخدم الرسوم المتحركة"
 
-#: src/panel/settings/settings_style.vala:195
+#: src/panel/settings/settings_style.vala:209
 #, fuzzy
 msgid "Top Left"
 msgstr "يسار"
 
-#: src/panel/settings/settings_style.vala:197
+#: src/panel/settings/settings_style.vala:211
 #, fuzzy
 msgid "Bottom Left"
 msgstr "أسفل"
 
-#: src/panel/settings/settings_style.vala:199
+#: src/panel/settings/settings_style.vala:213
 #, fuzzy
 msgid "Bottom Right"
 msgstr "أسفل"
 
-#: src/panel/settings/settings_style.vala:202
+#: src/panel/settings/settings_style.vala:216
 #, fuzzy
 msgid "Top Right"
 msgstr "يمين"

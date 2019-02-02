@@ -9,18 +9,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-29 16:42+0200\n"
+"POT-Creation-Date: 2019-02-02 03:35+0200\n"
 "PO-Revision-Date: 2019-02-01 16:17+0000\n"
 "Last-Translator: Toms <spokas@protonmail.com>\n"
-"Language-Team: Lithuanian <http://translate.getsol.us/projects/"
-"budgie-desktop/translations/lt/>\n"
+"Language-Team: Lithuanian <http://translate.getsol.us/projects/budgie-desktop/translations/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
-"19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
-"1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 1 : 2);\n"
 "X-Generator: Weblate 3.4-dev\n"
 
 #: src/daemon/endsession.vala:171
@@ -118,11 +115,11 @@ msgid "No new notifications"
 msgstr "Naujų pranešimų nėra"
 
 #. 125ms
-#: src/raven/sound.vala:151
+#: src/raven/sound.vala:158
 msgid "Apps"
 msgstr "Programos"
 
-#: src/raven/sound.vala:152
+#: src/raven/sound.vala:159
 msgid "Devices"
 msgstr "Įrenginiai"
 
@@ -624,9 +621,7 @@ msgstr "Doko veiksena"
 
 #: src/panel/settings/settings_panel.vala:277
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
-msgstr ""
-"Doko veiksenoje skydelis naudos kaip įmanoma mažiau vietos, atlaisvindamas "
-"vertingą ekrano plotą."
+msgstr "Doko veiksenoje skydelis naudos kaip įmanoma mažiau vietos, atlaisvindamas vertingą ekrano plotą."
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
@@ -634,9 +629,7 @@ msgstr "Leisti garsinti virš 100%"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
-msgstr ""
-"Leidžia garsinti per sistemos nustatymus, o taip pat Raven esančiame garso "
-"išvesties valdiklyje iki 150%."
+msgstr "Leidžia garsinti per sistemos nustatymus, o taip pat Raven esančiame garso išvesties valdiklyje iki 150%."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
@@ -676,9 +669,7 @@ msgstr "Rodyti medijos atkūrimo valdymo valdiklį"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
-msgstr ""
-"Rodo arba slepia medijos atkūrimo valdiklius (MPRIS) Raven programėlių "
-"sekcijoje."
+msgstr "Rodo arba slepia medijos atkūrimo valdiklius (MPRIS) Raven programėlių sekcijoje."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
@@ -773,71 +764,71 @@ msgstr "Prijungti tomai ir diskai bus rodomi darbalaukyje."
 msgid "Style"
 msgstr "Stilius"
 
-#: src/panel/settings/settings_style.vala:43
+#: src/panel/settings/settings_style.vala:47
 msgid "Widgets"
 msgstr "Valdikliai"
 
-#: src/panel/settings/settings_style.vala:44
+#: src/panel/settings/settings_style.vala:48
 msgid "Set the appearance of window decorations and controls"
 msgstr "Nustatyti langų dekoracijų ir valdiklių išvaizdą"
 
-#: src/panel/settings/settings_style.vala:48
+#: src/panel/settings/settings_style.vala:52
 msgid "Icons"
 msgstr "Piktogramos"
 
-#: src/panel/settings/settings_style.vala:49
+#: src/panel/settings/settings_style.vala:53
 msgid "Set the globally used icon theme"
 msgstr "Nustatyti visuotinai naudojamą piktogramų temą"
 
-#: src/panel/settings/settings_style.vala:53
+#: src/panel/settings/settings_style.vala:57
 msgid "Cursors"
 msgstr "Žymekliai"
 
-#: src/panel/settings/settings_style.vala:54
+#: src/panel/settings/settings_style.vala:58
 msgid "Set the globally used mouse cursor theme"
 msgstr "Nustatyti visuotinai naudojamą pelės žymeklio temą"
 
-#: src/panel/settings/settings_style.vala:58
+#: src/panel/settings/settings_style.vala:62
 msgid "Notification Position"
 msgstr "Pranešimų vieta"
 
-#: src/panel/settings/settings_style.vala:59
+#: src/panel/settings/settings_style.vala:63
 msgid "Set the location for notification popups"
 msgstr "Nustatyti iškylančiųjų pranešimų vietą"
 
-#: src/panel/settings/settings_style.vala:68
+#: src/panel/settings/settings_style.vala:72
 msgid "Dark theme"
 msgstr "Tamsi tema"
 
-#: src/panel/settings/settings_style.vala:72
+#: src/panel/settings/settings_style.vala:79
 msgid "Built-in theme"
 msgstr "Įtaisyta tema"
 
-#: src/panel/settings/settings_style.vala:73
+#: src/panel/settings/settings_style.vala:80
 msgid "When enabled, the built-in theme will override the desktop component styling"
 msgstr "Kai įjungta, įtaisytoji tema nustelbs darbalaukio komponentų stilių"
 
-#: src/panel/settings/settings_style.vala:77
+#: src/panel/settings/settings_style.vala:87
 msgid "Animations"
 msgstr "Animacijos"
 
-#: src/panel/settings/settings_style.vala:78
+#: src/panel/settings/settings_style.vala:88
 msgid "Control whether windows and controls use animations"
 msgstr "Valdyti ar langai ir valdikliai naudos animacijas"
 
-#: src/panel/settings/settings_style.vala:195
+#: src/panel/settings/settings_style.vala:209
 msgid "Top Left"
 msgstr "Viršutinėje kairėje"
 
-#: src/panel/settings/settings_style.vala:197
+#: src/panel/settings/settings_style.vala:211
 msgid "Bottom Left"
 msgstr "Apatinėje kairėje"
 
-#: src/panel/settings/settings_style.vala:199
+#: src/panel/settings/settings_style.vala:213
 msgid "Bottom Right"
 msgstr "Apatinėje dešinėje"
 
-#: src/panel/settings/settings_style.vala:202
+#: src/panel/settings/settings_style.vala:216
 msgid "Top Right"
 msgstr "Viršutinėje dešinėje"
 
@@ -935,9 +926,7 @@ msgstr "Pritvirtinti modalinius dialogus prie langų"
 
 #: src/panel/settings/settings_wm.vala:42
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr ""
-"Modaliniai dialogai bus pritvirtinti prie pirminių langų ir juos velkant, "
-"bus perkeliami kartu su jais."
+msgstr "Modaliniai dialogai bus pritvirtinti prie pirminių langų ir juos velkant, bus perkeliami kartu su jais."
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Button layout"
@@ -961,9 +950,7 @@ msgstr "Išjungti naktinį apšvietimą, kai langai yra visame ekrane"
 
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
-msgstr ""
-"Išjungia naktinio apšvietimo veikseną, kai langas yra visame ekrane. Išėjus "
-"iš viso ekrano veiksenos, vėl įjungia naktinį apšvietimą."
+msgstr "Išjungia naktinio apšvietimo veikseną, kai langas yra visame ekrane. Išėjus iš viso ekrano veiksenos, vėl įjungia naktinį apšvietimą."
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
@@ -971,9 +958,7 @@ msgstr "Automatinis išklojimas"
 
 #: src/panel/settings/settings_wm.vala:66
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr ""
-"Langai bus automatiškai išklojami, velkant juos į ekrano viršų ar "
-"tolimuosius kampus."
+msgstr "Langai bus automatiškai išklojami, velkant juos į ekrano viršų ar tolimuosius kampus."
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
@@ -981,9 +966,7 @@ msgstr "Įjungti lango fokusavimo pasikeitimus užvedus ir patraukus pelę"
 
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
-msgstr ""
-"Pritaiko lango fokusavimą, kai pelė užvedama ant lango ir panaikina "
-"fokusavimą, kai pelė patraukiama nuo lango."
+msgstr "Pritaiko lango fokusavimą, kai pelė užvedama ant lango ir panaikina fokusavimą, kai pelė patraukiama nuo lango."
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
@@ -991,9 +974,7 @@ msgstr "Išjungti netiesioginę langų išvestį"
 
 #: src/panel/settings/settings_wm.vala:79
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr ""
-"Šis parametras yra pažengusiems naudotojams. Naudokite jį, jeigu turite "
-"grafikos ar našumo problemų su paskirtais grafikos procesoriais."
+msgstr "Šis parametras yra pažengusiems naudotojams. Naudokite jį, jeigu turite grafikos ar našumo problemų su paskirtais grafikos procesoriais."
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
@@ -1033,8 +1014,7 @@ msgstr "Lygiaplotis"
 
 #: src/panel/settings/settings_fonts.vala:66
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr ""
-"Nustatyti lygiaplotį šriftą, kurį naudos programos, kuriose vyrauja tekstas."
+msgstr "Nustatyti lygiaplotį šriftą, kurį naudos programos, kuriose vyrauja tekstas."
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-29 16:42+0200\n"
+"POT-Creation-Date: 2019-02-02 03:35+0200\n"
 "PO-Revision-Date: 2017-10-19 19:02+0000\n"
 "Last-Translator: John Smith <aboutafteragain@gmail.com>\n"
 "Language-Team: Basque (http://www.transifex.com/budgie-desktop/budgie-desktop/language/eu/)\n"
@@ -114,11 +114,11 @@ msgid "No new notifications"
 msgstr "Jakinarazpen berririk ez"
 
 #. 125ms
-#: src/raven/sound.vala:151
+#: src/raven/sound.vala:158
 msgid "Apps"
 msgstr ""
 
-#: src/raven/sound.vala:152
+#: src/raven/sound.vala:159
 msgid "Devices"
 msgstr ""
 
@@ -770,76 +770,76 @@ msgstr "Muntatutako bolumenak eta unitateak mahaigainean agertuko dira "
 msgid "Style"
 msgstr "Estiloa"
 
-#: src/panel/settings/settings_style.vala:43
+#: src/panel/settings/settings_style.vala:47
 msgid "Widgets"
 msgstr "Widgetak"
 
-#: src/panel/settings/settings_style.vala:44
+#: src/panel/settings/settings_style.vala:48
 msgid "Set the appearance of window decorations and controls"
 msgstr "Leihoen apaingarrien eta kontrolen itxura ezarri"
 
-#: src/panel/settings/settings_style.vala:48
+#: src/panel/settings/settings_style.vala:52
 msgid "Icons"
 msgstr "Ikonoak"
 
-#: src/panel/settings/settings_style.vala:49
+#: src/panel/settings/settings_style.vala:53
 msgid "Set the globally used icon theme"
 msgstr "Ezarri orokorrean erabilitako ikono gaia"
 
-#: src/panel/settings/settings_style.vala:53
+#: src/panel/settings/settings_style.vala:57
 msgid "Cursors"
 msgstr "Kurtsoreak"
 
-#: src/panel/settings/settings_style.vala:54
+#: src/panel/settings/settings_style.vala:58
 msgid "Set the globally used mouse cursor theme"
 msgstr "Ezarri orokorrean erabilitako sagu kurtsorearen gaia"
 
-#: src/panel/settings/settings_style.vala:58
+#: src/panel/settings/settings_style.vala:62
 #, fuzzy
 msgid "Notification Position"
 msgstr "Jakinarazpenak"
 
-#: src/panel/settings/settings_style.vala:59
+#: src/panel/settings/settings_style.vala:63
 msgid "Set the location for notification popups"
 msgstr ""
 
-#: src/panel/settings/settings_style.vala:68
+#: src/panel/settings/settings_style.vala:72
 msgid "Dark theme"
 msgstr "Gai iluna"
 
-#: src/panel/settings/settings_style.vala:72
+#: src/panel/settings/settings_style.vala:79
 msgid "Built-in theme"
 msgstr "Built-in gaia"
 
-#: src/panel/settings/settings_style.vala:73
+#: src/panel/settings/settings_style.vala:80
 #, fuzzy
 msgid "When enabled, the built-in theme will override the desktop component styling"
 msgstr "Gaitzean, barnek osagaiak mahaigaineko osagaia ordezkatuko du"
 
-#: src/panel/settings/settings_style.vala:77
+#: src/panel/settings/settings_style.vala:87
 msgid "Animations"
 msgstr "Animazioak"
 
-#: src/panel/settings/settings_style.vala:78
+#: src/panel/settings/settings_style.vala:88
 msgid "Control whether windows and controls use animations"
 msgstr "Leiho eta kontrolek animazioak erabiltzen dituzten kontrolatu"
 
-#: src/panel/settings/settings_style.vala:195
+#: src/panel/settings/settings_style.vala:209
 #, fuzzy
 msgid "Top Left"
 msgstr "Ezkerra"
 
-#: src/panel/settings/settings_style.vala:197
+#: src/panel/settings/settings_style.vala:211
 #, fuzzy
 msgid "Bottom Left"
 msgstr "Behean"
 
-#: src/panel/settings/settings_style.vala:199
+#: src/panel/settings/settings_style.vala:213
 #, fuzzy
 msgid "Bottom Right"
 msgstr "Behean"
 
-#: src/panel/settings/settings_style.vala:202
+#: src/panel/settings/settings_style.vala:216
 #, fuzzy
 msgid "Top Right"
 msgstr "Eskuin"

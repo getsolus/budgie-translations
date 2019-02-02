@@ -11,11 +11,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-29 16:42+0200\n"
+"POT-Creation-Date: 2019-02-02 03:35+0200\n"
 "PO-Revision-Date: 2019-01-30 10:12+0000\n"
 "Last-Translator: Kim Trolle Wadum <kim@ktw.dk>\n"
-"Language-Team: Danish <http://translate.getsol.us/projects/budgie-desktop/"
-"translations/da/>\n"
+"Language-Team: Danish <http://translate.getsol.us/projects/budgie-desktop/translations/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -118,11 +117,11 @@ msgid "No new notifications"
 msgstr "Ingen nye notifikationer"
 
 #. 125ms
-#: src/raven/sound.vala:151
+#: src/raven/sound.vala:158
 msgid "Apps"
 msgstr "Applikationer"
 
-#: src/raven/sound.vala:152
+#: src/raven/sound.vala:159
 msgid "Devices"
 msgstr "Enheder"
 
@@ -631,9 +630,7 @@ msgstr "Tillad at volumen overstiger 100%"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
-msgstr ""
-"Tillader styring af volumen via lydindstillinger såvel som i lydudgang "
-"widget med op til 150%"
+msgstr "Tillader styring af volumen via lydindstillinger såvel som i lydudgang widget med op til 150%"
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
@@ -673,9 +670,7 @@ msgstr "Vis medieafspilnings kontroller widget"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
-msgstr ""
-"Viser eller skjuler medieafspilnings kontroller (MPRIS) widget i Ravens "
-"applet sektion."
+msgstr "Viser eller skjuler medieafspilnings kontroller (MPRIS) widget i Ravens applet sektion."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
@@ -732,8 +727,7 @@ msgstr "Skrivebordsikoner"
 
 #: src/panel/settings/settings_desktop.vala:44
 msgid "Control whether to allow launchers and icons on the desktop."
-msgstr ""
-"Bestemt hvorvidt programstartere og ikoner skal tillades på skrivebordet"
+msgstr "Bestemt hvorvidt programstartere og ikoner skal tillades på skrivebordet"
 
 #: src/panel/settings/settings_desktop.vala:54
 msgid "Home directory"
@@ -771,76 +765,76 @@ msgstr "Monterede diskenheder og drev vil blive vist på skrivebordet"
 msgid "Style"
 msgstr "Stil"
 
-#: src/panel/settings/settings_style.vala:43
+#: src/panel/settings/settings_style.vala:47
 msgid "Widgets"
 msgstr "Widgets"
 
-#: src/panel/settings/settings_style.vala:44
+#: src/panel/settings/settings_style.vala:48
 msgid "Set the appearance of window decorations and controls"
 msgstr "Angiv udseendet af vinduesdekorationer og kontroller"
 
-#: src/panel/settings/settings_style.vala:48
+#: src/panel/settings/settings_style.vala:52
 msgid "Icons"
 msgstr "Ikoner"
 
-#: src/panel/settings/settings_style.vala:49
+#: src/panel/settings/settings_style.vala:53
 msgid "Set the globally used icon theme"
 msgstr "Sæt det ikontema som skal bruges globalt"
 
-#: src/panel/settings/settings_style.vala:53
+#: src/panel/settings/settings_style.vala:57
 msgid "Cursors"
 msgstr "Markører"
 
-#: src/panel/settings/settings_style.vala:54
+#: src/panel/settings/settings_style.vala:58
 msgid "Set the globally used mouse cursor theme"
 msgstr "Sæt det musemarkørtema som skal bruges globalt"
 
-#: src/panel/settings/settings_style.vala:58
+#: src/panel/settings/settings_style.vala:62
 #, fuzzy
 msgid "Notification Position"
 msgstr "Notifikationer"
 
-#: src/panel/settings/settings_style.vala:59
+#: src/panel/settings/settings_style.vala:63
 msgid "Set the location for notification popups"
 msgstr ""
 
-#: src/panel/settings/settings_style.vala:68
+#: src/panel/settings/settings_style.vala:72
 msgid "Dark theme"
 msgstr "Mørkt tema"
 
-#: src/panel/settings/settings_style.vala:72
+#: src/panel/settings/settings_style.vala:79
 msgid "Built-in theme"
 msgstr "Indbygget tema"
 
-#: src/panel/settings/settings_style.vala:73
+#: src/panel/settings/settings_style.vala:80
 #, fuzzy
 msgid "When enabled, the built-in theme will override the desktop component styling"
 msgstr "Når den er aktiveret, så tilsidesættes skrivebordskomponentstilen med den indbyggede"
 
-#: src/panel/settings/settings_style.vala:77
+#: src/panel/settings/settings_style.vala:87
 msgid "Animations"
 msgstr "Animationer"
 
-#: src/panel/settings/settings_style.vala:78
+#: src/panel/settings/settings_style.vala:88
 msgid "Control whether windows and controls use animations"
 msgstr "Bestem hvorvidt vinduer og kontroller skal bruge animationer"
 
-#: src/panel/settings/settings_style.vala:195
+#: src/panel/settings/settings_style.vala:209
 #, fuzzy
 msgid "Top Left"
 msgstr "Venstre"
 
-#: src/panel/settings/settings_style.vala:197
+#: src/panel/settings/settings_style.vala:211
 #, fuzzy
 msgid "Bottom Left"
 msgstr "Nederst"
 
-#: src/panel/settings/settings_style.vala:199
+#: src/panel/settings/settings_style.vala:213
 #, fuzzy
 msgid "Bottom Right"
 msgstr "Nederst"
 
-#: src/panel/settings/settings_style.vala:202
+#: src/panel/settings/settings_style.vala:216
 #, fuzzy
 msgid "Top Right"
 msgstr "Højre"

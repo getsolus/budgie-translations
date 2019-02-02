@@ -18,11 +18,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-29 16:42+0200\n"
+"POT-Creation-Date: 2019-02-02 03:35+0200\n"
 "PO-Revision-Date: 2019-02-02 01:34+0000\n"
 "Last-Translator: Tobias Croby <tobias@croby.se>\n"
-"Language-Team: Swedish <http://translate.getsol.us/projects/budgie-desktop/"
-"translations/sv/>\n"
+"Language-Team: Swedish <http://translate.getsol.us/projects/budgie-desktop/translations/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -124,11 +123,11 @@ msgid "No new notifications"
 msgstr "Inga nya meddelanden"
 
 #. 125ms
-#: src/raven/sound.vala:151
+#: src/raven/sound.vala:158
 msgid "Apps"
 msgstr "Appar"
 
-#: src/raven/sound.vala:152
+#: src/raven/sound.vala:159
 msgid "Devices"
 msgstr "Enheter"
 
@@ -597,9 +596,7 @@ msgstr "Dölj automatiskt"
 
 #: src/panel/settings/settings_panel.vala:248
 msgid "When set, this panel will hide from view to maximize screen estate"
-msgstr ""
-"Om aktiverat så kommer panelen att döljas för att maximera tillgänglig "
-"skärmyta"
+msgstr "Om aktiverat så kommer panelen att döljas för att maximera tillgänglig skärmyta"
 
 #: src/panel/settings/settings_panel.vala:255
 msgid "Transparency"
@@ -623,9 +620,7 @@ msgstr "Tema för regioner"
 
 #: src/panel/settings/settings_panel.vala:269
 msgid "Adds a hint to the panel so that each of the panel's three main areas may be themed differently."
-msgstr ""
-"Lägger till hint i panelen så att varje område i de tre huvudområdena kan "
-"justeras olika i teman."
+msgstr "Lägger till hint i panelen så att varje område i de tre huvudområdena kan justeras olika i teman."
 
 #: src/panel/settings/settings_panel.vala:276
 msgid "Dock mode"
@@ -776,73 +771,71 @@ msgstr "Monterade volymer och diskar kommer att visas på skrivbordet."
 msgid "Style"
 msgstr "Stil"
 
-#: src/panel/settings/settings_style.vala:43
+#: src/panel/settings/settings_style.vala:47
 msgid "Widgets"
 msgstr "Widgets"
 
-#: src/panel/settings/settings_style.vala:44
+#: src/panel/settings/settings_style.vala:48
 msgid "Set the appearance of window decorations and controls"
 msgstr "Välj utseende för fönsterdekorationer och kontroller"
 
-#: src/panel/settings/settings_style.vala:48
+#: src/panel/settings/settings_style.vala:52
 msgid "Icons"
 msgstr "Ikoner"
 
-#: src/panel/settings/settings_style.vala:49
+#: src/panel/settings/settings_style.vala:53
 msgid "Set the globally used icon theme"
 msgstr "Välj globalt tema för ikoner"
 
-#: src/panel/settings/settings_style.vala:53
+#: src/panel/settings/settings_style.vala:57
 msgid "Cursors"
 msgstr "Muspekare"
 
-#: src/panel/settings/settings_style.vala:54
+#: src/panel/settings/settings_style.vala:58
 msgid "Set the globally used mouse cursor theme"
 msgstr "Välj globalt tema för muspekare"
 
-#: src/panel/settings/settings_style.vala:58
+#: src/panel/settings/settings_style.vala:62
 msgid "Notification Position"
 msgstr "Position för notifieringsmeddelande"
 
-#: src/panel/settings/settings_style.vala:59
+#: src/panel/settings/settings_style.vala:63
 msgid "Set the location for notification popups"
 msgstr "Ange plats för notifieringsmeddelanden"
 
-#: src/panel/settings/settings_style.vala:68
+#: src/panel/settings/settings_style.vala:72
 msgid "Dark theme"
 msgstr "Mörkt tema"
 
-#: src/panel/settings/settings_style.vala:72
+#: src/panel/settings/settings_style.vala:79
 msgid "Built-in theme"
 msgstr "Inbyggt tema"
 
-#: src/panel/settings/settings_style.vala:73
+#: src/panel/settings/settings_style.vala:80
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr ""
-"Om aktiverat kommer det inbyggda temat att ha företräde över skrivbordets "
-"komponenttema"
+msgstr "Om aktiverat kommer det inbyggda temat att ha företräde över skrivbordets komponenttema"
 
-#: src/panel/settings/settings_style.vala:77
+#: src/panel/settings/settings_style.vala:87
 msgid "Animations"
 msgstr "Animationer"
 
-#: src/panel/settings/settings_style.vala:78
+#: src/panel/settings/settings_style.vala:88
 msgid "Control whether windows and controls use animations"
 msgstr "Ställ in animationer för fönster och kontroller"
 
-#: src/panel/settings/settings_style.vala:195
+#: src/panel/settings/settings_style.vala:209
 msgid "Top Left"
 msgstr "Uppe till vänster"
 
-#: src/panel/settings/settings_style.vala:197
+#: src/panel/settings/settings_style.vala:211
 msgid "Bottom Left"
 msgstr "Nere till vänster"
 
-#: src/panel/settings/settings_style.vala:199
+#: src/panel/settings/settings_style.vala:213
 msgid "Bottom Right"
 msgstr "Nere till höger"
 
-#: src/panel/settings/settings_style.vala:202
+#: src/panel/settings/settings_style.vala:216
 msgid "Top Right"
 msgstr "Uppe till höger"
 
@@ -940,9 +933,7 @@ msgstr "Fäst modala dialogrutor i fönster"
 
 #: src/panel/settings/settings_wm.vala:42
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr ""
-"Modala dialogrutor fästs vid huvudfönstren och följer med när fönstret "
-"flyttas."
+msgstr "Modala dialogrutor fästs vid huvudfönstren och följer med när fönstret flyttas."
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Button layout"
@@ -974,20 +965,15 @@ msgstr "Automatiskt rutnät"
 
 #: src/panel/settings/settings_wm.vala:66
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr ""
-"Fönster anpassas automatiskt till rutnätet när de dras in mot hörn eller "
-"kanter."
+msgstr "Fönster anpassas automatiskt till rutnätet när de dras in mot hörn eller kanter."
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
-msgstr ""
-"Aktivera automatiskt fokus på fönster när muspekaren flyttas över fönstret"
+msgstr "Aktivera automatiskt fokus på fönster när muspekaren flyttas över fönstret"
 
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
-msgstr ""
-"Aktiverar automatiskt fokus på fönster när muspekaren förs över fönstret och "
-"avaktiverar fokus när muspekaren förs bort från fönstret."
+msgstr "Aktiverar automatiskt fokus på fönster när muspekaren förs över fönstret och avaktiverar fokus när muspekaren förs bort från fönstret."
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
@@ -995,9 +981,7 @@ msgstr "Inaktivera dirigering av fönster"
 
 #: src/panel/settings/settings_wm.vala:79
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr ""
-"Det här alternativet är för avancerade användare. Använd om du har problem "
-"med grafik eller prestanda med dedikerade GPUs."
+msgstr "Det här alternativet är för avancerade användare. Använd om du har problem med grafik eller prestanda med dedikerade GPUs."
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
@@ -1037,8 +1021,7 @@ msgstr "Monospace"
 
 #: src/panel/settings/settings_fonts.vala:66
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr ""
-"Välj ett typsnitt med fast bredd som används av textbaserade applikationer."
+msgstr "Välj ett typsnitt med fast bredd som används av textbaserade applikationer."
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"

@@ -20,18 +20,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-29 16:42+0200\n"
+"POT-Creation-Date: 2019-02-02 03:35+0200\n"
 "PO-Revision-Date: 2019-02-02 01:34+0000\n"
 "Last-Translator: Krzysztof <kk@fw190.info>\n"
-"Language-Team: Polish <http://translate.getsol.us/projects/budgie-desktop/"
-"translations/pl/>\n"
+"Language-Team: Polish <http://translate.getsol.us/projects/budgie-desktop/translations/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<"
-"12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) ||"
-" (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Weblate 3.4-dev\n"
 
 #: src/daemon/endsession.vala:171
@@ -130,11 +127,11 @@ msgid "No new notifications"
 msgstr "Brak nowych powiadomień"
 
 #. 125ms
-#: src/raven/sound.vala:151
+#: src/raven/sound.vala:158
 msgid "Apps"
 msgstr "Aplikacje"
 
-#: src/raven/sound.vala:152
+#: src/raven/sound.vala:159
 msgid "Devices"
 msgstr "Urządzenia"
 
@@ -629,9 +626,7 @@ msgstr "Stylizowanie obszarów"
 
 #: src/panel/settings/settings_panel.vala:269
 msgid "Adds a hint to the panel so that each of the panel's three main areas may be themed differently."
-msgstr ""
-"Dodaje podpowiedź do panelu, dzięki której każdy z trzech głównych obszarów "
-"panelu może mieć inny motyw."
+msgstr "Dodaje podpowiedź do panelu, dzięki której każdy z trzech głównych obszarów panelu może mieć inny motyw."
 
 #: src/panel/settings/settings_panel.vala:276
 msgid "Dock mode"
@@ -647,9 +642,7 @@ msgstr "Pozwól na zwiększenie głośności ponad 100%"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
-msgstr ""
-"Pozwala na zwiększenie głośności w Ustawieniach dźwięku, a także poprzez "
-"Widżet Wyjścia Dźwięku w Raven do 150%."
+msgstr "Pozwala na zwiększenie głośności w Ustawieniach dźwięku, a także poprzez Widżet Wyjścia Dźwięku w Raven do 150%."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
@@ -689,9 +682,7 @@ msgstr "Pokaż widżet sterowania odtwarzaniem mediów"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
-msgstr ""
-"Pokazuje albo ukrywa widżet sterowanie odtwarzaniem mediów (MPRIS) w sekcji "
-"Apletów Raven."
+msgstr "Pokazuje albo ukrywa widżet sterowanie odtwarzaniem mediów (MPRIS) w sekcji Apletów Raven."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
@@ -786,71 +777,71 @@ msgstr "Zamontowane woluminy i dyski pojawią się na pulpicie."
 msgid "Style"
 msgstr "Styl"
 
-#: src/panel/settings/settings_style.vala:43
+#: src/panel/settings/settings_style.vala:47
 msgid "Widgets"
 msgstr "Widżety"
 
-#: src/panel/settings/settings_style.vala:44
+#: src/panel/settings/settings_style.vala:48
 msgid "Set the appearance of window decorations and controls"
 msgstr "Ustaw wygląd dekoratorów i przycisków okna"
 
-#: src/panel/settings/settings_style.vala:48
+#: src/panel/settings/settings_style.vala:52
 msgid "Icons"
 msgstr "Ikony"
 
-#: src/panel/settings/settings_style.vala:49
+#: src/panel/settings/settings_style.vala:53
 msgid "Set the globally used icon theme"
 msgstr "Ustaw globalny motyw ikon"
 
-#: src/panel/settings/settings_style.vala:53
+#: src/panel/settings/settings_style.vala:57
 msgid "Cursors"
 msgstr "Kursory"
 
-#: src/panel/settings/settings_style.vala:54
+#: src/panel/settings/settings_style.vala:58
 msgid "Set the globally used mouse cursor theme"
 msgstr "Ustaw globalny motyw kursora"
 
-#: src/panel/settings/settings_style.vala:58
+#: src/panel/settings/settings_style.vala:62
 msgid "Notification Position"
 msgstr "Umiejscowienie powiadomień"
 
-#: src/panel/settings/settings_style.vala:59
+#: src/panel/settings/settings_style.vala:63
 msgid "Set the location for notification popups"
 msgstr "Ustaw umiejscowienie powiadomień"
 
-#: src/panel/settings/settings_style.vala:68
+#: src/panel/settings/settings_style.vala:72
 msgid "Dark theme"
 msgstr "Ciemny styl"
 
-#: src/panel/settings/settings_style.vala:72
+#: src/panel/settings/settings_style.vala:79
 msgid "Built-in theme"
 msgstr "Wbudowany styl"
 
-#: src/panel/settings/settings_style.vala:73
+#: src/panel/settings/settings_style.vala:80
 msgid "When enabled, the built-in theme will override the desktop component styling"
 msgstr "Kiedy aktywne, styl komponentów pulpitu zostanie zastąpiony wbudowanym"
 
-#: src/panel/settings/settings_style.vala:77
+#: src/panel/settings/settings_style.vala:87
 msgid "Animations"
 msgstr "Animacje"
 
-#: src/panel/settings/settings_style.vala:78
+#: src/panel/settings/settings_style.vala:88
 msgid "Control whether windows and controls use animations"
 msgstr "Kontroluj, czy okna i przyciski mają używać animacji"
 
-#: src/panel/settings/settings_style.vala:195
+#: src/panel/settings/settings_style.vala:209
 msgid "Top Left"
 msgstr "Lewy górny"
 
-#: src/panel/settings/settings_style.vala:197
+#: src/panel/settings/settings_style.vala:211
 msgid "Bottom Left"
 msgstr "Lewy dolny"
 
-#: src/panel/settings/settings_style.vala:199
+#: src/panel/settings/settings_style.vala:213
 msgid "Bottom Right"
 msgstr "Prawy dolny"
 
-#: src/panel/settings/settings_style.vala:202
+#: src/panel/settings/settings_style.vala:216
 msgid "Top Right"
 msgstr "Prawy górny"
 
@@ -948,9 +939,7 @@ msgstr "Przypnij modalne dialogi do okien"
 
 #: src/panel/settings/settings_wm.vala:42
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr ""
-"Modalne dialogi zostaną przypięte do nadrzędnego okna i będą poruszać się "
-"razem przy przeciąganiu."
+msgstr "Modalne dialogi zostaną przypięte do nadrzędnego okna i będą poruszać się razem przy przeciąganiu."
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Button layout"
@@ -982,9 +971,7 @@ msgstr "Automatyczne kafelkowanie"
 
 #: src/panel/settings/settings_wm.vala:66
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr ""
-"Okna będą automatycznie kafelkowane, kiedy zostaną przeciągnięte do górnej "
-"lub skrajnej krawędzi ekranu."
+msgstr "Okna będą automatycznie kafelkowane, kiedy zostaną przeciągnięte do górnej lub skrajnej krawędzi ekranu."
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
@@ -1000,9 +987,7 @@ msgstr "Wyłącz cofnięcie przekierowania okien"
 
 #: src/panel/settings/settings_wm.vala:79
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr ""
-"Ta opcja jest dla zaawansowanych użytkowników. Użyj jej, jeśli masz problemy "
-"z grafiką lub wydajnością dedykowanych GPU."
+msgstr "Ta opcja jest dla zaawansowanych użytkowników. Użyj jej, jeśli masz problemy z grafiką lub wydajnością dedykowanych GPU."
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"

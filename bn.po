@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-29 16:42+0200\n"
+"POT-Creation-Date: 2019-02-02 03:35+0200\n"
 "PO-Revision-Date: 2019-01-29 14:29+0000\n"
 "Last-Translator: Reback 00 <reback00@mailfence.com>\n"
 "Language-Team: Bengali <http://translate.getsol.us/projects/budgie-desktop/translations/bn/>\n"
@@ -113,11 +113,11 @@ msgid "No new notifications"
 msgstr "কোনো নতুন নোটিফিকেশন নেই"
 
 #. 125ms
-#: src/raven/sound.vala:151
+#: src/raven/sound.vala:158
 msgid "Apps"
 msgstr "এ্যাপস"
 
-#: src/raven/sound.vala:152
+#: src/raven/sound.vala:159
 msgid "Devices"
 msgstr "ডিভাইসগুলো"
 
@@ -761,71 +761,71 @@ msgstr "মাউন্ট করা ভলিউম ও ড্রাইভগ�
 msgid "Style"
 msgstr "স্টাইল"
 
-#: src/panel/settings/settings_style.vala:43
+#: src/panel/settings/settings_style.vala:47
 msgid "Widgets"
 msgstr "উইজেটগুলো"
 
-#: src/panel/settings/settings_style.vala:44
+#: src/panel/settings/settings_style.vala:48
 msgid "Set the appearance of window decorations and controls"
 msgstr "উইন্ডোর ডেকোরেশন এবং বাটনের চেহারা ঠিক করুন"
 
-#: src/panel/settings/settings_style.vala:48
+#: src/panel/settings/settings_style.vala:52
 msgid "Icons"
 msgstr "আইকনগুলো"
 
-#: src/panel/settings/settings_style.vala:49
+#: src/panel/settings/settings_style.vala:53
 msgid "Set the globally used icon theme"
 msgstr "পুরো সিস্টেমের জন্য আইকন থিম ঠিক করুন"
 
-#: src/panel/settings/settings_style.vala:53
+#: src/panel/settings/settings_style.vala:57
 msgid "Cursors"
 msgstr "কার্সরগুলো"
 
-#: src/panel/settings/settings_style.vala:54
+#: src/panel/settings/settings_style.vala:58
 msgid "Set the globally used mouse cursor theme"
 msgstr "পুরো সিস্টেমের জন্য মাউস কার্সর থিম ঠিক করুন"
 
-#: src/panel/settings/settings_style.vala:58
+#: src/panel/settings/settings_style.vala:62
 msgid "Notification Position"
 msgstr "নোটিফিকেশনের অবস্থান"
 
-#: src/panel/settings/settings_style.vala:59
+#: src/panel/settings/settings_style.vala:63
 msgid "Set the location for notification popups"
 msgstr "নোটিফিকেশন পপআপের জন্য অবস্থান নির্ধারণ করুন"
 
-#: src/panel/settings/settings_style.vala:68
+#: src/panel/settings/settings_style.vala:72
 msgid "Dark theme"
 msgstr "কালো থিম"
 
-#: src/panel/settings/settings_style.vala:72
+#: src/panel/settings/settings_style.vala:79
 msgid "Built-in theme"
 msgstr "নিজস্ব থিম"
 
-#: src/panel/settings/settings_style.vala:73
+#: src/panel/settings/settings_style.vala:80
 msgid "When enabled, the built-in theme will override the desktop component styling"
 msgstr "যখন সক্রিয় থাকবে, নিজস্ব থিম থেকে ডেস্কটপ কম্পোনেন্টগুলোর স্টাইল দেখানো হবে"
 
-#: src/panel/settings/settings_style.vala:77
+#: src/panel/settings/settings_style.vala:87
 msgid "Animations"
 msgstr "এনিমেশনস"
 
-#: src/panel/settings/settings_style.vala:78
+#: src/panel/settings/settings_style.vala:88
 msgid "Control whether windows and controls use animations"
 msgstr "উইন্ডো এবং এর বাটনগুলোতে এ্যানিমেশন নিয়ন্ত্রণ করবে"
 
-#: src/panel/settings/settings_style.vala:195
+#: src/panel/settings/settings_style.vala:209
 msgid "Top Left"
 msgstr "উপরে বামে"
 
-#: src/panel/settings/settings_style.vala:197
+#: src/panel/settings/settings_style.vala:211
 msgid "Bottom Left"
 msgstr "নিচে বামে"
 
-#: src/panel/settings/settings_style.vala:199
+#: src/panel/settings/settings_style.vala:213
 msgid "Bottom Right"
 msgstr "নিচে ডানে"
 
-#: src/panel/settings/settings_style.vala:202
+#: src/panel/settings/settings_style.vala:216
 msgid "Top Right"
 msgstr "উপরে ডানে"
 

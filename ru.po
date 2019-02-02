@@ -13,18 +13,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-29 16:42+0200\n"
+"POT-Creation-Date: 2019-02-02 03:35+0200\n"
 "PO-Revision-Date: 2019-02-01 16:17+0000\n"
 "Last-Translator: translategetsolus_account1111 <i.y.orazbek@gmail.com>\n"
-"Language-Team: Russian <http://translate.getsol.us/projects/budgie-desktop/"
-"translations/ru/>\n"
+"Language-Team: Russian <http://translate.getsol.us/projects/budgie-desktop/translations/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
-"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 3.4-dev\n"
 
 #: src/daemon/endsession.vala:171
@@ -123,11 +120,11 @@ msgid "No new notifications"
 msgstr "Нет новых уведомлений"
 
 #. 125ms
-#: src/raven/sound.vala:151
+#: src/raven/sound.vala:158
 msgid "Apps"
 msgstr "Приложения"
 
-#: src/raven/sound.vala:152
+#: src/raven/sound.vala:159
 msgid "Devices"
 msgstr "Звуковые устройства"
 
@@ -590,8 +587,7 @@ msgstr "Размер"
 
 #: src/panel/settings/settings_panel.vala:240
 msgid "Set the size (width or height, depending on orientation) of this panel"
-msgstr ""
-"Задать размер (ширину или высоту, в зависимости от ориентации) этой панели"
+msgstr "Задать размер (ширину или высоту, в зависимости от ориентации) этой панели"
 
 #: src/panel/settings/settings_panel.vala:247
 msgid "Automatically hide"
@@ -639,9 +635,7 @@ msgstr "Разрешить увеличение громкости выше 100%
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
-msgstr ""
-"Позволяет увеличивать громкость в настройках звука, а также виджете вывода "
-"звука на панели Raven до 150%."
+msgstr "Позволяет увеличивать громкость в настройках звука, а также виджете вывода звука на панели Raven до 150%."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
@@ -657,8 +651,7 @@ msgstr "Показывать виджет календаря"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr ""
-"Показывает или скрывает виджет календаря в секции апплетов панели Raven."
+msgstr "Показывает или скрывает виджет календаря в секции апплетов панели Raven."
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
@@ -666,8 +659,7 @@ msgstr "Показывать виджет вывода звука"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr ""
-"Показывает или скрывает виджет вывода звука в секции апплетов панели Raven."
+msgstr "Показывает или скрывает виджет вывода звука в секции апплетов панели Raven."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
@@ -675,9 +667,7 @@ msgstr "Показывать виджет микрофонного ввода"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
-msgstr ""
-"Показывает или скрывает виджет микрофонного ввода в секции апплетов панели "
-"Raven."
+msgstr "Показывает или скрывает виджет микрофонного ввода в секции апплетов панели Raven."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
@@ -685,9 +675,7 @@ msgstr "Показывать виджет управления воспроиз�
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
-msgstr ""
-"Показывает или скрывает виджет управления воспроизведением медиа (MPRIS) в "
-"секции апплетов панели Raven."
+msgstr "Показывает или скрывает виджет управления воспроизведением медиа (MPRIS) в секции апплетов панели Raven."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
@@ -782,73 +770,71 @@ msgstr "Примонтированные разделы и диски будут
 msgid "Style"
 msgstr "Стиль"
 
-#: src/panel/settings/settings_style.vala:43
+#: src/panel/settings/settings_style.vala:47
 msgid "Widgets"
 msgstr "Виджеты"
 
-#: src/panel/settings/settings_style.vala:44
+#: src/panel/settings/settings_style.vala:48
 msgid "Set the appearance of window decorations and controls"
 msgstr "Настроить внешний вид окон и элементов управления"
 
-#: src/panel/settings/settings_style.vala:48
+#: src/panel/settings/settings_style.vala:52
 msgid "Icons"
 msgstr "Иконки"
 
-#: src/panel/settings/settings_style.vala:49
+#: src/panel/settings/settings_style.vala:53
 msgid "Set the globally used icon theme"
 msgstr "Задать глобально используемую тему для иконок"
 
-#: src/panel/settings/settings_style.vala:53
+#: src/panel/settings/settings_style.vala:57
 msgid "Cursors"
 msgstr "Курсоры"
 
-#: src/panel/settings/settings_style.vala:54
+#: src/panel/settings/settings_style.vala:58
 msgid "Set the globally used mouse cursor theme"
 msgstr "Задать глобально используемую тему для курсоров мыши"
 
-#: src/panel/settings/settings_style.vala:58
+#: src/panel/settings/settings_style.vala:62
 msgid "Notification Position"
 msgstr "Позиция уведомлений"
 
-#: src/panel/settings/settings_style.vala:59
+#: src/panel/settings/settings_style.vala:63
 msgid "Set the location for notification popups"
 msgstr "Установить местоположение всплывающих окон уведомлений"
 
-#: src/panel/settings/settings_style.vala:68
+#: src/panel/settings/settings_style.vala:72
 msgid "Dark theme"
 msgstr "Тёмная тема"
 
-#: src/panel/settings/settings_style.vala:72
+#: src/panel/settings/settings_style.vala:79
 msgid "Built-in theme"
 msgstr "Встроенная тема"
 
-#: src/panel/settings/settings_style.vala:73
+#: src/panel/settings/settings_style.vala:80
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr ""
-"Когда включено, стиль компонентов рабочего стола будет заменен встроенной "
-"темой"
+msgstr "Когда включено, стиль компонентов рабочего стола будет заменен встроенной темой"
 
-#: src/panel/settings/settings_style.vala:77
+#: src/panel/settings/settings_style.vala:87
 msgid "Animations"
 msgstr "Анимации"
 
-#: src/panel/settings/settings_style.vala:78
+#: src/panel/settings/settings_style.vala:88
 msgid "Control whether windows and controls use animations"
 msgstr "Задать использование анимации для окон и элементов управления"
 
-#: src/panel/settings/settings_style.vala:195
+#: src/panel/settings/settings_style.vala:209
 msgid "Top Left"
 msgstr "Вверху слева"
 
-#: src/panel/settings/settings_style.vala:197
+#: src/panel/settings/settings_style.vala:211
 msgid "Bottom Left"
 msgstr "Внизу слева"
 
-#: src/panel/settings/settings_style.vala:199
+#: src/panel/settings/settings_style.vala:213
 msgid "Bottom Right"
 msgstr "Внизу справа"
 
-#: src/panel/settings/settings_style.vala:202
+#: src/panel/settings/settings_style.vala:216
 msgid "Top Right"
 msgstr "Вверху справа"
 
@@ -946,9 +932,7 @@ msgstr "Присоединить модальные диалоги к окнам
 
 #: src/panel/settings/settings_wm.vala:42
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr ""
-"Модальные диалоги будут присоединены к родительскому окну и будут "
-"перемещаться вместе с ним при перетаскивании."
+msgstr "Модальные диалоги будут присоединены к родительскому окну и будут перемещаться вместе с ним при перетаскивании."
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Button layout"
@@ -972,9 +956,7 @@ msgstr "Отключить режим ночного света, когда ок
 
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
-msgstr ""
-"Отключает режим ночного света, когда какое-либо окно развернуто на весь "
-"экран. Включает обратно, когда осуществляется выход из полноэкранного режима."
+msgstr "Отключает режим ночного света, когда какое-либо окно развернуто на весь экран. Включает обратно, когда осуществляется выход из полноэкранного режима."
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
@@ -982,20 +964,15 @@ msgstr "Автоматическое выравнивание"
 
 #: src/panel/settings/settings_wm.vala:66
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr ""
-"Окна будут автоматически выравниваться при перетаскивании в верхнюю часть "
-"или углы экрана."
+msgstr "Окна будут автоматически выравниваться при перетаскивании в верхнюю часть или углы экрана."
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
-msgstr ""
-"Включить изменение фокуса окна при перемещении курсора внутрь него и наружу"
+msgstr "Включить изменение фокуса окна при перемещении курсора внутрь него и наружу"
 
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
-msgstr ""
-"Позволяет захватывать фокус, когда курсор мыши перемещается внутрь окна, и "
-"освобождать фокус, когда курсор мыши выходит за пределы окна."
+msgstr "Позволяет захватывать фокус, когда курсор мыши перемещается внутрь окна, и освобождать фокус, когда курсор мыши выходит за пределы окна."
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
@@ -1003,9 +980,7 @@ msgstr "Включить распределение окон"
 
 #: src/panel/settings/settings_wm.vala:79
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr ""
-"Опция для продвинутых пользователей. Используйте только при наличии проблем "
-"с графикой или производительностью с дискретными видеокартами."
+msgstr "Опция для продвинутых пользователей. Используйте только при наличии проблем с графикой или производительностью с дискретными видеокартами."
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
