@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-02 03:35+0200\n"
 "PO-Revision-Date: 2019-02-02 10:37+0000\n"
-"Last-Translator: Muhammad Satrio Wibowo <bowo.sma6@gmail.com>\n"
+"Last-Translator: Yurizal Susanto <yursan9@pm.me>\n"
 "Language-Team: Indonesian <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/id/>\n"
 "Language: id\n"
@@ -740,7 +740,7 @@ msgstr "Server jaringan"
 
 #: src/panel/settings/settings_desktop.vala:61
 msgid "Add a shortcut to your local network servers on the desktop."
-msgstr "Tambah jalan pintas ke server jaringan lokal pada desktop"
+msgstr "Tambah jalan pintas ke server jaringan lokal pada desktop."
 
 #: src/panel/settings/settings_desktop.vala:66
 msgid "Trash"
