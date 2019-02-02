@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-02 03:35+0200\n"
 "PO-Revision-Date: 2019-02-02 10:37+0000\n"
-"Last-Translator: Yurizal Susanto <yursan9@pm.me>\n"
+"Last-Translator: Muhammad Satrio Wibowo <bowo.sma6@gmail.com>\n"
 "Language-Team: Indonesian <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/id/>\n"
 "Language: id\n"
@@ -747,9 +747,8 @@ msgid "Trash"
 msgstr "Tempat sampah"
 
 #: src/panel/settings/settings_desktop.vala:67
-#, fuzzy
 msgid "Add a shortcut to the Trash directory on the desktop."
-msgstr "Menambah jalan pintas ke direktori tempat sampah pada desktop"
+msgstr "Tambah jalan pintas ke direktori tempat sampah pada desktop"
 
 #: src/panel/settings/settings_desktop.vala:72
 msgid "Mounted volumes"
