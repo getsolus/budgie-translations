@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-02 03:35+0200\n"
-"PO-Revision-Date: 2019-02-02 10:40+0000\n"
-"Last-Translator: Muhammad Satrio Wibowo <bowo.sma6@gmail.com>\n"
+"PO-Revision-Date: 2019-02-13 04:55+0000\n"
+"Last-Translator: Yurizal Susanto <yursan9@pm.me>\n"
 "Language-Team: Indonesian <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/id/>\n"
 "Language: id\n"
@@ -816,22 +816,19 @@ msgstr "Mengatur apakah jendela dan kontrol menggunakan animasi"
 
 #: src/panel/settings/settings_style.vala:209
 msgid "Top Left"
-msgstr "Kiri atas"
+msgstr "Kiri Atas"
 
 #: src/panel/settings/settings_style.vala:211
-#, fuzzy
 msgid "Bottom Left"
-msgstr "Bawah"
+msgstr "Kiri Bawah"
 
 #: src/panel/settings/settings_style.vala:213
-#, fuzzy
 msgid "Bottom Right"
-msgstr "Bawah"
+msgstr "Kanan Bawah"
 
 #: src/panel/settings/settings_style.vala:216
-#, fuzzy
 msgid "Top Right"
-msgstr "Kanan"
+msgstr "Kanan Atas"
 
 #: src/panel/settings/settings_autostart.vala:141
 msgid "Untitled"
@@ -926,27 +923,26 @@ msgid "Attach modal dialogs to windows"
 msgstr "Tempelkan dialog modal ke jendela"
 
 #: src/panel/settings/settings_wm.vala:42
-#, fuzzy
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr "Dialog modal akan tertempel ke jendela induk dan bergerak bersama saat digeser"
+msgstr ""
+"Dialog modal akan tertempel ke jendela induk dan bergerak bersama saat "
+"digeser."
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Button layout"
 msgstr "Susunan tombol"
 
 #: src/panel/settings/settings_wm.vala:48
-#, fuzzy
 msgid "Change the layout of buttons in application titlebars."
-msgstr "Ganti tata letak tombol di bar judul aplikasi"
+msgstr "Ganti tata letak tombol di bar judul aplikasi."
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
 msgstr "Pusatkan jendela baru di layar"
 
 #: src/panel/settings/settings_wm.vala:54
-#, fuzzy
 msgid "Center newly launched windows on the current screen."
-msgstr "Pusatkan jendela yang baru diluncurkan pada layar saat ini"
+msgstr "Pusatkan jendela yang baru diluncurkan pada layar saat ini."
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
@@ -961,9 +957,9 @@ msgid "Automatic tiling"
 msgstr "Tempatkan diri otomatis"
 
 #: src/panel/settings/settings_wm.vala:66
-#, fuzzy
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr "Jendela akan menempatkan diri saat digeser ke atas atau sisi sudut"
+msgstr ""
+"Jendela akan menempatkan diri saat digeser ke atas atau sisi sudut layar."
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
@@ -978,9 +974,10 @@ msgid "Disable unredirection of windows"
 msgstr "Matikan <i>unredirect</i> jendela"
 
 #: src/panel/settings/settings_wm.vala:79
-#, fuzzy
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr "Pilihan ini untuk pengguna tingkat lanjut. Gunakan ini jika anda mengalami masalah grafis atau kinerja dengan GPU khusus"
+msgstr ""
+"Pilihan ini untuk pengguna tingkat lanjut. Gunakan ini jika anda mengalami "
+"masalah grafis atau kinerja dengan GPU khusus."
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
@@ -995,45 +992,40 @@ msgid "Window Titles"
 msgstr "Judul Jendela"
 
 #: src/panel/settings/settings_fonts.vala:45
-#, fuzzy
 msgid "Set the font used in the titlebars of applications."
-msgstr "Tentukan fonta yang digunakan pada bar judul aplikasi"
+msgstr "Tentukan fonta yang digunakan pada bar judul aplikasi."
 
 #: src/panel/settings/settings_fonts.vala:51
 msgid "Documents"
 msgstr "Dokumen"
 
 #: src/panel/settings/settings_fonts.vala:52
-#, fuzzy
 msgid "Set the display font used by for documents."
-msgstr "Tentukan fonta tampilan yang digunakan oleh dokumen"
+msgstr "Tentukan fonta tampilan yang digunakan oleh dokumen."
 
 #: src/panel/settings/settings_fonts.vala:58
 msgid "Interface"
 msgstr "Antarmuka"
 
 #: src/panel/settings/settings_fonts.vala:59
-#, fuzzy
 msgid "Set the primary font used by application controls."
-msgstr "Tentukan fonta utama yang digunakan oleh kontrol aplikasi"
+msgstr "Tentukan fonta utama yang digunakan oleh kontrol aplikasi."
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Monospace"
-msgstr "Monospace"
+msgstr "Lebar tetap"
 
 #: src/panel/settings/settings_fonts.vala:66
-#, fuzzy
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr "Tentukan fonta lebar tetap yang digunakan oleh aplikasi dominan teks"
+msgstr "Tentukan fonta lebar tetap yang digunakan oleh aplikasi dominan teks."
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
 msgstr "Skalakan teks"
 
 #: src/panel/settings/settings_fonts.vala:73
-#, fuzzy
 msgid "Set the text scaling factor."
-msgstr "Atur faktor penyekalaan teks"
+msgstr "Atur faktor skala teks."
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
