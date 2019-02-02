@@ -8,9 +8,10 @@ msgstr ""
 "Project-Id-Version: budgie-desktop 10.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-02 03:35+0200\n"
-"PO-Revision-Date: 2019-02-01 20:09+0000\n"
+"PO-Revision-Date: 2019-02-09 08:43+0000\n"
 "Last-Translator: Lasha Kanteladze <lashakanteladze339@gmail.com>\n"
-"Language-Team: Georgian <http://translate.getsol.us/projects/budgie-desktop/translations/ka/>\n"
+"Language-Team: Georgian <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/ka/>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -202,7 +203,7 @@ msgstr "ფანჯრის დაპატარავება"
 
 #: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Unfavorite"
-msgstr ""
+msgstr "არა ფავორიტი"
 
 #: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Favorite"
@@ -219,7 +220,7 @@ msgstr "გადასვლა სამუშაო გრაფა %i ში
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Unmaximize"
-msgstr ""
+msgstr "მაქსიმიზაციის გაუქმება"
 
 #: src/applets/icon-tasklist/IconPopover.vala:543
 msgid "Close Window"
@@ -361,7 +362,7 @@ msgstr "სისტემიდან გამოსვლა"
 #: src/applets/places-indicator/PlacesIndicator.vala:85
 #: src/applets/places-indicator/PlacesIndicator.plugin.in.h:1
 msgid "Places"
-msgstr ""
+msgstr "მდებარეობები"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:181
 msgid "Nothing to display right now"
@@ -396,7 +397,7 @@ msgstr "ჩაწერე შენი პაროლი"
 #: src/applets/places-indicator/VolumeItem.vala:27
 #: src/applets/places-indicator/MountItem.vala:25
 msgid "Removable devices"
-msgstr ""
+msgstr "გამოძრობადი მოწყობილობები"
 
 #: src/applets/places-indicator/VolumeItem.vala:29
 #: src/applets/places-indicator/MountItem.vala:27
@@ -421,7 +422,7 @@ msgstr "ჩატვირთე და გახსენი \"%s\""
 #: src/applets/places-indicator/VolumeItem.vala:57
 #: src/applets/places-indicator/MountItem.vala:60
 msgid "Eject"
-msgstr ""
+msgstr "გამოძრობა"
 
 #: src/applets/places-indicator/VolumeItem.vala:76
 #: src/applets/places-indicator/VolumeItem.vala:121
@@ -431,7 +432,7 @@ msgstr "შეიყვანე ენკრიპტიზაციის პ�
 #: src/applets/places-indicator/VolumeItem.vala:87
 #: src/applets/places-indicator/MountItem.vala:78
 msgid "You can now safely remove"
-msgstr ""
+msgstr "შენ შეგიძლია უპრობლემოდ გამოაძრო"
 
 #: src/applets/places-indicator/VolumeItem.vala:119
 msgid "The password you entered is incorrect"
@@ -443,7 +444,7 @@ msgstr "დაფიქსირდა უცნობი პრობლემ�
 
 #: src/applets/places-indicator/MountItem.vala:62
 msgid "Unmount"
-msgstr ""
+msgstr "ამოტვირთვა"
 
 #: src/applets/places-indicator/MountItem.vala:79
 msgid "Unknown Device"
@@ -451,7 +452,7 @@ msgstr "უცხო მოწყობილობა"
 
 #: src/applets/places-indicator/MountItem.vala:88
 msgid "Error while ejecting device"
-msgstr ""
+msgstr "დაფიქსირდა პრობლემა მოწყობილობის ამოტვირთვისას"
 
 #: src/applets/places-indicator/MountItem.vala:105
 msgid "Error while unmounting volume"
@@ -610,62 +611,71 @@ msgstr "რეგიონების სტილიზაცია"
 #: src/panel/settings/settings_panel.vala:269
 msgid "Adds a hint to the panel so that each of the panel's three main areas may be themed differently."
 msgstr ""
+"ამატებს მინიშნებას პანელს, ამის მიხედვით ყოველ პანელის სამ მთავარ არეალს "
+"შეიძლება ქონდეს სხვადასხვა თემა."
 
 #: src/panel/settings/settings_panel.vala:276
 msgid "Dock mode"
-msgstr ""
+msgstr "„დოკის“ რეჟიმი"
 
 #: src/panel/settings/settings_panel.vala:277
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
 msgstr ""
+"„დოკის“ რეჟიმში, პანელი გამოიყენებს მინიმალურ მოცულობას და გაათავისუფლებს "
+"ადგილს ეკრანზე"
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
-msgstr ""
+msgstr "ნება დართე ხმის აწევას 100% ზე ზემოთ"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
 msgstr ""
+"ხმის აწევა ხმის პარამეტრებიდან, როგორც გარე ხმის ვიჯეტიდან დაშვებულია 150% "
+"მდე."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
-msgstr ""
+msgstr "მაჩვენე კვირის რიცხვები კალენდარში"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr ""
+msgstr "ეს პარამეტრი გამოიტანს კვირის რიცხვის გამოსახულებას კალენდარის ვიჯეტში."
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
-msgstr ""
+msgstr "მაჩვენე კალდენდრის ვიჯეტი"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr ""
+msgstr "აჩვენებს ან მალავს კალენდარის ვიჯეტს „Raven“-ის აპლეტების სეწციაში."
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
-msgstr ""
+msgstr "მაჩვენე გარე ხმის ვიჯეტი"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr ""
+msgstr "აჩვენებს ან მალავს გარე ხმის ვიჯეტს „Raven“-ის აპლეტების სექციაში."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
-msgstr ""
+msgstr "მაჩვენე მიკრაფონის შემყვანი ვიჯეტი"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
 msgstr ""
+"აჩვენებს ან მალავს მიკრაფონის შემყვან ვიჯეტს „Raven“-ის აპლეტების სექციაში."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
-msgstr ""
+msgstr "მაჩვენე აუდიო კონტროლის ვიჯეტი"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
 msgstr ""
+"აჩვენებს ან მალავს აუდიო კონტროლის ვიჯეტს (MPRIS) „Raven“-ის აპლეტების "
+"სექციაში."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
@@ -677,48 +687,49 @@ msgstr ""
 
 #: src/panel/settings/settings_panel_dialogs.vala:29
 msgid "Confirm panel removal"
-msgstr ""
+msgstr "დაადასტურე პანელის წაშლა"
 
 #: src/panel/settings/settings_panel_dialogs.vala:36
 msgid "Do you really want to remove this panel? This action cannot be undone."
 msgstr ""
+"ნამდვილად გსურს ამ პანელის წაშლა? წაშლის შემთხვევაში მას უკან ვერ აღადგენ."
 
 #: src/panel/settings/settings_panel_dialogs.vala:51
 #: src/panel/settings/settings_panel_dialogs.vala:114
 msgid "Don't ask me again"
-msgstr ""
+msgstr "აღარ მკითხო"
 
 #: src/panel/settings/settings_panel_dialogs.vala:60
 msgid "Remove panel"
-msgstr ""
+msgstr "პანელის წაშლა"
 
 #: src/panel/settings/settings_panel_dialogs.vala:61
 msgid "Keep panel"
-msgstr ""
+msgstr "პანელის დატოვება"
 
 #: src/panel/settings/settings_panel_dialogs.vala:92
 msgid "Confirm applet removal"
-msgstr ""
+msgstr "დაადასტურე აპლეტის წაშლა"
 
 #: src/panel/settings/settings_panel_dialogs.vala:99
 msgid "Do you really want to remove this applet? This action cannot be undone."
-msgstr ""
+msgstr "ნამდვილად გსურს ამ აპლეტის წაშლა? წაშლის შემთხვევაში მას ვერ აღადგენ."
 
 #: src/panel/settings/settings_panel_dialogs.vala:123
 msgid "Remove applet"
-msgstr ""
+msgstr "აპლეტის წაშლა"
 
 #: src/panel/settings/settings_panel_dialogs.vala:124
 msgid "Keep applet"
-msgstr ""
+msgstr "აპლეტის დატოვება"
 
 #: src/panel/settings/settings_desktop.vala:33
 msgid "Desktop"
-msgstr ""
+msgstr "დესკტოპი"
 
 #: src/panel/settings/settings_desktop.vala:43
 msgid "Desktop Icons"
-msgstr ""
+msgstr "დესკტოპის აიკონები"
 
 #: src/panel/settings/settings_desktop.vala:44
 msgid "Control whether to allow launchers and icons on the desktop."
@@ -734,7 +745,7 @@ msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:60
 msgid "Network servers"
-msgstr ""
+msgstr "ქსელის სერვერები"
 
 #: src/panel/settings/settings_desktop.vala:61
 msgid "Add a shortcut to your local network servers on the desktop."
@@ -742,7 +753,7 @@ msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:66
 msgid "Trash"
-msgstr ""
+msgstr "ნაგავი"
 
 #: src/panel/settings/settings_desktop.vala:67
 msgid "Add a shortcut to the Trash directory on the desktop."
@@ -750,19 +761,19 @@ msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:72
 msgid "Mounted volumes"
-msgstr ""
+msgstr "ჩატვირთული დისკები"
 
 #: src/panel/settings/settings_desktop.vala:73
 msgid "Mounted volumes & drives will appear on the desktop."
-msgstr ""
+msgstr "ჩატვირთული დისკები და მოწყობილობები გამოჩნდება დესკტოპზე."
 
 #: src/panel/settings/settings_style.vala:33
 msgid "Style"
-msgstr ""
+msgstr "სტილი"
 
 #: src/panel/settings/settings_style.vala:47
 msgid "Widgets"
-msgstr ""
+msgstr "ვიჯეტები"
 
 #: src/panel/settings/settings_style.vala:48
 msgid "Set the appearance of window decorations and controls"
@@ -770,7 +781,7 @@ msgstr ""
 
 #: src/panel/settings/settings_style.vala:52
 msgid "Icons"
-msgstr ""
+msgstr "აიკონები"
 
 #: src/panel/settings/settings_style.vala:53
 msgid "Set the globally used icon theme"
@@ -778,7 +789,7 @@ msgstr ""
 
 #: src/panel/settings/settings_style.vala:57
 msgid "Cursors"
-msgstr ""
+msgstr "კურსორები"
 
 #: src/panel/settings/settings_style.vala:58
 msgid "Set the globally used mouse cursor theme"
@@ -786,7 +797,7 @@ msgstr ""
 
 #: src/panel/settings/settings_style.vala:62
 msgid "Notification Position"
-msgstr ""
+msgstr "შეტყობინების პოზიცია"
 
 #: src/panel/settings/settings_style.vala:63
 msgid "Set the location for notification popups"
@@ -794,11 +805,11 @@ msgstr ""
 
 #: src/panel/settings/settings_style.vala:72
 msgid "Dark theme"
-msgstr ""
+msgstr "ბნელი თემა"
 
 #: src/panel/settings/settings_style.vala:79
 msgid "Built-in theme"
-msgstr ""
+msgstr "ჩაშენებული თემა"
 
 #: src/panel/settings/settings_style.vala:80
 msgid "When enabled, the built-in theme will override the desktop component styling"
@@ -806,7 +817,7 @@ msgstr ""
 
 #: src/panel/settings/settings_style.vala:87
 msgid "Animations"
-msgstr ""
+msgstr "ანიმაციები"
 
 #: src/panel/settings/settings_style.vala:88
 msgid "Control whether windows and controls use animations"
@@ -814,19 +825,19 @@ msgstr ""
 
 #: src/panel/settings/settings_style.vala:209
 msgid "Top Left"
-msgstr ""
+msgstr "ზედა მარცხენა"
 
 #: src/panel/settings/settings_style.vala:211
 msgid "Bottom Left"
-msgstr ""
+msgstr "ქვედა მარცხენა"
 
 #: src/panel/settings/settings_style.vala:213
 msgid "Bottom Right"
-msgstr ""
+msgstr "ქვედა მარჯვენა"
 
 #: src/panel/settings/settings_style.vala:216
 msgid "Top Right"
-msgstr ""
+msgstr "ზედა მარჯვენა"
 
 #: src/panel/settings/settings_autostart.vala:141
 msgid "Untitled"
@@ -834,7 +845,7 @@ msgstr ""
 
 #: src/panel/settings/settings_autostart.vala:148
 msgid "No description"
-msgstr ""
+msgstr "არარის აღწერილი"
 
 #: src/panel/settings/settings_autostart.vala:171
 msgid "running"
@@ -842,17 +853,17 @@ msgstr ""
 
 #: src/panel/settings/settings_autostart.vala:194
 msgid "Applications"
-msgstr ""
+msgstr "აპლიკაციები"
 
 #: src/panel/settings/settings_autostart.vala:204
 #: src/panel/settings/settings_autostart.vala:377
 msgid "Add"
-msgstr ""
+msgstr "დამატება"
 
 #: src/panel/settings/settings_autostart.vala:371
 #: src/panel/settings/settings_autostart.vala:404
 msgid "Command"
-msgstr ""
+msgstr "ბრძანება"
 
 #: src/panel/settings/settings_autostart.vala:387
 msgid "An entry with that title already exists"
@@ -865,40 +876,40 @@ msgstr ""
 #: src/panel/settings/settings_autostart.vala:394
 #: src/panel/settings/settings_autostart.vala:408
 msgid "Required"
-msgstr ""
+msgstr "საჭირო"
 
 #: src/panel/settings/settings_autostart.vala:397
 msgid "Description"
-msgstr ""
+msgstr "აღწერა"
 
 #: src/panel/settings/settings_autostart.vala:401
 msgid "Optional"
-msgstr ""
+msgstr "სურვილისამებრ"
 
 #: src/panel/settings/settings_autostart.vala:465
 msgid "Autostart"
-msgstr ""
+msgstr "ავტოსტარტი"
 
 #: src/panel/settings/settings_autostart.vala:483
 msgid "Autostart apps"
-msgstr ""
+msgstr "ავტოსტარტადი აპლიკაციები"
 
 #: src/panel/settings/settings_panel_applets.vala:22
 msgid "Configure applet"
-msgstr ""
+msgstr "აპლეტის კონფიგურაცია"
 
 #: src/panel/settings/settings_panel_applets.vala:245
 #: src/panel/settings/settings_applet_chooser.vala:85
 msgid "Add applet"
-msgstr ""
+msgstr "აპლეტის დამატება"
 
 #: src/panel/settings/settings_panel_applets.vala:246
 msgid "Choose a new applet to add to this panel"
-msgstr ""
+msgstr "შეარჩიე ახალი აპლეტი რომ დაამატო ამ პანელზე"
 
 #: src/panel/settings/settings_panel_applets.vala:260
 msgid "No settings available"
-msgstr ""
+msgstr "პარამეტრები არაა ხელიმსაწვდომი"
 
 #: src/panel/settings/settings_panel_applets.vala:414
 msgid "Start"
@@ -906,15 +917,15 @@ msgstr ""
 
 #: src/panel/settings/settings_panel_applets.vala:417
 msgid "Center"
-msgstr ""
+msgstr "ცენტრი"
 
 #: src/panel/settings/settings_panel_applets.vala:420
 msgid "End"
-msgstr ""
+msgstr "ბოლო"
 
 #: src/panel/settings/settings_wm.vala:32
 msgid "Windows"
-msgstr ""
+msgstr "ფანჯრები"
 
 #: src/panel/settings/settings_wm.vala:41
 msgid "Attach modal dialogs to windows"
@@ -926,15 +937,15 @@ msgstr ""
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Button layout"
-msgstr ""
+msgstr "ღილაკების განლაგება"
 
 #: src/panel/settings/settings_wm.vala:48
 msgid "Change the layout of buttons in application titlebars."
-msgstr ""
+msgstr "შეცვალე ღილაკების განლაგება აპლიკაციების სათაურებში."
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
-msgstr ""
+msgstr "დაცენტრე ახალი ფანჯარა ეკრანზე"
 
 #: src/panel/settings/settings_wm.vala:54
 msgid "Center newly launched windows on the current screen."
@@ -942,7 +953,7 @@ msgstr ""
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
-msgstr ""
+msgstr "გათიშე „ღამის ნათების“ რეჟიმი როცა ფანჯარა მთელ ეკრანზეა"
 
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
@@ -950,7 +961,7 @@ msgstr ""
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
-msgstr ""
+msgstr "ავტომატურად დასათაურება"
 
 #: src/panel/settings/settings_wm.vala:66
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
@@ -978,11 +989,11 @@ msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:33
 msgid "Fonts"
-msgstr ""
+msgstr "ფონტები"
 
 #: src/panel/settings/settings_fonts.vala:44
 msgid "Window Titles"
-msgstr ""
+msgstr "ფანჯრის სათაურები"
 
 #: src/panel/settings/settings_fonts.vala:45
 msgid "Set the font used in the titlebars of applications."
@@ -990,7 +1001,7 @@ msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:51
 msgid "Documents"
-msgstr ""
+msgstr "დოკუმენტები"
 
 #: src/panel/settings/settings_fonts.vala:52
 msgid "Set the display font used by for documents."
@@ -1022,23 +1033,23 @@ msgstr ""
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
-msgstr ""
+msgstr "შეარჩიე აპლეტი"
 
 #: src/daemon/endsession.ui.h:2
 msgid "Are you sure you want to end your session?"
-msgstr ""
+msgstr "ნამდვილად გსურს სესიის დასრულება?"
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
-msgstr ""
+msgstr "მაჩვენე ყველა ფანჯარა დაჭერისას"
 
 #: src/applets/icon-tasklist/settings.ui.h:2
 msgid "Only show favorited"
-msgstr ""
+msgstr "მაჩვენე მხოლოდ ფავორიტები"
 
 #: src/applets/icon-tasklist/settings.ui.h:3
 msgid "Lock icons"
-msgstr ""
+msgstr "აიკონების დაბლოკვა"
 
 #: src/applets/icon-tasklist/settings.ui.h:4
 msgid "Restrict to Workspace"
@@ -1046,16 +1057,16 @@ msgstr ""
 
 #: src/applets/icon-tasklist/settings.ui.h:5
 msgid "Window grouping"
-msgstr ""
+msgstr "ფანჯრების დაჯგუფება"
 
 #: src/applets/night-light/indicator_window.ui.h:1
 #: src/applets/night-light/NightLight.plugin.in.h:1
 msgid "Night Light"
-msgstr ""
+msgstr "„ღამის ნათება“"
 
 #: src/applets/night-light/indicator_window.ui.h:2
 msgid "Temperature"
-msgstr ""
+msgstr "ტემპერატურა"
 
 #: src/applets/night-light/indicator_window.ui.h:3
 msgid "Schedule"
@@ -1071,7 +1082,7 @@ msgstr ""
 
 #: src/applets/night-light/indicator_window.ui.h:6
 msgid "Display Settings"
-msgstr ""
+msgstr "გამოსახულების პარამეტრები"
 
 #: src/applets/spacer/settings.ui.h:1
 msgid "Spacer size"
@@ -1083,7 +1094,7 @@ msgstr ""
 
 #: src/applets/budgie-menu/settings.ui.h:2
 msgid "Compact Mode"
-msgstr ""
+msgstr "კომპაქტურობის რეჟიმი"
 
 #: src/applets/budgie-menu/settings.ui.h:3
 msgid "Show Headers"
@@ -1107,19 +1118,19 @@ msgstr ""
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
-msgstr ""
+msgstr "არ მაჩვენი"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
-msgstr ""
+msgstr "მაჩვენე მაუსის გადატარებისას"
 
 #: src/applets/workspaces/settings.ui.h:4
 msgid "Always show"
-msgstr ""
+msgstr "ყოველთვის მაჩვენე"
 
 #: src/applets/caffeine/settings.ui.h:1
 msgid "Enable notification"
-msgstr ""
+msgstr "შეტყობინებების ჩართვა"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
