@@ -14,14 +14,17 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-02 03:35+0200\n"
-"PO-Revision-Date: 2019-02-01 16:17+0000\n"
-"Last-Translator: translategetsolus_account1111 <i.y.orazbek@gmail.com>\n"
-"Language-Team: Russian <http://translate.getsol.us/projects/budgie-desktop/translations/ru/>\n"
+"PO-Revision-Date: 2019-02-07 09:14+0000\n"
+"Last-Translator: Pavel Datsenko <pavel.datsenko@gmail.com>\n"
+"Language-Team: Russian <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 3.4-dev\n"
 
 #: src/daemon/endsession.vala:171
@@ -29,10 +32,12 @@ msgid "Log out"
 msgstr "Выйти"
 
 #: src/daemon/endsession.vala:175
+#, fuzzy
 msgid "Restart device"
 msgstr "Перезагрузить"
 
 #: src/daemon/endsession.vala:187 src/daemon/endsession.ui.h:1
+#, fuzzy
 msgid "Power Off"
 msgstr "Выключение"
 
@@ -92,6 +97,7 @@ msgid "No apps are currently playing audio."
 msgstr "Нет программ, проигрывающих аудио."
 
 #: src/raven/start_listening.vala:24
+#, fuzzy
 msgid "Play some music"
 msgstr "Включить музыку"
 
@@ -108,12 +114,12 @@ msgstr "%u непрочитанных уведомлений"
 #: src/raven/notifications_view.vala:676
 #: src/applets/notifications/NotificationsApplet.vala:111
 msgid "1 unread notification"
-msgstr "1 непрочитанное уведомление "
+msgstr "1 непрочитанное уведомление"
 
 #: src/raven/notifications_view.vala:678
 #: src/applets/notifications/NotificationsApplet.vala:113
 msgid "No unread notifications"
-msgstr "Нет непрочитанных уведомлений "
+msgstr "Нет непрочитанных уведомлений"
 
 #: src/raven/notifications_view.vala:913
 msgid "No new notifications"
