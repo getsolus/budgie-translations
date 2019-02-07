@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-02 03:35+0200\n"
 "PO-Revision-Date: 2019-02-07 14:38+0000\n"
-"Last-Translator: Pavel Datsenko <pavel.datsenko@gmail.com>\n"
+"Last-Translator: Viacheslav Igumnov <arh.adm@gmail.com>\n"
 "Language-Team: Russian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ru/>\n"
 "Language: ru\n"
@@ -136,7 +136,7 @@ msgstr "Устройства"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
-msgstr "Батарея заряжена."
+msgstr "Батарея полностью заряжена."
 
 #: src/applets/status/PowerIndicator.vala:100
 msgid "Unknown"
@@ -145,7 +145,7 @@ msgstr "Неизвестно"
 #. Set inner charging duration to hours:minutes
 #: src/applets/status/PowerIndicator.vala:109
 msgid "Battery charging"
-msgstr "Заряжается"
+msgstr "Батарея заряжается"
 
 #: src/applets/status/PowerIndicator.vala:114
 msgid "Battery remaining"
@@ -271,7 +271,7 @@ msgstr "Отмена"
 
 #: src/applets/budgie-menu/IconChooser.vala:56
 msgid "Set icon"
-msgstr "Задать иконку"
+msgstr "Выбрать иконку"
 
 #. Special case, "All"
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:43
@@ -620,7 +620,7 @@ msgstr "Задать прозрачность фона для этой пане�
 
 #: src/panel/settings/settings_panel.vala:261
 msgid "Shadow"
-msgstr "Тени"
+msgstr "Тень"
 
 #: src/panel/settings/settings_panel.vala:262
 msgid "Adds a decorative drop-shadow, ideal for opaque panels"
@@ -781,7 +781,7 @@ msgstr "Смонтированные разделы"
 
 #: src/panel/settings/settings_desktop.vala:73
 msgid "Mounted volumes & drives will appear on the desktop."
-msgstr "Примонтированные разделы и диски будут появляться на рабочем столе."
+msgstr "Примонтированные разделы и диски будут отображаться на рабочем столе."
 
 #: src/panel/settings/settings_style.vala:33
 msgid "Style"
