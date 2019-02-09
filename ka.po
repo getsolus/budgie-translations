@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-02 03:35+0200\n"
 "PO-Revision-Date: 2019-02-09 08:43+0000\n"
-"Last-Translator: Lasha Kanteladze <lashakanteladze339@gmail.com>\n"
+"Last-Translator: Tornike Bakuradze <tokobakuradze@gmail.com>\n"
 "Language-Team: Georgian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ka/>\n"
 "Language: ka\n"
@@ -308,7 +308,7 @@ msgstr "გამოიყენე 24 საათიანი ფორმა�
 
 #: src/applets/show-desktop/ShowDesktopApplet.vala:34
 msgid "Toggle the desktop"
-msgstr ""
+msgstr "დესკტოპის ჩვენება/დამალვა"
 
 #: src/applets/workspaces/WorkspaceItem.vala:72
 msgid "Rename"
@@ -733,15 +733,15 @@ msgstr "დესკტოპის აიკონები"
 
 #: src/panel/settings/settings_desktop.vala:44
 msgid "Control whether to allow launchers and icons on the desktop."
-msgstr ""
+msgstr "გამოჩნდეს თუ არა მალსახმობები დესკტოპზე"
 
 #: src/panel/settings/settings_desktop.vala:54
 msgid "Home directory"
-msgstr ""
+msgstr "სახლის დირექტორია"
 
 #: src/panel/settings/settings_desktop.vala:55
 msgid "Add a shortcut to your home directory on the desktop."
-msgstr ""
+msgstr "დაამატე სახლის დირექტორიის მალსახმობი დესკტოპზე"
 
 #: src/panel/settings/settings_desktop.vala:60
 msgid "Network servers"
@@ -793,7 +793,7 @@ msgstr "კურსორები"
 
 #: src/panel/settings/settings_style.vala:58
 msgid "Set the globally used mouse cursor theme"
-msgstr ""
+msgstr "შეცვალე ზოგადად გამოყენებული მაუსის კურსორის თემა"
 
 #: src/panel/settings/settings_style.vala:62
 msgid "Notification Position"
@@ -813,7 +813,7 @@ msgstr "ჩაშენებული თემა"
 
 #: src/panel/settings/settings_style.vala:80
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr ""
+msgstr "თუ ჩართულია, დესკტოპის კომპონენტებში გამოიყენება ჩაშენებული თემა"
 
 #: src/panel/settings/settings_style.vala:87
 msgid "Animations"
@@ -821,7 +821,7 @@ msgstr "ანიმაციები"
 
 #: src/panel/settings/settings_style.vala:88
 msgid "Control whether windows and controls use animations"
-msgstr ""
+msgstr "დაემატოს თუ არა ანიმაცია ფანჯრებზე და კონტროლებზე"
 
 #: src/panel/settings/settings_style.vala:209
 msgid "Top Left"
@@ -841,7 +841,7 @@ msgstr "ზედა მარჯვენა"
 
 #: src/panel/settings/settings_autostart.vala:141
 msgid "Untitled"
-msgstr ""
+msgstr "დაუსათაურებელი"
 
 #: src/panel/settings/settings_autostart.vala:148
 msgid "No description"
@@ -849,7 +849,7 @@ msgstr "არარის აღწერილი"
 
 #: src/panel/settings/settings_autostart.vala:171
 msgid "running"
-msgstr ""
+msgstr "მიმდინარე"
 
 #: src/panel/settings/settings_autostart.vala:194
 msgid "Applications"
@@ -871,7 +871,7 @@ msgstr ""
 
 #: src/panel/settings/settings_autostart.vala:390
 msgid "Title"
-msgstr ""
+msgstr "სათაური"
 
 #: src/panel/settings/settings_autostart.vala:394
 #: src/panel/settings/settings_autostart.vala:408
@@ -913,7 +913,7 @@ msgstr "პარამეტრები არაა ხელიმსაწ�
 
 #: src/panel/settings/settings_panel_applets.vala:414
 msgid "Start"
-msgstr ""
+msgstr "ჩართვა"
 
 #: src/panel/settings/settings_panel_applets.vala:417
 msgid "Center"
@@ -929,11 +929,13 @@ msgstr "ფანჯრები"
 
 #: src/panel/settings/settings_wm.vala:41
 msgid "Attach modal dialogs to windows"
-msgstr ""
+msgstr "მიაბი დიალოგური ფანჯრები აპლიკაციის ფანჯარას"
 
 #: src/panel/settings/settings_wm.vala:42
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
 msgstr ""
+"დიალოგური ფანჯრები მიებმება მთავარ ფანჯარას და გადაადგილების შემთხვევაში "
+"გაყვება მას"
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Button layout"
@@ -949,7 +951,7 @@ msgstr "დაცენტრე ახალი ფანჯარა ეკრ
 
 #: src/panel/settings/settings_wm.vala:54
 msgid "Center newly launched windows on the current screen."
-msgstr ""
+msgstr "ახალი ფანჯრები გახსენი მიმდინარე ეკრანის ცენტრში"
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
@@ -958,6 +960,8 @@ msgstr "გათიშე „ღამის ნათების“ რეჟ
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr ""
+"გამორთავს ღამის განათების რეჟიმს როცა ფანჯარა მთელ ეკრანზეა გაშლილი. ჩართავს "
+"როცა დაბრუნდება ჩვეულ რეჟიმში"
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
@@ -982,10 +986,12 @@ msgstr ""
 #: src/panel/settings/settings_wm.vala:79
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
 msgstr ""
+"ეს არის მხოლოდ გამოცდილი მომხარებლისთვის. გამოიყენეთ მაშინ თუ გაქვთ "
+"გრაფიკული პრობლემა, ან ნელა მუშაობს გრაფიკული ბარათი"
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
-msgstr ""
+msgstr "მარჯვნივ (სტანდარტული)"
 
 #: src/panel/settings/settings_fonts.vala:33
 msgid "Fonts"
@@ -997,7 +1003,7 @@ msgstr "ფანჯრის სათაურები"
 
 #: src/panel/settings/settings_fonts.vala:45
 msgid "Set the font used in the titlebars of applications."
-msgstr ""
+msgstr "შეარჩიეთ ფონტი, რომელიც იქნება გამოყენებული აპლიკაციის სათაურებში"
 
 #: src/panel/settings/settings_fonts.vala:51
 msgid "Documents"
@@ -1009,7 +1015,7 @@ msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:58
 msgid "Interface"
-msgstr ""
+msgstr "ინტერფეისი"
 
 #: src/panel/settings/settings_fonts.vala:59
 msgid "Set the primary font used by application controls."
@@ -1074,7 +1080,7 @@ msgstr ""
 
 #: src/applets/night-light/indicator_window.ui.h:4
 msgid "Sunset to Sunrise"
-msgstr ""
+msgstr "მზის ჩასვლიდან ამოსვლამდე"
 
 #: src/applets/night-light/indicator_window.ui.h:5
 msgid "Manual"
@@ -1090,7 +1096,7 @@ msgstr ""
 
 #: src/applets/budgie-menu/settings.ui.h:1
 msgid "Show Menu Label"
-msgstr ""
+msgstr "გამოაჩინე მენიუს იარლიყი"
 
 #: src/applets/budgie-menu/settings.ui.h:2
 msgid "Compact Mode"
