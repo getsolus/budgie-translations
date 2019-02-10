@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-02 03:35+0200\n"
 "PO-Revision-Date: 2019-02-13 04:55+0000\n"
-"Last-Translator: Lasha Kanteladze <lashakanteladze339@gmail.com>\n"
+"Last-Translator: Giorgi Gigashvili <gigashviligeorge@gmail.com>\n"
 "Language-Team: Georgian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ka/>\n"
 "Language: ka\n"
@@ -1031,7 +1031,7 @@ msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
-msgstr ""
+msgstr "ტექსტის მაშტაბი"
 
 #: src/panel/settings/settings_fonts.vala:73
 msgid "Set the text scaling factor."
@@ -1168,19 +1168,19 @@ msgstr ""
 
 #: src/polkit/dialog.ui.h:1
 msgid "Authentication Required"
-msgstr ""
+msgstr "საჭიროა იდენტიფიკაცია"
 
 #: src/polkit/dialog.ui.h:2
 msgid "Password:"
-msgstr ""
+msgstr "პაროლი:"
 
 #: src/polkit/dialog.ui.h:3
 msgid "Authentication is required"
-msgstr ""
+msgstr "იდენტიფიკაცია საჭიროა"
 
 #: src/polkit/dialog.ui.h:5
 msgid "Authenticate"
-msgstr ""
+msgstr "იდენტიფიცირება"
 
 #: src/session/budgie-desktop.desktop.in.in.h:1
 #: src/session/budgie-desktop.session.in.in.h:1
@@ -1189,7 +1189,7 @@ msgstr ""
 
 #: src/session/budgie-desktop.desktop.in.in.h:2
 msgid "This session logs you into the Budgie Desktop"
-msgstr ""
+msgstr "ამ სესიით თქვენ გაივლით ავტორიზაციას “Budgie Desktop” -ში"
 
 #: src/applets/tray/TrayApplet.plugin.in.h:1
 msgid "System Tray"
@@ -1197,7 +1197,7 @@ msgstr ""
 
 #: src/applets/status/StatusApplet.plugin.in.h:1
 msgid "Status Indicator"
-msgstr ""
+msgstr "სტატუსის ინდიკატორი"
 
 #: src/applets/icon-tasklist/IconTasklistApplet.plugin.in.h:1
 msgid "Icon Task List"
@@ -1221,11 +1221,11 @@ msgstr ""
 
 #: src/applets/clock/ClockApplet.plugin.in.h:1
 msgid "Clock"
-msgstr ""
+msgstr "საათი"
 
 #: src/applets/separator/SeparatorApplet.plugin.in.h:1
 msgid "Separator"
-msgstr ""
+msgstr "გამყოფი"
 
 #: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
 msgid "Show Desktop Button"
@@ -1257,7 +1257,7 @@ msgstr ""
 
 #: src/panel/budgie-panel.desktop.in.h:1
 msgid "Budgie Panel"
-msgstr ""
+msgstr "“Budgie”-ს პანელი"
 
 #: src/panel/budgie-panel.desktop.in.h:2
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
