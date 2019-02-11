@@ -14,8 +14,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-02 03:35+0200\n"
-"PO-Revision-Date: 2019-02-11 12:29+0000\n"
-"Last-Translator: Viacheslav Igumnov <arh.adm@gmail.com>\n"
+"PO-Revision-Date: 2019-02-13 04:55+0000\n"
+"Last-Translator: Pavel Datsenko <pavel.datsenko@gmail.com>\n"
 "Language-Team: Russian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ru/>\n"
 "Language: ru\n"
@@ -264,7 +264,7 @@ msgstr "Отмена"
 
 #: src/applets/budgie-menu/IconChooser.vala:56
 msgid "Set icon"
-msgstr "Выбрать иконку"
+msgstr "Выбрать значок"
 
 #. Special case, "All"
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:43
@@ -396,7 +396,7 @@ msgstr "Открыть \"%s\""
 
 #: src/applets/places-indicator/MountHelper.vala:39
 msgid "Volume is in use by other processes"
-msgstr "Раздел используется другими процессами"
+msgstr "Том используется другими процессами"
 
 #: src/applets/places-indicator/MountHelper.vala:45
 msgid "Operation aborted"
@@ -594,12 +594,12 @@ msgstr "Задать размер (ширину или высоту, в зави
 
 #: src/panel/settings/settings_panel.vala:247
 msgid "Automatically hide"
-msgstr "Автоматически прятать"
+msgstr "Автоматически скрывать"
 
 #: src/panel/settings/settings_panel.vala:248
 msgid "When set, this panel will hide from view to maximize screen estate"
 msgstr ""
-"Если задано, панель будет скрываться для максимизации пространства экрана"
+"Если задано, эта панель будет скрываться для максимизации пространства экрана"
 
 #: src/panel/settings/settings_panel.vala:255
 msgid "Transparency"
