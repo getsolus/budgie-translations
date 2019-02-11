@@ -13,9 +13,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-02 03:35+0200\n"
-"PO-Revision-Date: 2019-02-01 16:17+0000\n"
+"PO-Revision-Date: 2019-02-12 22:39+0000\n"
 "Last-Translator: Geert Verheyde <geert.verheyde@gmail.com>\n"
-"Language-Team: Dutch <http://translate.getsol.us/projects/budgie-desktop/translations/nl/>\n"
+"Language-Team: Dutch <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -416,7 +417,7 @@ msgstr "Netwerk mappen"
 #: src/applets/places-indicator/VolumeItem.vala:36
 #: src/applets/places-indicator/MountItem.vala:34
 msgid "Other"
-msgstr "Andere"
+msgstr "Overige"
 
 #: src/applets/places-indicator/VolumeItem.vala:43
 #, c-format
@@ -436,7 +437,7 @@ msgstr "Voer het encryptiepaswoord in om toegang te hebben tot dit volume"
 #: src/applets/places-indicator/VolumeItem.vala:87
 #: src/applets/places-indicator/MountItem.vala:78
 msgid "You can now safely remove"
-msgstr "Nu veilig verwijderen"
+msgstr "Kan nu veilig verwijderd worden"
 
 #: src/applets/places-indicator/VolumeItem.vala:119
 msgid "The password you entered is incorrect"
@@ -935,7 +936,7 @@ msgstr "Opmaak knoppen"
 
 #: src/panel/settings/settings_wm.vala:48
 msgid "Change the layout of buttons in application titlebars."
-msgstr "Wijzig de layout van de toepassingsbedieningsknoppen."
+msgstr "Wijzig de plaats van de toepassingsbedieningsknoppen."
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
@@ -1092,7 +1093,7 @@ msgstr "Compacte Modus"
 
 #: src/applets/budgie-menu/settings.ui.h:3
 msgid "Show Headers"
-msgstr "Toon de hoofdingen"
+msgstr "Toon de rubrieken"
 
 #: src/applets/budgie-menu/settings.ui.h:4
 msgid "Menu Label"
@@ -1201,7 +1202,7 @@ msgstr "Budgie Menu"
 
 #: src/applets/lock-keys/LockKeysApplet.plugin.in.h:1
 msgid "Lock Keys Indicator"
-msgstr "Toetsenblokkering Aanwijzer"
+msgstr "Caps en Num Lock verklikker"
 
 #: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
 msgid "Raven Sidebar Control"
