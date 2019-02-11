@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-02 03:35+0200\n"
 "PO-Revision-Date: 2019-02-11 12:29+0000\n"
-"Last-Translator: Pavel Datsenko <pavel.datsenko@gmail.com>\n"
+"Last-Translator: Dmitriy V.K <lanc1672@gmail.com>\n"
 "Language-Team: Russian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ru/>\n"
 "Language: ru\n"
@@ -32,9 +32,8 @@ msgid "Log out"
 msgstr "Выйти"
 
 #: src/daemon/endsession.vala:175
-#, fuzzy
 msgid "Restart device"
-msgstr "Перезагрузить"
+msgstr "Перезагрузить устройство"
 
 #: src/daemon/endsession.vala:187 src/daemon/endsession.ui.h:1
 msgid "Power Off"
