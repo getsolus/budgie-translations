@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-02 03:35+0200\n"
 "PO-Revision-Date: 2019-02-12 22:39+0000\n"
-"Last-Translator: Geert Verheyde <geert.verheyde@gmail.com>\n"
+"Last-Translator: René Nijhuis <siuhjinener@gmail.com>\n"
 "Language-Team: Dutch <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/nl/>\n"
 "Language: nl\n"
@@ -51,11 +51,11 @@ msgstr "Instellingen"
 #. Should show a notification
 #: src/daemon/settings.vala:310
 msgid "Turned on Caffeine Boost"
-msgstr "Caffeine Boost werd ingeschakeld"
+msgstr "Cafeïne Boost werd ingeschakeld"
 
 #: src/daemon/settings.vala:310
 msgid "Turned off Caffeine Boost"
-msgstr "Caffeine Boost werd uitgeschakeld"
+msgstr "Cafeïne Boost werd uitgeschakeld"
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
@@ -74,7 +74,7 @@ msgstr "Wordt uitgeschakeld binnen"
 #: src/raven/notifications_group.vala:44
 #: src/applets/caffeine/CaffeineWindow.vala:25
 msgid "Caffeine Mode"
-msgstr "Caffeine Mode"
+msgstr "Cafeïne Mode"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
@@ -91,7 +91,7 @@ msgstr "Geen enkele app gebruikt momenteel audio."
 
 #: src/raven/start_listening.vala:24
 msgid "Play some music"
-msgstr "Maak wat muziek"
+msgstr "Speel muziek af"
 
 #: src/raven/notifications_view.vala:106
 msgid "Nothing to see here"
@@ -340,7 +340,7 @@ msgstr "Vergrendelen"
 
 #: src/applets/user-indicator/UserIndicatorWindow.vala:102
 msgid "Suspend"
-msgstr "Onderbreken"
+msgstr "Stand-by"
 
 #: src/applets/user-indicator/UserIndicatorWindow.vala:103
 msgid "Hibernate"
@@ -397,7 +397,7 @@ msgstr "Operatie gestopt"
 
 #: src/applets/places-indicator/MountHelper.vala:57
 msgid "Type your password"
-msgstr "Voer uw paswoord in"
+msgstr "Voer uw wachtwoord in"
 
 #: src/applets/places-indicator/VolumeItem.vala:27
 #: src/applets/places-indicator/MountItem.vala:25
@@ -422,7 +422,7 @@ msgstr "Overige"
 #: src/applets/places-indicator/VolumeItem.vala:43
 #, c-format
 msgid "Mount and open \"%s\""
-msgstr "Aankoppelen en \"%s\" openen"
+msgstr "\"%s\" aankoppelen en openen"
 
 #: src/applets/places-indicator/VolumeItem.vala:57
 #: src/applets/places-indicator/MountItem.vala:60
@@ -432,7 +432,7 @@ msgstr "Uitwerpen"
 #: src/applets/places-indicator/VolumeItem.vala:76
 #: src/applets/places-indicator/VolumeItem.vala:121
 msgid "Enter the encryption passphrase to unlock this volume"
-msgstr "Voer het encryptiepaswoord in om toegang te hebben tot dit volume"
+msgstr "Voer het encryptie-wachtwoord in om toegang te hebben tot dit volume"
 
 #: src/applets/places-indicator/VolumeItem.vala:87
 #: src/applets/places-indicator/MountItem.vala:78
@@ -441,7 +441,7 @@ msgstr "Kan nu veilig verwijderd worden"
 
 #: src/applets/places-indicator/VolumeItem.vala:119
 msgid "The password you entered is incorrect"
-msgstr "Het ingevoerde paswoord is niet correct"
+msgstr "Het ingevoerde wachtwoord is niet correct"
 
 #: src/applets/places-indicator/VolumeItem.vala:123
 msgid "An unknown error occurred while attempting to mount this volume"
@@ -486,7 +486,7 @@ msgstr "Sessie"
 #: src/panel/settings/settings_main.vala:50
 #: src/panel/budgie-desktop-settings.desktop.in.h:1
 msgid "Budgie Desktop Settings"
-msgstr "Budgie Bureablad Instellingen"
+msgstr "Budgie Bureaublad Instellingen"
 
 #: src/panel/settings/settings_main.vala:81
 msgid "Create new panel"
@@ -575,7 +575,7 @@ msgstr "Positie"
 
 #: src/panel/settings/settings_panel.vala:231
 msgid "Set the edge of the screen that this panel will stay on"
-msgstr "Op welke rand van het schem moet het paneel vastgepind worden"
+msgstr "Op welke rand van het scherm moet het paneel vastgepind worden"
 
 #: src/panel/settings/settings_panel.vala:239
 msgid "Size"
@@ -728,7 +728,8 @@ msgstr "Bureaublad Iconen"
 
 #: src/panel/settings/settings_desktop.vala:44
 msgid "Control whether to allow launchers and icons on the desktop."
-msgstr "Bepaal of je al dan niet starters en iconen op het bureaublad wil."
+msgstr ""
+"Bepaal of je al dan niet programma- en bestands-iconen op het bureaublad wil."
 
 #: src/panel/settings/settings_desktop.vala:54
 msgid "Home directory"
@@ -744,7 +745,8 @@ msgstr "Netwerk servers"
 
 #: src/panel/settings/settings_desktop.vala:61
 msgid "Add a shortcut to your local network servers on the desktop."
-msgstr "Plaats een snelkoppeling naar uw locale netwerk servers op het bureaublad."
+msgstr ""
+"Plaats een snelkoppeling naar uw lokale netwerk servers op het bureaublad."
 
 #: src/panel/settings/settings_desktop.vala:66
 msgid "Trash"
@@ -896,7 +898,7 @@ msgstr "De applet instellen"
 #: src/panel/settings/settings_panel_applets.vala:245
 #: src/panel/settings/settings_applet_chooser.vala:85
 msgid "Add applet"
-msgstr "Een applet toevoegen"
+msgstr "Applet toevoegen"
 
 #: src/panel/settings/settings_panel_applets.vala:246
 msgid "Choose a new applet to add to this panel"
@@ -968,7 +970,9 @@ msgstr "Activeer wijzing vensterfocus bij in- en uitgaan van de muisaanwijzer"
 
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
-msgstr "Activeert de vensterfocus toe te passen bij het in- en uitgaan van de muisaanwijzer."
+msgstr ""
+"Activeert het toepassen van de vensterfocus bij het in- en uitgaan van de "
+"muisaanwijzer."
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
@@ -1161,7 +1165,7 @@ msgstr "Authentificatie Vereist"
 
 #: src/polkit/dialog.ui.h:2
 msgid "Password:"
-msgstr "Paswoord:"
+msgstr "Wachtwoord:"
 
 #: src/polkit/dialog.ui.h:3
 msgid "Authentication is required"
@@ -1230,7 +1234,7 @@ msgstr "Takenlijst"
 
 #: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
 msgid "Caffeine"
-msgstr "Caffeine"
+msgstr "Cafeïne"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
