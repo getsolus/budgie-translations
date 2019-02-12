@@ -9,9 +9,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-02 03:35+0200\n"
-"PO-Revision-Date: 2019-01-29 14:29+0000\n"
+"PO-Revision-Date: 2019-02-13 04:54+0000\n"
 "Last-Translator: Reback 00 <reback00@mailfence.com>\n"
-"Language-Team: Bengali <http://translate.getsol.us/projects/budgie-desktop/translations/bn/>\n"
+"Language-Team: Bengali <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/bn/>\n"
 "Language: bn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -402,7 +403,7 @@ msgstr "রিমুভেবল ডিভাইসগুলো"
 #: src/applets/places-indicator/VolumeItem.vala:29
 #: src/applets/places-indicator/MountItem.vala:27
 msgid "Local volumes"
-msgstr "লোকাল ভলিউম গুলো"
+msgstr "লোকাল ভলিউমগুলো"
 
 #: src/applets/places-indicator/VolumeItem.vala:33
 #: src/applets/places-indicator/MountItem.vala:31
@@ -481,11 +482,11 @@ msgstr "সেশন"
 #: src/panel/settings/settings_main.vala:50
 #: src/panel/budgie-desktop-settings.desktop.in.h:1
 msgid "Budgie Desktop Settings"
-msgstr "Budgie ডেস্কটপ সেটিংস "
+msgstr "Budgie ডেস্কটপ সেটিংস"
 
 #: src/panel/settings/settings_main.vala:81
 msgid "Create new panel"
-msgstr "নতুন প্যানেল তৈরী করুন"
+msgstr "নতুন প্যানেল তৈরী করো"
 
 #: src/panel/settings/settings_panel.vala:80
 msgid "Remove this panel from the screen"
@@ -707,11 +708,11 @@ msgstr "আপনি কি আসলেই এ্যাপলেটটি ম�
 
 #: src/panel/settings/settings_panel_dialogs.vala:123
 msgid "Remove applet"
-msgstr "অ্যাপলেট রিমুভ করুন"
+msgstr "অ্যাপলেট মুছে ফেলুন"
 
 #: src/panel/settings/settings_panel_dialogs.vala:124
 msgid "Keep applet"
-msgstr "অ্যাপলেট অপরিবর্তিত রাখুন"
+msgstr "অ্যাপলেট রেখে দিন"
 
 #: src/panel/settings/settings_desktop.vala:33
 msgid "Desktop"
@@ -727,7 +728,7 @@ msgstr "ডেস্কটপে লঞ্চার এবং আইকন দ�
 
 #: src/panel/settings/settings_desktop.vala:54
 msgid "Home directory"
-msgstr "হোম ডিরেক্টরী"
+msgstr "হোম ডিরেক্টরি"
 
 #: src/panel/settings/settings_desktop.vala:55
 msgid "Add a shortcut to your home directory on the desktop."
@@ -807,7 +808,7 @@ msgstr "যখন সক্রিয় থাকবে, নিজস্ব থি�
 
 #: src/panel/settings/settings_style.vala:87
 msgid "Animations"
-msgstr "এনিমেশনস"
+msgstr "এনিমেশনগুলো"
 
 #: src/panel/settings/settings_style.vala:88
 msgid "Control whether windows and controls use animations"
@@ -991,7 +992,7 @@ msgstr "এ্যাপ্লিকেশনগুলোর টাইটেল�
 
 #: src/panel/settings/settings_fonts.vala:51
 msgid "Documents"
-msgstr "ডকুমেন্টস"
+msgstr "ডকুমেন্টগুলো"
 
 #: src/panel/settings/settings_fonts.vala:52
 msgid "Set the display font used by for documents."
@@ -1027,7 +1028,7 @@ msgstr "অ্যাপলেট পছন্দ করুন"
 
 #: src/daemon/endsession.ui.h:2
 msgid "Are you sure you want to end your session?"
-msgstr "আসলেই চাচ্ছেন সেশনটি শেষ করতে?"
+msgstr "আপনি কি আসলেই সেশনটি শেষ করতে চাচ্ছেন?"
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
@@ -1080,7 +1081,7 @@ msgstr "স্পেসারের আকার"
 
 #: src/applets/budgie-menu/settings.ui.h:1
 msgid "Show Menu Label"
-msgstr "মেনুর নাম দেখুন"
+msgstr "মেনুর নাম দেখাও"
 
 #: src/applets/budgie-menu/settings.ui.h:2
 msgid "Compact Mode"
