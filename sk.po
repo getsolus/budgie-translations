@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-02 03:35+0200\n"
-"PO-Revision-Date: 2019-02-13 02:28+0000\n"
-"Last-Translator: Radoslav Mráz <radoslav.mraz95@gmail.com>\n"
+"PO-Revision-Date: 2019-02-13 04:55+0000\n"
+"Last-Translator: Ab Ministrator <abministrator@arcor.de>\n"
 "Language-Team: Slovak <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/sk/>\n"
 "Language: sk\n"
@@ -67,7 +67,7 @@ msgstr[2] ""
 
 #: src/daemon/settings.vala:318
 msgid "Will turn off in"
-msgstr ""
+msgstr "Vypnutie za"
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:44
@@ -119,7 +119,7 @@ msgstr "Žiadne nové oznámenia"
 #. 125ms
 #: src/raven/sound.vala:158
 msgid "Apps"
-msgstr ""
+msgstr "Programy"
 
 #: src/raven/sound.vala:159
 msgid "Devices"
@@ -187,32 +187,32 @@ msgstr "Nastavenia zvuku"
 
 #: src/applets/icon-tasklist/IconPopover.vala:93
 msgid "Launch New Instance"
-msgstr ""
+msgstr "Spustiť novú inštanciu"
 
 #: src/applets/icon-tasklist/IconPopover.vala:96
 msgid "Close All Windows"
-msgstr ""
+msgstr "Zavrieť všetky okná"
 
 #: src/applets/icon-tasklist/IconPopover.vala:104
 msgid "Always On Top"
-msgstr ""
+msgstr "Vždy v popredí"
 
 #: src/applets/icon-tasklist/IconPopover.vala:106
 #: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Maximize"
-msgstr ""
+msgstr "Maximalizovať"
 
 #: src/applets/icon-tasklist/IconPopover.vala:107
 msgid "Minimize"
-msgstr ""
+msgstr "Minimalizovať"
 
 #: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Unfavorite"
-msgstr ""
+msgstr "Vymazať z obľúbených"
 
 #: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Favorite"
-msgstr ""
+msgstr "Pridať k obľúbeným"
 
 #. If our current amount of workspaces is different than how many we have added
 #. We have items to add
@@ -220,34 +220,32 @@ msgstr ""
 #: src/applets/icon-tasklist/IconPopover.vala:384
 #, c-format
 msgid "Move To Workspace %i"
-msgstr ""
+msgstr "Presunúť na plochu %i"
 
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Unmaximize"
-msgstr ""
+msgstr "Zrušiť maximalizáciu"
 
 #: src/applets/icon-tasklist/IconPopover.vala:543
-#, fuzzy
 msgid "Close Window"
-msgstr "Okná"
+msgstr "Zatvoriť okno"
 
 #: src/applets/icon-tasklist/IconPopover.vala:545
-#, fuzzy
 msgid "Show Window Controls"
-msgstr "Dlaždice okien"
+msgstr "Odkryť ovládacie prvky okna"
 
 #: src/applets/budgie-menu/IconChooser.vala:27
 msgid "Set menu icon from file"
-msgstr ""
+msgstr "Nastaviť ikonu menu zo súboru"
 
 #: src/applets/budgie-menu/IconChooser.vala:37
 msgid "Image files"
-msgstr ""
+msgstr "Súbory s obrázkami"
 
 #: src/applets/budgie-menu/IconChooser.vala:43
 msgid "Any file"
-msgstr ""
+msgstr "Všetky súbory"
 
 #: src/applets/budgie-menu/IconChooser.vala:55
 #: src/panel/settings/settings_autostart.vala:203
@@ -259,7 +257,7 @@ msgstr "Zrušiť"
 
 #: src/applets/budgie-menu/IconChooser.vala:56
 msgid "Set icon"
-msgstr ""
+msgstr "Vybrať ikonu"
 
 #. Special case, "All"
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:43
@@ -269,7 +267,7 @@ msgstr "Všetko"
 #. placeholder in case of no results
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:401
 msgid "Sorry, no items found"
-msgstr ""
+msgstr "Ľutujeme, nebolo nič nájdené"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
@@ -299,19 +297,19 @@ msgstr "Kalendár"
 #: src/applets/clock/ClockApplet.vala:159
 #: src/applets/clock/ClockApplet.vala:190
 msgid "Preferences"
-msgstr ""
+msgstr "Nastavenia"
 
 #: src/applets/clock/ClockApplet.vala:169
 msgid "Show date"
-msgstr ""
+msgstr "Zobraziť dátum"
 
 #: src/applets/clock/ClockApplet.vala:174
 msgid "Show seconds"
-msgstr ""
+msgstr "Zobraziť sekundy"
 
 #: src/applets/clock/ClockApplet.vala:180
 msgid "Use 24 hour time"
-msgstr ""
+msgstr "Použiť 24-hodinový formát"
 
 #: src/applets/show-desktop/ShowDesktopApplet.vala:34
 msgid "Toggle the desktop"
@@ -319,15 +317,15 @@ msgstr "Prepne pracovnú plochu"
 
 #: src/applets/workspaces/WorkspaceItem.vala:72
 msgid "Rename"
-msgstr ""
+msgstr "Premenovať"
 
 #: src/applets/workspaces/WorkspaceItem.vala:79
 msgid "Remove"
-msgstr ""
+msgstr "Odstrániť"
 
 #: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Timer (minutes)"
-msgstr ""
+msgstr "Časomiera (minúty)"
 
 #. User Menu Creation
 #: src/applets/user-indicator/UserIndicatorWindow.vala:95
@@ -395,11 +393,11 @@ msgstr ""
 
 #: src/applets/places-indicator/MountHelper.vala:45
 msgid "Operation aborted"
-msgstr ""
+msgstr "Spracovanie prerušené"
 
 #: src/applets/places-indicator/MountHelper.vala:57
 msgid "Type your password"
-msgstr ""
+msgstr "Zadajte Vaše heslo"
 
 #: src/applets/places-indicator/VolumeItem.vala:27
 #: src/applets/places-indicator/MountItem.vala:25
@@ -434,7 +432,7 @@ msgstr "Vysunúť"
 #: src/applets/places-indicator/VolumeItem.vala:76
 #: src/applets/places-indicator/VolumeItem.vala:121
 msgid "Enter the encryption passphrase to unlock this volume"
-msgstr ""
+msgstr "Zadajte kôd na odšifrovanie tejto časti disku"
 
 #: src/applets/places-indicator/VolumeItem.vala:87
 #: src/applets/places-indicator/MountItem.vala:78
@@ -443,11 +441,11 @@ msgstr "Teraz môžete bezpečne odstrániť"
 
 #: src/applets/places-indicator/VolumeItem.vala:119
 msgid "The password you entered is incorrect"
-msgstr ""
+msgstr "Zadali Ste nesprávne heslo"
 
 #: src/applets/places-indicator/VolumeItem.vala:123
 msgid "An unknown error occurred while attempting to mount this volume"
-msgstr ""
+msgstr "Pri pokuse o pripojenie tejto časti disku došlo k neznámej chybe"
 
 #: src/applets/places-indicator/MountItem.vala:62
 msgid "Unmount"
@@ -455,23 +453,23 @@ msgstr "Odpojiť"
 
 #: src/applets/places-indicator/MountItem.vala:79
 msgid "Unknown Device"
-msgstr ""
+msgstr "Neznáme zariadenie"
 
 #: src/applets/places-indicator/MountItem.vala:88
 msgid "Error while ejecting device"
-msgstr ""
+msgstr "Chyba pri vysunutí zariadenia"
 
 #: src/applets/places-indicator/MountItem.vala:105
 msgid "Error while unmounting volume"
-msgstr ""
+msgstr "Chyba pri odpojení časti disku"
 
 #: src/polkit/polkitdialog.vala:131
 msgid "Authentication failed"
-msgstr ""
+msgstr "Autentifikácia zlyhala"
 
 #: src/polkit/polkitdialog.vala:230
 msgid "Group:"
-msgstr ""
+msgstr "Skupina:"
 
 #: src/panel/settings/settings_main.vala:39
 msgid "Appearance"
@@ -479,40 +477,40 @@ msgstr "Vzhľad"
 
 #: src/panel/settings/settings_main.vala:40
 msgid "Panels"
-msgstr ""
+msgstr "Panely"
 
 #: src/panel/settings/settings_main.vala:41
 msgid "Session"
-msgstr ""
+msgstr "Relácia"
 
 #: src/panel/settings/settings_main.vala:50
 #: src/panel/budgie-desktop-settings.desktop.in.h:1
 msgid "Budgie Desktop Settings"
-msgstr ""
+msgstr "Nastavenia pre Budgie Desktop"
 
 #: src/panel/settings/settings_main.vala:81
 msgid "Create new panel"
-msgstr ""
+msgstr "Vytvoriť nový panel"
 
 #: src/panel/settings/settings_panel.vala:80
 msgid "Remove this panel from the screen"
-msgstr ""
+msgstr "Odstrániť tento panel z obrazovky"
 
 #: src/panel/settings/settings_panel.vala:120
 msgid "Top Dock"
-msgstr ""
+msgstr "Horný dok"
 
 #: src/panel/settings/settings_panel.vala:122
 msgid "Right Dock"
-msgstr ""
+msgstr "Pravý dok"
 
 #: src/panel/settings/settings_panel.vala:124
 msgid "Left Dock"
-msgstr ""
+msgstr "Ľavý dok"
 
 #: src/panel/settings/settings_panel.vala:126
 msgid "Bottom Dock"
-msgstr ""
+msgstr "Dolný dok"
 
 #: src/panel/settings/settings_panel.vala:131
 msgid "Top Panel"
@@ -536,12 +534,12 @@ msgstr "Vrch"
 
 #: src/panel/settings/settings_panel.vala:178
 msgid "Right"
-msgstr ""
+msgstr "Napravo"
 
 #: src/panel/settings/settings_panel.vala:180
 #: src/panel/settings/settings_wm.vala:88
 msgid "Left"
-msgstr ""
+msgstr "Naľavo"
 
 #: src/panel/settings/settings_panel.vala:182
 msgid "Bottom"
@@ -549,27 +547,27 @@ msgstr "Spodok"
 
 #: src/panel/settings/settings_panel.vala:193
 msgid "Always"
-msgstr ""
+msgstr "Vždy"
 
 #: src/panel/settings/settings_panel.vala:195
 msgid "Dynamic"
-msgstr ""
+msgstr "Dynamický"
 
 #: src/panel/settings/settings_panel.vala:198
 msgid "None"
-msgstr ""
+msgstr "Nikdy"
 
 #: src/panel/settings/settings_panel.vala:209
 msgid "Automatic"
-msgstr ""
+msgstr "Automatický"
 
 #: src/panel/settings/settings_panel.vala:211
 msgid "Intelligent"
-msgstr ""
+msgstr "Inteligentný"
 
 #: src/panel/settings/settings_panel.vala:214
 msgid "Never"
-msgstr ""
+msgstr "Nikdy"
 
 #: src/panel/settings/settings_panel.vala:230
 msgid "Position"
@@ -577,7 +575,7 @@ msgstr "Pozícia"
 
 #: src/panel/settings/settings_panel.vala:231
 msgid "Set the edge of the screen that this panel will stay on"
-msgstr ""
+msgstr "Vybrať okraj obrazovky na prilepenie panela"
 
 #: src/panel/settings/settings_panel.vala:239
 msgid "Size"
@@ -585,23 +583,23 @@ msgstr "Veľkosť"
 
 #: src/panel/settings/settings_panel.vala:240
 msgid "Set the size (width or height, depending on orientation) of this panel"
-msgstr ""
+msgstr "Nastaviť veľkosť panela (šírku alebo výšku, podľa orentácie)"
 
 #: src/panel/settings/settings_panel.vala:247
 msgid "Automatically hide"
-msgstr ""
+msgstr "Skryť automaticky"
 
 #: src/panel/settings/settings_panel.vala:248
 msgid "When set, this panel will hide from view to maximize screen estate"
-msgstr ""
+msgstr "Pri tomto nastavení sa panel skryje, aby uvoľnil viac plochy"
 
 #: src/panel/settings/settings_panel.vala:255
 msgid "Transparency"
-msgstr ""
+msgstr "Priehľadnosť"
 
 #: src/panel/settings/settings_panel.vala:256
 msgid "Control when this panel should have a solid background"
-msgstr ""
+msgstr "Nastavenie, kedy má mať tento panel nepriehľadné pozadie"
 
 #: src/panel/settings/settings_panel.vala:261
 msgid "Shadow"
@@ -609,7 +607,7 @@ msgstr "Tieň"
 
 #: src/panel/settings/settings_panel.vala:262
 msgid "Adds a decorative drop-shadow, ideal for opaque panels"
-msgstr ""
+msgstr "Pridá tieň - ideálne pre panely, ktoré nie sú priehľadné"
 
 #: src/panel/settings/settings_panel.vala:268
 msgid "Stylize regions"
@@ -1258,3 +1256,5 @@ msgstr ""
 #: src/panel/budgie-panel.desktop.in.h:2
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
 msgstr ""
+"Spustenie ďalších programov a rôznych iných nástrojov na správu okien, "
+"zobrazenie času, atď."
