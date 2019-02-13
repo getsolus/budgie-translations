@@ -9,17 +9,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-02 03:35+0200\n"
+"POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-02-13 04:55+0000\n"
 "Last-Translator: BobTheBuilder <kl3men.g@gmail.com>\n"
-"Language-Team: Slovenian <http://translate.getsol.us/projects/budgie-desktop/"
-"translations/sl/>\n"
+"Language-Team: Slovenian <http://translate.getsol.us/projects/budgie-desktop/translations/sl/>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
-"n%100==4 ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
 "X-Generator: Weblate 3.4-dev\n"
 
 #: src/daemon/endsession.vala:171
@@ -58,16 +56,13 @@ msgstr ""
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
 #: src/daemon/settings.vala:317
-#, c-format
-msgid "a minute"
-msgid_plural "%d minutes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgid "Will turn off in a minute"
+msgstr ""
 
-#: src/daemon/settings.vala:318
-msgid "Will turn off in"
+#. use plural
+#: src/daemon/settings.vala:320
+#, c-format
+msgid "Will turn off in %d minutes"
 msgstr ""
 
 #. Caffeine Notification
@@ -89,7 +84,7 @@ msgstr "Obvestila"
 msgid "No apps are currently playing audio."
 msgstr "Trenutno nobena aplikacija ne predvaja zvoka."
 
-#: src/raven/start_listening.vala:24
+#: src/raven/start_listening.vala:28
 msgid "Play some music"
 msgstr "Predvajaj nekaj glasbe"
 
@@ -262,12 +257,12 @@ msgid "Set icon"
 msgstr "Nastavi ikono"
 
 #. Special case, "All"
-#: src/applets/budgie-menu/BudgieMenuWindow.vala:43
+#: src/applets/budgie-menu/BudgieMenuButtons.vala:28
 msgid "All"
 msgstr "Vse"
 
 #. placeholder in case of no results
-#: src/applets/budgie-menu/BudgieMenuWindow.vala:401
+#: src/applets/budgie-menu/BudgieMenuWindow.vala:271
 msgid "Sorry, no items found"
 msgstr "Oprostite, ni najdenih elementov"
 
@@ -617,8 +612,7 @@ msgstr "Omgoči slog regij"
 
 #: src/panel/settings/settings_panel.vala:269
 msgid "Adds a hint to the panel so that each of the panel's three main areas may be themed differently."
-msgstr ""
-"Doda namig panelu, da ima lahko vsako od treh glavnih področij drugačno temo"
+msgstr "Doda namig panelu, da ima lahko vsako od treh glavnih področij drugačno temo"
 
 #: src/panel/settings/settings_panel.vala:276
 msgid "Dock mode"
@@ -626,9 +620,7 @@ msgstr "način Dock"
 
 #: src/panel/settings/settings_panel.vala:277
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
-msgstr ""
-"V dock načinu, bo ta panel uporabil najmanjšo možno površino zaslona, da "
-"sprosti čimveč uporabne površine zaslona"
+msgstr "V dock načinu, bo ta panel uporabil najmanjšo možno površino zaslona, da sprosti čimveč uporabne površine zaslona"
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
@@ -981,9 +973,7 @@ msgstr ""
 
 #: src/panel/settings/settings_wm.vala:79
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr ""
-"Ta opcija je namenjena naprednim uporabnikom. Uporabite v primeru da imate "
-"težave z grafiko ali zmogljivostjo namenskih GPUjev."
+msgstr "Ta opcija je namenjena naprednim uporabnikom. Uporabite v primeru da imate težave z grafiko ali zmogljivostjo namenskih GPUjev."
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
@@ -1257,6 +1247,4 @@ msgstr "Budgie Panel"
 
 #: src/panel/budgie-panel.desktop.in.h:2
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
-msgstr ""
-"Zaženi druge aplikacije in ponudi različne pripomočke za upravljanje oken, "
-"prikaz časa, itd."
+msgstr "Zaženi druge aplikacije in ponudi različne pripomočke za upravljanje oken, prikaz časa, itd."

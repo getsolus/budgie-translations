@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-02 03:35+0200\n"
+"POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2017-11-23 00:32+0000\n"
 "Last-Translator: Fernando Macias <FernandoMaciasR@yahoo.com.mx>\n"
 "Language-Team: Spanish (United States) (http://www.transifex.com/budgie-desktop/budgie-desktop/language/es_US/)\n"
@@ -54,14 +54,13 @@ msgstr ""
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
 #: src/daemon/settings.vala:317
-#, c-format
-msgid "a minute"
-msgid_plural "%d minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgid "Will turn off in a minute"
+msgstr ""
 
-#: src/daemon/settings.vala:318
-msgid "Will turn off in"
+#. use plural
+#: src/daemon/settings.vala:320
+#, c-format
+msgid "Will turn off in %d minutes"
 msgstr ""
 
 #. Caffeine Notification
@@ -83,7 +82,7 @@ msgstr "Notificaciones"
 msgid "No apps are currently playing audio."
 msgstr ""
 
-#: src/raven/start_listening.vala:24
+#: src/raven/start_listening.vala:28
 msgid "Play some music"
 msgstr ""
 
@@ -256,12 +255,12 @@ msgid "Set icon"
 msgstr ""
 
 #. Special case, "All"
-#: src/applets/budgie-menu/BudgieMenuWindow.vala:43
+#: src/applets/budgie-menu/BudgieMenuButtons.vala:28
 msgid "All"
 msgstr "Todo"
 
 #. placeholder in case of no results
-#: src/applets/budgie-menu/BudgieMenuWindow.vala:401
+#: src/applets/budgie-menu/BudgieMenuWindow.vala:271
 msgid "Sorry, no items found"
 msgstr ""
 

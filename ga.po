@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-02 03:35+0200\n"
+"POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-01-18 07:03+0000\n"
 "Last-Translator: Seán Ó Séaghdha <sean.anseo@gmail.com>\n"
 "Language-Team: Irish <http://translate.getsol.us/projects/budgie-desktop/translations/ga/>\n"
@@ -56,17 +56,14 @@ msgstr "Steall Chaiféine as feidhm"
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
 #: src/daemon/settings.vala:317
-#, c-format
-msgid "a minute"
-msgid_plural "%d minutes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
+#, fuzzy
+msgid "Will turn off in a minute"
+msgstr "Múchfar é i gceann"
 
-#: src/daemon/settings.vala:318
-msgid "Will turn off in"
+#. use plural
+#: src/daemon/settings.vala:320
+#, fuzzy, c-format
+msgid "Will turn off in %d minutes"
 msgstr "Múchfar é i gceann"
 
 #. Caffeine Notification
@@ -88,7 +85,7 @@ msgstr "Fógraí"
 msgid "No apps are currently playing audio."
 msgstr "Níl aip ar bith ag úsáid fuaime faoi láthair."
 
-#: src/raven/start_listening.vala:24
+#: src/raven/start_listening.vala:28
 msgid "Play some music"
 msgstr "Seinn roinnt ceoil"
 
@@ -262,12 +259,12 @@ msgid "Set icon"
 msgstr "Socraigh deilbhín"
 
 #. Special case, "All"
-#: src/applets/budgie-menu/BudgieMenuWindow.vala:43
+#: src/applets/budgie-menu/BudgieMenuButtons.vala:28
 msgid "All"
 msgstr "Gach rud"
 
 #. placeholder in case of no results
-#: src/applets/budgie-menu/BudgieMenuWindow.vala:401
+#: src/applets/budgie-menu/BudgieMenuWindow.vala:271
 msgid "Sorry, no items found"
 msgstr "Brón orm, ní bhfuarthas dada"
 

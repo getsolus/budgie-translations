@@ -10,11 +10,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-02 03:35+0200\n"
+"POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-02-13 04:55+0000\n"
 "Last-Translator: Yurizal Susanto <yursan9@pm.me>\n"
-"Language-Team: Indonesian <http://translate.getsol.us/projects/"
-"budgie-desktop/translations/id/>\n"
+"Language-Team: Indonesian <http://translate.getsol.us/projects/budgie-desktop/translations/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -58,13 +57,14 @@ msgstr "Mematikan Kafein"
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
 #: src/daemon/settings.vala:317
-#, c-format
-msgid "a minute"
-msgid_plural "%d minutes"
-msgstr[0] ""
+#, fuzzy
+msgid "Will turn off in a minute"
+msgstr "Akan mati dalam"
 
-#: src/daemon/settings.vala:318
-msgid "Will turn off in"
+#. use plural
+#: src/daemon/settings.vala:320
+#, fuzzy, c-format
+msgid "Will turn off in %d minutes"
 msgstr "Akan mati dalam"
 
 #. Caffeine Notification
@@ -86,7 +86,7 @@ msgstr "Notifikasi"
 msgid "No apps are currently playing audio."
 msgstr "Tidak ada aplikasi yang memainkan suara."
 
-#: src/raven/start_listening.vala:24
+#: src/raven/start_listening.vala:28
 msgid "Play some music"
 msgstr "Mainkan musik"
 
@@ -256,12 +256,12 @@ msgid "Set icon"
 msgstr "Atur ikon"
 
 #. Special case, "All"
-#: src/applets/budgie-menu/BudgieMenuWindow.vala:43
+#: src/applets/budgie-menu/BudgieMenuButtons.vala:28
 msgid "All"
 msgstr "Semua"
 
 #. placeholder in case of no results
-#: src/applets/budgie-menu/BudgieMenuWindow.vala:401
+#: src/applets/budgie-menu/BudgieMenuWindow.vala:271
 msgid "Sorry, no items found"
 msgstr "Maaf, tidak ada hasil"
 
@@ -924,9 +924,7 @@ msgstr "Tempelkan dialog modal ke jendela"
 
 #: src/panel/settings/settings_wm.vala:42
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr ""
-"Dialog modal akan tertempel ke jendela induk dan bergerak bersama saat "
-"digeser."
+msgstr "Dialog modal akan tertempel ke jendela induk dan bergerak bersama saat digeser."
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Button layout"
@@ -958,8 +956,7 @@ msgstr "Tempatkan diri otomatis"
 
 #: src/panel/settings/settings_wm.vala:66
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr ""
-"Jendela akan menempatkan diri saat digeser ke atas atau sisi sudut layar."
+msgstr "Jendela akan menempatkan diri saat digeser ke atas atau sisi sudut layar."
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
@@ -975,9 +972,7 @@ msgstr "Matikan <i>unredirect</i> jendela"
 
 #: src/panel/settings/settings_wm.vala:79
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr ""
-"Pilihan ini untuk pengguna tingkat lanjut. Gunakan ini jika anda mengalami "
-"masalah grafis atau kinerja dengan GPU khusus."
+msgstr "Pilihan ini untuk pengguna tingkat lanjut. Gunakan ini jika anda mengalami masalah grafis atau kinerja dengan GPU khusus."
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"

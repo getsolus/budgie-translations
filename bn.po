@@ -8,11 +8,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-02 03:35+0200\n"
+"POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-02-13 04:54+0000\n"
 "Last-Translator: Reback 00 <reback00@mailfence.com>\n"
-"Language-Team: Bengali <http://translate.getsol.us/projects/budgie-desktop/"
-"translations/bn/>\n"
+"Language-Team: Bengali <http://translate.getsol.us/projects/budgie-desktop/translations/bn/>\n"
 "Language: bn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56,14 +55,14 @@ msgstr "ক্যাফেইন বুস্ট বন্ধ করা হয়�
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
 #: src/daemon/settings.vala:317
-#, c-format
-msgid "a minute"
-msgid_plural "%d minutes"
-msgstr[0] ""
-msgstr[1] ""
+#, fuzzy
+msgid "Will turn off in a minute"
+msgstr "বন্ধ হবে এই সময়ের মধ্যে"
 
-#: src/daemon/settings.vala:318
-msgid "Will turn off in"
+#. use plural
+#: src/daemon/settings.vala:320
+#, fuzzy, c-format
+msgid "Will turn off in %d minutes"
 msgstr "বন্ধ হবে এই সময়ের মধ্যে"
 
 #. Caffeine Notification
@@ -85,7 +84,7 @@ msgstr "নোটিফিকেশনগুলো"
 msgid "No apps are currently playing audio."
 msgstr "বর্তমানে কোন এ্যাপ অডিও চালাচ্ছে না।"
 
-#: src/raven/start_listening.vala:24
+#: src/raven/start_listening.vala:28
 msgid "Play some music"
 msgstr "গান শোনাও"
 
@@ -256,12 +255,12 @@ msgid "Set icon"
 msgstr "আইকন ঠিক করো"
 
 #. Special case, "All"
-#: src/applets/budgie-menu/BudgieMenuWindow.vala:43
+#: src/applets/budgie-menu/BudgieMenuButtons.vala:28
 msgid "All"
 msgstr "সবগুলো"
 
 #. placeholder in case of no results
-#: src/applets/budgie-menu/BudgieMenuWindow.vala:401
+#: src/applets/budgie-menu/BudgieMenuWindow.vala:271
 msgid "Sorry, no items found"
 msgstr "দুঃখিত, কিছু খুঁজে পাওয়া যায় নি"
 

@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-02 03:35+0200\n"
+"POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-02-02 01:34+0000\n"
 "Last-Translator: Tobias Croby <tobias@croby.se>\n"
 "Language-Team: Swedish <http://translate.getsol.us/projects/budgie-desktop/translations/sv/>\n"
@@ -65,14 +65,14 @@ msgstr "Caffeine avstängt"
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
 #: src/daemon/settings.vala:317
-#, c-format
-msgid "a minute"
-msgid_plural "%d minutes"
-msgstr[0] ""
-msgstr[1] ""
+#, fuzzy
+msgid "Will turn off in a minute"
+msgstr "Stängs av om"
 
-#: src/daemon/settings.vala:318
-msgid "Will turn off in"
+#. use plural
+#: src/daemon/settings.vala:320
+#, fuzzy, c-format
+msgid "Will turn off in %d minutes"
 msgstr "Stängs av om"
 
 #. Caffeine Notification
@@ -94,7 +94,7 @@ msgstr "Meddelanden"
 msgid "No apps are currently playing audio."
 msgstr "Just nu spelar inga appar upp ljud."
 
-#: src/raven/start_listening.vala:24
+#: src/raven/start_listening.vala:28
 msgid "Play some music"
 msgstr "Spela musik"
 
@@ -265,12 +265,12 @@ msgid "Set icon"
 msgstr "Välj ikon"
 
 #. Special case, "All"
-#: src/applets/budgie-menu/BudgieMenuWindow.vala:43
+#: src/applets/budgie-menu/BudgieMenuButtons.vala:28
 msgid "All"
 msgstr "Alla"
 
 #. placeholder in case of no results
-#: src/applets/budgie-menu/BudgieMenuWindow.vala:401
+#: src/applets/budgie-menu/BudgieMenuWindow.vala:271
 msgid "Sorry, no items found"
 msgstr "Ledsen, inga resultat hittades"
 

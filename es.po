@@ -19,11 +19,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-02 03:35+0200\n"
+"POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-02-13 04:55+0000\n"
 "Last-Translator: Jorge <teamevomagix@gmail.com>\n"
-"Language-Team: Spanish <http://translate.getsol.us/projects/budgie-desktop/"
-"translations/es/>\n"
+"Language-Team: Spanish <http://translate.getsol.us/projects/budgie-desktop/translations/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -67,14 +66,14 @@ msgstr "Impulso de Cafeína desactivado"
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
 #: src/daemon/settings.vala:317
-#, c-format
-msgid "a minute"
-msgid_plural "%d minutes"
-msgstr[0] ""
-msgstr[1] ""
+#, fuzzy
+msgid "Will turn off in a minute"
+msgstr "Se apagará en"
 
-#: src/daemon/settings.vala:318
-msgid "Will turn off in"
+#. use plural
+#: src/daemon/settings.vala:320
+#, fuzzy, c-format
+msgid "Will turn off in %d minutes"
 msgstr "Se apagará en"
 
 #. Caffeine Notification
@@ -96,7 +95,7 @@ msgstr "Notificaciones"
 msgid "No apps are currently playing audio."
 msgstr "Actualmente no hay aplicaciones reproduciendo audio."
 
-#: src/raven/start_listening.vala:24
+#: src/raven/start_listening.vala:28
 msgid "Play some music"
 msgstr "Reproducir música"
 
@@ -267,12 +266,12 @@ msgid "Set icon"
 msgstr "Elegir icono"
 
 #. Special case, "All"
-#: src/applets/budgie-menu/BudgieMenuWindow.vala:43
+#: src/applets/budgie-menu/BudgieMenuButtons.vala:28
 msgid "All"
 msgstr "Todo"
 
 #. placeholder in case of no results
-#: src/applets/budgie-menu/BudgieMenuWindow.vala:401
+#: src/applets/budgie-menu/BudgieMenuWindow.vala:271
 msgid "Sorry, no items found"
 msgstr "No se han encontrado resultados"
 
@@ -590,9 +589,7 @@ msgstr "Tamaño"
 
 #: src/panel/settings/settings_panel.vala:240
 msgid "Set the size (width or height, depending on orientation) of this panel"
-msgstr ""
-"Configurar el tamaño (alto o ancho dependiendo de la orientación) de este "
-"panel"
+msgstr "Configurar el tamaño (alto o ancho dependiendo de la orientación) de este panel"
 
 #: src/panel/settings/settings_panel.vala:247
 msgid "Automatically hide"
@@ -600,9 +597,7 @@ msgstr "Ocultar automáticamente"
 
 #: src/panel/settings/settings_panel.vala:248
 msgid "When set, this panel will hide from view to maximize screen estate"
-msgstr ""
-"Cuando se establece, este panel se ocultará de la vista para maximizar la "
-"pantalla"
+msgstr "Cuando se establece, este panel se ocultará de la vista para maximizar la pantalla"
 
 #: src/panel/settings/settings_panel.vala:255
 msgid "Transparency"
@@ -634,9 +629,7 @@ msgstr "Modo Dock"
 
 #: src/panel/settings/settings_panel.vala:277
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
-msgstr ""
-"Cuando esté en modo dock, el panel usará el mínimo espacio posible, librando "
-"pantalla"
+msgstr "Cuando esté en modo dock, el panel usará el mínimo espacio posible, librando pantalla"
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
@@ -644,9 +637,7 @@ msgstr "Permitir subir el volumen por encima de 100%"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
-msgstr ""
-"Permite subir el volumen en la Configuración de Sonido, así como en el "
-"Widget de Sonido de Raven hasta 150%."
+msgstr "Permite subir el volumen en la Configuración de Sonido, así como en el Widget de Sonido de Raven hasta 150%."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
@@ -702,8 +693,7 @@ msgstr "Confirmar la eliminación del panel"
 
 #: src/panel/settings/settings_panel_dialogs.vala:36
 msgid "Do you really want to remove this panel? This action cannot be undone."
-msgstr ""
-"¿Está seguro de querer quitar este panel? Esta acción no se puede deshacer."
+msgstr "¿Está seguro de querer quitar este panel? Esta acción no se puede deshacer."
 
 #: src/panel/settings/settings_panel_dialogs.vala:51
 #: src/panel/settings/settings_panel_dialogs.vala:114
@@ -724,8 +714,7 @@ msgstr "Confirmar la eliminación de applet"
 
 #: src/panel/settings/settings_panel_dialogs.vala:99
 msgid "Do you really want to remove this applet? This action cannot be undone."
-msgstr ""
-"¿Está seguro de querer quitar este applet? Esta acción no se puede deshacer."
+msgstr "¿Está seguro de querer quitar este applet? Esta acción no se puede deshacer."
 
 #: src/panel/settings/settings_panel_dialogs.vala:123
 msgid "Remove applet"
@@ -969,9 +958,7 @@ msgstr "Desactivar el modo noche cuando las ventanas están a pantalla completa"
 
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
-msgstr ""
-"Desactiva el modo noche cuando una ventana está a pantalla completa. Se "
-"vuelve a activar al salir de pantalla completa."
+msgstr "Desactiva el modo noche cuando una ventana está a pantalla completa. Se vuelve a activar al salir de pantalla completa."
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"

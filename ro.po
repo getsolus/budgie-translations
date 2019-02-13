@@ -14,17 +14,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-02 03:35+0200\n"
+"POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-02-13 04:55+0000\n"
 "Last-Translator: marius baesu <ramius.dalien@yandex.com>\n"
-"Language-Team: Romanian <http://translate.getsol.us/projects/budgie-desktop/"
-"translations/ro/>\n"
+"Language-Team: Romanian <http://translate.getsol.us/projects/budgie-desktop/translations/ro/>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
 "X-Generator: Weblate 3.4-dev\n"
 
 #: src/daemon/endsession.vala:171
@@ -63,15 +61,14 @@ msgstr "Caffeine Boost dezactivat"
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
 #: src/daemon/settings.vala:317
-#, c-format
-msgid "a minute"
-msgid_plural "%d minutes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+#, fuzzy
+msgid "Will turn off in a minute"
+msgstr "Se va opri în"
 
-#: src/daemon/settings.vala:318
-msgid "Will turn off in"
+#. use plural
+#: src/daemon/settings.vala:320
+#, fuzzy, c-format
+msgid "Will turn off in %d minutes"
 msgstr "Se va opri în"
 
 #. Caffeine Notification
@@ -93,7 +90,7 @@ msgstr "Notificări"
 msgid "No apps are currently playing audio."
 msgstr "Nicio aplicație nu redă muzică momentan."
 
-#: src/raven/start_listening.vala:24
+#: src/raven/start_listening.vala:28
 msgid "Play some music"
 msgstr "Redă niște muzică"
 
@@ -266,12 +263,12 @@ msgid "Set icon"
 msgstr "Alege pictograma"
 
 #. Special case, "All"
-#: src/applets/budgie-menu/BudgieMenuWindow.vala:43
+#: src/applets/budgie-menu/BudgieMenuButtons.vala:28
 msgid "All"
 msgstr "Tot"
 
 #. placeholder in case of no results
-#: src/applets/budgie-menu/BudgieMenuWindow.vala:401
+#: src/applets/budgie-menu/BudgieMenuWindow.vala:271
 msgid "Sorry, no items found"
 msgstr "Ne pare rău, nu s-au găsit elemente"
 
@@ -637,9 +634,7 @@ msgstr "Permiteți creșterea volumului peste 100%"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
-msgstr ""
-"Permite creșterea volumului prin intermediul setărilor de sunet, precum și a "
-"Widgetului de ieșire a sunetului în Raven până la 150%."
+msgstr "Permite creșterea volumului prin intermediul setărilor de sunet, precum și a Widgetului de ieșire a sunetului în Raven până la 150%."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
@@ -647,8 +642,7 @@ msgstr "Activați afișarea numerelor de săptămâni în Calendar"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr ""
-"Această setare permite afișarea numerelor de săptămână în widgetul Calendar."
+msgstr "Această setare permite afișarea numerelor de săptămână în widgetul Calendar."
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
@@ -664,9 +658,7 @@ msgstr "Afișați widgetul pentru ieșirea sunetului"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr ""
-"Afișează sau ascunde Widgetul de ieșire a sunetului în secțiunea Aplicații "
-"Raven."
+msgstr "Afișează sau ascunde Widgetul de ieșire a sunetului în secțiunea Aplicații Raven."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
@@ -674,9 +666,7 @@ msgstr "Afișați widgetul pentru intrarea microfonului"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
-msgstr ""
-"Afișează sau ascunde Widgetul de intrare a microfonului în secțiunea "
-"Aplicații Raven"
+msgstr "Afișează sau ascunde Widgetul de intrare a microfonului în secțiunea Aplicații Raven"
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
@@ -684,9 +674,7 @@ msgstr "Afișați widgetul pentru controlul redării media"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
-msgstr ""
-"Afișează sau ascunde Widget-ul de control al redării media (MPRIS) din "
-"secțiunea Aplicații Raven."
+msgstr "Afișează sau ascunde Widget-ul de control al redării media (MPRIS) din secțiunea Aplicații Raven."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
@@ -759,8 +747,7 @@ msgstr "Servere de rețea"
 
 #: src/panel/settings/settings_desktop.vala:61
 msgid "Add a shortcut to your local network servers on the desktop."
-msgstr ""
-"Adăugă o comandă rapidă către serverele rețelei tale locale de pe desktop."
+msgstr "Adăugă o comandă rapidă către serverele rețelei tale locale de pe desktop."
 
 #: src/panel/settings/settings_desktop.vala:66
 msgid "Trash"
@@ -824,9 +811,7 @@ msgstr "Tema integrată"
 
 #: src/panel/settings/settings_style.vala:80
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr ""
-"Când este activată, tema implicită va suprascrie styling-ul componentei "
-"desktop"
+msgstr "Când este activată, tema implicită va suprascrie styling-ul componentei desktop"
 
 #: src/panel/settings/settings_style.vala:87
 msgid "Animations"
@@ -946,9 +931,7 @@ msgstr "Atașează dialoguri modale la ferestre"
 
 #: src/panel/settings/settings_wm.vala:42
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr ""
-"Modalitățile de dialog vor fi atașate la fereastra părinte și se vor deplasa "
-"împreună atunci când sunt trase."
+msgstr "Modalitățile de dialog vor fi atașate la fereastra părinte și se vor deplasa împreună atunci când sunt trase."
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Button layout"
@@ -968,14 +951,11 @@ msgstr "Centrează ferestrele nou lansate pe ecranul curent. "
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
-msgstr ""
-"Dezactivați modul Lumină de Noapte atunci când ferestrele sunt ecran complet"
+msgstr "Dezactivați modul Lumină de Noapte atunci când ferestrele sunt ecran complet"
 
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
-msgstr ""
-"Dezactivează modul Lumină de Noapte atunci când o fereastră este afișată pe "
-"tot ecranul. Re-activează la părăsirea ecranului complet."
+msgstr "Dezactivează modul Lumină de Noapte atunci când o fereastră este afișată pe tot ecranul. Re-activează la părăsirea ecranului complet."
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
@@ -983,20 +963,15 @@ msgstr "Dispunere automată"
 
 #: src/panel/settings/settings_wm.vala:66
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr ""
-"Ferestrele vor fi automat aranjate când sunt trase în partea de sus a "
-"ecranului sau în colțurile îndepărtate."
+msgstr "Ferestrele vor fi automat aranjate când sunt trase în partea de sus a ecranului sau în colțurile îndepărtate."
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
-msgstr ""
-"Activați modificarea focalizării ferestrei cu mouse-ul pe intrare și plecare"
+msgstr "Activați modificarea focalizării ferestrei cu mouse-ul pe intrare și plecare"
 
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
-msgstr ""
-"Permite focalizarea ferestrei să se aplice când mouse-ul intră în fereastră "
-"și se defocalizează atunci când mouse-ul părăsește fereastra."
+msgstr "Permite focalizarea ferestrei să se aplice când mouse-ul intră în fereastră și se defocalizează atunci când mouse-ul părăsește fereastra."
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
@@ -1004,10 +979,7 @@ msgstr "Dezactivează \"unredirect\" "
 
 #: src/panel/settings/settings_wm.vala:79
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr ""
-"Această opțiune este pentru utilizatorii avansați. Utilizați acest lucru "
-"dacă aveți probleme grafice sau de performanță cu Unitațile de Procesare "
-"Grafică (UPG-urile) dedicate."
+msgstr "Această opțiune este pentru utilizatorii avansați. Utilizați acest lucru dacă aveți probleme grafice sau de performanță cu Unitațile de Procesare Grafică (UPG-urile) dedicate."
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
@@ -1047,8 +1019,7 @@ msgstr "Monospațiat"
 
 #: src/panel/settings/settings_fonts.vala:66
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr ""
-"Setați fontul cu lățime fixă ​​utilizat de aplicațiile dominante de text."
+msgstr "Setați fontul cu lățime fixă ​​utilizat de aplicațiile dominante de text."
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"

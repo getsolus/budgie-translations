@@ -7,11 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: budgie-desktop 10.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-02 03:35+0200\n"
+"POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-02-13 04:55+0000\n"
 "Last-Translator: Giorgi Gigashvili <gigashviligeorge@gmail.com>\n"
-"Language-Team: Georgian <http://translate.getsol.us/projects/budgie-desktop/"
-"translations/ka/>\n"
+"Language-Team: Georgian <http://translate.getsol.us/projects/budgie-desktop/translations/ka/>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,14 +54,14 @@ msgstr "„Caffeine Boost“ გამოირთო"
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
 #: src/daemon/settings.vala:317
-#, c-format
-msgid "a minute"
-msgid_plural "%d minutes"
-msgstr[0] ""
-msgstr[1] ""
+#, fuzzy
+msgid "Will turn off in a minute"
+msgstr "გამოირთვება"
 
-#: src/daemon/settings.vala:318
-msgid "Will turn off in"
+#. use plural
+#: src/daemon/settings.vala:320
+#, fuzzy, c-format
+msgid "Will turn off in %d minutes"
 msgstr "გამოირთვება"
 
 #. Caffeine Notification
@@ -84,7 +83,7 @@ msgstr "შეტყობინებები"
 msgid "No apps are currently playing audio."
 msgstr "ამჟამად არცერთი აპლიკაცია არ უკრავს აუდიოს."
 
-#: src/raven/start_listening.vala:24
+#: src/raven/start_listening.vala:28
 msgid "Play some music"
 msgstr "მუსიკის დაკვრა"
 
@@ -255,12 +254,12 @@ msgid "Set icon"
 msgstr "აიკონის დაყენება"
 
 #. Special case, "All"
-#: src/applets/budgie-menu/BudgieMenuWindow.vala:43
+#: src/applets/budgie-menu/BudgieMenuButtons.vala:28
 msgid "All"
 msgstr "ყველა"
 
 #. placeholder in case of no results
-#: src/applets/budgie-menu/BudgieMenuWindow.vala:401
+#: src/applets/budgie-menu/BudgieMenuWindow.vala:271
 msgid "Sorry, no items found"
 msgstr "ვერაფერი მოიძებნა"
 
@@ -610,9 +609,7 @@ msgstr "რეგიონების სტილიზაცია"
 
 #: src/panel/settings/settings_panel.vala:269
 msgid "Adds a hint to the panel so that each of the panel's three main areas may be themed differently."
-msgstr ""
-"ამატებს მინიშნებას პანელს, ამის მიხედვით ყოველ პანელის სამ მთავარ არეალს "
-"შეიძლება ქონდეს სხვადასხვა თემა."
+msgstr "ამატებს მინიშნებას პანელს, ამის მიხედვით ყოველ პანელის სამ მთავარ არეალს შეიძლება ქონდეს სხვადასხვა თემა."
 
 #: src/panel/settings/settings_panel.vala:276
 msgid "Dock mode"
@@ -620,9 +617,7 @@ msgstr "„დოკის“ რეჟიმი"
 
 #: src/panel/settings/settings_panel.vala:277
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
-msgstr ""
-"„დოკის“ რეჟიმში, პანელი გამოიყენებს მინიმალურ მოცულობას და გაათავისუფლებს "
-"ადგილს ეკრანზე"
+msgstr "„დოკის“ რეჟიმში, პანელი გამოიყენებს მინიმალურ მოცულობას და გაათავისუფლებს ადგილს ეკრანზე"
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
@@ -630,9 +625,7 @@ msgstr "ნება დართე ხმის აწევას 100% ზე
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
-msgstr ""
-"ხმის აწევა ხმის პარამეტრებიდან, როგორც გარე ხმის ვიჯეტიდან დაშვებულია 150% "
-"მდე."
+msgstr "ხმის აწევა ხმის პარამეტრებიდან, როგორც გარე ხმის ვიჯეტიდან დაშვებულია 150% მდე."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
@@ -664,8 +657,7 @@ msgstr "მაჩვენე მიკრაფონის შემყვა�
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
-msgstr ""
-"აჩვენებს ან მალავს მიკრაფონის შემყვან ვიჯეტს „Raven“-ის აპლეტების სექციაში."
+msgstr "აჩვენებს ან მალავს მიკრაფონის შემყვან ვიჯეტს „Raven“-ის აპლეტების სექციაში."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
@@ -673,9 +665,7 @@ msgstr "მაჩვენე აუდიო კონტროლის ვი
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
-msgstr ""
-"აჩვენებს ან მალავს აუდიო კონტროლის ვიჯეტს (MPRIS) „Raven“-ის აპლეტების "
-"სექციაში."
+msgstr "აჩვენებს ან მალავს აუდიო კონტროლის ვიჯეტს (MPRIS) „Raven“-ის აპლეტების სექციაში."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
@@ -691,8 +681,7 @@ msgstr "დაადასტურე პანელის წაშლა"
 
 #: src/panel/settings/settings_panel_dialogs.vala:36
 msgid "Do you really want to remove this panel? This action cannot be undone."
-msgstr ""
-"ნამდვილად გსურს ამ პანელის წაშლა? წაშლის შემთხვევაში მას უკან ვერ აღადგენ."
+msgstr "ნამდვილად გსურს ამ პანელის წაშლა? წაშლის შემთხვევაში მას უკან ვერ აღადგენ."
 
 #: src/panel/settings/settings_panel_dialogs.vala:51
 #: src/panel/settings/settings_panel_dialogs.vala:114
@@ -933,9 +922,7 @@ msgstr "მიაბი დიალოგური ფანჯრები ა
 
 #: src/panel/settings/settings_wm.vala:42
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr ""
-"დიალოგური ფანჯრები მიებმება მთავარ ფანჯარას და გადაადგილების შემთხვევაში "
-"გაყვება მას."
+msgstr "დიალოგური ფანჯრები მიებმება მთავარ ფანჯარას და გადაადგილების შემთხვევაში გაყვება მას."
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Button layout"
@@ -959,9 +946,7 @@ msgstr "გათიშე „ღამის ნათების“ რეჟ
 
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
-msgstr ""
-"გამორთავს ღამის განათების რეჟიმს როცა ფანჯარა მთელ ეკრანზეა გაშლილი. ჩართავს "
-"როცა დაბრუნდება ჩვეულ რეჟიმში."
+msgstr "გამორთავს ღამის განათების რეჟიმს როცა ფანჯარა მთელ ეკრანზეა გაშლილი. ჩართავს როცა დაბრუნდება ჩვეულ რეჟიმში."
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
@@ -985,9 +970,7 @@ msgstr ""
 
 #: src/panel/settings/settings_wm.vala:79
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr ""
-"ეს არის მხოლოდ გამოცდილი მომხარებლისთვის. გამოიყენეთ მაშინ თუ გაქვთ "
-"გრაფიკული პრობლემა, ან ნელა მუშაობს გრაფიკული ბარათი."
+msgstr "ეს არის მხოლოდ გამოცდილი მომხარებლისთვის. გამოიყენეთ მაშინ თუ გაქვთ გრაფიკული პრობლემა, ან ნელა მუშაობს გრაფიკული ბარათი."
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"

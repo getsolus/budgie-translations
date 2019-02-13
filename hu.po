@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-02 03:35+0200\n"
+"POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-01-29 13:54+0000\n"
 "Last-Translator: Daniel Illes <daniel.illes.90@gmail.com>\n"
 "Language-Team: Hungarian <http://translate.getsol.us/projects/budgie-desktop/translations/hu/>\n"
@@ -58,14 +58,14 @@ msgstr "Caffeine Boost kikapcsolva"
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
 #: src/daemon/settings.vala:317
-#, c-format
-msgid "a minute"
-msgid_plural "%d minutes"
-msgstr[0] ""
-msgstr[1] ""
+#, fuzzy
+msgid "Will turn off in a minute"
+msgstr "Kikapcsolás ennyi idő múlva"
 
-#: src/daemon/settings.vala:318
-msgid "Will turn off in"
+#. use plural
+#: src/daemon/settings.vala:320
+#, fuzzy, c-format
+msgid "Will turn off in %d minutes"
 msgstr "Kikapcsolás ennyi idő múlva"
 
 #. Caffeine Notification
@@ -87,7 +87,7 @@ msgstr "Értesítések"
 msgid "No apps are currently playing audio."
 msgstr "Egy applikáció sem ad ki hangot."
 
-#: src/raven/start_listening.vala:24
+#: src/raven/start_listening.vala:28
 msgid "Play some music"
 msgstr "Játssz le zenét"
 
@@ -258,12 +258,12 @@ msgid "Set icon"
 msgstr "Ikon beállítása"
 
 #. Special case, "All"
-#: src/applets/budgie-menu/BudgieMenuWindow.vala:43
+#: src/applets/budgie-menu/BudgieMenuButtons.vala:28
 msgid "All"
 msgstr "Minden"
 
 #. placeholder in case of no results
-#: src/applets/budgie-menu/BudgieMenuWindow.vala:401
+#: src/applets/budgie-menu/BudgieMenuWindow.vala:271
 msgid "Sorry, no items found"
 msgstr "Nincs eredmény"
 

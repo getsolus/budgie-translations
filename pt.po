@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-02 03:35+0200\n"
+"POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-01-16 11:04+0000\n"
 "Last-Translator: Mário Alberto Basto <maralbas@hotmail.com>\n"
 "Language-Team: Portuguese <http://translate.getsol.us/projects/budgie-desktop/translations/pt/>\n"
@@ -59,14 +59,14 @@ msgstr "Modo produtividade desligado"
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
 #: src/daemon/settings.vala:317
-#, c-format
-msgid "a minute"
-msgid_plural "%d minutes"
-msgstr[0] ""
-msgstr[1] ""
+#, fuzzy
+msgid "Will turn off in a minute"
+msgstr "Desligar-se-á em"
 
-#: src/daemon/settings.vala:318
-msgid "Will turn off in"
+#. use plural
+#: src/daemon/settings.vala:320
+#, fuzzy, c-format
+msgid "Will turn off in %d minutes"
 msgstr "Desligar-se-á em"
 
 #. Caffeine Notification
@@ -88,7 +88,7 @@ msgstr "Notificações"
 msgid "No apps are currently playing audio."
 msgstr "Nenhuma aplicação está a reproduzir áudio."
 
-#: src/raven/start_listening.vala:24
+#: src/raven/start_listening.vala:28
 msgid "Play some music"
 msgstr "Ouvir música"
 
@@ -261,12 +261,12 @@ msgid "Set icon"
 msgstr "Configurar ícone"
 
 #. Special case, "All"
-#: src/applets/budgie-menu/BudgieMenuWindow.vala:43
+#: src/applets/budgie-menu/BudgieMenuButtons.vala:28
 msgid "All"
 msgstr "Tudo"
 
 #. placeholder in case of no results
-#: src/applets/budgie-menu/BudgieMenuWindow.vala:401
+#: src/applets/budgie-menu/BudgieMenuWindow.vala:271
 msgid "Sorry, no items found"
 msgstr "Nenhum item encontrado"
 
