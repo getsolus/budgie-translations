@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-02 03:35+0200\n"
 "PO-Revision-Date: 2019-02-13 04:55+0000\n"
-"Last-Translator: Denis C. <Sphor100@gmail.com>\n"
+"Last-Translator: marius baesu <ramius.dalien@yandex.com>\n"
 "Language-Team: Romanian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ro/>\n"
 "Language: ro\n"
@@ -95,7 +95,7 @@ msgstr "Nicio aplicație nu redă muzică momentan."
 
 #: src/raven/start_listening.vala:24
 msgid "Play some music"
-msgstr ""
+msgstr "Redă niște muzică"
 
 #: src/raven/notifications_view.vala:106
 msgid "Nothing to see here"
@@ -124,11 +124,11 @@ msgstr "Nu aveți notificări noi"
 #. 125ms
 #: src/raven/sound.vala:158
 msgid "Apps"
-msgstr ""
+msgstr "Aplicații"
 
 #: src/raven/sound.vala:159
 msgid "Devices"
-msgstr ""
+msgstr "Dispozitive"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
@@ -192,11 +192,11 @@ msgstr "Setări de sunet"
 
 #: src/applets/icon-tasklist/IconPopover.vala:93
 msgid "Launch New Instance"
-msgstr ""
+msgstr "Pornește o nouă sesiune"
 
 #: src/applets/icon-tasklist/IconPopover.vala:96
 msgid "Close All Windows"
-msgstr ""
+msgstr "Închide toate ferestrele"
 
 #: src/applets/icon-tasklist/IconPopover.vala:104
 msgid "Always On Top"
@@ -205,11 +205,11 @@ msgstr "Întotdeauna deasupra"
 #: src/applets/icon-tasklist/IconPopover.vala:106
 #: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Maximize"
-msgstr ""
+msgstr "Mărește"
 
 #: src/applets/icon-tasklist/IconPopover.vala:107
 msgid "Minimize"
-msgstr ""
+msgstr "Micșorează"
 
 #: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Unfavorite"
@@ -225,7 +225,7 @@ msgstr "Favorite"
 #: src/applets/icon-tasklist/IconPopover.vala:384
 #, c-format
 msgid "Move To Workspace %i"
-msgstr ""
+msgstr "Mută în spațiul de lucru %i"
 
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:484
