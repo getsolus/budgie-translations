@@ -19,7 +19,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-02-14 12:57+0000\n"
-"Last-Translator: Vitor <vitorlourovaladares@gmail.com>\n"
+"Last-Translator: Nicolas Abril <nicolas.abril@protonmail.ch>\n"
 "Language-Team: Portuguese (Brazil) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -829,24 +829,20 @@ msgid "Control whether windows and controls use animations"
 msgstr "Controla se as janelas e controles usam animações"
 
 #: src/panel/settings/settings_style.vala:209
-#, fuzzy
 msgid "Top Left"
-msgstr "Esquerdo"
+msgstr "Superior Esquerdo"
 
 #: src/panel/settings/settings_style.vala:211
-#, fuzzy
 msgid "Bottom Left"
-msgstr "Inferior"
+msgstr "Inferior Esquerdo"
 
 #: src/panel/settings/settings_style.vala:213
-#, fuzzy
 msgid "Bottom Right"
-msgstr "Inferior"
+msgstr "Inferior Direito"
 
 #: src/panel/settings/settings_style.vala:216
-#, fuzzy
 msgid "Top Right"
-msgstr "Direito"
+msgstr "Superior Direito"
 
 #: src/panel/settings/settings_autostart.vala:141
 msgid "Untitled"
@@ -959,9 +955,8 @@ msgid "Center new windows on screen"
 msgstr "Centralizar novas Janelas na tela"
 
 #: src/panel/settings/settings_wm.vala:54
-#, fuzzy
 msgid "Center newly launched windows on the current screen."
-msgstr "Centraliza janelas que forem abertas na tela atual"
+msgstr "Centraliza novas janelas na tela atual."
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
