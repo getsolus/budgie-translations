@@ -13,14 +13,16 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-01-15 10:59+0000\n"
-"Last-Translator: George Mamar <george.mamar@hotmail.com>\n"
-"Language-Team: Arabic <http://translate.getsol.us/projects/budgie-desktop/main/ar/>\n"
+"PO-Revision-Date: 2019-02-14 11:05+0000\n"
+"Last-Translator: Hani <baneebal@hotmail.com>\n"
+"Language-Team: Arabic <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Weblate 3.4-dev\n"
 
 #: src/daemon/endsession.vala:171
@@ -40,9 +42,8 @@ msgid "Change background"
 msgstr "تغيير الخلفية"
 
 #: src/daemon/menus.vala:57
-#, fuzzy
 msgid "Displays"
-msgstr "اعدادات الشاشة"
+msgstr "شاشات العرض"
 
 #: src/daemon/menus.vala:66 src/panel/settings/settings_panel.vala:97
 msgid "Settings"
@@ -51,11 +52,11 @@ msgstr "إعدادات"
 #. Should show a notification
 #: src/daemon/settings.vala:310
 msgid "Turned on Caffeine Boost"
-msgstr ""
+msgstr "تطبيق كافيين فعال"
 
 #: src/daemon/settings.vala:310
 msgid "Turned off Caffeine Boost"
-msgstr ""
+msgstr "تطبيق كافيين غير فعال"
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
@@ -73,7 +74,7 @@ msgstr ""
 #: src/raven/notifications_group.vala:44
 #: src/applets/caffeine/CaffeineWindow.vala:25
 msgid "Caffeine Mode"
-msgstr ""
+msgstr "وضع كافيين"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
@@ -90,11 +91,11 @@ msgstr ""
 
 #: src/raven/start_listening.vala:28
 msgid "Play some music"
-msgstr ""
+msgstr "شغّل بعض الموسيقى"
 
 #: src/raven/notifications_view.vala:106
 msgid "Nothing to see here"
-msgstr "لا شيء لرؤيته"
+msgstr "لا يوجد شيء هنا"
 
 #: src/raven/notifications_view.vala:674
 #: src/applets/notifications/NotificationsApplet.vala:109
@@ -119,11 +120,11 @@ msgstr "لا إشعارات جديدة"
 #. 125ms
 #: src/raven/sound.vala:158
 msgid "Apps"
-msgstr ""
+msgstr "تطبيقات"
 
 #: src/raven/sound.vala:159
 msgid "Devices"
-msgstr ""
+msgstr "أجهزة"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
@@ -158,7 +159,7 @@ msgstr "إعدادات البلوتوث"
 #. Send files button
 #: src/applets/status/BluetoothIndicator.vala:63
 msgid "Send Files"
-msgstr "أرسل ملفات"
+msgstr "أرسل الملفات"
 
 #. Airplane mode
 #: src/applets/status/BluetoothIndicator.vala:73
@@ -190,7 +191,7 @@ msgstr "إعدادات الصوت"
 
 #: src/applets/icon-tasklist/IconPopover.vala:93
 msgid "Launch New Instance"
-msgstr ""
+msgstr "إطلاق نسخة جديدة"
 
 #: src/applets/icon-tasklist/IconPopover.vala:96
 msgid "Close All Windows"
