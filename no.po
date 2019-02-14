@@ -9,9 +9,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-01 16:17+0000\n"
-"Last-Translator: Lars-Eivind Bjørtvedt <larseivind.bjoertvedt@gmail.com>\n"
-"Language-Team: Norwegian Bokmål <http://translate.getsol.us/projects/budgie-desktop/translations/nb_NO/>\n"
+"PO-Revision-Date: 2019-02-22 21:15+0000\n"
+"Last-Translator: Bror-Lauritz Størkersen <brorl51@gmail.com>\n"
+"Language-Team: Norwegian Bokmål <http://translate.getsol.us/projects/"
+"budgie-desktop/translations/nb_NO/>\n"
 "Language: no\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,11 +48,11 @@ msgstr "Innstillinger"
 #. Should show a notification
 #: src/daemon/settings.vala:310
 msgid "Turned on Caffeine Boost"
-msgstr ""
+msgstr "Caffeine Boost skrudd på"
 
 #: src/daemon/settings.vala:310
 msgid "Turned off Caffeine Boost"
-msgstr ""
+msgstr "Caffeine Boost skrudd av"
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
@@ -628,6 +629,8 @@ msgstr "Tillat volum over 100%"
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
 msgstr ""
+"Tillater å øke lydvolumet opp til 150% i både lydinnstillinger og lydutgangs-"
+"widgeten Raven."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
@@ -635,47 +638,49 @@ msgstr "Aktivér visning av ukenummer i Calendar"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr ""
+msgstr "Denne innstillingen skrur på visning av ukenumre i kalender-widgeten."
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
-msgstr ""
+msgstr "Vis kalender-widget"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr ""
+msgstr "Viser eller skjuler kalender-widgeten i Ravens Applets-seksjon."
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
-msgstr ""
+msgstr "Vis lydutgangs-widget"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr ""
+msgstr "Viser eller skjuler lydutgangs-widgeten i Ravens Applets-seksjon."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
-msgstr ""
+msgstr "Vis mikrofoninput-widget"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
-msgstr ""
+msgstr "Viser eller skjuler mikrofoninput-widgeten i Ravens Applets-seksjon."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
-msgstr ""
+msgstr "Vis medieavspillingskontroll-widget"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
 msgstr ""
+"Viser eller skjuler medieavspillingskontroll-widgeten (MPRIS) i Ravens "
+"Applets-seksjon."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
-msgstr ""
+msgstr "Vis strømstyringspanel"
 
 #: src/panel/settings/settings_raven.vala:76
 msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr ""
+msgstr "Vis eller skjul strømstyringspanelet i bunnen av Raven."
 
 #: src/panel/settings/settings_panel_dialogs.vala:29
 msgid "Confirm panel removal"
@@ -723,45 +728,41 @@ msgid "Desktop Icons"
 msgstr "Skrivebordsikoner"
 
 #: src/panel/settings/settings_desktop.vala:44
-#, fuzzy
 msgid "Control whether to allow launchers and icons on the desktop."
-msgstr "Tillat ikoner på skrivebordet"
+msgstr ""
+"Kontroller om ikoner og kjørbare filer tillates på skrivebordet eller ikke."
 
 #: src/panel/settings/settings_desktop.vala:54
 msgid "Home directory"
 msgstr "Hjemmemappe"
 
 #: src/panel/settings/settings_desktop.vala:55
-#, fuzzy
 msgid "Add a shortcut to your home directory on the desktop."
-msgstr "Legger en snarvei til hjemmemappen på skrivebordet"
+msgstr "Legg til en snarvei til hjemmemappen på skrivebordet."
 
 #: src/panel/settings/settings_desktop.vala:60
 msgid "Network servers"
 msgstr "Nettverkstjenere"
 
 #: src/panel/settings/settings_desktop.vala:61
-#, fuzzy
 msgid "Add a shortcut to your local network servers on the desktop."
-msgstr "Legger en snarvei til lokale nettverkstjenere på skrivebordet"
+msgstr "Legg til en snarvei til lokale nettverkstjenere på skrivebordet."
 
 #: src/panel/settings/settings_desktop.vala:66
 msgid "Trash"
 msgstr "Papirkurv"
 
 #: src/panel/settings/settings_desktop.vala:67
-#, fuzzy
 msgid "Add a shortcut to the Trash directory on the desktop."
-msgstr "Legger en snarvei til papirkurven på skrivebordet"
+msgstr "Legg til en snarvei til papirkurven på skrivebordet."
 
 #: src/panel/settings/settings_desktop.vala:72
 msgid "Mounted volumes"
 msgstr "Monterte volumer"
 
 #: src/panel/settings/settings_desktop.vala:73
-#, fuzzy
 msgid "Mounted volumes & drives will appear on the desktop."
-msgstr "Monterte volumer og disker vil vises på skrivebordet"
+msgstr "Monterte volumer og disker vil vises på skrivebordet."
 
 #: src/panel/settings/settings_style.vala:33
 msgid "Style"
@@ -792,13 +793,12 @@ msgid "Set the globally used mouse cursor theme"
 msgstr "Velg globalt musepekertema"
 
 #: src/panel/settings/settings_style.vala:62
-#, fuzzy
 msgid "Notification Position"
-msgstr "Varsler"
+msgstr "Varselposisjon"
 
 #: src/panel/settings/settings_style.vala:63
 msgid "Set the location for notification popups"
-msgstr ""
+msgstr "Velg plassering for varsel-popuper"
 
 #: src/panel/settings/settings_style.vala:72
 msgid "Dark theme"
@@ -809,9 +809,9 @@ msgid "Built-in theme"
 msgstr "Innebygget tema"
 
 #: src/panel/settings/settings_style.vala:80
-#, fuzzy
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr "Det innebygde temaet vil bli brukt om denne innstillingen aktiveres"
+msgstr ""
+"Hvis aktivert, vil det innebygde temaet overstyre skrivebordskomponentstilen"
 
 #: src/panel/settings/settings_style.vala:87
 msgid "Animations"
@@ -822,24 +822,20 @@ msgid "Control whether windows and controls use animations"
 msgstr "Velg om vinduer og kontrollere skal bruke animasjon"
 
 #: src/panel/settings/settings_style.vala:209
-#, fuzzy
 msgid "Top Left"
-msgstr "Venstre"
+msgstr "Øvre venstre hjørne"
 
 #: src/panel/settings/settings_style.vala:211
-#, fuzzy
 msgid "Bottom Left"
-msgstr "Bunn"
+msgstr "Nedre venstre hjørne"
 
 #: src/panel/settings/settings_style.vala:213
-#, fuzzy
 msgid "Bottom Right"
-msgstr "Bunn"
+msgstr "Nedre høyre hjørne"
 
 #: src/panel/settings/settings_style.vala:216
-#, fuzzy
 msgid "Top Right"
-msgstr "Høyre"
+msgstr "Øvre høyre hjørne"
 
 #: src/panel/settings/settings_autostart.vala:141
 msgid "Untitled"
@@ -893,9 +889,8 @@ msgid "Autostart"
 msgstr "Autostart"
 
 #: src/panel/settings/settings_autostart.vala:483
-#, fuzzy
 msgid "Autostart apps"
-msgstr "Autostart"
+msgstr "Autostart applikasjoner"
 
 #: src/panel/settings/settings_panel_applets.vala:22
 msgid "Configure applet"
@@ -935,43 +930,46 @@ msgid "Attach modal dialogs to windows"
 msgstr "Klistre dialogbokser til programvinduer"
 
 #: src/panel/settings/settings_wm.vala:42
-#, fuzzy
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr "Dialogbokser vil klistre seg til vinduene de tilhører. Hvis du flytter programvinduet med musen, følger dialogboksen med"
+msgstr ""
+"Dialogbokser vil klistre seg til vinduene de tilhører. Hvis du flytter "
+"programvinduet med musen, følger dialogboksen med."
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Button layout"
 msgstr "Knappeutforming"
 
 #: src/panel/settings/settings_wm.vala:48
-#, fuzzy
 msgid "Change the layout of buttons in application titlebars."
-msgstr "Forandre utforming på knappene i programmenes tittellinjer"
+msgstr "Forandre utforming på knappene i programmenes tittellinjer."
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
-msgstr ""
+msgstr "Flytt nye vinduer til midten av skjermen"
 
 #: src/panel/settings/settings_wm.vala:54
 msgid "Center newly launched windows on the current screen."
-msgstr ""
+msgstr "Plasser nystartede vinduer på den gjeldende skjermen."
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
-msgstr ""
+msgstr "Skru av nattmodus når vinduer er i fullskjermsmodus"
 
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr ""
+"Skrur av nattmodus når et vindu er i fullskjermsmodus. Skrur den på igjen "
+"når man forlater fullskjersmodus."
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
 msgstr "Automatisk tilordning"
 
 #: src/panel/settings/settings_wm.vala:66
-#, fuzzy
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr "Vinduer vil automatisk tilordne seg plass når de blir dratt til toppen, eller på sidene"
+msgstr ""
+"Vinduer vil automatisk tilordne seg plass når de blir dratt til toppen, "
+"eller på sidene."
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
@@ -980,15 +978,18 @@ msgstr ""
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
 msgstr ""
+"Skrur på vindufokus når musen føres over vinduet og fjern fokus når musen "
+"forlater vinduet."
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
 msgstr "Deaktiver direkte gjengivelse av vinduer"
 
 #: src/panel/settings/settings_wm.vala:79
-#, fuzzy
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr "Dette alternativet er kun for viderekomne. Aktiver hvis du har grafiske- eller ytelsesproblemer med dedikerte GPU-er"
+msgstr ""
+"Dette alternativet er kun for viderekomne. Aktiver hvis du har grafiske- "
+"eller ytelsesproblemer med dedikerte GPU-er."
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
@@ -1003,36 +1004,32 @@ msgid "Window Titles"
 msgstr "Vindustitler"
 
 #: src/panel/settings/settings_fonts.vala:45
-#, fuzzy
 msgid "Set the font used in the titlebars of applications."
-msgstr "Velg skrifttype som skal brukes i programmenes tittellinjer"
+msgstr "Velg skrifttype som skal brukes i programmenes tittellinjer."
 
 #: src/panel/settings/settings_fonts.vala:51
 msgid "Documents"
 msgstr "Dokumenter"
 
 #: src/panel/settings/settings_fonts.vala:52
-#, fuzzy
 msgid "Set the display font used by for documents."
-msgstr "Velg skrifttype for dokumenter"
+msgstr "Velg skrifttype for dokumenter."
 
 #: src/panel/settings/settings_fonts.vala:58
 msgid "Interface"
 msgstr "Grensesnitt"
 
 #: src/panel/settings/settings_fonts.vala:59
-#, fuzzy
 msgid "Set the primary font used by application controls."
-msgstr "Velg skrifttype for programmer"
+msgstr "Velg hovedskrifttype for programkontroller."
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Monospace"
 msgstr "Skrivemaskinskrift"
 
 #: src/panel/settings/settings_fonts.vala:66
-#, fuzzy
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr "Velg skrifttype med lik bredde for programmer med mye tekst"
+msgstr "Velg skrifttype med lik bredde for programmer med mye tekst."
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
@@ -1052,7 +1049,7 @@ msgstr "Er du sikker på at du vil avslutte økten?"
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
-msgstr ""
+msgstr "Vis alle vinduene ved trykk"
 
 #: src/applets/icon-tasklist/settings.ui.h:2
 msgid "Only show favorited"
@@ -1064,7 +1061,7 @@ msgstr "Lås ikoner"
 
 #: src/applets/icon-tasklist/settings.ui.h:4
 msgid "Restrict to Workspace"
-msgstr ""
+msgstr "Begrens til arbeidsrom"
 
 #: src/applets/icon-tasklist/settings.ui.h:5
 msgid "Window grouping"
