@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-14 11:13+0000\n"
-"Last-Translator: Ruben Marques <supercell03@gmail.com>\n"
+"PO-Revision-Date: 2019-02-14 11:14+0000\n"
+"Last-Translator: Ricardo Cunha <ricardocunha@tranquilo.pt>\n"
 "Language-Team: Portuguese (Portugal) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/pt_PT/>\n"
 "Language: pt_PT\n"
@@ -73,7 +73,7 @@ msgstr ""
 #: src/raven/notifications_group.vala:44
 #: src/applets/caffeine/CaffeineWindow.vala:25
 msgid "Caffeine Mode"
-msgstr ""
+msgstr "Modo Cafeína"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
@@ -86,11 +86,11 @@ msgstr "Notificações"
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
-msgstr ""
+msgstr "Nenhuma aplicação está a reproduzir áudio."
 
 #: src/raven/start_listening.vala:28
 msgid "Play some music"
-msgstr ""
+msgstr "Ouvir música"
 
 #: src/raven/notifications_view.vala:106
 msgid "Nothing to see here"
@@ -105,12 +105,12 @@ msgstr "%u notificações não lidas"
 #: src/raven/notifications_view.vala:676
 #: src/applets/notifications/NotificationsApplet.vala:111
 msgid "1 unread notification"
-msgstr "1 notificação não lida"
+msgstr "1 notificação por ler"
 
 #: src/raven/notifications_view.vala:678
 #: src/applets/notifications/NotificationsApplet.vala:113
 msgid "No unread notifications"
-msgstr "Não há notificações não lidas"
+msgstr "Não há notificações por ler"
 
 #: src/raven/notifications_view.vala:913
 msgid "No new notifications"
@@ -119,11 +119,11 @@ msgstr "Não há novas notificações"
 #. 125ms
 #: src/raven/sound.vala:158
 msgid "Apps"
-msgstr ""
+msgstr "Aplicações"
 
 #: src/raven/sound.vala:159
 msgid "Devices"
-msgstr ""
+msgstr "Dispositivos"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
@@ -153,7 +153,7 @@ msgstr "Definições de energia"
 #. Settings button
 #: src/applets/status/BluetoothIndicator.vala:56
 msgid "Bluetooth Settings"
-msgstr "Definições Bluetooth"
+msgstr "Definições de Bluetooth"
 
 #. Send files button
 #: src/applets/status/BluetoothIndicator.vala:63
@@ -190,7 +190,7 @@ msgstr "Iniciar uma nova instância"
 
 #: src/applets/icon-tasklist/IconPopover.vala:96
 msgid "Close All Windows"
-msgstr ""
+msgstr " Fechar todas as janelas"
 
 #: src/applets/icon-tasklist/IconPopover.vala:104
 #, fuzzy
