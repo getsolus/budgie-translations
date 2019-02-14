@@ -19,7 +19,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-02-14 12:57+0000\n"
-"Last-Translator: Gabriel Paulini <paulini.gp@gmail.com>\n"
+"Last-Translator: Vitor <vitorlourovaladares@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -636,7 +636,9 @@ msgstr "Permitir volume acima de 100%"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
-msgstr "Permitir aumentar o volume tanto pelas Configurações de Som quanto pelo widget de Saída de Som na barra lateral até 150%"
+msgstr ""
+"Permitir aumentar o volume tanto pelas Configurações de Som quanto pelo "
+"widget de Saída de Som na barra lateral até 150%."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
@@ -672,7 +674,7 @@ msgstr "Mostra ou oculta o widget de Entrada do Microfone nos Applets do Raven."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
-msgstr "Mostrar o widget de controles de mídia."
+msgstr "Mostrar o Widget de Controles de Mídia"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
@@ -684,7 +686,7 @@ msgstr "Mostrar a barra de Energia"
 
 #: src/panel/settings/settings_raven.vala:76
 msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr "Mostra ou oculta a barra de Energia na parte inferior do Raven"
+msgstr "Mostra ou oculta a barra de Energia na parte inferior do Raven."
 
 #: src/panel/settings/settings_panel_dialogs.vala:29
 msgid "Confirm panel removal"
@@ -732,45 +734,41 @@ msgid "Desktop Icons"
 msgstr "Ícones da área de trabalho"
 
 #: src/panel/settings/settings_desktop.vala:44
-#, fuzzy
 msgid "Control whether to allow launchers and icons on the desktop."
-msgstr "Controle para permitir inicializadores e ícones na área de trabalho"
+msgstr "Controle para permitir inicializadores e ícones na área de trabalho."
 
 #: src/panel/settings/settings_desktop.vala:54
 msgid "Home directory"
 msgstr "Diretório home"
 
 #: src/panel/settings/settings_desktop.vala:55
-#, fuzzy
 msgid "Add a shortcut to your home directory on the desktop."
-msgstr "Adiciona um atalho à sua home na área de trabalho"
+msgstr "Adiciona um atalho à sua home na área de trabalho."
 
 #: src/panel/settings/settings_desktop.vala:60
 msgid "Network servers"
 msgstr "Servidores de rede"
 
 #: src/panel/settings/settings_desktop.vala:61
-#, fuzzy
 msgid "Add a shortcut to your local network servers on the desktop."
-msgstr "Adiciona um atalho aos seus servidores de rede locais na área de trabalho"
+msgstr ""
+"Adiciona um atalho aos seus servidores de rede locais na área de trabalho."
 
 #: src/panel/settings/settings_desktop.vala:66
 msgid "Trash"
 msgstr "Lixeira"
 
 #: src/panel/settings/settings_desktop.vala:67
-#, fuzzy
 msgid "Add a shortcut to the Trash directory on the desktop."
-msgstr "Adiciona um atalho da Lixeira na área de trabalho"
+msgstr "Adiciona um atalho da Lixeira na área de trabalho."
 
 #: src/panel/settings/settings_desktop.vala:72
 msgid "Mounted volumes"
 msgstr "Volumes montados"
 
 #: src/panel/settings/settings_desktop.vala:73
-#, fuzzy
 msgid "Mounted volumes & drives will appear on the desktop."
-msgstr "Os volumes e unidades montados aparecerão na área de trabalho"
+msgstr "Os volumes e unidades montados aparecerão na área de trabalho."
 
 #: src/panel/settings/settings_style.vala:33
 msgid "Style"
@@ -801,13 +799,12 @@ msgid "Set the globally used mouse cursor theme"
 msgstr "Definir o tema do cursor do mouse usado globalmente"
 
 #: src/panel/settings/settings_style.vala:62
-#, fuzzy
 msgid "Notification Position"
-msgstr "Notificações"
+msgstr "Posição das notificações"
 
 #: src/panel/settings/settings_style.vala:63
 msgid "Set the location for notification popups"
-msgstr ""
+msgstr "Defina o local das notificações pop-ups "
 
 #: src/panel/settings/settings_style.vala:72
 msgid "Dark theme"
@@ -818,9 +815,10 @@ msgid "Built-in theme"
 msgstr "Tema padrão"
 
 #: src/panel/settings/settings_style.vala:80
-#, fuzzy
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr "Quando habilitado, o estilo dos componentes da área de trabalho será substituído pelo padrão"
+msgstr ""
+"Quando habilitado, o estilo dos componentes da área de trabalho será "
+"substituído pelo padrão"
 
 #: src/panel/settings/settings_style.vala:87
 msgid "Animations"
@@ -943,18 +941,18 @@ msgid "Attach modal dialogs to windows"
 msgstr "Anexar diálogos modais às janelas"
 
 #: src/panel/settings/settings_wm.vala:42
-#, fuzzy
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr "Diálogos modais serão anexados à janela pai e movidos juntos quando arrastados"
+msgstr ""
+"Diálogos modais serão anexados à janela principal e movidos juntos quando "
+"arrastados."
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Button layout"
 msgstr "Layout dos botões"
 
 #: src/panel/settings/settings_wm.vala:48
-#, fuzzy
 msgid "Change the layout of buttons in application titlebars."
-msgstr "Alterar o layout dos botões da barra de título dos aplicativos"
+msgstr "Alterar o layout dos botões da barra de título dos aplicativos."
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
@@ -978,9 +976,10 @@ msgid "Automatic tiling"
 msgstr "Agrupamento lado a lado automático"
 
 #: src/panel/settings/settings_wm.vala:66
-#, fuzzy
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr "As janelas serão automaticamente agrupadas lado a lado quando arrastadas para o topo da tela ou para os cantos"
+msgstr ""
+"As janelas serão automaticamente agrupadas lado a lado quando arrastadas "
+"para o topo da tela ou para os cantos."
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
@@ -995,9 +994,10 @@ msgid "Disable unredirection of windows"
 msgstr "Desativar redirecionamento de janelas"
 
 #: src/panel/settings/settings_wm.vala:79
-#, fuzzy
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr "Esta opção é para usuários avançados. Use ela se você estiver com problemas gráficos ou de desempenho com GPUs dedicadas"
+msgstr ""
+"Esta opção é para usuários avançados. Use ela se você estiver com problemas "
+"gráficos ou de desempenho com GPUs dedicadas."
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
@@ -1012,45 +1012,41 @@ msgid "Window Titles"
 msgstr "Títulos de janelas"
 
 #: src/panel/settings/settings_fonts.vala:45
-#, fuzzy
 msgid "Set the font used in the titlebars of applications."
-msgstr "Definir a fonte usada na barra de títulos dos aplicativos"
+msgstr "Definir a fonte usada na barra de títulos dos aplicativos."
 
 #: src/panel/settings/settings_fonts.vala:51
 msgid "Documents"
 msgstr "Documentos"
 
 #: src/panel/settings/settings_fonts.vala:52
-#, fuzzy
 msgid "Set the display font used by for documents."
-msgstr "Defina a fonte de exibição usada por documentos"
+msgstr "Defina a fonte de exibição usada por documentos."
 
 #: src/panel/settings/settings_fonts.vala:58
 msgid "Interface"
 msgstr "Interface"
 
 #: src/panel/settings/settings_fonts.vala:59
-#, fuzzy
 msgid "Set the primary font used by application controls."
-msgstr "Defina a fonte primária usada pelos controles de aplicativos"
+msgstr "Defina a fonte primária usada pelos controles de aplicativos."
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Monospace"
 msgstr "Mono-espaçada"
 
 #: src/panel/settings/settings_fonts.vala:66
-#, fuzzy
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr "Defina a fonte de largura fixa usada por aplicativos dominantes de texto"
+msgstr ""
+"Defina a fonte de largura fixa usada por aplicativos onde predomina o texto."
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
 msgstr "Dimensionamento de Texto"
 
 #: src/panel/settings/settings_fonts.vala:73
-#, fuzzy
 msgid "Set the text scaling factor."
-msgstr "Define o fator de dimensionamento do texto"
+msgstr "Define o fator de dimensionamento do texto."
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
