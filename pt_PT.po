@@ -13,9 +13,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-01 16:17+0000\n"
-"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
-"Language-Team: Portuguese (Portugal) <http://translate.getsol.us/projects/budgie-desktop/translations/pt_PT/>\n"
+"PO-Revision-Date: 2019-02-14 11:13+0000\n"
+"Last-Translator: Ruben Marques <supercell03@gmail.com>\n"
+"Language-Team: Portuguese (Portugal) <http://translate.getsol.us/projects/"
+"budgie-desktop/translations/pt_PT/>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -54,7 +55,7 @@ msgstr ""
 
 #: src/daemon/settings.vala:310
 msgid "Turned off Caffeine Boost"
-msgstr ""
+msgstr "Caffeine Boost desligado"
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
@@ -185,7 +186,7 @@ msgstr "Definições de som"
 
 #: src/applets/icon-tasklist/IconPopover.vala:93
 msgid "Launch New Instance"
-msgstr ""
+msgstr "Iniciar uma nova instância"
 
 #: src/applets/icon-tasklist/IconPopover.vala:96
 msgid "Close All Windows"
