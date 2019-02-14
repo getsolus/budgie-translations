@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-02-22 21:15+0000\n"
-"Last-Translator: Ricardo Cunha <ricardocunha@tranquilo.pt>\n"
+"Last-Translator: Ruben Marques <supercell03@gmail.com>\n"
 "Language-Team: Portuguese (Portugal) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/pt_PT/>\n"
 "Language: pt_PT\n"
@@ -219,12 +219,12 @@ msgstr "Adicionar aos Favoritos"
 #: src/applets/icon-tasklist/IconPopover.vala:384
 #, c-format
 msgid "Move To Workspace %i"
-msgstr ""
+msgstr "Mover para o Espaço de Trabalho %i"
 
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Unmaximize"
-msgstr ""
+msgstr "Desmaximizar"
 
 #: src/applets/icon-tasklist/IconPopover.vala:543
 #, fuzzy
@@ -268,7 +268,7 @@ msgstr "Tudo"
 #. placeholder in case of no results
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:271
 msgid "Sorry, no items found"
-msgstr ""
+msgstr "Lamentamos, não foram encontrados itens"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
@@ -326,7 +326,7 @@ msgstr "Eliminar"
 
 #: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Timer (minutes)"
-msgstr ""
+msgstr "Temporizador (minutos)"
 
 #. User Menu Creation
 #: src/applets/user-indicator/UserIndicatorWindow.vala:95
@@ -628,51 +628,62 @@ msgstr "Quando em modo doca, o painel utiliza o mínimo espaço possível, liber
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
-msgstr ""
+msgstr "Permitir aumentar o volume acima de 100%"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
 msgstr ""
+"Permite aumentar o volume através das Definições de Som assim como o Sound "
+"Output Widget em Ravem até 150%."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
-msgstr ""
+msgstr "Habilitar a exibição dos números das semanas no Calendário"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
 msgstr ""
+"Esta definição habilita a exibição dos números das semanas na ferramenta "
+"Calendário."
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
-msgstr ""
+msgstr "Mostrar a ferramenta Calendário"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
 msgstr ""
+"Exibe ou oculta a ferramenta Calendário na secção de Aplicações do Raven."
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
-msgstr ""
+msgstr "Exibir a ferramenta de saída de som"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
 msgstr ""
+"Exibe ou oculta a ferramenta de saída de som na secção de aplicações do "
+"Raven."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
-msgstr ""
+msgstr "Exibir a ferramenta de entrada de microfone"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
 msgstr ""
+"Exibe ou oculta a ferramenta de entrada de microfone na secção de aplicações "
+"do Raven."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
-msgstr ""
+msgstr "Exibe a ferramenta de controlos de reprodução de media"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
 msgstr ""
+"Exibe ou oculta a ferramenta dos controlos de reprodução de media (MPRIS) na "
+"secção de aplicações do Raven."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
