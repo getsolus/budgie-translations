@@ -25,9 +25,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-01-25 14:02+0000\n"
-"Last-Translator: Philipp <philipp@trulson.de>\n"
-"Language-Team: German <http://translate.getsol.us/projects/budgie-desktop/translations/de/>\n"
+"PO-Revision-Date: 2019-02-15 16:24+0000\n"
+"Last-Translator: Jan Schröder <jannomag@gmx.de>\n"
+"Language-Team: German <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -148,7 +149,7 @@ msgstr "Unbekannt"
 #. Set inner charging duration to hours:minutes
 #: src/applets/status/PowerIndicator.vala:109
 msgid "Battery charging"
-msgstr "Akku wird aufgeladen"
+msgstr "Akku wird geladen"
 
 #: src/applets/status/PowerIndicator.vala:114
 msgid "Battery remaining"
