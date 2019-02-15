@@ -224,7 +224,7 @@ msgstr "Aus Favoriten entfernen"
 
 #: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Favorite"
-msgstr "Favoriten hinzufügen"
+msgstr "Zu Favoriten hinzufügen"
 
 #. If our current amount of workspaces is different than how many we have added
 #. We have items to add
