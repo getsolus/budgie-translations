@@ -14,14 +14,17 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-13 04:55+0000\n"
+"PO-Revision-Date: 2019-02-22 21:15+0000\n"
 "Last-Translator: Pavel Datsenko <pavel.datsenko@gmail.com>\n"
-"Language-Team: Russian <http://translate.getsol.us/projects/budgie-desktop/translations/ru/>\n"
+"Language-Team: Russian <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 3.4-dev\n"
 
 #: src/daemon/endsession.vala:171
@@ -488,7 +491,7 @@ msgstr "Сессия"
 #: src/panel/settings/settings_main.vala:50
 #: src/panel/budgie-desktop-settings.desktop.in.h:1
 msgid "Budgie Desktop Settings"
-msgstr "Настройки среды Budgie"
+msgstr "Настройки рабочего стола Budgie"
 
 #: src/panel/settings/settings_main.vala:81
 msgid "Create new panel"
@@ -500,19 +503,19 @@ msgstr "Убрать эту панель с экрана"
 
 #: src/panel/settings/settings_panel.vala:120
 msgid "Top Dock"
-msgstr "Верхняя док-панель"
+msgstr "Верхний док"
 
 #: src/panel/settings/settings_panel.vala:122
 msgid "Right Dock"
-msgstr "Правая док-панель"
+msgstr "Правый док"
 
 #: src/panel/settings/settings_panel.vala:124
 msgid "Left Dock"
-msgstr "Левая док-панель"
+msgstr "Левый док"
 
 #: src/panel/settings/settings_panel.vala:126
 msgid "Bottom Dock"
-msgstr "Нижняя док-панель"
+msgstr "Нижний док"
 
 #: src/panel/settings/settings_panel.vala:131
 msgid "Top Panel"
@@ -621,11 +624,13 @@ msgstr "Настраивает панель так, что каждая из т�
 
 #: src/panel/settings/settings_panel.vala:276
 msgid "Dock mode"
-msgstr "Режим док-панели"
+msgstr "Режим дока"
 
 #: src/panel/settings/settings_panel.vala:277
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
-msgstr "При использовании режима док-панели, она будет минимизирована, по максимуму освобождая ценное пространство на экране"
+msgstr ""
+"Находясь в режиме дока, панель будет использовать минимально возможное "
+"пространство, освобождая полезную площадь экрана"
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
@@ -681,7 +686,7 @@ msgstr "Показывать панель управления питанием"
 
 #: src/panel/settings/settings_raven.vala:76
 msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr "Показывает или скрывает панель управления питанием внизу панели Raven."
+msgstr "Показывает или скрывает полосу управления питанием внизу панели Raven."
 
 #: src/panel/settings/settings_panel_dialogs.vala:29
 msgid "Confirm panel removal"
@@ -758,7 +763,7 @@ msgstr "Добавить ярлык Корзины на рабочий стол.
 
 #: src/panel/settings/settings_desktop.vala:72
 msgid "Mounted volumes"
-msgstr "Смонтированные разделы"
+msgstr "Смонтированные тома"
 
 #: src/panel/settings/settings_desktop.vala:73
 msgid "Mounted volumes & drives will appear on the desktop."
@@ -782,7 +787,7 @@ msgstr "Значки"
 
 #: src/panel/settings/settings_style.vala:53
 msgid "Set the globally used icon theme"
-msgstr "Задать глобально используемую тему для значков"
+msgstr "Задать глобально используемую тему значков"
 
 #: src/panel/settings/settings_style.vala:57
 msgid "Cursors"
@@ -838,7 +843,7 @@ msgstr "Вверху справа"
 
 #: src/panel/settings/settings_autostart.vala:141
 msgid "Untitled"
-msgstr "Без имени"
+msgstr "Без названия"
 
 #: src/panel/settings/settings_autostart.vala:148
 msgid "No description"
@@ -885,11 +890,11 @@ msgstr "Необязательно"
 
 #: src/panel/settings/settings_autostart.vala:465
 msgid "Autostart"
-msgstr "Автозагрузка"
+msgstr "Автозапуск"
 
 #: src/panel/settings/settings_autostart.vala:483
 msgid "Autostart apps"
-msgstr "Автозагрузка приложений"
+msgstr "Автозапуск приложений"
 
 #: src/panel/settings/settings_panel_applets.vala:22
 msgid "Configure applet"
@@ -926,11 +931,13 @@ msgstr "Окна"
 
 #: src/panel/settings/settings_wm.vala:41
 msgid "Attach modal dialogs to windows"
-msgstr "Присоединить модальные диалоги к окнам"
+msgstr "Прикреплять модальные диалоги к окнам"
 
 #: src/panel/settings/settings_wm.vala:42
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr "Модальные диалоги будут присоединены к родительскому окну и будут перемещаться вместе с ним при перетаскивании."
+msgstr ""
+"Модальные диалоги станут прикрепленными к родительскому окну и будут "
+"перемещаться вместе с ним при перетаскивании."
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Button layout"
@@ -938,7 +945,7 @@ msgstr "Расположение кнопок"
 
 #: src/panel/settings/settings_wm.vala:48
 msgid "Change the layout of buttons in application titlebars."
-msgstr "Изменить расположение кнопок в заголовке окна приложения."
+msgstr "Изменить расположение кнопок в заголовках окон приложений."
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
@@ -974,7 +981,7 @@ msgstr "Позволяет захватывать фокус, когда кур�
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
-msgstr "Выключить отмену перенаправления окон"
+msgstr "Включить перенаправление окон"
 
 #: src/panel/settings/settings_wm.vala:79
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
@@ -1010,7 +1017,7 @@ msgstr "Интерфейс"
 
 #: src/panel/settings/settings_fonts.vala:59
 msgid "Set the primary font used by application controls."
-msgstr "Задать основной шрифт, используемый элементами управления приложения."
+msgstr "Задать основной шрифт, используемый элементами управления приложениями."
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Monospace"
@@ -1184,7 +1191,7 @@ msgstr "Вход в сеанс рабочего стола Budgie"
 
 #: src/applets/tray/TrayApplet.plugin.in.h:1
 msgid "System Tray"
-msgstr "Системный трей"
+msgstr "Системный лоток"
 
 #: src/applets/status/StatusApplet.plugin.in.h:1
 msgid "Status Indicator"
@@ -1224,7 +1231,7 @@ msgstr "Кнопка показа рабочего стола"
 
 #: src/applets/workspaces/WorkspacesApplet.plugin.in.h:1
 msgid "Workspace Switcher"
-msgstr "Переключатель Рабочего места"
+msgstr "Переключатель рабочих мест"
 
 #: src/applets/tasklist/TasklistApplet.plugin.in.h:1
 msgid "Task List"
@@ -1252,4 +1259,6 @@ msgstr "Панель Budgie"
 
 #: src/panel/budgie-panel.desktop.in.h:2
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
-msgstr "Позволяет запускать другие приложения и предоставляет различные утилиты для управления окнами, отображения времени и т.д."
+msgstr ""
+"Запуск других приложений и предоставление различных утилит для управления "
+"окнами, отображения времени и т.д."
