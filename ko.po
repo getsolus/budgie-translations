@@ -10,14 +10,16 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2018-01-03 13:14+0000\n"
-"Last-Translator: jemin_jeon\n"
-"Language-Team: Korean (http://www.transifex.com/budgie-desktop/budgie-desktop/language/ko/)\n"
+"PO-Revision-Date: 2019-02-22 21:15+0000\n"
+"Last-Translator: Kyong Hwan Lim <lim@nesou.com>\n"
+"Language-Team: Korean <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.4-dev\n"
 
 #: src/daemon/endsession.vala:171
 msgid "Log out"
@@ -36,9 +38,8 @@ msgid "Change background"
 msgstr "바탕화면 바꾸기"
 
 #: src/daemon/menus.vala:57
-#, fuzzy
 msgid "Displays"
-msgstr "디스플레이 설정"
+msgstr "화면"
 
 #: src/daemon/menus.vala:66 src/panel/settings/settings_panel.vala:97
 msgid "Settings"
@@ -86,11 +87,11 @@ msgstr ""
 
 #: src/raven/start_listening.vala:28
 msgid "Play some music"
-msgstr ""
+msgstr "음악 재생"
 
 #: src/raven/notifications_view.vala:106
 msgid "Nothing to see here"
-msgstr "현재 표시할 알림이 없습니다."
+msgstr "현재 표시할 알림이 없습니다"
 
 #: src/raven/notifications_view.vala:674
 #: src/applets/notifications/NotificationsApplet.vala:109
@@ -220,7 +221,7 @@ msgstr ""
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Unmaximize"
-msgstr ""
+msgstr "최대화 해제"
 
 #: src/applets/icon-tasklist/IconPopover.vala:543
 #, fuzzy
@@ -322,7 +323,7 @@ msgstr "제거"
 
 #: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Timer (minutes)"
-msgstr ""
+msgstr "타이머 (분)"
 
 #. User Menu Creation
 #: src/applets/user-indicator/UserIndicatorWindow.vala:95
@@ -368,7 +369,7 @@ msgstr "위치"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:181
 msgid "Nothing to display right now"
-msgstr "현재 표시할 내용이 없습니다."
+msgstr "현재 표시할 내용이 없습니다"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:185
 msgid "Mount some drives"
@@ -390,11 +391,11 @@ msgstr "현재 다른 프로세스가 볼륨을 사용 중입니다."
 
 #: src/applets/places-indicator/MountHelper.vala:45
 msgid "Operation aborted"
-msgstr "작업이 중지되었습니다."
+msgstr "작업이 중지되었습니다"
 
 #: src/applets/places-indicator/MountHelper.vala:57
 msgid "Type your password"
-msgstr "비밀번호를 입력하세요."
+msgstr "비밀번호를 입력하세요"
 
 #: src/applets/places-indicator/VolumeItem.vala:27
 #: src/applets/places-indicator/MountItem.vala:25
@@ -429,20 +430,20 @@ msgstr "안전하게 제거"
 #: src/applets/places-indicator/VolumeItem.vala:76
 #: src/applets/places-indicator/VolumeItem.vala:121
 msgid "Enter the encryption passphrase to unlock this volume"
-msgstr "이 볼륨을 잠금해제하려면 비밀번호를 입력하세요."
+msgstr "이 볼륨을 잠금해제하려면 비밀번호를 입력하세요"
 
 #: src/applets/places-indicator/VolumeItem.vala:87
 #: src/applets/places-indicator/MountItem.vala:78
 msgid "You can now safely remove"
-msgstr "이제 안전하게 제거해도 됩니다."
+msgstr "이제 안전하게 제거해도 됩니다"
 
 #: src/applets/places-indicator/VolumeItem.vala:119
 msgid "The password you entered is incorrect"
-msgstr "입력하신 비밀번호가 틀렸습니다."
+msgstr "입력하신 비밀번호가 틀렸습니다"
 
 #: src/applets/places-indicator/VolumeItem.vala:123
 msgid "An unknown error occurred while attempting to mount this volume"
-msgstr "이 볼륨을 장착하는 중 알 수 없는 오류가 발생했습니다."
+msgstr "이 볼륨을 장착하는 중 알 수 없는 오류가 발생했습니다"
 
 #: src/applets/places-indicator/MountItem.vala:62
 msgid "Unmount"
@@ -454,11 +455,11 @@ msgstr "알 수 없는 장치"
 
 #: src/applets/places-indicator/MountItem.vala:88
 msgid "Error while ejecting device"
-msgstr "장치 제거 중 오류가 발생했습니다."
+msgstr "장치 제거 중 오류가 발생했습니다"
 
 #: src/applets/places-indicator/MountItem.vala:105
 msgid "Error while unmounting volume"
-msgstr "볼륨을 꺼내는 중 오류가 발생했습니다."
+msgstr "볼륨을 꺼내는 중 오류가 발생했습니다"
 
 #: src/polkit/polkitdialog.vala:131
 msgid "Authentication failed"
@@ -466,7 +467,7 @@ msgstr "인증 실패"
 
 #: src/polkit/polkitdialog.vala:230
 msgid "Group:"
-msgstr "그룹 : "
+msgstr "그룹:"
 
 #: src/panel/settings/settings_main.vala:39
 msgid "Appearance"
@@ -628,7 +629,7 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
-msgstr ""
+msgstr "Raven의 사운드 출력 위젯뿐만 아니라 사운드 설정을 통해 볼륨을 최대 150%까지 올릴 수 있습니다."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
@@ -644,39 +645,39 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr ""
+msgstr "달력 위젯을 Raven의 애플릿 섹션에 표시하거나 숨 깁니다."
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
-msgstr ""
+msgstr "사운드 출력 위젯 표시"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr ""
+msgstr "Raven 애플릿 섹션에서 사운드 출력 위젯을 표시하거나 숨 깁니다."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
-msgstr ""
+msgstr "마이크 입력 위젯 표시"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
-msgstr ""
+msgstr "Raven의 애플릿 섹션에 마이크 입력 위젯을 표시하거나 숨깁니다."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
-msgstr ""
+msgstr "미디어 재생 제어 위젯 표시"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
-msgstr ""
+msgstr "Raven의 애플릿 섹션에서미디어 재생 제어 (MPRIS) 위젯을 표시하거나 숨 깁니다."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
-msgstr ""
+msgstr "전원 탭 표시"
 
 #: src/panel/settings/settings_raven.vala:76
 msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr ""
+msgstr "Raven의 아래쪽에있는 전원 탭을 보이거나 숨 깁니다."
 
 #: src/panel/settings/settings_panel_dialogs.vala:29
 msgid "Confirm panel removal"
@@ -793,9 +794,8 @@ msgid "Set the globally used mouse cursor theme"
 msgstr "시스템 전반적으로 사용할 마우스 커서 테마 설정하기"
 
 #: src/panel/settings/settings_style.vala:62
-#, fuzzy
 msgid "Notification Position"
-msgstr "알림"
+msgstr "알림 위치"
 
 #: src/panel/settings/settings_style.vala:63
 msgid "Set the location for notification popups"
@@ -1037,7 +1037,7 @@ msgstr "글자 위주 응용프로그램에 사용할 고정폭 글꼴 설정하
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
-msgstr ""
+msgstr "문장 크기 조정"
 
 #: src/panel/settings/settings_fonts.vala:73
 msgid "Set the text scaling factor."
@@ -1053,23 +1053,23 @@ msgstr "정말로 세션을 종료하시겠습니까?"
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
-msgstr ""
+msgstr "클릭시 모든 창 표시"
 
 #: src/applets/icon-tasklist/settings.ui.h:2
 msgid "Only show favorited"
-msgstr ""
+msgstr "즐겨 찾기만 표시"
 
 #: src/applets/icon-tasklist/settings.ui.h:3
 msgid "Lock icons"
-msgstr ""
+msgstr "아이콘 잠그기"
 
 #: src/applets/icon-tasklist/settings.ui.h:4
 msgid "Restrict to Workspace"
-msgstr ""
+msgstr "작업 영역으로 제한"
 
 #: src/applets/icon-tasklist/settings.ui.h:5
 msgid "Window grouping"
-msgstr ""
+msgstr "창 그룹화"
 
 #: src/applets/night-light/indicator_window.ui.h:1
 #: src/applets/night-light/NightLight.plugin.in.h:1
@@ -1126,15 +1126,15 @@ msgstr "메뉴 아이콘"
 
 #: src/applets/workspaces/settings.ui.h:1
 msgid "\"Add\" button visibility"
-msgstr ""
+msgstr "\"추가\" 버튼 가시성"
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
-msgstr ""
+msgstr "보이지 않기"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
-msgstr ""
+msgstr "마우스 오버시 표시"
 
 #: src/applets/workspaces/settings.ui.h:4
 #, fuzzy
@@ -1249,7 +1249,7 @@ msgstr "작업 목록"
 
 #: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
 msgid "Caffeine"
-msgstr ""
+msgstr "카페인"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
