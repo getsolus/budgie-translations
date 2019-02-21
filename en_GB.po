@@ -10,9 +10,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-01 16:17+0000\n"
-"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
-"Language-Team: English (United Kingdom) <http://translate.getsol.us/projects/budgie-desktop/translations/en_GB/>\n"
+"PO-Revision-Date: 2019-02-22 21:15+0000\n"
+"Last-Translator: David Mohammed <fossfreedom@ubuntu.com>\n"
+"Language-Team: English (United Kingdom) <http://translate.getsol.us/projects/"
+"budgie-desktop/translations/en_GB/>\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -196,19 +197,19 @@ msgstr "Always On Top"
 #: src/applets/icon-tasklist/IconPopover.vala:106
 #: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Maximize"
-msgstr "Maximize"
+msgstr "Maximise"
 
 #: src/applets/icon-tasklist/IconPopover.vala:107
 msgid "Minimize"
-msgstr "Minimize"
+msgstr "Minimise"
 
 #: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Unfavorite"
-msgstr "Unfavorite"
+msgstr "Unfavourite"
 
 #: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Favorite"
-msgstr "Favorite"
+msgstr "Favourite"
 
 #. If our current amount of workspaces is different than how many we have added
 #. We have items to add
@@ -221,7 +222,7 @@ msgstr "Move To Workspace %i"
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Unmaximize"
-msgstr "Unmaximize"
+msgstr "Unmaximise"
 
 #: src/applets/icon-tasklist/IconPopover.vala:543
 msgid "Close Window"
@@ -587,7 +588,7 @@ msgstr "Automatically hide"
 
 #: src/panel/settings/settings_panel.vala:248
 msgid "When set, this panel will hide from view to maximize screen estate"
-msgstr "When set, this panel will hide from view to maximize screen estate"
+msgstr "When set, this panel will hide from view to maximise screen estate"
 
 #: src/panel/settings/settings_panel.vala:255
 msgid "Transparency"
@@ -744,11 +745,11 @@ msgstr "Add a shortcut to your local network servers on the desktop."
 
 #: src/panel/settings/settings_desktop.vala:66
 msgid "Trash"
-msgstr "Trash"
+msgstr "Rubbish Bin"
 
 #: src/panel/settings/settings_desktop.vala:67
 msgid "Add a shortcut to the Trash directory on the desktop."
-msgstr "Add a shortcut to the Trash directory on the desktop."
+msgstr "Add a shortcut to the Rubbish Bin directory on the desktop."
 
 #: src/panel/settings/settings_desktop.vala:72
 msgid "Mounted volumes"
@@ -908,7 +909,7 @@ msgstr "Start"
 
 #: src/panel/settings/settings_panel_applets.vala:417
 msgid "Center"
-msgstr "Center"
+msgstr "Centre"
 
 #: src/panel/settings/settings_panel_applets.vala:420
 msgid "End"
@@ -936,11 +937,11 @@ msgstr "Change the layout of buttons in application titlebars."
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
-msgstr "Center new windows on screen"
+msgstr "Centre new windows on screen"
 
 #: src/panel/settings/settings_wm.vala:54
 msgid "Center newly launched windows on the current screen."
-msgstr "Center newly launched windows on the current screen."
+msgstr "Centre newly launched windows on the current screen."
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
@@ -1125,7 +1126,7 @@ msgstr "Enable notification"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
-msgstr "Maximize brightness"
+msgstr "Maximise brightness"
 
 #: src/applets/caffeine/settings.ui.h:3
 msgid "Brightness Level"
@@ -1238,7 +1239,7 @@ msgstr "User Indicator"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
 msgid "Change desktop appearance and behavior"
-msgstr "Change desktop appearance and behavior"
+msgstr "Change desktop appearance and behaviour"
 
 #: src/panel/budgie-panel.desktop.in.h:1
 msgid "Budgie Panel"
