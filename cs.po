@@ -17,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-02-22 21:15+0000\n"
-"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
+"Last-Translator: Richard Věžník <RichardVeznik@gmail.com>\n"
 "Language-Team: Czech <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/cs/>\n"
 "Language: cs\n"
@@ -1000,51 +1000,47 @@ msgstr "Vpravo (výchozí)"
 
 #: src/panel/settings/settings_fonts.vala:33
 msgid "Fonts"
-msgstr "Písmo"
+msgstr "Písma"
 
 #: src/panel/settings/settings_fonts.vala:44
 msgid "Window Titles"
-msgstr "Titulek okna"
+msgstr "Záhlaví okna"
 
 #: src/panel/settings/settings_fonts.vala:45
-#, fuzzy
 msgid "Set the font used in the titlebars of applications."
-msgstr "Nastavit písmo používané v záhlaví aplikací"
+msgstr "Nastavit písmo pro záhlaví aplikací."
 
 #: src/panel/settings/settings_fonts.vala:51
 msgid "Documents"
 msgstr "Dokumenty"
 
 #: src/panel/settings/settings_fonts.vala:52
-#, fuzzy
 msgid "Set the display font used by for documents."
-msgstr "Nastavit typ písma používaný pro dokumenty"
+msgstr "Nastavit písmo pro dokumenty."
 
 #: src/panel/settings/settings_fonts.vala:58
 msgid "Interface"
 msgstr "Prostředí"
 
 #: src/panel/settings/settings_fonts.vala:59
-#, fuzzy
 msgid "Set the primary font used by application controls."
-msgstr "Nastavit primární písmo používané v ovládacích prvcích aplikace"
+msgstr "Nastavit písmo pro ovládací prvky aplikací."
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Monospace"
 msgstr "Neproporcionální"
 
 #: src/panel/settings/settings_fonts.vala:66
-#, fuzzy
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr "Nastavit písmo s pevnou šířkou používané v aplikacích pracujích s textem"
+msgstr "Nastavit písmo s pevnou šířkou převažující u textových aplikací."
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
-msgstr ""
+msgstr "Velikost textu"
 
 #: src/panel/settings/settings_fonts.vala:73
 msgid "Set the text scaling factor."
-msgstr ""
+msgstr "Nastavit měřítko velikosti."
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
@@ -1052,32 +1048,32 @@ msgstr "Vybrat applet"
 
 #: src/daemon/endsession.ui.h:2
 msgid "Are you sure you want to end your session?"
-msgstr "Jste si jisti, že chcete ukončit relaci?"
+msgstr "Opravdu chcete ukončit sezení?"
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
-msgstr ""
+msgstr "Po kliknutí zobrazit všechna okna"
 
 #: src/applets/icon-tasklist/settings.ui.h:2
 msgid "Only show favorited"
-msgstr ""
+msgstr "Zobrazit pouze oblíbené"
 
 #: src/applets/icon-tasklist/settings.ui.h:3
 msgid "Lock icons"
-msgstr ""
+msgstr "Uzamknout ikony"
 
 #: src/applets/icon-tasklist/settings.ui.h:4
 msgid "Restrict to Workspace"
-msgstr ""
+msgstr "Pouze pro tuto plochu"
 
 #: src/applets/icon-tasklist/settings.ui.h:5
 msgid "Window grouping"
-msgstr ""
+msgstr "Seskupovat okna"
 
 #: src/applets/night-light/indicator_window.ui.h:1
 #: src/applets/night-light/NightLight.plugin.in.h:1
 msgid "Night Light"
-msgstr "Noční světlo"
+msgstr "Noční osvětlení"
 
 #: src/applets/night-light/indicator_window.ui.h:2
 msgid "Temperature"
@@ -1089,15 +1085,15 @@ msgstr "Rozvrh"
 
 #: src/applets/night-light/indicator_window.ui.h:4
 msgid "Sunset to Sunrise"
-msgstr "Od soumraku do rozbřesku"
+msgstr "Od západu do východu slunce"
 
 #: src/applets/night-light/indicator_window.ui.h:5
 msgid "Manual"
-msgstr "Manuální"
+msgstr "Vlastní"
 
 #: src/applets/night-light/indicator_window.ui.h:6
 msgid "Display Settings"
-msgstr "Zobrazit nastavení"
+msgstr "Nastavení obrazovky"
 
 #: src/applets/spacer/settings.ui.h:1
 msgid "Spacer size"
@@ -1105,7 +1101,7 @@ msgstr "Velikost mezery"
 
 #: src/applets/budgie-menu/settings.ui.h:1
 msgid "Show Menu Label"
-msgstr "Zobrazit štítek menu"
+msgstr "Zobrazit popisek menu"
 
 #: src/applets/budgie-menu/settings.ui.h:2
 msgid "Compact Mode"
@@ -1113,11 +1109,11 @@ msgstr "Kompaktní režim"
 
 #: src/applets/budgie-menu/settings.ui.h:3
 msgid "Show Headers"
-msgstr "Zobrazit hlavičky"
+msgstr "Zobrazit kategorie"
 
 #: src/applets/budgie-menu/settings.ui.h:4
 msgid "Menu Label"
-msgstr "Štítek menu"
+msgstr "Popisek menu"
 
 #: src/applets/budgie-menu/settings.ui.h:5
 msgid "Roll-over mouse"
@@ -1129,37 +1125,35 @@ msgstr "Ikona menu"
 
 #: src/applets/workspaces/settings.ui.h:1
 msgid "\"Add\" button visibility"
-msgstr ""
+msgstr "\"Přidat\" viditelnost tlačítka"
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
-msgstr ""
+msgstr "Nezobrazovat"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
-msgstr ""
+msgstr "Po najetí"
 
 #: src/applets/workspaces/settings.ui.h:4
-#, fuzzy
 msgid "Always show"
-msgstr "Vždy"
+msgstr "Vždy zobrazit"
 
 #: src/applets/caffeine/settings.ui.h:1
-#, fuzzy
 msgid "Enable notification"
-msgstr "Žádná nová oznámení"
+msgstr "Povolit oznámení"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
-msgstr ""
+msgstr "Zvýšit jas"
 
 #: src/applets/caffeine/settings.ui.h:3
 msgid "Brightness Level"
-msgstr ""
+msgstr "Úroveň jasu"
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
-msgstr "Zobrazit štítek"
+msgstr "Zobrazit název"
 
 #: src/applets/places-indicator/settings.ui.h:2
 msgid "Show places"
@@ -1171,15 +1165,15 @@ msgstr "Zobrazit síťové složky"
 
 #: src/applets/places-indicator/settings.ui.h:4
 msgid "Show removable drives"
-msgstr "Zobrazit odnímatelná zařízení"
+msgstr "Zobrazit přenosná zařízení"
 
 #: src/applets/places-indicator/settings.ui.h:5
 msgid "Always expand places"
-msgstr "Vždy zobrazit místa"
+msgstr "Rozbalovat místa"
 
 #: src/polkit/dialog.ui.h:1
 msgid "Authentication Required"
-msgstr "Požadováno ověření"
+msgstr "Vyžadováno ověření"
 
 #: src/polkit/dialog.ui.h:2
 msgid "Password:"
@@ -1187,7 +1181,7 @@ msgstr "Heslo:"
 
 #: src/polkit/dialog.ui.h:3
 msgid "Authentication is required"
-msgstr "Je nutné ověření"
+msgstr "Je vyžadováno ověření"
 
 #: src/polkit/dialog.ui.h:5
 msgid "Authenticate"
@@ -1200,7 +1194,7 @@ msgstr "Prostředí Budgie"
 
 #: src/session/budgie-desktop.desktop.in.in.h:2
 msgid "This session logs you into the Budgie Desktop"
-msgstr "Tato sekce vás přihlásí do desktopového prostředí Budgie"
+msgstr "Probíhá přihlašování do prostředí Budgie"
 
 #: src/applets/tray/TrayApplet.plugin.in.h:1
 msgid "System Tray"
@@ -1208,15 +1202,15 @@ msgstr "Systémová lišta"
 
 #: src/applets/status/StatusApplet.plugin.in.h:1
 msgid "Status Indicator"
-msgstr "Indikátor stavu"
+msgstr "Stavový displej"
 
 #: src/applets/icon-tasklist/IconTasklistApplet.plugin.in.h:1
 msgid "Icon Task List"
-msgstr "Ikonový seznam procesů"
+msgstr "Lišta programů"
 
 #: src/applets/spacer/SpacerApplet.plugin.in.h:1
 msgid "Spacer"
-msgstr "Mezerník"
+msgstr "Oddělovač"
 
 #: src/applets/budgie-menu/BudgieMenu.plugin.in.h:1
 msgid "Budgie Menu"
@@ -1224,7 +1218,7 @@ msgstr "Menu Budgie"
 
 #: src/applets/lock-keys/LockKeysApplet.plugin.in.h:1
 msgid "Lock Keys Indicator"
-msgstr "Indikátor kláves Lock"
+msgstr "Indikátor kláves -Lock"
 
 #: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
 msgid "Raven Sidebar Control"
@@ -1252,7 +1246,7 @@ msgstr "Seznam procesů"
 
 #: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
 msgid "Caffeine"
-msgstr ""
+msgstr "Kofein"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
@@ -1260,17 +1254,18 @@ msgstr "Indikátor rozložení klávesnice"
 
 #: src/applets/user-indicator/UserIndicator.plugin.in.h:1
 msgid "User Indicator"
-msgstr "Uživatelský indikátor"
+msgstr "Indikátor uživatele"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
-#, fuzzy
 msgid "Change desktop appearance and behavior"
-msgstr "Změnit vzhled a chování plochy"
+msgstr "Přizpůsobit vzhled a chování plochy"
 
 #: src/panel/budgie-panel.desktop.in.h:1
 msgid "Budgie Panel"
-msgstr "Budgie Panel"
+msgstr "Panel Budgie"
 
 #: src/panel/budgie-panel.desktop.in.h:2
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
-msgstr "Spouští ostatní aplikace a poskytuje různé nástroje pro správu oken, zobrazení času atd."
+msgstr ""
+"Spouští další aplikace a poskytuje nástroje pro správu oken, zobrazení času, "
+"atd."
