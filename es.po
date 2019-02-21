@@ -20,9 +20,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-13 04:55+0000\n"
+"PO-Revision-Date: 2019-02-22 21:15+0000\n"
 "Last-Translator: Jorge <teamevomagix@gmail.com>\n"
-"Language-Team: Spanish <http://translate.getsol.us/projects/budgie-desktop/translations/es/>\n"
+"Language-Team: Spanish <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -504,39 +505,39 @@ msgstr "Quitar este panel de la pantalla"
 
 #: src/panel/settings/settings_panel.vala:120
 msgid "Top Dock"
-msgstr "Dock arriba"
+msgstr "Dock superior"
 
 #: src/panel/settings/settings_panel.vala:122
 msgid "Right Dock"
-msgstr "Dock a la derecha"
+msgstr "Dock derecho"
 
 #: src/panel/settings/settings_panel.vala:124
 msgid "Left Dock"
-msgstr "Dock a la izquierda"
+msgstr "Dock izquierdo"
 
 #: src/panel/settings/settings_panel.vala:126
 msgid "Bottom Dock"
-msgstr "Dock abajo"
+msgstr "Dock inferior"
 
 #: src/panel/settings/settings_panel.vala:131
 msgid "Top Panel"
-msgstr "Panel arriba"
+msgstr "Panel superior"
 
 #: src/panel/settings/settings_panel.vala:133
 msgid "Right Panel"
-msgstr "Panel a la derecha"
+msgstr "Panel derecho"
 
 #: src/panel/settings/settings_panel.vala:135
 msgid "Left Panel"
-msgstr "Panel a la izquierda"
+msgstr "Panel izquierdo"
 
 #: src/panel/settings/settings_panel.vala:137
 msgid "Bottom Panel"
-msgstr "Panel abajo"
+msgstr "Panel inferior"
 
 #: src/panel/settings/settings_panel.vala:176
 msgid "Top"
-msgstr "Arriba"
+msgstr "Superior"
 
 #: src/panel/settings/settings_panel.vala:178
 msgid "Right"
@@ -549,7 +550,7 @@ msgstr "Izquierda"
 
 #: src/panel/settings/settings_panel.vala:182
 msgid "Bottom"
-msgstr "Abajo"
+msgstr "Inferior"
 
 #: src/panel/settings/settings_panel.vala:193
 msgid "Always"
@@ -581,7 +582,7 @@ msgstr "Posición"
 
 #: src/panel/settings/settings_panel.vala:231
 msgid "Set the edge of the screen that this panel will stay on"
-msgstr "Establezca el borde de la pantalla en el que este panel se alojará"
+msgstr "Zona de la pantalla donde poner este panel"
 
 #: src/panel/settings/settings_panel.vala:239
 msgid "Size"
@@ -605,7 +606,7 @@ msgstr "Transparencia"
 
 #: src/panel/settings/settings_panel.vala:256
 msgid "Control when this panel should have a solid background"
-msgstr "Controlar cuándo este panel deba tener un fondo sólido"
+msgstr "Establecer si quiere o no el panel transparente"
 
 #: src/panel/settings/settings_panel.vala:261
 msgid "Shadow"
@@ -629,7 +630,9 @@ msgstr "Modo Dock"
 
 #: src/panel/settings/settings_panel.vala:277
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
-msgstr "Cuando esté en modo dock, el panel usará el mínimo espacio posible, librando pantalla"
+msgstr ""
+"Cuando esté en modo dock, el panel usará el mínimo espacio posible, "
+"liberando pantalla"
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
@@ -637,47 +640,58 @@ msgstr "Permitir subir el volumen por encima de 100%"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
-msgstr "Permite subir el volumen en la Configuración de Sonido, así como en el Widget de Sonido de Raven hasta 150%."
+msgstr ""
+"Permite subir el volumen tanto en la configuración de sonido, como en el "
+"widget de sonido de Raven hasta el 150%."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
-msgstr "Mostrar el número de la semana en el Calendario"
+msgstr "Mostrar el número de la semana en el calendario"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr "Esta configuración permite mostrar el número de la semana en el widget Calendario."
+msgstr ""
+"Esta configuración permite mostrar el número de la semana en el widget del "
+"calendario."
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
-msgstr "Mostrar el widget Calendario"
+msgstr "Mostrar el widget del calendario"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr "Muestra u oculta el Widget Calendario en la sección de Applets del Raven."
+msgstr ""
+"Muestra u oculta el Widget del calendario en la sección de Applets del Raven."
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
-msgstr "Mostrar el Widget de Salida de Sonido"
+msgstr "Mostrar el Widget de salida de sonido"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr "Muestra u oculta el Widget de Salida de Sonido en la sección de Applets del Raven."
+msgstr ""
+"Muestra u oculta el Widget de salida de sonido en la sección de Applets del "
+"Raven."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
-msgstr "Mostrar el Widget de Entrada de Micrófono"
+msgstr "Mostrar el Widget de entrada de micrófono"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
-msgstr "Muestra u oculta el Widget de Entrada de Micrófono en la sección de Applets del Raven."
+msgstr ""
+"Muestra u oculta el Widget de entrada de micrófono en la sección de Applets "
+"del Raven."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
-msgstr "Mostrar el Widget de Control de la Reproducción Multimedia"
+msgstr "Mostrar el Widget de control de la reproducción Multimedia"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
-msgstr "Muestra u oculta el Widget de Control de la Reproducción Multimedia (MPRIS) en la sección de Applets del Raven."
+msgstr ""
+"Muestra u oculta el Widget de control de la reproducción Multimedia (MPRIS) "
+"en la sección de Applets del Raven."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
@@ -734,7 +748,7 @@ msgstr "Iconos del escritorio"
 
 #: src/panel/settings/settings_desktop.vala:44
 msgid "Control whether to allow launchers and icons on the desktop."
-msgstr "Controle si se permiten lanzadores e íconos en el escritorio."
+msgstr "Permitir, o no, lanzadores e íconos en el escritorio."
 
 #: src/panel/settings/settings_desktop.vala:54
 msgid "Home directory"
@@ -786,7 +800,7 @@ msgstr "Iconos"
 
 #: src/panel/settings/settings_style.vala:53
 msgid "Set the globally used icon theme"
-msgstr "Establecer el tema de icono utilizado globalmente"
+msgstr "Establecer el tema de iconos"
 
 #: src/panel/settings/settings_style.vala:57
 msgid "Cursors"
@@ -794,7 +808,7 @@ msgstr "Cursores"
 
 #: src/panel/settings/settings_style.vala:58
 msgid "Set the globally used mouse cursor theme"
-msgstr "Establecer el tema de cursor utilizado globalmente"
+msgstr "Establecer el tema del cursor"
 
 #: src/panel/settings/settings_style.vala:62
 msgid "Notification Position"
@@ -814,7 +828,8 @@ msgstr "Tema integrado"
 
 #: src/panel/settings/settings_style.vala:80
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr "Cuando está activada, el tema integrado invalidará el estilo de componente de escritorio"
+msgstr ""
+"Cuando esté activado, el tema integrado sobreescribira el tema del escritorio"
 
 #: src/panel/settings/settings_style.vala:87
 msgid "Animations"
@@ -822,7 +837,7 @@ msgstr "Animaciónes"
 
 #: src/panel/settings/settings_style.vala:88
 msgid "Control whether windows and controls use animations"
-msgstr "Controle si las ventanas y los controles usan animaciones"
+msgstr "Permitir, o nó, animaciones"
 
 #: src/panel/settings/settings_style.vala:209
 msgid "Top Left"
@@ -889,7 +904,7 @@ msgstr "Opcional"
 
 #: src/panel/settings/settings_autostart.vala:465
 msgid "Autostart"
-msgstr "Autoiniciar"
+msgstr "Autoinicio"
 
 #: src/panel/settings/settings_autostart.vala:483
 msgid "Autostart apps"
@@ -1188,15 +1203,15 @@ msgstr "Esta sesión te permite ingresar al Escritorio Budgie"
 
 #: src/applets/tray/TrayApplet.plugin.in.h:1
 msgid "System Tray"
-msgstr "Bandeja del Sistema"
+msgstr "Bandeja de Sistema"
 
 #: src/applets/status/StatusApplet.plugin.in.h:1
 msgid "Status Indicator"
-msgstr "Indicador del Estado"
+msgstr "Indicador de Estado"
 
 #: src/applets/icon-tasklist/IconTasklistApplet.plugin.in.h:1
 msgid "Icon Task List"
-msgstr "Icono de Lista de Tareas"
+msgstr "Lista de aplicaciones abiertas"
 
 #: src/applets/spacer/SpacerApplet.plugin.in.h:1
 msgid "Spacer"
@@ -1232,7 +1247,7 @@ msgstr "Cambiar del espacio de trabajo"
 
 #: src/applets/tasklist/TasklistApplet.plugin.in.h:1
 msgid "Task List"
-msgstr "Lista del Tareas"
+msgstr "Lista de Tareas"
 
 #: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
 msgid "Caffeine"
