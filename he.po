@@ -10,9 +10,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-01-25 09:45+0000\n"
-"Last-Translator: Ido Galili <ido.galili@zoho.com>\n"
-"Language-Team: Hebrew <http://translate.getsol.us/projects/budgie-desktop/translations/he/>\n"
+"PO-Revision-Date: 2019-02-22 21:52+0000\n"
+"Last-Translator: Gilad <freidkin.gilad@gmail.com>\n"
+"Language-Team: Hebrew <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,7 +27,7 @@ msgstr "התנתק"
 
 #: src/daemon/endsession.vala:175
 msgid "Restart device"
-msgstr "הפעל מכשיר מחדש"
+msgstr "אתחול מחדש"
 
 #: src/daemon/endsession.vala:187 src/daemon/endsession.ui.h:1
 msgid "Power Off"
