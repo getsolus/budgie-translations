@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: budgie-desktop 10.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-22 21:15+0000\n"
+"PO-Revision-Date: 2019-02-26 15:18+0000\n"
 "Last-Translator: Lasha Kanteladze <lashakanteladze339@gmail.com>\n"
 "Language-Team: Georgian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ka/>\n"
@@ -1021,7 +1021,7 @@ msgstr "ტექსტის მაშტაბი"
 
 #: src/panel/settings/settings_fonts.vala:73
 msgid "Set the text scaling factor."
-msgstr ""
+msgstr "დააყენე ტექსტის სკალირების ფაქტორი."
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
@@ -1070,7 +1070,7 @@ msgstr "მზის ჩასვლიდან ამოსვლამდე"
 
 #: src/applets/night-light/indicator_window.ui.h:5
 msgid "Manual"
-msgstr ""
+msgstr "ხელით"
 
 #: src/applets/night-light/indicator_window.ui.h:6
 msgid "Display Settings"
@@ -1078,7 +1078,7 @@ msgstr "გამოსახულების პარამეტრებ�
 
 #: src/applets/spacer/settings.ui.h:1
 msgid "Spacer size"
-msgstr ""
+msgstr "გამოსატოვებლის ზომა"
 
 #: src/applets/budgie-menu/settings.ui.h:1
 msgid "Show Menu Label"
