@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-22 21:15+0000\n"
+"PO-Revision-Date: 2019-02-26 15:18+0000\n"
 "Last-Translator: Pavel Datsenko <pavel.datsenko@gmail.com>\n"
 "Language-Team: Russian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ru/>\n"
@@ -37,7 +37,7 @@ msgstr "Перезагрузить устройство"
 
 #: src/daemon/endsession.vala:187 src/daemon/endsession.ui.h:1
 msgid "Power Off"
-msgstr "Выключение"
+msgstr "Выключить"
 
 #: src/daemon/menus.vala:52
 msgid "Change background"
@@ -200,7 +200,7 @@ msgstr "Закрыть все окна"
 
 #: src/applets/icon-tasklist/IconPopover.vala:104
 msgid "Always On Top"
-msgstr "Всегда сверху"
+msgstr "Всегда наверху"
 
 #: src/applets/icon-tasklist/IconPopover.vala:106
 #: src/applets/icon-tasklist/IconPopover.vala:484
@@ -262,7 +262,7 @@ msgstr "Отмена"
 
 #: src/applets/budgie-menu/IconChooser.vala:56
 msgid "Set icon"
-msgstr "Выбрать значок"
+msgstr "Установить значок"
 
 #. Special case, "All"
 #: src/applets/budgie-menu/BudgieMenuButtons.vala:28
@@ -318,7 +318,7 @@ msgstr "Использовать 24-часовой формат"
 
 #: src/applets/show-desktop/ShowDesktopApplet.vala:34
 msgid "Toggle the desktop"
-msgstr "Переключить рабочий стол"
+msgstr "Переключиться на рабочий стол"
 
 #: src/applets/workspaces/WorkspaceItem.vala:72
 msgid "Rename"
@@ -596,7 +596,9 @@ msgstr "Автоматически скрывать"
 
 #: src/panel/settings/settings_panel.vala:248
 msgid "When set, this panel will hide from view to maximize screen estate"
-msgstr "Если задано, эта панель будет скрываться для максимизации пространства экрана"
+msgstr ""
+"Если задано, эта панель будет скрываться для максимизации экранного "
+"пространства"
 
 #: src/panel/settings/settings_panel.vala:255
 msgid "Transparency"
@@ -629,8 +631,8 @@ msgstr "Режим дока"
 #: src/panel/settings/settings_panel.vala:277
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
 msgstr ""
-"Находясь в режиме дока, панель будет использовать минимально возможное "
-"пространство, освобождая полезную площадь экрана"
+"Находясь в режиме дока, панель будет использовать минимально возможную "
+"площадь, освобождая полезное экранное пространство"
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
