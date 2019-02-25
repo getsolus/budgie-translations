@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-25 15:29+0000\n"
-"Last-Translator: Juan Reyna <jreyna.f@gmail.com>\n"
+"PO-Revision-Date: 2019-02-25 15:30+0000\n"
+"Last-Translator: Yerson Cordon <rty.96.chr@gmail.com>\n"
 "Language-Team: Spanish (American) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/es_US/>\n"
 "Language: es_US\n"
@@ -96,17 +96,17 @@ msgstr "Nada que ver aquí"
 #: src/applets/notifications/NotificationsApplet.vala:109
 #, c-format
 msgid "%u unread notifications"
-msgstr "%u notificaciones sin leer"
+msgstr "%u notificaciones no leídas"
 
 #: src/raven/notifications_view.vala:676
 #: src/applets/notifications/NotificationsApplet.vala:111
 msgid "1 unread notification"
-msgstr "1 notificación sin leer"
+msgstr "1 notificación no leída"
 
 #: src/raven/notifications_view.vala:678
 #: src/applets/notifications/NotificationsApplet.vala:113
 msgid "No unread notifications"
-msgstr "Ninguna notificación sin leer"
+msgstr "Ninguna notificación no leída"
 
 #: src/raven/notifications_view.vala:913
 msgid "No new notifications"
