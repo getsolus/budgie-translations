@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-22 21:15+0000\n"
-"Last-Translator: Bror-Lauritz Størkersen <brorl51@gmail.com>\n"
+"PO-Revision-Date: 2019-02-26 14:56+0000\n"
+"Last-Translator: hasan eyyub danisman <hdan91@hotmail.com>\n"
 "Language-Team: Norwegian Bokmål <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/nb_NO/>\n"
 "Language: no\n"
@@ -37,9 +37,8 @@ msgid "Change background"
 msgstr "Endre bakgrunn"
 
 #: src/daemon/menus.vala:57
-#, fuzzy
 msgid "Displays"
-msgstr "Skjerminnstillinger"
+msgstr "Skjermer"
 
 #: src/daemon/menus.vala:66 src/panel/settings/settings_panel.vala:97
 msgid "Settings"
@@ -209,7 +208,7 @@ msgstr "Fjern fra favoritter"
 
 #: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Favorite"
-msgstr "Gjør til favoritt"
+msgstr "Legg til som favoritt"
 
 #. If our current amount of workspaces is different than how many we have added
 #. We have items to add
@@ -1122,7 +1121,7 @@ msgstr "Menyikon"
 
 #: src/applets/workspaces/settings.ui.h:1
 msgid "\"Add\" button visibility"
-msgstr ""
+msgstr "\"legg til\" knapp synlighet"
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
@@ -1133,9 +1132,8 @@ msgid "Show on mouseover"
 msgstr ""
 
 #: src/applets/workspaces/settings.ui.h:4
-#, fuzzy
 msgid "Always show"
-msgstr "Alltid"
+msgstr "alltid synlig"
 
 #: src/applets/caffeine/settings.ui.h:1
 #, fuzzy
