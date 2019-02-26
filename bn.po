@@ -9,9 +9,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-13 04:54+0000\n"
+"PO-Revision-Date: 2019-02-26 15:18+0000\n"
 "Last-Translator: Reback 00 <reback00@mailfence.com>\n"
-"Language-Team: Bengali <http://translate.getsol.us/projects/budgie-desktop/translations/bn/>\n"
+"Language-Team: Bengali <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/bn/>\n"
 "Language: bn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -215,7 +216,7 @@ msgstr "প্রিয় বানাও"
 #: src/applets/icon-tasklist/IconPopover.vala:384
 #, c-format
 msgid "Move To Workspace %i"
-msgstr "ওয়ার্কস্পেস %i-তে নাও"
+msgstr "ওয়ার্কস্পেস %i-এ নাও"
 
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:484
@@ -1007,7 +1008,7 @@ msgstr "এ্যাপ্লিকেশনের কন্ট্রোলগ�
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Monospace"
-msgstr "Monospace"
+msgstr "মোনোস্পেস"
 
 #: src/panel/settings/settings_fonts.vala:66
 msgid "Set the fixed-width font used by text dominant applications."
@@ -1060,7 +1061,7 @@ msgstr "তাপমাত্রা"
 
 #: src/applets/night-light/indicator_window.ui.h:3
 msgid "Schedule"
-msgstr "শিডিউল"
+msgstr "সময়সূচী"
 
 #: src/applets/night-light/indicator_window.ui.h:4
 msgid "Sunset to Sunrise"
@@ -1201,7 +1202,7 @@ msgstr "কিবোর্ড লক ইন্ডিকেটর"
 
 #: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
 msgid "Raven Sidebar Control"
-msgstr "Raven স্লাইডবার কন্ট্রোল "
+msgstr "Raven সাইডবার কন্ট্রোল"
 
 #: src/applets/clock/ClockApplet.plugin.in.h:1
 msgid "Clock"
@@ -1241,7 +1242,7 @@ msgstr "ডেস্কটপের চেহারা ও আচরণ পর�
 
 #: src/panel/budgie-panel.desktop.in.h:1
 msgid "Budgie Panel"
-msgstr "Budgie প্যানেল "
+msgstr "Budgie প্যানেল"
 
 #: src/panel/budgie-panel.desktop.in.h:2
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
