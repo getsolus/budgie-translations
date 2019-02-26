@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-02-26 15:18+0000\n"
-"Last-Translator: Marius Bendsen <marius9931@gmail.com>\n"
+"Last-Translator: Kristoffer Lindstrøm <kristoffer@hwl.co>\n"
 "Language-Team: Danish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/da/>\n"
 "Language: da\n"
@@ -958,19 +958,23 @@ msgstr "Slå Nattelys fra ved fuldskærmsvisning"
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr ""
+"Slå Night Light fra ved fuldskærmsvisning. Genaktiveres efter fuldskærm "
+"forlades."
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
 msgstr "Automatisk fliselægning"
 
 #: src/panel/settings/settings_wm.vala:66
-#, fuzzy
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr "Vinduer fliselægges automatisk når der trækkes ind i den øverst del i skærmen eller de fjerne hjørner"
+msgstr ""
+"Vinduer fliselægges automatisk når de trækkes ind i toppen af skærmen eller "
+"de fjerne hjørner."
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
 msgstr ""
+"Aktiver fokusering af vindue når cursor føres henover eller væk fra vindue"
 
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
@@ -981,9 +985,10 @@ msgid "Disable unredirection of windows"
 msgstr "Deaktivér uomdirigering af vinduer"
 
 #: src/panel/settings/settings_wm.vala:79
-#, fuzzy
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr "Valgmuligheden er til avancerede brugere. Brug den hvis du har problemer med dedikerede GPU'ers grafik eller ydelse"
+msgstr ""
+"Denne indstilling er for avancerede brugere. Brug den hvis du har problemer "
+"med ydelsen fra dedikerede grafikkort."
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
@@ -998,9 +1003,8 @@ msgid "Window Titles"
 msgstr "Vinduestitler"
 
 #: src/panel/settings/settings_fonts.vala:45
-#, fuzzy
 msgid "Set the font used in the titlebars of applications."
-msgstr "Sæt skrifttypen som skal bruges i programmernes titellinjer"
+msgstr "Vælg skrifttypen som bruges i programmernes titellinjer."
 
 #: src/panel/settings/settings_fonts.vala:51
 msgid "Documents"
@@ -1016,18 +1020,17 @@ msgid "Interface"
 msgstr "Brugerflade"
 
 #: src/panel/settings/settings_fonts.vala:59
-#, fuzzy
 msgid "Set the primary font used by application controls."
-msgstr "Sæt den primære skrifttype som skal bruges af programkontroller"
+msgstr "Vælg den primære skrifttype som bruges til programmenuer."
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Monospace"
 msgstr "Fast bredde"
 
 #: src/panel/settings/settings_fonts.vala:66
-#, fuzzy
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr "Sæt den skrifttype med fast bredde som skal bruges af programmer som hovedsageligt bruges til tekst"
+msgstr ""
+"Indstil skrifttypen med fast bredde der anvendes af teksttunge programmer."
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
@@ -1051,7 +1054,7 @@ msgstr "Vis alle vinduer ved klik"
 
 #: src/applets/icon-tasklist/settings.ui.h:2
 msgid "Only show favorited"
-msgstr ""
+msgstr " Vis kun favoriserede"
 
 #: src/applets/icon-tasklist/settings.ui.h:3
 msgid "Lock icons"
