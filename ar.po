@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-26 14:33+0000\n"
-"Last-Translator: Bilal Hijazin <bilalhijazeen@gmail.com>\n"
+"PO-Revision-Date: 2019-02-26 15:18+0000\n"
+"Last-Translator: Asuma ma <mahmoud.alaliwi.2012@gmail.com>\n"
 "Language-Team: Arabic <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ar/>\n"
 "Language: ar\n"
@@ -91,7 +91,7 @@ msgstr "لا تطبيقات تستخدم الصوت حاليا"
 
 #: src/raven/start_listening.vala:28
 msgid "Play some music"
-msgstr "شغّل بعض الموسيقى"
+msgstr "تشغيل بعض الموسيقى"
 
 #: src/raven/notifications_view.vala:106
 msgid "Nothing to see here"
@@ -124,7 +124,7 @@ msgstr "تطبيقات"
 
 #: src/raven/sound.vala:159
 msgid "Devices"
-msgstr "أجهزة"
+msgstr "الأجهزة"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
