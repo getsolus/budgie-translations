@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-22 21:52+0000\n"
-"Last-Translator: Gilad <freidkin.gilad@gmail.com>\n"
+"PO-Revision-Date: 2019-02-26 15:18+0000\n"
+"Last-Translator: Moriel Ever <emoriel17@yahoo.com>\n"
 "Language-Team: Hebrew <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/he/>\n"
 "Language: he\n"
@@ -685,7 +685,7 @@ msgstr "אשר הסרת לוח"
 
 #: src/panel/settings/settings_panel_dialogs.vala:36
 msgid "Do you really want to remove this panel? This action cannot be undone."
-msgstr "האם אתה באמת רוצה להסיר לוח זה? פעולה זו אינה ניתנת לביטול"
+msgstr "האם אתה באמת רוצה להסיר לוח זה? פעולה זו אינה ניתנת לביטול."
 
 #: src/panel/settings/settings_panel_dialogs.vala:51
 #: src/panel/settings/settings_panel_dialogs.vala:114
@@ -1029,7 +1029,7 @@ msgstr "קבע את הגופן העיקרי לשימוש על ידי פקדי י
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Monospace"
-msgstr "Monospace"
+msgstr "רוחב אחיד"
 
 #: src/panel/settings/settings_fonts.vala:66
 #, fuzzy
