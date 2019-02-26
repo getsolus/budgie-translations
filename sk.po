@@ -11,9 +11,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-13 04:55+0000\n"
-"Last-Translator: Ab Ministrator <abministrator@arcor.de>\n"
-"Language-Team: Slovak <http://translate.getsol.us/projects/budgie-desktop/translations/sk/>\n"
+"PO-Revision-Date: 2019-02-26 14:44+0000\n"
+"Last-Translator: Tomáš Vavro <tj_konta@outlook.sk>\n"
+"Language-Team: Slovak <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -142,7 +143,7 @@ msgstr "Zostatok batérie"
 
 #: src/applets/status/PowerIndicator.vala:168
 msgid "Show battery percentage"
-msgstr ""
+msgstr "Zobraziť percento nabitia batérie"
 
 #: src/applets/status/PowerIndicator.vala:176
 msgid "Power settings"
@@ -617,11 +618,13 @@ msgstr ""
 
 #: src/panel/settings/settings_panel.vala:276
 msgid "Dock mode"
-msgstr ""
+msgstr "Mód dock"
 
 #: src/panel/settings/settings_panel.vala:277
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
 msgstr ""
+"V dock móde bude panel zaberať čo najmenší priestor, čím uvoľní drahocenné "
+"miesto na obrazovke."
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
