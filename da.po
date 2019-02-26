@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-02-26 15:18+0000\n"
-"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
+"Last-Translator: Marius Bendsen <marius9931@gmail.com>\n"
 "Language-Team: Danish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/da/>\n"
 "Language: da\n"
@@ -953,7 +953,7 @@ msgstr "Centrer nyåbnede vinduer på den aktuelle skærm."
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
-msgstr ""
+msgstr "Slå Nattelys fra ved fuldskærmsvisning"
 
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
