@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-26 14:32+0000\n"
-"Last-Translator: Asuma ma <mahmoud.alaliwi.2012@gmail.com>\n"
+"PO-Revision-Date: 2019-02-26 14:33+0000\n"
+"Last-Translator: Hani <baneebal@hotmail.com>\n"
 "Language-Team: Arabic <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ar/>\n"
 "Language: ar\n"
@@ -87,7 +87,7 @@ msgstr "الإشعارات"
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
-msgstr "لا توجد حالياً تطبيقات تُشغل الصوت."
+msgstr "لا تطبيقات تستخدم الصوت حاليا"
 
 #: src/raven/start_listening.vala:28
 msgid "Play some music"
@@ -195,7 +195,7 @@ msgstr "إطلاق نسخة جديدة"
 
 #: src/applets/icon-tasklist/IconPopover.vala:96
 msgid "Close All Windows"
-msgstr "إغلاق جميع النوافذ"
+msgstr "أغلق جميع النوافذ"
 
 #: src/applets/icon-tasklist/IconPopover.vala:104
 msgid "Always On Top"
