@@ -10,18 +10,20 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2018-01-19 19:29+0000\n"
-"Last-Translator: Zigmars Dzenis <zigmars@gmail.com>\n"
-"Language-Team: Latvian (http://www.transifex.com/budgie-desktop/budgie-desktop/language/lv/)\n"
+"PO-Revision-Date: 2019-02-26 15:18+0000\n"
+"Last-Translator: Kaspars Bērziņš <kaspars.berzins@pm.me>\n"
+"Language-Team: Latvian <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/lv/>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
+"X-Generator: Weblate 3.4-dev\n"
 
 #: src/daemon/endsession.vala:171
 msgid "Log out"
-msgstr "Iziet"
+msgstr "Izrakstīties"
 
 #: src/daemon/endsession.vala:175
 msgid "Restart device"
@@ -37,7 +39,7 @@ msgstr "Mainīt fona attēlu"
 
 #: src/daemon/menus.vala:57
 msgid "Displays"
-msgstr ""
+msgstr "Displeji"
 
 #: src/daemon/menus.vala:66 src/panel/settings/settings_panel.vala:97
 msgid "Settings"
@@ -46,11 +48,11 @@ msgstr "Iestatījumi"
 #. Should show a notification
 #: src/daemon/settings.vala:310
 msgid "Turned on Caffeine Boost"
-msgstr ""
+msgstr "Caffeine Boost ieslēgts"
 
 #: src/daemon/settings.vala:310
 msgid "Turned off Caffeine Boost"
-msgstr ""
+msgstr "Caffeine Boost izslēgts"
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
@@ -68,11 +70,11 @@ msgstr ""
 #: src/raven/notifications_group.vala:44
 #: src/applets/caffeine/CaffeineWindow.vala:25
 msgid "Caffeine Mode"
-msgstr ""
+msgstr "Caffeine režīms"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
-msgstr "Sīkrīks"
+msgstr "Sīklietotnes"
 
 #: src/raven/main_view.vala:66
 #: src/applets/notifications/NotificationsApplet.plugin.in.h:1
@@ -81,11 +83,11 @@ msgstr "Paziņojumi"
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
-msgstr ""
+msgstr "Neviena lietotne šobrīd neatskaņo audio."
 
 #: src/raven/start_listening.vala:28
 msgid "Play some music"
-msgstr ""
+msgstr "Atskaņot kādu mūziku"
 
 #: src/raven/notifications_view.vala:106
 msgid "Nothing to see here"
@@ -95,12 +97,12 @@ msgstr "Tukšs"
 #: src/applets/notifications/NotificationsApplet.vala:109
 #, c-format
 msgid "%u unread notifications"
-msgstr "%u neizlasīti paziņojumi"
+msgstr "Neizlasīti paziņojumi: %u"
 
 #: src/raven/notifications_view.vala:676
 #: src/applets/notifications/NotificationsApplet.vala:111
 msgid "1 unread notification"
-msgstr "1 neizlasīti paziņojumi"
+msgstr "1 neizlasīts paziņojums"
 
 #: src/raven/notifications_view.vala:678
 #: src/applets/notifications/NotificationsApplet.vala:113
@@ -109,16 +111,16 @@ msgstr "Nav neizlasītu paziņojumu"
 
 #: src/raven/notifications_view.vala:913
 msgid "No new notifications"
-msgstr "Nav jaunu ziņojumu"
+msgstr "Nav jaunu paziņojumu"
 
 #. 125ms
 #: src/raven/sound.vala:158
 msgid "Apps"
-msgstr ""
+msgstr "Lietotnes"
 
 #: src/raven/sound.vala:159
 msgid "Devices"
-msgstr ""
+msgstr "Ierīces"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
@@ -139,11 +141,11 @@ msgstr "Akumulatora uzlādes līmenis"
 
 #: src/applets/status/PowerIndicator.vala:168
 msgid "Show battery percentage"
-msgstr ""
+msgstr "Rādīt akumulatora uzlādes līmeni procentos"
 
 #: src/applets/status/PowerIndicator.vala:176
 msgid "Power settings"
-msgstr "Strāvas iestatījumi"
+msgstr "Enerģijas iestatījumi"
 
 #. Settings button
 #: src/applets/status/BluetoothIndicator.vala:56
@@ -153,12 +155,12 @@ msgstr "Bluetooth iestatījumi"
 #. Send files button
 #: src/applets/status/BluetoothIndicator.vala:63
 msgid "Send Files"
-msgstr "Sūtīt failus"
+msgstr "Sūtīt datnes"
 
 #. Airplane mode
 #: src/applets/status/BluetoothIndicator.vala:73
 msgid "Bluetooth Airplane Mode"
-msgstr "Bluetooth lidošanas režīms"
+msgstr "Bluetooth lidmašīnas režīms"
 
 #: src/applets/status/BluetoothIndicator.vala:179
 msgid "Bluetooth is disabled"
@@ -178,36 +180,36 @@ msgstr[2] "Savienots ar %d ierīcēm"
 
 #: src/applets/status/SoundIndicator.vala:146
 msgid "Sound settings"
-msgstr ""
+msgstr "Skaņas iestatījumi"
 
 #: src/applets/icon-tasklist/IconPopover.vala:93
 msgid "Launch New Instance"
-msgstr ""
+msgstr "Palaist jaunu instanci"
 
 #: src/applets/icon-tasklist/IconPopover.vala:96
 msgid "Close All Windows"
-msgstr ""
+msgstr "Aizvērt visus logus"
 
 #: src/applets/icon-tasklist/IconPopover.vala:104
 msgid "Always On Top"
-msgstr ""
+msgstr "Vienmēr virspusē"
 
 #: src/applets/icon-tasklist/IconPopover.vala:106
 #: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Maximize"
-msgstr ""
+msgstr "Maksimizēt"
 
 #: src/applets/icon-tasklist/IconPopover.vala:107
 msgid "Minimize"
-msgstr ""
+msgstr "Minimizēt"
 
 #: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Unfavorite"
-msgstr ""
+msgstr "Izņemt no favorītiem"
 
 #: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Favorite"
-msgstr ""
+msgstr "Pievienot favorītiem"
 
 #. If our current amount of workspaces is different than how many we have added
 #. We have items to add
@@ -215,34 +217,32 @@ msgstr ""
 #: src/applets/icon-tasklist/IconPopover.vala:384
 #, c-format
 msgid "Move To Workspace %i"
-msgstr ""
+msgstr "Pārvietot uz darbvietu %i"
 
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Unmaximize"
-msgstr ""
+msgstr "Atmaksimizēt"
 
 #: src/applets/icon-tasklist/IconPopover.vala:543
-#, fuzzy
 msgid "Close Window"
-msgstr "Logs"
+msgstr "Aizvērt logu"
 
 #: src/applets/icon-tasklist/IconPopover.vala:545
-#, fuzzy
 msgid "Show Window Controls"
-msgstr "Logu nosaukumi"
+msgstr "Rādīt loga vadīklas"
 
 #: src/applets/budgie-menu/IconChooser.vala:27
 msgid "Set menu icon from file"
-msgstr ""
+msgstr "Iestatīt izvēlnes ikonu no datnes"
 
 #: src/applets/budgie-menu/IconChooser.vala:37
 msgid "Image files"
-msgstr ""
+msgstr "Attēlu datnes"
 
 #: src/applets/budgie-menu/IconChooser.vala:43
 msgid "Any file"
-msgstr ""
+msgstr "Jebkādas datnes"
 
 #: src/applets/budgie-menu/IconChooser.vala:55
 #: src/panel/settings/settings_autostart.vala:203
@@ -254,17 +254,17 @@ msgstr "Atcelt"
 
 #: src/applets/budgie-menu/IconChooser.vala:56
 msgid "Set icon"
-msgstr ""
+msgstr "Iestatīt ikonu"
 
 #. Special case, "All"
 #: src/applets/budgie-menu/BudgieMenuButtons.vala:28
 msgid "All"
-msgstr "Visi"
+msgstr "Viss"
 
 #. placeholder in case of no results
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:271
 msgid "Sorry, no items found"
-msgstr ""
+msgstr "Atvainojiet, nekas netika atrasts"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
@@ -284,7 +284,7 @@ msgstr "Num lock nav aktīvs"
 
 #: src/applets/clock/ClockApplet.vala:151
 msgid "Time and date settings"
-msgstr "Laika un datuma uzstādījumi"
+msgstr "Laika un datuma iestatījumi"
 
 #: src/applets/clock/ClockApplet.vala:152
 msgid "Calendar"
@@ -294,19 +294,19 @@ msgstr "Kalendārs"
 #: src/applets/clock/ClockApplet.vala:159
 #: src/applets/clock/ClockApplet.vala:190
 msgid "Preferences"
-msgstr ""
+msgstr "Iestatījumi"
 
 #: src/applets/clock/ClockApplet.vala:169
 msgid "Show date"
-msgstr ""
+msgstr "Rādīt datumu"
 
 #: src/applets/clock/ClockApplet.vala:174
 msgid "Show seconds"
-msgstr ""
+msgstr "Rādīt sekundes"
 
 #: src/applets/clock/ClockApplet.vala:180
 msgid "Use 24 hour time"
-msgstr ""
+msgstr "Lietot 24 stundu formātu"
 
 #: src/applets/show-desktop/ShowDesktopApplet.vala:34
 msgid "Toggle the desktop"
@@ -314,15 +314,15 @@ msgstr "Pārslēgt darbvirsmu"
 
 #: src/applets/workspaces/WorkspaceItem.vala:72
 msgid "Rename"
-msgstr ""
+msgstr "Pārdēvēt"
 
 #: src/applets/workspaces/WorkspaceItem.vala:79
 msgid "Remove"
-msgstr ""
+msgstr "Noņemt"
 
 #: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Timer (minutes)"
-msgstr ""
+msgstr "Taimeris (minūtes)"
 
 #. User Menu Creation
 #: src/applets/user-indicator/UserIndicatorWindow.vala:95
@@ -333,11 +333,11 @@ msgstr "Lietotājs"
 #. The rest
 #: src/applets/user-indicator/UserIndicatorWindow.vala:101
 msgid "Lock"
-msgstr "Slēgt"
+msgstr "Aizslēgt"
 
 #: src/applets/user-indicator/UserIndicatorWindow.vala:102
 msgid "Suspend"
-msgstr "Sakļaut"
+msgstr "Iesnaudināt"
 
 #: src/applets/user-indicator/UserIndicatorWindow.vala:103
 msgid "Hibernate"
@@ -357,7 +357,7 @@ msgstr "Izslēgt"
 #: src/applets/user-indicator/UserIndicatorWindow.vala:179
 #: src/daemon/endsession.ui.h:4
 msgid "Logout"
-msgstr "Atteikties"
+msgstr "Izrakstīties"
 
 #: src/applets/places-indicator/PlacesSection.vala:24
 #: src/applets/places-indicator/PlacesSection.vala:46
