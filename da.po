@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-02-26 15:18+0000\n"
-"Last-Translator: Kristoffer Lindstrøm <kristoffer@hwl.co>\n"
+"Last-Translator: Kim Trolle Wadum <kim@ktw.dk>\n"
 "Language-Team: Danish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/da/>\n"
 "Language: da\n"
@@ -1058,11 +1058,11 @@ msgstr " Vis kun favoriserede"
 
 #: src/applets/icon-tasklist/settings.ui.h:3
 msgid "Lock icons"
-msgstr ""
+msgstr "Lås ikoner"
 
 #: src/applets/icon-tasklist/settings.ui.h:4
 msgid "Restrict to Workspace"
-msgstr ""
+msgstr "Fastlås til arbejdsområde"
 
 #: src/applets/icon-tasklist/settings.ui.h:5
 msgid "Window grouping"
@@ -1123,7 +1123,7 @@ msgstr "Menuikon"
 
 #: src/applets/workspaces/settings.ui.h:1
 msgid "\"Add\" button visibility"
-msgstr ""
+msgstr "Synlighed for \"tilføj\"-knap"
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
