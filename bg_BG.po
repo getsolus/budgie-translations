@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-02-26 15:18+0000\n"
-"Last-Translator: Ivan Rakilovsky <ivan.rakilovsky@gmail.com>\n"
+"Last-Translator: Presian Yankulov <presianbg@gmail.com>\n"
 "Language-Team: Bulgarian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/bg/>\n"
 "Language: bg_BG\n"
@@ -72,7 +72,7 @@ msgstr ""
 #: src/raven/notifications_group.vala:44
 #: src/applets/caffeine/CaffeineWindow.vala:25
 msgid "Caffeine Mode"
-msgstr ""
+msgstr "Режим на Caffeine"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
