@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-02-26 14:18+0000\n"
-"Last-Translator: Marius Bendsen <marius9931@gmail.com>\n"
+"Last-Translator: Jeppe Rask <jepperaskdk@gmail.com>\n"
 "Language-Team: Danish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/da/>\n"
 "Language: da\n"
@@ -826,19 +826,16 @@ msgid "Top Left"
 msgstr "Øverst til venstre"
 
 #: src/panel/settings/settings_style.vala:211
-#, fuzzy
 msgid "Bottom Left"
-msgstr "Nederst"
+msgstr "Bunden til venstre"
 
 #: src/panel/settings/settings_style.vala:213
-#, fuzzy
 msgid "Bottom Right"
-msgstr "Nederst"
+msgstr "Bunden til højre"
 
 #: src/panel/settings/settings_style.vala:216
-#, fuzzy
 msgid "Top Right"
-msgstr "Højre"
+msgstr "Toppen til højre"
 
 #: src/panel/settings/settings_autostart.vala:141
 msgid "Untitled"
@@ -892,9 +889,8 @@ msgid "Autostart"
 msgstr "Autostart"
 
 #: src/panel/settings/settings_autostart.vala:483
-#, fuzzy
 msgid "Autostart apps"
-msgstr "Autostart"
+msgstr "Autostart applikationer"
 
 #: src/panel/settings/settings_panel_applets.vala:22
 msgid "Configure applet"
