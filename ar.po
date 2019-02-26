@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-22 21:15+0000\n"
+"PO-Revision-Date: 2019-02-26 14:32+0000\n"
 "Last-Translator: Asuma ma <mahmoud.alaliwi.2012@gmail.com>\n"
 "Language-Team: Arabic <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ar/>\n"
@@ -52,7 +52,7 @@ msgstr "إعدادات"
 #. Should show a notification
 #: src/daemon/settings.vala:310
 msgid "Turned on Caffeine Boost"
-msgstr "تطبيق كافيين فعال"
+msgstr "تشغل كافيين المعزز"
 
 #: src/daemon/settings.vala:310
 msgid "Turned off Caffeine Boost"
@@ -74,7 +74,7 @@ msgstr ""
 #: src/raven/notifications_group.vala:44
 #: src/applets/caffeine/CaffeineWindow.vala:25
 msgid "Caffeine Mode"
-msgstr "وضع كافيين"
+msgstr "وضع التركيز"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
@@ -271,7 +271,7 @@ msgstr "الكل"
 #. placeholder in case of no results
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:271
 msgid "Sorry, no items found"
-msgstr ""
+msgstr "آسف، لم يتم العثور على العناصر"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
@@ -329,7 +329,7 @@ msgstr "حذف"
 
 #: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Timer (minutes)"
-msgstr ""
+msgstr "مؤقت (دقائق)"
 
 #. User Menu Creation
 #: src/applets/user-indicator/UserIndicatorWindow.vala:95
@@ -639,35 +639,35 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
-msgstr ""
+msgstr "عرض رقم الأسبوع في التقويم"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr ""
+msgstr "يتيح هذا الإعداد عرض رقم الأسبوع في أداة التقويم"
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
-msgstr ""
+msgstr "عرض أداة التقويم"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr ""
+msgstr "إظهار أو إخفاء أداة التقويم من الأدوات الصغيرة"
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
-msgstr ""
+msgstr "إظهار أداة خرج الصوت"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr ""
+msgstr "إظهار أو إخفاء أداة خرج الصوت في قسم الادوات الصغيرة"
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
-msgstr ""
+msgstr "إظهار أداة دخل المكيرفون"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
-msgstr ""
+msgstr "إظهار أو إخفاء أداة دخل الميكروفون في قسم الأدوات الصغيرة"
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
