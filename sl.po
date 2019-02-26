@@ -10,14 +10,16 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-13 04:55+0000\n"
+"PO-Revision-Date: 2019-02-26 15:18+0000\n"
 "Last-Translator: BobTheBuilder <kl3men.g@gmail.com>\n"
-"Language-Team: Slovenian <http://translate.getsol.us/projects/budgie-desktop/translations/sl/>\n"
+"Language-Team: Slovenian <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/sl/>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
 "X-Generator: Weblate 3.4-dev\n"
 
 #: src/daemon/endsession.vala:171
@@ -47,11 +49,11 @@ msgstr "Nastavitve"
 #. Should show a notification
 #: src/daemon/settings.vala:310
 msgid "Turned on Caffeine Boost"
-msgstr ""
+msgstr "Caffeine Boost vklopljen"
 
 #: src/daemon/settings.vala:310
 msgid "Turned off Caffeine Boost"
-msgstr ""
+msgstr "Caffeine Boost izklopljen"
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
@@ -222,7 +224,7 @@ msgstr "Premakni na delovno površino %i"
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Unmaximize"
-msgstr ""
+msgstr "Od-maksimiziraj"
 
 #: src/applets/icon-tasklist/IconPopover.vala:543
 msgid "Close Window"
@@ -629,6 +631,8 @@ msgstr "Dovoli zviševanje glasnosti čez 100%"
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
 msgstr ""
+"Dovoli višanje glasnosti do 150%, preko Nastavitev Zvoka, kot tudi preko "
+"Widgeta za Zvočni Izhod v Raven-u."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
@@ -781,11 +785,11 @@ msgstr "Nastavi globalno temo za ikone"
 
 #: src/panel/settings/settings_style.vala:57
 msgid "Cursors"
-msgstr "Kurzorji"
+msgstr "Kazalec"
 
 #: src/panel/settings/settings_style.vala:58
 msgid "Set the globally used mouse cursor theme"
-msgstr "Nastavi globalno temo za kurzor miške"
+msgstr "Nastavi globalno temo za kazalec miške"
 
 #: src/panel/settings/settings_style.vala:62
 msgid "Notification Position"
