@@ -19,9 +19,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-02 01:34+0000\n"
-"Last-Translator: Tobias Croby <tobias@croby.se>\n"
-"Language-Team: Swedish <http://translate.getsol.us/projects/budgie-desktop/translations/sv/>\n"
+"PO-Revision-Date: 2019-02-26 15:18+0000\n"
+"Last-Translator: Holger JS <holger.johanssonskarin@gmail.com>\n"
+"Language-Team: Swedish <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -749,7 +750,7 @@ msgstr "Nätverksservrar"
 
 #: src/panel/settings/settings_desktop.vala:61
 msgid "Add a shortcut to your local network servers on the desktop."
-msgstr "Lägg till genvägar till dina lokala nätverksservrar på skrivbordet."
+msgstr "Lägg till en genväg till dina lokala nätverksservrar på skrivbordet."
 
 #: src/panel/settings/settings_desktop.vala:66
 msgid "Trash"
@@ -801,7 +802,7 @@ msgstr "Position för notifieringsmeddelande"
 
 #: src/panel/settings/settings_style.vala:63
 msgid "Set the location for notification popups"
-msgstr "Ange plats för notifieringsmeddelanden"
+msgstr "Ställ in placering av notiser"
 
 #: src/panel/settings/settings_style.vala:72
 msgid "Dark theme"
@@ -825,19 +826,19 @@ msgstr "Ställ in animationer för fönster och kontroller"
 
 #: src/panel/settings/settings_style.vala:209
 msgid "Top Left"
-msgstr "Uppe till vänster"
+msgstr "Övre Vänster"
 
 #: src/panel/settings/settings_style.vala:211
 msgid "Bottom Left"
-msgstr "Nere till vänster"
+msgstr "Vänster Botten"
 
 #: src/panel/settings/settings_style.vala:213
 msgid "Bottom Right"
-msgstr "Nere till höger"
+msgstr "Höger Botten"
 
 #: src/panel/settings/settings_style.vala:216
 msgid "Top Right"
-msgstr "Uppe till höger"
+msgstr "Övre Höger"
 
 #: src/panel/settings/settings_autostart.vala:141
 msgid "Untitled"
