@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-02-26 14:33+0000\n"
-"Last-Translator: Hani <baneebal@hotmail.com>\n"
+"Last-Translator: Bilal Hijazin <bilalhijazeen@gmail.com>\n"
 "Language-Team: Arabic <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ar/>\n"
 "Language: ar\n"
@@ -731,9 +731,8 @@ msgid "Desktop Icons"
 msgstr "أيقونات سطح المكتب"
 
 #: src/panel/settings/settings_desktop.vala:44
-#, fuzzy
 msgid "Control whether to allow launchers and icons on the desktop."
-msgstr "تحكم اذا يتم السماح بالايقونات على سطح المكتب"
+msgstr "تحكم بالسماح للبرامج و للأيقونات على سطح المكتب "
 
 #: src/panel/settings/settings_desktop.vala:54
 msgid "Home directory"
@@ -767,9 +766,8 @@ msgid "Mounted volumes"
 msgstr "الاقراص المثبتة"
 
 #: src/panel/settings/settings_desktop.vala:73
-#, fuzzy
 msgid "Mounted volumes & drives will appear on the desktop."
-msgstr "الاقراص و المحركات المثبتة ستظهر على سطح المكتب"
+msgstr "الأقراص و وسائل التخزين الموصولة ستظهر على سطح المكتب"
 
 #: src/panel/settings/settings_style.vala:33
 msgid "Style"
