@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-22 21:15+0000\n"
+"PO-Revision-Date: 2019-02-26 15:18+0000\n"
 "Last-Translator: Kangsu Kim <pica744@gmail.com>\n"
 "Language-Team: Korean <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ko/>\n"
@@ -39,7 +39,7 @@ msgstr "바탕화면 바꾸기"
 
 #: src/daemon/menus.vala:57
 msgid "Displays"
-msgstr "화면"
+msgstr "디스플레이"
 
 #: src/daemon/menus.vala:66 src/panel/settings/settings_panel.vala:97
 msgid "Settings"
@@ -220,7 +220,7 @@ msgstr "작업공간 %i(으)로 이동"
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Unmaximize"
-msgstr "최대화 해제"
+msgstr "이전 크기로"
 
 #: src/applets/icon-tasklist/IconPopover.vala:543
 msgid "Close Window"
