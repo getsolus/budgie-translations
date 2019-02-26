@@ -12,9 +12,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-13 04:55+0000\n"
-"Last-Translator: Kristoffer Lindstrøm <kristoffer@hwl.co>\n"
-"Language-Team: Danish <http://translate.getsol.us/projects/budgie-desktop/translations/da/>\n"
+"PO-Revision-Date: 2019-02-26 14:18+0000\n"
+"Last-Translator: Kim Trolle Wadum <kim@ktw.dk>\n"
+"Language-Team: Danish <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,9 +40,8 @@ msgid "Change background"
 msgstr "Skift baggrund"
 
 #: src/daemon/menus.vala:57
-#, fuzzy
 msgid "Displays"
-msgstr "Visningsindstillinger"
+msgstr "Skærme"
 
 #: src/daemon/menus.vala:66 src/panel/settings/settings_panel.vala:97
 msgid "Settings"
@@ -136,7 +136,7 @@ msgstr "Ukendt"
 #. Set inner charging duration to hours:minutes
 #: src/applets/status/PowerIndicator.vala:109
 msgid "Battery charging"
-msgstr "Batteriet lader op"
+msgstr "Batteriet oplades"
 
 #: src/applets/status/PowerIndicator.vala:114
 msgid "Battery remaining"
@@ -270,19 +270,19 @@ msgstr "Beklager, ingenting fundet"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
-msgstr "CapsLock er aktiv"
+msgstr "Caps Lock er aktiv"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:65
 msgid "Caps lock is not active"
-msgstr "CapsLock er ikke aktiv"
+msgstr "Caps Lock er ikke aktiv"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:75
 msgid "Num lock is active"
-msgstr "NumLock er aktiv"
+msgstr "Num Lock er aktiv"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:78
 msgid "Num lock is not active"
-msgstr "NumLock er ikke aktiv"
+msgstr "Num Lock er ikke aktiv"
 
 #: src/applets/clock/ClockApplet.vala:151
 msgid "Time and date settings"
@@ -574,7 +574,7 @@ msgstr "Placering"
 
 #: src/panel/settings/settings_panel.vala:231
 msgid "Set the edge of the screen that this panel will stay on"
-msgstr "Angiv skærmkanten hvor panelet skal placeres"
+msgstr "Sæt skærmkanten hvor panelet skal være på"
 
 #: src/panel/settings/settings_panel.vala:239
 msgid "Size"
@@ -630,7 +630,9 @@ msgstr "Tillad at volumen overstiger 100%"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
-msgstr "Tillader styring af volumen via lydindstillinger såvel som i lydudgang widget med op til 150%"
+msgstr ""
+"Tillader også styring af volumen via Lydindstillinger såvel som i Lyd output "
+"widget op til 150%."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
@@ -771,7 +773,7 @@ msgstr "Widgets"
 
 #: src/panel/settings/settings_style.vala:48
 msgid "Set the appearance of window decorations and controls"
-msgstr "Angiv udseendet af vinduesdekorationer og kontroller"
+msgstr "Sæt udseendet af vinduesdekorationer og kontroller"
 
 #: src/panel/settings/settings_style.vala:52
 msgid "Icons"
@@ -948,11 +950,11 @@ msgstr "Skift layoutet af knapperne i programmernes titellinjer"
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
-msgstr ""
+msgstr "Centrer nye vinduer på skærmen"
 
 #: src/panel/settings/settings_wm.vala:54
 msgid "Center newly launched windows on the current screen."
-msgstr ""
+msgstr "Centrer nyåbnede vinduer på den aktuelle skærm"
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
