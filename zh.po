@@ -9,9 +9,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-13 04:54+0000\n"
-"Last-Translator: libaogan <libaogan@outlook.com>\n"
-"Language-Team: Chinese (Simplified) <http://translate.getsol.us/projects/budgie-desktop/translations/zh_Hans/>\n"
+"PO-Revision-Date: 2019-02-26 15:18+0000\n"
+"Last-Translator: Haozhe Zhu <zhutmost@outlook.com>\n"
+"Language-Team: Chinese (Simplified) <http://translate.getsol.us/projects/"
+"budgie-desktop/translations/zh_Hans/>\n"
 "Language: zh\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -581,7 +582,7 @@ msgstr ""
 
 #: src/panel/settings/settings_panel.vala:247
 msgid "Automatically hide"
-msgstr ""
+msgstr "自动隐藏"
 
 #: src/panel/settings/settings_panel.vala:248
 msgid "When set, this panel will hide from view to maximize screen estate"
@@ -589,7 +590,7 @@ msgstr ""
 
 #: src/panel/settings/settings_panel.vala:255
 msgid "Transparency"
-msgstr ""
+msgstr "透明度"
 
 #: src/panel/settings/settings_panel.vala:256
 msgid "Control when this panel should have a solid background"
@@ -715,7 +716,7 @@ msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:33
 msgid "Desktop"
-msgstr ""
+msgstr "桌面"
 
 #: src/panel/settings/settings_desktop.vala:43
 msgid "Desktop Icons"
@@ -743,7 +744,7 @@ msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:66
 msgid "Trash"
-msgstr ""
+msgstr "回收站"
 
 #: src/panel/settings/settings_desktop.vala:67
 msgid "Add a shortcut to the Trash directory on the desktop."
