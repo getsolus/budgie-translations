@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-02-26 14:18+0000\n"
-"Last-Translator: Kristoffer Lindstrøm <kristoffer@hwl.co>\n"
+"Last-Translator: Marius Bendsen <marius9931@gmail.com>\n"
 "Language-Team: Danish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/da/>\n"
 "Language: da\n"
@@ -808,9 +808,10 @@ msgid "Built-in theme"
 msgstr "Indbygget tema"
 
 #: src/panel/settings/settings_style.vala:80
-#, fuzzy
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr "Når den er aktiveret, så tilsidesættes skrivebordskomponentstilen med den indbyggede"
+msgstr ""
+"Når aktiveret, tilsidesættes skrivebordskomponentstilen med den indbyggede "
+"stil"
 
 #: src/panel/settings/settings_style.vala:87
 msgid "Animations"
@@ -821,9 +822,8 @@ msgid "Control whether windows and controls use animations"
 msgstr "Bestem hvorvidt vinduer og kontroller skal bruge animationer"
 
 #: src/panel/settings/settings_style.vala:209
-#, fuzzy
 msgid "Top Left"
-msgstr "Venstre"
+msgstr "Øverst til venstre"
 
 #: src/panel/settings/settings_style.vala:211
 #, fuzzy
