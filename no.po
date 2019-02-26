@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-26 14:56+0000\n"
-"Last-Translator: hasan eyyub danisman <hdan91@hotmail.com>\n"
+"PO-Revision-Date: 2019-02-26 15:18+0000\n"
+"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
 "Language-Team: Norwegian Bokmål <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/nb_NO/>\n"
 "Language: no\n"
@@ -1133,7 +1133,7 @@ msgstr ""
 
 #: src/applets/workspaces/settings.ui.h:4
 msgid "Always show"
-msgstr "alltid synlig"
+msgstr "Alltid synlig"
 
 #: src/applets/caffeine/settings.ui.h:1
 #, fuzzy
