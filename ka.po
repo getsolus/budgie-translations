@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: budgie-desktop 10.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-26 15:18+0000\n"
+"PO-Revision-Date: 2019-03-17 09:05+0000\n"
 "Last-Translator: Lasha Kanteladze <lashakanteladze339@gmail.com>\n"
 "Language-Team: Georgian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ka/>\n"
@@ -1014,6 +1014,8 @@ msgstr "„Monospace“"
 #: src/panel/settings/settings_fonts.vala:66
 msgid "Set the fixed-width font used by text dominant applications."
 msgstr ""
+"დააყენე ზომა მოწესრიგებულო ფონტი რომელიც გამოყენებულია ტექსტთან "
+"დაკავშირებული აპლიკაციების მიერ."
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
@@ -1098,7 +1100,7 @@ msgstr "მენიუს იარლიყი"
 
 #: src/applets/budgie-menu/settings.ui.h:5
 msgid "Roll-over mouse"
-msgstr ""
+msgstr "გადაატარე მაუსი"
 
 #: src/applets/budgie-menu/settings.ui.h:6
 msgid "Menu Icon"
@@ -1106,11 +1108,11 @@ msgstr "მენიუს აიკონი"
 
 #: src/applets/workspaces/settings.ui.h:1
 msgid "\"Add\" button visibility"
-msgstr ""
+msgstr "„დამატების“ ღილაკის ხილვადობა"
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
-msgstr "არ მაჩვენი"
+msgstr "არ მაჩვენო"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
@@ -1138,7 +1140,7 @@ msgstr "იარლიყის ჩვენება"
 
 #: src/applets/places-indicator/settings.ui.h:2
 msgid "Show places"
-msgstr ""
+msgstr "მდებარეობების ჩვენება"
 
 #: src/applets/places-indicator/settings.ui.h:3
 msgid "Show network folders"
@@ -1146,11 +1148,11 @@ msgstr "ქსელის საქაღალდეების ჩვენ�
 
 #: src/applets/places-indicator/settings.ui.h:4
 msgid "Show removable drives"
-msgstr ""
+msgstr "ამოღებადი დრაივების ჩვენება"
 
 #: src/applets/places-indicator/settings.ui.h:5
 msgid "Always expand places"
-msgstr ""
+msgstr "ყოველთვის გააფართოვე მდებარეობები"
 
 #: src/polkit/dialog.ui.h:1
 msgid "Authentication Required"
@@ -1171,7 +1173,7 @@ msgstr "იდენტიფიცირება"
 #: src/session/budgie-desktop.desktop.in.in.h:1
 #: src/session/budgie-desktop.session.in.in.h:1
 msgid "Budgie Desktop"
-msgstr ""
+msgstr "„Budgie Desktop“"
 
 #: src/session/budgie-desktop.desktop.in.in.h:2
 msgid "This session logs you into the Budgie Desktop"
@@ -1179,7 +1181,7 @@ msgstr "ამ სესიით თქვენ გაივლით ავ�
 
 #: src/applets/tray/TrayApplet.plugin.in.h:1
 msgid "System Tray"
-msgstr ""
+msgstr "„System Tray“"
 
 #: src/applets/status/StatusApplet.plugin.in.h:1
 msgid "Status Indicator"
@@ -1187,23 +1189,23 @@ msgstr "სტატუსის ინდიკატორი"
 
 #: src/applets/icon-tasklist/IconTasklistApplet.plugin.in.h:1
 msgid "Icon Task List"
-msgstr ""
+msgstr "აიკონ თასქის ჩამონათვალი"
 
 #: src/applets/spacer/SpacerApplet.plugin.in.h:1
 msgid "Spacer"
-msgstr ""
+msgstr "„Spacer“"
 
 #: src/applets/budgie-menu/BudgieMenu.plugin.in.h:1
 msgid "Budgie Menu"
-msgstr ""
+msgstr "„Budgie Menu“"
 
 #: src/applets/lock-keys/LockKeysApplet.plugin.in.h:1
 msgid "Lock Keys Indicator"
-msgstr ""
+msgstr "კლავიშის დაბლოკვის მიმათითებელი"
 
 #: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
 msgid "Raven Sidebar Control"
-msgstr ""
+msgstr "„Raven“ საიდბარის კონტროლი"
 
 #: src/applets/clock/ClockApplet.plugin.in.h:1
 msgid "Clock"
@@ -1215,31 +1217,31 @@ msgstr "გამყოფი"
 
 #: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
 msgid "Show Desktop Button"
-msgstr ""
+msgstr "მაჩვენე დესკტოპის ღილაკი"
 
 #: src/applets/workspaces/WorkspacesApplet.plugin.in.h:1
 msgid "Workspace Switcher"
-msgstr ""
+msgstr "სამუშაო მდებარეობის შემცვლელი"
 
 #: src/applets/tasklist/TasklistApplet.plugin.in.h:1
 msgid "Task List"
-msgstr ""
+msgstr "თასქ ჩამონათვალი"
 
 #: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
 msgid "Caffeine"
-msgstr ""
+msgstr "„Caffeine“"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
-msgstr ""
+msgstr "კლავიატურაზე არსებული ენების მაჩვენებელი"
 
 #: src/applets/user-indicator/UserIndicator.plugin.in.h:1
 msgid "User Indicator"
-msgstr ""
+msgstr "მომხმარებლების მიმათითებელი"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
 msgid "Change desktop appearance and behavior"
-msgstr ""
+msgstr "შეცვალე დესკტოპის ვიზუალი"
 
 #: src/panel/budgie-panel.desktop.in.h:1
 msgid "Budgie Panel"
@@ -1248,3 +1250,5 @@ msgstr "“Budgie”-ს პანელი"
 #: src/panel/budgie-panel.desktop.in.h:2
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
 msgstr ""
+"ჩართე სხვა აპლიკაციები და მაჩვენე გარკვეული უტილიტები ფანჯრის კონტროლისთვის, "
+"დროის ჩვენებისთვის და ა.შ."
