@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-03-03 21:09+0000\n"
-"Last-Translator: Mário Alberto Basto <maralbas@hotmail.com>\n"
+"PO-Revision-Date: 2019-03-17 09:05+0000\n"
+"Last-Translator: Christophe Silva <Christophesilva80@gmail.com>\n"
 "Language-Team: Portuguese <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/pt/>\n"
 "Language: pt\n"
@@ -657,27 +657,27 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
-msgstr "Mostrar a ferramenta de saída de som"
+msgstr "Exibir a ferramenta de saída de som"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
 msgstr ""
-"Mostrar ou esconder a ferramenta de saída de som na secção de aplicativos do "
+"Exibe ou oculta a ferramenta de saída de som na secção de aplicações do "
 "Raven."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
-msgstr "Mostrar ferramenta de entrada do microfone"
+msgstr "Exibir a ferramenta de entrada de microfone"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
 msgstr ""
-"Mostrar ou esconder ferramenta de entrada do microfone na secção de "
-"aplicativos do Raven."
+"Exibe ou oculta a ferramenta de entrada de microfone na secção de aplicações "
+"do Raven."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
-msgstr "Mostrar Ferramenta de Controlo de Meios de Reprodução"
+msgstr "Exibe a ferramenta de controlos de reprodução de media"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
@@ -687,11 +687,11 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
-msgstr "Mostrar Controles Avançados"
+msgstr "Exibir Controles Avançados"
 
 #: src/panel/settings/settings_raven.vala:76
 msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr "Mostrar ou ocultar os Controles Avançados na parte inferior do Raven."
+msgstr "Exibir ou ocultar os Controles Avançados na parte inferior do Raven."
 
 #: src/panel/settings/settings_panel_dialogs.vala:29
 msgid "Confirm panel removal"
@@ -860,7 +860,7 @@ msgstr "Sem descrição"
 
 #: src/panel/settings/settings_autostart.vala:171
 msgid "running"
-msgstr "A correr"
+msgstr "A executar"
 
 #: src/panel/settings/settings_autostart.vala:194
 msgid "Applications"
@@ -1168,7 +1168,7 @@ msgstr "Mostrar etiqueta"
 
 #: src/applets/places-indicator/settings.ui.h:2
 msgid "Show places"
-msgstr "Mostrar sítios"
+msgstr "Mostrar locais"
 
 #: src/applets/places-indicator/settings.ui.h:3
 msgid "Show network folders"
@@ -1209,7 +1209,7 @@ msgstr "Esta sessão regista-o no Ambiente de Trabalho Budgie"
 
 #: src/applets/tray/TrayApplet.plugin.in.h:1
 msgid "System Tray"
-msgstr "Tray de Sistema"
+msgstr "Bandeja do Sistema"
 
 #: src/applets/status/StatusApplet.plugin.in.h:1
 msgid "Status Indicator"
@@ -1233,7 +1233,7 @@ msgstr "Indicador de Teclas Bloqueadas"
 
 #: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
 msgid "Raven Sidebar Control"
-msgstr "Controlo de barra lateral Raven"
+msgstr "Controle da Barra Lateral Raven"
 
 #: src/applets/clock/ClockApplet.plugin.in.h:1
 msgid "Clock"
@@ -1245,7 +1245,7 @@ msgstr "Separador"
 
 #: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
 msgid "Show Desktop Button"
-msgstr "Mostrar Botão Ambiente de Trabalho"
+msgstr "Mostrar Botão de Ambiente de Trabalho"
 
 #: src/applets/workspaces/WorkspacesApplet.plugin.in.h:1
 msgid "Workspace Switcher"
