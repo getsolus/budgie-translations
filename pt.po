@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-03 20:20+0000\n"
-"Last-Translator: André Santos <Andrepinhos@gmail.com>\n"
+"Last-Translator: Rúben Miguel Pereira Lopes <rubenmpl@sapo.pt>\n"
 "Language-Team: Portuguese <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/pt/>\n"
 "Language: pt\n"
@@ -55,7 +55,7 @@ msgstr "Modo produtividade ligado"
 
 #: src/daemon/settings.vala:310
 msgid "Turned off Caffeine Boost"
-msgstr "Modo produtividade desligado"
+msgstr "Modo de produtividade desligado"
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
