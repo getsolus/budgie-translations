@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-03 20:20+0000\n"
-"Last-Translator: Rúben Miguel Pereira Lopes <rubenmpl@sapo.pt>\n"
+"Last-Translator: Nuno Pedrosa <info@nunopedrosa.net>\n"
 "Language-Team: Portuguese <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/pt/>\n"
 "Language: pt\n"
@@ -667,11 +667,13 @@ msgstr "Mostrar ou esconder widget de gravação de microfone na secção de apl
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
-msgstr ""
+msgstr "Mostrar Ferramenta de Controlo de Meios de Reprodução"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
 msgstr ""
+"Mostra ou esconde a Ferramenta de Controlo de Meios (MPRIS) de Reprodução na "
+"secção de Aplicações do Raven."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
