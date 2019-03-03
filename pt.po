@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-03 21:09+0000\n"
-"Last-Translator: Christophe Silva <Christophesilva80@gmail.com>\n"
+"Last-Translator: Nuno Pedrosa <info@nunopedrosa.net>\n"
 "Language-Team: Portuguese <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/pt/>\n"
 "Language: pt\n"
@@ -657,19 +657,23 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
-msgstr "Mostrar o widget de saída de som"
+msgstr "Mostrar a ferramenta de saída de som"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr "Mostrar ou esconder o widget de saída de som na secção de aplicativos do Raven."
+msgstr ""
+"Mostrar ou esconder a ferramenta de saída de som na secção de aplicativos do "
+"Raven."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
-msgstr "Mostrar widget de gravação de microfone"
+msgstr "Mostrar ferramenta de entrada do microfone"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
-msgstr "Mostrar ou esconder widget de gravação de microfone na secção de aplicativos do Raven."
+msgstr ""
+"Mostrar ou esconder ferramenta de entrada do microfone na secção de "
+"aplicativos do Raven."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
@@ -708,7 +712,7 @@ msgstr "Remover painel"
 
 #: src/panel/settings/settings_panel_dialogs.vala:61
 msgid "Keep panel"
-msgstr "Manter painel"
+msgstr "Manter o painel"
 
 #: src/panel/settings/settings_panel_dialogs.vala:92
 msgid "Confirm applet removal"
@@ -782,7 +786,7 @@ msgstr "Widgets"
 
 #: src/panel/settings/settings_style.vala:48
 msgid "Set the appearance of window decorations and controls"
-msgstr "Definir a aparência das decorações e controles das janelas"
+msgstr "Definir a aparência das decorações de janela e controlos"
 
 #: src/panel/settings/settings_style.vala:52
 msgid "Icons"
