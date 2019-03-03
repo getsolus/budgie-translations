@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-03 21:09+0000\n"
-"Last-Translator: Nuno Pedrosa <info@nunopedrosa.net>\n"
+"Last-Translator: Mário Alberto Basto <maralbas@hotmail.com>\n"
 "Language-Team: Portuguese <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/pt/>\n"
 "Language: pt\n"
@@ -790,7 +790,7 @@ msgstr "Definir a aparência das decorações de janela e controlos"
 
 #: src/panel/settings/settings_style.vala:52
 msgid "Icons"
-msgstr "Icones"
+msgstr "Ícones"
 
 #: src/panel/settings/settings_style.vala:53
 msgid "Set the globally used icon theme"
