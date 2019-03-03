@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-03-03 20:19+0000\n"
-"Last-Translator: Mário Alberto Basto <maralbas@hotmail.com>\n"
+"PO-Revision-Date: 2019-03-03 20:20+0000\n"
+"Last-Translator: André Santos <Andrepinhos@gmail.com>\n"
 "Language-Team: Portuguese <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/pt/>\n"
 "Language: pt\n"
@@ -26,11 +26,11 @@ msgstr ""
 
 #: src/daemon/endsession.vala:171
 msgid "Log out"
-msgstr "Sair"
+msgstr "Terminar sessão"
 
 #: src/daemon/endsession.vala:175
 msgid "Restart device"
-msgstr "Reiniciar dispositivo"
+msgstr "Reiniciar"
 
 #: src/daemon/endsession.vala:187 src/daemon/endsession.ui.h:1
 msgid "Power Off"
