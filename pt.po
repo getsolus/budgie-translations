@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-03 20:19+0000\n"
-"Last-Translator: Christophe Silva <Christophesilva80@gmail.com>\n"
+"Last-Translator: Mário Alberto Basto <maralbas@hotmail.com>\n"
 "Language-Team: Portuguese <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/pt/>\n"
 "Language: pt\n"
@@ -844,46 +844,46 @@ msgstr "Sem nome"
 
 #: src/panel/settings/settings_autostart.vala:148
 msgid "No description"
-msgstr ""
+msgstr "Sem descrição"
 
 #: src/panel/settings/settings_autostart.vala:171
 msgid "running"
-msgstr ""
+msgstr "A correr"
 
 #: src/panel/settings/settings_autostart.vala:194
 msgid "Applications"
-msgstr ""
+msgstr "Aplicações"
 
 #: src/panel/settings/settings_autostart.vala:204
 #: src/panel/settings/settings_autostart.vala:377
 msgid "Add"
-msgstr ""
+msgstr "Adicionar"
 
 #: src/panel/settings/settings_autostart.vala:371
 #: src/panel/settings/settings_autostart.vala:404
 msgid "Command"
-msgstr ""
+msgstr "Comando"
 
 #: src/panel/settings/settings_autostart.vala:387
 msgid "An entry with that title already exists"
-msgstr ""
+msgstr "Uma entrada com esse título já existe"
 
 #: src/panel/settings/settings_autostart.vala:390
 msgid "Title"
-msgstr ""
+msgstr "Título"
 
 #: src/panel/settings/settings_autostart.vala:394
 #: src/panel/settings/settings_autostart.vala:408
 msgid "Required"
-msgstr ""
+msgstr "Obrigatório"
 
 #: src/panel/settings/settings_autostart.vala:397
 msgid "Description"
-msgstr ""
+msgstr "Descrição"
 
 #: src/panel/settings/settings_autostart.vala:401
 msgid "Optional"
-msgstr ""
+msgstr "Opcional"
 
 #: src/panel/settings/settings_autostart.vala:465
 msgid "Autostart"
