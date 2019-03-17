@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 07:37+0000\n"
-"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
+"Last-Translator: Davide Pucci <posta@davidepucci.it>\n"
 "Language-Team: Italian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/it/>\n"
 "Language: it\n"
@@ -652,11 +652,12 @@ msgstr "Mostra o nasconde il Widget Calendario nella sezione Applets di Raven."
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
-msgstr "Mostra Widget di Output Audio"
+msgstr "Mostra Widget di Output Suono"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr "Mostra o nasconde il Widget di Output Audio nella sezione Applets di Raven."
+msgstr ""
+"Mostra o nascone il Widget di Output Suono nella sezione Applets di Raven."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
