@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 07:16+0000\n"
-"Last-Translator: Ivo Angelov <jagdcake@tuta.io>\n"
+"Last-Translator: Ivan Rakilovsky <ivan.rakilovsky@gmail.com>\n"
 "Language-Team: Bulgarian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/bg/>\n"
 "Language: bg_BG\n"
@@ -226,14 +226,12 @@ msgid "Unmaximize"
 msgstr "Смали"
 
 #: src/applets/icon-tasklist/IconPopover.vala:543
-#, fuzzy
 msgid "Close Window"
-msgstr "Прозорци"
+msgstr "Затвори прозореца"
 
 #: src/applets/icon-tasklist/IconPopover.vala:545
-#, fuzzy
 msgid "Show Window Controls"
-msgstr "Заглавия на прозорците"
+msgstr "Показване на командната лента на прозореца"
 
 #: src/applets/budgie-menu/IconChooser.vala:27
 msgid "Set menu icon from file"
@@ -599,7 +597,7 @@ msgstr "Прозрачност"
 
 #: src/panel/settings/settings_panel.vala:256
 msgid "Control when this panel should have a solid background"
-msgstr "Изберете кога панелът да има непрозрачен фон "
+msgstr "Изберете кога панелът да има непрозрачен фон"
 
 #: src/panel/settings/settings_panel.vala:261
 msgid "Shadow"
@@ -736,45 +734,42 @@ msgid "Desktop Icons"
 msgstr "Икони на работния плот"
 
 #: src/panel/settings/settings_desktop.vala:44
-#, fuzzy
 msgid "Control whether to allow launchers and icons on the desktop."
-msgstr "Позволява лончъри и икони на работния плот"
+msgstr ""
+"Управлявайте възможността да използвате преки пътища и икони на работния "
+"плот."
 
 #: src/panel/settings/settings_desktop.vala:54
 msgid "Home directory"
 msgstr "Начална директория"
 
 #: src/panel/settings/settings_desktop.vala:55
-#, fuzzy
 msgid "Add a shortcut to your home directory on the desktop."
-msgstr "Добавя пряк път към началната директория на работния плот"
+msgstr "Добавете пряк път към началната си директория на работния плот."
 
 #: src/panel/settings/settings_desktop.vala:60
 msgid "Network servers"
 msgstr "Мрежови сървъри"
 
 #: src/panel/settings/settings_desktop.vala:61
-#, fuzzy
 msgid "Add a shortcut to your local network servers on the desktop."
-msgstr "Добавя пряк път към локалните мрежови сървъри на работния плот"
+msgstr "Добавете пряк път към локалните мрежови сървъри на работния плот."
 
 #: src/panel/settings/settings_desktop.vala:66
 msgid "Trash"
 msgstr "Кошче"
 
 #: src/panel/settings/settings_desktop.vala:67
-#, fuzzy
 msgid "Add a shortcut to the Trash directory on the desktop."
-msgstr "Добавя пряк път към Кошчето на работния плот"
+msgstr "Добавете пряк път към Кошчето на работния плот."
 
 #: src/panel/settings/settings_desktop.vala:72
 msgid "Mounted volumes"
 msgstr "Монтирани дискове"
 
 #: src/panel/settings/settings_desktop.vala:73
-#, fuzzy
 msgid "Mounted volumes & drives will appear on the desktop."
-msgstr "Монтирани дискове се показват на работния плот"
+msgstr "Монтираните дялове и дискове ще се показват на работния плот."
 
 #: src/panel/settings/settings_style.vala:33
 msgid "Style"
@@ -805,9 +800,8 @@ msgid "Set the globally used mouse cursor theme"
 msgstr "Задайте глобално използваната тема на курсора на мишката"
 
 #: src/panel/settings/settings_style.vala:62
-#, fuzzy
 msgid "Notification Position"
-msgstr "Известия"
+msgstr "Позиция на известията"
 
 #: src/panel/settings/settings_style.vala:63
 msgid "Set the location for notification popups"
@@ -822,9 +816,10 @@ msgid "Built-in theme"
 msgstr "Вградена тема"
 
 #: src/panel/settings/settings_style.vala:80
-#, fuzzy
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr "При активиране, стилът на компонентите се заменя от вградения"
+msgstr ""
+"При активиране, стилът на графичните компоненти ще бъде заменен от "
+"вградената тема"
 
 #: src/panel/settings/settings_style.vala:87
 msgid "Animations"
@@ -835,24 +830,20 @@ msgid "Control whether windows and controls use animations"
 msgstr "Изберете дали прозорците и контролите използват анимации"
 
 #: src/panel/settings/settings_style.vala:209
-#, fuzzy
 msgid "Top Left"
-msgstr "Ляво"
+msgstr "Горе вляво"
 
 #: src/panel/settings/settings_style.vala:211
-#, fuzzy
 msgid "Bottom Left"
-msgstr "Долу"
+msgstr "Долу вляво"
 
 #: src/panel/settings/settings_style.vala:213
-#, fuzzy
 msgid "Bottom Right"
-msgstr "Долу"
+msgstr "Долу вдясно"
 
 #: src/panel/settings/settings_style.vala:216
-#, fuzzy
 msgid "Top Right"
-msgstr "Дясно"
+msgstr "Горе вдясно"
 
 #: src/panel/settings/settings_autostart.vala:141
 msgid "Untitled"
@@ -906,9 +897,8 @@ msgid "Autostart"
 msgstr "Автоматично стартиране"
 
 #: src/panel/settings/settings_autostart.vala:483
-#, fuzzy
 msgid "Autostart apps"
-msgstr "Автоматично стартиране"
+msgstr "Автоматично стартиращи се приложения"
 
 #: src/panel/settings/settings_panel_applets.vala:22
 msgid "Configure applet"
@@ -945,63 +935,69 @@ msgstr "Прозорци"
 
 #: src/panel/settings/settings_wm.vala:41
 msgid "Attach modal dialogs to windows"
-msgstr "Прикачени към прозорците модални диалози "
+msgstr "Прикачени към прозорците модални диалози"
 
 #: src/panel/settings/settings_wm.vala:42
-#, fuzzy
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr "Модалните диалози ще са прикачени към главния прозорец и ще се движат заедно при влачене"
+msgstr ""
+"Модалните диалогови прозорци ще са прикачени към главния прозорец и ще се "
+"движат заедно с него при влачене."
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Button layout"
 msgstr "Подредба на копчетата"
 
 #: src/panel/settings/settings_wm.vala:48
-#, fuzzy
 msgid "Change the layout of buttons in application titlebars."
-msgstr "Променете подредбата на копчетата в заглавните ленти на приложенията"
+msgstr "Променете подредбата на бутоните в заглавните ленти на приложенията."
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
-msgstr ""
+msgstr "Центрирайте новите прозорци на екрана"
 
 #: src/panel/settings/settings_wm.vala:54
 msgid "Center newly launched windows on the current screen."
-msgstr ""
+msgstr "Новите прозорци се отварят центрирани на текущия екран."
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
-msgstr ""
+msgstr "Деактивирайте режима Нощна светлина, когато прозорците са на цял екран"
 
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr ""
+"Деактивира режима Нощна светлина, когато прозорецът е на цял екран. Повторно "
+"активира при напускане на цял екран."
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
 msgstr "Автоматично мозаично подреждане"
 
 #: src/panel/settings/settings_wm.vala:66
-#, fuzzy
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr "Прозорците се подреждат автоматично, когато са завлачени в горната част на екрана или в ъглите"
+msgstr ""
+"Прозорците се подреждат автоматично, когато са завлачени в горната част или "
+"в ъглите на екрана."
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
 msgstr ""
+"Активиране на промяната на фокуса на прозореца при влизане и напускане на "
+"курсора на мишката"
 
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
-msgstr ""
+msgstr "Автоматично фокусира прозореца под курсора на мишката."
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
-msgstr ""
+msgstr "Активиране на пренасочването на прозорци"
 
 #: src/panel/settings/settings_wm.vala:79
-#, fuzzy
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr "Опция за напреднали потребители. Използва се при графични проблеми или проблеми с производителността на самостоятелни графични процесори"
+msgstr ""
+"Опция за напреднали потребители. Използва се при графични проблеми или "
+"проблеми с производителността на дискретни графични карти."
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
@@ -1016,40 +1012,39 @@ msgid "Window Titles"
 msgstr "Заглавия на прозорците"
 
 #: src/panel/settings/settings_fonts.vala:45
-#, fuzzy
 msgid "Set the font used in the titlebars of applications."
-msgstr "Задайте шрифта, използван в заглавните ленти на приложенията"
+msgstr "Задайте шрифта, използван в заглавните ленти на приложенията."
 
 #: src/panel/settings/settings_fonts.vala:51
 msgid "Documents"
 msgstr "Документи"
 
 #: src/panel/settings/settings_fonts.vala:52
-#, fuzzy
 msgid "Set the display font used by for documents."
-msgstr "Задайте главния шрифт, използван от документите"
+msgstr "Задайте показвания шрифт, използван за документи."
 
 #: src/panel/settings/settings_fonts.vala:58
 msgid "Interface"
 msgstr "Интерфейс"
 
 #: src/panel/settings/settings_fonts.vala:59
-#, fuzzy
 msgid "Set the primary font used by application controls."
-msgstr "Задайте главния шрифт, използван от контролите на приложенията"
+msgstr "Задайте главния шрифт, използван от контролите на приложенията."
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Monospace"
 msgstr "Равноширок"
 
 #: src/panel/settings/settings_fonts.vala:66
-#, fuzzy
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr "Задайте шрифт с фиксирана ширина, използван от главно текстови приложения"
+msgstr ""
+"Задайте шрифт с фиксирана ширина, използван от главно текстови приложения."
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
 msgstr ""
+"\n"
+"Мащабиране на текстa"
 
 #: src/panel/settings/settings_fonts.vala:73
 msgid "Set the text scaling factor."
