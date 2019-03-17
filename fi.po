@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 08:42+0000\n"
-"Last-Translator: Jarno T <watpi@posteo.net>\n"
+"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
 "Language-Team: Finnish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/fi/>\n"
 "Language: fi\n"
@@ -219,7 +219,7 @@ msgstr "Suosikki"
 #: src/applets/icon-tasklist/IconPopover.vala:384
 #, c-format
 msgid "Move To Workspace %i"
-msgstr "Siirrä työtilaan"
+msgstr "Siirrä työtilaan %i"
 
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:484
