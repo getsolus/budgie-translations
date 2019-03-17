@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 09:06+0000\n"
-"Last-Translator: Davyd Kohut <expexes@gmail.com>\n"
+"Last-Translator: Illya Shchukin <illyashykin@gmail.com>\n"
 "Language-Team: Ukrainian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/uk/>\n"
 "Language: uk\n"
@@ -192,9 +192,8 @@ msgid "Close All Windows"
 msgstr "Закрити всі вікна"
 
 #: src/applets/icon-tasklist/IconPopover.vala:104
-#, fuzzy
 msgid "Always On Top"
-msgstr "Завжди"
+msgstr "Завжди зверху"
 
 #: src/applets/icon-tasklist/IconPopover.vala:106
 #: src/applets/icon-tasklist/IconPopover.vala:484
@@ -227,9 +226,8 @@ msgid "Unmaximize"
 msgstr ""
 
 #: src/applets/icon-tasklist/IconPopover.vala:543
-#, fuzzy
 msgid "Close Window"
-msgstr "Вікна"
+msgstr "Закрити вікно"
 
 #: src/applets/icon-tasklist/IconPopover.vala:545
 #, fuzzy
