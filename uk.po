@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 09:06+0000\n"
-"Last-Translator: Illya Shchukin <illyashykin@gmail.com>\n"
+"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
 "Language-Team: Ukrainian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/uk/>\n"
 "Language: uk\n"
@@ -84,7 +84,7 @@ msgstr "Сповіщення"
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
-msgstr "Жоден застосунок наразі не програє аудіо"
+msgstr "Жоден застосунок наразі не програє аудіо."
 
 #: src/raven/start_listening.vala:28
 msgid "Play some music"
@@ -125,7 +125,7 @@ msgstr "Пристрої"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
-msgstr "Акумулятор повністю заряджений"
+msgstr "Акумулятор повністю заряджений."
 
 #: src/applets/status/PowerIndicator.vala:100
 msgid "Unknown"
@@ -614,7 +614,9 @@ msgstr "Стилізувати регіони"
 
 #: src/panel/settings/settings_panel.vala:269
 msgid "Adds a hint to the panel so that each of the panel's three main areas may be themed differently."
-msgstr "Додає акцент на панелі таким чином, щоб три основні частини панелі можуть бути виділені інакше"
+msgstr ""
+"Додає акцент на панелі таким чином, щоб три основні частини панелі можуть "
+"бути виділені інакше."
 
 #: src/panel/settings/settings_panel.vala:276
 msgid "Dock mode"
