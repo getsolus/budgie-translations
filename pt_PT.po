@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-03-17 07:26+0000\n"
-"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
+"PO-Revision-Date: 2019-03-17 07:27+0000\n"
+"Last-Translator: Eduardo Bezerra Subtil <mrmessuped@gmail.com>\n"
 "Language-Team: Portuguese (Portugal) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/pt_PT/>\n"
 "Language: pt_PT\n"
@@ -807,7 +807,7 @@ msgstr "Posição das Notificações"
 
 #: src/panel/settings/settings_style.vala:63
 msgid "Set the location for notification popups"
-msgstr "Definir o local para pop-ups de notificação"
+msgstr "Definir localização de notificações"
 
 #: src/panel/settings/settings_style.vala:72
 msgid "Dark theme"
@@ -833,19 +833,19 @@ msgstr "Controlar se as janelas e controles usam animações"
 
 #: src/panel/settings/settings_style.vala:209
 msgid "Top Left"
-msgstr "Esquerda Superior"
+msgstr "Canto superior esquerdo"
 
 #: src/panel/settings/settings_style.vala:211
 msgid "Bottom Left"
-msgstr "Inferior Esquerdo"
+msgstr "Canto inferior esquerdo"
 
 #: src/panel/settings/settings_style.vala:213
 msgid "Bottom Right"
-msgstr "Inferior Direito"
+msgstr "Canto inferior direito"
 
 #: src/panel/settings/settings_style.vala:216
 msgid "Top Right"
-msgstr "Direita Superior"
+msgstr "Canto superior direito"
 
 #: src/panel/settings/settings_autostart.vala:141
 msgid "Untitled"
@@ -955,15 +955,15 @@ msgstr "Alterar o esquema dos botões nas barras de título das aplicações"
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
-msgstr ""
+msgstr "Centrar novas janelas no ecrã"
 
 #: src/panel/settings/settings_wm.vala:54
 msgid "Center newly launched windows on the current screen."
-msgstr ""
+msgstr "Centrar janelas recentemente lançadas no ecrã atual"
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
-msgstr ""
+msgstr "Desativar modo de Luz Noturna em janelas maximizadas"
 
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
@@ -974,13 +974,14 @@ msgid "Automatic tiling"
 msgstr "Agrupamento automático"
 
 #: src/panel/settings/settings_wm.vala:66
-#, fuzzy
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr "As janelas agrupam-se automaticamente quando arrastadas para o topo do ecrã ou para os cantos"
+msgstr ""
+"As janelas azulejam-se automaticamente quando arrastadas para o topo do ecrã "
+"ou para os cantos"
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
-msgstr ""
+msgstr "Ativar mudança de foco quando o rato entra e sai da janela"
 
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
@@ -991,9 +992,10 @@ msgid "Disable unredirection of windows"
 msgstr "Desativar direção única das janelas"
 
 #: src/panel/settings/settings_wm.vala:79
-#, fuzzy
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr "Esta opção é para utilizadores avançados. Use isto se está a ter problemas com os gráficos ou desempenho de GPUs dedicadas"
+msgstr ""
+"Esta opção é para utilizadores avançados. Use apenas se está a ter problemas "
+"gráficos ou com o desempenho de GPUs dedicadas"
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
