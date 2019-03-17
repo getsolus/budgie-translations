@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-03-17 07:17+0000\n"
+"PO-Revision-Date: 2019-03-17 09:05+0000\n"
 "Last-Translator: Ivan Rakilovsky <ivan.rakilovsky@gmail.com>\n"
 "Language-Team: Bulgarian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/bg/>\n"
@@ -1224,7 +1224,7 @@ msgstr "Budgie Меню"
 
 #: src/applets/lock-keys/LockKeysApplet.plugin.in.h:1
 msgid "Lock Keys Indicator"
-msgstr ""
+msgstr "Caps/Num Lock индикатор"
 
 #: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
 msgid "Raven Sidebar Control"
@@ -1263,9 +1263,8 @@ msgid "User Indicator"
 msgstr "Показател за потребителя"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
-#, fuzzy
 msgid "Change desktop appearance and behavior"
-msgstr "Промяна на външен вид и поведение на работния плот"
+msgstr "Промяна на външния вид и поведението на работния плот"
 
 #: src/panel/budgie-panel.desktop.in.h:1
 msgid "Budgie Panel"
