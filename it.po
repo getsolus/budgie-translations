@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 07:44+0000\n"
-"Last-Translator: R. <raffaele.tranquillini@gmail.com>\n"
+"Last-Translator: Matteo Migliarini <cacca.rocca@gmail.com>\n"
 "Language-Team: Italian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/it/>\n"
 "Language: it\n"
@@ -810,9 +810,10 @@ msgid "Built-in theme"
 msgstr "Tema Predefinito"
 
 #: src/panel/settings/settings_style.vala:80
-#, fuzzy
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr "Quando abilitato, lo stile dei componenti del desktop sovrascriverà il predefinito"
+msgstr ""
+"Quando abilitato, lo stile predefinito sovrascriverà lo stile delle "
+"componenti del desktop "
 
 #: src/panel/settings/settings_style.vala:87
 msgid "Animations"
