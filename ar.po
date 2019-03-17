@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 06:59+0000\n"
-"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
+"Last-Translator: Wajdi <wajdi.saeed2@gmail.com>\n"
 "Language-Team: Arabic <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ar/>\n"
 "Language: ar\n"
@@ -735,7 +735,7 @@ msgstr "أيقونات سطح المكتب"
 
 #: src/panel/settings/settings_desktop.vala:44
 msgid "Control whether to allow launchers and icons on the desktop."
-msgstr "تحكم بالسماح للبرامج و للأيقونات على سطح المكتب "
+msgstr "السماح لاظهار اختصارات تشغيل البرامج و الأيقونات على سطح المكتب"
 
 #: src/panel/settings/settings_desktop.vala:54
 msgid "Home directory"
@@ -818,9 +818,9 @@ msgid "Built-in theme"
 msgstr "المظهر المدمج"
 
 #: src/panel/settings/settings_style.vala:80
-#, fuzzy
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr "عندما يتم تشغيله, سوف يتم تجاوز شكل عناصر سطح المكتب بالشكل المدمج"
+msgstr ""
+"عندما يتم تشغيله, فإن السمة المبنية سوف تهيمن على تصميم مكونات سطح المكتب"
 
 #: src/panel/settings/settings_style.vala:87
 msgid "Animations"
@@ -841,14 +841,12 @@ msgid "Bottom Left"
 msgstr "أسفل"
 
 #: src/panel/settings/settings_style.vala:213
-#, fuzzy
 msgid "Bottom Right"
-msgstr "أسفل"
+msgstr "الأسفل اليمين"
 
 #: src/panel/settings/settings_style.vala:216
-#, fuzzy
 msgid "Top Right"
-msgstr "يمين"
+msgstr "الأعلى اليمين"
 
 #: src/panel/settings/settings_autostart.vala:141
 msgid "Untitled"
@@ -941,7 +939,7 @@ msgstr "النوافذ"
 
 #: src/panel/settings/settings_wm.vala:41
 msgid "Attach modal dialogs to windows"
-msgstr "ربط الحوار المنبثق بالنافذة"
+msgstr "ربط مربعات الحوار المنبثق للنوافذ"
 
 #: src/panel/settings/settings_wm.vala:42
 #, fuzzy
@@ -959,19 +957,21 @@ msgstr "تغيير ترتيب الأزرار في شريط عنوان التطب
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
-msgstr ""
+msgstr "توسيط النوافذ الجديدة على الشاشة"
 
 #: src/panel/settings/settings_wm.vala:54
 msgid "Center newly launched windows on the current screen."
-msgstr ""
+msgstr "توسيط النوافذ التي فتحت حديثا على الشاشة الحالية"
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
-msgstr ""
+msgstr "تعطيل وضع الإضاءة الليلية عندما النوافذ في ملء الشاشة"
 
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr ""
+"تعطيل وضع الإضاءة الليلية عندما تكون النافذة ملء الشاشة،  وإعادة التمكين عند "
+"مغادرة ملء الشاشة"
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
