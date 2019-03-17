@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-26 15:18+0000\n"
-"Last-Translator: Asuma ma <mahmoud.alaliwi.2012@gmail.com>\n"
+"PO-Revision-Date: 2019-03-17 06:55+0000\n"
+"Last-Translator: Wajdi <wajdi.saeed2@gmail.com>\n"
 "Language-Team: Arabic <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ar/>\n"
 "Language: ar\n"
@@ -56,7 +56,7 @@ msgstr "تشغل كافيين المعزز"
 
 #: src/daemon/settings.vala:310
 msgid "Turned off Caffeine Boost"
-msgstr "تطبيق كافيين غير فعال"
+msgstr "إغلاق تطبيق كافيين"
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
@@ -159,7 +159,7 @@ msgstr "إعدادات البلوتوث"
 #. Send files button
 #: src/applets/status/BluetoothIndicator.vala:63
 msgid "Send Files"
-msgstr "أرسل الملفات"
+msgstr "إرسال الملفات"
 
 #. Airplane mode
 #: src/applets/status/BluetoothIndicator.vala:73
@@ -445,7 +445,7 @@ msgstr "يمكنك الان الإزالة بأمان"
 
 #: src/applets/places-indicator/VolumeItem.vala:119
 msgid "The password you entered is incorrect"
-msgstr "كلمة المرور خاطئة"
+msgstr "كلمة المرور المدخلة خاطئة"
 
 #: src/applets/places-indicator/VolumeItem.vala:123
 msgid "An unknown error occurred while attempting to mount this volume"
@@ -679,7 +679,7 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
-msgstr ""
+msgstr "إظهار شريط الطاقة"
 
 #: src/panel/settings/settings_raven.vala:76
 msgid "Shows or hides the Power Strip in the bottom of Raven."
