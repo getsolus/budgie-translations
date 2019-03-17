@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-03-17 07:49+0000\n"
-"Last-Translator: Ro Ortiz <rodolfopadillap@gmail.com>\n"
+"PO-Revision-Date: 2019-03-17 07:50+0000\n"
+"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
 "Language-Team: Spanish (Chile) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/es_CL/>\n"
 "Language: es_CL\n"
@@ -599,7 +599,7 @@ msgstr "Transparencia"
 
 #: src/panel/settings/settings_panel.vala:256
 msgid "Control when this panel should have a solid background"
-msgstr "Controla cuando este panel debería tener un color de fondo sólido."
+msgstr "Controla cuando este panel debería tener un color de fondo sólido"
 
 #: src/panel/settings/settings_panel.vala:261
 msgid "Shadow"
