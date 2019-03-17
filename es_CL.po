@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 07:48+0000\n"
-"Last-Translator: Daniel Acuna <dacunaavalos@gmail.com>\n"
+"Last-Translator: Ro Ortiz <rodolfopadillap@gmail.com>\n"
 "Language-Team: Spanish (Chile) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/es_CL/>\n"
 "Language: es_CL\n"
@@ -71,7 +71,7 @@ msgstr ""
 #: src/raven/notifications_group.vala:44
 #: src/applets/caffeine/CaffeineWindow.vala:25
 msgid "Caffeine Mode"
-msgstr ""
+msgstr "Modo Caffeine"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
