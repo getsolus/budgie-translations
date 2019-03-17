@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-14 12:57+0000\n"
+"PO-Revision-Date: 2019-03-17 09:05+0000\n"
 "Last-Translator: Nicolas Abril <nicolas.abril@protonmail.ch>\n"
 "Language-Team: Portuguese (Brazil) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/pt_BR/>\n"
@@ -79,7 +79,7 @@ msgstr "Será desligado em"
 #: src/raven/notifications_group.vala:44
 #: src/applets/caffeine/CaffeineWindow.vala:25
 msgid "Caffeine Mode"
-msgstr "Modo Cafeinado"
+msgstr "Modo Cafeína"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
@@ -142,7 +142,7 @@ msgstr "Desconhecido"
 #. Set inner charging duration to hours:minutes
 #: src/applets/status/PowerIndicator.vala:109
 msgid "Battery charging"
-msgstr "Bateria em carregamento"
+msgstr "Bateria carregando"
 
 #: src/applets/status/PowerIndicator.vala:114
 msgid "Battery remaining"
@@ -154,7 +154,7 @@ msgstr "Exibir porcentagem da bateria"
 
 #: src/applets/status/PowerIndicator.vala:176
 msgid "Power settings"
-msgstr "Opções de energia"
+msgstr "Configurações de energia"
 
 #. Settings button
 #: src/applets/status/BluetoothIndicator.vala:56
@@ -200,7 +200,7 @@ msgstr "Fechar todas as janelas"
 
 #: src/applets/icon-tasklist/IconPopover.vala:104
 msgid "Always On Top"
-msgstr "Sempre no topo"
+msgstr "Sempre em primeiro plano"
 
 #: src/applets/icon-tasklist/IconPopover.vala:106
 #: src/applets/icon-tasklist/IconPopover.vala:484
