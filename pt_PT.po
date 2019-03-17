@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 07:24+0000\n"
-"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
+"Last-Translator: Eduardo Bezerra Subtil <mrmessuped@gmail.com>\n"
 "Language-Team: Portuguese (Portugal) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/pt_PT/>\n"
 "Language: pt_PT\n"
@@ -227,13 +227,12 @@ msgid "Unmaximize"
 msgstr "Desmaximizar"
 
 #: src/applets/icon-tasklist/IconPopover.vala:543
-#, fuzzy
 msgid "Close Window"
 msgstr "Fechar Janela"
 
 #: src/applets/icon-tasklist/IconPopover.vala:545
 msgid "Show Window Controls"
-msgstr "Mostrar Controles de Janela"
+msgstr "Mostrar Controlos de Janela"
 
 #: src/applets/budgie-menu/IconChooser.vala:27
 msgid "Set menu icon from file"
