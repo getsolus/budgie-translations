@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 09:05+0000\n"
-"Last-Translator: Ville Salminen <zerovibrance@airmail.cc>\n"
+"Last-Translator: Hamit Özdemir <hamit.oezdemir@gmail.com>\n"
 "Language-Team: Japanese <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ja/>\n"
 "Language: ja_JP\n"
@@ -201,11 +201,11 @@ msgstr "常に"
 #: src/applets/icon-tasklist/IconPopover.vala:106
 #: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Maximize"
-msgstr ""
+msgstr "ウィンドウを最大化する"
 
 #: src/applets/icon-tasklist/IconPopover.vala:107
 msgid "Minimize"
-msgstr ""
+msgstr "ウィンドウを最小化する"
 
 #: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Unfavorite"
