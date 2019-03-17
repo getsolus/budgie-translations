@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 06:12+0000\n"
-"Last-Translator: Yan Kun <solus@mail.kuro-z.net>\n"
+"Last-Translator: JJ <369488962@qq.com>\n"
 "Language-Team: Chinese (Simplified) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/zh_Hans/>\n"
 "Language: zh\n"
@@ -578,7 +578,7 @@ msgstr "大小"
 
 #: src/panel/settings/settings_panel.vala:240
 msgid "Set the size (width or height, depending on orientation) of this panel"
-msgstr ""
+msgstr "设置此面板的尺寸（宽度或高度，取决于窗口方向）"
 
 #: src/panel/settings/settings_panel.vala:247
 msgid "Automatically hide"
