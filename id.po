@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-26 15:18+0000\n"
+"PO-Revision-Date: 2019-03-17 09:05+0000\n"
 "Last-Translator: Muhammad Satrio Wibowo <bowo.sma6@gmail.com>\n"
 "Language-Team: Indonesian <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/id/>\n"
@@ -705,7 +705,8 @@ msgstr "Konfirmasi penghapusan applet"
 
 #: src/panel/settings/settings_panel_dialogs.vala:99
 msgid "Do you really want to remove this applet? This action cannot be undone."
-msgstr "Apakah kamu ingin menghapus applet ini? Aksi ini tidak dapat diulang."
+msgstr ""
+"Apakah kamu ingin menghapus applet ini? Aksi ini tidak dapat diurungkan."
 
 #: src/panel/settings/settings_panel_dialogs.vala:123
 msgid "Remove applet"
@@ -721,7 +722,7 @@ msgstr "Destop"
 
 #: src/panel/settings/settings_desktop.vala:43
 msgid "Desktop Icons"
-msgstr "Ikon Destop"
+msgstr "Ikon Desktop"
 
 #: src/panel/settings/settings_desktop.vala:44
 msgid "Control whether to allow launchers and icons on the desktop."
