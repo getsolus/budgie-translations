@@ -14,14 +14,16 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2018-05-04 04:44+0000\n"
-"Last-Translator: あわしろいくや <ikunya@gmail.com>\n"
-"Language-Team: Japanese (Japan) (http://www.transifex.com/budgie-desktop/budgie-desktop/language/ja_JP/)\n"
+"PO-Revision-Date: 2019-03-17 09:05+0000\n"
+"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
+"Language-Team: Japanese <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/ja/>\n"
 "Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.4-dev\n"
 
 #: src/daemon/endsession.vala:171
 msgid "Log out"
@@ -616,7 +618,7 @@ msgstr "領域に合わせる"
 
 #: src/panel/settings/settings_panel.vala:269
 msgid "Adds a hint to the panel so that each of the panel's three main areas may be themed differently."
-msgstr "異なったテーマが適用されるであろうパネルの3つの領域にヒントを追加する"
+msgstr "異なったテーマが適用されるであろうパネルの3つの領域にヒントを追加する."
 
 #: src/panel/settings/settings_panel.vala:276
 msgid "Dock mode"
@@ -1184,7 +1186,7 @@ msgstr "認証が必要です"
 
 #: src/polkit/dialog.ui.h:2
 msgid "Password:"
-msgstr "パスワード"
+msgstr "パスワード:"
 
 #: src/polkit/dialog.ui.h:3
 msgid "Authentication is required"
@@ -1274,4 +1276,4 @@ msgstr "Budgie パネル"
 
 #: src/panel/budgie-panel.desktop.in.h:2
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
-msgstr "いろいろなアプリケーションの起動と、ウィンドウの管理や時間の表示と行ったさまざまユーティリティの提供"
+msgstr "いろいろなアプリケーションの起動と、ウィンドウの管理や時間の表示と行ったさまざまユーティリティの提供."
