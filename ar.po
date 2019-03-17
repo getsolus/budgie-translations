@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 07:05+0000\n"
-"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
+"Last-Translator: Rehahlia Thabet <rehahliathabet@gmail.com>\n"
 "Language-Team: Arabic <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ar/>\n"
 "Language: ar\n"
@@ -969,9 +969,9 @@ msgid "Automatic tiling"
 msgstr "ترتيب تلقائي"
 
 #: src/panel/settings/settings_wm.vala:66
-#, fuzzy
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr "سيتم ترتيب النوافذ تلقائياً عندما تسحب الى اعلى الشاشة او الزواية"
+msgstr ""
+"سيتم ترتيب النوافذ تلقائياً عندما تسحب الى اعلى الشاشة او الزوايا البعيدة."
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
@@ -986,9 +986,10 @@ msgid "Disable unredirection of windows"
 msgstr "تفعيل اعادة توجيه النوافذ"
 
 #: src/panel/settings/settings_wm.vala:79
-#, fuzzy
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr "هذا الخيار للمستخدمين المتقدمين. استخدم هذا اذا واجهت مشاكل رسومية او مشاكل اداء مع كروت الشاشة."
+msgstr ""
+"هذا الخيار للمستخدمين المتقدمين. استخدم هذا اذا واجهت مشاكل رسومية او مشاكل "
+"اداء مع كروت الشاشة المخصصة."
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
@@ -1003,36 +1004,32 @@ msgid "Window Titles"
 msgstr "عناوين النوافذ"
 
 #: src/panel/settings/settings_fonts.vala:45
-#, fuzzy
 msgid "Set the font used in the titlebars of applications."
-msgstr "اختيار الخط المستخدم في شريط العنوان للتطبيقات"
+msgstr "اختيار الخط المستخدم في شريط عنوان التطبيقات."
 
 #: src/panel/settings/settings_fonts.vala:51
 msgid "Documents"
 msgstr "المستندات"
 
 #: src/panel/settings/settings_fonts.vala:52
-#, fuzzy
 msgid "Set the display font used by for documents."
-msgstr "اختيار خط العرض المستخدم للمستندات"
+msgstr "اختيار خط العرض المستخدم للمستندات."
 
 #: src/panel/settings/settings_fonts.vala:58
 msgid "Interface"
 msgstr "الواجهة"
 
 #: src/panel/settings/settings_fonts.vala:59
-#, fuzzy
 msgid "Set the primary font used by application controls."
-msgstr "اختيار الخط الاساسي المستخدم في تحكمات التطبيقات"
+msgstr "اختيار الخط الاساسي المستخدم في تحكمات التطبيقات."
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Monospace"
 msgstr "خط Monospace"
 
 #: src/panel/settings/settings_fonts.vala:66
-#, fuzzy
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr "اختيار عرض الخط المستخدم في التطبيقات النصية"
+msgstr "اختيار عرض الخط السميك المستخدم في التطبيقات النصية المهيمنة."
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
@@ -1052,7 +1049,7 @@ msgstr "هل أنت متأكد أنك تريد إنهاء الجلسة ؟"
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
-msgstr ""
+msgstr "اضهار جميع النوافذ عند الضغط"
 
 #: src/applets/icon-tasklist/settings.ui.h:2
 msgid "Only show favorited"
@@ -1060,7 +1057,7 @@ msgstr ""
 
 #: src/applets/icon-tasklist/settings.ui.h:3
 msgid "Lock icons"
-msgstr ""
+msgstr "قفل الايقونات"
 
 #: src/applets/icon-tasklist/settings.ui.h:4
 msgid "Restrict to Workspace"
