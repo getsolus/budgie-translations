@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 09:05+0000\n"
-"Last-Translator: Pierre LeBaux <lebaux@gmail.com>\n"
+"Last-Translator: Samuel Vasso <samuel.vasso@gmail.com>\n"
 "Language-Team: Slovak <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/sk/>\n"
 "Language: sk\n"
@@ -636,7 +636,7 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
-msgstr ""
+msgstr "Povoliť číslovanie týždňov v kalendári"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
