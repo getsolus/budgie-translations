@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-03-17 07:24+0000\n"
-"Last-Translator: Eduardo Bezerra Subtil <mrmessuped@gmail.com>\n"
+"PO-Revision-Date: 2019-03-17 07:25+0000\n"
+"Last-Translator: Nuno Martins <nunocastromartins@protonmail.com>\n"
 "Language-Team: Portuguese (Portugal) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/pt_PT/>\n"
 "Language: pt_PT\n"
@@ -308,11 +308,11 @@ msgstr "Mostrar segundos"
 
 #: src/applets/clock/ClockApplet.vala:180
 msgid "Use 24 hour time"
-msgstr "Usar formato 24 horas"
+msgstr "Usar formato de 24 horas"
 
 #: src/applets/show-desktop/ShowDesktopApplet.vala:34
 msgid "Toggle the desktop"
-msgstr "Alternar o ambiente de trabalho"
+msgstr "Alternar a área de trabalho"
 
 #: src/applets/workspaces/WorkspaceItem.vala:72
 msgid "Rename"
@@ -320,7 +320,7 @@ msgstr "Renomear"
 
 #: src/applets/workspaces/WorkspaceItem.vala:79
 msgid "Remove"
-msgstr "Eliminar"
+msgstr "Remover"
 
 #: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Timer (minutes)"
