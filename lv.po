@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-26 15:18+0000\n"
+"PO-Revision-Date: 2019-03-17 07:32+0000\n"
 "Last-Translator: Kaspars Bērziņš <kaspars.berzins@pm.me>\n"
 "Language-Team: Latvian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/lv/>\n"
@@ -386,15 +386,15 @@ msgstr "Atvērt \"%s\""
 
 #: src/applets/places-indicator/MountHelper.vala:39
 msgid "Volume is in use by other processes"
-msgstr ""
+msgstr "Sējums tiek izmantots citos procesos"
 
 #: src/applets/places-indicator/MountHelper.vala:45
 msgid "Operation aborted"
-msgstr ""
+msgstr "Darbība pārtraukta"
 
 #: src/applets/places-indicator/MountHelper.vala:57
 msgid "Type your password"
-msgstr ""
+msgstr "Ievadiet paroli"
 
 #: src/applets/places-indicator/VolumeItem.vala:27
 #: src/applets/places-indicator/MountItem.vala:25
@@ -438,11 +438,11 @@ msgstr "Tagad vari droši atvienot"
 
 #: src/applets/places-indicator/VolumeItem.vala:119
 msgid "The password you entered is incorrect"
-msgstr ""
+msgstr "Ievadītā parole ir nepareiza"
 
 #: src/applets/places-indicator/VolumeItem.vala:123
 msgid "An unknown error occurred while attempting to mount this volume"
-msgstr ""
+msgstr "Mēģinot atmontēt šo sējumu, notika nezināma kļūda"
 
 #: src/applets/places-indicator/MountItem.vala:62
 msgid "Unmount"
@@ -458,15 +458,15 @@ msgstr "Kļūda, izstumjot ierīci"
 
 #: src/applets/places-indicator/MountItem.vala:105
 msgid "Error while unmounting volume"
-msgstr ""
+msgstr "Kļūda atmontējot sējumu"
 
 #: src/polkit/polkitdialog.vala:131
 msgid "Authentication failed"
-msgstr ""
+msgstr "Autentifikācija neizdevās"
 
 #: src/polkit/polkitdialog.vala:230
 msgid "Group:"
-msgstr ""
+msgstr "Grupa:"
 
 #: src/panel/settings/settings_main.vala:39
 msgid "Appearance"
@@ -474,40 +474,40 @@ msgstr "Parādīšanās"
 
 #: src/panel/settings/settings_main.vala:40
 msgid "Panels"
-msgstr ""
+msgstr "Paneļi"
 
 #: src/panel/settings/settings_main.vala:41
 msgid "Session"
-msgstr ""
+msgstr "Sesija"
 
 #: src/panel/settings/settings_main.vala:50
 #: src/panel/budgie-desktop-settings.desktop.in.h:1
 msgid "Budgie Desktop Settings"
-msgstr ""
+msgstr "Budgie darbvirsmas iestatījumi"
 
 #: src/panel/settings/settings_main.vala:81
 msgid "Create new panel"
-msgstr ""
+msgstr "Izveidot jaunu paneli"
 
 #: src/panel/settings/settings_panel.vala:80
 msgid "Remove this panel from the screen"
-msgstr ""
+msgstr "Noņemt šo paneli no ekrāna"
 
 #: src/panel/settings/settings_panel.vala:120
 msgid "Top Dock"
-msgstr ""
+msgstr "Augšējais doks"
 
 #: src/panel/settings/settings_panel.vala:122
 msgid "Right Dock"
-msgstr ""
+msgstr "Labais doks"
 
 #: src/panel/settings/settings_panel.vala:124
 msgid "Left Dock"
-msgstr ""
+msgstr "Kreisais doks"
 
 #: src/panel/settings/settings_panel.vala:126
 msgid "Bottom Dock"
-msgstr ""
+msgstr "Apakšējais doks"
 
 #: src/panel/settings/settings_panel.vala:131
 msgid "Top Panel"
@@ -527,44 +527,44 @@ msgstr "Apakšas panelis"
 
 #: src/panel/settings/settings_panel.vala:176
 msgid "Top"
-msgstr "Augša"
+msgstr "Augšā"
 
 #: src/panel/settings/settings_panel.vala:178
 msgid "Right"
-msgstr ""
+msgstr "Pa labi"
 
 #: src/panel/settings/settings_panel.vala:180
 #: src/panel/settings/settings_wm.vala:88
 msgid "Left"
-msgstr ""
+msgstr "Pa kreisi"
 
 #: src/panel/settings/settings_panel.vala:182
 msgid "Bottom"
-msgstr "Taustiņš"
+msgstr "Apakšā"
 
 #: src/panel/settings/settings_panel.vala:193
 msgid "Always"
-msgstr ""
+msgstr "Vienmēr"
 
 #: src/panel/settings/settings_panel.vala:195
 msgid "Dynamic"
-msgstr ""
+msgstr "Dinamiski"
 
 #: src/panel/settings/settings_panel.vala:198
 msgid "None"
-msgstr ""
+msgstr "Nav"
 
 #: src/panel/settings/settings_panel.vala:209
 msgid "Automatic"
-msgstr ""
+msgstr "Automātisks"
 
 #: src/panel/settings/settings_panel.vala:211
 msgid "Intelligent"
-msgstr ""
+msgstr "Inteliģents"
 
 #: src/panel/settings/settings_panel.vala:214
 msgid "Never"
-msgstr ""
+msgstr "Nekad"
 
 #: src/panel/settings/settings_panel.vala:230
 msgid "Position"
@@ -572,7 +572,7 @@ msgstr "Izvietojums"
 
 #: src/panel/settings/settings_panel.vala:231
 msgid "Set the edge of the screen that this panel will stay on"
-msgstr ""
+msgstr "Uzstādiet ekrāna malu, kurā atradīsies šis panelis"
 
 #: src/panel/settings/settings_panel.vala:239
 msgid "Size"
@@ -581,18 +581,21 @@ msgstr "Izmērs"
 #: src/panel/settings/settings_panel.vala:240
 msgid "Set the size (width or height, depending on orientation) of this panel"
 msgstr ""
+"Uzstādiet šī paneļa izmēru (platumu vai augstumu, atkarībā no orientācijas)"
 
 #: src/panel/settings/settings_panel.vala:247
 msgid "Automatically hide"
-msgstr ""
+msgstr "Automātiski paslēpt"
 
 #: src/panel/settings/settings_panel.vala:248
 msgid "When set, this panel will hide from view to maximize screen estate"
 msgstr ""
+"Kad iestatīts, šis panelis tiks paslēpts no skata, lai paplašinātu vietu uz "
+"ekrāna"
 
 #: src/panel/settings/settings_panel.vala:255
 msgid "Transparency"
-msgstr ""
+msgstr "Caurspīdīgums"
 
 #: src/panel/settings/settings_panel.vala:256
 msgid "Control when this panel should have a solid background"
@@ -605,6 +608,7 @@ msgstr "Ēna"
 #: src/panel/settings/settings_panel.vala:262
 msgid "Adds a decorative drop-shadow, ideal for opaque panels"
 msgstr ""
+"Pievieno dekoratīvu krītošu ēnu, ideāli piemērota necaurredzamiem paneļiem"
 
 #: src/panel/settings/settings_panel.vala:268
 msgid "Stylize regions"
@@ -616,43 +620,45 @@ msgstr ""
 
 #: src/panel/settings/settings_panel.vala:276
 msgid "Dock mode"
-msgstr ""
+msgstr "Doka režīms"
 
 #: src/panel/settings/settings_panel.vala:277
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
-msgstr ""
+msgstr "Doka režīmā panelis izmantos pēc iespējas mazāk vietas uz ekrāna"
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
-msgstr ""
+msgstr "Atļaut palielināt skaļumu virs 100%"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
 msgstr ""
+"Atļauj palielināt skaļumu skaņas iestatījumos un Raven skaņas izejas logrīkā "
+"līdz 150%."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
-msgstr ""
+msgstr "Rādīt nedēļu numurus kalendārā"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr ""
+msgstr "Šis iestatījums ieslēdz nedēļas numuru rādīšanu kalendāra logrīkā."
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
-msgstr ""
+msgstr "Rādīt kalendāra logrīku"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr ""
+msgstr "Parāda vai paslēpj kalendāra logrīku Raven sīklietotņu sadaļā."
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
-msgstr ""
+msgstr "Rādīt skaņas izejas logrīku"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr ""
+msgstr "Parāda vai paslēpj skaņas izejas logrīku Raven sīklietotņu sadaļā."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
