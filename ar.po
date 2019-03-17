@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 06:55+0000\n"
-"Last-Translator: Tarek Lammouchi <CsJ0oe@gmail.com>\n"
+"Last-Translator: Rehahlia Thabet <rehahliathabet@gmail.com>\n"
 "Language-Team: Arabic <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ar/>\n"
 "Language: ar\n"
@@ -673,11 +673,12 @@ msgstr "إظهار أو إخفاء أداة دخل الميكروفون في ق�
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
-msgstr ""
+msgstr "إظهار عناصر التحكم في تشغيل الوسائط"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
 msgstr ""
+"إظهار أو إخفاء أداة التحكم في تشغيل الوسائط (MPRIS) في قسم تطبيقات ريفن."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
@@ -685,7 +686,7 @@ msgstr "إظهار شريط الطاقة"
 
 #: src/panel/settings/settings_raven.vala:76
 msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr ""
+msgstr "اظهار أو اخفاء شريط الطاقة اسفل ريفن."
 
 #: src/panel/settings/settings_panel_dialogs.vala:29
 msgid "Confirm panel removal"
