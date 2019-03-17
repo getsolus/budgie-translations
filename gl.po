@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-26 15:18+0000\n"
-"Last-Translator: Alfonso Rodríguez <arc.proxectos@gmail.com>\n"
+"PO-Revision-Date: 2019-03-17 09:05+0000\n"
+"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
 "Language-Team: Galician <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/gl/>\n"
 "Language: gl\n"
@@ -124,7 +124,7 @@ msgstr "Dispositivos"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
-msgstr "Batería cargada"
+msgstr "Batería cargada."
 
 #: src/applets/status/PowerIndicator.vala:100
 msgid "Unknown"
