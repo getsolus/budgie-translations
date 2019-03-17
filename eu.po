@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-26 15:18+0000\n"
-"Last-Translator: daper <david@daper.email>\n"
+"PO-Revision-Date: 2019-03-17 09:05+0000\n"
+"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
 "Language-Team: Basque <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/eu/>\n"
 "Language: eu\n"
@@ -283,15 +283,15 @@ msgstr "Bloq Num aktibatuta dago"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:78
 msgid "Num lock is not active"
-msgstr "Bloq Num ez dago aktibatuta "
+msgstr "Bloq Num ez dago aktibatuta"
 
 #: src/applets/clock/ClockApplet.vala:151
 msgid "Time and date settings"
-msgstr "Ordua eta egunaren ezarpenak "
+msgstr "Ordua eta egunaren ezarpenak"
 
 #: src/applets/clock/ClockApplet.vala:152
 msgid "Calendar"
-msgstr "Egutegia "
+msgstr "Egutegia"
 
 #. pack page2
 #: src/applets/clock/ClockApplet.vala:159
@@ -432,7 +432,7 @@ msgstr "Egotzi"
 #: src/applets/places-indicator/VolumeItem.vala:76
 #: src/applets/places-indicator/VolumeItem.vala:121
 msgid "Enter the encryption passphrase to unlock this volume"
-msgstr "Idatzi enkriptatze-pasahitza bolumen hau desblokeatzeko "
+msgstr "Idatzi enkriptatze-pasahitza bolumen hau desblokeatzeko"
 
 #: src/applets/places-indicator/VolumeItem.vala:87
 #: src/applets/places-indicator/MountItem.vala:78
@@ -449,7 +449,7 @@ msgstr "Errore ezezagun bat gertatu da bolumena muntatzen saiatzean"
 
 #: src/applets/places-indicator/MountItem.vala:62
 msgid "Unmount"
-msgstr "Desmontatu "
+msgstr "Desmontatu"
 
 #: src/applets/places-indicator/MountItem.vala:79
 msgid "Unknown Device"
@@ -599,7 +599,7 @@ msgstr "Gardentasuna"
 
 #: src/panel/settings/settings_panel.vala:256
 msgid "Control when this panel should have a solid background"
-msgstr "Kontrolatu panel honek noiz edukiko duen atzealde solidoa "
+msgstr "Kontrolatu panel honek noiz edukiko duen atzealde solidoa"
 
 #: src/panel/settings/settings_panel.vala:261
 msgid "Shadow"
@@ -623,7 +623,9 @@ msgstr "Dock modua"
 
 #: src/panel/settings/settings_panel.vala:277
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
-msgstr "Dock moduan panelak gutxieneko espazio kopurua erabiliko du, pantailari ahal den leku libre gehien uzten. "
+msgstr ""
+"Dock moduan panelak gutxieneko espazio kopurua erabiliko du, pantailari ahal "
+"den leku libre gehien uzten"
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
@@ -932,7 +934,7 @@ msgstr "Amaiera"
 
 #: src/panel/settings/settings_wm.vala:32
 msgid "Windows"
-msgstr "Lehioak "
+msgstr "Lehioak"
 
 #: src/panel/settings/settings_wm.vala:41
 msgid "Attach modal dialogs to windows"
@@ -1086,7 +1088,7 @@ msgstr "Ordutegia"
 
 #: src/applets/night-light/indicator_window.ui.h:4
 msgid "Sunset to Sunrise"
-msgstr "Ilunabarretik Egunsentira "
+msgstr "Ilunabarretik Egunsentira"
 
 #: src/applets/night-light/indicator_window.ui.h:5
 msgid "Manual"
@@ -1270,4 +1272,6 @@ msgstr "Budgie Panela"
 
 #: src/panel/budgie-panel.desktop.in.h:2
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
-msgstr "Beste aplikazio batzuk abiarazi eta leihoak kudeatzeko, denbora erakusteko, etab. hainbat utilitate eskaini"
+msgstr ""
+"Beste aplikazio batzuk abiarazi eta leihoak kudeatzeko, denbora erakusteko, "
+"etab. hainbat utilitate eskaini."
