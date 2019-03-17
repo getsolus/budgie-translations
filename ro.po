@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 09:05+0000\n"
-"Last-Translator: Alex <cany562@yahoo.com>\n"
+"Last-Translator: Stefan <mo0n_sniper@miez.ro>\n"
 "Language-Team: Romanian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ro/>\n"
 "Language: ro\n"
@@ -236,9 +236,8 @@ msgid "Close Window"
 msgstr "Închide fereastra"
 
 #: src/applets/icon-tasklist/IconPopover.vala:545
-#, fuzzy
 msgid "Show Window Controls"
-msgstr "Titlurile ferestrelor"
+msgstr "Arată controalele ferestrelor"
 
 #: src/applets/budgie-menu/IconChooser.vala:27
 msgid "Set menu icon from file"
