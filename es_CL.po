@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-03-17 09:05+0000\n"
-"Last-Translator: Ro Ortiz <rodolfopadillap@gmail.com>\n"
+"PO-Revision-Date: 2019-03-17 09:06+0000\n"
+"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
 "Language-Team: Spanish (Chile) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/es_CL/>\n"
 "Language: es_CL\n"
@@ -125,7 +125,7 @@ msgstr "Dispositivos"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
-msgstr "Batería completamente cargada"
+msgstr "Batería completamente cargada."
 
 #: src/applets/status/PowerIndicator.vala:100
 msgid "Unknown"
@@ -267,7 +267,7 @@ msgstr "Todo"
 #. placeholder in case of no results
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:271
 msgid "Sorry, no items found"
-msgstr "Lo sentimos, no se encontró ningún ítem."
+msgstr "Lo sentimos, no se encontró ningún ítem"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
@@ -691,7 +691,8 @@ msgstr "Confirmar eliminación del panel"
 
 #: src/panel/settings/settings_panel_dialogs.vala:36
 msgid "Do you really want to remove this panel? This action cannot be undone."
-msgstr "¿Realmente quieres eliminar este panel? Esta acción no puede deshacerse"
+msgstr ""
+"¿Realmente quieres eliminar este panel? Esta acción no puede deshacerse."
 
 #: src/panel/settings/settings_panel_dialogs.vala:51
 #: src/panel/settings/settings_panel_dialogs.vala:114
@@ -712,7 +713,8 @@ msgstr "Confirmar eliminación de applet"
 
 #: src/panel/settings/settings_panel_dialogs.vala:99
 msgid "Do you really want to remove this applet? This action cannot be undone."
-msgstr "¿Realmente quieres eliminar este applet? Esta acción no puede deshacerse"
+msgstr ""
+"¿Realmente quieres eliminar este applet? Esta acción no puede deshacerse."
 
 #: src/panel/settings/settings_panel_dialogs.vala:123
 msgid "Remove applet"
