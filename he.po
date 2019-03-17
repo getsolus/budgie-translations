@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-03-17 06:44+0000\n"
-"Last-Translator: Gilad <freidkin.gilad@gmail.com>\n"
+"PO-Revision-Date: 2019-03-17 06:45+0000\n"
+"Last-Translator: eldados <eldados@protonmail.com>\n"
 "Language-Team: Hebrew <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/he/>\n"
 "Language: he\n"
@@ -322,7 +322,7 @@ msgstr "הסר"
 
 #: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Timer (minutes)"
-msgstr ""
+msgstr "טיימר (דקות)"
 
 #. User Menu Creation
 #: src/applets/user-indicator/UserIndicatorWindow.vala:95
@@ -636,7 +636,7 @@ msgstr "אפשר תצוגה של מספרי שבועות בלוח השנה"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr ""
+msgstr "הגדרה זו מאפשרת להציג את מספרי השבועות ביישום widget של היומן"
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
