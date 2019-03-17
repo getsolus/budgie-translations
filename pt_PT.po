@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 07:22+0000\n"
-"Last-Translator: André Ricardo Branco Santos <andre13521@gmail.com>\n"
+"Last-Translator: Nuno Martins <nunocastromartins@protonmail.com>\n"
 "Language-Team: Portuguese (Portugal) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/pt_PT/>\n"
 "Language: pt_PT\n"
@@ -105,7 +105,7 @@ msgstr "%u notificações não lidas"
 #: src/raven/notifications_view.vala:676
 #: src/applets/notifications/NotificationsApplet.vala:111
 msgid "1 unread notification"
-msgstr "1 notificação por ler"
+msgstr "1 notificação não lida"
 
 #: src/raven/notifications_view.vala:678
 #: src/applets/notifications/NotificationsApplet.vala:113
@@ -194,7 +194,7 @@ msgstr "Fechar todas as janelas"
 
 #: src/applets/icon-tasklist/IconPopover.vala:104
 msgid "Always On Top"
-msgstr "Sempre no Topo"
+msgstr "Sempre no topo"
 
 #: src/applets/icon-tasklist/IconPopover.vala:106
 #: src/applets/icon-tasklist/IconPopover.vala:484
@@ -207,11 +207,11 @@ msgstr "Minimizar"
 
 #: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Unfavorite"
-msgstr "Remover dos Favoritos"
+msgstr "Remover dos favoritos"
 
 #: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Favorite"
-msgstr "Adicionar aos Favoritos"
+msgstr "Adicionar aos favoritos"
 
 #. If our current amount of workspaces is different than how many we have added
 #. We have items to add
