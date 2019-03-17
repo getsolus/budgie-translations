@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 08:52+0000\n"
-"Last-Translator: Jethro Cao <jethrocao@gmail.com>\n"
+"Last-Translator: silent <user1@proc.duckdns.org>\n"
 "Language-Team: Chinese (Simplified) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/zh_Hans/>\n"
 "Language: zh\n"
@@ -1080,7 +1080,7 @@ msgstr "间隔大小"
 
 #: src/applets/budgie-menu/settings.ui.h:1
 msgid "Show Menu Label"
-msgstr ""
+msgstr "显示菜单标签"
 
 #: src/applets/budgie-menu/settings.ui.h:2
 msgid "Compact Mode"
@@ -1096,7 +1096,7 @@ msgstr "菜单标签"
 
 #: src/applets/budgie-menu/settings.ui.h:5
 msgid "Roll-over mouse"
-msgstr ""
+msgstr "滚动鼠标"
 
 #: src/applets/budgie-menu/settings.ui.h:6
 msgid "Menu Icon"
@@ -1104,7 +1104,7 @@ msgstr "菜单图标"
 
 #: src/applets/workspaces/settings.ui.h:1
 msgid "\"Add\" button visibility"
-msgstr ""
+msgstr "“添加”按钮可见"
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
@@ -1148,7 +1148,7 @@ msgstr "显示可移动设备"
 
 #: src/applets/places-indicator/settings.ui.h:5
 msgid "Always expand places"
-msgstr ""
+msgstr "总是扩展区域"
 
 #: src/polkit/dialog.ui.h:1
 msgid "Authentication Required"
@@ -1245,4 +1245,4 @@ msgstr "Budgie 面板"
 
 #: src/panel/budgie-panel.desktop.in.h:2
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
-msgstr ""
+msgstr "启动其他程序并提供各种工具来管理窗口，显示时间等。"
