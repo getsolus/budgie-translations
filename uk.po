@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-26 15:18+0000\n"
-"Last-Translator: Valentine Romantsov <valentin1998romantsov@gmail.com>\n"
+"PO-Revision-Date: 2019-03-17 09:06+0000\n"
+"Last-Translator: Davyd Kohut <expexes@gmail.com>\n"
 "Language-Team: Ukrainian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/uk/>\n"
 "Language: uk\n"
@@ -71,7 +71,7 @@ msgstr ""
 #: src/raven/notifications_group.vala:44
 #: src/applets/caffeine/CaffeineWindow.vala:25
 msgid "Caffeine Mode"
-msgstr ""
+msgstr "Режим Caffeine"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
@@ -88,7 +88,7 @@ msgstr "Жоден застосунок наразі не програє ауд�
 
 #: src/raven/start_listening.vala:28
 msgid "Play some music"
-msgstr ""
+msgstr "Грати музику"
 
 #: src/raven/notifications_view.vala:106
 msgid "Nothing to see here"
@@ -117,11 +117,11 @@ msgstr "Немає нових повідомлень"
 #. 125ms
 #: src/raven/sound.vala:158
 msgid "Apps"
-msgstr ""
+msgstr "Програми"
 
 #: src/raven/sound.vala:159
 msgid "Devices"
-msgstr ""
+msgstr "Пристрої"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
@@ -189,7 +189,7 @@ msgstr ""
 
 #: src/applets/icon-tasklist/IconPopover.vala:96
 msgid "Close All Windows"
-msgstr ""
+msgstr "Закрити всі вікна"
 
 #: src/applets/icon-tasklist/IconPopover.vala:104
 #, fuzzy
@@ -199,19 +199,19 @@ msgstr "Завжди"
 #: src/applets/icon-tasklist/IconPopover.vala:106
 #: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Maximize"
-msgstr ""
+msgstr "На весь екран"
 
 #: src/applets/icon-tasklist/IconPopover.vala:107
 msgid "Minimize"
-msgstr ""
+msgstr "Згорнути"
 
 #: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Unfavorite"
-msgstr ""
+msgstr "Видалити з вибраного"
 
 #: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Favorite"
-msgstr ""
+msgstr "Додати до вибраного"
 
 #. If our current amount of workspaces is different than how many we have added
 #. We have items to add
@@ -268,7 +268,7 @@ msgstr "Всі"
 #. placeholder in case of no results
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:271
 msgid "Sorry, no items found"
-msgstr ""
+msgstr "Нічого не знайдено"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
@@ -326,7 +326,7 @@ msgstr "Видалити"
 
 #: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Timer (minutes)"
-msgstr ""
+msgstr "Таймер (хвилини)"
 
 #. User Menu Creation
 #: src/applets/user-indicator/UserIndicatorWindow.vala:95
@@ -628,15 +628,17 @@ msgstr "В режимі доку, панель займає мінімально
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
-msgstr ""
+msgstr "Дозволити збільшення гучності вище 100%"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
 msgstr ""
+"Дозволяє збільшувати гучність в налаштуваннях звуку, а також в віджеті "
+"виводу звуку на панелі Raven до 150%."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
-msgstr ""
+msgstr "Увімкнути відображення номерів тижнів в календарі"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
@@ -644,7 +646,7 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
-msgstr ""
+msgstr "Показувати віджет календаря"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
@@ -652,7 +654,7 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
-msgstr ""
+msgstr "Показувати віджет виводу звуку"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
