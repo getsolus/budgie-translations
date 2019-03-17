@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 07:50+0000\n"
-"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
+"Last-Translator: Ro Ortiz <rodolfopadillap@gmail.com>\n"
 "Language-Team: Spanish (Chile) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/es_CL/>\n"
 "Language: es_CL\n"
@@ -1253,7 +1253,7 @@ msgstr "Lista de tareas"
 
 #: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
 msgid "Caffeine"
-msgstr ""
+msgstr "Caffeine"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
