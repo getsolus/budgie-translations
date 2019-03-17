@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 09:05+0000\n"
-"Last-Translator: Melencu <melencu.ovidiu@gmail.com>\n"
+"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
 "Language-Team: Romanian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ro/>\n"
 "Language: ro\n"
@@ -587,7 +587,8 @@ msgstr "Mărime"
 
 #: src/panel/settings/settings_panel.vala:240
 msgid "Set the size (width or height, depending on orientation) of this panel"
-msgstr "Alege mărimea acestui panou (lățimea sau înălțimea, în funcție de orientare) "
+msgstr ""
+"Alege mărimea acestui panou (lățimea sau înălțimea, în funcție de orientare)"
 
 #: src/panel/settings/settings_panel.vala:247
 msgid "Automatically hide"
@@ -949,7 +950,7 @@ msgstr "Centrează ferestrele noi pe ecran"
 
 #: src/panel/settings/settings_wm.vala:54
 msgid "Center newly launched windows on the current screen."
-msgstr "Centrează ferestrele nou lansate pe ecranul curent. "
+msgstr "Centrează ferestrele nou lansate pe ecranul curent."
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
@@ -1106,7 +1107,7 @@ msgstr "Eticheta de meniu"
 
 #: src/applets/budgie-menu/settings.ui.h:5
 msgid "Roll-over mouse"
-msgstr "Conținutul se arată la trecerea mouse-ului "
+msgstr "Conținutul se arată la trecerea mouse-ului"
 
 #: src/applets/budgie-menu/settings.ui.h:6
 msgid "Menu Icon"
