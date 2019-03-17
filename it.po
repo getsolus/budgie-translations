@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-03-17 07:37+0000\n"
-"Last-Translator: R. <raffaele.tranquillini@gmail.com>\n"
+"PO-Revision-Date: 2019-03-17 07:44+0000\n"
+"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
 "Language-Team: Italian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/it/>\n"
 "Language: it\n"
@@ -747,7 +747,7 @@ msgstr "Server di rete"
 
 #: src/panel/settings/settings_desktop.vala:61
 msgid "Add a shortcut to your local network servers on the desktop."
-msgstr "Aggiungi una scorciatoia ai server di rete locali sulla scrivania"
+msgstr "Aggiungi una scorciatoia ai server di rete locali sulla scrivania."
 
 #: src/panel/settings/settings_desktop.vala:66
 msgid "Trash"
@@ -1018,7 +1018,7 @@ msgstr "Documenti"
 #: src/panel/settings/settings_fonts.vala:52
 #, fuzzy
 msgid "Set the display font used by for documents."
-msgstr "Imposta il font di visualizzazione utilizzato dai documenti"
+msgstr "Imposta il font di visualizzazione utilizzato dai documenti."
 
 #: src/panel/settings/settings_fonts.vala:58
 msgid "Interface"
