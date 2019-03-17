@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 07:32+0000\n"
-"Last-Translator: Kaspars Bērziņš <kaspars.berzins@pm.me>\n"
+"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
 "Language-Team: Latvian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/lv/>\n"
 "Language: lv\n"
@@ -124,7 +124,7 @@ msgstr "Ierīces"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
-msgstr "Akumulators ir pilnībā uzlādēts"
+msgstr "Akumulators ir pilnībā uzlādēts."
 
 #: src/applets/status/PowerIndicator.vala:100
 msgid "Unknown"
