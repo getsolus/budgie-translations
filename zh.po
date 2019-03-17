@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 06:12+0000\n"
-"Last-Translator: JJ <369488962@qq.com>\n"
+"Last-Translator: Jethro Cao <jethrocao@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/zh_Hans/>\n"
 "Language: zh\n"
@@ -614,7 +614,7 @@ msgstr ""
 
 #: src/panel/settings/settings_panel.vala:276
 msgid "Dock mode"
-msgstr ""
+msgstr "对接方式"
 
 #: src/panel/settings/settings_panel.vala:277
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
@@ -622,7 +622,7 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
-msgstr ""
+msgstr "允许增加声音量超过100％"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
@@ -630,7 +630,7 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
-msgstr ""
+msgstr "允许日历显示周期数"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
@@ -638,7 +638,7 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
-msgstr ""
+msgstr "显示日历小部件"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
@@ -646,7 +646,7 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
-msgstr ""
+msgstr "显示声音输出小部件"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
@@ -654,7 +654,7 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
-msgstr ""
+msgstr "显示麦克风输入小部件"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
@@ -662,7 +662,7 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
-msgstr ""
+msgstr "显示媒体播放控制小部件"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
@@ -708,11 +708,11 @@ msgstr ""
 
 #: src/panel/settings/settings_panel_dialogs.vala:123
 msgid "Remove applet"
-msgstr ""
+msgstr "删除小程序"
 
 #: src/panel/settings/settings_panel_dialogs.vala:124
 msgid "Keep applet"
-msgstr ""
+msgstr "保持小程序"
 
 #: src/panel/settings/settings_desktop.vala:33
 msgid "Desktop"
@@ -728,7 +728,7 @@ msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:54
 msgid "Home directory"
-msgstr ""
+msgstr "家目录"
 
 #: src/panel/settings/settings_desktop.vala:55
 msgid "Add a shortcut to your home directory on the desktop."
@@ -752,19 +752,19 @@ msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:72
 msgid "Mounted volumes"
-msgstr ""
+msgstr "挂载的存储器"
 
 #: src/panel/settings/settings_desktop.vala:73
 msgid "Mounted volumes & drives will appear on the desktop."
-msgstr ""
+msgstr "挂载的存储器会出现在桌面上。"
 
 #: src/panel/settings/settings_style.vala:33
 msgid "Style"
-msgstr ""
+msgstr "风格"
 
 #: src/panel/settings/settings_style.vala:47
 msgid "Widgets"
-msgstr ""
+msgstr "小部件"
 
 #: src/panel/settings/settings_style.vala:48
 msgid "Set the appearance of window decorations and controls"
@@ -772,19 +772,19 @@ msgstr ""
 
 #: src/panel/settings/settings_style.vala:52
 msgid "Icons"
-msgstr ""
+msgstr "图标"
 
 #: src/panel/settings/settings_style.vala:53
 msgid "Set the globally used icon theme"
-msgstr ""
+msgstr "设置全局使用的图标主题包"
 
 #: src/panel/settings/settings_style.vala:57
 msgid "Cursors"
-msgstr ""
+msgstr "光标"
 
 #: src/panel/settings/settings_style.vala:58
 msgid "Set the globally used mouse cursor theme"
-msgstr ""
+msgstr "设置全局使用的鼠标光标主题包"
 
 #: src/panel/settings/settings_style.vala:62
 #, fuzzy
@@ -809,7 +809,7 @@ msgstr ""
 
 #: src/panel/settings/settings_style.vala:87
 msgid "Animations"
-msgstr ""
+msgstr "动画"
 
 #: src/panel/settings/settings_style.vala:88
 msgid "Control whether windows and controls use animations"
@@ -817,47 +817,45 @@ msgstr ""
 
 #: src/panel/settings/settings_style.vala:209
 msgid "Top Left"
-msgstr ""
+msgstr "左上"
 
 #: src/panel/settings/settings_style.vala:211
-#, fuzzy
 msgid "Bottom Left"
-msgstr "底部"
+msgstr "左下"
 
 #: src/panel/settings/settings_style.vala:213
-#, fuzzy
 msgid "Bottom Right"
-msgstr "底部"
+msgstr "右下"
 
 #: src/panel/settings/settings_style.vala:216
 msgid "Top Right"
-msgstr ""
+msgstr "右上"
 
 #: src/panel/settings/settings_autostart.vala:141
 msgid "Untitled"
-msgstr ""
+msgstr "无标题"
 
 #: src/panel/settings/settings_autostart.vala:148
 msgid "No description"
-msgstr ""
+msgstr "无描述"
 
 #: src/panel/settings/settings_autostart.vala:171
 msgid "running"
-msgstr ""
+msgstr "在执行"
 
 #: src/panel/settings/settings_autostart.vala:194
 msgid "Applications"
-msgstr ""
+msgstr "应用程序"
 
 #: src/panel/settings/settings_autostart.vala:204
 #: src/panel/settings/settings_autostart.vala:377
 msgid "Add"
-msgstr ""
+msgstr "添加"
 
 #: src/panel/settings/settings_autostart.vala:371
 #: src/panel/settings/settings_autostart.vala:404
 msgid "Command"
-msgstr ""
+msgstr "命令"
 
 #: src/panel/settings/settings_autostart.vala:387
 msgid "An entry with that title already exists"
@@ -865,24 +863,24 @@ msgstr ""
 
 #: src/panel/settings/settings_autostart.vala:390
 msgid "Title"
-msgstr ""
+msgstr "标题"
 
 #: src/panel/settings/settings_autostart.vala:394
 #: src/panel/settings/settings_autostart.vala:408
 msgid "Required"
-msgstr ""
+msgstr "必要的"
 
 #: src/panel/settings/settings_autostart.vala:397
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #: src/panel/settings/settings_autostart.vala:401
 msgid "Optional"
-msgstr ""
+msgstr "可选的"
 
 #: src/panel/settings/settings_autostart.vala:465
 msgid "Autostart"
-msgstr ""
+msgstr "自动开启"
 
 #: src/panel/settings/settings_autostart.vala:483
 msgid "Autostart apps"
@@ -890,12 +888,12 @@ msgstr ""
 
 #: src/panel/settings/settings_panel_applets.vala:22
 msgid "Configure applet"
-msgstr ""
+msgstr "配置小程序"
 
 #: src/panel/settings/settings_panel_applets.vala:245
 #: src/panel/settings/settings_applet_chooser.vala:85
 msgid "Add applet"
-msgstr ""
+msgstr "添加小程序"
 
 #: src/panel/settings/settings_panel_applets.vala:246
 msgid "Choose a new applet to add to this panel"
@@ -979,7 +977,7 @@ msgstr ""
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
-msgstr ""
+msgstr "右（标准）"
 
 #: src/panel/settings/settings_fonts.vala:33
 msgid "Fonts"
@@ -1027,7 +1025,7 @@ msgstr ""
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
-msgstr ""
+msgstr "选择一个小程序"
 
 #: src/daemon/endsession.ui.h:2
 msgid "Are you sure you want to end your session?"
@@ -1056,11 +1054,11 @@ msgstr ""
 #: src/applets/night-light/indicator_window.ui.h:1
 #: src/applets/night-light/NightLight.plugin.in.h:1
 msgid "Night Light"
-msgstr ""
+msgstr "夜光"
 
 #: src/applets/night-light/indicator_window.ui.h:2
 msgid "Temperature"
-msgstr ""
+msgstr "色温"
 
 #: src/applets/night-light/indicator_window.ui.h:3
 msgid "Schedule"
@@ -1068,7 +1066,7 @@ msgstr ""
 
 #: src/applets/night-light/indicator_window.ui.h:4
 msgid "Sunset to Sunrise"
-msgstr ""
+msgstr "日落到日出"
 
 #: src/applets/night-light/indicator_window.ui.h:5
 msgid "Manual"
