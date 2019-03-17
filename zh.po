@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-03-17 06:12+0000\n"
-"Last-Translator: silent <user1@proc.duckdns.org>\n"
+"PO-Revision-Date: 2019-03-17 08:52+0000\n"
+"Last-Translator: Jethro Cao <jethrocao@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/zh_Hans/>\n"
 "Language: zh\n"
@@ -1068,11 +1068,11 @@ msgstr "日落到日出"
 
 #: src/applets/night-light/indicator_window.ui.h:5
 msgid "Manual"
-msgstr ""
+msgstr "手动"
 
 #: src/applets/night-light/indicator_window.ui.h:6
 msgid "Display Settings"
-msgstr ""
+msgstr "显示设置"
 
 #: src/applets/spacer/settings.ui.h:1
 msgid "Spacer size"
@@ -1092,7 +1092,7 @@ msgstr ""
 
 #: src/applets/budgie-menu/settings.ui.h:4
 msgid "Menu Label"
-msgstr ""
+msgstr "菜单标签"
 
 #: src/applets/budgie-menu/settings.ui.h:5
 msgid "Roll-over mouse"
@@ -1100,7 +1100,7 @@ msgstr ""
 
 #: src/applets/budgie-menu/settings.ui.h:6
 msgid "Menu Icon"
-msgstr ""
+msgstr "菜单图标"
 
 #: src/applets/workspaces/settings.ui.h:1
 msgid "\"Add\" button visibility"
@@ -1108,7 +1108,7 @@ msgstr ""
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
-msgstr ""
+msgstr "不要显示"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
@@ -1116,28 +1116,27 @@ msgstr ""
 
 #: src/applets/workspaces/settings.ui.h:4
 msgid "Always show"
-msgstr ""
+msgstr "总是显示"
 
 #: src/applets/caffeine/settings.ui.h:1
-#, fuzzy
 msgid "Enable notification"
-msgstr "无新通知"
+msgstr "启用通知"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
-msgstr ""
+msgstr "最大化亮度"
 
 #: src/applets/caffeine/settings.ui.h:3
 msgid "Brightness Level"
-msgstr ""
+msgstr "亮度等级"
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
-msgstr "显示卷标"
+msgstr "显示标签"
 
 #: src/applets/places-indicator/settings.ui.h:2
 msgid "Show places"
-msgstr "显示位置"
+msgstr "显示地方"
 
 #: src/applets/places-indicator/settings.ui.h:3
 msgid "Show network folders"
@@ -1153,19 +1152,19 @@ msgstr ""
 
 #: src/polkit/dialog.ui.h:1
 msgid "Authentication Required"
-msgstr ""
+msgstr "需要验证"
 
 #: src/polkit/dialog.ui.h:2
 msgid "Password:"
-msgstr ""
+msgstr "密码"
 
 #: src/polkit/dialog.ui.h:3
 msgid "Authentication is required"
-msgstr ""
+msgstr "需要验证"
 
 #: src/polkit/dialog.ui.h:5
 msgid "Authenticate"
-msgstr ""
+msgstr "认证"
 
 #: src/session/budgie-desktop.desktop.in.in.h:1
 #: src/session/budgie-desktop.session.in.in.h:1
@@ -1226,7 +1225,7 @@ msgstr "任务列表"
 
 #: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
 msgid "Caffeine"
-msgstr ""
+msgstr "咖啡因"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
@@ -1242,7 +1241,7 @@ msgstr ""
 
 #: src/panel/budgie-panel.desktop.in.h:1
 msgid "Budgie Panel"
-msgstr ""
+msgstr "Budgie 面板"
 
 #: src/panel/budgie-panel.desktop.in.h:2
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
