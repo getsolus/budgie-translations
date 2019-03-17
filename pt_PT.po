@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 09:05+0000\n"
-"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
+"Last-Translator: Eduardo Bezerra Subtil <mrmessuped@gmail.com>\n"
 "Language-Team: Portuguese (Portugal) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/pt_PT/>\n"
 "Language: pt_PT\n"
@@ -1066,11 +1066,11 @@ msgstr "Tem a certeza que quer terminar a sua sessão?"
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
-msgstr ""
+msgstr "Mostrar todas as janelas ao clicar"
 
 #: src/applets/icon-tasklist/settings.ui.h:2
 msgid "Only show favorited"
-msgstr ""
+msgstr "Mostrar apenas favoritas"
 
 #: src/applets/icon-tasklist/settings.ui.h:3
 msgid "Lock icons"
@@ -1078,11 +1078,11 @@ msgstr ""
 
 #: src/applets/icon-tasklist/settings.ui.h:4
 msgid "Restrict to Workspace"
-msgstr ""
+msgstr "Restringir ao espaço de trabalho"
 
 #: src/applets/icon-tasklist/settings.ui.h:5
 msgid "Window grouping"
-msgstr ""
+msgstr "Agrupamento de janelas"
 
 #: src/applets/night-light/indicator_window.ui.h:1
 #: src/applets/night-light/NightLight.plugin.in.h:1
@@ -1139,33 +1139,31 @@ msgstr "Ícone de Menu"
 
 #: src/applets/workspaces/settings.ui.h:1
 msgid "\"Add\" button visibility"
-msgstr ""
+msgstr "\"Adicionar\" visibilidade do botão"
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
-msgstr ""
+msgstr "Não mostrar"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
-msgstr ""
+msgstr "Mostrar quando o rato está por cima"
 
 #: src/applets/workspaces/settings.ui.h:4
-#, fuzzy
 msgid "Always show"
-msgstr "Sempre"
+msgstr "Mostrar sempre"
 
 #: src/applets/caffeine/settings.ui.h:1
-#, fuzzy
 msgid "Enable notification"
-msgstr "Não há novas notificações"
+msgstr "Ativar notificação"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
-msgstr ""
+msgstr "Maximizar luminosidade"
 
 #: src/applets/caffeine/settings.ui.h:3
 msgid "Brightness Level"
-msgstr ""
+msgstr "Nivel de luminosidade"
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
@@ -1262,7 +1260,7 @@ msgstr "Lista de Tarefas"
 
 #: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
 msgid "Caffeine"
-msgstr ""
+msgstr "Cafeína"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
