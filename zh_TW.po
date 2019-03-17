@@ -9,14 +9,16 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2017-07-05 22:56+0000\n"
-"Last-Translator: Ikey Doherty <ikey@solus-project.com>\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/budgie-desktop/budgie-desktop/language/zh_TW/)\n"
+"PO-Revision-Date: 2019-03-17 06:19+0000\n"
+"Last-Translator: Teng Cheong Ha <haemophilic@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <http://translate.getsol.us/projects/"
+"budgie-desktop/translations/zh_Hant/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.4-dev\n"
 
 #: src/daemon/endsession.vala:171
 msgid "Log out"
@@ -36,7 +38,7 @@ msgstr "更換背景"
 
 #: src/daemon/menus.vala:57
 msgid "Displays"
-msgstr ""
+msgstr "螢幕"
 
 #: src/daemon/menus.vala:66 src/panel/settings/settings_panel.vala:97
 msgid "Settings"
@@ -45,11 +47,11 @@ msgstr "設定"
 #. Should show a notification
 #: src/daemon/settings.vala:310
 msgid "Turned on Caffeine Boost"
-msgstr ""
+msgstr "啟動Caffeine Boost程序"
 
 #: src/daemon/settings.vala:310
 msgid "Turned off Caffeine Boost"
-msgstr ""
+msgstr "關閉Caffeine Boost程序"
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
