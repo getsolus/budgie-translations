@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 07:10+0000\n"
-"Last-Translator: Wajdi <wajdi.saeed2@gmail.com>\n"
+"Last-Translator: Rehahlia Thabet <rehahliathabet@gmail.com>\n"
 "Language-Team: Arabic <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ar/>\n"
 "Language: ar\n"
@@ -1128,16 +1128,15 @@ msgstr "\"أضف\" زر الرؤية"
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
-msgstr ""
+msgstr "لا تظهر"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
-msgstr ""
+msgstr "اظهار عند تمرير الفارة"
 
 #: src/applets/workspaces/settings.ui.h:4
-#, fuzzy
 msgid "Always show"
-msgstr "دائماً"
+msgstr "دائماً اظهار"
 
 #: src/applets/caffeine/settings.ui.h:1
 msgid "Enable notification"
@@ -1145,7 +1144,7 @@ msgstr "تمكين الإشعارات"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
-msgstr ""
+msgstr "رفع الاضاءة"
 
 #: src/applets/caffeine/settings.ui.h:3
 msgid "Brightness Level"
@@ -1246,7 +1245,7 @@ msgstr "قائمة المهام"
 
 #: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
 msgid "Caffeine"
-msgstr ""
+msgstr "كافيين"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
@@ -1257,7 +1256,6 @@ msgid "User Indicator"
 msgstr "مؤشر المستخدم"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
-#, fuzzy
 msgid "Change desktop appearance and behavior"
 msgstr "تغيير مظهر و تصرف سطح المكتب"
 
