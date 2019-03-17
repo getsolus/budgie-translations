@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 09:05+0000\n"
-"Last-Translator: Yoni Banai <ink.bug@gmail.com>\n"
+"Last-Translator: Gilad <freidkin.gilad@gmail.com>\n"
 "Language-Team: Hebrew <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/he/>\n"
 "Language: he\n"
@@ -1136,7 +1136,7 @@ msgstr "אפשר התראות"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
-msgstr ""
+msgstr "קבע בהירות למקסימלית"
 
 #: src/applets/caffeine/settings.ui.h:3
 msgid "Brightness Level"
@@ -1248,9 +1248,8 @@ msgid "User Indicator"
 msgstr "מחוון משתמש"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
-#, fuzzy
 msgid "Change desktop appearance and behavior"
-msgstr "שנה מראה והתנהגות של שולחן העבודה"
+msgstr "שנה מראה והתנהגות שולחן העבודה"
 
 #: src/panel/budgie-panel.desktop.in.h:1
 msgid "Budgie Panel"
