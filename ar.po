@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 06:59+0000\n"
-"Last-Translator: Wajdi <wajdi.saeed2@gmail.com>\n"
+"Last-Translator: Rehahlia Thabet <rehahliathabet@gmail.com>\n"
 "Language-Team: Arabic <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ar/>\n"
 "Language: ar\n"
@@ -742,27 +742,24 @@ msgid "Home directory"
 msgstr "ملف المنزل"
 
 #: src/panel/settings/settings_desktop.vala:55
-#, fuzzy
 msgid "Add a shortcut to your home directory on the desktop."
-msgstr "اضافة اختصار لملف المنزل الخاص بك على سطح المكتب"
+msgstr "اضافة اختصار لملف المنزل الخاص بك على سطح المكتب."
 
 #: src/panel/settings/settings_desktop.vala:60
 msgid "Network servers"
 msgstr "خادم الشبكة"
 
 #: src/panel/settings/settings_desktop.vala:61
-#, fuzzy
 msgid "Add a shortcut to your local network servers on the desktop."
-msgstr "اضافة اختصار لخادم الشبكة المحلي الخاص بك على سطح المكتب"
+msgstr "اضافة اختصار لخادم الشبكة المحلي الخاص بك على سطح المكتب."
 
 #: src/panel/settings/settings_desktop.vala:66
 msgid "Trash"
 msgstr "المهملات"
 
 #: src/panel/settings/settings_desktop.vala:67
-#, fuzzy
 msgid "Add a shortcut to the Trash directory on the desktop."
-msgstr "اضافة اختصار لملف المهملات على سطح المكتب"
+msgstr "اضافة اختصار لملف المهملات على سطح المكتب."
 
 #: src/panel/settings/settings_desktop.vala:72
 msgid "Mounted volumes"
@@ -801,13 +798,12 @@ msgid "Set the globally used mouse cursor theme"
 msgstr "اختيار مظهر المؤشر المستخدم لكل النظام"
 
 #: src/panel/settings/settings_style.vala:62
-#, fuzzy
 msgid "Notification Position"
-msgstr "الإشعارات"
+msgstr "موضع الإشعارات"
 
 #: src/panel/settings/settings_style.vala:63
 msgid "Set the location for notification popups"
-msgstr ""
+msgstr "تعديل مكان ضهور الاشعارات"
 
 #: src/panel/settings/settings_style.vala:72
 msgid "Dark theme"
@@ -831,14 +827,12 @@ msgid "Control whether windows and controls use animations"
 msgstr "تحكم اذا النوافذ والتحكمات تستخدم الرسوم المتحركة"
 
 #: src/panel/settings/settings_style.vala:209
-#, fuzzy
 msgid "Top Left"
-msgstr "يسار"
+msgstr "اعلى اليسار"
 
 #: src/panel/settings/settings_style.vala:211
-#, fuzzy
 msgid "Bottom Left"
-msgstr "أسفل"
+msgstr "أسفل اليسار"
 
 #: src/panel/settings/settings_style.vala:213
 msgid "Bottom Right"
@@ -900,9 +894,8 @@ msgid "Autostart"
 msgstr "بدء تلقائي"
 
 #: src/panel/settings/settings_autostart.vala:483
-#, fuzzy
 msgid "Autostart apps"
-msgstr "بدء تلقائي"
+msgstr "تطبيقات بدء التشغيل"
 
 #: src/panel/settings/settings_panel_applets.vala:22
 msgid "Configure applet"
@@ -942,18 +935,16 @@ msgid "Attach modal dialogs to windows"
 msgstr "ربط مربعات الحوار المنبثق للنوافذ"
 
 #: src/panel/settings/settings_wm.vala:42
-#, fuzzy
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr "نوافذ الحوار المنبثق سترتبط بالنافذة الام وستتحرك معاً عندما تسحب"
+msgstr "نوافذ الحوار المنبثق سترتبط بالنافذة الام وستتحرك معاً عندما تسحب."
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Button layout"
 msgstr "ترتيب الأزرار"
 
 #: src/panel/settings/settings_wm.vala:48
-#, fuzzy
 msgid "Change the layout of buttons in application titlebars."
-msgstr "تغيير ترتيب الأزرار في شريط عنوان التطبيق"
+msgstr "تغيير نسق الأزرار في شريط عنوان التطبيق."
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
