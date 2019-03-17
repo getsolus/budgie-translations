@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-26 15:18+0000\n"
-"Last-Translator: Tomáš Vavro <tj_konta@outlook.sk>\n"
+"PO-Revision-Date: 2019-03-17 09:05+0000\n"
+"Last-Translator: Pierre LeBaux <lebaux@gmail.com>\n"
 "Language-Team: Slovak <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/sk/>\n"
 "Language: sk\n"
@@ -72,7 +72,7 @@ msgstr "Vypnutie za"
 #: src/raven/notifications_group.vala:44
 #: src/applets/caffeine/CaffeineWindow.vala:25
 msgid "Caffeine Mode"
-msgstr ""
+msgstr "Kofeinový režim"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
@@ -85,11 +85,11 @@ msgstr "Oznámenia"
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
-msgstr ""
+msgstr "Žiadne aplikácie neprehrávajú audio."
 
 #: src/raven/start_listening.vala:28
 msgid "Play some music"
-msgstr ""
+msgstr "Pustiť hudbu"
 
 #: src/raven/notifications_view.vala:106
 msgid "Nothing to see here"
@@ -388,7 +388,7 @@ msgstr "Otvoriť \"%s\""
 
 #: src/applets/places-indicator/MountHelper.vala:39
 msgid "Volume is in use by other processes"
-msgstr ""
+msgstr "Jednotka je používaná iným procesom"
 
 #: src/applets/places-indicator/MountHelper.vala:45
 msgid "Operation aborted"
