@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-03-17 07:25+0000\n"
-"Last-Translator: Christophe Silva <Christophesilva80@gmail.com>\n"
+"PO-Revision-Date: 2019-03-17 07:26+0000\n"
+"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
 "Language-Team: Portuguese (Portugal) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/pt_PT/>\n"
 "Language: pt_PT\n"
@@ -771,7 +771,7 @@ msgstr "Volumes montados"
 
 #: src/panel/settings/settings_desktop.vala:73
 msgid "Mounted volumes & drives will appear on the desktop."
-msgstr "Volumes montados e drives vão aparecer no ambiente de trabalho"
+msgstr "Volumes montados e drives vão aparecer no ambiente de trabalho."
 
 #: src/panel/settings/settings_style.vala:33
 msgid "Style"
