@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 07:05+0000\n"
-"Last-Translator: Rehahlia Thabet <rehahliathabet@gmail.com>\n"
+"Last-Translator: Wajdi <wajdi.saeed2@gmail.com>\n"
 "Language-Team: Arabic <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ar/>\n"
 "Language: ar\n"
@@ -975,15 +975,17 @@ msgstr ""
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
-msgstr ""
+msgstr "تمكين تغيير تركيز النافذة لدخول و مغادرة مؤشر الفأرة"
 
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
 msgstr ""
+"تمكين تركيز النافذة ليتم تطبيقها،  عندما يدخل مؤشر الفأرة النافذة، وعدم "
+"التركيز عندما يغادر مؤشر الفأرة النافذة"
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
-msgstr "تفعيل اعادة توجيه النوافذ"
+msgstr "تعطيل اعادة توجيه النوافذ"
 
 #: src/panel/settings/settings_wm.vala:79
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
@@ -1033,11 +1035,11 @@ msgstr "اختيار عرض الخط السميك المستخدم في التط
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
-msgstr ""
+msgstr "حجم النص"
 
 #: src/panel/settings/settings_fonts.vala:73
 msgid "Set the text scaling factor."
-msgstr ""
+msgstr "ضبط عامل حجم النص."
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
@@ -1053,7 +1055,7 @@ msgstr "اضهار جميع النوافذ عند الضغط"
 
 #: src/applets/icon-tasklist/settings.ui.h:2
 msgid "Only show favorited"
-msgstr ""
+msgstr "فقط اعرض المفضل"
 
 #: src/applets/icon-tasklist/settings.ui.h:3
 msgid "Lock icons"
@@ -1061,11 +1063,11 @@ msgstr "قفل الايقونات"
 
 #: src/applets/icon-tasklist/settings.ui.h:4
 msgid "Restrict to Workspace"
-msgstr ""
+msgstr "تقييد على مساحة العمل"
 
 #: src/applets/icon-tasklist/settings.ui.h:5
 msgid "Window grouping"
-msgstr ""
+msgstr "تجميع النافذة"
 
 #: src/applets/night-light/indicator_window.ui.h:1
 #: src/applets/night-light/NightLight.plugin.in.h:1
@@ -1090,7 +1092,7 @@ msgstr "يدوي"
 
 #: src/applets/night-light/indicator_window.ui.h:6
 msgid "Display Settings"
-msgstr "اعدادات الشاشة"
+msgstr "إعدادات الشاشة"
 
 #: src/applets/spacer/settings.ui.h:1
 msgid "Spacer size"
@@ -1114,7 +1116,7 @@ msgstr "وسم القائمة"
 
 #: src/applets/budgie-menu/settings.ui.h:5
 msgid "Roll-over mouse"
-msgstr "مرور-فوق بالفاءرة"
+msgstr "حرك لأعلى بالفأرة "
 
 #: src/applets/budgie-menu/settings.ui.h:6
 msgid "Menu Icon"
