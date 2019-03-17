@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 06:49+0000\n"
-"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
+"Last-Translator: Gilad <freidkin.gilad@gmail.com>\n"
 "Language-Team: Hebrew <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/he/>\n"
 "Language: he\n"
@@ -953,32 +953,37 @@ msgstr "בטל מצב תאורת לילה כאשר חלונות נמצאים ב�
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr ""
+"בטל מצב תאורת לילה כאשר חלונות נמצאים בפריסת מסך מלא. הפעל מחדש ביציאה ממסך "
+"מלא."
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
 msgstr "ריצוף אוטומטי"
 
 #: src/panel/settings/settings_wm.vala:66
-#, fuzzy
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr "חלונות ירוצפו בופן אוטומטי כאשר יימשכו לקצה העליון של המסך או הפינות הרחוקות"
+msgstr ""
+"חלונות יעוגנו באופן אוטומטי כאשר יימשכו לקצה העליון של המסך או לפינותיו."
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
-msgstr ""
+msgstr "אפשר שינוי במיקוד החלון עם כניסת ועזיבת העכבר"
 
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
 msgstr ""
+"מאפשר את מיקוד החלון עם כניסת העכבר לשטחו, וביטול מיקוד החלון עם עזיבת העכבר "
+"את שטחו."
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
 msgstr "בטל ביטול ניתוב מחדש של חלונות במסך מלא"
 
 #: src/panel/settings/settings_wm.vala:79
-#, fuzzy
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr "אפשרות זו מיועדת למשתמשים מתקדמים. השתמש בה אם הינך נתקל בבעיות חזותיות או ביצועיות עם כרטיסי מסך יעודיים."
+msgstr ""
+"אפשרות זו מיועדת למשתמשים מתקדמים. השתמש בה אם הנך נתקל בבעיות גרפיות או "
+"בבעיות ביצועים עם כרטיסי מסך ייעודיים."
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
@@ -993,44 +998,40 @@ msgid "Window Titles"
 msgstr "כותרות חלון"
 
 #: src/panel/settings/settings_fonts.vala:45
-#, fuzzy
 msgid "Set the font used in the titlebars of applications."
-msgstr "קבע את הגופן לשימוש בשורה העליונה של יישומים"
+msgstr "קבע את הגופן כותרת חלונות היישומים."
 
 #: src/panel/settings/settings_fonts.vala:51
 msgid "Documents"
 msgstr "מסמכים"
 
 #: src/panel/settings/settings_fonts.vala:52
-#, fuzzy
 msgid "Set the display font used by for documents."
-msgstr "קבע את גופן התצוגה לשימוש על ידי מסמכים"
+msgstr "קבע את גופן תצוגת מסמכים."
 
 #: src/panel/settings/settings_fonts.vala:58
 msgid "Interface"
 msgstr "ממשק"
 
 #: src/panel/settings/settings_fonts.vala:59
-#, fuzzy
 msgid "Set the primary font used by application controls."
-msgstr "קבע את הגופן העיקרי לשימוש על ידי פקדי יישומים"
+msgstr "קבע את הגופן העיקרי לשימוש על ידי פקדי יישומים."
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Monospace"
 msgstr "רוחב אחיד"
 
 #: src/panel/settings/settings_fonts.vala:66
-#, fuzzy
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr "קבע את הגופן בעל הרוחב האחיד אשר נמצא בשימוש על ידי יישומים אשר בעיקר טקסט"
+msgstr "בחר גופן בעל רוחב אחיד לשימוש ביישומים מיועדי טקסט."
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
-msgstr ""
+msgstr "קנה מידה של טקסט"
 
 #: src/panel/settings/settings_fonts.vala:73
 msgid "Set the text scaling factor."
-msgstr ""
+msgstr "מכפלת קנה מידה של טקסט."
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
@@ -1042,15 +1043,15 @@ msgstr "האם אתה בטוח כי ברצונך לסיים את הסשן שלך
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
-msgstr ""
+msgstr "בלחיצה, הצג את כל החלונות "
 
 #: src/applets/icon-tasklist/settings.ui.h:2
 msgid "Only show favorited"
-msgstr ""
+msgstr "הצג רק יישומים מועדפים"
 
 #: src/applets/icon-tasklist/settings.ui.h:3
 msgid "Lock icons"
-msgstr ""
+msgstr "נעל אייקונים"
 
 #: src/applets/icon-tasklist/settings.ui.h:4
 msgid "Restrict to Workspace"
@@ -1115,7 +1116,7 @@ msgstr "סמל תפריט"
 
 #: src/applets/workspaces/settings.ui.h:1
 msgid "\"Add\" button visibility"
-msgstr ""
+msgstr "הצגת כפתור \"הוסף\""
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
@@ -1123,7 +1124,7 @@ msgstr ""
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
-msgstr ""
+msgstr "הצג עם ריחוף העכבר "
 
 #: src/applets/workspaces/settings.ui.h:4
 #, fuzzy
