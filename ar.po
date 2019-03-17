@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-03-17 07:05+0000\n"
-"Last-Translator: Wajdi <wajdi.saeed2@gmail.com>\n"
+"PO-Revision-Date: 2019-03-17 07:10+0000\n"
+"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
 "Language-Team: Arabic <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ar/>\n"
 "Language: ar\n"
@@ -87,7 +87,7 @@ msgstr "الإشعارات"
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
-msgstr "لا تطبيقات تستخدم الصوت حاليا"
+msgstr "لا تطبيقات تستخدم الصوت حاليا."
 
 #: src/raven/start_listening.vala:28
 msgid "Play some music"
@@ -637,7 +637,7 @@ msgstr "السماح برفع مستوى الصوت أعلى من 100٪"
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
 msgstr ""
 "السماح برفع مستوى الصوت حتى 150٪ عبر إعدادات الصوت بالإضافة إلى أداة إخراج "
-"الصوت في Raven"
+"الصوت في Raven."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
@@ -645,7 +645,7 @@ msgstr "عرض رقم الأسبوع في التقويم"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr "يتيح هذا الإعداد عرض رقم الأسبوع في أداة التقويم"
+msgstr "يتيح هذا الإعداد عرض رقم الأسبوع في أداة التقويم."
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
@@ -653,7 +653,7 @@ msgstr "عرض أداة التقويم"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr "إظهار أو إخفاء أداة التقويم من الأدوات الصغيرة"
+msgstr "إظهار أو إخفاء أداة التقويم من الأدوات الصغيرة."
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
@@ -661,7 +661,7 @@ msgstr "إظهار أداة خرج الصوت"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr "إظهار أو إخفاء أداة خرج الصوت في قسم الادوات الصغيرة"
+msgstr "إظهار أو إخفاء أداة خرج الصوت في قسم الادوات الصغيرة."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
@@ -669,7 +669,7 @@ msgstr "إظهار أداة دخل المكيرفون"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
-msgstr "إظهار أو إخفاء أداة دخل الميكروفون في قسم الأدوات الصغيرة"
+msgstr "إظهار أو إخفاء أداة دخل الميكروفون في قسم الأدوات الصغيرة."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
@@ -735,7 +735,7 @@ msgstr "أيقونات سطح المكتب"
 
 #: src/panel/settings/settings_desktop.vala:44
 msgid "Control whether to allow launchers and icons on the desktop."
-msgstr "السماح لاظهار اختصارات تشغيل البرامج و الأيقونات على سطح المكتب"
+msgstr "السماح لاظهار اختصارات تشغيل البرامج و الأيقونات على سطح المكتب."
 
 #: src/panel/settings/settings_desktop.vala:54
 msgid "Home directory"
@@ -767,7 +767,7 @@ msgstr "الاقراص المثبتة"
 
 #: src/panel/settings/settings_desktop.vala:73
 msgid "Mounted volumes & drives will appear on the desktop."
-msgstr "الأقراص و وسائل التخزين الموصولة ستظهر على سطح المكتب"
+msgstr "الأقراص و وسائل التخزين الموصولة ستظهر على سطح المكتب."
 
 #: src/panel/settings/settings_style.vala:33
 msgid "Style"
@@ -952,7 +952,7 @@ msgstr "توسيط النوافذ الجديدة على الشاشة"
 
 #: src/panel/settings/settings_wm.vala:54
 msgid "Center newly launched windows on the current screen."
-msgstr "توسيط النوافذ التي فتحت حديثا على الشاشة الحالية"
+msgstr "توسيط النوافذ التي فتحت حديثا على الشاشة الحالية."
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
@@ -981,7 +981,7 @@ msgstr "تمكين تغيير تركيز النافذة لدخول و مغادر
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
 msgstr ""
 "تمكين تركيز النافذة ليتم تطبيقها،  عندما يدخل مؤشر الفأرة النافذة، وعدم "
-"التركيز عندما يغادر مؤشر الفأرة النافذة"
+"التركيز عندما يغادر مؤشر الفأرة النافذة."
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
@@ -1116,7 +1116,7 @@ msgstr "وسم القائمة"
 
 #: src/applets/budgie-menu/settings.ui.h:5
 msgid "Roll-over mouse"
-msgstr "حرك لأعلى بالفأرة "
+msgstr "حرك لأعلى بالفأرة"
 
 #: src/applets/budgie-menu/settings.ui.h:6
 msgid "Menu Icon"
