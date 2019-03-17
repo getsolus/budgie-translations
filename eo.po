@@ -10,9 +10,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-01-16 11:04+0000\n"
-"Last-Translator: Victor Grousset/tuxayo <victor@tuxayo.net>\n"
-"Language-Team: Esperanto <http://translate.getsol.us/projects/budgie-desktop/translations/eo/>\n"
+"PO-Revision-Date: 2019-03-17 09:05+0000\n"
+"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
+"Language-Team: Esperanto <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/eo/>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -125,7 +126,7 @@ msgstr ""
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
-msgstr "Baterio tute ŝarĝita"
+msgstr "Baterio tute ŝarĝita."
 
 #: src/applets/status/PowerIndicator.vala:100
 msgid "Unknown"
@@ -375,7 +376,7 @@ msgstr "Nenio montrebla nun"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:185
 msgid "Mount some drives"
-msgstr "Surmeti kelkajn diskojn "
+msgstr "Surmeti kelkajn diskojn"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:185
 msgid "Enable more sections"
@@ -615,7 +616,9 @@ msgstr "Stiligi regionojn"
 
 #: src/panel/settings/settings_panel.vala:269
 msgid "Adds a hint to the panel so that each of the panel's three main areas may be themed differently."
-msgstr "Ĝi apartigas la tri ĉefajn areojn de la panelo por ke ili povu esti agorditaj malsammaniere"
+msgstr ""
+"Ĝi apartigas la tri ĉefajn areojn de la panelo por ke ili povu esti "
+"agorditaj malsammaniere."
 
 #: src/panel/settings/settings_panel.vala:276
 msgid "Dock mode"
@@ -687,7 +690,8 @@ msgstr "Konfirmi panelan forigon"
 
 #: src/panel/settings/settings_panel_dialogs.vala:36
 msgid "Do you really want to remove this panel? This action cannot be undone."
-msgstr "Ĉu vi vere volas forigi ĉi tiun panelon? Tiu ago ne povas esti malfarita"
+msgstr ""
+"Ĉu vi vere volas forigi ĉi tiun panelon? Tiu ago ne povas esti malfarita."
 
 #: src/panel/settings/settings_panel_dialogs.vala:51
 #: src/panel/settings/settings_panel_dialogs.vala:114
@@ -708,7 +712,7 @@ msgstr "Konfirmi apletan forigon"
 
 #: src/panel/settings/settings_panel_dialogs.vala:99
 msgid "Do you really want to remove this applet? This action cannot be undone."
-msgstr "Ĉu vi vere volas forigi tiun apleton? Tiu ago ne povas esti malfarita"
+msgstr "Ĉu vi vere volas forigi tiun apleton? Tiu ago ne povas esti malfarita."
 
 #: src/panel/settings/settings_panel_dialogs.vala:123
 msgid "Remove applet"
