@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 09:00+0000\n"
-"Last-Translator: Teng Cheong Ha <haemophilic@gmail.com>\n"
+"Last-Translator: Chris <chrishumm@hotmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -557,7 +557,7 @@ msgstr "自動"
 
 #: src/panel/settings/settings_panel.vala:211
 msgid "Intelligent"
-msgstr ""
+msgstr "聰明"
 
 #: src/panel/settings/settings_panel.vala:214
 msgid "Never"
@@ -573,7 +573,7 @@ msgstr ""
 
 #: src/panel/settings/settings_panel.vala:239
 msgid "Size"
-msgstr "大小"
+msgstr "比例"
 
 #: src/panel/settings/settings_panel.vala:240
 msgid "Set the size (width or height, depending on orientation) of this panel"
@@ -589,7 +589,7 @@ msgstr ""
 
 #: src/panel/settings/settings_panel.vala:255
 msgid "Transparency"
-msgstr ""
+msgstr "透明度"
 
 #: src/panel/settings/settings_panel.vala:256
 msgid "Control when this panel should have a solid background"
@@ -715,7 +715,7 @@ msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:33
 msgid "Desktop"
-msgstr ""
+msgstr "桌面"
 
 #: src/panel/settings/settings_desktop.vala:43
 msgid "Desktop Icons"
@@ -727,7 +727,7 @@ msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:54
 msgid "Home directory"
-msgstr ""
+msgstr "家目錄"
 
 #: src/panel/settings/settings_desktop.vala:55
 msgid "Add a shortcut to your home directory on the desktop."
