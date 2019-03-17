@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 07:44+0000\n"
-"Last-Translator: Matteo Migliarini <cacca.rocca@gmail.com>\n"
+"Last-Translator: Fabio <fabio@redaril.me>\n"
 "Language-Team: Italian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/it/>\n"
 "Language: it\n"
@@ -932,9 +932,10 @@ msgid "Attach modal dialogs to windows"
 msgstr "Fissa le finestre modali alle finestre"
 
 #: src/panel/settings/settings_wm.vala:42
-#, fuzzy
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr "Le finestre modali saranno fissate alla finestra padre e si muoveranno insieme quando trascinate"
+msgstr ""
+"Le finestre modali saranno fissate alla finestra padre e si muoveranno "
+"insieme quando trascinate."
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Button layout"
