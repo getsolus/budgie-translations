@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-26 15:18+0000\n"
-"Last-Translator: Moriel Ever <emoriel17@yahoo.com>\n"
+"PO-Revision-Date: 2019-03-17 06:44+0000\n"
+"Last-Translator: Yoni Banai <ink.bug@gmail.com>\n"
 "Language-Team: Hebrew <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/he/>\n"
 "Language: he\n"
@@ -71,7 +71,7 @@ msgstr "ייכבה בעוד"
 #: src/raven/notifications_group.vala:44
 #: src/applets/caffeine/CaffeineWindow.vala:25
 msgid "Caffeine Mode"
-msgstr ""
+msgstr "מצב קפאין"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
@@ -206,7 +206,7 @@ msgstr "מזער"
 
 #: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Unfavorite"
-msgstr ""
+msgstr "הסר ממועדפים"
 
 #: src/applets/icon-tasklist/IconPopover.vala:372
 msgid "Favorite"
@@ -265,7 +265,7 @@ msgstr "הכל"
 #. placeholder in case of no results
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:271
 msgid "Sorry, no items found"
-msgstr ""
+msgstr "מצטערים, לא נמצאו פריטים"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
@@ -633,7 +633,7 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
-msgstr ""
+msgstr "אפשר תצוגה של מספרי שבועות בלוח השנה"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
@@ -641,7 +641,7 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
-msgstr ""
+msgstr "הצג יישומון לוח שנה"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
@@ -649,7 +649,7 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
-msgstr ""
+msgstr "הצג את יישומון פלט השמע"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
@@ -657,7 +657,7 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
-msgstr ""
+msgstr "הצג את יישומון קלט המיקרופון"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
@@ -673,7 +673,7 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
-msgstr ""
+msgstr "הצג את רצועת ההספק"
 
 #: src/panel/settings/settings_raven.vala:76
 msgid "Shows or hides the Power Strip in the bottom of Raven."
@@ -800,7 +800,7 @@ msgstr "התראות"
 
 #: src/panel/settings/settings_style.vala:63
 msgid "Set the location for notification popups"
-msgstr ""
+msgstr "קבע את המיקום המיועד לחלוניות התראה"
 
 #: src/panel/settings/settings_style.vala:72
 msgid "Dark theme"
@@ -824,24 +824,20 @@ msgid "Control whether windows and controls use animations"
 msgstr "בחר האם חלונות ופקדים ישתמשו בהנפשות"
 
 #: src/panel/settings/settings_style.vala:209
-#, fuzzy
 msgid "Top Left"
-msgstr "שמאל"
+msgstr "שמאל עליון"
 
 #: src/panel/settings/settings_style.vala:211
-#, fuzzy
 msgid "Bottom Left"
-msgstr "תחתון"
+msgstr "שמאל תחתון"
 
 #: src/panel/settings/settings_style.vala:213
-#, fuzzy
 msgid "Bottom Right"
-msgstr "תחתון"
+msgstr "ימין תחתון"
 
 #: src/panel/settings/settings_style.vala:216
-#, fuzzy
 msgid "Top Right"
-msgstr "ימין"
+msgstr "ימין עליון"
 
 #: src/panel/settings/settings_autostart.vala:141
 msgid "Untitled"
