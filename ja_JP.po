@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 09:05+0000\n"
-"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
+"Last-Translator: Ville Salminen <zerovibrance@airmail.cc>\n"
 "Language-Team: Japanese <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ja/>\n"
 "Language: ja_JP\n"
@@ -125,7 +125,7 @@ msgstr ""
 
 #: src/raven/sound.vala:159
 msgid "Devices"
-msgstr ""
+msgstr "デバイス"
 
 #: src/applets/status/PowerIndicator.vala:97
 msgid "Battery fully charged."
@@ -191,7 +191,7 @@ msgstr ""
 
 #: src/applets/icon-tasklist/IconPopover.vala:96
 msgid "Close All Windows"
-msgstr ""
+msgstr "すべてのウィンドウを閉じる"
 
 #: src/applets/icon-tasklist/IconPopover.vala:104
 #, fuzzy
