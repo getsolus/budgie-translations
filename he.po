@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-03-17 06:50+0000\n"
-"Last-Translator: Yoni Banai <ink.bug@gmail.com>\n"
+"PO-Revision-Date: 2019-03-17 09:05+0000\n"
+"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
 "Language-Team: Hebrew <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/he/>\n"
 "Language: he\n"
@@ -161,7 +161,7 @@ msgstr "שלח קבצים"
 #. Airplane mode
 #: src/applets/status/BluetoothIndicator.vala:73
 msgid "Bluetooth Airplane Mode"
-msgstr "בלוטות' מצב טיסה "
+msgstr "בלוטות' מצב טיסה"
 
 #: src/applets/status/BluetoothIndicator.vala:179
 msgid "Bluetooth is disabled"
@@ -636,7 +636,7 @@ msgstr "אפשר תצוגה של מספרי שבועות בלוח השנה"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr "הגדרה זו מאפשרת להציג את מספרי השבועות ביישום widget של היומן"
+msgstr "הגדרה זו מאפשרת להציג את מספרי השבועות ביישום widget של היומן."
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
@@ -684,7 +684,7 @@ msgstr "אשר הסרת לוח"
 
 #: src/panel/settings/settings_panel_dialogs.vala:36
 msgid "Do you really want to remove this panel? This action cannot be undone."
-msgstr "האם ברצונך להסיר פאנל זה? פעולה זו אינה ניתנת לביטול"
+msgstr "האם ברצונך להסיר פאנל זה? פעולה זו אינה ניתנת לביטול."
 
 #: src/panel/settings/settings_panel_dialogs.vala:51
 #: src/panel/settings/settings_panel_dialogs.vala:114
@@ -742,7 +742,7 @@ msgstr "מיקומי רשת"
 
 #: src/panel/settings/settings_desktop.vala:61
 msgid "Add a shortcut to your local network servers on the desktop."
-msgstr "הוסף קיצור של מיקומי רשת מקומיים לשולחן העבודה"
+msgstr "הוסף קיצור של מיקומי רשת מקומיים לשולחן העבודה."
 
 #: src/panel/settings/settings_desktop.vala:66
 msgid "Trash"
@@ -1043,7 +1043,7 @@ msgstr "האם אתה בטוח כי ברצונך לסיים את הסשן שלך
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
-msgstr "בלחיצה, הצג את כל החלונות "
+msgstr "בלחיצה, הצג את כל החלונות"
 
 #: src/applets/icon-tasklist/settings.ui.h:2
 msgid "Only show favorited"
@@ -1124,7 +1124,7 @@ msgstr "אל תציג"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
-msgstr "הצג עם ריחוף העכבר "
+msgstr "הצג עם ריחוף העכבר"
 
 #: src/applets/workspaces/settings.ui.h:4
 #, fuzzy
