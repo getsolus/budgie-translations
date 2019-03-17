@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: budgie-desktop 10.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-03-17 08:45+0000\n"
-"Last-Translator: Gagandeep Singh <gagankang420@gmail.com>\n"
+"PO-Revision-Date: 2019-03-17 09:05+0000\n"
+"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
 "Language-Team: Punjabi <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/pa/>\n"
 "Language: pa\n"
@@ -29,7 +29,7 @@ msgstr "ਮੁੜ ਚਾਲੂ ਕਰੋ"
 
 #: src/daemon/endsession.vala:187 src/daemon/endsession.ui.h:1
 msgid "Power Off"
-msgstr "ਬੰਦ ਕਰੋ "
+msgstr "ਬੰਦ ਕਰੋ"
 
 #: src/daemon/menus.vala:52
 msgid "Change background"
@@ -68,7 +68,7 @@ msgstr ""
 #: src/raven/notifications_group.vala:44
 #: src/applets/caffeine/CaffeineWindow.vala:25
 msgid "Caffeine Mode"
-msgstr " ਚਾਹ ਮੋੜ "
+msgstr "ਚਾਹ ਮੋੜ"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
