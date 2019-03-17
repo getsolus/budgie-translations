@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 07:37+0000\n"
-"Last-Translator: Davide Pucci <posta@davidepucci.it>\n"
+"Last-Translator: R. <raffaele.tranquillini@gmail.com>\n"
 "Language-Team: Italian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/it/>\n"
 "Language: it\n"
@@ -729,9 +729,8 @@ msgid "Desktop Icons"
 msgstr "Icone desktop"
 
 #: src/panel/settings/settings_desktop.vala:44
-#, fuzzy
 msgid "Control whether to allow launchers and icons on the desktop."
-msgstr "Controlla se permettere lanciatori e icone sul desktop"
+msgstr "Controlla se permettere lanciatori e icone sul desktop."
 
 #: src/panel/settings/settings_desktop.vala:54
 msgid "Home directory"
@@ -747,9 +746,8 @@ msgid "Network servers"
 msgstr "Server di rete"
 
 #: src/panel/settings/settings_desktop.vala:61
-#, fuzzy
 msgid "Add a shortcut to your local network servers on the desktop."
-msgstr "Aggiunge una scorciatoia ai tuoi server di rete sulla scrivania"
+msgstr "Aggiungi una scorciatoia ai server di rete locali sulla scrivania"
 
 #: src/panel/settings/settings_desktop.vala:66
 msgid "Trash"
