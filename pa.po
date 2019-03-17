@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 08:45+0000\n"
-"Last-Translator: Gagandeep Singh <gagankang420@gmail.com>\n"
+"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
 "Language-Team: Punjabi <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/pa/>\n"
 "Language: pa\n"
@@ -41,9 +41,7 @@ msgstr "ਡਿਸਪਲੇਅ"
 
 #: src/daemon/menus.vala:66 src/panel/settings/settings_panel.vala:97
 msgid "Settings"
-msgstr ""
-"\n"
-"ਸੈਟਿੰਗਾਂ"
+msgstr "ਸੈਟਿੰਗਾਂ"
 
 #. Should show a notification
 #: src/daemon/settings.vala:310
