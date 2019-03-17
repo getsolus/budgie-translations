@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-03-17 07:27+0000\n"
-"Last-Translator: Eduardo Bezerra Subtil <mrmessuped@gmail.com>\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese (Portugal) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/pt_PT/>\n"
 "Language: pt_PT\n"
@@ -968,6 +968,8 @@ msgstr "Desativar modo de Luz Noturna em janelas maximizadas"
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr ""
+"Desativar modo de Luz Noturna quando uma janela está maximizada. Ativar após "
+"saída de modo maximizado."
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
@@ -986,6 +988,8 @@ msgstr "Ativar mudança de foco quando o rato entra e sai da janela"
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
 msgstr ""
+"Ativa o foco da janela quando o rato entra na janela e desativa-se o foco "
+"quando o rato sai da janela."
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
