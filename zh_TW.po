@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-03-17 06:19+0000\n"
-"Last-Translator: Teng Cheong Ha <haemophilic@gmail.com>\n"
+"PO-Revision-Date: 2019-03-17 09:00+0000\n"
+"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
 "Language-Team: Chinese (Traditional) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -543,7 +543,7 @@ msgstr "底部"
 
 #: src/panel/settings/settings_panel.vala:193
 msgid "Always"
-msgstr ""
+msgstr "总是"
 
 #: src/panel/settings/settings_panel.vala:195
 msgid "Dynamic"
