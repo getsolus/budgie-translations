@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-03-27 00:10+0000\n"
+"PO-Revision-Date: 2019-03-27 01:42+0000\n"
 "Last-Translator: Christophe Silva <Christophesilva80@gmail.com>\n"
 "Language-Team: Portuguese (Portugal) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/pt_PT/>\n"
@@ -77,7 +77,7 @@ msgstr "Modo produtividade"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
-msgstr "Aplicativos"
+msgstr "Mini-aplicações"
 
 #: src/raven/main_view.vala:66
 #: src/applets/notifications/NotificationsApplet.plugin.in.h:1
@@ -186,7 +186,7 @@ msgstr "Definições de áudio"
 
 #: src/applets/icon-tasklist/IconPopover.vala:93
 msgid "Launch New Instance"
-msgstr "Executar Nova Instância"
+msgstr "Iniciar nova instância"
 
 #: src/applets/icon-tasklist/IconPopover.vala:96
 msgid "Close All Windows"
@@ -270,19 +270,19 @@ msgstr "Nenhum item encontrado"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
-msgstr "Caps lock está ativo"
+msgstr "Caps lock está ligado"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:65
 msgid "Caps lock is not active"
-msgstr "Caps lock não está ativo"
+msgstr "Caps lock está desligado"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:75
 msgid "Num lock is active"
-msgstr "Num lock está ativo"
+msgstr "Num lock está ligado"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:78
 msgid "Num lock is not active"
-msgstr "Num lock não está ativo"
+msgstr "Num lock está desligado"
 
 #: src/applets/clock/ClockApplet.vala:151
 msgid "Time and date settings"
@@ -335,7 +335,7 @@ msgstr "Utilizador"
 #. The rest
 #: src/applets/user-indicator/UserIndicatorWindow.vala:101
 msgid "Lock"
-msgstr "Trancar"
+msgstr "Bloquear"
 
 #: src/applets/user-indicator/UserIndicatorWindow.vala:102
 msgid "Suspend"
@@ -353,7 +353,7 @@ msgstr "Reiniciar"
 #: src/applets/user-indicator/UserIndicatorWindow.vala:105
 #: src/daemon/endsession.ui.h:6
 msgid "Shutdown"
-msgstr "Encerrar"
+msgstr "Desligar"
 
 #. IndicatorItem switch_user_menu = new IndicatorItem(_("Switch User"), "network-transmit-receive-symbolic", false);
 #: src/applets/user-indicator/UserIndicatorWindow.vala:179
@@ -388,11 +388,11 @@ msgstr "Abrir \"%s\""
 
 #: src/applets/places-indicator/MountHelper.vala:39
 msgid "Volume is in use by other processes"
-msgstr "Volume está em uso por outros processos"
+msgstr "Volume está a ser usado por outros processos"
 
 #: src/applets/places-indicator/MountHelper.vala:45
 msgid "Operation aborted"
-msgstr "Operação abortada"
+msgstr "Operação cancelada"
 
 #: src/applets/places-indicator/MountHelper.vala:57
 msgid "Type your password"
@@ -501,11 +501,11 @@ msgstr "Doca Superior"
 
 #: src/panel/settings/settings_panel.vala:122
 msgid "Right Dock"
-msgstr "Doca Direita"
+msgstr "Doca à Direita"
 
 #: src/panel/settings/settings_panel.vala:124
 msgid "Left Dock"
-msgstr "Doca Esquerda"
+msgstr "Doca à Esquerda"
 
 #: src/panel/settings/settings_panel.vala:126
 msgid "Bottom Dock"
@@ -629,11 +629,13 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
-msgstr "Permitir aumento de volume após 100%"
+msgstr "Permitir aumentar o volume acima de 100%"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
-msgstr "Permite aumentar o volume via definições de áudio, assim como o widget de saída de som no Raven para até 150%."
+msgstr ""
+"Permite aumentar o volume via definições de áudio, assim como na ferramenta "
+"de saída de som no Raven até 150%."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
@@ -647,12 +649,13 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
-msgstr "Mostrar a ferramenta Calendário"
+msgstr "Exibir a ferramenta Calendário"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
 msgstr ""
-"Exibe ou oculta a ferramenta Calendário na secção de Aplicações do Raven."
+"Exibir ou ocultar a ferramenta Calendário na secção de mini-aplicações do "
+"Raven."
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
@@ -661,8 +664,8 @@ msgstr "Exibir a ferramenta de saída de som"
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
 msgstr ""
-"Exibe ou oculta a ferramenta de saída de som na secção de aplicações do "
-"Raven."
+"Exibir ou ocultar a ferramenta de saída de som na secção de mini-aplicações "
+"do Raven."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
@@ -671,18 +674,18 @@ msgstr "Exibir a ferramenta de entrada de microfone"
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
 msgstr ""
-"Exibe ou oculta a ferramenta de entrada de microfone na secção de aplicações "
-"do Raven."
+"Exibir ou ocultar a ferramenta de entrada de microfone na secção de mini-"
+"aplicações do Raven."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
-msgstr "Exibe a ferramenta de controlos de reprodução de media"
+msgstr "Exibir a ferramenta de controlos de reprodução de media"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
 msgstr ""
-"Exibe ou oculta a Ferramenta de Controlo de Meios (MPRIS) de Reprodução na "
-"secção de Aplicações do Raven."
+"Exibir ou ocultar a ferramenta de Controlo de Meios (MPRIS) de Reprodução na "
+"secção de mini-aplicações do Raven."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
@@ -719,7 +722,7 @@ msgstr "Confirmar remoção de applet"
 
 #: src/panel/settings/settings_panel_dialogs.vala:99
 msgid "Do you really want to remove this applet? This action cannot be undone."
-msgstr "Pretende mesmo remover este applet? Esta ação é irreversível."
+msgstr "Pretende mesmo remover esta mini-aplicação? Esta ação é irreversível."
 
 #: src/panel/settings/settings_panel_dialogs.vala:123
 msgid "Remove applet"
@@ -939,7 +942,7 @@ msgstr "Janelas"
 
 #: src/panel/settings/settings_wm.vala:41
 msgid "Attach modal dialogs to windows"
-msgstr "Adicionar diálogos modais às janelas"
+msgstr "Agregar diálogos modais às janelas"
 
 #: src/panel/settings/settings_wm.vala:42
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
@@ -980,7 +983,7 @@ msgstr "Agrupamento automático"
 #: src/panel/settings/settings_wm.vala:66
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
 msgstr ""
-"As janelas irão ser automáticamente agrupadas quando arrastadas para o topo "
+"As janelas irão ser automaticamente agrupadas quando arrastadas para o topo "
 "da tela ou os cantos."
 
 #: src/panel/settings/settings_wm.vala:71
@@ -1042,7 +1045,7 @@ msgstr "Monoespaço"
 #: src/panel/settings/settings_fonts.vala:66
 msgid "Set the fixed-width font used by text dominant applications."
 msgstr ""
-"Defina a fonte de largura fixa usada pelas aplicações de texto dominante."
+"Defina a largura fixa da fonte utilizada pelas aplicações de texto dominante."
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
@@ -1054,7 +1057,7 @@ msgstr "Defina o fator de escalonamento de texto."
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
-msgstr "Escolher um applet"
+msgstr "Escolher uma mini-aplicação"
 
 #: src/daemon/endsession.ui.h:2
 msgid "Are you sure you want to end your session?"
@@ -1179,7 +1182,7 @@ msgstr "Mostrar drives removíveis"
 
 #: src/applets/places-indicator/settings.ui.h:5
 msgid "Always expand places"
-msgstr "Expandir sempre locais"
+msgstr "Expandir sempre os locais"
 
 #: src/polkit/dialog.ui.h:1
 msgid "Authentication Required"
@@ -1260,11 +1263,11 @@ msgstr "Produtividade"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
-msgstr "Indicador de layout de teclado"
+msgstr "Indicador de idioma do teclado"
 
 #: src/applets/user-indicator/UserIndicator.plugin.in.h:1
 msgid "User Indicator"
-msgstr "Indicador do utilizador"
+msgstr "Indicador do Utilizador"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
 msgid "Change desktop appearance and behavior"
