@@ -10,9 +10,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-01 16:17+0000\n"
+"PO-Revision-Date: 2019-08-13 09:34+0000\n"
 "Last-Translator: Pierre-Yves <pyu@riseup.net>\n"
-"Language-Team: French (Belgium) <http://translate.getsol.us/projects/budgie-desktop/translations/fr_BE/>\n"
+"Language-Team: French (Belgium) <http://translate.getsol.us/projects/"
+"budgie-desktop/translations/fr_BE/>\n"
 "Language: fr_BE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56,15 +57,14 @@ msgstr "Injection de Caféine désactivée"
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
 #: src/daemon/settings.vala:317
-#, fuzzy
 msgid "Will turn off in a minute"
-msgstr "S'éteindra dans"
+msgstr "S'éteindra dans dans une minute"
 
 #. use plural
 #: src/daemon/settings.vala:320
-#, fuzzy, c-format
+#, c-format
 msgid "Will turn off in %d minutes"
-msgstr "S'éteindra dans"
+msgstr "S'éteindra dans %d minutes"
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:44
