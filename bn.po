@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-26 15:18+0000\n"
+"PO-Revision-Date: 2019-08-13 09:34+0000\n"
 "Last-Translator: Reback 00 <reback00@mailfence.com>\n"
 "Language-Team: Bengali <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/bn/>\n"
@@ -1194,7 +1194,7 @@ msgstr "স্পেসার"
 
 #: src/applets/budgie-menu/BudgieMenu.plugin.in.h:1
 msgid "Budgie Menu"
-msgstr "Budgie মেনু "
+msgstr "Budgie মেনু"
 
 #: src/applets/lock-keys/LockKeysApplet.plugin.in.h:1
 msgid "Lock Keys Indicator"
