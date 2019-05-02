@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-05-02 18:01+0000\n"
-"Last-Translator: Yoni Banai <ink.bug@gmail.com>\n"
+"PO-Revision-Date: 2019-08-13 09:34+0000\n"
+"Last-Translator: Ido Galili <ido.galili@zoho.com>\n"
 "Language-Team: Hebrew <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/he/>\n"
 "Language: he\n"
@@ -161,7 +161,7 @@ msgstr "שלח קבצים"
 #. Airplane mode
 #: src/applets/status/BluetoothIndicator.vala:73
 msgid "Bluetooth Airplane Mode"
-msgstr "Bluetooth מצב טיסה"
+msgstr "מצב טיסה בלוטות'"
 
 #: src/applets/status/BluetoothIndicator.vala:179
 msgid "Bluetooth is disabled"
@@ -197,7 +197,7 @@ msgstr "תמיד מלפנים"
 #: src/applets/icon-tasklist/IconPopover.vala:106
 #: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Maximize"
-msgstr "מרב"
+msgstr "הרחב"
 
 #: src/applets/icon-tasklist/IconPopover.vala:107
 msgid "Minimize"
@@ -222,7 +222,7 @@ msgstr "העבר למרחב עבודה %i"
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:484
 msgid "Unmaximize"
-msgstr "בטל מירוב"
+msgstr "בטל הרחבה"
 
 #: src/applets/icon-tasklist/IconPopover.vala:543
 msgid "Close Window"
@@ -230,7 +230,7 @@ msgstr "סגור את החלון"
 
 #: src/applets/icon-tasklist/IconPopover.vala:545
 msgid "Show Window Controls"
-msgstr "הצג מכווני חלון"
+msgstr "הצג בקרי חלון"
 
 #: src/applets/budgie-menu/IconChooser.vala:27
 msgid "Set menu icon from file"
