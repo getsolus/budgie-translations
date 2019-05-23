@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
 "PO-Revision-Date: 2019-05-23 19:52+0000\n"
-"Last-Translator: Abdulkadir Furkan Şanlı <abdulkadirfsanli@protonmail.com>\n"
+"Last-Translator: Burak Yildiz <burakcyildiz@gmail.com>\n"
 "Language-Team: Turkish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/tr/>\n"
 "Language: tr\n"
@@ -48,11 +48,11 @@ msgstr "Ayarlar"
 #. Should show a notification
 #: src/daemon/settings.vala:310
 msgid "Turned on Caffeine Boost"
-msgstr "Kafein Artırımı açıldı"
+msgstr "Kafein Takviyesi açıldı"
 
 #: src/daemon/settings.vala:310
 msgid "Turned off Caffeine Boost"
-msgstr "Kafein Artırımı kapatıldı"
+msgstr "Kafein Takviyesi kapatıldı"
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
