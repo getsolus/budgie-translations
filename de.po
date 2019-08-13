@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-08-13 09:34+0000\n"
+"PO-Revision-Date: 2019-08-13 09:59+0000\n"
 "Last-Translator: Pascal Roesener <riedeman@uni-bremen.de>\n"
 "Language-Team: German <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/de/>\n"
@@ -203,7 +203,7 @@ msgstr "Neue Instanz starten"
 
 #: src/applets/icon-tasklist/IconPopover.vala:96
 msgid "Close All Windows"
-msgstr "Alle Fenster schliessen"
+msgstr "Alle Fenster schließen"
 
 #: src/applets/icon-tasklist/IconPopover.vala:104
 msgid "Always On Top"
@@ -241,7 +241,7 @@ msgstr "Maximierung aufheben"
 
 #: src/applets/icon-tasklist/IconPopover.vala:543
 msgid "Close Window"
-msgstr "Fenster schliessen"
+msgstr "Fenster schließen"
 
 #: src/applets/icon-tasklist/IconPopover.vala:545
 msgid "Show Window Controls"
