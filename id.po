@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-08-14 13:17+0000\n"
-"Last-Translator: Afrizal Yusren <yusrenz@gmail.com>\n"
+"PO-Revision-Date: 2019-09-04 00:03+0000\n"
+"Last-Translator: Yurizal Susanto <yursan9@pm.me>\n"
 "Language-Team: Indonesian <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/id/>\n"
 "Language: id\n"
@@ -942,7 +942,7 @@ msgstr "Pusatkan jendela baru di layar"
 
 #: src/panel/settings/settings_wm.vala:54
 msgid "Center newly launched windows on the current screen."
-msgstr "Ketengahkan jendela yang baru diluncurkan pada layar saat ini."
+msgstr "Pusatkan jendela yang baru diluncurkan pada layar saat ini."
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
@@ -990,7 +990,7 @@ msgstr "Judul Jendela"
 
 #: src/panel/settings/settings_fonts.vala:45
 msgid "Set the font used in the titlebars of applications."
-msgstr "Tentukan fonta yang digunakan pada bar judul aplikasi."
+msgstr "Tentukan fon yang digunakan pada bar judul aplikasi."
 
 #: src/panel/settings/settings_fonts.vala:51
 msgid "Documents"
@@ -998,7 +998,7 @@ msgstr "Dokumen"
 
 #: src/panel/settings/settings_fonts.vala:52
 msgid "Set the display font used by for documents."
-msgstr "Tentukan fonta tampilan yang digunakan oleh dokumen."
+msgstr "Tentukan fon tampilan yang digunakan oleh dokumen."
 
 #: src/panel/settings/settings_fonts.vala:58
 msgid "Interface"
@@ -1006,7 +1006,7 @@ msgstr "Antarmuka"
 
 #: src/panel/settings/settings_fonts.vala:59
 msgid "Set the primary font used by application controls."
-msgstr "Tentukan fonta utama yang digunakan oleh kontrol aplikasi."
+msgstr "Tentukan fon utama yang digunakan oleh kontrol aplikasi."
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Monospace"
@@ -1014,7 +1014,7 @@ msgstr "Lebar tetap"
 
 #: src/panel/settings/settings_fonts.vala:66
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr "Tentukan fonta lebar tetap yang digunakan oleh aplikasi dominan teks."
+msgstr "Tentukan fon lebar tetap yang digunakan oleh aplikasi dominan teks."
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
