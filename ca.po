@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-02-22 21:15+0000\n"
+"PO-Revision-Date: 2019-09-04 00:03+0000\n"
 "Last-Translator: David M <medipas@gmail.com>\n"
 "Language-Team: Catalan <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ca/>\n"
@@ -83,7 +83,7 @@ msgstr "Notificacions"
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
-msgstr "No hi ha cap aplicació que ara reprodueixi àudio."
+msgstr "Ara no hi ha cap aplicació que reprodueixi àudio."
 
 #: src/raven/start_listening.vala:28
 msgid "Play some music"
