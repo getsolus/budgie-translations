@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-03-17 09:05+0000\n"
-"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
+"PO-Revision-Date: 2019-09-04 00:03+0000\n"
+"Last-Translator: Victor Grousset/tuxayo <victor@tuxayo.net>\n"
 "Language-Team: Esperanto <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/eo/>\n"
 "Language: eo\n"
@@ -72,7 +72,7 @@ msgstr "Malŝaltiĝos post"
 #: src/raven/notifications_group.vala:44
 #: src/applets/caffeine/CaffeineWindow.vala:25
 msgid "Caffeine Mode"
-msgstr ""
+msgstr "Kafeino-modo"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
