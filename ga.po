@@ -10,14 +10,16 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 06:56+0200\n"
-"PO-Revision-Date: 2019-01-18 07:03+0000\n"
+"PO-Revision-Date: 2019-09-04 00:03+0000\n"
 "Last-Translator: Seán Ó Séaghdha <sean.anseo@gmail.com>\n"
-"Language-Team: Irish <http://translate.getsol.us/projects/budgie-desktop/translations/ga/>\n"
+"Language-Team: Irish <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/ga/>\n"
 "Language: ga\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4);\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4);\n"
 "X-Generator: Weblate 3.4-dev\n"
 
 #: src/daemon/endsession.vala:171
@@ -56,15 +58,14 @@ msgstr "Steall Chaiféine as feidhm"
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
 #: src/daemon/settings.vala:317
-#, fuzzy
 msgid "Will turn off in a minute"
-msgstr "Múchfar é i gceann"
+msgstr "Múchfar é i gceann nóiméid"
 
 #. use plural
 #: src/daemon/settings.vala:320
-#, fuzzy, c-format
+#, c-format
 msgid "Will turn off in %d minutes"
-msgstr "Múchfar é i gceann"
+msgstr "Múchfar é i gceann %d nóiméad"
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:44
@@ -730,9 +731,9 @@ msgid "Desktop Icons"
 msgstr "Deilbhíní Deisce"
 
 #: src/panel/settings/settings_desktop.vala:44
-#, fuzzy
 msgid "Control whether to allow launchers and icons on the desktop."
-msgstr "Rialaigh an mbíonn lainseálaithe agus deilbhíní le feiceáil ar an deasc"
+msgstr ""
+"Rialaigh an mbeidh lainseálaithe agus deilbhíní le feiceáil ar an deasc."
 
 #: src/panel/settings/settings_desktop.vala:54
 msgid "Home directory"
@@ -763,9 +764,8 @@ msgid "Mounted volumes"
 msgstr "Imleabhair Feistithe"
 
 #: src/panel/settings/settings_desktop.vala:73
-#, fuzzy
 msgid "Mounted volumes & drives will appear on the desktop."
-msgstr "Bíonn imleabhair & tiomántáin feistithe le feiceáil ar an deasc"
+msgstr "Beidh imleabhair & tiomántáin feistithe le feiceáil ar an deasc."
 
 #: src/panel/settings/settings_style.vala:33
 msgid "Style"
@@ -796,13 +796,12 @@ msgid "Set the globally used mouse cursor theme"
 msgstr "Socraigh an téama uilíoch do chúrsóirí luch"
 
 #: src/panel/settings/settings_style.vala:62
-#, fuzzy
 msgid "Notification Position"
-msgstr "Fógraí"
+msgstr "Suíomh Fógraí"
 
 #: src/panel/settings/settings_style.vala:63
 msgid "Set the location for notification popups"
-msgstr ""
+msgstr "Socraigh an suíomh do na fógraí"
 
 #: src/panel/settings/settings_style.vala:72
 msgid "Dark theme"
@@ -813,7 +812,6 @@ msgid "Built-in theme"
 msgstr "Téama ionsuite"
 
 #: src/panel/settings/settings_style.vala:80
-#, fuzzy
 msgid "When enabled, the built-in theme will override the desktop component styling"
 msgstr "Sáróidh an téama ionsuite an stíl do na comhpháirteanna deisce"
 
@@ -826,24 +824,20 @@ msgid "Control whether windows and controls use animations"
 msgstr "Rialaigh úsáid beochana ar fhuinneoga agus rialtáin"
 
 #: src/panel/settings/settings_style.vala:209
-#, fuzzy
 msgid "Top Left"
-msgstr "Clé"
+msgstr "Barr Clé"
 
 #: src/panel/settings/settings_style.vala:211
-#, fuzzy
 msgid "Bottom Left"
-msgstr "Íochtar"
+msgstr "Bun Clé"
 
 #: src/panel/settings/settings_style.vala:213
-#, fuzzy
 msgid "Bottom Right"
-msgstr "Íochtar"
+msgstr "Bun Deas"
 
 #: src/panel/settings/settings_style.vala:216
-#, fuzzy
 msgid "Top Right"
-msgstr "Deas"
+msgstr "Barr Deas"
 
 #: src/panel/settings/settings_autostart.vala:141
 msgid "Untitled"
@@ -938,27 +932,26 @@ msgid "Attach modal dialogs to windows"
 msgstr "Ceangail dialóga módúla le fuinneoga"
 
 #: src/panel/settings/settings_wm.vala:42
-#, fuzzy
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr "Ceanglófar dialóga módúla lena máthairfhuinneoga. Bogfaidh siad le chéile agus iad á tharraingt"
+msgstr ""
+"Ceanglófar dialóga módúla lena máthairfhuinneoga is bogfaidh siad le chéile "
+"agus iad á tharraingt."
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Button layout"
 msgstr "Leagan amach Cnaipí"
 
 #: src/panel/settings/settings_wm.vala:48
-#, fuzzy
 msgid "Change the layout of buttons in application titlebars."
-msgstr "Athraigh leagan amach na gcnaipí i mbarraí teidil"
+msgstr "Athraigh leagan amach na gcnaipí i mbarraí teidil."
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
 msgstr "Cuir fuinneoga nua i lár an scáileáin"
 
 #: src/panel/settings/settings_wm.vala:54
-#, fuzzy
 msgid "Center newly launched windows on the current screen."
-msgstr "Cuir fuinneoga nualainseáilte i lár an scáileáin"
+msgstr "Cuir fuinneoga nualainseáilte i lár an scáileáin."
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
@@ -973,9 +966,10 @@ msgid "Automatic tiling"
 msgstr "Tíliú uathoibríoch"
 
 #: src/panel/settings/settings_wm.vala:66
-#, fuzzy
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr "Tíleofar fuinneoga go huathoibríoch nuair a tharraingíonn tú go barr an scáileán nó chuig a chúinní iad"
+msgstr ""
+"Tíleofar fuinneoga go huathoibríoch nuair a tharraingíonn tú iad go barr an "
+"scáileán nó chuig a chúinní."
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
@@ -990,9 +984,10 @@ msgid "Disable unredirection of windows"
 msgstr "Díchumasaigh neamh-atreorú fuinneog (unredirection)"
 
 #: src/panel/settings/settings_wm.vala:79
-#, fuzzy
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr "Rogha le haghaidh ardúsáideoirí. Bain úsáid as seo má tá fadhbanna grafacha nó feidhmíochta agat maidir le GPUanna tiomnaithe"
+msgstr ""
+"Rogha le haghaidh ardúsáideoirí. Bain úsáid as seo má tá fadhbanna grafacha "
+"nó feidhmíochta agat maidir le GPUanna tiomnaithe."
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
@@ -1007,45 +1002,40 @@ msgid "Window Titles"
 msgstr "Teidil Fuinneog"
 
 #: src/panel/settings/settings_fonts.vala:45
-#, fuzzy
 msgid "Set the font used in the titlebars of applications."
-msgstr "Socraigh an clófhoireann le húsáid i mbarraí teidil"
+msgstr "Socraigh an clófhoireann le húsáid i mbarraí teidil."
 
 #: src/panel/settings/settings_fonts.vala:51
 msgid "Documents"
 msgstr "Cáipéisí"
 
 #: src/panel/settings/settings_fonts.vala:52
-#, fuzzy
 msgid "Set the display font used by for documents."
-msgstr "Socraigh an clófhoireann le húsáid i gcáipéisí"
+msgstr "Socraigh an clófhoireann le húsáid i gcáipéisí."
 
 #: src/panel/settings/settings_fonts.vala:58
 msgid "Interface"
 msgstr "Comhéadan"
 
 #: src/panel/settings/settings_fonts.vala:59
-#, fuzzy
 msgid "Set the primary font used by application controls."
-msgstr "Socraigh an príomhchlófhoireann le húsáid ar rialtáin feidhmchláir"
+msgstr "Socraigh an príomhchlófhoireann le húsáid ar rialtáin feidhmchláir."
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Monospace"
 msgstr "Cló Aonleithid"
 
 #: src/panel/settings/settings_fonts.vala:66
-#, fuzzy
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr "Socraigh an cló aonleithid le húsáid i bhfeidhmchláir téacs"
+msgstr "Socraigh an cló aonleithid le húsáid i bhfeidhmchláir téacs."
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Text scaling"
 msgstr "Scálú Téacs"
 
 #: src/panel/settings/settings_fonts.vala:73
-#, fuzzy
 msgid "Set the text scaling factor."
-msgstr "Socraigh an mhéid scálú téacs"
+msgstr "Socraigh an mhéid scálú téacs."
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
