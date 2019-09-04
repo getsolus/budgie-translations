@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
 "PO-Revision-Date: 2019-09-04 17:09+0000\n"
-"Last-Translator: Ivan Rakilovsky <ivan.rakilovsky@gmail.com>\n"
+"Last-Translator: Fuck You <kris_popov1@abv.bg>\n"
 "Language-Team: Bulgarian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/bg/>\n"
 "Language: bg_BG\n"
@@ -143,7 +143,7 @@ msgstr "Оставащ заряд"
 
 #: src/applets/status/PowerIndicator.vala:167
 msgid "Show battery percentage"
-msgstr "Показвай процент на заряд"
+msgstr "Покажи процент на заряд"
 
 #: src/applets/status/PowerIndicator.vala:175
 msgid "Power settings"
@@ -198,7 +198,7 @@ msgstr "Винаги отгоре"
 #: src/applets/icon-tasklist/IconPopover.vala:107
 #: src/applets/icon-tasklist/IconPopover.vala:485
 msgid "Maximize"
-msgstr "На цял екран"
+msgstr "Максимизирай"
 
 #: src/applets/icon-tasklist/IconPopover.vala:108
 msgid "Minimize"
@@ -206,7 +206,7 @@ msgstr "Минимизирай"
 
 #: src/applets/icon-tasklist/IconPopover.vala:373
 msgid "Unfavorite"
-msgstr "Премахни от предпочитани"
+msgstr "Премахване от предпочитани"
 
 #: src/applets/icon-tasklist/IconPopover.vala:373
 msgid "Favorite"
@@ -946,11 +946,11 @@ msgstr "Подредба на копчетата"
 
 #: src/panel/settings/settings_wm.vala:48
 msgid "Change the layout of buttons in application titlebars."
-msgstr "Променете подредбата на бутоните в заглавните ленти на приложенията."
+msgstr "Промяна на подредбата на бутоните в заглавните ленти на приложенията."
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center new windows on screen"
-msgstr "Центрирайте новите прозорци на екрана"
+msgstr "Центриране на новите прозорци на екрана"
 
 #: src/panel/settings/settings_wm.vala:54
 msgid "Center newly launched windows on the current screen."
@@ -958,7 +958,8 @@ msgstr "Новите прозорци се отварят центрирани �
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
-msgstr "Деактивирайте режима Нощна светлина, когато прозорците са на цял екран"
+msgstr ""
+"Деактивиране на режима Нощна светлина, когато прозорците са на цял екран"
 
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
@@ -1002,7 +1003,7 @@ msgstr "Заглавия на прозорците"
 
 #: src/panel/settings/settings_fonts.vala:47
 msgid "Set the font used in the titlebars of applications."
-msgstr "Задайте шрифта, използван в заглавните ленти на приложенията."
+msgstr "Задаване на шрифта, използван в заглавните ленти на приложенията."
 
 #: src/panel/settings/settings_fonts.vala:53
 msgid "Documents"
@@ -1010,7 +1011,7 @@ msgstr "Документи"
 
 #: src/panel/settings/settings_fonts.vala:54
 msgid "Set the display font used by for documents."
-msgstr "Задайте показвания шрифт, използван за документи."
+msgstr "Задаване на показвания шрифт, използван за документи."
 
 #: src/panel/settings/settings_fonts.vala:60
 msgid "Interface"
@@ -1091,7 +1092,7 @@ msgstr "Показване само на любими"
 
 #: src/applets/icon-tasklist/settings.ui.h:3
 msgid "Lock icons"
-msgstr "Заключете иконите"
+msgstr "Заключване на иконите"
 
 #: src/applets/icon-tasklist/settings.ui.h:4
 msgid "Restrict to Workspace"
@@ -1132,7 +1133,7 @@ msgstr "Размер на разрeдката"
 
 #: src/applets/budgie-menu/settings.ui.h:1
 msgid "Show Menu Label"
-msgstr "Показвай надпис на менюто"
+msgstr "Покажи надпис на менюто"
 
 #: src/applets/budgie-menu/settings.ui.h:2
 msgid "Compact Mode"
@@ -1164,11 +1165,11 @@ msgstr "Не показвай"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
-msgstr "Покажете при посочване с мишката"
+msgstr "Показване при посочване с мишката"
 
 #: src/applets/workspaces/settings.ui.h:4
 msgid "Always show"
-msgstr "Показвай винаги"
+msgstr "Винаги показвай"
 
 #: src/applets/caffeine/settings.ui.h:1
 msgid "Enable notification"
@@ -1184,19 +1185,19 @@ msgstr "Ниво на яркостта"
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
-msgstr "Показвай надпис"
+msgstr "Покажи надпис"
 
 #: src/applets/places-indicator/settings.ui.h:2
 msgid "Show places"
-msgstr "Показвай места"
+msgstr "Покажи места"
 
 #: src/applets/places-indicator/settings.ui.h:3
 msgid "Show network folders"
-msgstr "Показвай мрежовите папки"
+msgstr "Покажи мрежовите папки"
 
 #: src/applets/places-indicator/settings.ui.h:4
 msgid "Show removable drives"
-msgstr "Показвай сменяемите устройства"
+msgstr "Покажи сменяемите устройства"
 
 #: src/applets/places-indicator/settings.ui.h:5
 msgid "Always expand places"
@@ -1204,7 +1205,7 @@ msgstr "Винаги разширявай места"
 
 #: src/polkit/dialog.ui.h:1
 msgid "Authentication Required"
-msgstr "Задължителна идентификация"
+msgstr "Нужна е идентификация"
 
 #: src/polkit/dialog.ui.h:2
 msgid "Password:"
@@ -1225,7 +1226,7 @@ msgstr "Budgie Работен плот"
 
 #: src/session/budgie-desktop.desktop.in.in.h:2
 msgid "This session logs you into the Budgie Desktop"
-msgstr "Тази сесия ще ви отведе до \"Budgie\" работен плот"
+msgstr "Тази сесия ще ви отведе до Budgie работен плот"
 
 #: src/applets/tray/TrayApplet.plugin.in.h:1
 msgid "System Tray"
@@ -1253,7 +1254,7 @@ msgstr "Caps/Num Lock индикатор"
 
 #: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
 msgid "Raven Sidebar Control"
-msgstr "Странична лента \"Raven\""
+msgstr "Странична лента Raven"
 
 #: src/applets/clock/ClockApplet.plugin.in.h:1
 msgid "Clock"
