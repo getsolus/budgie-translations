@@ -21,15 +21,18 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-02-02 01:34+0000\n"
-"Last-Translator: Krzysztof <kk@fw190.info>\n"
-"Language-Team: Polish <http://translate.getsol.us/projects/budgie-desktop/translations/pl/>\n"
+"PO-Revision-Date: 2019-09-28 16:21+0000\n"
+"Last-Translator: Krystian <onegajf@gmail.com>\n"
+"Language-Team: Polish <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
-"X-Generator: Weblate 3.4-dev\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<"
+"12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) ||"
+" (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 3.8\n"
 
 #: src/daemon/endsession.vala:171
 msgid "Log out"
@@ -73,9 +76,9 @@ msgstr "Wyłączenie za"
 
 #. use plural
 #: src/daemon/settings.vala:361
-#, fuzzy, c-format
+#, c-format
 msgid "Will turn off in %d minutes"
-msgstr "Wyłączenie za"
+msgstr "Wyłączenie za %d minut."
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:45
