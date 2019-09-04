@@ -13,15 +13,17 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-03-17 09:05+0000\n"
-"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
-"Language-Team: Arabic <http://translate.getsol.us/projects/budgie-desktop/translations/ar/>\n"
+"PO-Revision-Date: 2019-09-28 16:21+0000\n"
+"Last-Translator: Faisal almosbahi <faisal.almosbahi@gmail.com>\n"
+"Language-Team: Arabic <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 3.4-dev\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 3.8\n"
 
 #: src/daemon/endsession.vala:171
 msgid "Log out"
@@ -37,7 +39,7 @@ msgstr "إيقاف التشغيل"
 
 #: src/daemon/menus.vala:52
 msgid "Change background"
-msgstr "تغيير الخلفية"
+msgstr "تغيير خلفية سطح المكتب"
 
 #: src/daemon/menus.vala:57
 msgid "Displays"
@@ -45,34 +47,34 @@ msgstr "شاشات العرض"
 
 #: src/daemon/menus.vala:66 src/panel/settings/settings_panel.vala:97
 msgid "Settings"
-msgstr "إعدادات"
+msgstr "الإعدادات"
 
 #. Should show a notification
 #: src/daemon/settings.vala:351
 msgid "Turned on Caffeine Boost"
-msgstr "تشغل كافيين المعزز"
+msgstr "تشغل برنامج كافيين"
 
 #: src/daemon/settings.vala:351
 msgid "Turned off Caffeine Boost"
-msgstr "إغلاق تطبيق كافيين"
+msgstr "إيقاف برنامج كافيين"
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
 #: src/daemon/settings.vala:358
 msgid "Will turn off in a minute"
-msgstr ""
+msgstr "سيتم الإيقاف خلال دقيقة واحدة"
 
 #. use plural
 #: src/daemon/settings.vala:361
 #, c-format
 msgid "Will turn off in %d minutes"
-msgstr ""
+msgstr "سيتم الإيقاف خلال %d دقائق"
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:45
 #: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Caffeine Mode"
-msgstr "وضع التركيز"
+msgstr "وضع كافيين"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
@@ -85,7 +87,7 @@ msgstr "الإشعارات"
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
-msgstr "لا تطبيقات تستخدم الصوت حاليا."
+msgstr "لا توجد تطبيقات تشغل الصوت حاليًا."
 
 #: src/raven/start_listening.vala:28
 msgid "Play some music"
@@ -104,21 +106,21 @@ msgstr "%u إشعارات غير مقروءة"
 #: src/raven/notifications_view.vala:676
 #: src/applets/notifications/NotificationsApplet.vala:111
 msgid "1 unread notification"
-msgstr "إشعار غير مقروء"
+msgstr "إشعار واحد غير مقروء"
 
 #: src/raven/notifications_view.vala:678
 #: src/applets/notifications/NotificationsApplet.vala:113
 msgid "No unread notifications"
-msgstr "لا إشعارات غير مقروءة"
+msgstr "لاتوجد إشعارات غير مقروءة"
 
 #: src/raven/notifications_view.vala:916
 msgid "No new notifications"
-msgstr "لا إشعارات جديدة"
+msgstr "لاتوجد إشعارات جديدة"
 
 #. 125ms
 #: src/raven/sound.vala:158
 msgid "Apps"
-msgstr "تطبيقات"
+msgstr "التطبيقات"
 
 #: src/raven/sound.vala:159
 msgid "Devices"
@@ -143,7 +145,7 @@ msgstr "المتبقي"
 
 #: src/applets/status/PowerIndicator.vala:167
 msgid "Show battery percentage"
-msgstr "اظهار نسبة البطارية"
+msgstr "إظهار نسبة البطارية"
 
 #: src/applets/status/PowerIndicator.vala:175
 msgid "Power settings"
@@ -162,7 +164,7 @@ msgstr "إرسال الملفات"
 #. Airplane mode
 #: src/applets/status/BluetoothIndicator.vala:73
 msgid "Bluetooth Airplane Mode"
-msgstr "\"وضع طيران\" البلوتوث"
+msgstr "وضع الطيران للبلوتوث"
 
 #: src/applets/status/BluetoothIndicator.vala:179
 msgid "Bluetooth is disabled"
@@ -176,12 +178,12 @@ msgstr "البلوتوث مفعل"
 #, c-format
 msgid "Connected to %d device"
 msgid_plural "Connected to %d devices"
-msgstr[0] "متصل بـ %d جهاز "
-msgstr[1] "متصل بـ %d جهاز"
-msgstr[2] "متصل بـ %d جهاز"
-msgstr[3] "متصل بـ %d أجهزة"
-msgstr[4] "متصل بـ %d جهاز"
-msgstr[5] "متصل بـ  %d جهاز"
+msgstr[0] "غير متصل بأي جهاز"
+msgstr[1] "متصل بجهاز واحد"
+msgstr[2] "متصل بجهازين"
+msgstr[3] "متصل ب %d أجهزة"
+msgstr[4] "متصل ب %d جهاز"
+msgstr[5] "متصل ب %d جهاز"
 
 #: src/applets/status/SoundIndicator.vala:146
 msgid "Sound settings"
@@ -189,7 +191,7 @@ msgstr "إعدادات الصوت"
 
 #: src/applets/icon-tasklist/IconPopover.vala:94
 msgid "Launch New Instance"
-msgstr "إطلاق نسخة جديدة"
+msgstr "تشغيل نافذة جديدة"
 
 #: src/applets/icon-tasklist/IconPopover.vala:97
 msgid "Close All Windows"
@@ -197,7 +199,7 @@ msgstr "أغلق جميع النوافذ"
 
 #: src/applets/icon-tasklist/IconPopover.vala:105
 msgid "Always On Top"
-msgstr "دائماً في المقدمة"
+msgstr "دائمًا في المقدمة"
 
 #: src/applets/icon-tasklist/IconPopover.vala:107
 #: src/applets/icon-tasklist/IconPopover.vala:485
@@ -210,11 +212,11 @@ msgstr "تصغير"
 
 #: src/applets/icon-tasklist/IconPopover.vala:373
 msgid "Unfavorite"
-msgstr "غير مفضل"
+msgstr "إزالة من المفضلة"
 
 #: src/applets/icon-tasklist/IconPopover.vala:373
 msgid "Favorite"
-msgstr "مفضل"
+msgstr "إضافة للمفضلة"
 
 #. If our current amount of workspaces is different than how many we have added
 #. We have items to add
@@ -227,7 +229,7 @@ msgstr "نقل لمساحة العمل %i"
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:485
 msgid "Unmaximize"
-msgstr "بلا تكبير"
+msgstr "إستعادة الحجم"
 
 #: src/applets/icon-tasklist/IconPopover.vala:544
 msgid "Close Window"
@@ -235,7 +237,7 @@ msgstr "إغلاق النافذة"
 
 #: src/applets/icon-tasklist/IconPopover.vala:546
 msgid "Show Window Controls"
-msgstr "عرض التحكم بالنافذة"
+msgstr "عرض عناصر التحكم بالنافذة"
 
 #: src/applets/budgie-menu/IconChooser.vala:27
 msgid "Set menu icon from file"
@@ -259,7 +261,7 @@ msgstr "إلغاء"
 
 #: src/applets/budgie-menu/IconChooser.vala:56
 msgid "Set icon"
-msgstr "اختيار أيقونة"
+msgstr "اختيار الأيقونة"
 
 #. Special case, "All"
 #: src/applets/budgie-menu/BudgieMenuButtons.vala:28
@@ -269,23 +271,23 @@ msgstr "الكل"
 #. placeholder in case of no results
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:271
 msgid "Sorry, no items found"
-msgstr "آسف، لم يتم العثور على العناصر"
+msgstr "عذرًا، لم يتم العثور على أية عناصر"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
-msgstr "زر Caps lock مفعل"
+msgstr "مفتاح الأحرف الكبيرة مفعّل"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:65
 msgid "Caps lock is not active"
-msgstr "زر Caps lock غير مفعل"
+msgstr "مفتاح الأحرف الكبيرة غير مفعّل"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:75
 msgid "Num lock is active"
-msgstr "زر Num lock مفعل"
+msgstr "لوحة مفاتيح الأرقام مفعّلة"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:78
 msgid "Num lock is not active"
-msgstr "زر Num lock غير مفعل"
+msgstr "لوحة مفاتيح الأرقام غير مفعّلة"
 
 #: src/applets/clock/ClockApplet.vala:151
 msgid "Time and date settings"
@@ -299,15 +301,15 @@ msgstr "التقويم"
 #: src/applets/clock/ClockApplet.vala:159
 #: src/applets/clock/ClockApplet.vala:190
 msgid "Preferences"
-msgstr "خيارات"
+msgstr "الخيارات"
 
 #: src/applets/clock/ClockApplet.vala:169
 msgid "Show date"
-msgstr "اظهار التاريخ"
+msgstr "إظهار التاريخ"
 
 #: src/applets/clock/ClockApplet.vala:174
 msgid "Show seconds"
-msgstr "اظهار الثواني"
+msgstr "إظهار الثواني"
 
 #: src/applets/clock/ClockApplet.vala:180
 msgid "Use 24 hour time"
@@ -319,7 +321,7 @@ msgstr "تفعيل سطح المكتب"
 
 #: src/applets/workspaces/WorkspaceItem.vala:72
 msgid "Rename"
-msgstr "إعادة تسمية"
+msgstr "إعادة التسمية"
 
 #: src/applets/workspaces/WorkspaceItem.vala:80
 msgid "Remove"
@@ -346,7 +348,7 @@ msgstr "إيقاف مؤقت"
 
 #: src/applets/user-indicator/UserIndicatorWindow.vala:103
 msgid "Hibernate"
-msgstr "سبات"
+msgstr "سُبات"
 
 #: src/applets/user-indicator/UserIndicatorWindow.vala:104
 #: src/daemon/endsession.ui.h:5
@@ -373,11 +375,11 @@ msgstr "الأماكن"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:182
 msgid "Nothing to display right now"
-msgstr "لا شيء لعرضه حاليا"
+msgstr "لا شيء لعرضه حاليًا"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:186
 msgid "Mount some drives"
-msgstr "تثبيت بعض الأقراص"
+msgstr "توصيل محرك الأقراص"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:186
 msgid "Enable more sections"
@@ -395,16 +397,16 @@ msgstr "القرص قيد الاستخدم من عمليات أخرى"
 
 #: src/applets/places-indicator/MountHelper.vala:45
 msgid "Operation aborted"
-msgstr "تم إنهاء العملية قصرياً"
+msgstr "تم إلغاء العملية"
 
 #: src/applets/places-indicator/MountHelper.vala:57
 msgid "Type your password"
-msgstr "ادخل كلمة المرور الخاصة بك"
+msgstr "أدخل كلمة المرور الخاصة بك"
 
 #: src/applets/places-indicator/VolumeItem.vala:27
 #: src/applets/places-indicator/MountItem.vala:25
 msgid "Removable devices"
-msgstr "الاجهزة القابلة للإزالة"
+msgstr "الأجهزة القابلة للإزالة"
 
 #: src/applets/places-indicator/VolumeItem.vala:29
 #: src/applets/places-indicator/MountItem.vala:27
@@ -424,22 +426,22 @@ msgstr "آخر"
 #: src/applets/places-indicator/VolumeItem.vala:43
 #, c-format
 msgid "Mount and open \"%s\""
-msgstr "تثبيت و فتح \"%s\""
+msgstr "توصيل و فتح \"%s\""
 
 #: src/applets/places-indicator/VolumeItem.vala:57
 #: src/applets/places-indicator/MountItem.vala:60
 msgid "Eject"
-msgstr "إخراج"
+msgstr "أخرج"
 
 #: src/applets/places-indicator/VolumeItem.vala:76
 #: src/applets/places-indicator/VolumeItem.vala:121
 msgid "Enter the encryption passphrase to unlock this volume"
-msgstr "ادخل كلمة المرور لفتح القرص المشفر"
+msgstr "أدخل كلمة المرور لفتح القرص المشفر"
 
 #: src/applets/places-indicator/VolumeItem.vala:87
 #: src/applets/places-indicator/MountItem.vala:78
 msgid "You can now safely remove"
-msgstr "يمكنك الان الإزالة بأمان"
+msgstr "يمكنك الآن إزالة الجهاز بأمان"
 
 #: src/applets/places-indicator/VolumeItem.vala:119
 msgid "The password you entered is incorrect"
@@ -447,11 +449,11 @@ msgstr "كلمة المرور المدخلة خاطئة"
 
 #: src/applets/places-indicator/VolumeItem.vala:123
 msgid "An unknown error occurred while attempting to mount this volume"
-msgstr "خطأ غير معروف حصل خلال محاولة تثبيت القرص"
+msgstr "حصل خطأ غير معروف أثناء محاولة توصيل القرص"
 
 #: src/applets/places-indicator/MountItem.vala:62
 msgid "Unmount"
-msgstr "إزالة التثبيت"
+msgstr "إلغاء التوصيل"
 
 #: src/applets/places-indicator/MountItem.vala:79
 msgid "Unknown Device"
@@ -463,11 +465,11 @@ msgstr "حدث خطأ أثناء إخراج الجهاز"
 
 #: src/applets/places-indicator/MountItem.vala:105
 msgid "Error while unmounting volume"
-msgstr "حدث خطأ اثناء إزالة تثبيت القرص"
+msgstr "حدث خطأ أثناء إلغاء توصيل القرص"
 
 #: src/polkit/polkitdialog.vala:135
 msgid "Authentication failed"
-msgstr "المصادقة فشلت"
+msgstr "فشلت المصادقة"
 
 #: src/polkit/polkitdialog.vala:234
 msgid "Group:"
@@ -483,36 +485,36 @@ msgstr "لوحات"
 
 #: src/panel/settings/settings_main.vala:41
 msgid "Session"
-msgstr "جلسات"
+msgstr "جلسة"
 
 #: src/panel/settings/settings_main.vala:50
 #: src/panel/budgie-desktop-settings.desktop.in.h:1
 msgid "Budgie Desktop Settings"
-msgstr "إعدادات سطح مكتب بادجي"
+msgstr "إعدادات سطح مكتب Budgie"
 
 #: src/panel/settings/settings_main.vala:81
 msgid "Create new panel"
-msgstr "انشاء لوحة جديدة"
+msgstr "إنشاء لوحة جديدة"
 
 #: src/panel/settings/settings_panel.vala:80
 msgid "Remove this panel from the screen"
-msgstr "ازالة هذه اللوحة من الشاشة"
+msgstr "إزالة هذه اللوحة من الشاشة"
 
 #: src/panel/settings/settings_panel.vala:120
 msgid "Top Dock"
-msgstr "Dock علوي"
+msgstr "الشريط العلوي"
 
 #: src/panel/settings/settings_panel.vala:122
 msgid "Right Dock"
-msgstr "Dock يمين"
+msgstr "الشريط الأيمن"
 
 #: src/panel/settings/settings_panel.vala:124
 msgid "Left Dock"
-msgstr "Dock يسار"
+msgstr "الشريط الأيسر"
 
 #: src/panel/settings/settings_panel.vala:126
 msgid "Bottom Dock"
-msgstr "Dock سفلي"
+msgstr "الشريط السفلي"
 
 #: src/panel/settings/settings_panel.vala:131
 msgid "Top Panel"
@@ -549,11 +551,11 @@ msgstr "أسفل"
 
 #: src/panel/settings/settings_panel.vala:193
 msgid "Always"
-msgstr "دائماً"
+msgstr "دائمًا"
 
 #: src/panel/settings/settings_panel.vala:195
 msgid "Dynamic"
-msgstr "ديناميكي"
+msgstr "متفاعل"
 
 #: src/panel/settings/settings_panel.vala:198
 #: src/panel/settings/settings_fonts.vala:87
@@ -571,7 +573,7 @@ msgstr "ذكي"
 
 #: src/panel/settings/settings_panel.vala:214
 msgid "Never"
-msgstr "أبداً"
+msgstr "مطلقًا"
 
 #: src/panel/settings/settings_panel.vala:230
 msgid "Position"
@@ -579,7 +581,7 @@ msgstr "الموضع"
 
 #: src/panel/settings/settings_panel.vala:231
 msgid "Set the edge of the screen that this panel will stay on"
-msgstr "اختيار حافة الشاشة التي ستبقا عليها هذ اللوحة"
+msgstr "اختيار حافة الشاشة التي ستبقى عليها هذه اللوحة"
 
 #: src/panel/settings/settings_panel.vala:239
 msgid "Size"
@@ -587,15 +589,15 @@ msgstr "الحجم"
 
 #: src/panel/settings/settings_panel.vala:240
 msgid "Set the size (width or height, depending on orientation) of this panel"
-msgstr "اختيار حجم (عرض او ارتفاع حسب الاتجاه) هذه اللوحة"
+msgstr "اختيار حجم (عرض أو ارتفاع، حسب الاتجاه) هذه اللوحة"
 
 #: src/panel/settings/settings_panel.vala:247
 msgid "Automatically hide"
-msgstr "اخفاء تلقائي"
+msgstr "إخفاء تلقائي"
 
 #: src/panel/settings/settings_panel.vala:248
 msgid "When set, this panel will hide from view to maximize screen estate"
-msgstr "عند الاختيار، هذه اللوحة ستخفا لزيادة مساحة الشاشة"
+msgstr "عند الإختيار، ستُخفى هذه اللوحة لزيادة مساحة الشاشة"
 
 #: src/panel/settings/settings_panel.vala:255
 msgid "Transparency"
@@ -603,7 +605,7 @@ msgstr "الشفافية"
 
 #: src/panel/settings/settings_panel.vala:256
 msgid "Control when this panel should have a solid background"
-msgstr "تحكم متى يجب ان تكون خلفية هذه اللوحة غير شفافة"
+msgstr "تحكم في متى يجب أن تكون هذه اللوحة غير شفافة"
 
 #: src/panel/settings/settings_panel.vala:261
 msgid "Shadow"
@@ -611,7 +613,7 @@ msgstr "الظل"
 
 #: src/panel/settings/settings_panel.vala:262
 msgid "Adds a decorative drop-shadow, ideal for opaque panels"
-msgstr "اضافة ظل زخرفي, مثالي للوحات الغير شفافة"
+msgstr "إضافة ظل زخرفي, مثالي للوحات الغير شفافة"
 
 #: src/panel/settings/settings_panel.vala:268
 msgid "Stylize regions"
@@ -619,15 +621,17 @@ msgstr "تنسيق"
 
 #: src/panel/settings/settings_panel.vala:269
 msgid "Adds a hint to the panel so that each of the panel's three main areas may be themed differently."
-msgstr "إضافة تلميح الى اللوحة حتى يتم تغير مظهر كل من المناطق الثلاثة الاساسية للوحة بشكل مختلف."
+msgstr ""
+"إضافة تلميح للوحة حتى يتم تغير مظهر كل من المناطق الثلاثة الاساسية للوحة "
+"بشكل مختلف."
 
 #: src/panel/settings/settings_panel.vala:276
 msgid "Dock mode"
-msgstr "وضع Dock"
+msgstr "وضع الشريط"
 
 #: src/panel/settings/settings_panel.vala:277
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
-msgstr "عندما في وضع Dock، اللوحة ستستخدم اقل مساحة ممكنة، مما يحرر مساحة شاشة ذات قيمة"
+msgstr "في وضع الشريط، ستستخدم اللوحة أقل مساحة ممكنة، مما يحرر مساحة الشاشة"
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
@@ -635,7 +639,9 @@ msgstr "السماح برفع مستوى الصوت أعلى من 100٪"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
-msgstr "السماح برفع مستوى الصوت حتى 150٪ عبر إعدادات الصوت بالإضافة إلى أداة إخراج الصوت في Raven."
+msgstr ""
+"السماح برفع مستوى الصوت حتى 150٪ عبر إعدادات الصوت بالإضافة إلى أداة إخراج "
+"الصوت في قائمة ريفن."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
@@ -651,31 +657,33 @@ msgstr "عرض أداة التقويم"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr "إظهار أو إخفاء أداة التقويم من الأدوات الصغيرة."
+msgstr "إظهار أو إخفاء أداة التقويم من قسم تطبيقات Raven."
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
-msgstr "إظهار أداة خرج الصوت"
+msgstr "إظهار أداة إخراج الصوت"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr "إظهار أو إخفاء أداة خرج الصوت في قسم الادوات الصغيرة."
+msgstr "إظهار أو إخفاء أداة إخراج الصوت من قسم تطبيقات Raven."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
-msgstr "إظهار أداة دخل المكيرفون"
+msgstr "إظهار أداة إدخال صوت الميكروفون"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
-msgstr "إظهار أو إخفاء أداة دخل الميكروفون في قسم الأدوات الصغيرة."
+msgstr "إظهار أو إخفاء أداة إدخال صوت الميكروفون من قسم تطبيقات Raven."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
-msgstr "إظهار عناصر التحكم في تشغيل الوسائط"
+msgstr "إظهار أداة مفاتيح التحكم في تشغيل الوسائط"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
-msgstr "إظهار أو إخفاء أداة التحكم في تشغيل الوسائط (MPRIS) في قسم تطبيقات ريفن."
+msgstr ""
+"إظهار أو إخفاء أداة مفاتيح التحكم في تشغيل الوسائط (MPRIS) من قسم تطبيقات "
+"Raven."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
@@ -683,44 +691,45 @@ msgstr "إظهار شريط الطاقة"
 
 #: src/panel/settings/settings_raven.vala:76
 msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr "اظهار أو اخفاء شريط الطاقة اسفل Raven."
+msgstr "إظهار أو إخفاء شريط الطاقة أسفل قائمة Raven."
 
 #: src/panel/settings/settings_panel_dialogs.vala:29
 msgid "Confirm panel removal"
-msgstr "تاكيد ازالة اللوحة"
+msgstr "تأكيد إزالة اللوحة"
 
 #: src/panel/settings/settings_panel_dialogs.vala:36
 msgid "Do you really want to remove this panel? This action cannot be undone."
-msgstr "هل تريد بالتأكيد ازالة هذه اللوحة؟ لا يمكن التراجع عن هذه العملية."
+msgstr "هل تريد بالتأكيد إزالة هذه اللوحة؟ لا يمكن التراجع عن هذه العملية."
 
 #: src/panel/settings/settings_panel_dialogs.vala:51
 #: src/panel/settings/settings_panel_dialogs.vala:114
 msgid "Don't ask me again"
-msgstr "لا تسأل مجدداً"
+msgstr "لا تسأل مجددًا"
 
 #: src/panel/settings/settings_panel_dialogs.vala:60
 msgid "Remove panel"
-msgstr "ازالة اللوحة"
+msgstr "إزالة اللوحة"
 
 #: src/panel/settings/settings_panel_dialogs.vala:61
 msgid "Keep panel"
-msgstr "ابقاء اللوحة"
+msgstr "إبقاء اللوحة"
 
 #: src/panel/settings/settings_panel_dialogs.vala:92
 msgid "Confirm applet removal"
-msgstr "تاكيد ازالة التطبيق المصغر"
+msgstr "تأكيد إزالة التطبيق المصغر"
 
 #: src/panel/settings/settings_panel_dialogs.vala:99
 msgid "Do you really want to remove this applet? This action cannot be undone."
-msgstr "هل تريد بالتأكيد ازالة هذا التطبيق المصغر؟ لا يمكن التراجع عن هذه العملية."
+msgstr ""
+"هل تريد بالتأكيد إزالة هذا التطبيق المصغر؟ لا يمكن التراجع عن هذه العملية."
 
 #: src/panel/settings/settings_panel_dialogs.vala:123
 msgid "Remove applet"
-msgstr "ازالة التطبيق المصغر"
+msgstr "إزالة التطبيق المصغر"
 
 #: src/panel/settings/settings_panel_dialogs.vala:124
 msgid "Keep applet"
-msgstr "ابقاء التطبيق المصغر"
+msgstr "إبقاء التطبيق المصغر"
 
 #: src/panel/settings/settings_desktop.vala:36
 msgid "Desktop"
@@ -732,15 +741,15 @@ msgstr "أيقونات سطح المكتب"
 
 #: src/panel/settings/settings_desktop.vala:50
 msgid "Control whether to allow launchers and icons on the desktop."
-msgstr "السماح لاظهار اختصارات تشغيل البرامج و الأيقونات على سطح المكتب."
+msgstr "السماح بإظهار اختصارات تشغيل البرامج و الأيقونات على سطح المكتب."
 
 #: src/panel/settings/settings_desktop.vala:60
 msgid "Home directory"
-msgstr "ملف المنزل"
+msgstr "مجلد المنزل"
 
 #: src/panel/settings/settings_desktop.vala:61
 msgid "Add a shortcut to your home directory on the desktop."
-msgstr "اضافة اختصار لملف المنزل الخاص بك على سطح المكتب."
+msgstr "إضافة اختصار لمجلد المنزل الخاص بك على سطح المكتب."
 
 #: src/panel/settings/settings_desktop.vala:66
 msgid "Network servers"
@@ -748,7 +757,7 @@ msgstr "خادم الشبكة"
 
 #: src/panel/settings/settings_desktop.vala:67
 msgid "Add a shortcut to your local network servers on the desktop."
-msgstr "اضافة اختصار لخادم الشبكة المحلي الخاص بك على سطح المكتب."
+msgstr "إضافة اختصار لخادم الشبكة المحلي على سطح المكتب."
 
 #: src/panel/settings/settings_desktop.vala:72
 msgid "Trash"
@@ -756,23 +765,23 @@ msgstr "المهملات"
 
 #: src/panel/settings/settings_desktop.vala:73
 msgid "Add a shortcut to the Trash directory on the desktop."
-msgstr "اضافة اختصار لملف المهملات على سطح المكتب."
+msgstr "إضافة اختصار لمجلد المهملات على سطح المكتب."
 
 #: src/panel/settings/settings_desktop.vala:78
 msgid "Mounted volumes"
-msgstr "الاقراص المثبتة"
+msgstr "الأقراص المتصلة"
 
 #: src/panel/settings/settings_desktop.vala:79
 msgid "Mounted volumes & drives will appear on the desktop."
-msgstr "الأقراص و وسائل التخزين الموصولة ستظهر على سطح المكتب."
+msgstr "ستظهر الأقراص و وسائل التخزين الموصولة على سطح المكتب."
 
 #: src/panel/settings/settings_desktop.vala:109
 msgid "Number of virtual desktops"
-msgstr ""
+msgstr "عدد مساحات العمل"
 
 #: src/panel/settings/settings_desktop.vala:110
 msgid "Number of virtual desktops / workspaces to create automatically on startup."
-msgstr ""
+msgstr "عدد مساحات العمل لإنشائها عند بدأ التشغيل."
 
 #: src/panel/settings/settings_style.vala:33
 msgid "Style"
@@ -784,7 +793,7 @@ msgstr "الأدوات"
 
 #: src/panel/settings/settings_style.vala:48
 msgid "Set the appearance of window decorations and controls"
-msgstr "اختيار مظهر مفاتيح وزخرفة النافذة"
+msgstr "إختيار مظهر مفاتيح وزخرفة النافذة"
 
 #: src/panel/settings/settings_style.vala:52
 msgid "Icons"
@@ -800,7 +809,7 @@ msgstr "المؤشر"
 
 #: src/panel/settings/settings_style.vala:58
 msgid "Set the globally used mouse cursor theme"
-msgstr "اختيار مظهر المؤشر المستخدم لكل النظام"
+msgstr "إختيار مظهر مؤشر الفأرة المستخدم لكل النظام"
 
 #: src/panel/settings/settings_style.vala:62
 msgid "Notification Position"
@@ -808,7 +817,7 @@ msgstr "موضع الإشعارات"
 
 #: src/panel/settings/settings_style.vala:63
 msgid "Set the location for notification popups"
-msgstr "تعديل مكان ضهور الاشعارات"
+msgstr "تعديل مكان ظهور الاشعارات"
 
 #: src/panel/settings/settings_style.vala:72
 msgid "Dark theme"
@@ -816,11 +825,11 @@ msgstr "المظهر الداكن"
 
 #: src/panel/settings/settings_style.vala:79
 msgid "Built-in theme"
-msgstr "المظهر المدمج"
+msgstr "المظهر الافتراضي"
 
 #: src/panel/settings/settings_style.vala:80
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr "عندما يتم تشغيله, فإن السمة المبنية سوف تهيمن على تصميم مكونات سطح المكتب"
+msgstr "عند تشغيله, سيُهيّمن المظهر الافتراضي على تصميم مكونات سطح المكتب"
 
 #: src/panel/settings/settings_style.vala:87
 msgid "Animations"
@@ -828,11 +837,11 @@ msgstr "الرسوم المتحركة"
 
 #: src/panel/settings/settings_style.vala:88
 msgid "Control whether windows and controls use animations"
-msgstr "تحكم اذا النوافذ والتحكمات تستخدم الرسوم المتحركة"
+msgstr "تحكم في استخدام النوافذ و مفاتيح التحكم للرسوم المتحركة"
 
 #: src/panel/settings/settings_style.vala:209
 msgid "Top Left"
-msgstr "اعلى اليسار"
+msgstr "أعلى اليسار"
 
 #: src/panel/settings/settings_style.vala:211
 msgid "Bottom Left"
@@ -840,15 +849,15 @@ msgstr "أسفل اليسار"
 
 #: src/panel/settings/settings_style.vala:213
 msgid "Bottom Right"
-msgstr "الأسفل اليمين"
+msgstr "أسفل اليمين"
 
 #: src/panel/settings/settings_style.vala:216
 msgid "Top Right"
-msgstr "الأعلى اليمين"
+msgstr "أعلى اليمين"
 
 #: src/panel/settings/settings_autostart.vala:141
 msgid "Untitled"
-msgstr "غير معنون"
+msgstr "بدون عنوان"
 
 #: src/panel/settings/settings_autostart.vala:148
 msgid "No description"
@@ -860,7 +869,7 @@ msgstr "قيد التشغيل"
 
 #: src/panel/settings/settings_autostart.vala:194
 msgid "Applications"
-msgstr "تطبيقات"
+msgstr "التطبيقات"
 
 #: src/panel/settings/settings_autostart.vala:204
 #: src/panel/settings/settings_autostart.vala:377
@@ -874,7 +883,7 @@ msgstr "أمر"
 
 #: src/panel/settings/settings_autostart.vala:387
 msgid "An entry with that title already exists"
-msgstr "مُدخل بهذا الاسم موجود مسبقاً"
+msgstr "مُدخل بهذا الاسم موجود مسبقًا"
 
 #: src/panel/settings/settings_autostart.vala:390
 msgid "Title"
@@ -903,7 +912,7 @@ msgstr "تطبيقات بدء التشغيل"
 
 #: src/panel/settings/settings_panel_applets.vala:22
 msgid "Configure applet"
-msgstr "تحديد مواصفات التطبيق المصغر"
+msgstr "ضبط التطبيق المصغر"
 
 #: src/panel/settings/settings_panel_applets.vala:245
 #: src/panel/settings/settings_applet_chooser.vala:85
@@ -912,11 +921,11 @@ msgstr "إضافة تطبيق مصغر"
 
 #: src/panel/settings/settings_panel_applets.vala:246
 msgid "Choose a new applet to add to this panel"
-msgstr "اختيار تطبيق مصغر جديد لاضافته لهذه اللوحة"
+msgstr "اختيار تطبيق مصغر جديد لإضافته لهذه اللوحة"
 
 #: src/panel/settings/settings_panel_applets.vala:260
 msgid "No settings available"
-msgstr "لا يوجد اعدادات متاحة"
+msgstr "لا توجد إعدادات متاحة"
 
 #: src/panel/settings/settings_panel_applets.vala:414
 msgid "Start"
@@ -936,11 +945,11 @@ msgstr "النوافذ"
 
 #: src/panel/settings/settings_wm.vala:41
 msgid "Attach modal dialogs to windows"
-msgstr "ربط مربعات الحوار المنبثق للنوافذ"
+msgstr "ربط مربعات الحوار المنبثقة بالنوافذ"
 
 #: src/panel/settings/settings_wm.vala:42
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr "نوافذ الحوار المنبثق سترتبط بالنافذة الام وستتحرك معاً عندما تسحب."
+msgstr "سترتبط نوافذ الحوار المنبثقة بالنافذة الأم وستتحرك معها عندما تُسحب."
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Button layout"
@@ -956,15 +965,17 @@ msgstr "توسيط النوافذ الجديدة على الشاشة"
 
 #: src/panel/settings/settings_wm.vala:54
 msgid "Center newly launched windows on the current screen."
-msgstr "توسيط النوافذ التي فتحت حديثا على الشاشة الحالية."
+msgstr "توسيط النوافذ الفتوحة حديثًا على الشاشة الحالية."
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
-msgstr "تعطيل وضع الإضاءة الليلية عندما النوافذ في ملء الشاشة"
+msgstr "تعطيل وضع الإضاءة الليلية عندما تكون النوافذ في وضع ملء الشاشة"
 
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
-msgstr "تعطيل وضع الإضاءة الليلية عندما تكون النافذة ملء الشاشة، وإعادة التمكين عند مغادرة ملء الشاشة."
+msgstr ""
+"تعطيل وضع الإضاءة الليلية عندما تكون النافذة في وضع ملء الشاشة، وإعادة "
+"التمكين عند مغادرة ملء الشاشة."
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
@@ -972,27 +983,31 @@ msgstr "ترتيب تلقائي"
 
 #: src/panel/settings/settings_wm.vala:66
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr "سيتم ترتيب النوافذ تلقائياً عندما تسحب الى اعلى الشاشة او الزوايا البعيدة."
+msgstr ""
+"سيتم ترتيب النوافذ تلقائيًا عند سحبها لأعلى الشاشة أو أحد الزوايا البعيدة."
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
-msgstr "تمكين تغيير تركيز النافذة لدخول و مغادرة مؤشر الفأرة"
+msgstr "تغيير تركيز النافذة عند تمرير مؤشر الفأرة بها"
 
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
-msgstr "تمكين تركيز النافذة ليتم تطبيقها،  عندما يدخل مؤشر الفأرة النافذة، وعدم التركيز عندما يغادر مؤشر الفأرة النافذة."
+msgstr ""
+"تمكين تركيز النافذة عند دخول مؤشر الفأرة بها، وإلغاؤه عند خروج مؤشر الفأرة."
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
-msgstr "تعطيل اعادة توجيه النوافذ"
+msgstr "تعطيل إعادة توجيه النوافذ"
 
 #: src/panel/settings/settings_wm.vala:79
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr "هذا الخيار للمستخدمين المتقدمين. استخدم هذا اذا واجهت مشاكل رسومية او مشاكل اداء مع كروت الشاشة المخصصة."
+msgstr ""
+"هذا الخيار للمستخدمين المتقدمين. استخدمه إذا واجهت مشاكل رسومية أو مشاكل في "
+"الأداء مع كروت الشاشة المخصصة."
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
-msgstr "يمين (اساسي)"
+msgstr "يمين (أساسي)"
 
 #: src/panel/settings/settings_fonts.vala:35
 msgid "Fonts"
@@ -1020,7 +1035,7 @@ msgstr "الواجهة"
 
 #: src/panel/settings/settings_fonts.vala:61
 msgid "Set the primary font used by application controls."
-msgstr "اختيار الخط الاساسي المستخدم في تحكمات التطبيقات."
+msgstr "اختيار الخط الأساسي المستخدم في تحكمات التطبيقات."
 
 #: src/panel/settings/settings_fonts.vala:67
 msgid "Monospace"
@@ -1028,7 +1043,7 @@ msgstr "خط Monospace"
 
 #: src/panel/settings/settings_fonts.vala:68
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr "اختيار عرض الخط السميك المستخدم في التطبيقات النصية المهيمنة."
+msgstr "اختيار عرض الخط السميك لاستخدامه في التطبيقات النصية."
 
 #: src/panel/settings/settings_fonts.vala:74
 msgid "Text scaling"
@@ -1040,42 +1055,39 @@ msgstr "ضبط عامل حجم النص."
 
 #: src/panel/settings/settings_fonts.vala:84
 msgid "Full"
-msgstr ""
+msgstr "كامل"
 
 #: src/panel/settings/settings_fonts.vala:85
 msgid "Medium"
-msgstr ""
+msgstr "متوسط"
 
 #: src/panel/settings/settings_fonts.vala:86
-#, fuzzy
 msgid "Slight"
-msgstr "يمين"
+msgstr "خفيف"
 
 #: src/panel/settings/settings_fonts.vala:103
 msgid "Hinting"
-msgstr ""
+msgstr "التلميح"
 
 #: src/panel/settings/settings_fonts.vala:104
-#, fuzzy
 msgid "Set the type of hinting to use."
-msgstr "ضبط عامل حجم النص."
+msgstr "ضبط نوع التلميح."
 
 #: src/panel/settings/settings_fonts.vala:111
 msgid "Subpixel (for LCD screens)"
-msgstr ""
+msgstr "البكسل الفرعي (لشاشات LCD)"
 
 #: src/panel/settings/settings_fonts.vala:112
 msgid "Standard (grayscale)"
-msgstr ""
+msgstr "قياسي (تدريج رمادي)"
 
 #: src/panel/settings/settings_fonts.vala:128
 msgid "Antialiasing"
-msgstr ""
+msgstr "التنعيم"
 
 #: src/panel/settings/settings_fonts.vala:129
-#, fuzzy
 msgid "Set the type of antialiasing to use."
-msgstr "ضبط عامل حجم النص."
+msgstr "ضبط نوع التنعيم."
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
@@ -1083,19 +1095,19 @@ msgstr "اختار تطبيق مصغر"
 
 #: src/daemon/endsession.ui.h:2
 msgid "Are you sure you want to end your session?"
-msgstr "هل أنت متأكد أنك تريد إنهاء الجلسة ؟"
+msgstr "هل أنت متأكد أنك تريد إنهاء الجلسة؟"
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
-msgstr "اضهار جميع النوافذ عند الضغط"
+msgstr "إظهار جميع النوافذ عند الضغط"
 
 #: src/applets/icon-tasklist/settings.ui.h:2
 msgid "Only show favorited"
-msgstr "فقط اعرض المفضل"
+msgstr "اعرض المفضلة فقط"
 
 #: src/applets/icon-tasklist/settings.ui.h:3
 msgid "Lock icons"
-msgstr "قفل الايقونات"
+msgstr "قفل الأيقونات"
 
 #: src/applets/icon-tasklist/settings.ui.h:4
 msgid "Restrict to Workspace"
@@ -1120,7 +1132,7 @@ msgstr "الجدول"
 
 #: src/applets/night-light/indicator_window.ui.h:4
 msgid "Sunset to Sunrise"
-msgstr "من الغروب الى الشروق"
+msgstr "من الغروب إلى الشروق"
 
 #: src/applets/night-light/indicator_window.ui.h:5
 msgid "Manual"
@@ -1132,7 +1144,7 @@ msgstr "إعدادات الشاشة"
 
 #: src/applets/spacer/settings.ui.h:1
 msgid "Spacer size"
-msgstr "حجم المباعد"
+msgstr "حجم المُباعِد"
 
 #: src/applets/budgie-menu/settings.ui.h:1
 msgid "Show Menu Label"
@@ -1160,7 +1172,7 @@ msgstr "أيقونة القائمة"
 
 #: src/applets/workspaces/settings.ui.h:1
 msgid "\"Add\" button visibility"
-msgstr "\"أضف\" زر الرؤية"
+msgstr "وضوح زر \"أضف\""
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
@@ -1168,11 +1180,11 @@ msgstr "لا تظهر"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
-msgstr "اظهار عند تمرير الفارة"
+msgstr "إظهار عند تمرير مؤشر الفأرة"
 
 #: src/applets/workspaces/settings.ui.h:4
 msgid "Always show"
-msgstr "دائماً اظهار"
+msgstr "أظهر دومًا"
 
 #: src/applets/caffeine/settings.ui.h:1
 msgid "Enable notification"
@@ -1180,11 +1192,11 @@ msgstr "تمكين الإشعارات"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
-msgstr "رفع الاضاءة"
+msgstr "زيادة السطوع"
 
 #: src/applets/caffeine/settings.ui.h:3
 msgid "Brightness Level"
-msgstr "مستوى الإضاءة"
+msgstr "مستوى السطوع"
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
@@ -1204,7 +1216,7 @@ msgstr "إظهار الأجهزة القابلة للإزالة"
 
 #: src/applets/places-indicator/settings.ui.h:5
 msgid "Always expand places"
-msgstr "دائما وسع الأماكن"
+msgstr "وسّع الأماكن دائمًا"
 
 #: src/polkit/dialog.ui.h:1
 msgid "Authentication Required"
@@ -1220,16 +1232,16 @@ msgstr "المصادقة مطلوبة"
 
 #: src/polkit/dialog.ui.h:5
 msgid "Authenticate"
-msgstr "مصادق"
+msgstr "صادق"
 
 #: src/session/budgie-desktop.desktop.in.in.h:1
 #: src/session/budgie-desktop.session.in.in.h:1
 msgid "Budgie Desktop"
-msgstr "سطح المكتب"
+msgstr "سطح مكتب Budgie"
 
 #: src/session/budgie-desktop.desktop.in.in.h:2
 msgid "This session logs you into the Budgie Desktop"
-msgstr "هذه الجلسة تدخلك إلى واجهة سطح المكتب"
+msgstr "تدخلك هذه الجلسة إلى واجهة سطح مكتب Budgie"
 
 #: src/applets/tray/TrayApplet.plugin.in.h:1
 msgid "System Tray"
@@ -1245,11 +1257,11 @@ msgstr "قائمة مهمات الأيقونات"
 
 #: src/applets/spacer/SpacerApplet.plugin.in.h:1
 msgid "Spacer"
-msgstr "مباعد"
+msgstr "مُباعِد"
 
 #: src/applets/budgie-menu/BudgieMenu.plugin.in.h:1
 msgid "Budgie Menu"
-msgstr "القائمة"
+msgstr "قائمة Budgie"
 
 #: src/applets/lock-keys/LockKeysApplet.plugin.in.h:1
 msgid "Lock Keys Indicator"
@@ -1257,7 +1269,7 @@ msgstr "مؤشر قفل المفاتيح"
 
 #: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
 msgid "Raven Sidebar Control"
-msgstr "التحكم بالشريط الجانبي"
+msgstr "التحكم بشريط Raven الجانبي"
 
 #: src/applets/clock/ClockApplet.plugin.in.h:1
 msgid "Clock"
@@ -1269,7 +1281,7 @@ msgstr "الفاصل"
 
 #: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
 msgid "Show Desktop Button"
-msgstr "إظهار سطح المكتب"
+msgstr "زر إظهار سطح المكتب"
 
 #: src/applets/workspaces/WorkspacesApplet.plugin.in.h:1
 msgid "Workspace Switcher"
@@ -1285,7 +1297,7 @@ msgstr "كافيين"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
-msgstr "مؤشر تنسيق لوحة المفاتيح"
+msgstr "مؤشر تخطيط لوحة المفاتيح"
 
 #: src/applets/user-indicator/UserIndicator.plugin.in.h:1
 msgid "User Indicator"
@@ -1297,8 +1309,8 @@ msgstr "تغيير مظهر و تصرف سطح المكتب"
 
 #: src/panel/budgie-panel.desktop.in.h:1
 msgid "Budgie Panel"
-msgstr "لوحة بادجي"
+msgstr "لوحة Budgie"
 
 #: src/panel/budgie-panel.desktop.in.h:2
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
-msgstr "تشغيل تطبيقات اخرى و توفير ادوات لإدارة النوافذ، اظهار الوقت، الخ."
+msgstr "تشغيل تطبيقات أخرى و توفير أدوات لإدارة النوافذ، إظهار الوقت، الخ."
