@@ -9,11 +9,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-13 06:56+0200\n"
+"POT-Creation-Date: 2019-09-04 03:01+0300\n"
 "PO-Revision-Date: 2019-03-17 09:05+0000\n"
 "Last-Translator: Kyong Hwan Lim <lim@nesou.com>\n"
-"Language-Team: Korean <http://translate.getsol.us/projects/budgie-desktop/"
-"translations/ko/>\n"
+"Language-Team: Korean <http://translate.getsol.us/projects/budgie-desktop/translations/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,29 +45,29 @@ msgid "Settings"
 msgstr "설정"
 
 #. Should show a notification
-#: src/daemon/settings.vala:310
+#: src/daemon/settings.vala:351
 msgid "Turned on Caffeine Boost"
 msgstr "카페인 부스트 켬"
 
-#: src/daemon/settings.vala:310
+#: src/daemon/settings.vala:351
 msgid "Turned off Caffeine Boost"
 msgstr "카페인 부스트 끔"
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
-#: src/daemon/settings.vala:317
+#: src/daemon/settings.vala:358
 msgid "Will turn off in a minute"
 msgstr ""
 
 #. use plural
-#: src/daemon/settings.vala:320
+#: src/daemon/settings.vala:361
 #, c-format
 msgid "Will turn off in %d minutes"
 msgstr ""
 
 #. Caffeine Notification
-#: src/raven/notifications_group.vala:44
-#: src/applets/caffeine/CaffeineWindow.vala:25
+#: src/raven/notifications_group.vala:45
+#: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Caffeine Mode"
 msgstr "카페인 모드"
 
@@ -109,7 +108,7 @@ msgstr "읽지 않은 알림 1개"
 msgid "No unread notifications"
 msgstr "읽지 않은 알림 없음"
 
-#: src/raven/notifications_view.vala:913
+#: src/raven/notifications_view.vala:916
 msgid "No new notifications"
 msgstr "새 알림 없음"
 
@@ -122,28 +121,28 @@ msgstr "앱"
 msgid "Devices"
 msgstr "장치"
 
-#: src/applets/status/PowerIndicator.vala:97
+#: src/applets/status/PowerIndicator.vala:96
 msgid "Battery fully charged."
 msgstr "배터리가 완전히 충전되었습니다."
 
-#: src/applets/status/PowerIndicator.vala:100
+#: src/applets/status/PowerIndicator.vala:99
 msgid "Unknown"
 msgstr "알 수 없음"
 
 #. Set inner charging duration to hours:minutes
-#: src/applets/status/PowerIndicator.vala:109
+#: src/applets/status/PowerIndicator.vala:108
 msgid "Battery charging"
 msgstr "배터리 충전 중"
 
-#: src/applets/status/PowerIndicator.vala:114
+#: src/applets/status/PowerIndicator.vala:113
 msgid "Battery remaining"
 msgstr "남은 배터리"
 
-#: src/applets/status/PowerIndicator.vala:168
+#: src/applets/status/PowerIndicator.vala:167
 msgid "Show battery percentage"
 msgstr "배터리 잔량 퍼센티지로 표시하기"
 
-#: src/applets/status/PowerIndicator.vala:176
+#: src/applets/status/PowerIndicator.vala:175
 msgid "Power settings"
 msgstr "전원 설정"
 
@@ -180,53 +179,53 @@ msgstr[0] "장치 %d개에 연결됨"
 msgid "Sound settings"
 msgstr "소리 설정"
 
-#: src/applets/icon-tasklist/IconPopover.vala:93
+#: src/applets/icon-tasklist/IconPopover.vala:94
 msgid "Launch New Instance"
 msgstr "새 인스턴스 실행"
 
-#: src/applets/icon-tasklist/IconPopover.vala:96
+#: src/applets/icon-tasklist/IconPopover.vala:97
 msgid "Close All Windows"
 msgstr "모든 창 닫기"
 
-#: src/applets/icon-tasklist/IconPopover.vala:104
+#: src/applets/icon-tasklist/IconPopover.vala:105
 msgid "Always On Top"
 msgstr "항상 위에 표시"
 
-#: src/applets/icon-tasklist/IconPopover.vala:106
-#: src/applets/icon-tasklist/IconPopover.vala:484
+#: src/applets/icon-tasklist/IconPopover.vala:107
+#: src/applets/icon-tasklist/IconPopover.vala:485
 msgid "Maximize"
 msgstr "최대화"
 
-#: src/applets/icon-tasklist/IconPopover.vala:107
+#: src/applets/icon-tasklist/IconPopover.vala:108
 msgid "Minimize"
 msgstr "최소화"
 
-#: src/applets/icon-tasklist/IconPopover.vala:372
+#: src/applets/icon-tasklist/IconPopover.vala:373
 msgid "Unfavorite"
 msgstr "즐겨찾기에서 제거"
 
-#: src/applets/icon-tasklist/IconPopover.vala:372
+#: src/applets/icon-tasklist/IconPopover.vala:373
 msgid "Favorite"
 msgstr "즐겨찾기"
 
 #. If our current amount of workspaces is different than how many we have added
 #. We have items to add
 #. For workspaces we need to add
-#: src/applets/icon-tasklist/IconPopover.vala:384
+#: src/applets/icon-tasklist/IconPopover.vala:385
 #, c-format
 msgid "Move To Workspace %i"
 msgstr "작업공간 %i(으)로 이동"
 
 #. Update our always on top button
-#: src/applets/icon-tasklist/IconPopover.vala:484
+#: src/applets/icon-tasklist/IconPopover.vala:485
 msgid "Unmaximize"
 msgstr "이전 크기로"
 
-#: src/applets/icon-tasklist/IconPopover.vala:543
+#: src/applets/icon-tasklist/IconPopover.vala:544
 msgid "Close Window"
 msgstr "창 닫기"
 
-#: src/applets/icon-tasklist/IconPopover.vala:545
+#: src/applets/icon-tasklist/IconPopover.vala:546
 msgid "Show Window Controls"
 msgstr "창 제어기 표시"
 
@@ -314,11 +313,11 @@ msgstr "바탕화면 보기/숨기기"
 msgid "Rename"
 msgstr "이름 변경"
 
-#: src/applets/workspaces/WorkspaceItem.vala:79
+#: src/applets/workspaces/WorkspaceItem.vala:80
 msgid "Remove"
 msgstr "제거"
 
-#: src/applets/caffeine/CaffeineWindow.vala:26
+#: src/applets/caffeine/CaffeineWindow.vala:27
 msgid "Timer (minutes)"
 msgstr "타이머 (분)"
 
@@ -364,15 +363,15 @@ msgstr "로그아웃"
 msgid "Places"
 msgstr "위치"
 
-#: src/applets/places-indicator/PlacesIndicatorWindow.vala:181
+#: src/applets/places-indicator/PlacesIndicatorWindow.vala:182
 msgid "Nothing to display right now"
 msgstr "현재 표시할 내용이 없습니다"
 
-#: src/applets/places-indicator/PlacesIndicatorWindow.vala:185
+#: src/applets/places-indicator/PlacesIndicatorWindow.vala:186
 msgid "Mount some drives"
 msgstr "드라이브 장착하기"
 
-#: src/applets/places-indicator/PlacesIndicatorWindow.vala:185
+#: src/applets/places-indicator/PlacesIndicatorWindow.vala:186
 msgid "Enable more sections"
 msgstr "섹션 더 활성화하기"
 
@@ -458,11 +457,11 @@ msgstr "장치 제거 중 오류가 발생했습니다"
 msgid "Error while unmounting volume"
 msgstr "볼륨을 꺼내는 중 오류가 발생했습니다"
 
-#: src/polkit/polkitdialog.vala:131
+#: src/polkit/polkitdialog.vala:135
 msgid "Authentication failed"
 msgstr "인증 실패"
 
-#: src/polkit/polkitdialog.vala:230
+#: src/polkit/polkitdialog.vala:234
 msgid "Group:"
 msgstr "그룹:"
 
@@ -549,6 +548,8 @@ msgid "Dynamic"
 msgstr "동적"
 
 #: src/panel/settings/settings_panel.vala:198
+#: src/panel/settings/settings_fonts.vala:87
+#: src/panel/settings/settings_fonts.vala:113
 msgid "None"
 msgstr "없음"
 
@@ -713,49 +714,57 @@ msgstr "애플릿 제거"
 msgid "Keep applet"
 msgstr "애플릿 유지"
 
-#: src/panel/settings/settings_desktop.vala:33
+#: src/panel/settings/settings_desktop.vala:36
 msgid "Desktop"
 msgstr "바탕화면"
 
-#: src/panel/settings/settings_desktop.vala:43
+#: src/panel/settings/settings_desktop.vala:49
 msgid "Desktop Icons"
 msgstr "바탕화면 아이콘"
 
-#: src/panel/settings/settings_desktop.vala:44
+#: src/panel/settings/settings_desktop.vala:50
 msgid "Control whether to allow launchers and icons on the desktop."
 msgstr "바탕화면에 바로가기와 아이콘을 표시할지 설정."
 
-#: src/panel/settings/settings_desktop.vala:54
+#: src/panel/settings/settings_desktop.vala:60
 msgid "Home directory"
 msgstr "사용자 홈 폴더"
 
-#: src/panel/settings/settings_desktop.vala:55
+#: src/panel/settings/settings_desktop.vala:61
 msgid "Add a shortcut to your home directory on the desktop."
 msgstr "바탕화면에 사용자 홈 폴더 바로가기 추가."
 
-#: src/panel/settings/settings_desktop.vala:60
+#: src/panel/settings/settings_desktop.vala:66
 msgid "Network servers"
 msgstr "네트워크 서버"
 
-#: src/panel/settings/settings_desktop.vala:61
+#: src/panel/settings/settings_desktop.vala:67
 msgid "Add a shortcut to your local network servers on the desktop."
 msgstr "바탕화면에 로컬 네트워크 서버 바로가기 추가."
 
-#: src/panel/settings/settings_desktop.vala:66
+#: src/panel/settings/settings_desktop.vala:72
 msgid "Trash"
 msgstr "휴지통"
 
-#: src/panel/settings/settings_desktop.vala:67
+#: src/panel/settings/settings_desktop.vala:73
 msgid "Add a shortcut to the Trash directory on the desktop."
 msgstr "데스크톱에 휴지통 바로가기 추가."
 
-#: src/panel/settings/settings_desktop.vala:72
+#: src/panel/settings/settings_desktop.vala:78
 msgid "Mounted volumes"
 msgstr "장착된 볼륨"
 
-#: src/panel/settings/settings_desktop.vala:73
+#: src/panel/settings/settings_desktop.vala:79
 msgid "Mounted volumes & drives will appear on the desktop."
 msgstr "장착된 볼륨 및 장치가 바탕화면에 표시됩니다."
+
+#: src/panel/settings/settings_desktop.vala:109
+msgid "Number of virtual desktops"
+msgstr ""
+
+#: src/panel/settings/settings_desktop.vala:110
+msgid "Number of virtual desktops / workspaces to create automatically on startup."
+msgstr ""
 
 #: src/panel/settings/settings_style.vala:33
 msgid "Style"
@@ -977,48 +986,87 @@ msgstr "이 설정은 고급 사용자를 위한 설정입니다. 외장 그래�
 msgid "Right (standard)"
 msgstr "오른쪽 (기본값)"
 
-#: src/panel/settings/settings_fonts.vala:33
+#: src/panel/settings/settings_fonts.vala:35
 msgid "Fonts"
 msgstr "글꼴"
 
-#: src/panel/settings/settings_fonts.vala:44
+#: src/panel/settings/settings_fonts.vala:46
 msgid "Window Titles"
 msgstr "창 제목"
 
-#: src/panel/settings/settings_fonts.vala:45
+#: src/panel/settings/settings_fonts.vala:47
 msgid "Set the font used in the titlebars of applications."
 msgstr "응용 프로그램의 제목표시줄 글꼴을 설정합니다."
 
-#: src/panel/settings/settings_fonts.vala:51
+#: src/panel/settings/settings_fonts.vala:53
 msgid "Documents"
 msgstr "문서"
 
-#: src/panel/settings/settings_fonts.vala:52
+#: src/panel/settings/settings_fonts.vala:54
 msgid "Set the display font used by for documents."
 msgstr "문서를 표시할 때 사용할 글꼴을 설정합니다."
 
-#: src/panel/settings/settings_fonts.vala:58
+#: src/panel/settings/settings_fonts.vala:60
 msgid "Interface"
 msgstr "인터페이스"
 
-#: src/panel/settings/settings_fonts.vala:59
+#: src/panel/settings/settings_fonts.vala:61
 msgid "Set the primary font used by application controls."
 msgstr "응용 프로그램 메뉴 글꼴 설정합니다."
 
-#: src/panel/settings/settings_fonts.vala:65
+#: src/panel/settings/settings_fonts.vala:67
 msgid "Monospace"
 msgstr "고정폭 글꼴"
 
-#: src/panel/settings/settings_fonts.vala:66
+#: src/panel/settings/settings_fonts.vala:68
 msgid "Set the fixed-width font used by text dominant applications."
 msgstr "글자 위주 응용프로그램에서 사용할 고정폭 글꼴을 설정합니다."
 
-#: src/panel/settings/settings_fonts.vala:72
+#: src/panel/settings/settings_fonts.vala:74
 msgid "Text scaling"
 msgstr "문장 배율 조정"
 
-#: src/panel/settings/settings_fonts.vala:73
+#: src/panel/settings/settings_fonts.vala:75
 msgid "Set the text scaling factor."
+msgstr "글자의 크기 배율을 설정합니다."
+
+#: src/panel/settings/settings_fonts.vala:84
+msgid "Full"
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:85
+msgid "Medium"
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:86
+#, fuzzy
+msgid "Slight"
+msgstr "오른쪽"
+
+#: src/panel/settings/settings_fonts.vala:103
+msgid "Hinting"
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:104
+#, fuzzy
+msgid "Set the type of hinting to use."
+msgstr "글자의 크기 배율을 설정합니다."
+
+#: src/panel/settings/settings_fonts.vala:111
+msgid "Subpixel (for LCD screens)"
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:112
+msgid "Standard (grayscale)"
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:128
+msgid "Antialiasing"
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:129
+#, fuzzy
+msgid "Set the type of antialiasing to use."
 msgstr "글자의 크기 배율을 설정합니다."
 
 #: src/panel/settings/settings_applet_chooser.vala:79

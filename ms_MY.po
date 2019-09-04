@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-13 06:56+0200\n"
+"POT-Creation-Date: 2019-09-04 03:01+0300\n"
 "PO-Revision-Date: 2018-01-20 04:44+0000\n"
 "Last-Translator: abuyop <abuyop@gmail.com>\n"
 "Language-Team: Malay (Malaysia) (http://www.transifex.com/budgie-desktop/budgie-desktop/language/ms_MY/)\n"
@@ -45,29 +45,29 @@ msgid "Settings"
 msgstr "Tetapan"
 
 #. Should show a notification
-#: src/daemon/settings.vala:310
+#: src/daemon/settings.vala:351
 msgid "Turned on Caffeine Boost"
 msgstr ""
 
-#: src/daemon/settings.vala:310
+#: src/daemon/settings.vala:351
 msgid "Turned off Caffeine Boost"
 msgstr ""
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
-#: src/daemon/settings.vala:317
+#: src/daemon/settings.vala:358
 msgid "Will turn off in a minute"
 msgstr ""
 
 #. use plural
-#: src/daemon/settings.vala:320
+#: src/daemon/settings.vala:361
 #, c-format
 msgid "Will turn off in %d minutes"
 msgstr ""
 
 #. Caffeine Notification
-#: src/raven/notifications_group.vala:44
-#: src/applets/caffeine/CaffeineWindow.vala:25
+#: src/raven/notifications_group.vala:45
+#: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Caffeine Mode"
 msgstr ""
 
@@ -108,7 +108,7 @@ msgstr "1 pemberitahuan belum baca"
 msgid "No unread notifications"
 msgstr "Tiada pemberitahuan belum baca"
 
-#: src/raven/notifications_view.vala:913
+#: src/raven/notifications_view.vala:916
 msgid "No new notifications"
 msgstr "Tiada pemberitahuan baharu"
 
@@ -121,28 +121,28 @@ msgstr ""
 msgid "Devices"
 msgstr ""
 
-#: src/applets/status/PowerIndicator.vala:97
+#: src/applets/status/PowerIndicator.vala:96
 msgid "Battery fully charged."
 msgstr "Bateri telah dicas sepenuhnya."
 
-#: src/applets/status/PowerIndicator.vala:100
+#: src/applets/status/PowerIndicator.vala:99
 msgid "Unknown"
 msgstr "Tidak diketahui"
 
 #. Set inner charging duration to hours:minutes
-#: src/applets/status/PowerIndicator.vala:109
+#: src/applets/status/PowerIndicator.vala:108
 msgid "Battery charging"
 msgstr "Mengecas bateri"
 
-#: src/applets/status/PowerIndicator.vala:114
+#: src/applets/status/PowerIndicator.vala:113
 msgid "Battery remaining"
 msgstr "Kuasa bateri berbaki"
 
-#: src/applets/status/PowerIndicator.vala:168
+#: src/applets/status/PowerIndicator.vala:167
 msgid "Show battery percentage"
 msgstr "Tunjuk peratusan kuasa bateri"
 
-#: src/applets/status/PowerIndicator.vala:176
+#: src/applets/status/PowerIndicator.vala:175
 msgid "Power settings"
 msgstr "Tetapan kuasa"
 
@@ -179,55 +179,55 @@ msgstr[0] "Bersambung dengan %d peranti"
 msgid "Sound settings"
 msgstr "Tetapan bunyi"
 
-#: src/applets/icon-tasklist/IconPopover.vala:93
+#: src/applets/icon-tasklist/IconPopover.vala:94
 msgid "Launch New Instance"
 msgstr ""
 
-#: src/applets/icon-tasklist/IconPopover.vala:96
+#: src/applets/icon-tasklist/IconPopover.vala:97
 msgid "Close All Windows"
 msgstr ""
 
-#: src/applets/icon-tasklist/IconPopover.vala:104
+#: src/applets/icon-tasklist/IconPopover.vala:105
 #, fuzzy
 msgid "Always On Top"
 msgstr "Sentiasa"
 
-#: src/applets/icon-tasklist/IconPopover.vala:106
-#: src/applets/icon-tasklist/IconPopover.vala:484
+#: src/applets/icon-tasklist/IconPopover.vala:107
+#: src/applets/icon-tasklist/IconPopover.vala:485
 msgid "Maximize"
 msgstr ""
 
-#: src/applets/icon-tasklist/IconPopover.vala:107
+#: src/applets/icon-tasklist/IconPopover.vala:108
 msgid "Minimize"
 msgstr ""
 
-#: src/applets/icon-tasklist/IconPopover.vala:372
+#: src/applets/icon-tasklist/IconPopover.vala:373
 msgid "Unfavorite"
 msgstr ""
 
-#: src/applets/icon-tasklist/IconPopover.vala:372
+#: src/applets/icon-tasklist/IconPopover.vala:373
 msgid "Favorite"
 msgstr ""
 
 #. If our current amount of workspaces is different than how many we have added
 #. We have items to add
 #. For workspaces we need to add
-#: src/applets/icon-tasklist/IconPopover.vala:384
+#: src/applets/icon-tasklist/IconPopover.vala:385
 #, c-format
 msgid "Move To Workspace %i"
 msgstr ""
 
 #. Update our always on top button
-#: src/applets/icon-tasklist/IconPopover.vala:484
+#: src/applets/icon-tasklist/IconPopover.vala:485
 msgid "Unmaximize"
 msgstr ""
 
-#: src/applets/icon-tasklist/IconPopover.vala:543
+#: src/applets/icon-tasklist/IconPopover.vala:544
 #, fuzzy
 msgid "Close Window"
 msgstr "Tetingkap"
 
-#: src/applets/icon-tasklist/IconPopover.vala:545
+#: src/applets/icon-tasklist/IconPopover.vala:546
 #, fuzzy
 msgid "Show Window Controls"
 msgstr "Tajuk Tetingkap"
@@ -316,11 +316,11 @@ msgstr "Togol desktop"
 msgid "Rename"
 msgstr "Nama Semula"
 
-#: src/applets/workspaces/WorkspaceItem.vala:79
+#: src/applets/workspaces/WorkspaceItem.vala:80
 msgid "Remove"
 msgstr "Buang"
 
-#: src/applets/caffeine/CaffeineWindow.vala:26
+#: src/applets/caffeine/CaffeineWindow.vala:27
 msgid "Timer (minutes)"
 msgstr ""
 
@@ -366,15 +366,15 @@ msgstr "Daftar Keluar"
 msgid "Places"
 msgstr "Tempat"
 
-#: src/applets/places-indicator/PlacesIndicatorWindow.vala:181
+#: src/applets/places-indicator/PlacesIndicatorWindow.vala:182
 msgid "Nothing to display right now"
 msgstr "Tiada apa-apa hendak dipaparkan"
 
-#: src/applets/places-indicator/PlacesIndicatorWindow.vala:185
+#: src/applets/places-indicator/PlacesIndicatorWindow.vala:186
 msgid "Mount some drives"
 msgstr "Lekap beberapa pemacu"
 
-#: src/applets/places-indicator/PlacesIndicatorWindow.vala:185
+#: src/applets/places-indicator/PlacesIndicatorWindow.vala:186
 msgid "Enable more sections"
 msgstr "Benarkan lagi seksyen"
 
@@ -460,11 +460,11 @@ msgstr "Ralat ketika melenting peranti"
 msgid "Error while unmounting volume"
 msgstr "Ralat ketika menyahlekap volum"
 
-#: src/polkit/polkitdialog.vala:131
+#: src/polkit/polkitdialog.vala:135
 msgid "Authentication failed"
 msgstr "Pengesahihan gagal"
 
-#: src/polkit/polkitdialog.vala:230
+#: src/polkit/polkitdialog.vala:234
 msgid "Group:"
 msgstr "Kumpulan:"
 
@@ -551,6 +551,8 @@ msgid "Dynamic"
 msgstr "Dinamik"
 
 #: src/panel/settings/settings_panel.vala:198
+#: src/panel/settings/settings_fonts.vala:87
+#: src/panel/settings/settings_fonts.vala:113
 msgid "None"
 msgstr "Tiada"
 
@@ -715,54 +717,62 @@ msgstr "Buang aplet"
 msgid "Keep applet"
 msgstr "Kekalkan aplet"
 
-#: src/panel/settings/settings_desktop.vala:33
+#: src/panel/settings/settings_desktop.vala:36
 msgid "Desktop"
 msgstr "Desktop"
 
-#: src/panel/settings/settings_desktop.vala:43
+#: src/panel/settings/settings_desktop.vala:49
 msgid "Desktop Icons"
 msgstr "Ikon Desktop"
 
-#: src/panel/settings/settings_desktop.vala:44
+#: src/panel/settings/settings_desktop.vala:50
 #, fuzzy
 msgid "Control whether to allow launchers and icons on the desktop."
 msgstr "Kawal sama ada hendak benarkan pelancar dan ikon di atas desktop"
 
-#: src/panel/settings/settings_desktop.vala:54
+#: src/panel/settings/settings_desktop.vala:60
 msgid "Home directory"
 msgstr "Direktori rumah"
 
-#: src/panel/settings/settings_desktop.vala:55
+#: src/panel/settings/settings_desktop.vala:61
 #, fuzzy
 msgid "Add a shortcut to your home directory on the desktop."
 msgstr "Tambah satu pintasan ke direktori rumah di atas dekstop"
 
-#: src/panel/settings/settings_desktop.vala:60
+#: src/panel/settings/settings_desktop.vala:66
 msgid "Network servers"
 msgstr "Pelayang rangkaian"
 
-#: src/panel/settings/settings_desktop.vala:61
+#: src/panel/settings/settings_desktop.vala:67
 #, fuzzy
 msgid "Add a shortcut to your local network servers on the desktop."
 msgstr "Tambah satu pintasan ke pelayan rangkaian di atas dekstop"
 
-#: src/panel/settings/settings_desktop.vala:66
+#: src/panel/settings/settings_desktop.vala:72
 msgid "Trash"
 msgstr "Tong Sampah"
 
-#: src/panel/settings/settings_desktop.vala:67
+#: src/panel/settings/settings_desktop.vala:73
 #, fuzzy
 msgid "Add a shortcut to the Trash directory on the desktop."
 msgstr "Tambah satu pintasan ke direktori Tong Sampah di atas dekstop"
 
-#: src/panel/settings/settings_desktop.vala:72
+#: src/panel/settings/settings_desktop.vala:78
 msgid "Mounted volumes"
 msgstr "Volum terlekap"
 
-#: src/panel/settings/settings_desktop.vala:73
+#: src/panel/settings/settings_desktop.vala:79
 #, fuzzy
 msgid "Mounted volumes & drives will appear on the desktop."
 msgstr "Volum & pemacu terlekap akan muncul di atas desktop"
+
+#: src/panel/settings/settings_desktop.vala:109
+msgid "Number of virtual desktops"
+msgstr ""
+
+#: src/panel/settings/settings_desktop.vala:110
+msgid "Number of virtual desktops / workspaces to create automatically on startup."
+msgstr ""
 
 #: src/panel/settings/settings_style.vala:33
 msgid "Style"
@@ -995,52 +1005,89 @@ msgstr "Pilihan ini untuk pengguna mahir. Guna ia jika anda menghadapi masalah g
 msgid "Right (standard)"
 msgstr "Kanan (piawai)"
 
-#: src/panel/settings/settings_fonts.vala:33
+#: src/panel/settings/settings_fonts.vala:35
 msgid "Fonts"
 msgstr "Fo"
 
-#: src/panel/settings/settings_fonts.vala:44
+#: src/panel/settings/settings_fonts.vala:46
 msgid "Window Titles"
 msgstr "Tajuk Tetingkap"
 
-#: src/panel/settings/settings_fonts.vala:45
+#: src/panel/settings/settings_fonts.vala:47
 #, fuzzy
 msgid "Set the font used in the titlebars of applications."
 msgstr "Tetapkan fon yang digunakan dalam palang tajuk aplikasi"
 
-#: src/panel/settings/settings_fonts.vala:51
+#: src/panel/settings/settings_fonts.vala:53
 msgid "Documents"
 msgstr "Dokumen"
 
-#: src/panel/settings/settings_fonts.vala:52
+#: src/panel/settings/settings_fonts.vala:54
 #, fuzzy
 msgid "Set the display font used by for documents."
 msgstr "Tetapkan fon paparan yang digunakan untuk dokumen"
 
-#: src/panel/settings/settings_fonts.vala:58
+#: src/panel/settings/settings_fonts.vala:60
 msgid "Interface"
 msgstr "Antaramuka"
 
-#: src/panel/settings/settings_fonts.vala:59
+#: src/panel/settings/settings_fonts.vala:61
 #, fuzzy
 msgid "Set the primary font used by application controls."
 msgstr "Tetapkan fon utama yang digunakan oleh kawalan aplikasi"
 
-#: src/panel/settings/settings_fonts.vala:65
+#: src/panel/settings/settings_fonts.vala:67
 msgid "Monospace"
 msgstr "Monospace"
 
-#: src/panel/settings/settings_fonts.vala:66
+#: src/panel/settings/settings_fonts.vala:68
 #, fuzzy
 msgid "Set the fixed-width font used by text dominant applications."
 msgstr "Tetapkan fon lebar-tetap yang digunakan oleh aplikasi dominan"
 
-#: src/panel/settings/settings_fonts.vala:72
+#: src/panel/settings/settings_fonts.vala:74
 msgid "Text scaling"
 msgstr ""
 
-#: src/panel/settings/settings_fonts.vala:73
+#: src/panel/settings/settings_fonts.vala:75
 msgid "Set the text scaling factor."
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:84
+msgid "Full"
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:85
+msgid "Medium"
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:86
+#, fuzzy
+msgid "Slight"
+msgstr "Kanan"
+
+#: src/panel/settings/settings_fonts.vala:103
+msgid "Hinting"
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:104
+msgid "Set the type of hinting to use."
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:111
+msgid "Subpixel (for LCD screens)"
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:112
+msgid "Standard (grayscale)"
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:128
+msgid "Antialiasing"
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:129
+msgid "Set the type of antialiasing to use."
 msgstr ""
 
 #: src/panel/settings/settings_applet_chooser.vala:79

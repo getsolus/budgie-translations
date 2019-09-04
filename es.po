@@ -19,11 +19,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-13 06:56+0200\n"
+"POT-Creation-Date: 2019-09-04 03:01+0300\n"
 "PO-Revision-Date: 2019-02-22 21:15+0000\n"
 "Last-Translator: Jorge <teamevomagix@gmail.com>\n"
-"Language-Team: Spanish <http://translate.getsol.us/projects/budgie-desktop/"
-"translations/es/>\n"
+"Language-Team: Spanish <http://translate.getsol.us/projects/budgie-desktop/translations/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56,30 +55,30 @@ msgid "Settings"
 msgstr "Configuraciones"
 
 #. Should show a notification
-#: src/daemon/settings.vala:310
+#: src/daemon/settings.vala:351
 msgid "Turned on Caffeine Boost"
 msgstr "Impulso de Cafeína activado"
 
-#: src/daemon/settings.vala:310
+#: src/daemon/settings.vala:351
 msgid "Turned off Caffeine Boost"
 msgstr "Impulso de Cafeína desactivado"
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
-#: src/daemon/settings.vala:317
+#: src/daemon/settings.vala:358
 #, fuzzy
 msgid "Will turn off in a minute"
 msgstr "Se apagará en"
 
 #. use plural
-#: src/daemon/settings.vala:320
+#: src/daemon/settings.vala:361
 #, fuzzy, c-format
 msgid "Will turn off in %d minutes"
 msgstr "Se apagará en"
 
 #. Caffeine Notification
-#: src/raven/notifications_group.vala:44
-#: src/applets/caffeine/CaffeineWindow.vala:25
+#: src/raven/notifications_group.vala:45
+#: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Caffeine Mode"
 msgstr "Modo Cafeína"
 
@@ -120,7 +119,7 @@ msgstr "1 notificación no leída"
 msgid "No unread notifications"
 msgstr "Sin notificaciones"
 
-#: src/raven/notifications_view.vala:913
+#: src/raven/notifications_view.vala:916
 msgid "No new notifications"
 msgstr "Sin notificaciones nuevas"
 
@@ -133,28 +132,28 @@ msgstr "Aplicaciones"
 msgid "Devices"
 msgstr "Dispositivos"
 
-#: src/applets/status/PowerIndicator.vala:97
+#: src/applets/status/PowerIndicator.vala:96
 msgid "Battery fully charged."
 msgstr "Batería totalmente cargada."
 
-#: src/applets/status/PowerIndicator.vala:100
+#: src/applets/status/PowerIndicator.vala:99
 msgid "Unknown"
 msgstr "Desconocido"
 
 #. Set inner charging duration to hours:minutes
-#: src/applets/status/PowerIndicator.vala:109
+#: src/applets/status/PowerIndicator.vala:108
 msgid "Battery charging"
 msgstr "Cargando batería"
 
-#: src/applets/status/PowerIndicator.vala:114
+#: src/applets/status/PowerIndicator.vala:113
 msgid "Battery remaining"
 msgstr "Batería restante"
 
-#: src/applets/status/PowerIndicator.vala:168
+#: src/applets/status/PowerIndicator.vala:167
 msgid "Show battery percentage"
 msgstr "Mostrar porcentaje de batería"
 
-#: src/applets/status/PowerIndicator.vala:176
+#: src/applets/status/PowerIndicator.vala:175
 msgid "Power settings"
 msgstr "Configuración de energía"
 
@@ -192,53 +191,53 @@ msgstr[1] "Conectado a %d dispositivos"
 msgid "Sound settings"
 msgstr "Configuración de sonido"
 
-#: src/applets/icon-tasklist/IconPopover.vala:93
+#: src/applets/icon-tasklist/IconPopover.vala:94
 msgid "Launch New Instance"
 msgstr "Iniciar instancia nueva"
 
-#: src/applets/icon-tasklist/IconPopover.vala:96
+#: src/applets/icon-tasklist/IconPopover.vala:97
 msgid "Close All Windows"
 msgstr "Cerrar todas las ventanas"
 
-#: src/applets/icon-tasklist/IconPopover.vala:104
+#: src/applets/icon-tasklist/IconPopover.vala:105
 msgid "Always On Top"
 msgstr "Siempre al frente"
 
-#: src/applets/icon-tasklist/IconPopover.vala:106
-#: src/applets/icon-tasklist/IconPopover.vala:484
+#: src/applets/icon-tasklist/IconPopover.vala:107
+#: src/applets/icon-tasklist/IconPopover.vala:485
 msgid "Maximize"
 msgstr "Maximizar"
 
-#: src/applets/icon-tasklist/IconPopover.vala:107
+#: src/applets/icon-tasklist/IconPopover.vala:108
 msgid "Minimize"
 msgstr "Minimizar"
 
-#: src/applets/icon-tasklist/IconPopover.vala:372
+#: src/applets/icon-tasklist/IconPopover.vala:373
 msgid "Unfavorite"
 msgstr "Sacar del favoritos"
 
-#: src/applets/icon-tasklist/IconPopover.vala:372
+#: src/applets/icon-tasklist/IconPopover.vala:373
 msgid "Favorite"
 msgstr "Agregar a favoritos"
 
 #. If our current amount of workspaces is different than how many we have added
 #. We have items to add
 #. For workspaces we need to add
-#: src/applets/icon-tasklist/IconPopover.vala:384
+#: src/applets/icon-tasklist/IconPopover.vala:385
 #, c-format
 msgid "Move To Workspace %i"
 msgstr "Mover al área de trabajo %i"
 
 #. Update our always on top button
-#: src/applets/icon-tasklist/IconPopover.vala:484
+#: src/applets/icon-tasklist/IconPopover.vala:485
 msgid "Unmaximize"
 msgstr "Desmaximizar"
 
-#: src/applets/icon-tasklist/IconPopover.vala:543
+#: src/applets/icon-tasklist/IconPopover.vala:544
 msgid "Close Window"
 msgstr "Cerrar ventana"
 
-#: src/applets/icon-tasklist/IconPopover.vala:545
+#: src/applets/icon-tasklist/IconPopover.vala:546
 msgid "Show Window Controls"
 msgstr "Mostrar controles de ventana"
 
@@ -326,11 +325,11 @@ msgstr "Alternar escritorios"
 msgid "Rename"
 msgstr "Renombrar"
 
-#: src/applets/workspaces/WorkspaceItem.vala:79
+#: src/applets/workspaces/WorkspaceItem.vala:80
 msgid "Remove"
 msgstr "Quitar"
 
-#: src/applets/caffeine/CaffeineWindow.vala:26
+#: src/applets/caffeine/CaffeineWindow.vala:27
 msgid "Timer (minutes)"
 msgstr "Temporizador (minutos)"
 
@@ -376,15 +375,15 @@ msgstr "Cerrar sesión"
 msgid "Places"
 msgstr "Lugares"
 
-#: src/applets/places-indicator/PlacesIndicatorWindow.vala:181
+#: src/applets/places-indicator/PlacesIndicatorWindow.vala:182
 msgid "Nothing to display right now"
 msgstr "No hay nada para mostrar en este momento"
 
-#: src/applets/places-indicator/PlacesIndicatorWindow.vala:185
+#: src/applets/places-indicator/PlacesIndicatorWindow.vala:186
 msgid "Mount some drives"
 msgstr "Montar unidades"
 
-#: src/applets/places-indicator/PlacesIndicatorWindow.vala:185
+#: src/applets/places-indicator/PlacesIndicatorWindow.vala:186
 msgid "Enable more sections"
 msgstr "Habilitar más secciones"
 
@@ -470,11 +469,11 @@ msgstr "Error al expulsar el dispositivo"
 msgid "Error while unmounting volume"
 msgstr "Error al desmontar el volumen"
 
-#: src/polkit/polkitdialog.vala:131
+#: src/polkit/polkitdialog.vala:135
 msgid "Authentication failed"
 msgstr "Autenticación se fallida"
 
-#: src/polkit/polkitdialog.vala:230
+#: src/polkit/polkitdialog.vala:234
 msgid "Group:"
 msgstr "Grupo:"
 
@@ -561,6 +560,8 @@ msgid "Dynamic"
 msgstr "Dinámico"
 
 #: src/panel/settings/settings_panel.vala:198
+#: src/panel/settings/settings_fonts.vala:87
+#: src/panel/settings/settings_fonts.vala:113
 msgid "None"
 msgstr "Nada"
 
@@ -630,9 +631,7 @@ msgstr "Modo Dock"
 
 #: src/panel/settings/settings_panel.vala:277
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
-msgstr ""
-"Cuando esté en modo dock, el panel usará el mínimo espacio posible, "
-"liberando pantalla"
+msgstr "Cuando esté en modo dock, el panel usará el mínimo espacio posible, liberando pantalla"
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
@@ -640,9 +639,7 @@ msgstr "Permitir subir el volumen por encima de 100%"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
-msgstr ""
-"Permite subir el volumen tanto en la configuración de sonido, como en el "
-"widget de sonido de Raven hasta el 150%."
+msgstr "Permite subir el volumen tanto en la configuración de sonido, como en el widget de sonido de Raven hasta el 150%."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
@@ -650,9 +647,7 @@ msgstr "Mostrar el número de la semana en el calendario"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr ""
-"Esta configuración permite mostrar el número de la semana en el widget del "
-"calendario."
+msgstr "Esta configuración permite mostrar el número de la semana en el widget del calendario."
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
@@ -660,8 +655,7 @@ msgstr "Mostrar el widget del calendario"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr ""
-"Muestra u oculta el Widget del calendario en la sección de Applets del Raven."
+msgstr "Muestra u oculta el Widget del calendario en la sección de Applets del Raven."
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
@@ -669,9 +663,7 @@ msgstr "Mostrar el Widget de salida de sonido"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr ""
-"Muestra u oculta el Widget de salida de sonido en la sección de Applets del "
-"Raven."
+msgstr "Muestra u oculta el Widget de salida de sonido en la sección de Applets del Raven."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
@@ -679,9 +671,7 @@ msgstr "Mostrar el Widget de entrada de micrófono"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
-msgstr ""
-"Muestra u oculta el Widget de entrada de micrófono en la sección de Applets "
-"del Raven."
+msgstr "Muestra u oculta el Widget de entrada de micrófono en la sección de Applets del Raven."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
@@ -689,9 +679,7 @@ msgstr "Mostrar el Widget de control de la reproducción Multimedia"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
-msgstr ""
-"Muestra u oculta el Widget de control de la reproducción Multimedia (MPRIS) "
-"en la sección de Applets del Raven."
+msgstr "Muestra u oculta el Widget de control de la reproducción Multimedia (MPRIS) en la sección de Applets del Raven."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
@@ -738,49 +726,57 @@ msgstr "Quitar applet"
 msgid "Keep applet"
 msgstr "Mantener applet"
 
-#: src/panel/settings/settings_desktop.vala:33
+#: src/panel/settings/settings_desktop.vala:36
 msgid "Desktop"
 msgstr "Escritorio"
 
-#: src/panel/settings/settings_desktop.vala:43
+#: src/panel/settings/settings_desktop.vala:49
 msgid "Desktop Icons"
 msgstr "Iconos del escritorio"
 
-#: src/panel/settings/settings_desktop.vala:44
+#: src/panel/settings/settings_desktop.vala:50
 msgid "Control whether to allow launchers and icons on the desktop."
 msgstr "Permitir, o no, lanzadores e íconos en el escritorio."
 
-#: src/panel/settings/settings_desktop.vala:54
+#: src/panel/settings/settings_desktop.vala:60
 msgid "Home directory"
 msgstr "Carpeta personal"
 
-#: src/panel/settings/settings_desktop.vala:55
+#: src/panel/settings/settings_desktop.vala:61
 msgid "Add a shortcut to your home directory on the desktop."
 msgstr "Agregar un acceso directo a la carpeta personal en el escritorio."
 
-#: src/panel/settings/settings_desktop.vala:60
+#: src/panel/settings/settings_desktop.vala:66
 msgid "Network servers"
 msgstr "Servidores de red"
 
-#: src/panel/settings/settings_desktop.vala:61
+#: src/panel/settings/settings_desktop.vala:67
 msgid "Add a shortcut to your local network servers on the desktop."
 msgstr "Agregue un acceso directo a sus servidores de red local en el escritorio."
 
-#: src/panel/settings/settings_desktop.vala:66
+#: src/panel/settings/settings_desktop.vala:72
 msgid "Trash"
 msgstr "Papelera"
 
-#: src/panel/settings/settings_desktop.vala:67
+#: src/panel/settings/settings_desktop.vala:73
 msgid "Add a shortcut to the Trash directory on the desktop."
 msgstr "Agregue un acceso directo a la Papelera en el escritorio."
 
-#: src/panel/settings/settings_desktop.vala:72
+#: src/panel/settings/settings_desktop.vala:78
 msgid "Mounted volumes"
 msgstr "Volúmenes montados"
 
-#: src/panel/settings/settings_desktop.vala:73
+#: src/panel/settings/settings_desktop.vala:79
 msgid "Mounted volumes & drives will appear on the desktop."
 msgstr "Discos y volúmenes montados aparecerán en el escritorio."
+
+#: src/panel/settings/settings_desktop.vala:109
+msgid "Number of virtual desktops"
+msgstr ""
+
+#: src/panel/settings/settings_desktop.vala:110
+msgid "Number of virtual desktops / workspaces to create automatically on startup."
+msgstr ""
 
 #: src/panel/settings/settings_style.vala:33
 msgid "Style"
@@ -828,8 +824,7 @@ msgstr "Tema integrado"
 
 #: src/panel/settings/settings_style.vala:80
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr ""
-"Cuando esté activado, el tema integrado sobreescribira el tema del escritorio"
+msgstr "Cuando esté activado, el tema integrado sobreescribira el tema del escritorio"
 
 #: src/panel/settings/settings_style.vala:87
 msgid "Animations"
@@ -1003,48 +998,87 @@ msgstr "Esta opción es para usuarios avanzados. Utilice esta función si tiene 
 msgid "Right (standard)"
 msgstr "Derecha (por defecto)"
 
-#: src/panel/settings/settings_fonts.vala:33
+#: src/panel/settings/settings_fonts.vala:35
 msgid "Fonts"
 msgstr "Fuentes"
 
-#: src/panel/settings/settings_fonts.vala:44
+#: src/panel/settings/settings_fonts.vala:46
 msgid "Window Titles"
 msgstr "Títulos de las ventanas"
 
-#: src/panel/settings/settings_fonts.vala:45
+#: src/panel/settings/settings_fonts.vala:47
 msgid "Set the font used in the titlebars of applications."
 msgstr "Establecer la fuente usada en las barras de título de las aplicaciones."
 
-#: src/panel/settings/settings_fonts.vala:51
+#: src/panel/settings/settings_fonts.vala:53
 msgid "Documents"
 msgstr "Documentos"
 
-#: src/panel/settings/settings_fonts.vala:52
+#: src/panel/settings/settings_fonts.vala:54
 msgid "Set the display font used by for documents."
 msgstr "Establecer la fuente usada por los documentos."
 
-#: src/panel/settings/settings_fonts.vala:58
+#: src/panel/settings/settings_fonts.vala:60
 msgid "Interface"
 msgstr "Interfaz"
 
-#: src/panel/settings/settings_fonts.vala:59
+#: src/panel/settings/settings_fonts.vala:61
 msgid "Set the primary font used by application controls."
 msgstr "Establecer la fuente primaria usada en los controles de las aplicaciones."
 
-#: src/panel/settings/settings_fonts.vala:65
+#: src/panel/settings/settings_fonts.vala:67
 msgid "Monospace"
 msgstr "Monoespacio"
 
-#: src/panel/settings/settings_fonts.vala:66
+#: src/panel/settings/settings_fonts.vala:68
 msgid "Set the fixed-width font used by text dominant applications."
 msgstr "Establecer la fuente de ancho fijo utilizada en las aplicaciones donde predomina el texto."
 
-#: src/panel/settings/settings_fonts.vala:72
+#: src/panel/settings/settings_fonts.vala:74
 msgid "Text scaling"
 msgstr "Escala del texto"
 
-#: src/panel/settings/settings_fonts.vala:73
+#: src/panel/settings/settings_fonts.vala:75
 msgid "Set the text scaling factor."
+msgstr "Establecer el factor de escala del texto."
+
+#: src/panel/settings/settings_fonts.vala:84
+msgid "Full"
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:85
+msgid "Medium"
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:86
+#, fuzzy
+msgid "Slight"
+msgstr "Derecha"
+
+#: src/panel/settings/settings_fonts.vala:103
+msgid "Hinting"
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:104
+#, fuzzy
+msgid "Set the type of hinting to use."
+msgstr "Establecer el factor de escala del texto."
+
+#: src/panel/settings/settings_fonts.vala:111
+msgid "Subpixel (for LCD screens)"
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:112
+msgid "Standard (grayscale)"
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:128
+msgid "Antialiasing"
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:129
+#, fuzzy
+msgid "Set the type of antialiasing to use."
 msgstr "Establecer el factor de escala del texto."
 
 #: src/panel/settings/settings_applet_chooser.vala:79

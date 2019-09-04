@@ -11,11 +11,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-13 06:56+0200\n"
+"POT-Creation-Date: 2019-09-04 03:01+0300\n"
 "PO-Revision-Date: 2019-03-17 09:05+0000\n"
 "Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
-"Language-Team: Bulgarian <http://translate.getsol.us/projects/budgie-desktop/"
-"translations/bg/>\n"
+"Language-Team: Bulgarian <http://translate.getsol.us/projects/budgie-desktop/translations/bg/>\n"
 "Language: bg_BG\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -48,29 +47,29 @@ msgid "Settings"
 msgstr "Настройки"
 
 #. Should show a notification
-#: src/daemon/settings.vala:310
+#: src/daemon/settings.vala:351
 msgid "Turned on Caffeine Boost"
 msgstr "Caffeine Boost включен"
 
-#: src/daemon/settings.vala:310
+#: src/daemon/settings.vala:351
 msgid "Turned off Caffeine Boost"
 msgstr "Caffeine Boost изключен"
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
-#: src/daemon/settings.vala:317
+#: src/daemon/settings.vala:358
 msgid "Will turn off in a minute"
 msgstr ""
 
 #. use plural
-#: src/daemon/settings.vala:320
+#: src/daemon/settings.vala:361
 #, c-format
 msgid "Will turn off in %d minutes"
 msgstr ""
 
 #. Caffeine Notification
-#: src/raven/notifications_group.vala:44
-#: src/applets/caffeine/CaffeineWindow.vala:25
+#: src/raven/notifications_group.vala:45
+#: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Caffeine Mode"
 msgstr "Режим на Caffeine"
 
@@ -111,7 +110,7 @@ msgstr "1 непрочетено известие"
 msgid "No unread notifications"
 msgstr "Няма непрочетени известия"
 
-#: src/raven/notifications_view.vala:913
+#: src/raven/notifications_view.vala:916
 msgid "No new notifications"
 msgstr "Няма нови известия"
 
@@ -124,28 +123,28 @@ msgstr "Приложения"
 msgid "Devices"
 msgstr "Устройства"
 
-#: src/applets/status/PowerIndicator.vala:97
+#: src/applets/status/PowerIndicator.vala:96
 msgid "Battery fully charged."
 msgstr "Батерията е заредена."
 
-#: src/applets/status/PowerIndicator.vala:100
+#: src/applets/status/PowerIndicator.vala:99
 msgid "Unknown"
 msgstr "Неизвестно"
 
 #. Set inner charging duration to hours:minutes
-#: src/applets/status/PowerIndicator.vala:109
+#: src/applets/status/PowerIndicator.vala:108
 msgid "Battery charging"
 msgstr "Батерията се зарежда"
 
-#: src/applets/status/PowerIndicator.vala:114
+#: src/applets/status/PowerIndicator.vala:113
 msgid "Battery remaining"
 msgstr "Оставащ заряд"
 
-#: src/applets/status/PowerIndicator.vala:168
+#: src/applets/status/PowerIndicator.vala:167
 msgid "Show battery percentage"
 msgstr "Показвай процент на заряд"
 
-#: src/applets/status/PowerIndicator.vala:176
+#: src/applets/status/PowerIndicator.vala:175
 msgid "Power settings"
 msgstr "Настройки на захранването"
 
@@ -183,53 +182,53 @@ msgstr[1] "Свързано с %d устройства"
 msgid "Sound settings"
 msgstr "Настройки на звука"
 
-#: src/applets/icon-tasklist/IconPopover.vala:93
+#: src/applets/icon-tasklist/IconPopover.vala:94
 msgid "Launch New Instance"
 msgstr "Стартирайте нов екземпляр"
 
-#: src/applets/icon-tasklist/IconPopover.vala:96
+#: src/applets/icon-tasklist/IconPopover.vala:97
 msgid "Close All Windows"
 msgstr "Затвори всички прозорци"
 
-#: src/applets/icon-tasklist/IconPopover.vala:104
+#: src/applets/icon-tasklist/IconPopover.vala:105
 msgid "Always On Top"
 msgstr "Винаги отгоре"
 
-#: src/applets/icon-tasklist/IconPopover.vala:106
-#: src/applets/icon-tasklist/IconPopover.vala:484
+#: src/applets/icon-tasklist/IconPopover.vala:107
+#: src/applets/icon-tasklist/IconPopover.vala:485
 msgid "Maximize"
 msgstr "На цял екран"
 
-#: src/applets/icon-tasklist/IconPopover.vala:107
+#: src/applets/icon-tasklist/IconPopover.vala:108
 msgid "Minimize"
 msgstr "Минимизирай"
 
-#: src/applets/icon-tasklist/IconPopover.vala:372
+#: src/applets/icon-tasklist/IconPopover.vala:373
 msgid "Unfavorite"
 msgstr "Премахни от предпочитани"
 
-#: src/applets/icon-tasklist/IconPopover.vala:372
+#: src/applets/icon-tasklist/IconPopover.vala:373
 msgid "Favorite"
 msgstr "Добави в предпочитани"
 
 #. If our current amount of workspaces is different than how many we have added
 #. We have items to add
 #. For workspaces we need to add
-#: src/applets/icon-tasklist/IconPopover.vala:384
+#: src/applets/icon-tasklist/IconPopover.vala:385
 #, c-format
 msgid "Move To Workspace %i"
 msgstr "Премести в работно поле %i"
 
 #. Update our always on top button
-#: src/applets/icon-tasklist/IconPopover.vala:484
+#: src/applets/icon-tasklist/IconPopover.vala:485
 msgid "Unmaximize"
 msgstr "Смали"
 
-#: src/applets/icon-tasklist/IconPopover.vala:543
+#: src/applets/icon-tasklist/IconPopover.vala:544
 msgid "Close Window"
 msgstr "Затвори прозореца"
 
-#: src/applets/icon-tasklist/IconPopover.vala:545
+#: src/applets/icon-tasklist/IconPopover.vala:546
 msgid "Show Window Controls"
 msgstr "Показване на командната лента на прозореца"
 
@@ -317,11 +316,11 @@ msgstr "Превключване на работния плот"
 msgid "Rename"
 msgstr "Преименуване"
 
-#: src/applets/workspaces/WorkspaceItem.vala:79
+#: src/applets/workspaces/WorkspaceItem.vala:80
 msgid "Remove"
 msgstr "Премахване"
 
-#: src/applets/caffeine/CaffeineWindow.vala:26
+#: src/applets/caffeine/CaffeineWindow.vala:27
 msgid "Timer (minutes)"
 msgstr "Таймер (минути)"
 
@@ -367,15 +366,15 @@ msgstr "Отписване"
 msgid "Places"
 msgstr "Места"
 
-#: src/applets/places-indicator/PlacesIndicatorWindow.vala:181
+#: src/applets/places-indicator/PlacesIndicatorWindow.vala:182
 msgid "Nothing to display right now"
 msgstr "Няма нищо за показване"
 
-#: src/applets/places-indicator/PlacesIndicatorWindow.vala:185
+#: src/applets/places-indicator/PlacesIndicatorWindow.vala:186
 msgid "Mount some drives"
 msgstr "Монтирайте дискове"
 
-#: src/applets/places-indicator/PlacesIndicatorWindow.vala:185
+#: src/applets/places-indicator/PlacesIndicatorWindow.vala:186
 msgid "Enable more sections"
 msgstr "Включете още секции"
 
@@ -461,11 +460,11 @@ msgstr "Грешка при изваждане"
 msgid "Error while unmounting volume"
 msgstr "Грешка при размонтиране"
 
-#: src/polkit/polkitdialog.vala:131
+#: src/polkit/polkitdialog.vala:135
 msgid "Authentication failed"
 msgstr "Неуспешна идентификация"
 
-#: src/polkit/polkitdialog.vala:230
+#: src/polkit/polkitdialog.vala:234
 msgid "Group:"
 msgstr "Група:"
 
@@ -552,6 +551,8 @@ msgid "Dynamic"
 msgstr "Динамична"
 
 #: src/panel/settings/settings_panel.vala:198
+#: src/panel/settings/settings_fonts.vala:87
+#: src/panel/settings/settings_fonts.vala:113
 msgid "None"
 msgstr "Няма"
 
@@ -629,9 +630,7 @@ msgstr "Разреши увеличаване на звука над 100%"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
-msgstr ""
-"Разрешава увеличаване на звука до 150% в настройките на звука и в звуковия "
-"панел в Raven."
+msgstr "Разрешава увеличаване на звука до 150% в настройките на звука и в звуковия панел в Raven."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
@@ -639,8 +638,7 @@ msgstr "Включи показване на номера на седмицат�
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr ""
-"Тази настройка включва показването на номерата на седмиците в календара."
+msgstr "Тази настройка включва показването на номерата на седмиците в календара."
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
@@ -656,8 +654,7 @@ msgstr "Покажи панела за изход на звука"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr ""
-"Показва или скрива панела за изход на звука в раздела с аплети на Raven."
+msgstr "Показва или скрива панела за изход на звука в раздела с аплети на Raven."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
@@ -665,8 +662,7 @@ msgstr "Покажи панела за вход от микрофона"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
-msgstr ""
-"Показва или скрива панела за вход от микрофона в раздела с аплети на Raven."
+msgstr "Показва или скрива панела за вход от микрофона в раздела с аплети на Raven."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
@@ -674,9 +670,7 @@ msgstr "Покажи панела за управление на медийно 
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
-msgstr ""
-"Показва или скрива панела за управление на медийно възпроизвеждане в раздела "
-"с аплети на Raven."
+msgstr "Показва или скрива панела за управление на медийно възпроизвеждане в раздела с аплети на Raven."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
@@ -684,9 +678,7 @@ msgstr "Показване на панела за управление на за
 
 #: src/panel/settings/settings_raven.vala:76
 msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr ""
-"Показва или скрива панела за управление на захранването в долната част на "
-"Raven."
+msgstr "Показва или скрива панела за управление на захранването в долната част на Raven."
 
 #: src/panel/settings/settings_panel_dialogs.vala:29
 msgid "Confirm panel removal"
@@ -725,51 +717,57 @@ msgstr "Премахване на аплета"
 msgid "Keep applet"
 msgstr "Запазване на аплета"
 
-#: src/panel/settings/settings_desktop.vala:33
+#: src/panel/settings/settings_desktop.vala:36
 msgid "Desktop"
 msgstr "Работен плот"
 
-#: src/panel/settings/settings_desktop.vala:43
+#: src/panel/settings/settings_desktop.vala:49
 msgid "Desktop Icons"
 msgstr "Икони на работния плот"
 
-#: src/panel/settings/settings_desktop.vala:44
+#: src/panel/settings/settings_desktop.vala:50
 msgid "Control whether to allow launchers and icons on the desktop."
-msgstr ""
-"Управлявайте възможността да използвате преки пътища и икони на работния "
-"плот."
+msgstr "Управлявайте възможността да използвате преки пътища и икони на работния плот."
 
-#: src/panel/settings/settings_desktop.vala:54
+#: src/panel/settings/settings_desktop.vala:60
 msgid "Home directory"
 msgstr "Начална директория"
 
-#: src/panel/settings/settings_desktop.vala:55
+#: src/panel/settings/settings_desktop.vala:61
 msgid "Add a shortcut to your home directory on the desktop."
 msgstr "Добавете пряк път към началната си директория на работния плот."
 
-#: src/panel/settings/settings_desktop.vala:60
+#: src/panel/settings/settings_desktop.vala:66
 msgid "Network servers"
 msgstr "Мрежови сървъри"
 
-#: src/panel/settings/settings_desktop.vala:61
+#: src/panel/settings/settings_desktop.vala:67
 msgid "Add a shortcut to your local network servers on the desktop."
 msgstr "Добавете пряк път към локалните мрежови сървъри на работния плот."
 
-#: src/panel/settings/settings_desktop.vala:66
+#: src/panel/settings/settings_desktop.vala:72
 msgid "Trash"
 msgstr "Кошче"
 
-#: src/panel/settings/settings_desktop.vala:67
+#: src/panel/settings/settings_desktop.vala:73
 msgid "Add a shortcut to the Trash directory on the desktop."
 msgstr "Добавете пряк път към Кошчето на работния плот."
 
-#: src/panel/settings/settings_desktop.vala:72
+#: src/panel/settings/settings_desktop.vala:78
 msgid "Mounted volumes"
 msgstr "Монтирани дискове"
 
-#: src/panel/settings/settings_desktop.vala:73
+#: src/panel/settings/settings_desktop.vala:79
 msgid "Mounted volumes & drives will appear on the desktop."
 msgstr "Монтираните дялове и дискове ще се показват на работния плот."
+
+#: src/panel/settings/settings_desktop.vala:109
+msgid "Number of virtual desktops"
+msgstr ""
+
+#: src/panel/settings/settings_desktop.vala:110
+msgid "Number of virtual desktops / workspaces to create automatically on startup."
+msgstr ""
 
 #: src/panel/settings/settings_style.vala:33
 msgid "Style"
@@ -817,9 +815,7 @@ msgstr "Вградена тема"
 
 #: src/panel/settings/settings_style.vala:80
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr ""
-"При активиране, стилът на графичните компоненти ще бъде заменен от "
-"вградената тема"
+msgstr "При активиране, стилът на графичните компоненти ще бъде заменен от вградената тема"
 
 #: src/panel/settings/settings_style.vala:87
 msgid "Animations"
@@ -939,9 +935,7 @@ msgstr "Прикачени към прозорците модални диало
 
 #: src/panel/settings/settings_wm.vala:42
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr ""
-"Модалните диалогови прозорци ще са прикачени към главния прозорец и ще се "
-"движат заедно с него при влачене."
+msgstr "Модалните диалогови прозорци ще са прикачени към главния прозорец и ще се движат заедно с него при влачене."
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Button layout"
@@ -965,9 +959,7 @@ msgstr "Деактивирайте режима Нощна светлина, к�
 
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
-msgstr ""
-"Деактивира режима Нощна светлина, когато прозорецът е на цял екран. Повторно "
-"активира при напускане на цял екран."
+msgstr "Деактивира режима Нощна светлина, когато прозорецът е на цял екран. Повторно активира при напускане на цял екран."
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
@@ -975,15 +967,11 @@ msgstr "Автоматично мозаично подреждане"
 
 #: src/panel/settings/settings_wm.vala:66
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr ""
-"Прозорците се подреждат автоматично, когато са завлачени в горната част или "
-"в ъглите на екрана."
+msgstr "Прозорците се подреждат автоматично, когато са завлачени в горната част или в ъглите на екрана."
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
-msgstr ""
-"Активиране на промяната на фокуса на прозореца при влизане и напускане на "
-"курсора на мишката"
+msgstr "Активиране на промяната на фокуса на прозореца при влизане и напускане на курсора на мишката"
 
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
@@ -995,57 +983,93 @@ msgstr "Активиране на пренасочването на прозор
 
 #: src/panel/settings/settings_wm.vala:79
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr ""
-"Опция за напреднали потребители. Използва се при графични проблеми или "
-"проблеми с производителността на дискретни графични карти."
+msgstr "Опция за напреднали потребители. Използва се при графични проблеми или проблеми с производителността на дискретни графични карти."
 
 #: src/panel/settings/settings_wm.vala:86
 msgid "Right (standard)"
 msgstr "Дясно (стандартно)"
 
-#: src/panel/settings/settings_fonts.vala:33
+#: src/panel/settings/settings_fonts.vala:35
 msgid "Fonts"
 msgstr "Шрифтове"
 
-#: src/panel/settings/settings_fonts.vala:44
+#: src/panel/settings/settings_fonts.vala:46
 msgid "Window Titles"
 msgstr "Заглавия на прозорците"
 
-#: src/panel/settings/settings_fonts.vala:45
+#: src/panel/settings/settings_fonts.vala:47
 msgid "Set the font used in the titlebars of applications."
 msgstr "Задайте шрифта, използван в заглавните ленти на приложенията."
 
-#: src/panel/settings/settings_fonts.vala:51
+#: src/panel/settings/settings_fonts.vala:53
 msgid "Documents"
 msgstr "Документи"
 
-#: src/panel/settings/settings_fonts.vala:52
+#: src/panel/settings/settings_fonts.vala:54
 msgid "Set the display font used by for documents."
 msgstr "Задайте показвания шрифт, използван за документи."
 
-#: src/panel/settings/settings_fonts.vala:58
+#: src/panel/settings/settings_fonts.vala:60
 msgid "Interface"
 msgstr "Интерфейс"
 
-#: src/panel/settings/settings_fonts.vala:59
+#: src/panel/settings/settings_fonts.vala:61
 msgid "Set the primary font used by application controls."
 msgstr "Задайте главния шрифт, използван от контролите на приложенията."
 
-#: src/panel/settings/settings_fonts.vala:65
+#: src/panel/settings/settings_fonts.vala:67
 msgid "Monospace"
 msgstr "Равноширок"
 
-#: src/panel/settings/settings_fonts.vala:66
+#: src/panel/settings/settings_fonts.vala:68
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr ""
-"Задайте шрифт с фиксирана ширина, използван от главно текстови приложения."
+msgstr "Задайте шрифт с фиксирана ширина, използван от главно текстови приложения."
 
-#: src/panel/settings/settings_fonts.vala:72
+#: src/panel/settings/settings_fonts.vala:74
 msgid "Text scaling"
 msgstr "Мащабиране на текстa"
 
-#: src/panel/settings/settings_fonts.vala:73
+#: src/panel/settings/settings_fonts.vala:75
 msgid "Set the text scaling factor."
+msgstr "Задайте коефициент за мащабиране на текста."
+
+#: src/panel/settings/settings_fonts.vala:84
+msgid "Full"
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:85
+msgid "Medium"
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:86
+#, fuzzy
+msgid "Slight"
+msgstr "Дясно"
+
+#: src/panel/settings/settings_fonts.vala:103
+msgid "Hinting"
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:104
+#, fuzzy
+msgid "Set the type of hinting to use."
+msgstr "Задайте коефициент за мащабиране на текста."
+
+#: src/panel/settings/settings_fonts.vala:111
+msgid "Subpixel (for LCD screens)"
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:112
+msgid "Standard (grayscale)"
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:128
+msgid "Antialiasing"
+msgstr ""
+
+#: src/panel/settings/settings_fonts.vala:129
+#, fuzzy
+msgid "Set the type of antialiasing to use."
 msgstr "Задайте коефициент за мащабиране на текста."
 
 #: src/panel/settings/settings_applet_chooser.vala:79
@@ -1272,6 +1296,4 @@ msgstr "Budgie Панел"
 
 #: src/panel/budgie-panel.desktop.in.h:2
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
-msgstr ""
-"Стартиране на други приложения и предоставяне на различни помощни програми "
-"за управление на прозорците, показване на времето и т.н."
+msgstr "Стартиране на други приложения и предоставяне на различни помощни програми за управление на прозорците, показване на времето и т.н."
