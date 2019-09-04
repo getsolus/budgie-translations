@@ -22,15 +22,16 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-03-17 09:05+0000\n"
-"Last-Translator: Skyeun <eressea667@gmail.com>\n"
-"Language-Team: French <http://translate.getsol.us/projects/budgie-desktop/translations/fr/>\n"
+"PO-Revision-Date: 2019-09-04 16:47+0000\n"
+"Last-Translator: JeanDeLaMouche <lolo.branstett@numericable.fr>\n"
+"Language-Team: French <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.4-dev\n"
+"X-Generator: Weblate 3.8\n"
 
 #: src/daemon/endsession.vala:171
 msgid "Log out"
@@ -68,15 +69,14 @@ msgstr "Injection de Caféine désactivée"
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
 #: src/daemon/settings.vala:358
-#, fuzzy
 msgid "Will turn off in a minute"
-msgstr "S'éteindra dans"
+msgstr "S'éteindra dans une minute"
 
 #. use plural
 #: src/daemon/settings.vala:361
-#, fuzzy, c-format
+#, c-format
 msgid "Will turn off in %d minutes"
-msgstr "S'éteindra dans"
+msgstr "S'éteindra dans %d minutes"
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:45
@@ -778,11 +778,13 @@ msgstr "Les volumes et disques montés apparaîtront sur le bureau."
 
 #: src/panel/settings/settings_desktop.vala:109
 msgid "Number of virtual desktops"
-msgstr ""
+msgstr "Nombre de bureaux virtuels"
 
 #: src/panel/settings/settings_desktop.vala:110
 msgid "Number of virtual desktops / workspaces to create automatically on startup."
 msgstr ""
+"Nombre de bureaux/espaces de travail virtuels à créer automatiquement au "
+"démarrage."
 
 #: src/panel/settings/settings_style.vala:33
 msgid "Style"
@@ -1050,20 +1052,20 @@ msgstr "Définir le facteur de mise à l'échelle du texte."
 
 #: src/panel/settings/settings_fonts.vala:84
 msgid "Full"
-msgstr ""
+msgstr "Plein"
 
 #: src/panel/settings/settings_fonts.vala:85
 msgid "Medium"
-msgstr ""
+msgstr "Moyen"
 
 #: src/panel/settings/settings_fonts.vala:86
-#, fuzzy
 msgid "Slight"
-msgstr "Droite"
+msgstr "Légère"
 
 #: src/panel/settings/settings_fonts.vala:103
+#, fuzzy
 msgid "Hinting"
-msgstr ""
+msgstr "Indice"
 
 #: src/panel/settings/settings_fonts.vala:104
 #, fuzzy
@@ -1072,20 +1074,19 @@ msgstr "Définir le facteur de mise à l'échelle du texte."
 
 #: src/panel/settings/settings_fonts.vala:111
 msgid "Subpixel (for LCD screens)"
-msgstr ""
+msgstr "Sous-pixel (pour écrans LCD)"
 
 #: src/panel/settings/settings_fonts.vala:112
 msgid "Standard (grayscale)"
-msgstr ""
+msgstr "Standard (niveaux de gris)"
 
 #: src/panel/settings/settings_fonts.vala:128
 msgid "Antialiasing"
-msgstr ""
+msgstr "Antialiasing"
 
 #: src/panel/settings/settings_fonts.vala:129
-#, fuzzy
 msgid "Set the type of antialiasing to use."
-msgstr "Définir le facteur de mise à l'échelle du texte."
+msgstr "Définissez le type antialiasing à utiliser."
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
