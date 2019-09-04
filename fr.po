@@ -22,8 +22,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-09-04 16:47+0000\n"
-"Last-Translator: JeanDeLaMouche <lolo.branstett@numericable.fr>\n"
+"PO-Revision-Date: 2019-09-04 17:09+0000\n"
+"Last-Translator: Pierre-Yves <pyu@riseup.net>\n"
 "Language-Team: French <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/fr/>\n"
 "Language: fr\n"
@@ -1063,12 +1063,10 @@ msgid "Slight"
 msgstr "Légère"
 
 #: src/panel/settings/settings_fonts.vala:103
-#, fuzzy
 msgid "Hinting"
 msgstr "Indice"
 
 #: src/panel/settings/settings_fonts.vala:104
-#, fuzzy
 msgid "Set the type of hinting to use."
 msgstr "Définir le facteur de mise à l'échelle du texte."
 
@@ -1078,15 +1076,15 @@ msgstr "Sous-pixel (pour écrans LCD)"
 
 #: src/panel/settings/settings_fonts.vala:112
 msgid "Standard (grayscale)"
-msgstr "Standard (niveaux de gris)"
+msgstr "Etalon (niveaux de gris)"
 
 #: src/panel/settings/settings_fonts.vala:128
 msgid "Antialiasing"
-msgstr "Antialiasing"
+msgstr "Anticrénelage"
 
 #: src/panel/settings/settings_fonts.vala:129
 msgid "Set the type of antialiasing to use."
-msgstr "Définissez le type antialiasing à utiliser."
+msgstr "Définissez le type d'anticrénelage à utiliser."
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
