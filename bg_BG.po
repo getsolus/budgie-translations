@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-09-04 17:09+0000\n"
-"Last-Translator: Fuck You <kris_popov1@abv.bg>\n"
+"PO-Revision-Date: 2019-09-12 23:10+0000\n"
+"Last-Translator: Zhiv <sobber@gmail.com>\n"
 "Language-Team: Bulgarian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/bg/>\n"
 "Language: bg_BG\n"
@@ -1039,16 +1039,15 @@ msgstr "Задайте коефициент за мащабиране на те�
 
 #: src/panel/settings/settings_fonts.vala:84
 msgid "Full"
-msgstr "Пълен"
+msgstr "Пълно"
 
 #: src/panel/settings/settings_fonts.vala:85
 msgid "Medium"
-msgstr ""
+msgstr "Умерено"
 
 #: src/panel/settings/settings_fonts.vala:86
-#, fuzzy
 msgid "Slight"
-msgstr "Дясно"
+msgstr "Слабо"
 
 #: src/panel/settings/settings_fonts.vala:103
 msgid "Hinting"
@@ -1056,7 +1055,7 @@ msgstr "Подсказване"
 
 #: src/panel/settings/settings_fonts.vala:104
 msgid "Set the type of hinting to use."
-msgstr "Задаване на типа подсказка, който да се използва."
+msgstr "Задаване на типа подсказка за ползване."
 
 #: src/panel/settings/settings_fonts.vala:111
 msgid "Subpixel (for LCD screens)"
