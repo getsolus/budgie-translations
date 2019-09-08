@@ -10,15 +10,16 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-08-13 09:34+0000\n"
-"Last-Translator: Ido Galili <ido.galili@zoho.com>\n"
-"Language-Team: Hebrew <http://translate.getsol.us/projects/budgie-desktop/translations/he/>\n"
+"PO-Revision-Date: 2019-09-28 16:21+0000\n"
+"Last-Translator: Yoni Banai <ink.bug@gmail.com>\n"
+"Language-Team: Hebrew <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 3.4-dev\n"
+"X-Generator: Weblate 3.8\n"
 
 #: src/daemon/endsession.vala:171
 msgid "Log out"
@@ -56,15 +57,14 @@ msgstr "קפאין הופסק"
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
 #: src/daemon/settings.vala:358
-#, fuzzy
 msgid "Will turn off in a minute"
-msgstr "ייכבה בעוד"
+msgstr "ייכבה בעוד דקה"
 
 #. use plural
 #: src/daemon/settings.vala:361
-#, fuzzy, c-format
+#, c-format
 msgid "Will turn off in %d minutes"
-msgstr "ייכבה בעוד"
+msgstr "ייכבה בעוד %d דקות"
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:45
@@ -762,11 +762,11 @@ msgstr "מחיצות וכוננים טעונים יוצגו על גבי שולח
 
 #: src/panel/settings/settings_desktop.vala:109
 msgid "Number of virtual desktops"
-msgstr ""
+msgstr "מספר שולחנות עבודה וירטואלים"
 
 #: src/panel/settings/settings_desktop.vala:110
 msgid "Number of virtual desktops / workspaces to create automatically on startup."
-msgstr ""
+msgstr "מספר שולחנות עבודה / חללי עבודה ויטואלים לייצר אוטומטית בעת אתחול."
 
 #: src/panel/settings/settings_style.vala:33
 msgid "Style"
@@ -1034,7 +1034,7 @@ msgstr "קבע את מקדם המידה לטקסט."
 
 #: src/panel/settings/settings_fonts.vala:84
 msgid "Full"
-msgstr ""
+msgstr "מלא"
 
 #: src/panel/settings/settings_fonts.vala:85
 msgid "Medium"
