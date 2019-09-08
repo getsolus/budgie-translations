@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-09-04 00:03+0000\n"
-"Last-Translator: David M <medipas@gmail.com>\n"
-"Language-Team: Catalan <http://translate.getsol.us/projects/budgie-desktop/translations/ca/>\n"
+"PO-Revision-Date: 2019-09-10 11:56+0000\n"
+"Last-Translator: Laura CR <lazeru08@gmail.com>\n"
+"Language-Team: Catalan <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.4-dev\n"
+"X-Generator: Weblate 3.8\n"
 
 #: src/daemon/endsession.vala:171
 msgid "Log out"
@@ -55,15 +56,14 @@ msgstr "S'ha desactivat l'empenta de la Cafeïna."
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
 #: src/daemon/settings.vala:358
-#, fuzzy
 msgid "Will turn off in a minute"
-msgstr "S'aturarà d'aquí a"
+msgstr "S'aturarà d'aquí a un minut"
 
 #. use plural
 #: src/daemon/settings.vala:361
-#, fuzzy, c-format
+#, c-format
 msgid "Will turn off in %d minutes"
-msgstr "S'aturarà d'aquí a"
+msgstr "S'aturarà d'aquí %d minuts"
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:45
@@ -761,11 +761,13 @@ msgstr "Els volums i els dispositius muntats es mostraran a l'escriptori."
 
 #: src/panel/settings/settings_desktop.vala:109
 msgid "Number of virtual desktops"
-msgstr ""
+msgstr "Nombre d'escriptoris virtuals"
 
 #: src/panel/settings/settings_desktop.vala:110
 msgid "Number of virtual desktops / workspaces to create automatically on startup."
 msgstr ""
+"Nombre d'escriptoris virtuals / espais de treball a crear automàticament en "
+"l'engegada."
 
 #: src/panel/settings/settings_style.vala:33
 msgid "Style"
@@ -1059,16 +1061,15 @@ msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:112
 msgid "Standard (grayscale)"
-msgstr ""
+msgstr "Estàndard (escala de grisos)"
 
 #: src/panel/settings/settings_fonts.vala:128
 msgid "Antialiasing"
-msgstr ""
+msgstr "Antialiàsing"
 
 #: src/panel/settings/settings_fonts.vala:129
-#, fuzzy
 msgid "Set the type of antialiasing to use."
-msgstr "Establiu el factor de l'escala del text."
+msgstr "Establiu el factor de antialiàsing a utilitzar."
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
