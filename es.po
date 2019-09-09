@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-09-09 18:04+0000\n"
+"PO-Revision-Date: 2019-09-09 18:05+0000\n"
 "Last-Translator: Dan <danrdgn@protonmail.com>\n"
 "Language-Team: Spanish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/es/>\n"
@@ -835,7 +835,7 @@ msgstr "Animaciones"
 
 #: src/panel/settings/settings_style.vala:88
 msgid "Control whether windows and controls use animations"
-msgstr "Permitir, o nó, animaciones"
+msgstr "Permitir o no animaciones"
 
 #: src/panel/settings/settings_style.vala:209
 msgid "Top Left"
