@@ -293,7 +293,7 @@ msgstr "Bloq Num inactivo"
 
 #: src/applets/clock/ClockApplet.vala:151
 msgid "Time and date settings"
-msgstr "Ajustes de hora y fecha"
+msgstr "Configuración de fecha y hora"
 
 #: src/applets/clock/ClockApplet.vala:152
 msgid "Calendar"
