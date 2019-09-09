@@ -492,7 +492,7 @@ msgstr "Sesión"
 #: src/panel/settings/settings_main.vala:50
 #: src/panel/budgie-desktop-settings.desktop.in.h:1
 msgid "Budgie Desktop Settings"
-msgstr "Configuraciones del escritorio Budgie"
+msgstr "Configuración del escritorio Budgie"
 
 #: src/panel/settings/settings_main.vala:81
 msgid "Create new panel"
