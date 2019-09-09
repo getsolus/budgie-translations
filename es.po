@@ -214,7 +214,7 @@ msgstr "Minimizar"
 
 #: src/applets/icon-tasklist/IconPopover.vala:373
 msgid "Unfavorite"
-msgstr "Sacar del favoritos"
+msgstr "Borrar del favoritos"
 
 #: src/applets/icon-tasklist/IconPopover.vala:373
 msgid "Favorite"
