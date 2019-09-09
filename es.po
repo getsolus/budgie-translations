@@ -902,7 +902,7 @@ msgstr "Opcional"
 
 #: src/panel/settings/settings_autostart.vala:465
 msgid "Autostart"
-msgstr "Autoinicio"
+msgstr "Inicio automático"
 
 #: src/panel/settings/settings_autostart.vala:483
 msgid "Autostart apps"
