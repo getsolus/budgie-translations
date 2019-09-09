@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-09-09 17:59+0000\n"
+"PO-Revision-Date: 2019-09-09 18:00+0000\n"
 "Last-Translator: Dan <danrdgn@protonmail.com>\n"
 "Language-Team: Spanish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/es/>\n"
@@ -285,7 +285,7 @@ msgstr "Bloq Mayús no está activo"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:75
 msgid "Num lock is active"
-msgstr "Bloq. num. activo"
+msgstr "Bloq Num activo"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:78
 msgid "Num lock is not active"
