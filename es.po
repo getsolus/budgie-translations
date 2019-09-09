@@ -910,7 +910,7 @@ msgstr "Inicio automático de aplicaciones"
 
 #: src/panel/settings/settings_panel_applets.vala:22
 msgid "Configure applet"
-msgstr "Configuraciónes del applet"
+msgstr "Configuraciones del applet"
 
 #: src/panel/settings/settings_panel_applets.vala:245
 #: src/panel/settings/settings_applet_chooser.vala:85
