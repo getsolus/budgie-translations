@@ -231,7 +231,7 @@ msgstr "Mover al área de trabajo %i"
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:485
 msgid "Unmaximize"
-msgstr "Desmaximizar"
+msgstr "Restaurar"
 
 #: src/applets/icon-tasklist/IconPopover.vala:544
 msgid "Close Window"
