@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-09-09 18:09+0000\n"
+"PO-Revision-Date: 2019-09-09 18:10+0000\n"
 "Last-Translator: Dan <danrdgn@protonmail.com>\n"
 "Language-Team: Spanish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/es/>\n"
@@ -1175,7 +1175,7 @@ msgstr "No mostrar"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
-msgstr "Mostrar cuando el mouse pase por encima"
+msgstr "Mostrar cuando el cursor pase por encima"
 
 #: src/applets/workspaces/settings.ui.h:4
 msgid "Always show"
