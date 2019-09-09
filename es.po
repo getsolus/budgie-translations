@@ -281,7 +281,7 @@ msgstr "Bloq Mayús está activo"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:65
 msgid "Caps lock is not active"
-msgstr "Bloq mayús no está activo"
+msgstr "Bloq Mayús no está activo"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:75
 msgid "Num lock is active"
