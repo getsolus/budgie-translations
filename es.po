@@ -768,7 +768,7 @@ msgstr "Volúmenes montados"
 
 #: src/panel/settings/settings_desktop.vala:79
 msgid "Mounted volumes & drives will appear on the desktop."
-msgstr "Discos y volúmenes montados aparecerán en el escritorio."
+msgstr "Los discos y volúmenes montados aparecerán en el escritorio."
 
 #: src/panel/settings/settings_desktop.vala:109
 msgid "Number of virtual desktops"
