@@ -21,7 +21,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
 "PO-Revision-Date: 2019-09-09 18:01+0000\n"
-"Last-Translator: Jorge <teamevomagix@gmail.com>\n"
+"Last-Translator: Dan <danrdgn@protonmail.com>\n"
 "Language-Team: Spanish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/es/>\n"
 "Language: es\n"
@@ -315,7 +315,7 @@ msgstr "Mostrar segundos"
 
 #: src/applets/clock/ClockApplet.vala:180
 msgid "Use 24 hour time"
-msgstr "Usar formado de 24h"
+msgstr "Usar formato de 24h"
 
 #: src/applets/show-desktop/ShowDesktopApplet.vala:34
 msgid "Toggle the desktop"
