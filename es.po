@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-09-09 18:03+0000\n"
+"PO-Revision-Date: 2019-09-09 18:04+0000\n"
 "Last-Translator: Dan <danrdgn@protonmail.com>\n"
 "Language-Team: Spanish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/es/>\n"
@@ -826,7 +826,8 @@ msgstr "Tema integrado"
 
 #: src/panel/settings/settings_style.vala:80
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr "Cuando esté activado, el tema integrado sobreescribira el tema del escritorio"
+msgstr ""
+"Cuando esté activado, el tema integrado sobreescribirá el tema del escritorio"
 
 #: src/panel/settings/settings_style.vala:87
 msgid "Animations"
