@@ -20,8 +20,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-09-09 18:11+0000\n"
-"Last-Translator: Dan <danrdgn@protonmail.com>\n"
+"PO-Revision-Date: 2019-09-28 16:21+0000\n"
+"Last-Translator: Jorge <teamevomagix@gmail.com>\n"
 "Language-Team: Spanish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/es/>\n"
 "Language: es\n"
@@ -184,7 +184,7 @@ msgstr "Bluetooth está activado"
 #, c-format
 msgid "Connected to %d device"
 msgid_plural "Connected to %d devices"
-msgstr[0] "Conectado a %d dispositivos"
+msgstr[0] "Conectado a %d dispositivo"
 msgstr[1] "Conectado a %d dispositivos"
 
 #: src/applets/status/SoundIndicator.vala:146
@@ -778,7 +778,7 @@ msgstr "Número de escritorios virtuales"
 msgid "Number of virtual desktops / workspaces to create automatically on startup."
 msgstr ""
 "Número de escritorios y espacios de trabajo virtuales para crear "
-"automaticamente en el inicio"
+"automaticamente en el inicio."
 
 #: src/panel/settings/settings_style.vala:33
 msgid "Style"
