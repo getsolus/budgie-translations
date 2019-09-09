@@ -831,7 +831,7 @@ msgstr ""
 
 #: src/panel/settings/settings_style.vala:87
 msgid "Animations"
-msgstr "Animaciónes"
+msgstr "Animaciones"
 
 #: src/panel/settings/settings_style.vala:88
 msgid "Control whether windows and controls use animations"
