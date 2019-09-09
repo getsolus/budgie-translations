@@ -289,7 +289,7 @@ msgstr "Bloq Num activo"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:78
 msgid "Num lock is not active"
-msgstr "Bloq. num. inactivo"
+msgstr "Bloq Num inactivo"
 
 #: src/applets/clock/ClockApplet.vala:151
 msgid "Time and date settings"
