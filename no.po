@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-03-17 09:05+0000\n"
-"Last-Translator: hasan eyyub danisman <hdan91@hotmail.com>\n"
-"Language-Team: Norwegian Bokmål <http://translate.getsol.us/projects/budgie-desktop/translations/nb_NO/>\n"
+"PO-Revision-Date: 2019-09-28 16:21+0000\n"
+"Last-Translator: Kim Malmo <berencamlost@msn.com>\n"
+"Language-Team: Norwegian Bokmål <http://translate.getsol.us/projects/"
+"budgie-desktop/translations/nb_NO/>\n"
 "Language: no\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.4-dev\n"
+"X-Generator: Weblate 3.8\n"
 
 #: src/daemon/endsession.vala:171
 msgid "Log out"
@@ -55,15 +56,14 @@ msgstr "Caffeine Boost skrudd av"
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
 #: src/daemon/settings.vala:358
-#, fuzzy
 msgid "Will turn off in a minute"
-msgstr "Vil slå seg av om"
+msgstr "Vil slå seg av innen ett minutt"
 
 #. use plural
 #: src/daemon/settings.vala:361
-#, fuzzy, c-format
+#, c-format
 msgid "Will turn off in %d minutes"
-msgstr "Vil slå seg av om"
+msgstr "Vil slå seg av om %d minutter"
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:45
@@ -761,11 +761,12 @@ msgstr "Monterte volumer og disker vil vises på skrivebordet."
 
 #: src/panel/settings/settings_desktop.vala:109
 msgid "Number of virtual desktops"
-msgstr ""
+msgstr "Antall virtuelle skrivebord"
 
 #: src/panel/settings/settings_desktop.vala:110
 msgid "Number of virtual desktops / workspaces to create automatically on startup."
 msgstr ""
+"Antall virtuelle skrivebord / arbeidsområder å lage automatisk ved oppstart."
 
 #: src/panel/settings/settings_style.vala:33
 msgid "Style"
@@ -1033,42 +1034,39 @@ msgstr "Sett tekst skaleringsfaktor."
 
 #: src/panel/settings/settings_fonts.vala:84
 msgid "Full"
-msgstr ""
+msgstr "Full"
 
 #: src/panel/settings/settings_fonts.vala:85
 msgid "Medium"
-msgstr ""
+msgstr "Medium"
 
 #: src/panel/settings/settings_fonts.vala:86
-#, fuzzy
 msgid "Slight"
-msgstr "Høyre"
+msgstr "Liten"
 
 #: src/panel/settings/settings_fonts.vala:103
 msgid "Hinting"
-msgstr ""
+msgstr "Hinting"
 
 #: src/panel/settings/settings_fonts.vala:104
-#, fuzzy
 msgid "Set the type of hinting to use."
-msgstr "Sett tekst skaleringsfaktor."
+msgstr "Sett tekst hintingstype."
 
 #: src/panel/settings/settings_fonts.vala:111
 msgid "Subpixel (for LCD screens)"
-msgstr ""
+msgstr "Underpiksel (for LCD skjermer)"
 
 #: src/panel/settings/settings_fonts.vala:112
 msgid "Standard (grayscale)"
-msgstr ""
+msgstr "Standard (gråtone)"
 
 #: src/panel/settings/settings_fonts.vala:128
 msgid "Antialiasing"
-msgstr ""
+msgstr "Antialiasing"
 
 #: src/panel/settings/settings_fonts.vala:129
-#, fuzzy
 msgid "Set the type of antialiasing to use."
-msgstr "Sett tekst skaleringsfaktor."
+msgstr "Velg type antialiasing å bruke."
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
@@ -1258,7 +1256,7 @@ msgstr "Klokke"
 
 #: src/applets/separator/SeparatorApplet.plugin.in.h:1
 msgid "Separator"
-msgstr "Separator"
+msgstr "Atskiller"
 
 #: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
 msgid "Show Desktop Button"
@@ -1290,7 +1288,7 @@ msgstr "Endre skrivebordsadferd og utforming"
 
 #: src/panel/budgie-panel.desktop.in.h:1
 msgid "Budgie Panel"
-msgstr "Budgie Panel"
+msgstr "Budgie panel"
 
 #: src/panel/budgie-panel.desktop.in.h:2
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
