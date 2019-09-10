@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-09-10 11:56+0000\n"
+"PO-Revision-Date: 2019-09-28 16:21+0000\n"
 "Last-Translator: David M <medipas@gmail.com>\n"
 "Language-Team: Catalan <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ca/>\n"
@@ -57,13 +57,13 @@ msgstr "S'ha desactivat l'empenta de la Cafeïna."
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
 #: src/daemon/settings.vala:358
 msgid "Will turn off in a minute"
-msgstr "S'aturarà d'aquí a un minut"
+msgstr "Es desactivarà d'aquí a un minut."
 
 #. use plural
 #: src/daemon/settings.vala:361
 #, c-format
 msgid "Will turn off in %d minutes"
-msgstr "S'aturarà d'aquí %d minuts"
+msgstr "Es desactivarà d'aquí a %d minuts."
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:45
@@ -766,7 +766,7 @@ msgstr "Nombre d'escriptoris virtuals"
 #: src/panel/settings/settings_desktop.vala:110
 msgid "Number of virtual desktops / workspaces to create automatically on startup."
 msgstr ""
-"Nombre d'escriptoris virtuals / espais de treball a crear automàticament en "
+"Nombre d'escriptoris virtuals / espais de treball per crear automàticament a "
 "l'engegada."
 
 #: src/panel/settings/settings_style.vala:33
@@ -1067,7 +1067,7 @@ msgstr "Antialiàsing"
 
 #: src/panel/settings/settings_fonts.vala:129
 msgid "Set the type of antialiasing to use."
-msgstr "Establiu el factor de antialiàsing a utilitzar."
+msgstr "Establiu el factor d'antialiàsing a usar."
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
