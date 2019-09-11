@@ -10,15 +10,16 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-09-04 00:03+0000\n"
+"PO-Revision-Date: 2019-09-28 16:21+0000\n"
 "Last-Translator: Victor Grousset/tuxayo <victor@tuxayo.net>\n"
-"Language-Team: Esperanto <http://translate.getsol.us/projects/budgie-desktop/translations/eo/>\n"
+"Language-Team: Esperanto <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/eo/>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.4-dev\n"
+"X-Generator: Weblate 3.8\n"
 
 #: src/daemon/endsession.vala:171
 msgid "Log out"
@@ -134,7 +135,7 @@ msgstr "Nekonata"
 #. Set inner charging duration to hours:minutes
 #: src/applets/status/PowerIndicator.vala:108
 msgid "Battery charging"
-msgstr "Baterio ŝarĝante"
+msgstr "Baterio ŝarĝanta"
 
 #: src/applets/status/PowerIndicator.vala:113
 msgid "Battery remaining"
