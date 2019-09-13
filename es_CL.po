@@ -10,15 +10,16 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-03-17 09:06+0000\n"
-"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
-"Language-Team: Spanish (Chile) <http://translate.getsol.us/projects/budgie-desktop/translations/es_CL/>\n"
+"PO-Revision-Date: 2019-09-28 16:21+0000\n"
+"Last-Translator: Ignacio Roa <roa.ignacio@gmail.com>\n"
+"Language-Team: Spanish (Chile) <http://translate.getsol.us/projects/"
+"budgie-desktop/translations/es_CL/>\n"
 "Language: es_CL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.4-dev\n"
+"X-Generator: Weblate 3.8\n"
 
 #: src/daemon/endsession.vala:171
 msgid "Log out"
@@ -58,13 +59,13 @@ msgstr "Caffeine Boost desactivado"
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
 #: src/daemon/settings.vala:358
 msgid "Will turn off in a minute"
-msgstr ""
+msgstr "Se apagara en un minuto"
 
 #. use plural
 #: src/daemon/settings.vala:361
 #, c-format
 msgid "Will turn off in %d minutes"
-msgstr ""
+msgstr "Se apagara en %d minutos"
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:45
