@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
 "PO-Revision-Date: 2019-09-20 16:02+0000\n"
-"Last-Translator: Tesla Hack <tesla.hack@gmail.com>\n"
+"Last-Translator: Nikola Gužvica <nikola.guzvica92@gmail.com>\n"
 "Language-Team: Serbian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/sr/>\n"
 "Language: sr_RS\n"
@@ -474,7 +474,7 @@ msgstr "Изглед"
 
 #: src/panel/settings/settings_main.vala:40
 msgid "Panels"
-msgstr ""
+msgstr "Радна трака"
 
 #: src/panel/settings/settings_main.vala:41
 msgid "Session"
@@ -1171,9 +1171,8 @@ msgid "Always show"
 msgstr ""
 
 #: src/applets/caffeine/settings.ui.h:1
-#, fuzzy
 msgid "Enable notification"
-msgstr "Нема нових обавештења"
+msgstr "Омогући обавештења"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
