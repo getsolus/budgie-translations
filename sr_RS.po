@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
 "PO-Revision-Date: 2019-09-28 16:21+0000\n"
-"Last-Translator: Tesla Hack <tesla.hack@gmail.com>\n"
+"Last-Translator: Nikola Gužvica <nikola.guzvica92@gmail.com>\n"
 "Language-Team: Serbian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/sr/>\n"
 "Language: sr_RS\n"
@@ -120,7 +120,7 @@ msgstr ""
 
 #: src/raven/sound.vala:159
 msgid "Devices"
-msgstr ""
+msgstr "Уређаји"
 
 #: src/applets/status/PowerIndicator.vala:96
 msgid "Battery fully charged."
@@ -141,7 +141,7 @@ msgstr "Преостало батерије"
 
 #: src/applets/status/PowerIndicator.vala:167
 msgid "Show battery percentage"
-msgstr ""
+msgstr "Прикажи проценат батерије"
 
 #: src/applets/status/PowerIndicator.vala:175
 msgid "Power settings"
@@ -174,9 +174,9 @@ msgstr "Bluetooth је укључен"
 #, c-format
 msgid "Connected to %d device"
 msgid_plural "Connected to %d devices"
-msgstr[0] "Конектован на %d уређај"
-msgstr[1] "Конектован на %d уређаја"
-msgstr[2] "Конектован на %d уређаја"
+msgstr[0] "Повезан на %d уређај"
+msgstr[1] "Повезан на %d уређаја"
+msgstr[2] "Повезан на %d уређаја"
 
 #: src/applets/status/SoundIndicator.vala:146
 msgid "Sound settings"
@@ -318,7 +318,7 @@ msgstr "Преименуј"
 
 #: src/applets/workspaces/WorkspaceItem.vala:80
 msgid "Remove"
-msgstr ""
+msgstr "Уклони"
 
 #: src/applets/caffeine/CaffeineWindow.vala:27
 msgid "Timer (minutes)"
@@ -386,7 +386,7 @@ msgstr "Отвори \"%s\""
 
 #: src/applets/places-indicator/MountHelper.vala:39
 msgid "Volume is in use by other processes"
-msgstr ""
+msgstr "Други процеси користе капацитет диска"
 
 #: src/applets/places-indicator/MountHelper.vala:45
 msgid "Operation aborted"
@@ -801,9 +801,8 @@ msgid "Set the globally used mouse cursor theme"
 msgstr ""
 
 #: src/panel/settings/settings_style.vala:62
-#, fuzzy
 msgid "Notification Position"
-msgstr "Обавештења"
+msgstr "Позиција обавештења"
 
 #: src/panel/settings/settings_style.vala:63
 msgid "Set the location for notification popups"
@@ -1259,7 +1258,7 @@ msgstr "Контрола Равен бочне траке"
 
 #: src/applets/clock/ClockApplet.plugin.in.h:1
 msgid "Clock"
-msgstr "Сат"
+msgstr "Часовник"
 
 #: src/applets/separator/SeparatorApplet.plugin.in.h:1
 msgid "Separator"
@@ -1283,7 +1282,7 @@ msgstr "Кафа"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
-msgstr "Пребацивач језика тастатуре"
+msgstr "Показивач тастатурног уноса"
 
 #: src/applets/user-indicator/UserIndicator.plugin.in.h:1
 msgid "User Indicator"
