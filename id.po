@@ -11,15 +11,16 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-09-04 00:03+0000\n"
-"Last-Translator: Yurizal Susanto <yursan9@pm.me>\n"
-"Language-Team: Indonesian <http://translate.getsol.us/projects/budgie-desktop/translations/id/>\n"
+"PO-Revision-Date: 2019-09-28 16:21+0000\n"
+"Last-Translator: Muhammad Ahfas An Nahri <ahfas.annahri@gmail.com>\n"
+"Language-Team: Indonesian <http://translate.getsol.us/projects/"
+"budgie-desktop/translations/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.4-dev\n"
+"X-Generator: Weblate 3.8\n"
 
 #: src/daemon/endsession.vala:171
 msgid "Log out"
@@ -48,7 +49,7 @@ msgstr "Pengaturan"
 #. Should show a notification
 #: src/daemon/settings.vala:351
 msgid "Turned on Caffeine Boost"
-msgstr "Mengaktifkan Kafein"
+msgstr "Mengaktifkan Caffeine Boost"
 
 #: src/daemon/settings.vala:351
 msgid "Turned off Caffeine Boost"
@@ -63,9 +64,9 @@ msgstr "Akan mati dalam"
 
 #. use plural
 #: src/daemon/settings.vala:361
-#, fuzzy, c-format
+#, c-format
 msgid "Will turn off in %d minutes"
-msgstr "Akan mati dalam"
+msgstr "Akan mati dalam %d menit"
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:45
@@ -84,7 +85,7 @@ msgstr "Notifikasi"
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
-msgstr "Tidak ada aplikasi yang memainkan suara."
+msgstr "Tidak ada aplikasi yang sedang memainkan suara."
 
 #: src/raven/start_listening.vala:28
 msgid "Play some music"
@@ -241,7 +242,7 @@ msgstr "Berkas gambar"
 
 #: src/applets/budgie-menu/IconChooser.vala:43
 msgid "Any file"
-msgstr "Berkas Apapun"
+msgstr "Berkas apapun"
 
 #: src/applets/budgie-menu/IconChooser.vala:55
 #: src/panel/settings/settings_autostart.vala:203
@@ -271,7 +272,7 @@ msgstr "Kunci huruf kapital aktif"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:65
 msgid "Caps lock is not active"
-msgstr "Kunci huruf kapital nonaktif"
+msgstr "Kunci huruf kapital tidak aktif"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:75
 msgid "Num lock is active"
@@ -1034,16 +1035,15 @@ msgstr "Atur faktor skala teks."
 
 #: src/panel/settings/settings_fonts.vala:84
 msgid "Full"
-msgstr ""
+msgstr "Penuh"
 
 #: src/panel/settings/settings_fonts.vala:85
 msgid "Medium"
-msgstr ""
+msgstr "Sedang"
 
 #: src/panel/settings/settings_fonts.vala:86
-#, fuzzy
 msgid "Slight"
-msgstr "Kanan"
+msgstr "Kecil"
 
 #: src/panel/settings/settings_fonts.vala:103
 msgid "Hinting"
@@ -1060,7 +1060,7 @@ msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:112
 msgid "Standard (grayscale)"
-msgstr ""
+msgstr "Standar (Abu-abu)"
 
 #: src/panel/settings/settings_fonts.vala:128
 msgid "Antialiasing"
