@@ -18,8 +18,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-09-28 16:21+0000\n"
-"Last-Translator: Marcus Vinicius Santos <m.vinicius@zoho.com>\n"
+"PO-Revision-Date: 2019-11-30 20:11+0000\n"
+"Last-Translator: Renan Mandelo Oliveira <renanmandelo@yahoo.com.br>\n"
 "Language-Team: Portuguese (Brazil) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -124,7 +124,7 @@ msgstr "Sem novas notificações"
 #. 125ms
 #: src/raven/sound.vala:158
 msgid "Apps"
-msgstr "Programas"
+msgstr "Aplicativos"
 
 #: src/raven/sound.vala:159
 msgid "Devices"
@@ -1044,14 +1044,13 @@ msgstr "Define o fator de dimensionamento do texto."
 
 #: src/panel/settings/settings_fonts.vala:84
 msgid "Full"
-msgstr ""
+msgstr "completo"
 
 #: src/panel/settings/settings_fonts.vala:85
 msgid "Medium"
-msgstr ""
+msgstr "médio"
 
 #: src/panel/settings/settings_fonts.vala:86
-#, fuzzy
 msgid "Slight"
 msgstr "Direito"
 
@@ -1060,9 +1059,8 @@ msgid "Hinting"
 msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:104
-#, fuzzy
 msgid "Set the type of hinting to use."
-msgstr "Define o fator de dimensionamento do texto."
+msgstr "Defina o tipo de dica a ser usada."
 
 #: src/panel/settings/settings_fonts.vala:111
 msgid "Subpixel (for LCD screens)"
@@ -1077,9 +1075,8 @@ msgid "Antialiasing"
 msgstr "Suavização"
 
 #: src/panel/settings/settings_fonts.vala:129
-#, fuzzy
 msgid "Set the type of antialiasing to use."
-msgstr "Define o fator de dimensionamento do texto."
+msgstr "Defina o método  anti serrilhamento a ser usado"
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
