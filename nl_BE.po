@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-09-28 16:21+0000\n"
+"PO-Revision-Date: 2020-07-15 06:45+0000\n"
 "Last-Translator: Geert Verheyde <geert.verheyde@gmail.com>\n"
 "Language-Team: Flemish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/nl_BE/>\n"
@@ -60,13 +60,13 @@ msgstr "Cafeïne Boost werd uitgeschakeld"
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
 #: src/daemon/settings.vala:358
 msgid "Will turn off in a minute"
-msgstr "Wordt uitgeschakeld binnen"
+msgstr "Wordt binnen één minuut  uitgeschakeld"
 
 #. use plural
 #: src/daemon/settings.vala:361
 #, c-format
 msgid "Will turn off in %d minutes"
-msgstr "Wordt uitgeschakeld binnen"
+msgstr "Wordt uitgeschakeld binnen  %d minuten"
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:45
@@ -1054,7 +1054,7 @@ msgstr "Hinten"
 
 #: src/panel/settings/settings_fonts.vala:104
 msgid "Set the type of hinting to use."
-msgstr "Hoe moet er gehint worden?"
+msgstr "De wijze van hinting instellen."
 
 #: src/panel/settings/settings_fonts.vala:111
 msgid "Subpixel (for LCD screens)"
@@ -1220,7 +1220,7 @@ msgstr "Authentificeer"
 #: src/session/budgie-desktop.desktop.in.in.h:1
 #: src/session/budgie-desktop.session.in.in.h:1
 msgid "Budgie Desktop"
-msgstr "Budgie Desktop"
+msgstr "Budgie Bureaublad"
 
 #: src/session/budgie-desktop.desktop.in.in.h:2
 msgid "This session logs you into the Budgie Desktop"
@@ -1292,7 +1292,7 @@ msgstr "Wijzig uiterlijk en gedrag van het bureaublad"
 
 #: src/panel/budgie-panel.desktop.in.h:1
 msgid "Budgie Panel"
-msgstr "Budgie Panel"
+msgstr "Budgie Paneel"
 
 #: src/panel/budgie-panel.desktop.in.h:2
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
