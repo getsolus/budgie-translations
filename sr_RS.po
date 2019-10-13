@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-10-13 07:59+0000\n"
-"Last-Translator: Nikola Gužvica <nikola.guzvica92@gmail.com>\n"
+"PO-Revision-Date: 2019-10-13 10:10+0000\n"
+"Last-Translator: Tesla Hack <tesla.hack@gmail.com>\n"
 "Language-Team: Serbian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/sr/>\n"
 "Language: sr_RS\n"
@@ -757,35 +757,37 @@ msgstr "Смеће"
 
 #: src/panel/settings/settings_desktop.vala:73
 msgid "Add a shortcut to the Trash directory on the desktop."
-msgstr "Додај пречицу управитеља Смећа на радну површину."
+msgstr "Додај пречицу за Смеће на радну површину."
 
 #: src/panel/settings/settings_desktop.vala:78
 msgid "Mounted volumes"
-msgstr ""
+msgstr "Прикачени меморијски уређаји"
 
 #: src/panel/settings/settings_desktop.vala:79
 msgid "Mounted volumes & drives will appear on the desktop."
 msgstr ""
+"Прикачени меморијски уређаји и чврсти дискови ће се приказати на радној "
+"површини."
 
 #: src/panel/settings/settings_desktop.vala:109
 msgid "Number of virtual desktops"
-msgstr ""
+msgstr "Број виртуалних радних површина"
 
 #: src/panel/settings/settings_desktop.vala:110
 msgid "Number of virtual desktops / workspaces to create automatically on startup."
-msgstr ""
+msgstr "Број виртуалних радних површина створених приликом покретању рачунара."
 
 #: src/panel/settings/settings_style.vala:33
 msgid "Style"
-msgstr ""
+msgstr "Budgie изглед"
 
 #: src/panel/settings/settings_style.vala:47
 msgid "Widgets"
-msgstr ""
+msgstr "Изглед Budgie окружења"
 
 #: src/panel/settings/settings_style.vala:48
 msgid "Set the appearance of window decorations and controls"
-msgstr ""
+msgstr "Подесите изглед украса и дугмади прозора"
 
 #: src/panel/settings/settings_style.vala:52
 msgid "Icons"
@@ -793,7 +795,7 @@ msgstr ""
 
 #: src/panel/settings/settings_style.vala:53
 msgid "Set the globally used icon theme"
-msgstr ""
+msgstr "Подесите изглед иконица"
 
 #: src/panel/settings/settings_style.vala:57
 msgid "Cursors"
