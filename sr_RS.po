@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
 "PO-Revision-Date: 2019-10-13 07:59+0000\n"
-"Last-Translator: Tesla Hack <tesla.hack@gmail.com>\n"
+"Last-Translator: Nikola Gužvica <nikola.guzvica92@gmail.com>\n"
 "Language-Team: Serbian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/sr/>\n"
 "Language: sr_RS\n"
@@ -753,11 +753,11 @@ msgstr "Додај пречицу локалних мрежних сервера
 
 #: src/panel/settings/settings_desktop.vala:72
 msgid "Trash"
-msgstr ""
+msgstr "Смеће"
 
 #: src/panel/settings/settings_desktop.vala:73
 msgid "Add a shortcut to the Trash directory on the desktop."
-msgstr ""
+msgstr "Додај пречицу управитеља Смећа на радну површину."
 
 #: src/panel/settings/settings_desktop.vala:78
 msgid "Mounted volumes"
