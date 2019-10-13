@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-10-13 05:13+0000\n"
-"Last-Translator: Nikola Gužvica <nikola.guzvica92@gmail.com>\n"
+"PO-Revision-Date: 2019-10-13 07:51+0000\n"
+"Last-Translator: Tesla Hack <tesla.hack@gmail.com>\n"
 "Language-Team: Serbian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/sr/>\n"
 "Language: sr_RS\n"
@@ -721,7 +721,7 @@ msgstr "Уклони прибор"
 
 #: src/panel/settings/settings_panel_dialogs.vala:124
 msgid "Keep applet"
-msgstr "Задржи програмчић"
+msgstr "Задржи прибор"
 
 #: src/panel/settings/settings_desktop.vala:36
 msgid "Desktop"
@@ -733,15 +733,15 @@ msgstr "Десктоп иконице"
 
 #: src/panel/settings/settings_desktop.vala:50
 msgid "Control whether to allow launchers and icons on the desktop."
-msgstr ""
+msgstr "Управљајте могућношћу коришћења пречица и икона на радној површини."
 
 #: src/panel/settings/settings_desktop.vala:60
 msgid "Home directory"
-msgstr ""
+msgstr "Лична фасцикла"
 
 #: src/panel/settings/settings_desktop.vala:61
 msgid "Add a shortcut to your home directory on the desktop."
-msgstr ""
+msgstr "Додај пречицу Личне фасцикле на радну површину."
 
 #: src/panel/settings/settings_desktop.vala:66
 msgid "Network servers"
