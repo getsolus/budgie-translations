@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-10-13 07:51+0000\n"
-"Last-Translator: Nikola Gužvica <nikola.guzvica92@gmail.com>\n"
+"PO-Revision-Date: 2019-10-13 07:59+0000\n"
+"Last-Translator: Tesla Hack <tesla.hack@gmail.com>\n"
 "Language-Team: Serbian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/sr/>\n"
 "Language: sr_RS\n"
@@ -749,7 +749,7 @@ msgstr "Мрежни сервери"
 
 #: src/panel/settings/settings_desktop.vala:67
 msgid "Add a shortcut to your local network servers on the desktop."
-msgstr "Додај пречицу до локалних мрежних сервера на радну површину."
+msgstr "Додај пречицу локалних мрежних сервера на радну површину."
 
 #: src/panel/settings/settings_desktop.vala:72
 msgid "Trash"
