@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
 "PO-Revision-Date: 2019-10-23 14:40+0000\n"
-"Last-Translator: Tesla Hack <tesla.hack@gmail.com>\n"
+"Last-Translator: Nikola Gužvica <nikola.guzvica92@gmail.com>\n"
 "Language-Team: Serbian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/sr/>\n"
 "Language: sr_RS\n"
@@ -452,11 +452,11 @@ msgstr "Одвоји"
 
 #: src/applets/places-indicator/MountItem.vala:79
 msgid "Unknown Device"
-msgstr ""
+msgstr "Непознат уређај"
 
 #: src/applets/places-indicator/MountItem.vala:88
 msgid "Error while ejecting device"
-msgstr ""
+msgstr "Грешка приликом уклањања уређаја"
 
 #: src/applets/places-indicator/MountItem.vala:105
 msgid "Error while unmounting volume"
@@ -533,12 +533,12 @@ msgstr "Врх"
 
 #: src/panel/settings/settings_panel.vala:178
 msgid "Right"
-msgstr ""
+msgstr "Десно"
 
 #: src/panel/settings/settings_panel.vala:180
 #: src/panel/settings/settings_wm.vala:88
 msgid "Left"
-msgstr ""
+msgstr "Лево"
 
 #: src/panel/settings/settings_panel.vala:182
 msgid "Bottom"
@@ -546,7 +546,7 @@ msgstr "Дно"
 
 #: src/panel/settings/settings_panel.vala:193
 msgid "Always"
-msgstr ""
+msgstr "Увек"
 
 #: src/panel/settings/settings_panel.vala:195
 msgid "Dynamic"
@@ -568,7 +568,7 @@ msgstr ""
 
 #: src/panel/settings/settings_panel.vala:214
 msgid "Never"
-msgstr ""
+msgstr "Никад"
 
 #: src/panel/settings/settings_panel.vala:230
 msgid "Position"
@@ -835,29 +835,27 @@ msgstr "Изабери да ли ће прозори и њихови дугми�
 
 #: src/panel/settings/settings_style.vala:209
 msgid "Top Left"
-msgstr ""
+msgstr "Горе лево"
 
 #: src/panel/settings/settings_style.vala:211
-#, fuzzy
 msgid "Bottom Left"
-msgstr "Дно"
+msgstr "Доле лево"
 
 #: src/panel/settings/settings_style.vala:213
-#, fuzzy
 msgid "Bottom Right"
-msgstr "Дно"
+msgstr "Горе десно"
 
 #: src/panel/settings/settings_style.vala:216
 msgid "Top Right"
-msgstr ""
+msgstr "Горе десно"
 
 #: src/panel/settings/settings_autostart.vala:141
 msgid "Untitled"
-msgstr ""
+msgstr "Неименовано"
 
 #: src/panel/settings/settings_autostart.vala:148
 msgid "No description"
-msgstr ""
+msgstr "Нема опис"
 
 #: src/panel/settings/settings_autostart.vala:171
 msgid "running"
@@ -1295,7 +1293,7 @@ msgstr "Кориснички мени"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
 msgid "Change desktop appearance and behavior"
-msgstr ""
+msgstr "Промени изглед и понашање радне површине"
 
 #: src/panel/budgie-panel.desktop.in.h:1
 msgid "Budgie Panel"
