@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
 "PO-Revision-Date: 2019-10-13 07:51+0000\n"
-"Last-Translator: Tesla Hack <tesla.hack@gmail.com>\n"
+"Last-Translator: Nikola Gužvica <nikola.guzvica92@gmail.com>\n"
 "Language-Team: Serbian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/sr/>\n"
 "Language: sr_RS\n"
@@ -725,11 +725,11 @@ msgstr "Задржи прибор"
 
 #: src/panel/settings/settings_desktop.vala:36
 msgid "Desktop"
-msgstr ""
+msgstr "Радна површина"
 
 #: src/panel/settings/settings_desktop.vala:49
 msgid "Desktop Icons"
-msgstr "Десктоп иконице"
+msgstr "Иконице радне површине"
 
 #: src/panel/settings/settings_desktop.vala:50
 msgid "Control whether to allow launchers and icons on the desktop."
@@ -745,11 +745,11 @@ msgstr "Додај пречицу Личне фасцикле на радну п
 
 #: src/panel/settings/settings_desktop.vala:66
 msgid "Network servers"
-msgstr ""
+msgstr "Мрежни сервери"
 
 #: src/panel/settings/settings_desktop.vala:67
 msgid "Add a shortcut to your local network servers on the desktop."
-msgstr ""
+msgstr "Додај пречицу до локалних мрежних сервера на радну површину."
 
 #: src/panel/settings/settings_desktop.vala:72
 msgid "Trash"
