@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-10-13 10:28+0000\n"
-"Last-Translator: Nikola Gužvica <nikola.guzvica92@gmail.com>\n"
+"PO-Revision-Date: 2019-10-23 14:40+0000\n"
+"Last-Translator: Tesla Hack <tesla.hack@gmail.com>\n"
 "Language-Team: Serbian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/sr/>\n"
 "Language: sr_RS\n"
@@ -48,33 +48,33 @@ msgstr "Подешавања"
 #. Should show a notification
 #: src/daemon/settings.vala:351
 msgid "Turned on Caffeine Boost"
-msgstr ""
+msgstr "Радна кафа је укључена"
 
 #: src/daemon/settings.vala:351
 msgid "Turned off Caffeine Boost"
-msgstr ""
+msgstr "Радна кафа је искључена"
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
 #: src/daemon/settings.vala:358
 msgid "Will turn off in a minute"
-msgstr ""
+msgstr "Искључиће се за минут"
 
 #. use plural
 #: src/daemon/settings.vala:361
 #, c-format
 msgid "Will turn off in %d minutes"
-msgstr ""
+msgstr "Искључиће се за %d минута"
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:45
 #: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Caffeine Mode"
-msgstr ""
+msgstr "Радна Кафа"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
-msgstr "Аплети"
+msgstr "Прибори"
 
 #: src/raven/main_view.vala:66
 #: src/applets/notifications/NotificationsApplet.plugin.in.h:1
@@ -83,11 +83,11 @@ msgstr "Обавештења"
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
-msgstr ""
+msgstr "Тренутно ниједан прозор не пушта звук."
 
 #: src/raven/start_listening.vala:28
 msgid "Play some music"
-msgstr ""
+msgstr "Пусти музику"
 
 #: src/raven/notifications_view.vala:106
 msgid "Nothing to see here"
@@ -831,7 +831,7 @@ msgstr "Анимације"
 
 #: src/panel/settings/settings_style.vala:88
 msgid "Control whether windows and controls use animations"
-msgstr "Контролиши да ли прозори и њихови дугмићи користе анимације"
+msgstr "Изабери да ли ће прозори и њихови дугмићи користити анимације"
 
 #: src/panel/settings/settings_style.vala:209
 msgid "Top Left"
@@ -1001,7 +1001,7 @@ msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:35
 msgid "Fonts"
-msgstr "Фонтови"
+msgstr "Словолик"
 
 #: src/panel/settings/settings_fonts.vala:46
 msgid "Window Titles"
@@ -1009,7 +1009,7 @@ msgstr "Наслови прозора"
 
 #: src/panel/settings/settings_fonts.vala:47
 msgid "Set the font used in the titlebars of applications."
-msgstr ""
+msgstr "Подесите словолик који се користи у наслову траке програма."
 
 #: src/panel/settings/settings_fonts.vala:53
 msgid "Documents"
