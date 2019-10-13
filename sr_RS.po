@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
 "PO-Revision-Date: 2019-10-13 10:10+0000\n"
-"Last-Translator: Tesla Hack <tesla.hack@gmail.com>\n"
+"Last-Translator: Nikola Gužvica <nikola.guzvica92@gmail.com>\n"
 "Language-Team: Serbian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/sr/>\n"
 "Language: sr_RS\n"
@@ -791,7 +791,7 @@ msgstr "Подесите изглед украса и дугмади прозо�
 
 #: src/panel/settings/settings_style.vala:52
 msgid "Icons"
-msgstr ""
+msgstr "Иконице"
 
 #: src/panel/settings/settings_style.vala:53
 msgid "Set the globally used icon theme"
@@ -799,7 +799,7 @@ msgstr "Подесите изглед иконица"
 
 #: src/panel/settings/settings_style.vala:57
 msgid "Cursors"
-msgstr ""
+msgstr "Показивачи "
 
 #: src/panel/settings/settings_style.vala:58
 msgid "Set the globally used mouse cursor theme"
