@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-10-23 14:40+0000\n"
-"Last-Translator: Nikola Gužvica <nikola.guzvica92@gmail.com>\n"
+"PO-Revision-Date: 2019-10-24 13:34+0000\n"
+"Last-Translator: Tesla Hack <tesla.hack@gmail.com>\n"
 "Language-Team: Serbian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/sr/>\n"
 "Language: sr_RS\n"
@@ -823,7 +823,7 @@ msgstr "Уграђена тема"
 
 #: src/panel/settings/settings_style.vala:80
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr ""
+msgstr "Када је укључена, уграђена тема мења изглед радне површине"
 
 #: src/panel/settings/settings_style.vala:87
 msgid "Animations"
@@ -1277,7 +1277,7 @@ msgstr "Пребацивач радних окружења"
 
 #: src/applets/tasklist/TasklistApplet.plugin.in.h:1
 msgid "Task List"
-msgstr "Листа отворених апликација"
+msgstr "Картице отворених задатака"
 
 #: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
 msgid "Caffeine"
@@ -1293,7 +1293,7 @@ msgstr "Кориснички мени"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
 msgid "Change desktop appearance and behavior"
-msgstr "Промени изглед и понашање радне површине"
+msgstr "Мења изглед и понашање радне површине"
 
 #: src/panel/budgie-panel.desktop.in.h:1
 msgid "Budgie Panel"
