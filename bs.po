@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
 "PO-Revision-Date: 2019-10-29 10:39+0000\n"
-"Last-Translator: Nadir Fejzic <nadirfejzo@gmail.com>\n"
+"Last-Translator: Benjamin Beganovic <k1pstabug@gmail.com>\n"
 "Language-Team: Bosnian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/bs/>\n"
 "Language: bs\n"
@@ -101,12 +101,12 @@ msgstr "Broj nepročitanih obavijesti: %u"
 #: src/raven/notifications_view.vala:676
 #: src/applets/notifications/NotificationsApplet.vala:111
 msgid "1 unread notification"
-msgstr ""
+msgstr "1 nepročitana obavijest"
 
 #: src/raven/notifications_view.vala:678
 #: src/applets/notifications/NotificationsApplet.vala:113
 msgid "No unread notifications"
-msgstr ""
+msgstr "Nemate nepročitanih obavijesti"
 
 #: src/raven/notifications_view.vala:916
 msgid "No new notifications"
@@ -115,41 +115,41 @@ msgstr "Nema novih obavijesti"
 #. 125ms
 #: src/raven/sound.vala:158
 msgid "Apps"
-msgstr ""
+msgstr "Aplikacije"
 
 #: src/raven/sound.vala:159
 msgid "Devices"
-msgstr ""
+msgstr "Uređaji"
 
 #: src/applets/status/PowerIndicator.vala:96
 msgid "Battery fully charged."
-msgstr ""
+msgstr "Baterija u potpunosti napunjena."
 
 #: src/applets/status/PowerIndicator.vala:99
 msgid "Unknown"
-msgstr ""
+msgstr "Nepoznato"
 
 #. Set inner charging duration to hours:minutes
 #: src/applets/status/PowerIndicator.vala:108
 msgid "Battery charging"
-msgstr ""
+msgstr "Baterija se puni"
 
 #: src/applets/status/PowerIndicator.vala:113
 msgid "Battery remaining"
-msgstr ""
+msgstr "Preostalo baterije"
 
 #: src/applets/status/PowerIndicator.vala:167
 msgid "Show battery percentage"
-msgstr ""
+msgstr "Prikaži postotak baterije"
 
 #: src/applets/status/PowerIndicator.vala:175
 msgid "Power settings"
-msgstr ""
+msgstr "Postavke napajanja"
 
 #. Settings button
 #: src/applets/status/BluetoothIndicator.vala:56
 msgid "Bluetooth Settings"
-msgstr ""
+msgstr "Postavke Bluetooth-a"
 
 #. Send files button
 #: src/applets/status/BluetoothIndicator.vala:63
