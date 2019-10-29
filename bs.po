@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
 "PO-Revision-Date: 2019-10-29 10:38+0000\n"
-"Last-Translator: Nadir Fejzic <nadirfejzo@gmail.com>\n"
+"Last-Translator: Benjamin Beganovic <k1pstabug@gmail.com>\n"
 "Language-Team: Bosnian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/bs/>\n"
 "Language: bs\n"
@@ -38,7 +38,7 @@ msgstr "Promijeni pozadinu"
 
 #: src/daemon/menus.vala:57
 msgid "Displays"
-msgstr ""
+msgstr "Ekrani"
 
 #: src/daemon/menus.vala:66 src/panel/settings/settings_panel.vala:97
 msgid "Settings"
@@ -47,11 +47,11 @@ msgstr "Postavke"
 #. Should show a notification
 #: src/daemon/settings.vala:351
 msgid "Turned on Caffeine Boost"
-msgstr ""
+msgstr "Caffeine Boost pokrenut"
 
 #: src/daemon/settings.vala:351
 msgid "Turned off Caffeine Boost"
-msgstr ""
+msgstr "Caffeine Boost ugašen"
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
@@ -69,7 +69,7 @@ msgstr "Ugasiti će se za %d minut(a)"
 #: src/raven/notifications_group.vala:45
 #: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Caffeine Mode"
-msgstr ""
+msgstr "Caffeine režim"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
@@ -78,25 +78,25 @@ msgstr "Apleti"
 #: src/raven/main_view.vala:66
 #: src/applets/notifications/NotificationsApplet.plugin.in.h:1
 msgid "Notifications"
-msgstr ""
+msgstr "Obavijesti"
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
-msgstr ""
+msgstr "Trenutno nijedna aplikacija ne pušta zvuk."
 
 #: src/raven/start_listening.vala:28
 msgid "Play some music"
-msgstr ""
+msgstr "Pusti muziku"
 
 #: src/raven/notifications_view.vala:106
 msgid "Nothing to see here"
-msgstr ""
+msgstr "Ništa za prikaz"
 
 #: src/raven/notifications_view.vala:674
 #: src/applets/notifications/NotificationsApplet.vala:109
 #, c-format
 msgid "%u unread notifications"
-msgstr ""
+msgstr "%u nepročitanih obavijesti"
 
 #: src/raven/notifications_view.vala:676
 #: src/applets/notifications/NotificationsApplet.vala:111
