@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-09-28 16:21+0000\n"
+"PO-Revision-Date: 2019-11-12 12:16+0000\n"
 "Last-Translator: Faisal almosbahi <faisal.almosbahi@gmail.com>\n"
 "Language-Team: Arabic <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ar/>\n"
@@ -78,7 +78,7 @@ msgstr "وضع كافيين"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
-msgstr "التطبيقات المصغرة"
+msgstr "البريمجات"
 
 #: src/raven/main_view.vala:66
 #: src/applets/notifications/NotificationsApplet.plugin.in.h:1
@@ -502,19 +502,19 @@ msgstr "إزالة هذه اللوحة من الشاشة"
 
 #: src/panel/settings/settings_panel.vala:120
 msgid "Top Dock"
-msgstr "الشريط العلوي"
+msgstr "حامل البرامج العلوي"
 
 #: src/panel/settings/settings_panel.vala:122
 msgid "Right Dock"
-msgstr "الشريط الأيمن"
+msgstr "حامل البرامج الأيمن"
 
 #: src/panel/settings/settings_panel.vala:124
 msgid "Left Dock"
-msgstr "الشريط الأيسر"
+msgstr "حامل البرامج الأيسر"
 
 #: src/panel/settings/settings_panel.vala:126
 msgid "Bottom Dock"
-msgstr "الشريط السفلي"
+msgstr "حامل البرامج السفلي"
 
 #: src/panel/settings/settings_panel.vala:131
 msgid "Top Panel"
@@ -627,11 +627,12 @@ msgstr ""
 
 #: src/panel/settings/settings_panel.vala:276
 msgid "Dock mode"
-msgstr "وضع الشريط"
+msgstr "وضع حامل البرامج"
 
 #: src/panel/settings/settings_panel.vala:277
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
-msgstr "في وضع الشريط، ستستخدم اللوحة أقل مساحة ممكنة، مما يحرر مساحة الشاشة"
+msgstr ""
+"في وضع حامل البرامج، ستستخدم اللوحة أقل مساحة ممكنة، مما يحرر مساحة الشاشة"
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
@@ -657,7 +658,7 @@ msgstr "عرض أداة التقويم"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr "إظهار أو إخفاء أداة التقويم من قسم تطبيقات Raven."
+msgstr "إظهار أو إخفاء أداة التقويم من قسم بريمجات Raven."
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
@@ -665,7 +666,7 @@ msgstr "إظهار أداة إخراج الصوت"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr "إظهار أو إخفاء أداة إخراج الصوت من قسم تطبيقات Raven."
+msgstr "إظهار أو إخفاء أداة إخراج الصوت من قسم بريمجات Raven."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
@@ -673,7 +674,7 @@ msgstr "إظهار أداة إدخال صوت الميكروفون"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
-msgstr "إظهار أو إخفاء أداة إدخال صوت الميكروفون من قسم تطبيقات Raven."
+msgstr "إظهار أو إخفاء أداة إدخال صوت الميكروفون من قسم بريمجات Raven."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
@@ -682,7 +683,7 @@ msgstr "إظهار أداة مفاتيح التحكم في تشغيل الوسا
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
 msgstr ""
-"إظهار أو إخفاء أداة مفاتيح التحكم في تشغيل الوسائط (MPRIS) من قسم تطبيقات "
+"إظهار أو إخفاء أداة مفاتيح التحكم في تشغيل الوسائط (MPRIS) من قسم بريمجات "
 "Raven."
 
 #: src/panel/settings/settings_raven.vala:75
@@ -716,20 +717,19 @@ msgstr "إبقاء اللوحة"
 
 #: src/panel/settings/settings_panel_dialogs.vala:92
 msgid "Confirm applet removal"
-msgstr "تأكيد إزالة التطبيق المصغر"
+msgstr "تأكيد إزالة البريمج"
 
 #: src/panel/settings/settings_panel_dialogs.vala:99
 msgid "Do you really want to remove this applet? This action cannot be undone."
-msgstr ""
-"هل تريد بالتأكيد إزالة هذا التطبيق المصغر؟ لا يمكن التراجع عن هذه العملية."
+msgstr "هل تريد بالتأكيد إزالة هذا البريمح؟ لا يمكن التراجع عن هذه العملية."
 
 #: src/panel/settings/settings_panel_dialogs.vala:123
 msgid "Remove applet"
-msgstr "إزالة التطبيق المصغر"
+msgstr "إزالة البريمج"
 
 #: src/panel/settings/settings_panel_dialogs.vala:124
 msgid "Keep applet"
-msgstr "إبقاء التطبيق المصغر"
+msgstr "إبقاء البريمج"
 
 #: src/panel/settings/settings_desktop.vala:36
 msgid "Desktop"
@@ -912,7 +912,7 @@ msgstr "تطبيقات بدء التشغيل"
 
 #: src/panel/settings/settings_panel_applets.vala:22
 msgid "Configure applet"
-msgstr "ضبط التطبيق المصغر"
+msgstr "ضبط البريمج"
 
 #: src/panel/settings/settings_panel_applets.vala:245
 #: src/panel/settings/settings_applet_chooser.vala:85
@@ -921,7 +921,7 @@ msgstr "إضافة تطبيق مصغر"
 
 #: src/panel/settings/settings_panel_applets.vala:246
 msgid "Choose a new applet to add to this panel"
-msgstr "اختيار تطبيق مصغر جديد لإضافته لهذه اللوحة"
+msgstr "اختيار بريمج جديد لإضافته لهذه اللوحة"
 
 #: src/panel/settings/settings_panel_applets.vala:260
 msgid "No settings available"
