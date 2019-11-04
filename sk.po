@@ -11,15 +11,16 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-03-17 09:05+0000\n"
-"Last-Translator: Samuel Vasso <samuel.vasso@gmail.com>\n"
-"Language-Team: Slovak <http://translate.getsol.us/projects/budgie-desktop/translations/sk/>\n"
+"PO-Revision-Date: 2020-07-15 06:45+0000\n"
+"Last-Translator: Marek Ľach <mareklachbc@tutanota.com>\n"
+"Language-Team: Slovak <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 3.4-dev\n"
+"X-Generator: Weblate 3.8\n"
 
 #: src/daemon/endsession.vala:171
 msgid "Log out"
@@ -48,24 +49,23 @@ msgstr "Nastavenia"
 #. Should show a notification
 #: src/daemon/settings.vala:351
 msgid "Turned on Caffeine Boost"
-msgstr ""
+msgstr "Povzbudenie Kofeínom zapnuté"
 
 #: src/daemon/settings.vala:351
 msgid "Turned off Caffeine Boost"
-msgstr ""
+msgstr "Povzbudenie Kofeínom vypnuté"
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
 #: src/daemon/settings.vala:358
-#, fuzzy
 msgid "Will turn off in a minute"
-msgstr "Vypnutie za"
+msgstr "Vypne sa za minútu"
 
 #. use plural
 #: src/daemon/settings.vala:361
-#, fuzzy, c-format
+#, c-format
 msgid "Will turn off in %d minutes"
-msgstr "Vypnutie za"
+msgstr "Vypne sa za %d minút"
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:45
@@ -699,9 +699,8 @@ msgid "Remove panel"
 msgstr ""
 
 #: src/panel/settings/settings_panel_dialogs.vala:61
-#, fuzzy
 msgid "Keep panel"
-msgstr "Horný panel"
+msgstr "Ponechaj panel"
 
 #: src/panel/settings/settings_panel_dialogs.vala:92
 msgid "Confirm applet removal"
@@ -800,9 +799,8 @@ msgid "Set the globally used mouse cursor theme"
 msgstr ""
 
 #: src/panel/settings/settings_style.vala:62
-#, fuzzy
 msgid "Notification Position"
-msgstr "Oznámenia"
+msgstr "Umiestnenie oboznámení"
 
 #: src/panel/settings/settings_style.vala:63
 msgid "Set the location for notification popups"
@@ -833,14 +831,12 @@ msgid "Top Left"
 msgstr ""
 
 #: src/panel/settings/settings_style.vala:211
-#, fuzzy
 msgid "Bottom Left"
-msgstr "Spodok"
+msgstr "Vľavo dole"
 
 #: src/panel/settings/settings_style.vala:213
-#, fuzzy
 msgid "Bottom Right"
-msgstr "Spodok"
+msgstr "Vpravo dole"
 
 #: src/panel/settings/settings_style.vala:216
 msgid "Top Right"
@@ -1047,9 +1043,8 @@ msgid "Medium"
 msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:86
-#, fuzzy
 msgid "Slight"
-msgstr "Napravo"
+msgstr "Mierne"
 
 #: src/panel/settings/settings_fonts.vala:103
 msgid "Hinting"
@@ -1173,9 +1168,8 @@ msgid "Always show"
 msgstr ""
 
 #: src/applets/caffeine/settings.ui.h:1
-#, fuzzy
 msgid "Enable notification"
-msgstr "Žiadne nové oznámenia"
+msgstr "Povoľ oboznámenia"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
