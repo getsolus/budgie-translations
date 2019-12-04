@@ -10,15 +10,16 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-03-17 09:05+0000\n"
-"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
-"Language-Team: Basque <http://translate.getsol.us/projects/budgie-desktop/translations/eu/>\n"
+"PO-Revision-Date: 2020-07-15 06:45+0000\n"
+"Last-Translator: Marcos Olave Ortiz de Pinedo <marcosolave3@gmail.com>\n"
+"Language-Team: Basque <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/eu/>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.4-dev\n"
+"X-Generator: Weblate 3.8\n"
 
 #: src/daemon/endsession.vala:171
 msgid "Log out"
@@ -37,9 +38,8 @@ msgid "Change background"
 msgstr "Atzeko planoa aldatu"
 
 #: src/daemon/menus.vala:57
-#, fuzzy
 msgid "Displays"
-msgstr "Pantaila Ezarpenak"
+msgstr "Pantailak"
 
 #: src/daemon/menus.vala:66 src/panel/settings/settings_panel.vala:97
 msgid "Settings"
@@ -58,13 +58,13 @@ msgstr "Modu kafeina desaktibatuta"
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
 #: src/daemon/settings.vala:358
 msgid "Will turn off in a minute"
-msgstr ""
+msgstr "Minutu batean itzaliko da"
 
 #. use plural
 #: src/daemon/settings.vala:361
 #, c-format
 msgid "Will turn off in %d minutes"
-msgstr ""
+msgstr "%d minututan itzaliko da"
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:45
@@ -87,7 +87,7 @@ msgstr "Inongo aplikaziorik ez da audioa erreproduzitzen ari."
 
 #: src/raven/start_listening.vala:28
 msgid "Play some music"
-msgstr ""
+msgstr "Musika jarri"
 
 #: src/raven/notifications_view.vala:106
 msgid "Nothing to see here"
@@ -116,11 +116,11 @@ msgstr "Jakinarazpen berririk ez"
 #. 125ms
 #: src/raven/sound.vala:158
 msgid "Apps"
-msgstr ""
+msgstr "Aplikazioak"
 
 #: src/raven/sound.vala:159
 msgid "Devices"
-msgstr ""
+msgstr "Periferikoak"
 
 #: src/applets/status/PowerIndicator.vala:96
 msgid "Battery fully charged."
@@ -183,33 +183,32 @@ msgstr "Soinu ezarpenak"
 
 #: src/applets/icon-tasklist/IconPopover.vala:94
 msgid "Launch New Instance"
-msgstr ""
+msgstr "Mahaigain berria ireki"
 
 #: src/applets/icon-tasklist/IconPopover.vala:97
 msgid "Close All Windows"
-msgstr ""
+msgstr "Leiho guztiak itxi"
 
 #: src/applets/icon-tasklist/IconPopover.vala:105
-#, fuzzy
 msgid "Always On Top"
-msgstr "Beti"
+msgstr "Beti gainean"
 
 #: src/applets/icon-tasklist/IconPopover.vala:107
 #: src/applets/icon-tasklist/IconPopover.vala:485
 msgid "Maximize"
-msgstr ""
+msgstr "Handiagotu"
 
 #: src/applets/icon-tasklist/IconPopover.vala:108
 msgid "Minimize"
-msgstr ""
+msgstr "Txikiagotu"
 
 #: src/applets/icon-tasklist/IconPopover.vala:373
 msgid "Unfavorite"
-msgstr ""
+msgstr "Gustukoenetik kendu"
 
 #: src/applets/icon-tasklist/IconPopover.vala:373
 msgid "Favorite"
-msgstr ""
+msgstr "Gustukoenetara gehitu"
 
 #. If our current amount of workspaces is different than how many we have added
 #. We have items to add
@@ -217,22 +216,20 @@ msgstr ""
 #: src/applets/icon-tasklist/IconPopover.vala:385
 #, c-format
 msgid "Move To Workspace %i"
-msgstr ""
+msgstr "%i mahaigainera mugi"
 
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:485
 msgid "Unmaximize"
-msgstr ""
+msgstr "Ez handiagotu"
 
 #: src/applets/icon-tasklist/IconPopover.vala:544
-#, fuzzy
 msgid "Close Window"
-msgstr "Lehioak "
+msgstr "Leihoa itxi"
 
 #: src/applets/icon-tasklist/IconPopover.vala:546
-#, fuzzy
 msgid "Show Window Controls"
-msgstr "Leihoen Izenburuak"
+msgstr "Leiho kontrolak erakutsi"
 
 #: src/applets/budgie-menu/IconChooser.vala:27
 msgid "Set menu icon from file"
@@ -266,7 +263,7 @@ msgstr "Denak"
 #. placeholder in case of no results
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:271
 msgid "Sorry, no items found"
-msgstr ""
+msgstr "Barkatu, ezin izan dugu ezer aurkitu"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
@@ -324,7 +321,7 @@ msgstr "Ezabatu"
 
 #: src/applets/caffeine/CaffeineWindow.vala:27
 msgid "Timer (minutes)"
-msgstr ""
+msgstr "Tenporizadorea"
 
 #. User Menu Creation
 #: src/applets/user-indicator/UserIndicatorWindow.vala:95
@@ -628,7 +625,7 @@ msgstr "Dock moduan panelak gutxieneko espazio kopurua erabiliko du, pantailari 
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
-msgstr ""
+msgstr "100% baino gehiagoko bolumena baimendu"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
@@ -636,7 +633,7 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
-msgstr ""
+msgstr "Asteen zenbakia erakutsi egutegian"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
@@ -644,7 +641,7 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
-msgstr ""
+msgstr "Egutegia widget-a erakutsi"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
