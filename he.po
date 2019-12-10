@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-09-28 16:21+0000\n"
+"PO-Revision-Date: 2020-06-11 14:04+0000\n"
 "Last-Translator: Yoni Banai <ink.bug@gmail.com>\n"
 "Language-Team: Hebrew <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/he/>\n"
@@ -1034,42 +1034,39 @@ msgstr "קבע את מקדם המידה לטקסט."
 
 #: src/panel/settings/settings_fonts.vala:84
 msgid "Full"
-msgstr "מלא"
+msgstr "מלאה"
 
 #: src/panel/settings/settings_fonts.vala:85
 msgid "Medium"
-msgstr ""
+msgstr "בינונית"
 
 #: src/panel/settings/settings_fonts.vala:86
-#, fuzzy
 msgid "Slight"
-msgstr "ימין"
+msgstr "קלה"
 
 #: src/panel/settings/settings_fonts.vala:103
 msgid "Hinting"
-msgstr ""
+msgstr "רמיזת גופנים"
 
 #: src/panel/settings/settings_fonts.vala:104
-#, fuzzy
 msgid "Set the type of hinting to use."
-msgstr "קבע את מקדם המידה לטקסט."
+msgstr "קבע באיזו מידה של רמיזת גופנים להשתמש."
 
 #: src/panel/settings/settings_fonts.vala:111
 msgid "Subpixel (for LCD screens)"
-msgstr ""
+msgstr "תת-פיקסל (עבור מסכי LCD)"
 
 #: src/panel/settings/settings_fonts.vala:112
 msgid "Standard (grayscale)"
-msgstr ""
+msgstr "תיקנית (גוני אפור)"
 
 #: src/panel/settings/settings_fonts.vala:128
 msgid "Antialiasing"
-msgstr ""
+msgstr "החלקה"
 
 #: src/panel/settings/settings_fonts.vala:129
-#, fuzzy
 msgid "Set the type of antialiasing to use."
-msgstr "קבע את מקדם המידה לטקסט."
+msgstr "קבע באיזה סוג החלקה להשתמש."
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
