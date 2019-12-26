@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-09-28 16:21+0000\n"
+"PO-Revision-Date: 2020-07-15 06:45+0000\n"
 "Last-Translator: Pavel Datsenko <pavel.datsenko@gmail.com>\n"
 "Language-Team: Russian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ru/>\n"
@@ -204,7 +204,7 @@ msgstr "Всегда наверху"
 #: src/applets/icon-tasklist/IconPopover.vala:107
 #: src/applets/icon-tasklist/IconPopover.vala:485
 msgid "Maximize"
-msgstr "Развернуть на весь экран"
+msgstr "Развернуть"
 
 #: src/applets/icon-tasklist/IconPopover.vala:108
 msgid "Minimize"
