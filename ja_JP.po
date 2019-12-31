@@ -14,15 +14,16 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-03-17 09:05+0000\n"
-"Last-Translator: Hamit Özdemir <hamit.oezdemir@gmail.com>\n"
-"Language-Team: Japanese <http://translate.getsol.us/projects/budgie-desktop/translations/ja/>\n"
+"PO-Revision-Date: 2020-01-13 22:37+0000\n"
+"Last-Translator: Mone Hoshino <hakuzyu@gmail.com>\n"
+"Language-Team: Japanese <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/ja/>\n"
 "Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.4-dev\n"
+"X-Generator: Weblate 3.8\n"
 
 #: src/daemon/endsession.vala:171
 msgid "Log out"
@@ -74,7 +75,7 @@ msgstr ""
 #: src/raven/notifications_group.vala:45
 #: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Caffeine Mode"
-msgstr ""
+msgstr "カフェインモード"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
@@ -91,7 +92,7 @@ msgstr ""
 
 #: src/raven/start_listening.vala:28
 msgid "Play some music"
-msgstr ""
+msgstr "音楽を再生する"
 
 #: src/raven/notifications_view.vala:106
 msgid "Nothing to see here"
@@ -193,9 +194,8 @@ msgid "Close All Windows"
 msgstr "すべてのウィンドウを閉じる"
 
 #: src/applets/icon-tasklist/IconPopover.vala:105
-#, fuzzy
 msgid "Always On Top"
-msgstr "常に"
+msgstr "常に上に表示"
 
 #: src/applets/icon-tasklist/IconPopover.vala:107
 #: src/applets/icon-tasklist/IconPopover.vala:485
@@ -208,11 +208,11 @@ msgstr "ウィンドウを最小化する"
 
 #: src/applets/icon-tasklist/IconPopover.vala:373
 msgid "Unfavorite"
-msgstr ""
+msgstr "お気に入りから外す"
 
 #: src/applets/icon-tasklist/IconPopover.vala:373
 msgid "Favorite"
-msgstr ""
+msgstr "お気に入り"
 
 #. If our current amount of workspaces is different than how many we have added
 #. We have items to add
@@ -220,7 +220,7 @@ msgstr ""
 #: src/applets/icon-tasklist/IconPopover.vala:385
 #, c-format
 msgid "Move To Workspace %i"
-msgstr ""
+msgstr "%i のワークスペースへ移動"
 
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:485
@@ -228,14 +228,12 @@ msgid "Unmaximize"
 msgstr ""
 
 #: src/applets/icon-tasklist/IconPopover.vala:544
-#, fuzzy
 msgid "Close Window"
-msgstr "ウィンドウ"
+msgstr "ウィンドウを閉じる"
 
 #: src/applets/icon-tasklist/IconPopover.vala:546
-#, fuzzy
 msgid "Show Window Controls"
-msgstr "ウィンドウタイトル"
+msgstr "ウィンドウコントロールを表示"
 
 #: src/applets/budgie-menu/IconChooser.vala:27
 msgid "Set menu icon from file"
@@ -269,7 +267,7 @@ msgstr "すべて"
 #. placeholder in case of no results
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:271
 msgid "Sorry, no items found"
-msgstr ""
+msgstr "アイテムが見つかりませんでした"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
@@ -327,7 +325,7 @@ msgstr "削除"
 
 #: src/applets/caffeine/CaffeineWindow.vala:27
 msgid "Timer (minutes)"
-msgstr ""
+msgstr "タイマー（分）"
 
 #. User Menu Creation
 #: src/applets/user-indicator/UserIndicatorWindow.vala:95
@@ -631,7 +629,7 @@ msgstr "ドックモードはパネルが最小限の大きさになり、利用
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allow raising volume above 100%"
-msgstr ""
+msgstr "音量100%以上に設定を許可"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
@@ -639,15 +637,15 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
-msgstr ""
+msgstr "カレンダーの週番号表示の有効化"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr ""
+msgstr "この設定はカレンダーウィジェットに週番号を表示します。"
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
-msgstr ""
+msgstr "カレンダーウィジェットを表示"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
