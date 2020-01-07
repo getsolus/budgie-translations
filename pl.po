@@ -22,7 +22,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
 "PO-Revision-Date: 2020-01-07 18:25+0000\n"
-"Last-Translator: Krystian <onegajf@gmail.com>\n"
+"Last-Translator: Szymon Scholz <quomoow@gmail.com>\n"
 "Language-Team: Polish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/pl/>\n"
 "Language: pl\n"
@@ -1058,35 +1058,32 @@ msgid "Medium"
 msgstr "Średnie"
 
 #: src/panel/settings/settings_fonts.vala:86
-#, fuzzy
 msgid "Slight"
-msgstr "Prawy"
+msgstr "Drobny"
 
 #: src/panel/settings/settings_fonts.vala:103
 msgid "Hinting"
-msgstr ""
+msgstr "Podpowiedzi"
 
 #: src/panel/settings/settings_fonts.vala:104
-#, fuzzy
 msgid "Set the type of hinting to use."
-msgstr "Ustaw współczynnik skalowania tekstu."
+msgstr "Ustaw typ podpowiedzi."
 
 #: src/panel/settings/settings_fonts.vala:111
 msgid "Subpixel (for LCD screens)"
-msgstr ""
+msgstr "Subpixel (dla wyświetlaczy LCD)"
 
 #: src/panel/settings/settings_fonts.vala:112
 msgid "Standard (grayscale)"
-msgstr ""
+msgstr "Standard (skala szarości)"
 
 #: src/panel/settings/settings_fonts.vala:128
 msgid "Antialiasing"
-msgstr ""
+msgstr "Wygładzenie krawędzi"
 
 #: src/panel/settings/settings_fonts.vala:129
-#, fuzzy
 msgid "Set the type of antialiasing to use."
-msgstr "Ustaw współczynnik skalowania tekstu."
+msgstr "Ustaw typ wygładzania krawędzi."
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
