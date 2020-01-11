@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2020-01-11 17:12+0000\n"
-"Last-Translator: Nikola Gužvica <nikola.guzvica92@gmail.com>\n"
+"PO-Revision-Date: 2020-01-16 20:55+0000\n"
+"Last-Translator: Tesla Hack <tesla.hack@gmail.com>\n"
 "Language-Team: Serbian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/sr/>\n"
 "Language: sr_RS\n"
@@ -1085,7 +1085,7 @@ msgstr "Изабери прибор"
 
 #: src/daemon/endsession.ui.h:2
 msgid "Are you sure you want to end your session?"
-msgstr "Да ли сте сигурни да желите да окончате вашу сесију?"
+msgstr "Сигурни сте, да желите окончати тренутну седницу?"
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
@@ -1231,7 +1231,7 @@ msgstr "Budgie радна површина"
 
 #: src/session/budgie-desktop.desktop.in.in.h:2
 msgid "This session logs you into the Budgie Desktop"
-msgstr "Ова сесија те пријављује у Баџи десктоп"
+msgstr "Ова седница те пријављује у Budgie радну површину"
 
 #: src/applets/tray/TrayApplet.plugin.in.h:1
 msgid "System Tray"
