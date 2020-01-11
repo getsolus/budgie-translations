@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2020-01-11 16:11+0000\n"
-"Last-Translator: Nikola Gužvica <nikola.guzvica92@gmail.com>\n"
+"PO-Revision-Date: 2020-01-11 16:20+0000\n"
+"Last-Translator: Tesla Hack <tesla.hack@gmail.com>\n"
 "Language-Team: Serbian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/sr/>\n"
 "Language: sr_RS\n"
@@ -888,7 +888,7 @@ msgstr "Наслов"
 #: src/panel/settings/settings_autostart.vala:394
 #: src/panel/settings/settings_autostart.vala:408
 msgid "Required"
-msgstr "Потребно"
+msgstr "Потребан"
 
 #: src/panel/settings/settings_autostart.vala:397
 msgid "Description"
