@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2020-01-16 20:56+0000\n"
-"Last-Translator: Nikola Gužvica <nikola.guzvica92@gmail.com>\n"
+"PO-Revision-Date: 2020-01-16 21:01+0000\n"
+"Last-Translator: Rack Jostle <rackjostle@gmail.com>\n"
 "Language-Team: Serbian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/sr/>\n"
 "Language: sr_RS\n"
@@ -605,7 +605,7 @@ msgstr "Провидност"
 
 #: src/panel/settings/settings_panel.vala:256
 msgid "Control when this panel should have a solid background"
-msgstr "Контролише када радна трака мора бити непровидна"
+msgstr "Контролишите када би ова радна трака требало да буде непровидна"
 
 #: src/panel/settings/settings_panel.vala:261
 msgid "Shadow"
