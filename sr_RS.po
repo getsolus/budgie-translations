@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
 "PO-Revision-Date: 2020-01-16 20:55+0000\n"
-"Last-Translator: Rack Jostle <rackjostle@gmail.com>\n"
+"Last-Translator: Nikola Gužvica <nikola.guzvica92@gmail.com>\n"
 "Language-Team: Serbian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/sr/>\n"
 "Language: sr_RS\n"
@@ -35,7 +35,7 @@ msgstr "Искључи рачунар"
 
 #: src/daemon/menus.vala:52
 msgid "Change background"
-msgstr "Промени тапете"
+msgstr "Промени позадину"
 
 #: src/daemon/menus.vala:57
 msgid "Displays"
@@ -558,7 +558,7 @@ msgstr "Динамички"
 #: src/panel/settings/settings_fonts.vala:87
 #: src/panel/settings/settings_fonts.vala:113
 msgid "None"
-msgstr ""
+msgstr "Нема"
 
 #: src/panel/settings/settings_panel.vala:209
 msgid "Automatic"
@@ -566,7 +566,7 @@ msgstr "Aутоматски"
 
 #: src/panel/settings/settings_panel.vala:211
 msgid "Intelligent"
-msgstr ""
+msgstr "Интелигентно"
 
 #: src/panel/settings/settings_panel.vala:214
 msgid "Never"
@@ -578,7 +578,7 @@ msgstr "Позиција"
 
 #: src/panel/settings/settings_panel.vala:231
 msgid "Set the edge of the screen that this panel will stay on"
-msgstr ""
+msgstr "Одредите ивицу заслона на којој ће стајати радна трака"
 
 #: src/panel/settings/settings_panel.vala:239
 msgid "Size"
@@ -587,14 +587,17 @@ msgstr "Величина"
 #: src/panel/settings/settings_panel.vala:240
 msgid "Set the size (width or height, depending on orientation) of this panel"
 msgstr ""
+"Одредите димензије (ширину или висину, зависно од положаја) ове радне траке"
 
 #: src/panel/settings/settings_panel.vala:247
 msgid "Automatically hide"
-msgstr ""
+msgstr "Аутоматски сакриј"
 
 #: src/panel/settings/settings_panel.vala:248
 msgid "When set, this panel will hide from view to maximize screen estate"
 msgstr ""
+"Када је постављена, радна трака ауто-нестаје да би се добила максимална "
+"корисна површина заслона."
 
 #: src/panel/settings/settings_panel.vala:255
 msgid "Transparency"
