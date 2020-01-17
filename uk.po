@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
 "PO-Revision-Date: 2020-01-18 11:38+0000\n"
-"Last-Translator: Shasha Shliapik <lytvyn349@ukr.net>\n"
+"Last-Translator: Sergii Parfenov <sergiiparfenov@live.com>\n"
 "Language-Team: Ukrainian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/uk/>\n"
 "Language: uk\n"
@@ -65,7 +65,7 @@ msgstr "Вимкнеться за хвилину"
 #: src/daemon/settings.vala:361
 #, c-format
 msgid "Will turn off in %d minutes"
-msgstr "Вимкнеться за %d хвилин"
+msgstr "Вимкнеться за %d хвилин(и)"
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:45
@@ -142,7 +142,7 @@ msgstr "Акумулятора залишилось"
 
 #: src/applets/status/PowerIndicator.vala:167
 msgid "Show battery percentage"
-msgstr "Показати відсоток батареї"
+msgstr "Показати відсоток заряду акумулятора"
 
 #: src/applets/status/PowerIndicator.vala:175
 msgid "Power settings"
@@ -235,7 +235,7 @@ msgstr "Показати елементи керування вікном"
 
 #: src/applets/budgie-menu/IconChooser.vala:27
 msgid "Set menu icon from file"
-msgstr "Встановити піктограму меню з файлу"
+msgstr "Обрати піктограму меню з файлу"
 
 #: src/applets/budgie-menu/IconChooser.vala:37
 msgid "Image files"
@@ -260,12 +260,12 @@ msgstr "Встановити піктограму"
 #. Special case, "All"
 #: src/applets/budgie-menu/BudgieMenuButtons.vala:28
 msgid "All"
-msgstr "Всі"
+msgstr "Усі"
 
 #. placeholder in case of no results
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:271
 msgid "Sorry, no items found"
-msgstr "Нічого не знайдено"
+msgstr "Вибачте, нічого не знайдено"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
@@ -307,11 +307,11 @@ msgstr "Показувати секунди"
 
 #: src/applets/clock/ClockApplet.vala:180
 msgid "Use 24 hour time"
-msgstr "Використовувати 24 години"
+msgstr "Використовувати 24-х годинний формат"
 
 #: src/applets/show-desktop/ShowDesktopApplet.vala:34
 msgid "Toggle the desktop"
-msgstr "Показати стільницю"
+msgstr "Перейти на стільницю"
 
 #: src/applets/workspaces/WorkspaceItem.vala:72
 msgid "Rename"
@@ -373,11 +373,11 @@ msgstr "На разі показати нічого"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:186
 msgid "Mount some drives"
-msgstr "Змонтувати якісь носії"
+msgstr "Змонтуйте якісь носії"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:186
 msgid "Enable more sections"
-msgstr "Увімкнути більше розділів"
+msgstr "Увімкніть більше секцій"
 
 #: src/applets/places-indicator/PlaceItem.vala:38
 #: src/applets/places-indicator/MountItem.vala:65
@@ -387,7 +387,7 @@ msgstr "Відкрити \"%s\""
 
 #: src/applets/places-indicator/MountHelper.vala:39
 msgid "Volume is in use by other processes"
-msgstr "Том використовується іншим процесом"
+msgstr "Том використовується іншими процесами"
 
 #: src/applets/places-indicator/MountHelper.vala:45
 msgid "Operation aborted"
@@ -425,7 +425,7 @@ msgstr "Змонтувати та відкрити \"%s\""
 #: src/applets/places-indicator/VolumeItem.vala:57
 #: src/applets/places-indicator/MountItem.vala:60
 msgid "Eject"
-msgstr "Вийняти"
+msgstr "Витягти"
 
 #: src/applets/places-indicator/VolumeItem.vala:76
 #: src/applets/places-indicator/VolumeItem.vala:121
@@ -435,7 +435,7 @@ msgstr "Введіть пароль шифрування для розблоку
 #: src/applets/places-indicator/VolumeItem.vala:87
 #: src/applets/places-indicator/MountItem.vala:78
 msgid "You can now safely remove"
-msgstr "Тепер ви можете безпечно видалити"
+msgstr "Тепер ви можете безпечно витягти"
 
 #: src/applets/places-indicator/VolumeItem.vala:119
 msgid "The password you entered is incorrect"
@@ -447,7 +447,7 @@ msgstr "При спробі монтування тому виникла нев�
 
 #: src/applets/places-indicator/MountItem.vala:62
 msgid "Unmount"
-msgstr "Демонтувати"
+msgstr "Розмонтувати"
 
 #: src/applets/places-indicator/MountItem.vala:79
 msgid "Unknown Device"
@@ -455,11 +455,11 @@ msgstr "Невідомий пристрій"
 
 #: src/applets/places-indicator/MountItem.vala:88
 msgid "Error while ejecting device"
-msgstr "Помилка під час виймання пристрою"
+msgstr "Помилка при спробі витягти пристрій"
 
 #: src/applets/places-indicator/MountItem.vala:105
 msgid "Error while unmounting volume"
-msgstr "Помилка під час розмонтовування тому"
+msgstr "Помилка під час розмонтування тому"
 
 #: src/polkit/polkitdialog.vala:135
 msgid "Authentication failed"
@@ -479,12 +479,12 @@ msgstr "Панелі"
 
 #: src/panel/settings/settings_main.vala:41
 msgid "Session"
-msgstr "Сесії"
+msgstr "Сеанс"
 
 #: src/panel/settings/settings_main.vala:50
 #: src/panel/budgie-desktop-settings.desktop.in.h:1
 msgid "Budgie Desktop Settings"
-msgstr "Налаштування Budgie Desktop"
+msgstr "Налаштування середовища Budgie"
 
 #: src/panel/settings/settings_main.vala:81
 msgid "Create new panel"
@@ -496,19 +496,19 @@ msgstr "Видалити цю панель з екрану"
 
 #: src/panel/settings/settings_panel.vala:120
 msgid "Top Dock"
-msgstr "Верхній Док"
+msgstr "Верхній док"
 
 #: src/panel/settings/settings_panel.vala:122
 msgid "Right Dock"
-msgstr "Правий Док"
+msgstr "Правий док"
 
 #: src/panel/settings/settings_panel.vala:124
 msgid "Left Dock"
-msgstr "Лівий Док"
+msgstr "Лівий док"
 
 #: src/panel/settings/settings_panel.vala:126
 msgid "Bottom Dock"
-msgstr "Нижній Док"
+msgstr "Нижній док"
 
 #: src/panel/settings/settings_panel.vala:131
 msgid "Top Panel"
@@ -528,7 +528,7 @@ msgstr "Нижня панель"
 
 #: src/panel/settings/settings_panel.vala:176
 msgid "Top"
-msgstr "Верх"
+msgstr "Зверху"
 
 #: src/panel/settings/settings_panel.vala:178
 msgid "Right"
@@ -541,7 +541,7 @@ msgstr "Ліворуч"
 
 #: src/panel/settings/settings_panel.vala:182
 msgid "Bottom"
-msgstr "Низ"
+msgstr "Знизу"
 
 #: src/panel/settings/settings_panel.vala:193
 msgid "Always"
@@ -599,7 +599,7 @@ msgstr "Прозорість"
 
 #: src/panel/settings/settings_panel.vala:256
 msgid "Control when this panel should have a solid background"
-msgstr "Контролюйте коли ця панель матиме суцільний фон"
+msgstr "Вказати рівень прозорості фону для цієї панелі"
 
 #: src/panel/settings/settings_panel.vala:261
 msgid "Shadow"
@@ -615,7 +615,9 @@ msgstr "Стилізувати регіони"
 
 #: src/panel/settings/settings_panel.vala:269
 msgid "Adds a hint to the panel so that each of the panel's three main areas may be themed differently."
-msgstr "Додає акцент на панелі таким чином, щоб три основні частини панелі можуть бути виділені інакше."
+msgstr ""
+"Налаштовує панель таким чином, що кожна з трьох основних частин панелі може "
+"мати власну тему."
 
 #: src/panel/settings/settings_panel.vala:276
 msgid "Dock mode"
@@ -639,11 +641,11 @@ msgstr "Увімкнути відображення номерів тижнів 
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr "Цей перемикач вмикає відображення номеру тижня у віджеті Календар."
+msgstr "Цей перемикач вмикає відображення номерів тижнів у віджеті Календар."
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
-msgstr "Показувати віджет календаря"
+msgstr "Показувати віджет Календар"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
@@ -708,7 +710,7 @@ msgstr "Залишити панель"
 
 #: src/panel/settings/settings_panel_dialogs.vala:92
 msgid "Confirm applet removal"
-msgstr "Підтвердження видалення аплету"
+msgstr "Підтвердити видалення аплету"
 
 #: src/panel/settings/settings_panel_dialogs.vala:99
 msgid "Do you really want to remove this applet? This action cannot be undone."
@@ -858,7 +860,7 @@ msgstr "Опис відсутній"
 
 #: src/panel/settings/settings_autostart.vala:171
 msgid "running"
-msgstr "запущено"
+msgstr "працює"
 
 #: src/panel/settings/settings_autostart.vala:194
 msgid "Applications"
@@ -1306,7 +1308,6 @@ msgid "User Indicator"
 msgstr "Індикатор користувача"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
-#, fuzzy
 msgid "Change desktop appearance and behavior"
 msgstr "Змінити зовнішній вигляд та поведінку стільниці"
 
