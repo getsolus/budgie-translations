@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: budgie-desktop 10.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2020-01-22 16:27+0000\n"
+"PO-Revision-Date: 2020-07-15 06:45+0000\n"
 "Last-Translator: Danil <danilarmanshin@yandex.ru>\n"
 "Language-Team: Tatar <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/tt/>\n"
@@ -176,36 +176,36 @@ msgstr[0] ""
 
 #: src/applets/status/SoundIndicator.vala:146
 msgid "Sound settings"
-msgstr ""
+msgstr "Тавыш көйләнмәләр"
 
 #: src/applets/icon-tasklist/IconPopover.vala:94
 msgid "Launch New Instance"
-msgstr ""
+msgstr "Яңа экземплярны эшләтеп җибәрергә"
 
 #: src/applets/icon-tasklist/IconPopover.vala:97
 msgid "Close All Windows"
-msgstr ""
+msgstr "Барлык тәрәзәләрне ябарга"
 
 #: src/applets/icon-tasklist/IconPopover.vala:105
 msgid "Always On Top"
-msgstr ""
+msgstr "Һәрвакыт югарыда"
 
 #: src/applets/icon-tasklist/IconPopover.vala:107
 #: src/applets/icon-tasklist/IconPopover.vala:485
 msgid "Maximize"
-msgstr ""
+msgstr "Җәю"
 
 #: src/applets/icon-tasklist/IconPopover.vala:108
 msgid "Minimize"
-msgstr ""
+msgstr "Җыю"
 
 #: src/applets/icon-tasklist/IconPopover.vala:373
 msgid "Unfavorite"
-msgstr ""
+msgstr "Сайлангандан бетерү"
 
 #: src/applets/icon-tasklist/IconPopover.vala:373
 msgid "Favorite"
-msgstr ""
+msgstr "Сайланганга өстәү"
 
 #. If our current amount of workspaces is different than how many we have added
 #. We have items to add
@@ -213,32 +213,32 @@ msgstr ""
 #: src/applets/icon-tasklist/IconPopover.vala:385
 #, c-format
 msgid "Move To Workspace %i"
-msgstr ""
+msgstr "%i эш урынына күчерергә"
 
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:485
 msgid "Unmaximize"
-msgstr ""
+msgstr "Зурлык торгызырга"
 
 #: src/applets/icon-tasklist/IconPopover.vala:544
 msgid "Close Window"
-msgstr ""
+msgstr "Тәрәзәне ябарга"
 
 #: src/applets/icon-tasklist/IconPopover.vala:546
 msgid "Show Window Controls"
-msgstr ""
+msgstr "Тәрәзә белән идарә итү төймәләрен күрсәтергә"
 
 #: src/applets/budgie-menu/IconChooser.vala:27
 msgid "Set menu icon from file"
-msgstr ""
+msgstr "Меню тамганы файлдан сайларга"
 
 #: src/applets/budgie-menu/IconChooser.vala:37
 msgid "Image files"
-msgstr ""
+msgstr "Сурәт файллар"
 
 #: src/applets/budgie-menu/IconChooser.vala:43
 msgid "Any file"
-msgstr ""
+msgstr "Барлык файллар"
 
 #: src/applets/budgie-menu/IconChooser.vala:55
 #: src/panel/settings/settings_autostart.vala:203
@@ -246,151 +246,151 @@ msgstr ""
 #: src/panel/settings/settings_applet_chooser.vala:84
 #: src/daemon/endsession.ui.h:3 src/polkit/dialog.ui.h:4
 msgid "Cancel"
-msgstr ""
+msgstr "Баш тарту"
 
 #: src/applets/budgie-menu/IconChooser.vala:56
 msgid "Set icon"
-msgstr ""
+msgstr "Тамганы урнаштыру"
 
 #. Special case, "All"
 #: src/applets/budgie-menu/BudgieMenuButtons.vala:28
 msgid "All"
-msgstr ""
+msgstr "Барлык"
 
 #. placeholder in case of no results
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:271
 msgid "Sorry, no items found"
-msgstr ""
+msgstr "Гафу итегез, берни дә табылмады"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
-msgstr ""
+msgstr "Caps lock кабызган"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:65
 msgid "Caps lock is not active"
-msgstr ""
+msgstr "Caps lock сүндергән"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:75
 msgid "Num lock is active"
-msgstr ""
+msgstr "Num lock кабызган"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:78
 msgid "Num lock is not active"
-msgstr ""
+msgstr "Num lock сүндергән"
 
 #: src/applets/clock/ClockApplet.vala:151
 msgid "Time and date settings"
-msgstr ""
+msgstr "Вакыт һәм дата көйләнмәләр"
 
 #: src/applets/clock/ClockApplet.vala:152
 msgid "Calendar"
-msgstr ""
+msgstr "Тәкъвим"
 
 #. pack page2
 #: src/applets/clock/ClockApplet.vala:159
 #: src/applets/clock/ClockApplet.vala:190
 msgid "Preferences"
-msgstr ""
+msgstr "Көйләнмәләр"
 
 #: src/applets/clock/ClockApplet.vala:169
 msgid "Show date"
-msgstr ""
+msgstr "Датаны күрсәтергә"
 
 #: src/applets/clock/ClockApplet.vala:174
 msgid "Show seconds"
-msgstr ""
+msgstr "Секундларны күрсәтергә"
 
 #: src/applets/clock/ClockApplet.vala:180
 msgid "Use 24 hour time"
-msgstr ""
+msgstr "24 сәгатьлек формат кулланырга"
 
 #: src/applets/show-desktop/ShowDesktopApplet.vala:34
 msgid "Toggle the desktop"
-msgstr ""
+msgstr "Эш өстәленә күчәргә"
 
 #: src/applets/workspaces/WorkspaceItem.vala:72
 msgid "Rename"
-msgstr ""
+msgstr "Исемен үзгәртергә"
 
 #: src/applets/workspaces/WorkspaceItem.vala:80
 msgid "Remove"
-msgstr ""
+msgstr "Ташлау"
 
 #: src/applets/caffeine/CaffeineWindow.vala:27
 msgid "Timer (minutes)"
-msgstr ""
+msgstr "Таймер (минутлар)"
 
 #. User Menu Creation
 #: src/applets/user-indicator/UserIndicatorWindow.vala:95
 msgid "User"
-msgstr ""
+msgstr "Кулланучы"
 
 #. Default to "User" and symbolic icon
 #. The rest
 #: src/applets/user-indicator/UserIndicatorWindow.vala:101
 msgid "Lock"
-msgstr ""
+msgstr "Блоклау"
 
 #: src/applets/user-indicator/UserIndicatorWindow.vala:102
 msgid "Suspend"
-msgstr ""
+msgstr "Йокы режимы"
 
 #: src/applets/user-indicator/UserIndicatorWindow.vala:103
 msgid "Hibernate"
-msgstr ""
+msgstr "Гибернация"
 
 #: src/applets/user-indicator/UserIndicatorWindow.vala:104
 #: src/daemon/endsession.ui.h:5
 msgid "Restart"
-msgstr ""
+msgstr "Яңабаштан йөкләү"
 
 #: src/applets/user-indicator/UserIndicatorWindow.vala:105
 #: src/daemon/endsession.ui.h:6
 msgid "Shutdown"
-msgstr ""
+msgstr "Сүндерү"
 
 #. IndicatorItem switch_user_menu = new IndicatorItem(_("Switch User"), "network-transmit-receive-symbolic", false);
 #: src/applets/user-indicator/UserIndicatorWindow.vala:179
 #: src/daemon/endsession.ui.h:4
 msgid "Logout"
-msgstr ""
+msgstr "Чыгу"
 
 #: src/applets/places-indicator/PlacesSection.vala:24
 #: src/applets/places-indicator/PlacesSection.vala:46
 #: src/applets/places-indicator/PlacesIndicator.vala:85
 #: src/applets/places-indicator/PlacesIndicator.plugin.in.h:1
 msgid "Places"
-msgstr ""
+msgstr "Урыннар"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:182
 msgid "Nothing to display right now"
-msgstr ""
+msgstr "Хәзер күрсәтәсе юк"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:186
 msgid "Mount some drives"
-msgstr ""
+msgstr "Дисклар монтировать итегез"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:186
 msgid "Enable more sections"
-msgstr ""
+msgstr "Күбрәк секцияләр кертегез"
 
 #: src/applets/places-indicator/PlaceItem.vala:38
 #: src/applets/places-indicator/MountItem.vala:65
 #, c-format
 msgid "Open \"%s\""
-msgstr ""
+msgstr "\"%s\" ачу"
 
 #: src/applets/places-indicator/MountHelper.vala:39
 msgid "Volume is in use by other processes"
-msgstr ""
+msgstr "Бүленү башка процесслар белән кулланыла"
 
 #: src/applets/places-indicator/MountHelper.vala:45
 msgid "Operation aborted"
-msgstr ""
+msgstr "Операция өзелде"
 
 #: src/applets/places-indicator/MountHelper.vala:57
 msgid "Type your password"
-msgstr ""
+msgstr "Серсүзне кертегез"
 
 #: src/applets/places-indicator/VolumeItem.vala:27
 #: src/applets/places-indicator/MountItem.vala:25
