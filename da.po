@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
 "PO-Revision-Date: 2020-07-10 09:58+0000\n"
-"Last-Translator: Danni Lundgren <dannilundgren@outlook.dk>\n"
+"Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/da/>\n"
 "Language: da\n"
@@ -72,7 +72,7 @@ msgstr "Slukker om %d minutter"
 #: src/raven/notifications_group.vala:45
 #: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Caffeine Mode"
-msgstr "Caffeine Mode"
+msgstr "Caffeine-tilstand"
 
 #: src/raven/main_view.vala:63 src/panel/settings/settings_panel.vala:96
 msgid "Applets"
@@ -1045,35 +1045,32 @@ msgid "Medium"
 msgstr "Mellem"
 
 #: src/panel/settings/settings_fonts.vala:86
-#, fuzzy
 msgid "Slight"
-msgstr "Højre"
+msgstr "Let"
 
 #: src/panel/settings/settings_fonts.vala:103
 msgid "Hinting"
-msgstr ""
+msgstr "Hinting"
 
 #: src/panel/settings/settings_fonts.vala:104
-#, fuzzy
 msgid "Set the type of hinting to use."
-msgstr "Indstil tekstskaleringsfaktor."
+msgstr "Indstil typen af hinting som skal bruges."
 
 #: src/panel/settings/settings_fonts.vala:111
 msgid "Subpixel (for LCD screens)"
-msgstr ""
+msgstr "Underpixel (til LCD-skærme)"
 
 #: src/panel/settings/settings_fonts.vala:112
 msgid "Standard (grayscale)"
-msgstr ""
+msgstr "Standard (sort/hvid)"
 
 #: src/panel/settings/settings_fonts.vala:128
 msgid "Antialiasing"
-msgstr ""
+msgstr "Antialiasing"
 
 #: src/panel/settings/settings_fonts.vala:129
-#, fuzzy
 msgid "Set the type of antialiasing to use."
-msgstr "Indstil tekstskaleringsfaktor."
+msgstr "Indstil typen af antialiasing som skal bruges."
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 msgid "Choose an applet"
@@ -1290,7 +1287,6 @@ msgid "User Indicator"
 msgstr "Brugerindikator"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
-#, fuzzy
 msgid "Change desktop appearance and behavior"
 msgstr "Skift skrivebordsudseende og -opførsel"
 
