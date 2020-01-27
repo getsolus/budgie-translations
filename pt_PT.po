@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-09-28 16:21+0000\n"
+"PO-Revision-Date: 2020-04-19 18:01+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese (Portugal) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/pt_PT/>\n"
@@ -61,7 +61,7 @@ msgstr "Desativou o aumento da cafeína"
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
 #: src/daemon/settings.vala:358
 msgid "Will turn off in a minute"
-msgstr "Vai desligar-se em um minuto"
+msgstr "Vai desligar-se num minuto"
 
 #. use plural
 #: src/daemon/settings.vala:361
@@ -485,7 +485,7 @@ msgstr "Sessão"
 #: src/panel/settings/settings_main.vala:50
 #: src/panel/budgie-desktop-settings.desktop.in.h:1
 msgid "Budgie Desktop Settings"
-msgstr "Definições do ambiente de trabalho Budgie"
+msgstr "Definições do Budgie"
 
 #: src/panel/settings/settings_main.vala:81
 msgid "Create new panel"
@@ -588,11 +588,13 @@ msgstr "Definir o tamanho (largura ou altura, dependendo da orientação) deste 
 
 #: src/panel/settings/settings_panel.vala:247
 msgid "Automatically hide"
-msgstr "Esconder automaticamente"
+msgstr "Ocultar automaticamente"
 
 #: src/panel/settings/settings_panel.vala:248
 msgid "When set, this panel will hide from view to maximize screen estate"
-msgstr "Quando ativado, este painel esconder-se-á da vista para maximizar a área de visualização do ecrã"
+msgstr ""
+"Quando ativado, este painel ocultar-se-á da vista para maximizar a área de "
+"visualização do ecrã"
 
 #: src/panel/settings/settings_panel.vala:255
 msgid "Transparency"
@@ -636,19 +638,23 @@ msgstr "Permite aumentar o volume via definições de áudio, assim como na ferr
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
-msgstr "Habilitar a exibição dos números das semanas no Calendário"
+msgstr "Ativar a exibição dos números da semana no calendário"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr "Esta definição habilita a exibição dos números das semanas na ferramenta Calendário."
+msgstr ""
+"Esta definição permite a exibição dos números das semanas na ferramenta "
+"Calendário."
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
-msgstr "Exibir a ferramenta Calendário"
+msgstr "Mostrar a ferramenta Calendário"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr "Exibir ou ocultar a ferramenta Calendário na secção de mini-aplicações do Raven."
+msgstr ""
+"Mostra ou oculta a ferramenta Calendário na secção de mini-aplicações do "
+"Raven."
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
@@ -656,7 +662,9 @@ msgstr "Exibir a ferramenta de saída de som"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr "Exibir ou ocultar a ferramenta de saída de som na secção de mini-aplicações do Raven."
+msgstr ""
+"Mostra ou oculta a ferramenta de saída de som na secção de mini-aplicações "
+"do Raven."
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
@@ -664,7 +672,9 @@ msgstr "Exibir a ferramenta de entrada de microfone"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
-msgstr "Exibir ou ocultar a ferramenta de entrada de microfone na secção de mini-aplicações do Raven."
+msgstr ""
+"Mostra ou oculta a ferramenta de entrada de microfone na secção de mini-"
+"aplicações do Raven."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
@@ -672,15 +682,17 @@ msgstr "Exibir a ferramenta de controlos de reprodução de media"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
-msgstr "Exibir ou ocultar a ferramenta de Controlo de Meios (MPRIS) de Reprodução na secção de mini-aplicações do Raven."
+msgstr ""
+"Mostra ou oculta a ferramenta de controlo de reprodução multimédia (MPRIS) "
+"na secção de mini-aplicações do Raven."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
-msgstr "Exibir faixa de potência"
+msgstr "Mostrar faixa de energia"
 
 #: src/panel/settings/settings_raven.vala:76
 msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr "Exibir ou esconder a faixa de potência na parte inferior do Raven."
+msgstr "Mostra ou oculta a faixa de energia na parte inferior do Raven."
 
 #: src/panel/settings/settings_panel_dialogs.vala:29
 msgid "Confirm panel removal"
@@ -725,11 +737,11 @@ msgstr "Ambiente de trabalho"
 
 #: src/panel/settings/settings_desktop.vala:49
 msgid "Desktop Icons"
-msgstr "Ícones do Ambiente de Trabalho"
+msgstr "Ícones do Ambiente de trabalho"
 
 #: src/panel/settings/settings_desktop.vala:50
 msgid "Control whether to allow launchers and icons on the desktop."
-msgstr "Controlar se os executáveis e os ícones são permitidos no ambiente de trabalho."
+msgstr "Controle se permite lançadores e ícones no ambiente de trabalho."
 
 #: src/panel/settings/settings_desktop.vala:60
 msgid "Home directory"
@@ -753,7 +765,7 @@ msgstr "Lixo"
 
 #: src/panel/settings/settings_desktop.vala:73
 msgid "Add a shortcut to the Trash directory on the desktop."
-msgstr "Adicionar um atalho da pasta Lixo no seu ambiente de trabalho."
+msgstr "Adicionar um atalho do lixo no seu ambiente de trabalho."
 
 #: src/panel/settings/settings_desktop.vala:78
 msgid "Mounted volumes"
@@ -803,7 +815,7 @@ msgstr "Definir o tema de cursor de rato global"
 
 #: src/panel/settings/settings_style.vala:62
 msgid "Notification Position"
-msgstr "Posição das Notificações"
+msgstr "Posição das notificações"
 
 #: src/panel/settings/settings_style.vala:63
 msgid "Set the location for notification popups"
@@ -959,11 +971,14 @@ msgstr "Centrar novas janelas abertas no ecrã atual."
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disable Night Light mode when windows are fullscreen"
-msgstr "Desabilitar modo de Luz Noturna em janelas no modo ecrã completo"
+msgstr ""
+"Desativa o modo de luz noturna quando as janelas estiverem em ecrã inteiro"
 
 #: src/panel/settings/settings_wm.vala:60
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
-msgstr "Desabilita modo Luz Noturna numa janela em modo ecrã completo. Volta a reabilitar quando esta sai do modo ecrã completo."
+msgstr ""
+"Desativa o modo de luz noturna numa janela em modo de ecrã inteiro. Volta a "
+"reativar quando esta sai do modo de ecrã inteiro."
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Automatic tiling"
@@ -975,11 +990,13 @@ msgstr "As janelas irão ser automaticamente agrupadas quando arrastadas para o 
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Enable window focus change on mouse enter and leave"
-msgstr "Habilita foco na janela quando o rato entra ou sai da mesma"
+msgstr "Ativa a mudança do foco da janela quando o rato entra ou sai da mesma"
 
 #: src/panel/settings/settings_wm.vala:72
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
-msgstr "Habilita o foco na janela aplicável quando o rato entra na mesma ou desabilita o foco quando o rato sai da janela."
+msgstr ""
+"Ativa o foco da janela aplicável quando o rato entra na mesma ou desabilita "
+"o foco quando o rato sai da janela."
 
 #: src/panel/settings/settings_wm.vala:78
 msgid "Disable unredirection of windows"
@@ -1031,11 +1048,11 @@ msgstr "Defina a largura fixa da fonte utilizada pelas aplicações de texto dom
 
 #: src/panel/settings/settings_fonts.vala:74
 msgid "Text scaling"
-msgstr "Escalonamento de Texto"
+msgstr "Escala do texto"
 
 #: src/panel/settings/settings_fonts.vala:75
 msgid "Set the text scaling factor."
-msgstr "Defina o fator de escalonamento de texto."
+msgstr "Defina o factor de escala do texto."
 
 #: src/panel/settings/settings_fonts.vala:84
 msgid "Full"
@@ -1221,11 +1238,11 @@ msgstr "Autenticar"
 #: src/session/budgie-desktop.desktop.in.in.h:1
 #: src/session/budgie-desktop.session.in.in.h:1
 msgid "Budgie Desktop"
-msgstr "Ambiente de Trabalho Budgie"
+msgstr "Ambiente de trabalho Budgie"
 
 #: src/session/budgie-desktop.desktop.in.in.h:2
 msgid "This session logs you into the Budgie Desktop"
-msgstr "Esta sessão regista-o no Ambiente de Trabalho Budgie"
+msgstr "Esta sessão regista-o no Ambiente de trabalho Budgie"
 
 #: src/applets/tray/TrayApplet.plugin.in.h:1
 msgid "System Tray"
@@ -1265,7 +1282,7 @@ msgstr "Separador"
 
 #: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
 msgid "Show Desktop Button"
-msgstr "Mostrar Botão de Ambiente de Trabalho"
+msgstr "Mostrar botão do ambiente de trabalho"
 
 #: src/applets/workspaces/WorkspacesApplet.plugin.in.h:1
 msgid "Workspace Switcher"
@@ -1289,7 +1306,7 @@ msgstr "Indicador do Utilizador"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
 msgid "Change desktop appearance and behavior"
-msgstr "Alterar a aparência e comportamento do ambiente de trabalho"
+msgstr "Mudar a aparência e comportamento do ambiente de trabalho"
 
 #: src/panel/budgie-panel.desktop.in.h:1
 msgid "Budgie Panel"
