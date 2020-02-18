@@ -23,7 +23,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
 "PO-Revision-Date: 2020-07-15 06:45+0000\n"
-"Last-Translator: The Quantum Alpha <The_Quantum_Alpha@tutanota.com>\n"
+"Last-Translator: Pierre-Yves <pyu@riseup.net>\n"
 "Language-Team: French <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/fr/>\n"
 "Language: fr\n"
@@ -641,7 +641,9 @@ msgstr "Permettre d'augmenter le volume au-delà de 100%"
 
 #: src/panel/settings/settings_raven.vala:41
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
-msgstr "Permet de monter le volume jusqu'à 150% dans les paramètres sonores et dans le widget son de Raven."
+msgstr ""
+"Permet d'augmenter le volume jusqu'à 150% dans les paramètres sonores et "
+"dans le widget son de Raven."
 
 #: src/panel/settings/settings_raven.vala:45
 msgid "Enable display of week numbers in Calendar"
@@ -1050,7 +1052,7 @@ msgstr "Mise à l'échelle du texte"
 
 #: src/panel/settings/settings_fonts.vala:75
 msgid "Set the text scaling factor."
-msgstr "Définir le facteur de mise à l'échelle du texte."
+msgstr "Définit le facteur de mise à l'échelle du texte."
 
 #: src/panel/settings/settings_fonts.vala:84
 msgid "Full"
