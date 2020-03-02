@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-09-10 13:03+0000\n"
+"PO-Revision-Date: 2020-07-15 06:45+0000\n"
 "Last-Translator: Abdulkadir Furkan Şanlı <abdulkadirfsanli@protonmail.com>\n"
 "Language-Team: Turkish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/tr/>\n"
@@ -35,7 +35,7 @@ msgstr "Kapat"
 
 #: src/daemon/menus.vala:52
 msgid "Change background"
-msgstr "Arka fonu değiştir"
+msgstr "Arka planı değiştir"
 
 #: src/daemon/menus.vala:57
 msgid "Displays"
