@@ -5,6 +5,7 @@
 # Translators:
 # Lenny Hans Andreu <landreuhs@outlook.com>, 2018
 # Sebastián Meneses <sebastian.meneses.n@usach.cl>, 2015
+# Alejandro Farías <farias@autistici.org>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
@@ -526,7 +527,7 @@ msgstr "Panel izquierdo"
 
 #: src/panel/settings/settings_panel.vala:137
 msgid "Bottom Panel"
-msgstr "Panal inferior"
+msgstr "Panel inferior"
 
 #: src/panel/settings/settings_panel.vala:176
 msgid "Top"
@@ -641,39 +642,39 @@ msgstr "Muestra el número de la semana en el Calendario"
 
 #: src/panel/settings/settings_raven.vala:46
 msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr ""
+msgstr "Esta configuración permite la visualización de números de semana en el widget Calendario."
 
 #: src/panel/settings/settings_raven.vala:51
 msgid "Show Calendar Widget"
-msgstr ""
+msgstr "Mostrar widget Calendario"
 
 #: src/panel/settings/settings_raven.vala:52
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr ""
+msgstr "Muestrar u oculta el widget de Calendario en la sección de applets de Raven."
 
 #: src/panel/settings/settings_raven.vala:57
 msgid "Show Sound Output Widget"
-msgstr ""
+msgstr "Mostrar widget de Salida de Sonido"
 
 #: src/panel/settings/settings_raven.vala:58
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr ""
+msgstr "Mostrar u ocultar widget de Salida de Sonido en la sección de applets de Raven,"
 
 #: src/panel/settings/settings_raven.vala:63
 msgid "Show Microphone Input Widget"
-msgstr ""
+msgstr "Mostrar widget de Entrada de Micrófono"
 
 #: src/panel/settings/settings_raven.vala:64
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
-msgstr ""
+msgstr "Mostrar u ocultar widget Entrada de Micrófono en la sección de applets de Raven."
 
 #: src/panel/settings/settings_raven.vala:69
 msgid "Show Media Playback Controls Widget"
-msgstr ""
+msgstr "Mostrar widget de controles de reproducción de medios"
 
 #: src/panel/settings/settings_raven.vala:70
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
-msgstr ""
+msgstr "Mostrar u ocultar widget de controles de reproducción de medios en la sección de applets de Raven."
 
 #: src/panel/settings/settings_raven.vala:75
 msgid "Show Power Strip"
@@ -762,19 +763,19 @@ msgstr "Añade un atajo a la papelera en el escritorio"
 
 #: src/panel/settings/settings_desktop.vala:78
 msgid "Mounted volumes"
-msgstr ""
+msgstr "Volúmenes montados"
 
 #: src/panel/settings/settings_desktop.vala:79
 msgid "Mounted volumes & drives will appear on the desktop."
-msgstr ""
+msgstr "Volúmenes montados y las unidades aparecerán en el escritorio."
 
 #: src/panel/settings/settings_desktop.vala:109
 msgid "Number of virtual desktops"
-msgstr ""
+msgstr "Número de escritorios virtuales"
 
 #: src/panel/settings/settings_desktop.vala:110
 msgid "Number of virtual desktops / workspaces to create automatically on startup."
-msgstr ""
+msgstr "Número de escritorios virtuales / espacios de trabajo para crear automáticamente en el inicio."
 
 #: src/panel/settings/settings_style.vala:33
 msgid "Style"
