@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2020-04-19 18:02+0000\n"
-"Last-Translator: Ruben Stevens Sanders <rubenstevensanders@gmail.com>\n"
+"PO-Revision-Date: 2020-07-15 06:45+0000\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese (Portugal) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/pt_PT/>\n"
 "Language: pt_PT\n"
@@ -51,11 +51,11 @@ msgstr "Definições"
 #. Should show a notification
 #: src/daemon/settings.vala:351
 msgid "Turned on Caffeine Boost"
-msgstr "Ativou o aumento de cafeína"
+msgstr "Ativado o aumento de cafeína"
 
 #: src/daemon/settings.vala:351
 msgid "Turned off Caffeine Boost"
-msgstr "Desativou o aumento da cafeína"
+msgstr "Desativado o aumento da cafeína"
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
@@ -67,7 +67,7 @@ msgstr "Desligar-se-á num minuto"
 #: src/daemon/settings.vala:361
 #, c-format
 msgid "Will turn off in %d minutes"
-msgstr "Vai desligar-se em %d minutos"
+msgstr "Desligar-se-á em %d minutos"
 
 #. Caffeine Notification
 #: src/raven/notifications_group.vala:45
@@ -90,7 +90,7 @@ msgstr "Nenhuma aplicação está a reproduzir áudio."
 
 #: src/raven/start_listening.vala:28
 msgid "Play some music"
-msgstr "Ouvir música"
+msgstr "Reproduzir música"
 
 #: src/raven/notifications_view.vala:106
 msgid "Nothing to see here"
@@ -182,7 +182,7 @@ msgstr[1] "Ligado a %d dispositivos"
 
 #: src/applets/status/SoundIndicator.vala:146
 msgid "Sound settings"
-msgstr "Definições de áudio"
+msgstr "Definições de som"
 
 #: src/applets/icon-tasklist/IconPopover.vala:94
 msgid "Launch New Instance"
@@ -228,7 +228,7 @@ msgstr "Restaurar"
 
 #: src/applets/icon-tasklist/IconPopover.vala:544
 msgid "Close Window"
-msgstr "Fechar Janela"
+msgstr "Fechar janela"
 
 #: src/applets/icon-tasklist/IconPopover.vala:546
 msgid "Show Window Controls"
@@ -270,19 +270,19 @@ msgstr "Desculpe, nenhum item encontrado"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:62
 msgid "Caps lock is active"
-msgstr "Caps lock está ligado"
+msgstr "O Caps lock está ligado"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:65
 msgid "Caps lock is not active"
-msgstr "Caps lock está desligado"
+msgstr "O Caps lock está desligado"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:75
 msgid "Num lock is active"
-msgstr "Num lock está ligado"
+msgstr "O Num lock está ligado"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:78
 msgid "Num lock is not active"
-msgstr "Num lock está desligado"
+msgstr "O Num lock está desligado"
 
 #: src/applets/clock/ClockApplet.vala:151
 msgid "Time and date settings"
@@ -741,7 +741,9 @@ msgstr "Ícones do Ambiente de trabalho"
 
 #: src/panel/settings/settings_desktop.vala:50
 msgid "Control whether to allow launchers and icons on the desktop."
-msgstr "Controle se permite lançadores e ícones no ambiente de trabalho."
+msgstr ""
+"Controlar se os lançadores e ícones no ambiente de trabalho devem ser "
+"permitidos."
 
 #: src/panel/settings/settings_desktop.vala:60
 msgid "Home directory"
@@ -1242,7 +1244,7 @@ msgstr "Ambiente de trabalho Budgie"
 
 #: src/session/budgie-desktop.desktop.in.in.h:2
 msgid "This session logs you into the Budgie Desktop"
-msgstr "Esta sessão regista-o no Ambiente de trabalho Budgie"
+msgstr "Esta sessão regista-o no ambiente de trabalho Budgie"
 
 #: src/applets/tray/TrayApplet.plugin.in.h:1
 msgid "System Tray"
