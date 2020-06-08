@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-11-12 12:16+0000\n"
-"Last-Translator: Faisal almosbahi <faisal.almosbahi@gmail.com>\n"
+"PO-Revision-Date: 2020-06-08 18:36+0000\n"
+"Last-Translator: rayane <rayaneslimani12@gmail.com>\n"
 "Language-Team: Arabic <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ar/>\n"
 "Language: ar\n"
@@ -52,11 +52,11 @@ msgstr "الإعدادات"
 #. Should show a notification
 #: src/daemon/settings.vala:351
 msgid "Turned on Caffeine Boost"
-msgstr "تشغل برنامج كافيين"
+msgstr "تم تشغيل برنامج كافيين"
 
 #: src/daemon/settings.vala:351
 msgid "Turned off Caffeine Boost"
-msgstr "إيقاف برنامج كافيين"
+msgstr "تم إيقاف برنامج كافيين"
 
 #. Get our timer number
 #. If Caffeine Mode is enabled and we'll turn it off in a certain amount of time
@@ -91,7 +91,7 @@ msgstr "لا توجد تطبيقات تشغل الصوت حاليًا."
 
 #: src/raven/start_listening.vala:28
 msgid "Play some music"
-msgstr "تشغيل بعض الموسيقى"
+msgstr "تشغيل الموسيقى"
 
 #: src/raven/notifications_view.vala:106
 msgid "Nothing to see here"
@@ -120,7 +120,7 @@ msgstr "لاتوجد إشعارات جديدة"
 #. 125ms
 #: src/raven/sound.vala:158
 msgid "Apps"
-msgstr "التطبيقات"
+msgstr "تطبيقات"
 
 #: src/raven/sound.vala:159
 msgid "Devices"
