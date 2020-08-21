@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 03:01+0300\n"
-"PO-Revision-Date: 2019-09-28 16:21+0000\n"
+"PO-Revision-Date: 2020-08-25 23:22+0000\n"
 "Last-Translator: Anton Pletten <an1000kg@gmail.com>\n"
 "Language-Team: Norwegian Nynorsk <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/nn/>\n"
@@ -34,7 +34,7 @@ msgstr "Slå av"
 
 #: src/daemon/menus.vala:52
 msgid "Change background"
-msgstr "Bytt bakgrunn"
+msgstr "Byt bakgrunn"
 
 #: src/daemon/menus.vala:57
 msgid "Displays"
@@ -78,7 +78,7 @@ msgstr "Miniprogram"
 #: src/raven/main_view.vala:66
 #: src/applets/notifications/NotificationsApplet.plugin.in.h:1
 msgid "Notifications"
-msgstr "Notifikasjonar"
+msgstr "Varsel"
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
@@ -159,7 +159,7 @@ msgstr "Send filer"
 #. Airplane mode
 #: src/applets/status/BluetoothIndicator.vala:73
 msgid "Bluetooth Airplane Mode"
-msgstr "Bluetooth flymodus"
+msgstr "Bluetooth i flymodus"
 
 #: src/applets/status/BluetoothIndicator.vala:179
 msgid "Bluetooth is disabled"
@@ -215,7 +215,7 @@ msgstr "Legg til som favoritt"
 #: src/applets/icon-tasklist/IconPopover.vala:385
 #, c-format
 msgid "Move To Workspace %i"
-msgstr "Bytt til arbeidsområde %i"
+msgstr "Flytt til arbeidsområde %i"
 
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:485
@@ -236,11 +236,11 @@ msgstr "Vel menyikon frå ei fil"
 
 #: src/applets/budgie-menu/IconChooser.vala:37
 msgid "Image files"
-msgstr "Biletefiler"
+msgstr "Biletfiler"
 
 #: src/applets/budgie-menu/IconChooser.vala:43
 msgid "Any file"
-msgstr "Alle filtypar"
+msgstr "Vel fil"
 
 #: src/applets/budgie-menu/IconChooser.vala:55
 #: src/panel/settings/settings_autostart.vala:203
@@ -257,7 +257,7 @@ msgstr "Vel ikon"
 #. Special case, "All"
 #: src/applets/budgie-menu/BudgieMenuButtons.vala:28
 msgid "All"
-msgstr "Alt"
+msgstr "Alle"
 
 #. placeholder in case of no results
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:271
