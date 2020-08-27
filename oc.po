@@ -8,38 +8,40 @@ msgstr ""
 "Project-Id-Version: budgie-desktop 10.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-26 02:21+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-08-27 20:07+0000\n"
+"Last-Translator: Quentin PAGÈS <pages_quentin@hotmail.com>\n"
+"Language-Team: Occitan <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/oc/>\n"
 "Language: oc\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.8\n"
 
 #: src/daemon/endsession.vala:157
 msgid "Log out"
-msgstr ""
+msgstr "Desconnexion"
 
 #: src/daemon/endsession.vala:161
 msgid "Restart device"
-msgstr ""
+msgstr "Reaviar"
 
 #: src/daemon/endsession.vala:173 src/daemon/endsession.ui.h:1
 msgid "Power Off"
-msgstr ""
+msgstr "Atudar"
 
 #: src/daemon/menus.vala:46
 msgid "Change background"
-msgstr ""
+msgstr "Cambiar lo fons"
 
 #: src/daemon/menus.vala:51
 msgid "Displays"
-msgstr ""
+msgstr "Ecrans"
 
 #: src/daemon/menus.vala:60 src/panel/settings/settings_panel.vala:90
 msgid "Settings"
-msgstr ""
+msgstr "Paramètres"
 
 #. Should show a notification
 #: src/daemon/settings.vala:341
