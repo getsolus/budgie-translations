@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: budgie-desktop 10.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-26 02:21+0300\n"
-"PO-Revision-Date: 2020-08-28 20:51+0000\n"
+"PO-Revision-Date: 2020-09-07 12:34+0000\n"
 "Last-Translator: Quentin PAGÈS <pages_quentin@hotmail.com>\n"
 "Language-Team: Occitan <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/oc/>\n"
@@ -46,28 +46,28 @@ msgstr "Paramètres"
 #. Should show a notification
 #: src/daemon/settings.vala:341
 msgid "Turned on Caffeine Boost"
-msgstr ""
+msgstr "Dòsi de cafeïna ajustada"
 
 #: src/daemon/settings.vala:341
 msgid "Turned off Caffeine Boost"
-msgstr ""
+msgstr "Dòsi de cafeïna tirada"
 
 #: src/daemon/settings.vala:346
 msgid "Will turn off in a minute"
-msgstr ""
+msgstr "S’atudarà d’aquí una minuta"
 
 #. use plural
 #: src/daemon/settings.vala:349
 #, c-format
 msgid "Will turn off in %d minutes"
-msgstr ""
+msgstr "S’atudarà d’aquí %d minutas"
 
 #. Caffeine Notification
 #. Prepare label widget
 #: src/raven/notifications_group.vala:47
 #: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Caffeine Mode"
-msgstr ""
+msgstr "Mòde cafeïna"
 
 #: src/raven/main_view.vala:57 src/panel/settings/settings_panel.vala:89
 msgid "Applets"
@@ -80,15 +80,15 @@ msgstr "Notificacions"
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
-msgstr ""
+msgstr "Cap d’aplicacions utiliza l’àudio."
 
 #: src/raven/start_listening.vala:28
 msgid "Play some music"
-msgstr ""
+msgstr "Escotar un tròç de musica"
 
 #: src/raven/notifications_view.vala:100
 msgid "Nothing to see here"
-msgstr ""
+msgstr "Pas res a veire aquí"
 
 #: src/raven/notifications_view.vala:651
 #: src/applets/notifications/NotificationsApplet.vala:106
@@ -104,11 +104,11 @@ msgstr "1 notificacion pas legida"
 #: src/raven/notifications_view.vala:655
 #: src/applets/notifications/NotificationsApplet.vala:110
 msgid "No unread notifications"
-msgstr ""
+msgstr "Cap de notificacion pas legida"
 
 #: src/raven/notifications_view.vala:886
 msgid "No new notifications"
-msgstr ""
+msgstr "Cap de notificacion novèla"
 
 #. 125ms
 #: src/raven/sound.vala:158
@@ -143,7 +143,7 @@ msgstr "Batariá en carga"
 
 #: src/applets/status/PowerIndicator.vala:110
 msgid "Battery remaining"
-msgstr ""
+msgstr "Batariá de sòbra"
 
 #: src/applets/status/PowerIndicator.vala:161
 msgid "Show battery percentage"
@@ -151,7 +151,7 @@ msgstr "Afichar lo percentatge de batariá"
 
 #: src/applets/status/PowerIndicator.vala:169
 msgid "Power settings"
-msgstr ""
+msgstr "Paramètres d’energia"
 
 #. Settings button
 #: src/applets/status/BluetoothIndicator.vala:53
@@ -166,22 +166,22 @@ msgstr "Enviar fichièrs"
 #. Airplane mode
 #: src/applets/status/BluetoothIndicator.vala:70
 msgid "Bluetooth Airplane Mode"
-msgstr ""
+msgstr "Mòde avion del Bluetooth"
 
 #: src/applets/status/BluetoothIndicator.vala:172
 msgid "Bluetooth is disabled"
-msgstr ""
+msgstr "Bluetooth desactivat"
 
 #: src/applets/status/BluetoothIndicator.vala:176
 msgid "Bluetooth is active"
-msgstr ""
+msgstr "Bluetooth activat"
 
 #: src/applets/status/BluetoothIndicator.vala:181
 #, c-format
 msgid "Connected to %d device"
 msgid_plural "Connected to %d devices"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Connectat a %d aparelh"
+msgstr[1] "Connectat a %d aparelhs"
 
 #: src/applets/status/SoundIndicator.vala:142
 msgid "Sound settings"
@@ -210,7 +210,7 @@ msgstr "Reduire"
 
 #: src/applets/icon-tasklist/IconPopover.vala:373
 msgid "Unfavorite"
-msgstr ""
+msgstr "Levar dels favorits"
 
 #: src/applets/icon-tasklist/IconPopover.vala:373
 msgid "Favorite"
@@ -289,7 +289,7 @@ msgstr ""
 
 #: src/applets/clock/ClockApplet.vala:143
 msgid "Time and date settings"
-msgstr ""
+msgstr "Paramètres de data & ora"
 
 #: src/applets/clock/ClockApplet.vala:144
 msgid "Calendar"
@@ -307,7 +307,7 @@ msgstr "Mostrar la data"
 
 #: src/applets/clock/ClockApplet.vala:166
 msgid "Show seconds"
-msgstr ""
+msgstr "Mostrar las segondas"
 
 #: src/applets/clock/ClockApplet.vala:172
 msgid "Use 24 hour time"
@@ -315,7 +315,7 @@ msgstr "Utilizar lo format 24 oras"
 
 #: src/applets/show-desktop/ShowDesktopApplet.vala:30
 msgid "Toggle the desktop"
-msgstr ""
+msgstr "Bascular al burèu"
 
 #: src/applets/workspaces/WorkspaceItem.vala:69
 msgid "Rename"
@@ -377,7 +377,7 @@ msgstr ""
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:183
 msgid "Mount some drives"
-msgstr ""
+msgstr "Montar d’unes disques"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:183
 msgid "Enable more sections"
@@ -395,7 +395,7 @@ msgstr ""
 
 #: src/applets/places-indicator/MountHelper.vala:40
 msgid "Operation aborted"
-msgstr ""
+msgstr "Operacion anullada"
 
 #: src/applets/places-indicator/MountHelper.vala:51
 msgid "Type your password"
@@ -439,11 +439,11 @@ msgstr ""
 #: src/applets/places-indicator/VolumeItem.vala:83
 #: src/applets/places-indicator/MountItem.vala:75
 msgid "You can now safely remove"
-msgstr ""
+msgstr "Podètz ara tirar lo periferic d’un biais segur"
 
 #: src/applets/places-indicator/VolumeItem.vala:112
 msgid "The password you entered is incorrect"
-msgstr ""
+msgstr "Lo senhal es incorrèct"
 
 #: src/applets/places-indicator/VolumeItem.vala:116
 msgid "An unknown error occurred while attempting to mount this volume"
@@ -455,15 +455,15 @@ msgstr "Desmontar"
 
 #: src/applets/places-indicator/MountItem.vala:76
 msgid "Unknown Device"
-msgstr ""
+msgstr "Periferic desconegut"
 
 #: src/applets/places-indicator/MountItem.vala:84
 msgid "Error while ejecting device"
-msgstr ""
+msgstr "Error en expulsant lo periferic"
 
 #: src/applets/places-indicator/MountItem.vala:100
 msgid "Error while unmounting volume"
-msgstr ""
+msgstr "Error en desmontant lo volum"
 
 #: src/polkit/polkitdialog.vala:126
 msgid "Authentication failed"
@@ -488,7 +488,7 @@ msgstr "Session"
 #: src/panel/settings/settings_main.vala:47
 #: src/panel/budgie-desktop-settings.desktop.in.h:1
 msgid "Budgie Desktop Settings"
-msgstr ""
+msgstr "Paramètres del burèu Budgie"
 
 #: src/panel/settings/settings_main.vala:78
 msgid "Create new panel"
@@ -536,16 +536,16 @@ msgstr "Naut"
 
 #: src/panel/settings/settings_panel.vala:167
 msgid "Right"
-msgstr ""
+msgstr "Drecha"
 
 #: src/panel/settings/settings_panel.vala:169
 #: src/panel/settings/settings_wm.vala:92
 msgid "Left"
-msgstr ""
+msgstr "Esquèrra"
 
 #: src/panel/settings/settings_panel.vala:171
 msgid "Bottom"
-msgstr ""
+msgstr "Bas"
 
 #: src/panel/settings/settings_panel.vala:181
 msgid "Always"
@@ -559,7 +559,7 @@ msgstr "Dinamic"
 #: src/panel/settings/settings_fonts.vala:84
 #: src/panel/settings/settings_fonts.vala:110
 msgid "None"
-msgstr ""
+msgstr "Cap"
 
 #: src/panel/settings/settings_panel.vala:196
 msgid "Automatic"
@@ -567,7 +567,7 @@ msgstr "Automaticament"
 
 #: src/panel/settings/settings_panel.vala:198
 msgid "Intelligent"
-msgstr ""
+msgstr "Intelligent"
 
 #: src/panel/settings/settings_panel.vala:201
 msgid "Never"
@@ -591,7 +591,7 @@ msgstr ""
 
 #: src/panel/settings/settings_panel.vala:233
 msgid "Automatically hide"
-msgstr ""
+msgstr "Amagar automaticament"
 
 #: src/panel/settings/settings_panel.vala:234
 msgid "When set, this panel will hide from view to maximize screen estate"
@@ -700,11 +700,11 @@ msgstr "Me demandar pas mai"
 
 #: src/panel/settings/settings_panel_dialogs.vala:57
 msgid "Remove panel"
-msgstr ""
+msgstr "Levar panèl"
 
 #: src/panel/settings/settings_panel_dialogs.vala:58
 msgid "Keep panel"
-msgstr ""
+msgstr "Gardar panèl"
 
 #: src/panel/settings/settings_panel_dialogs.vala:85
 msgid "Confirm applet removal"
@@ -728,7 +728,7 @@ msgstr "Burèu"
 
 #: src/panel/settings/settings_desktop.vala:46
 msgid "Desktop Icons"
-msgstr ""
+msgstr "Icònas del burèu"
 
 #: src/panel/settings/settings_desktop.vala:47
 msgid "Control whether to allow launchers and icons on the desktop."
@@ -804,7 +804,7 @@ msgstr ""
 
 #: src/panel/settings/settings_style.vala:61
 msgid "Notification Position"
-msgstr ""
+msgstr "Posicion de las notificacions"
 
 #: src/panel/settings/settings_style.vala:62
 msgid "Set the location for notification popups"
@@ -816,7 +816,7 @@ msgstr "Tèma escur"
 
 #: src/panel/settings/settings_style.vala:78
 msgid "Built-in theme"
-msgstr ""
+msgstr "Tèma integrat"
 
 #: src/panel/settings/settings_style.vala:79
 msgid "When enabled, the built-in theme will override the desktop component styling"
@@ -831,12 +831,14 @@ msgid "Control whether windows and controls use animations"
 msgstr ""
 
 #: src/panel/settings/settings_style.vala:204
+#, fuzzy
 msgid "Top Left"
-msgstr ""
+msgstr "Amont a esquèrra"
 
 #: src/panel/settings/settings_style.vala:206
+#, fuzzy
 msgid "Bottom Left"
-msgstr ""
+msgstr "Aval a esquèrra"
 
 #: src/panel/settings/settings_style.vala:208
 msgid "Bottom Right"
@@ -923,8 +925,9 @@ msgid "Start"
 msgstr "Aviar"
 
 #: src/panel/settings/settings_panel_applets.vala:399
+#, fuzzy
 msgid "Center"
-msgstr ""
+msgstr "Centrar"
 
 #: src/panel/settings/settings_panel_applets.vala:402
 msgid "End"
@@ -1008,7 +1011,7 @@ msgstr "Poliças"
 
 #: src/panel/settings/settings_fonts.vala:43
 msgid "Window Titles"
-msgstr ""
+msgstr "Títols de las fenèstras"
 
 #: src/panel/settings/settings_fonts.vala:44
 msgid "Set the font used in the titlebars of applications."
@@ -1031,8 +1034,9 @@ msgid "Set the primary font used by application controls."
 msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:64
+#, fuzzy
 msgid "Monospace"
-msgstr ""
+msgstr "Chassa fixa"
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Set the fixed-width font used by text dominant applications."
@@ -1040,7 +1044,7 @@ msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:71
 msgid "Text scaling"
-msgstr ""
+msgstr "Escala del tèxt"
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Set the text scaling factor."
@@ -1048,7 +1052,7 @@ msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:81
 msgid "Full"
-msgstr ""
+msgstr "Complèt"
 
 #: src/panel/settings/settings_fonts.vala:82
 msgid "Medium"
@@ -1088,7 +1092,7 @@ msgstr ""
 
 #: src/daemon/endsession.ui.h:2
 msgid "Are you sure you want to end your session?"
-msgstr ""
+msgstr "Volètz vertadièrament tampar la session ?"
 
 #: src/applets/tray/settings.ui.h:1
 msgid "Icon Spacing"
@@ -1153,7 +1157,7 @@ msgstr ""
 
 #: src/applets/budgie-menu/settings.ui.h:2
 msgid "Compact Mode"
-msgstr ""
+msgstr "Mòde compact"
 
 #: src/applets/budgie-menu/settings.ui.h:3
 msgid "Show Headers"
@@ -1161,7 +1165,7 @@ msgstr ""
 
 #: src/applets/budgie-menu/settings.ui.h:4
 msgid "Menu Label"
-msgstr ""
+msgstr "Etiqueta del menú"
 
 #: src/applets/budgie-menu/settings.ui.h:5
 msgid "Roll-over mouse"
@@ -1185,7 +1189,7 @@ msgstr ""
 
 #: src/applets/workspaces/settings.ui.h:4
 msgid "Always show"
-msgstr ""
+msgstr "Totjorn mostrar"
 
 #: src/applets/caffeine/settings.ui.h:1
 msgid "Enable notification"
@@ -1270,7 +1274,7 @@ msgstr "Espaci"
 
 #: src/applets/budgie-menu/BudgieMenu.plugin.in.h:1
 msgid "Budgie Menu"
-msgstr ""
+msgstr "Menú de Budgie"
 
 #: src/applets/lock-keys/LockKeysApplet.plugin.in.h:1
 msgid "Lock Keys Indicator"
@@ -1289,8 +1293,9 @@ msgid "Separator"
 msgstr "Separador"
 
 #: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
+#, fuzzy
 msgid "Show Desktop Button"
-msgstr ""
+msgstr "Boton de mostrada del burèu"
 
 #: src/applets/workspaces/WorkspacesApplet.plugin.in.h:1
 msgid "Workspace Switcher"
@@ -1302,7 +1307,7 @@ msgstr "Lista dels prètzfaches"
 
 #: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
 msgid "Caffeine"
-msgstr ""
+msgstr "Cafeïna"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
@@ -1321,5 +1326,8 @@ msgid "Budgie Panel"
 msgstr ""
 
 #: src/panel/budgie-panel.desktop.in.h:2
+#, fuzzy
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
 msgstr ""
+"Aviar d'autras aplicacions e diferents utilitaris per gerir las fenèstras, "
+"indicar l'ora, etc."
