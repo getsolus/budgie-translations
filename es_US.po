@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-26 02:21+0300\n"
-"PO-Revision-Date: 2020-09-09 15:51+0000\n"
+"PO-Revision-Date: 2020-09-09 23:36+0000\n"
 "Last-Translator: Evan Maddock <maddock.evan@vivaldi.net>\n"
 "Language-Team: Spanish (American) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/es_US/>\n"
@@ -127,7 +127,7 @@ msgstr "Solo una instancia de la bandeja del sistema se puede activar a la vez."
 
 #: src/applets/tray/TrayApplet.vala:140
 msgid "The System Tray failed to initialize."
-msgstr "La Bandeja del Systema no se pudo inicializar."
+msgstr "Fallido a iniciar la bandeja del sistema."
 
 #: src/applets/status/PowerIndicator.vala:93
 msgid "Battery fully charged."
@@ -775,7 +775,7 @@ msgstr "Número de escritorios virtuales"
 msgid "Number of virtual desktops / workspaces to create automatically on startup."
 msgstr ""
 "Número de escritorios virtuales / áreas de trabajo para crear "
-"automáticamente al iniciar el sistema"
+"automáticamente al iniciar el sistema."
 
 #: src/panel/settings/settings_style.vala:32
 msgid "Style"
@@ -994,9 +994,8 @@ msgid "This option is for advanced users. Use this if you are having graphical o
 msgstr "Esta opcion es para usuarios avanzados. Utilice esta si tienes problemas gráficos o de rendimiento con GPUs dedicados."
 
 #: src/panel/settings/settings_wm.vala:82
-#, fuzzy
 msgid "Show all windows in tab switcher"
-msgstr "Mostrar todas las ventanas al hacer click"
+msgstr "Mostrar todas las ventanas en el cambiador de pestañas"
 
 #: src/panel/settings/settings_wm.vala:83
 msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
@@ -1074,19 +1073,19 @@ msgstr "Establecer el nivel de rasterización del texto."
 
 #: src/panel/settings/settings_fonts.vala:108
 msgid "Subpixel (for LCD screens)"
-msgstr " Subpixel (para pantallas LCD)"
+msgstr "Subpixel (para pantallas LCD)"
 
 #: src/panel/settings/settings_fonts.vala:109
 msgid "Standard (grayscale)"
-msgstr " Estándar (escala de grises)"
+msgstr "Estándar (escala de grises)"
 
 #: src/panel/settings/settings_fonts.vala:125
 msgid "Antialiasing"
-msgstr "Anti-alias "
+msgstr "Anti-alias"
 
 #: src/panel/settings/settings_fonts.vala:126
 msgid "Set the type of antialiasing to use."
-msgstr "Establecer el tipo de anti-alias a usar"
+msgstr "Establecer el tipo de anti-alias a usar."
 
 #: src/panel/settings/settings_applet_chooser.vala:74
 msgid "Choose an applet"
