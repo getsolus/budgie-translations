@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-26 02:21+0300\n"
-"PO-Revision-Date: 2020-09-09 15:31+0000\n"
+"PO-Revision-Date: 2020-09-09 15:32+0000\n"
 "Last-Translator: guillermo <memomadrigal01@gmail.com>\n"
 "Language-Team: Spanish (American) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/es_US/>\n"
@@ -55,13 +55,13 @@ msgstr "Caffeine Boost desactivado"
 
 #: src/daemon/settings.vala:346
 msgid "Will turn off in a minute"
-msgstr "Se apagará en un minuto"
+msgstr "Se apagara en un minuto"
 
 #. use plural
 #: src/daemon/settings.vala:349
 #, c-format
 msgid "Will turn off in %d minutes"
-msgstr "Se apagará en %d minutos"
+msgstr "Se apagara en %d minutos"
 
 #. Caffeine Notification
 #. Prepare label widget
