@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-26 02:21+0300\n"
-"PO-Revision-Date: 2020-09-09 15:32+0000\n"
+"PO-Revision-Date: 2020-09-09 15:51+0000\n"
 "Last-Translator: Evan Maddock <maddock.evan@vivaldi.net>\n"
 "Language-Team: Spanish (American) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/es_US/>\n"
@@ -123,7 +123,7 @@ msgstr "Dispositivos"
 #. there's already an active tray, create an informative icon with a popover
 #: src/applets/tray/TrayApplet.vala:114
 msgid "Only one instance of the System Tray can be active at a time."
-msgstr "Solo una instancia de la Bandeja del Sistema se puede activar a la vez."
+msgstr "Solo una instancia de la bandeja del sistema se puede activar a la vez."
 
 #: src/applets/tray/TrayApplet.vala:140
 msgid "The System Tray failed to initialize."
