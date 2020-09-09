@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-26 02:21+0300\n"
 "PO-Revision-Date: 2020-09-09 15:32+0000\n"
-"Last-Translator: guillermo <memomadrigal01@gmail.com>\n"
+"Last-Translator: Evan Maddock <maddock.evan@vivaldi.net>\n"
 "Language-Team: Spanish (American) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/es_US/>\n"
 "Language: es_US\n"
@@ -68,7 +68,7 @@ msgstr "Se apagara en %d minutos"
 #: src/raven/notifications_group.vala:47
 #: src/applets/caffeine/CaffeineWindow.vala:26
 msgid "Caffeine Mode"
-msgstr "Modo Caffeine"
+msgstr "Modo de Caffeine"
 
 #: src/raven/main_view.vala:57 src/panel/settings/settings_panel.vala:89
 msgid "Applets"
