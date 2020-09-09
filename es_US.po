@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-26 02:21+0300\n"
-"PO-Revision-Date: 2019-02-26 15:18+0000\n"
+"PO-Revision-Date: 2020-09-09 15:31+0000\n"
 "Last-Translator: Evan Maddock <maddock.evan@vivaldi.net>\n"
-"Language-Team: Spanish (American) <http://translate.getsol.us/projects/budgie-desktop/translations/es_US/>\n"
+"Language-Team: Spanish (American) <http://translate.getsol.us/projects/"
+"budgie-desktop/translations/es_US/>\n"
 "Language: es_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.4-dev\n"
+"X-Generator: Weblate 3.8\n"
 
 #: src/daemon/endsession.vala:157
 msgid "Log out"
@@ -41,7 +42,7 @@ msgstr "Configuración de pantallas"
 
 #: src/daemon/menus.vala:60 src/panel/settings/settings_panel.vala:90
 msgid "Settings"
-msgstr "Configuraciónes"
+msgstr "Configuraciones"
 
 #. Should show a notification
 #: src/daemon/settings.vala:341
@@ -54,13 +55,13 @@ msgstr "Caffeine Boost desactivado"
 
 #: src/daemon/settings.vala:346
 msgid "Will turn off in a minute"
-msgstr ""
+msgstr "Se apagará en un minuto"
 
 #. use plural
 #: src/daemon/settings.vala:349
 #, c-format
 msgid "Will turn off in %d minutes"
-msgstr ""
+msgstr "Se apagará en %d minutos"
 
 #. Caffeine Notification
 #. Prepare label widget
@@ -122,11 +123,11 @@ msgstr "Dispositivos"
 #. there's already an active tray, create an informative icon with a popover
 #: src/applets/tray/TrayApplet.vala:114
 msgid "Only one instance of the System Tray can be active at a time."
-msgstr ""
+msgstr "Solo una instancia de la Bandeja del Sistema se puede activar a la vez."
 
 #: src/applets/tray/TrayApplet.vala:140
 msgid "The System Tray failed to initialize."
-msgstr ""
+msgstr "La Bandeja del Systema no se pudo inicializar."
 
 #: src/applets/status/PowerIndicator.vala:93
 msgid "Battery fully charged."
@@ -180,8 +181,8 @@ msgstr "Bluetooth está activado"
 #, c-format
 msgid "Connected to %d device"
 msgid_plural "Connected to %d devices"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Conectado a %d dispositivo"
+msgstr[1] "Conectado a %d dispositivos"
 
 #: src/applets/status/SoundIndicator.vala:142
 msgid "Sound settings"
@@ -768,7 +769,7 @@ msgstr "Los volúmenes montados y discos apareceran en el escritorio."
 
 #: src/panel/settings/settings_desktop.vala:106
 msgid "Number of virtual desktops"
-msgstr ""
+msgstr "Número de escritorios virtuales"
 
 #: src/panel/settings/settings_desktop.vala:107
 msgid "Number of virtual desktops / workspaces to create automatically on startup."
@@ -998,6 +999,8 @@ msgstr "Mostrar todas las ventanas al hacer click"
 #: src/panel/settings/settings_wm.vala:83
 msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
 msgstr ""
+"Todas las pestañas se mostrará en el cambiador de pestañas a pesar de todo "
+"del área de trabajo en uso."
 
 #: src/panel/settings/settings_wm.vala:90
 msgid "Right (standard)"
@@ -1096,7 +1099,7 @@ msgstr "¿Estas seguro de querer terminar la sesión?"
 
 #: src/applets/tray/settings.ui.h:1
 msgid "Icon Spacing"
-msgstr ""
+msgstr "Espaciado de iconos"
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
@@ -1120,7 +1123,7 @@ msgstr "Agrupamiento de ventanas"
 
 #: src/applets/icon-tasklist/settings.ui.h:6
 msgid "Middle click to launch new window"
-msgstr ""
+msgstr "Clic medio para iniciar una nueva ventana"
 
 #: src/applets/night-light/indicator_window.ui.h:1
 #: src/applets/night-light/NightLight.plugin.in.h:1
