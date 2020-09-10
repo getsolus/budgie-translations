@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-26 02:21+0300\n"
+"POT-Creation-Date: 2020-09-09 18:52+0300\n"
 "PO-Revision-Date: 2019-03-17 09:05+0000\n"
 "Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
 "Language-Team: Croatian <http://translate.getsol.us/projects/budgie-desktop/translations/hr/>\n"
@@ -1263,16 +1263,6 @@ msgstr "Autentifikacija je potrebna"
 #: src/polkit/dialog.ui.h:5
 msgid "Authenticate"
 msgstr "Autentificiraj"
-
-#: src/desktop-view/budgie-desktop-view.desktop.in.h:1
-#, fuzzy
-msgid "Budgie Desktop View"
-msgstr "Budgie radno okruženje"
-
-#: src/desktop-view/budgie-desktop-view.desktop.in.h:2
-#, fuzzy
-msgid "Budgie Desktop Icon View"
-msgstr "Budgie radno okruženje"
 
 #: src/session/budgie-desktop.desktop.in.in.h:1
 #: src/session/budgie-desktop.session.in.in.h:1

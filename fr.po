@@ -21,11 +21,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-26 02:21+0300\n"
+"POT-Creation-Date: 2020-09-09 18:52+0300\n"
 "PO-Revision-Date: 2020-09-07 08:12+0000\n"
 "Last-Translator: JeanDeLaMouche <lolo.branstett@numericable.fr>\n"
-"Language-Team: French <http://translate.getsol.us/projects/budgie-desktop/"
-"translations/fr/>\n"
+"Language-Team: French <http://translate.getsol.us/projects/budgie-desktop/translations/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -136,8 +135,7 @@ msgstr "Périphériques"
 #. there's already an active tray, create an informative icon with a popover
 #: src/applets/tray/TrayApplet.vala:114
 msgid "Only one instance of the System Tray can be active at a time."
-msgstr ""
-"Une seule instance de la barre d'état système peut être active à la fois."
+msgstr "Une seule instance de la barre d'état système peut être active à la fois."
 
 #: src/applets/tray/TrayApplet.vala:140
 msgid "The System Tray failed to initialize."
@@ -1015,9 +1013,7 @@ msgstr "Afficher toutes les fenêtres dans le gestionnaire d'onglets"
 
 #: src/panel/settings/settings_wm.vala:83
 msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
-msgstr ""
-"Tous les onglets seront affichés dans le commutateur d'onglets, quel que "
-"soit l'espace de travail utilisé."
+msgstr "Tous les onglets seront affichés dans le commutateur d'onglets, quel que soit l'espace de travail utilisé."
 
 #: src/panel/settings/settings_wm.vala:90
 msgid "Right (standard)"
@@ -1255,15 +1251,6 @@ msgstr "L'authentification est requise"
 #: src/polkit/dialog.ui.h:5
 msgid "Authenticate"
 msgstr "Authentifier"
-
-#: src/desktop-view/budgie-desktop-view.desktop.in.h:1
-msgid "Budgie Desktop View"
-msgstr "Vue du bureau Budgie"
-
-#: src/desktop-view/budgie-desktop-view.desktop.in.h:2
-#, fuzzy
-msgid "Budgie Desktop Icon View"
-msgstr "Bureau Budgie"
 
 #: src/session/budgie-desktop.desktop.in.in.h:1
 #: src/session/budgie-desktop.session.in.in.h:1

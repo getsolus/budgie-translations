@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-26 02:21+0300\n"
+"POT-Creation-Date: 2020-09-09 18:52+0300\n"
 "PO-Revision-Date: 2020-02-14 20:25+0000\n"
 "Last-Translator: Xamir Asuo <xisit23371@promail9.net>\n"
 "Language-Team: Italian <http://translate.getsol.us/projects/budgie-desktop/translations/it/>\n"
@@ -1241,16 +1241,6 @@ msgstr "l'autenticazione è richiesta"
 #: src/polkit/dialog.ui.h:5
 msgid "Authenticate"
 msgstr "Autentica"
-
-#: src/desktop-view/budgie-desktop-view.desktop.in.h:1
-#, fuzzy
-msgid "Budgie Desktop View"
-msgstr "Desktop Budgie"
-
-#: src/desktop-view/budgie-desktop-view.desktop.in.h:2
-#, fuzzy
-msgid "Budgie Desktop Icon View"
-msgstr "Desktop Budgie"
 
 #: src/session/budgie-desktop.desktop.in.in.h:1
 #: src/session/budgie-desktop.session.in.in.h:1

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-26 02:21+0300\n"
+"POT-Creation-Date: 2020-09-09 18:52+0300\n"
 "PO-Revision-Date: 2017-11-06 15:26+0000\n"
 "Last-Translator: Rabin Adhikari <rabin.adk1@gmail.com>\n"
 "Language-Team: Nepali (http://www.transifex.com/budgie-desktop/budgie-desktop/language/ne/)\n"
@@ -1240,14 +1240,6 @@ msgstr ""
 
 #: src/polkit/dialog.ui.h:5
 msgid "Authenticate"
-msgstr ""
-
-#: src/desktop-view/budgie-desktop-view.desktop.in.h:1
-msgid "Budgie Desktop View"
-msgstr ""
-
-#: src/desktop-view/budgie-desktop-view.desktop.in.h:2
-msgid "Budgie Desktop Icon View"
 msgstr ""
 
 #: src/session/budgie-desktop.desktop.in.in.h:1

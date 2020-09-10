@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-26 02:21+0300\n"
+"POT-Creation-Date: 2020-09-09 18:52+0300\n"
 "PO-Revision-Date: 2019-11-26 09:18+0000\n"
 "Last-Translator: iason malkotsis <imalkotsis@gmail.com>\n"
 "Language-Team: Greek <http://translate.getsol.us/projects/budgie-desktop/translations/el/>\n"
@@ -1241,16 +1241,6 @@ msgstr "Απαιτείται πιστοποίηση"
 #: src/polkit/dialog.ui.h:5
 msgid "Authenticate"
 msgstr "Πιστοποιήστε"
-
-#: src/desktop-view/budgie-desktop-view.desktop.in.h:1
-#, fuzzy
-msgid "Budgie Desktop View"
-msgstr "Επιφάνεια Εργασίας Budgie"
-
-#: src/desktop-view/budgie-desktop-view.desktop.in.h:2
-#, fuzzy
-msgid "Budgie Desktop Icon View"
-msgstr "Επιφάνεια Εργασίας Budgie"
 
 #: src/session/budgie-desktop.desktop.in.in.h:1
 #: src/session/budgie-desktop.session.in.in.h:1

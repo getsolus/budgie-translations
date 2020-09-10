@@ -7,11 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: budgie-desktop 10.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-26 02:21+0300\n"
+"POT-Creation-Date: 2020-09-09 18:52+0300\n"
 "PO-Revision-Date: 2020-09-07 12:34+0000\n"
 "Last-Translator: Quentin PAGÈS <pages_quentin@hotmail.com>\n"
-"Language-Team: Occitan <http://translate.getsol.us/projects/budgie-desktop/"
-"translations/oc/>\n"
+"Language-Team: Occitan <http://translate.getsol.us/projects/budgie-desktop/translations/oc/>\n"
 "Language: oc\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1239,14 +1238,6 @@ msgstr ""
 msgid "Authenticate"
 msgstr "Autentificatz-vos"
 
-#: src/desktop-view/budgie-desktop-view.desktop.in.h:1
-msgid "Budgie Desktop View"
-msgstr ""
-
-#: src/desktop-view/budgie-desktop-view.desktop.in.h:2
-msgid "Budgie Desktop Icon View"
-msgstr ""
-
 #: src/session/budgie-desktop.desktop.in.in.h:1
 #: src/session/budgie-desktop.session.in.in.h:1
 msgid "Budgie Desktop"
@@ -1328,6 +1319,4 @@ msgstr ""
 #: src/panel/budgie-panel.desktop.in.h:2
 #, fuzzy
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
-msgstr ""
-"Aviar d'autras aplicacions e diferents utilitaris per gerir las fenèstras, "
-"indicar l'ora, etc."
+msgstr "Aviar d'autras aplicacions e diferents utilitaris per gerir las fenèstras, indicar l'ora, etc."

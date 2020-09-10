@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: budgie-desktop 10.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-26 02:21+0300\n"
+"POT-Creation-Date: 2020-09-09 18:52+0300\n"
 "PO-Revision-Date: 2019-03-17 09:05+0000\n"
 "Last-Translator: Lasha Kanteladze <lashakanteladze339@gmail.com>\n"
 "Language-Team: Georgian <http://translate.getsol.us/projects/budgie-desktop/translations/ka/>\n"
@@ -1238,16 +1238,6 @@ msgstr "იდენტიფიკაცია საჭიროა"
 #: src/polkit/dialog.ui.h:5
 msgid "Authenticate"
 msgstr "იდენტიფიცირება"
-
-#: src/desktop-view/budgie-desktop-view.desktop.in.h:1
-#, fuzzy
-msgid "Budgie Desktop View"
-msgstr "„Budgie Desktop“"
-
-#: src/desktop-view/budgie-desktop-view.desktop.in.h:2
-#, fuzzy
-msgid "Budgie Desktop Icon View"
-msgstr "„Budgie Desktop“"
 
 #: src/session/budgie-desktop.desktop.in.in.h:1
 #: src/session/budgie-desktop.session.in.in.h:1

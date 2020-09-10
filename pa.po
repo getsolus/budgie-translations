@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: budgie-desktop 10.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-26 02:21+0300\n"
+"POT-Creation-Date: 2020-09-09 18:52+0300\n"
 "PO-Revision-Date: 2019-03-17 09:05+0000\n"
 "Last-Translator: Gagandeep Singh <gagankang420@gmail.com>\n"
 "Language-Team: Punjabi <http://translate.getsol.us/projects/budgie-desktop/translations/pa/>\n"
@@ -1232,14 +1232,6 @@ msgstr ""
 
 #: src/polkit/dialog.ui.h:5
 msgid "Authenticate"
-msgstr ""
-
-#: src/desktop-view/budgie-desktop-view.desktop.in.h:1
-msgid "Budgie Desktop View"
-msgstr ""
-
-#: src/desktop-view/budgie-desktop-view.desktop.in.h:2
-msgid "Budgie Desktop Icon View"
 msgstr ""
 
 #: src/session/budgie-desktop.desktop.in.in.h:1
