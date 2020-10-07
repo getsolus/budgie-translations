@@ -10,9 +10,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-09 18:52+0300\n"
-"PO-Revision-Date: 2020-09-07 12:32+0000\n"
+"PO-Revision-Date: 2020-10-10 00:48+0000\n"
 "Last-Translator: Yoni Banai <ink.bug@gmail.com>\n"
-"Language-Team: Hebrew <http://translate.getsol.us/projects/budgie-desktop/translations/he/>\n"
+"Language-Team: Hebrew <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -123,11 +124,11 @@ msgstr "התקנים"
 #. there's already an active tray, create an informative icon with a popover
 #: src/applets/tray/TrayApplet.vala:114
 msgid "Only one instance of the System Tray can be active at a time."
-msgstr ""
+msgstr "ניתן להפעיל רק אירוע אחד של מגש המערכת ברגע נתון."
 
 #: src/applets/tray/TrayApplet.vala:140
 msgid "The System Tray failed to initialize."
-msgstr ""
+msgstr "אתחול מגש המערכת נכשל."
 
 #: src/applets/status/PowerIndicator.vala:93
 msgid "Battery fully charged."
