@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-09 18:52+0300\n"
+"POT-Creation-Date: 2020-10-10 03:50+0300\n"
 "PO-Revision-Date: 2020-07-15 06:45+0000\n"
 "Last-Translator: Rack Jostle <rackjostle@gmail.com>\n"
 "Language-Team: Serbian <http://translate.getsol.us/projects/budgie-desktop/translations/sr/>\n"
@@ -39,7 +39,7 @@ msgstr "Промени позадину"
 msgid "Displays"
 msgstr "Подешавања приказа"
 
-#: src/daemon/menus.vala:60 src/panel/settings/settings_panel.vala:90
+#: src/daemon/menus.vala:60 src/panel/settings/settings_panel.vala:83
 msgid "Settings"
 msgstr "Подешавања"
 
@@ -69,7 +69,7 @@ msgstr "Искључиће се за %d минута"
 msgid "Caffeine Mode"
 msgstr "Радна Кафа"
 
-#: src/raven/main_view.vala:57 src/panel/settings/settings_panel.vala:89
+#: src/raven/main_view.vala:57 src/panel/settings/settings_panel.vala:82
 msgid "Applets"
 msgstr "Прибори"
 
@@ -268,7 +268,7 @@ msgid "All"
 msgstr "Све"
 
 #. placeholder in case of no results
-#: src/applets/budgie-menu/BudgieMenuWindow.vala:265
+#: src/applets/budgie-menu/BudgieMenuWindow.vala:123
 msgid "Sorry, no items found"
 msgstr "Нема нађених предмета"
 
@@ -495,138 +495,143 @@ msgstr "Подешавање Budgie радне површине"
 msgid "Create new panel"
 msgstr "Додај радну траку"
 
-#: src/panel/settings/settings_panel.vala:73
+#: src/panel/settings/settings_panel.vala:85
+#, fuzzy
+msgid "Remove Panel"
+msgstr "Уклони радну траку"
+
+#: src/panel/settings/settings_panel.vala:86
 msgid "Remove this panel from the screen"
 msgstr "Уклони ову радну траку с екрана"
 
-#: src/panel/settings/settings_panel.vala:111
+#: src/panel/settings/settings_panel.vala:123
 msgid "Top Dock"
 msgstr ""
 
-#: src/panel/settings/settings_panel.vala:113
+#: src/panel/settings/settings_panel.vala:125
 msgid "Right Dock"
 msgstr ""
 
-#: src/panel/settings/settings_panel.vala:115
+#: src/panel/settings/settings_panel.vala:127
 msgid "Left Dock"
 msgstr ""
 
-#: src/panel/settings/settings_panel.vala:117
+#: src/panel/settings/settings_panel.vala:129
 msgid "Bottom Dock"
 msgstr ""
 
-#: src/panel/settings/settings_panel.vala:122
+#: src/panel/settings/settings_panel.vala:134
 msgid "Top Panel"
 msgstr "Горња радна трака"
 
-#: src/panel/settings/settings_panel.vala:124
+#: src/panel/settings/settings_panel.vala:136
 msgid "Right Panel"
 msgstr "Десна радна трака"
 
-#: src/panel/settings/settings_panel.vala:126
+#: src/panel/settings/settings_panel.vala:138
 msgid "Left Panel"
 msgstr "Лева радна трака"
 
-#: src/panel/settings/settings_panel.vala:128
+#: src/panel/settings/settings_panel.vala:140
 msgid "Bottom Panel"
 msgstr "Доња радна трака"
 
-#: src/panel/settings/settings_panel.vala:165
+#: src/panel/settings/settings_panel.vala:177
 msgid "Top"
 msgstr "Врх"
 
-#: src/panel/settings/settings_panel.vala:167
+#: src/panel/settings/settings_panel.vala:179
 msgid "Right"
 msgstr "Десно"
 
-#: src/panel/settings/settings_panel.vala:169
+#: src/panel/settings/settings_panel.vala:181
 #: src/panel/settings/settings_wm.vala:92
 msgid "Left"
 msgstr "Лево"
 
-#: src/panel/settings/settings_panel.vala:171
+#: src/panel/settings/settings_panel.vala:183
 msgid "Bottom"
 msgstr "Дно"
 
-#: src/panel/settings/settings_panel.vala:181
+#: src/panel/settings/settings_panel.vala:193
 msgid "Always"
 msgstr "Увек"
 
-#: src/panel/settings/settings_panel.vala:183
+#: src/panel/settings/settings_panel.vala:195
 msgid "Dynamic"
 msgstr "Динамички"
 
-#: src/panel/settings/settings_panel.vala:186
+#: src/panel/settings/settings_panel.vala:198
 #: src/panel/settings/settings_fonts.vala:84
 #: src/panel/settings/settings_fonts.vala:110
 msgid "None"
 msgstr "Нема"
 
-#: src/panel/settings/settings_panel.vala:196
+#: src/panel/settings/settings_panel.vala:208
 msgid "Automatic"
 msgstr "Aутоматски"
 
-#: src/panel/settings/settings_panel.vala:198
+#: src/panel/settings/settings_panel.vala:210
 msgid "Intelligent"
 msgstr "Интелигентно"
 
-#: src/panel/settings/settings_panel.vala:201
+#: src/panel/settings/settings_panel.vala:213
 msgid "Never"
 msgstr "Никад"
 
-#: src/panel/settings/settings_panel.vala:216
+#: src/panel/settings/settings_panel.vala:228
 msgid "Position"
 msgstr "Позиција"
 
-#: src/panel/settings/settings_panel.vala:217
+#: src/panel/settings/settings_panel.vala:229
 msgid "Set the edge of the screen that this panel will stay on"
 msgstr "Одредите ивицу заслона на којој ће стајати радна трака"
 
-#: src/panel/settings/settings_panel.vala:225
+#: src/panel/settings/settings_panel.vala:237
 msgid "Size"
 msgstr "Величина"
 
-#: src/panel/settings/settings_panel.vala:226
+#: src/panel/settings/settings_panel.vala:238
 msgid "Set the size (width or height, depending on orientation) of this panel"
 msgstr "Одредите димензије (ширину или висину, зависно од положаја) ове радне траке"
 
-#: src/panel/settings/settings_panel.vala:233
+#: src/panel/settings/settings_panel.vala:245
 msgid "Automatically hide"
 msgstr "Аутоматски сакриј"
 
-#: src/panel/settings/settings_panel.vala:234
+#: src/panel/settings/settings_panel.vala:246
 msgid "When set, this panel will hide from view to maximize screen estate"
 msgstr "Када је постављена, радна трака се аутоматски сакрива, да би се добила максимална корисна површина заслона"
 
-#: src/panel/settings/settings_panel.vala:241
+#: src/panel/settings/settings_panel.vala:253
 msgid "Transparency"
 msgstr "Провидност"
 
-#: src/panel/settings/settings_panel.vala:242
+#: src/panel/settings/settings_panel.vala:254
 msgid "Control when this panel should have a solid background"
 msgstr "Контролишите када би ова радна трака требало да буде непровидна"
 
-#: src/panel/settings/settings_panel.vala:247
+#: src/panel/settings/settings_panel.vala:259
 msgid "Shadow"
 msgstr "Сенка"
 
-#: src/panel/settings/settings_panel.vala:248
+#: src/panel/settings/settings_panel.vala:260
 msgid "Adds a decorative drop-shadow, ideal for opaque panels"
 msgstr "Додаје декоративну падајућу сенку, идеалну за непровидне радне траке"
 
-#: src/panel/settings/settings_panel.vala:254
+#: src/panel/settings/settings_panel.vala:266
 msgid "Stylize regions"
 msgstr "Стилизуј области"
 
-#: src/panel/settings/settings_panel.vala:255
+#: src/panel/settings/settings_panel.vala:267
 msgid "Adds a hint to the panel so that each of the panel's three main areas may be themed differently."
 msgstr "Додаје репер тамо где ће бити крај сваке, од три, главне области радне траке, тако да би сваки одељак могао да има посебну тему."
 
-#: src/panel/settings/settings_panel.vala:262
+#: src/panel/settings/settings_panel.vala:274
 msgid "Dock mode"
 msgstr ""
 
-#: src/panel/settings/settings_panel.vala:263
+#: src/panel/settings/settings_panel.vala:275
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
 msgstr ""
 
@@ -686,44 +691,43 @@ msgstr ""
 msgid "Shows or hides the Power Strip in the bottom of Raven."
 msgstr ""
 
-#: src/panel/settings/settings_panel_dialogs.vala:26
+#: src/panel/settings/settings_panel_dialogs.vala:25
 msgid "Confirm panel removal"
 msgstr "Потврди уклањање радне траке"
 
-#: src/panel/settings/settings_panel_dialogs.vala:33
+#: src/panel/settings/settings_panel_dialogs.vala:32
 msgid "Do you really want to remove this panel? This action cannot be undone."
 msgstr ""
 "Да ли заиста желите уклонити ову радну траку? \n"
 "Ова одлука не може бити опозвана."
 
-#: src/panel/settings/settings_panel_dialogs.vala:48
-#: src/panel/settings/settings_panel_dialogs.vala:107
-msgid "Don't ask me again"
-msgstr "Не понављај ово питање"
-
-#: src/panel/settings/settings_panel_dialogs.vala:57
+#: src/panel/settings/settings_panel_dialogs.vala:43
 msgid "Remove panel"
 msgstr "Уклони радну траку"
 
-#: src/panel/settings/settings_panel_dialogs.vala:58
+#: src/panel/settings/settings_panel_dialogs.vala:44
 msgid "Keep panel"
 msgstr "Задржи радну траку"
 
-#: src/panel/settings/settings_panel_dialogs.vala:85
+#: src/panel/settings/settings_panel_dialogs.vala:68
 msgid "Confirm applet removal"
 msgstr "Потврди уклањање прибора"
 
-#: src/panel/settings/settings_panel_dialogs.vala:92
+#: src/panel/settings/settings_panel_dialogs.vala:75
 msgid "Do you really want to remove this applet? This action cannot be undone."
 msgstr ""
 "Да ли заиста желите уклонити овај прибор? \n"
 "Ова одлука не може бити опозвана."
 
-#: src/panel/settings/settings_panel_dialogs.vala:116
+#: src/panel/settings/settings_panel_dialogs.vala:90
+msgid "Don't ask me again"
+msgstr "Не понављај ово питање"
+
+#: src/panel/settings/settings_panel_dialogs.vala:99
 msgid "Remove applet"
 msgstr "Уклони прибор"
 
-#: src/panel/settings/settings_panel_dialogs.vala:117
+#: src/panel/settings/settings_panel_dialogs.vala:100
 msgid "Keep applet"
 msgstr "Задржи прибор"
 
@@ -1121,6 +1125,10 @@ msgstr ""
 
 #: src/applets/icon-tasklist/settings.ui.h:6
 msgid "Middle click to launch new window"
+msgstr ""
+
+#: src/applets/icon-tasklist/settings.ui.h:7
+msgid "Require a double-click to launch new window"
 msgstr ""
 
 #: src/applets/night-light/indicator_window.ui.h:1

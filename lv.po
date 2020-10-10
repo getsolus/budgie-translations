@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-09 18:52+0300\n"
+"POT-Creation-Date: 2020-10-10 03:50+0300\n"
 "PO-Revision-Date: 2019-03-17 07:32+0000\n"
 "Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
 "Language-Team: Latvian <http://translate.getsol.us/projects/budgie-desktop/translations/lv/>\n"
@@ -40,7 +40,7 @@ msgstr "Mainīt fona attēlu"
 msgid "Displays"
 msgstr "Displeji"
 
-#: src/daemon/menus.vala:60 src/panel/settings/settings_panel.vala:90
+#: src/daemon/menus.vala:60 src/panel/settings/settings_panel.vala:83
 msgid "Settings"
 msgstr "Iestatījumi"
 
@@ -70,7 +70,7 @@ msgstr ""
 msgid "Caffeine Mode"
 msgstr "Caffeine režīms"
 
-#: src/raven/main_view.vala:57 src/panel/settings/settings_panel.vala:89
+#: src/raven/main_view.vala:57 src/panel/settings/settings_panel.vala:82
 msgid "Applets"
 msgstr "Sīklietotnes"
 
@@ -269,7 +269,7 @@ msgid "All"
 msgstr "Viss"
 
 #. placeholder in case of no results
-#: src/applets/budgie-menu/BudgieMenuWindow.vala:265
+#: src/applets/budgie-menu/BudgieMenuWindow.vala:123
 msgid "Sorry, no items found"
 msgstr "Atvainojiet, nekas netika atrasts"
 
@@ -496,138 +496,143 @@ msgstr "Budgie darbvirsmas iestatījumi"
 msgid "Create new panel"
 msgstr "Izveidot jaunu paneli"
 
-#: src/panel/settings/settings_panel.vala:73
+#: src/panel/settings/settings_panel.vala:85
+#, fuzzy
+msgid "Remove Panel"
+msgstr "Noņemt"
+
+#: src/panel/settings/settings_panel.vala:86
 msgid "Remove this panel from the screen"
 msgstr "Noņemt šo paneli no ekrāna"
 
-#: src/panel/settings/settings_panel.vala:111
+#: src/panel/settings/settings_panel.vala:123
 msgid "Top Dock"
 msgstr "Augšējais doks"
 
-#: src/panel/settings/settings_panel.vala:113
+#: src/panel/settings/settings_panel.vala:125
 msgid "Right Dock"
 msgstr "Labais doks"
 
-#: src/panel/settings/settings_panel.vala:115
+#: src/panel/settings/settings_panel.vala:127
 msgid "Left Dock"
 msgstr "Kreisais doks"
 
-#: src/panel/settings/settings_panel.vala:117
+#: src/panel/settings/settings_panel.vala:129
 msgid "Bottom Dock"
 msgstr "Apakšējais doks"
 
-#: src/panel/settings/settings_panel.vala:122
+#: src/panel/settings/settings_panel.vala:134
 msgid "Top Panel"
 msgstr "Augšas panelis"
 
-#: src/panel/settings/settings_panel.vala:124
+#: src/panel/settings/settings_panel.vala:136
 msgid "Right Panel"
 msgstr "Labais panelis"
 
-#: src/panel/settings/settings_panel.vala:126
+#: src/panel/settings/settings_panel.vala:138
 msgid "Left Panel"
 msgstr "Kreisais panelis"
 
-#: src/panel/settings/settings_panel.vala:128
+#: src/panel/settings/settings_panel.vala:140
 msgid "Bottom Panel"
 msgstr "Apakšas panelis"
 
-#: src/panel/settings/settings_panel.vala:165
+#: src/panel/settings/settings_panel.vala:177
 msgid "Top"
 msgstr "Augšā"
 
-#: src/panel/settings/settings_panel.vala:167
+#: src/panel/settings/settings_panel.vala:179
 msgid "Right"
 msgstr "Pa labi"
 
-#: src/panel/settings/settings_panel.vala:169
+#: src/panel/settings/settings_panel.vala:181
 #: src/panel/settings/settings_wm.vala:92
 msgid "Left"
 msgstr "Pa kreisi"
 
-#: src/panel/settings/settings_panel.vala:171
+#: src/panel/settings/settings_panel.vala:183
 msgid "Bottom"
 msgstr "Apakšā"
 
-#: src/panel/settings/settings_panel.vala:181
+#: src/panel/settings/settings_panel.vala:193
 msgid "Always"
 msgstr "Vienmēr"
 
-#: src/panel/settings/settings_panel.vala:183
+#: src/panel/settings/settings_panel.vala:195
 msgid "Dynamic"
 msgstr "Dinamiski"
 
-#: src/panel/settings/settings_panel.vala:186
+#: src/panel/settings/settings_panel.vala:198
 #: src/panel/settings/settings_fonts.vala:84
 #: src/panel/settings/settings_fonts.vala:110
 msgid "None"
 msgstr "Nav"
 
-#: src/panel/settings/settings_panel.vala:196
+#: src/panel/settings/settings_panel.vala:208
 msgid "Automatic"
 msgstr "Automātisks"
 
-#: src/panel/settings/settings_panel.vala:198
+#: src/panel/settings/settings_panel.vala:210
 msgid "Intelligent"
 msgstr "Inteliģents"
 
-#: src/panel/settings/settings_panel.vala:201
+#: src/panel/settings/settings_panel.vala:213
 msgid "Never"
 msgstr "Nekad"
 
-#: src/panel/settings/settings_panel.vala:216
+#: src/panel/settings/settings_panel.vala:228
 msgid "Position"
 msgstr "Izvietojums"
 
-#: src/panel/settings/settings_panel.vala:217
+#: src/panel/settings/settings_panel.vala:229
 msgid "Set the edge of the screen that this panel will stay on"
 msgstr "Uzstādiet ekrāna malu, kurā atradīsies šis panelis"
 
-#: src/panel/settings/settings_panel.vala:225
+#: src/panel/settings/settings_panel.vala:237
 msgid "Size"
 msgstr "Izmērs"
 
-#: src/panel/settings/settings_panel.vala:226
+#: src/panel/settings/settings_panel.vala:238
 msgid "Set the size (width or height, depending on orientation) of this panel"
 msgstr "Uzstādiet šī paneļa izmēru (platumu vai augstumu, atkarībā no orientācijas)"
 
-#: src/panel/settings/settings_panel.vala:233
+#: src/panel/settings/settings_panel.vala:245
 msgid "Automatically hide"
 msgstr "Automātiski paslēpt"
 
-#: src/panel/settings/settings_panel.vala:234
+#: src/panel/settings/settings_panel.vala:246
 msgid "When set, this panel will hide from view to maximize screen estate"
 msgstr "Kad iestatīts, šis panelis tiks paslēpts no skata, lai paplašinātu vietu uz ekrāna"
 
-#: src/panel/settings/settings_panel.vala:241
+#: src/panel/settings/settings_panel.vala:253
 msgid "Transparency"
 msgstr "Caurspīdīgums"
 
-#: src/panel/settings/settings_panel.vala:242
+#: src/panel/settings/settings_panel.vala:254
 msgid "Control when this panel should have a solid background"
 msgstr ""
 
-#: src/panel/settings/settings_panel.vala:247
+#: src/panel/settings/settings_panel.vala:259
 msgid "Shadow"
 msgstr "Ēna"
 
-#: src/panel/settings/settings_panel.vala:248
+#: src/panel/settings/settings_panel.vala:260
 msgid "Adds a decorative drop-shadow, ideal for opaque panels"
 msgstr "Pievieno dekoratīvu krītošu ēnu, ideāli piemērota necaurredzamiem paneļiem"
 
-#: src/panel/settings/settings_panel.vala:254
+#: src/panel/settings/settings_panel.vala:266
 msgid "Stylize regions"
 msgstr "Stilizēt reģionus"
 
-#: src/panel/settings/settings_panel.vala:255
+#: src/panel/settings/settings_panel.vala:267
 msgid "Adds a hint to the panel so that each of the panel's three main areas may be themed differently."
 msgstr ""
 
-#: src/panel/settings/settings_panel.vala:262
+#: src/panel/settings/settings_panel.vala:274
 msgid "Dock mode"
 msgstr "Doka režīms"
 
-#: src/panel/settings/settings_panel.vala:263
+#: src/panel/settings/settings_panel.vala:275
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
 msgstr "Doka režīmā panelis izmantos pēc iespējas mazāk vietas uz ekrāna"
 
@@ -687,40 +692,39 @@ msgstr ""
 msgid "Shows or hides the Power Strip in the bottom of Raven."
 msgstr ""
 
-#: src/panel/settings/settings_panel_dialogs.vala:26
+#: src/panel/settings/settings_panel_dialogs.vala:25
 msgid "Confirm panel removal"
 msgstr ""
 
-#: src/panel/settings/settings_panel_dialogs.vala:33
+#: src/panel/settings/settings_panel_dialogs.vala:32
 msgid "Do you really want to remove this panel? This action cannot be undone."
 msgstr ""
 
-#: src/panel/settings/settings_panel_dialogs.vala:48
-#: src/panel/settings/settings_panel_dialogs.vala:107
-msgid "Don't ask me again"
-msgstr ""
-
-#: src/panel/settings/settings_panel_dialogs.vala:57
+#: src/panel/settings/settings_panel_dialogs.vala:43
 msgid "Remove panel"
 msgstr ""
 
-#: src/panel/settings/settings_panel_dialogs.vala:58
+#: src/panel/settings/settings_panel_dialogs.vala:44
 msgid "Keep panel"
 msgstr ""
 
-#: src/panel/settings/settings_panel_dialogs.vala:85
+#: src/panel/settings/settings_panel_dialogs.vala:68
 msgid "Confirm applet removal"
 msgstr ""
 
-#: src/panel/settings/settings_panel_dialogs.vala:92
+#: src/panel/settings/settings_panel_dialogs.vala:75
 msgid "Do you really want to remove this applet? This action cannot be undone."
 msgstr ""
 
-#: src/panel/settings/settings_panel_dialogs.vala:116
+#: src/panel/settings/settings_panel_dialogs.vala:90
+msgid "Don't ask me again"
+msgstr ""
+
+#: src/panel/settings/settings_panel_dialogs.vala:99
 msgid "Remove applet"
 msgstr ""
 
-#: src/panel/settings/settings_panel_dialogs.vala:117
+#: src/panel/settings/settings_panel_dialogs.vala:100
 msgid "Keep applet"
 msgstr ""
 
@@ -1122,6 +1126,10 @@ msgstr ""
 
 #: src/applets/icon-tasklist/settings.ui.h:6
 msgid "Middle click to launch new window"
+msgstr ""
+
+#: src/applets/icon-tasklist/settings.ui.h:7
+msgid "Require a double-click to launch new window"
 msgstr ""
 
 #: src/applets/night-light/indicator_window.ui.h:1
