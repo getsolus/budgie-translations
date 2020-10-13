@@ -25,8 +25,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-14 00:02+0300\n"
-"PO-Revision-Date: 2020-10-13 22:27+0000\n"
-"Last-Translator: Nico <nico@nabholz.org>\n"
+"PO-Revision-Date: 2020-11-15 14:52+0000\n"
+"Last-Translator: Girtablulu <flinux@vongellhorn.ch>\n"
 "Language-Team: German <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/de/>\n"
 "Language: de\n"
@@ -139,11 +139,11 @@ msgstr "Geräte"
 #. there's already an active tray, create an informative icon with a popover
 #: src/applets/tray/TrayApplet.vala:114
 msgid "Only one instance of the System Tray can be active at a time."
-msgstr ""
+msgstr "Nur eine Instanz kann in der Taskleiste aktiv sein."
 
 #: src/applets/tray/TrayApplet.vala:140
 msgid "The System Tray failed to initialize."
-msgstr ""
+msgstr "Das initialisierung der Taskleiste ist fehlgeschlagen."
 
 #: src/applets/status/PowerIndicator.vala:93
 msgid "Battery fully charged."
@@ -1006,13 +1006,14 @@ msgid "This option is for advanced users. Use this if you are having graphical o
 msgstr "Diese Option ist für erfahrene Benutzer. Verwenden, falls graphische oder Performance-Probleme mit dedizierten GPUs auftreten."
 
 #: src/panel/settings/settings_wm.vala:82
-#, fuzzy
 msgid "Show all windows in tab switcher"
-msgstr "Zeige alle Fenster beim Klick"
+msgstr "Zeige alle Fenster im Anwendungsumschalter"
 
 #: src/panel/settings/settings_wm.vala:83
 msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
 msgstr ""
+"Alle Tabs werden im Anwendungsumschalter angezeigt unabhängig vom "
+"verwendeten Arbeitsbereich."
 
 #: src/panel/settings/settings_wm.vala:90
 msgid "Right (standard)"
@@ -1108,7 +1109,7 @@ msgstr "Sitzung wirklich beenden?"
 
 #: src/applets/tray/settings.ui.h:1
 msgid "Icon Spacing"
-msgstr ""
+msgstr "Symbolabstand"
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
@@ -1132,11 +1133,11 @@ msgstr "Fenstergruppierung"
 
 #: src/applets/icon-tasklist/settings.ui.h:6
 msgid "Middle click to launch new window"
-msgstr ""
+msgstr "Mittlere Maustaste klicken um ein neues Fenster zu öffnen"
 
 #: src/applets/icon-tasklist/settings.ui.h:7
 msgid "Require a double-click to launch new window"
-msgstr ""
+msgstr "Doppelklick um ein neues Fenster zu öffnen"
 
 #: src/applets/night-light/indicator_window.ui.h:1
 #: src/applets/night-light/NightLight.plugin.in.h:1
