@@ -25,9 +25,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-14 00:02+0300\n"
-"PO-Revision-Date: 2019-09-28 16:21+0000\n"
+"PO-Revision-Date: 2020-10-13 22:26+0000\n"
 "Last-Translator: Girtablulu <flinux@vongellhorn.ch>\n"
-"Language-Team: German <http://translate.getsol.us/projects/budgie-desktop/translations/de/>\n"
+"Language-Team: German <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -70,7 +71,7 @@ msgstr "Caffeine-Boost deaktiviert"
 
 #: src/daemon/settings.vala:346
 msgid "Will turn off in a minute"
-msgstr "Wird in 1 Minute abgeschaltet"
+msgstr "Wird in 1 Minute ausgeschaltet"
 
 #. use plural
 #: src/daemon/settings.vala:349
@@ -506,7 +507,6 @@ msgid "Create new panel"
 msgstr "Neue Leiste"
 
 #: src/panel/settings/settings_panel.vala:85
-#, fuzzy
 msgid "Remove Panel"
 msgstr "Leiste entfernen"
 
