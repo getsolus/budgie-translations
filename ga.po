@@ -9,17 +9,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-10 03:50+0300\n"
+"POT-Creation-Date: 2020-10-14 00:02+0300\n"
 "PO-Revision-Date: 2020-10-10 04:19+0000\n"
 "Last-Translator: Seán Ó Séaghdha <sean.anseo@gmail.com>\n"
-"Language-Team: Irish <http://translate.getsol.us/projects/budgie-desktop/"
-"translations/ga/>\n"
+"Language-Team: Irish <http://translate.getsol.us/projects/budgie-desktop/translations/ga/>\n"
 "Language: ga\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
-"4);\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4);\n"
 "X-Generator: Weblate 3.8\n"
 
 #: src/daemon/endsession.vala:157
@@ -68,7 +66,7 @@ msgstr "Múchfar é i gceann %d nóiméad"
 #. Caffeine Notification
 #. Prepare label widget
 #: src/raven/notifications_group.vala:47
-#: src/applets/caffeine/CaffeineWindow.vala:26
+#: src/applets/caffeine/CaffeineWindow.vala:37
 msgid "Caffeine Mode"
 msgstr "Mód Caiféine"
 
@@ -93,23 +91,23 @@ msgstr "Seinn roinnt ceoil"
 msgid "Nothing to see here"
 msgstr "Níl dada le feiceáil anseo"
 
-#: src/raven/notifications_view.vala:651
+#: src/raven/notifications_view.vala:647
 #: src/applets/notifications/NotificationsApplet.vala:106
 #, c-format
 msgid "%u unread notifications"
 msgstr "Fógraí gan léamh: %u"
 
-#: src/raven/notifications_view.vala:653
+#: src/raven/notifications_view.vala:649
 #: src/applets/notifications/NotificationsApplet.vala:108
 msgid "1 unread notification"
 msgstr "Fógra amháin gan léamh"
 
-#: src/raven/notifications_view.vala:655
+#: src/raven/notifications_view.vala:651
 #: src/applets/notifications/NotificationsApplet.vala:110
 msgid "No unread notifications"
 msgstr "Gach fógra léite"
 
-#: src/raven/notifications_view.vala:886
+#: src/raven/notifications_view.vala:882
 msgid "No new notifications"
 msgstr "Gan fógra nua"
 
@@ -171,15 +169,15 @@ msgstr "Seol Comhaid"
 msgid "Bluetooth Airplane Mode"
 msgstr "Mód Eitleáin (Bluetooth)"
 
-#: src/applets/status/BluetoothIndicator.vala:172
+#: src/applets/status/BluetoothIndicator.vala:173
 msgid "Bluetooth is disabled"
 msgstr "Bluetooth as feidhm"
 
-#: src/applets/status/BluetoothIndicator.vala:176
+#: src/applets/status/BluetoothIndicator.vala:177
 msgid "Bluetooth is active"
 msgstr "Bluetooth i bhfeidhm"
 
-#: src/applets/status/BluetoothIndicator.vala:181
+#: src/applets/status/BluetoothIndicator.vala:182
 #, c-format
 msgid "Connected to %d device"
 msgid_plural "Connected to %d devices"
@@ -188,10 +186,6 @@ msgstr[1] "Nasctha le %d ghléas"
 msgstr[2] "Nasctha le %d ghléas"
 msgstr[3] "Nasctha le %d ngléas"
 msgstr[4] "Nasctha le %d gléasanna"
-
-#: src/applets/status/SoundIndicator.vala:142
-msgid "Sound settings"
-msgstr "Socruithe Fuaime"
 
 #: src/applets/icon-tasklist/IconPopover.vala:94
 msgid "Launch New Instance"
@@ -331,41 +325,40 @@ msgstr "Athainmnigh"
 msgid "Remove"
 msgstr "Bain"
 
-#: src/applets/caffeine/CaffeineWindow.vala:28
+#: src/applets/caffeine/CaffeineWindow.vala:39
 msgid "Timer (minutes)"
 msgstr "Uaineadóir (nóiméid)"
 
 #. User Menu Creation
-#: src/applets/user-indicator/UserIndicatorWindow.vala:95
+#: src/applets/user-indicator/UserIndicatorWindow.vala:99
 msgid "User"
 msgstr "Úsáideoir"
 
 #. Default to "User" and symbolic icon
 #. The rest
-#: src/applets/user-indicator/UserIndicatorWindow.vala:101
+#: src/applets/user-indicator/UserIndicatorWindow.vala:105
 msgid "Lock"
 msgstr "Glasáil"
 
-#: src/applets/user-indicator/UserIndicatorWindow.vala:102
+#: src/applets/user-indicator/UserIndicatorWindow.vala:106
 msgid "Suspend"
 msgstr "Cuir ar Fionraí"
 
-#: src/applets/user-indicator/UserIndicatorWindow.vala:103
+#: src/applets/user-indicator/UserIndicatorWindow.vala:107
 msgid "Hibernate"
 msgstr "Suanaigh"
 
-#: src/applets/user-indicator/UserIndicatorWindow.vala:104
+#: src/applets/user-indicator/UserIndicatorWindow.vala:108
 #: src/daemon/endsession.ui.h:5
 msgid "Restart"
 msgstr "Atosaigh"
 
-#: src/applets/user-indicator/UserIndicatorWindow.vala:105
+#: src/applets/user-indicator/UserIndicatorWindow.vala:109
 #: src/daemon/endsession.ui.h:6
 msgid "Shutdown"
 msgstr "Múch"
 
-#. IndicatorItem switch_user_menu = new IndicatorItem(_("Switch User"), "network-transmit-receive-symbolic", false);
-#: src/applets/user-indicator/UserIndicatorWindow.vala:179
+#: src/applets/user-indicator/UserIndicatorWindow.vala:208
 #: src/daemon/endsession.ui.h:4
 msgid "Logout"
 msgstr "Logáil Amach"
@@ -496,7 +489,7 @@ msgstr "Seisiún"
 msgid "Budgie Desktop Settings"
 msgstr "Socruithe Deasc Budgie"
 
-#: src/panel/settings/settings_main.vala:78
+#: src/panel/settings/settings_main.vala:77
 msgid "Create new panel"
 msgstr "Cruthaigh painéal nua"
 
@@ -695,43 +688,43 @@ msgstr "Taispeáin Stiall Chumhachta"
 msgid "Shows or hides the Power Strip in the bottom of Raven."
 msgstr "Taispeáin nó ceil an Stiall Chumhachta in íochtar Raven."
 
-#: src/panel/settings/settings_panel_dialogs.vala:25
+#: src/panel/settings/settings_panel_dialogs.vala:24
 msgid "Confirm panel removal"
 msgstr "Dearbhaigh baint painéil"
 
-#: src/panel/settings/settings_panel_dialogs.vala:32
+#: src/panel/settings/settings_panel_dialogs.vala:31
 msgid "Do you really want to remove this panel? This action cannot be undone."
 msgstr ""
 "An bhfuil tú cinnte gur maith leat an painéal seo a bhaint? \n"
 "Ní féidir an gníomh seo a chur ar ceal."
 
-#: src/panel/settings/settings_panel_dialogs.vala:43
+#: src/panel/settings/settings_panel_dialogs.vala:42
 msgid "Remove panel"
 msgstr "Bain painéal"
 
-#: src/panel/settings/settings_panel_dialogs.vala:44
+#: src/panel/settings/settings_panel_dialogs.vala:43
 msgid "Keep panel"
 msgstr "Coinnigh painéal"
 
-#: src/panel/settings/settings_panel_dialogs.vala:68
+#: src/panel/settings/settings_panel_dialogs.vala:67
 msgid "Confirm applet removal"
 msgstr "Dearbhaigh baint feidhmchláirín"
 
-#: src/panel/settings/settings_panel_dialogs.vala:75
+#: src/panel/settings/settings_panel_dialogs.vala:74
 msgid "Do you really want to remove this applet? This action cannot be undone."
 msgstr ""
 "An bhfuil tú cinnte gur maith leat an feidhmchláirín seo a bhaint? \n"
 "Ní féidir an gníomh seo a chur ar ceal."
 
-#: src/panel/settings/settings_panel_dialogs.vala:90
+#: src/panel/settings/settings_panel_dialogs.vala:89
 msgid "Don't ask me again"
 msgstr "Ná cuir an cheist seo orm arís"
 
-#: src/panel/settings/settings_panel_dialogs.vala:99
+#: src/panel/settings/settings_panel_dialogs.vala:98
 msgid "Remove applet"
 msgstr "Bain feidhmchláirín"
 
-#: src/panel/settings/settings_panel_dialogs.vala:100
+#: src/panel/settings/settings_panel_dialogs.vala:99
 msgid "Keep applet"
 msgstr "Coinnigh feidhmchláirín"
 
@@ -931,15 +924,15 @@ msgstr "Roghnaigh feidhmchláirín nua le cur leis an bpainéal seo"
 msgid "No settings available"
 msgstr "Níl socrú ar bith le fáil"
 
-#: src/panel/settings/settings_panel_applets.vala:396
+#: src/panel/settings/settings_panel_applets.vala:401
 msgid "Start"
 msgstr "Tús"
 
-#: src/panel/settings/settings_panel_applets.vala:399
+#: src/panel/settings/settings_panel_applets.vala:404
 msgid "Center"
 msgstr "Lár"
 
-#: src/panel/settings/settings_panel_applets.vala:402
+#: src/panel/settings/settings_panel_applets.vala:407
 msgid "End"
 msgstr "Bun"
 

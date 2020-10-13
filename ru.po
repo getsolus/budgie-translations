@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-10 03:50+0300\n"
+"POT-Creation-Date: 2020-10-14 00:02+0300\n"
 "PO-Revision-Date: 2020-09-07 08:12+0000\n"
 "Last-Translator: Pavel Datsenko <pavel.datsenko@gmail.com>\n"
 "Language-Team: Russian <http://translate.getsol.us/projects/budgie-desktop/translations/ru/>\n"
@@ -70,7 +70,7 @@ msgstr "Отключится через %d минут(ы,у)"
 #. Caffeine Notification
 #. Prepare label widget
 #: src/raven/notifications_group.vala:47
-#: src/applets/caffeine/CaffeineWindow.vala:26
+#: src/applets/caffeine/CaffeineWindow.vala:37
 msgid "Caffeine Mode"
 msgstr "Режим Caffeine"
 
@@ -95,23 +95,23 @@ msgstr "Играть музыку"
 msgid "Nothing to see here"
 msgstr "Не на что смотреть"
 
-#: src/raven/notifications_view.vala:651
+#: src/raven/notifications_view.vala:647
 #: src/applets/notifications/NotificationsApplet.vala:106
 #, c-format
 msgid "%u unread notifications"
 msgstr "Непрочитанных уведомлений: %u"
 
-#: src/raven/notifications_view.vala:653
+#: src/raven/notifications_view.vala:649
 #: src/applets/notifications/NotificationsApplet.vala:108
 msgid "1 unread notification"
 msgstr "1 непрочитанное уведомление"
 
-#: src/raven/notifications_view.vala:655
+#: src/raven/notifications_view.vala:651
 #: src/applets/notifications/NotificationsApplet.vala:110
 msgid "No unread notifications"
 msgstr "Нет непрочитанных уведомлений"
 
-#: src/raven/notifications_view.vala:886
+#: src/raven/notifications_view.vala:882
 msgid "No new notifications"
 msgstr "Нет новых уведомлений"
 
@@ -173,15 +173,15 @@ msgstr "Отправить файлы"
 msgid "Bluetooth Airplane Mode"
 msgstr "Режим в самолете для Bluetooth"
 
-#: src/applets/status/BluetoothIndicator.vala:172
+#: src/applets/status/BluetoothIndicator.vala:173
 msgid "Bluetooth is disabled"
 msgstr "Bluetooth выключен"
 
-#: src/applets/status/BluetoothIndicator.vala:176
+#: src/applets/status/BluetoothIndicator.vala:177
 msgid "Bluetooth is active"
 msgstr "Bluetooth включен"
 
-#: src/applets/status/BluetoothIndicator.vala:181
+#: src/applets/status/BluetoothIndicator.vala:182
 #, c-format
 msgid "Connected to %d device"
 msgid_plural "Connected to %d devices"
@@ -189,10 +189,6 @@ msgstr[0] "Подключено к %d устройству"
 msgstr[1] "Подключено к %d устройствам"
 msgstr[2] "Подключено к %d устройствам"
 msgstr[3] "Подключено к %d устройствам"
-
-#: src/applets/status/SoundIndicator.vala:142
-msgid "Sound settings"
-msgstr "Настройки звука"
 
 #: src/applets/icon-tasklist/IconPopover.vala:94
 msgid "Launch New Instance"
@@ -332,41 +328,40 @@ msgstr "Переименовать"
 msgid "Remove"
 msgstr "Удалить"
 
-#: src/applets/caffeine/CaffeineWindow.vala:28
+#: src/applets/caffeine/CaffeineWindow.vala:39
 msgid "Timer (minutes)"
 msgstr "Таймер (минуты)"
 
 #. User Menu Creation
-#: src/applets/user-indicator/UserIndicatorWindow.vala:95
+#: src/applets/user-indicator/UserIndicatorWindow.vala:99
 msgid "User"
 msgstr "Пользователь"
 
 #. Default to "User" and symbolic icon
 #. The rest
-#: src/applets/user-indicator/UserIndicatorWindow.vala:101
+#: src/applets/user-indicator/UserIndicatorWindow.vala:105
 msgid "Lock"
 msgstr "Заблокировать"
 
-#: src/applets/user-indicator/UserIndicatorWindow.vala:102
+#: src/applets/user-indicator/UserIndicatorWindow.vala:106
 msgid "Suspend"
 msgstr "Режим сна"
 
-#: src/applets/user-indicator/UserIndicatorWindow.vala:103
+#: src/applets/user-indicator/UserIndicatorWindow.vala:107
 msgid "Hibernate"
 msgstr "Гибернация"
 
-#: src/applets/user-indicator/UserIndicatorWindow.vala:104
+#: src/applets/user-indicator/UserIndicatorWindow.vala:108
 #: src/daemon/endsession.ui.h:5
 msgid "Restart"
 msgstr "Перезагрузить"
 
-#: src/applets/user-indicator/UserIndicatorWindow.vala:105
+#: src/applets/user-indicator/UserIndicatorWindow.vala:109
 #: src/daemon/endsession.ui.h:6
 msgid "Shutdown"
 msgstr "Выключить"
 
-#. IndicatorItem switch_user_menu = new IndicatorItem(_("Switch User"), "network-transmit-receive-symbolic", false);
-#: src/applets/user-indicator/UserIndicatorWindow.vala:179
+#: src/applets/user-indicator/UserIndicatorWindow.vala:208
 #: src/daemon/endsession.ui.h:4
 msgid "Logout"
 msgstr "Выйти"
@@ -497,7 +492,7 @@ msgstr "Сессия"
 msgid "Budgie Desktop Settings"
 msgstr "Настройки рабочего стола Budgie"
 
-#: src/panel/settings/settings_main.vala:78
+#: src/panel/settings/settings_main.vala:77
 msgid "Create new panel"
 msgstr "Создать новую панель"
 
@@ -697,39 +692,39 @@ msgstr "Показывать панель управления питанием"
 msgid "Shows or hides the Power Strip in the bottom of Raven."
 msgstr "Показывает или скрывает полосу управления питанием внизу панели Raven."
 
-#: src/panel/settings/settings_panel_dialogs.vala:25
+#: src/panel/settings/settings_panel_dialogs.vala:24
 msgid "Confirm panel removal"
 msgstr "Подтвердить удаление панели"
 
-#: src/panel/settings/settings_panel_dialogs.vala:32
+#: src/panel/settings/settings_panel_dialogs.vala:31
 msgid "Do you really want to remove this panel? This action cannot be undone."
 msgstr "Вы действительно хотите удалить эту панель? Это действие нельзя отменить."
 
-#: src/panel/settings/settings_panel_dialogs.vala:43
+#: src/panel/settings/settings_panel_dialogs.vala:42
 msgid "Remove panel"
 msgstr "Удалить панель"
 
-#: src/panel/settings/settings_panel_dialogs.vala:44
+#: src/panel/settings/settings_panel_dialogs.vala:43
 msgid "Keep panel"
 msgstr "Оставить панель"
 
-#: src/panel/settings/settings_panel_dialogs.vala:68
+#: src/panel/settings/settings_panel_dialogs.vala:67
 msgid "Confirm applet removal"
 msgstr "Подтвердить удаление апплета"
 
-#: src/panel/settings/settings_panel_dialogs.vala:75
+#: src/panel/settings/settings_panel_dialogs.vala:74
 msgid "Do you really want to remove this applet? This action cannot be undone."
 msgstr "Вы действительно хотите удалить этот апплет? Это действие нельзя отменить."
 
-#: src/panel/settings/settings_panel_dialogs.vala:90
+#: src/panel/settings/settings_panel_dialogs.vala:89
 msgid "Don't ask me again"
 msgstr "Не спрашивать меня снова"
 
-#: src/panel/settings/settings_panel_dialogs.vala:99
+#: src/panel/settings/settings_panel_dialogs.vala:98
 msgid "Remove applet"
 msgstr "Удалить апплет"
 
-#: src/panel/settings/settings_panel_dialogs.vala:100
+#: src/panel/settings/settings_panel_dialogs.vala:99
 msgid "Keep applet"
 msgstr "Оставить апплет"
 
@@ -929,15 +924,15 @@ msgstr "Выбрать новый апплет для добавления на 
 msgid "No settings available"
 msgstr "Нет доступных настроек"
 
-#: src/panel/settings/settings_panel_applets.vala:396
+#: src/panel/settings/settings_panel_applets.vala:401
 msgid "Start"
 msgstr "Начало"
 
-#: src/panel/settings/settings_panel_applets.vala:399
+#: src/panel/settings/settings_panel_applets.vala:404
 msgid "Center"
 msgstr "Центр"
 
-#: src/panel/settings/settings_panel_applets.vala:402
+#: src/panel/settings/settings_panel_applets.vala:407
 msgid "End"
 msgstr "Конец"
 

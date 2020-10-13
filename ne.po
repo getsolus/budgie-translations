@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-10 03:50+0300\n"
+"POT-Creation-Date: 2020-10-14 00:02+0300\n"
 "PO-Revision-Date: 2017-11-06 15:26+0000\n"
 "Last-Translator: Rabin Adhikari <rabin.adk1@gmail.com>\n"
 "Language-Team: Nepali (http://www.transifex.com/budgie-desktop/budgie-desktop/language/ne/)\n"
@@ -64,7 +64,7 @@ msgstr ""
 #. Caffeine Notification
 #. Prepare label widget
 #: src/raven/notifications_group.vala:47
-#: src/applets/caffeine/CaffeineWindow.vala:26
+#: src/applets/caffeine/CaffeineWindow.vala:37
 msgid "Caffeine Mode"
 msgstr ""
 
@@ -89,23 +89,23 @@ msgstr ""
 msgid "Nothing to see here"
 msgstr "यहाँ हेर्न को लागी केहि पनि छैन"
 
-#: src/raven/notifications_view.vala:651
+#: src/raven/notifications_view.vala:647
 #: src/applets/notifications/NotificationsApplet.vala:106
 #, c-format
 msgid "%u unread notifications"
 msgstr "%uनपढेका सूचनाहरू"
 
-#: src/raven/notifications_view.vala:653
+#: src/raven/notifications_view.vala:649
 #: src/applets/notifications/NotificationsApplet.vala:108
 msgid "1 unread notification"
 msgstr "1 नपढेका सूचना"
 
-#: src/raven/notifications_view.vala:655
+#: src/raven/notifications_view.vala:651
 #: src/applets/notifications/NotificationsApplet.vala:110
 msgid "No unread notifications"
 msgstr "नपढेका सूचनाहरू छैनन्"
 
-#: src/raven/notifications_view.vala:886
+#: src/raven/notifications_view.vala:882
 msgid "No new notifications"
 msgstr "नयाँ सूचनाहरू छैनन्"
 
@@ -167,24 +167,20 @@ msgstr "फाइलहरू पठाउनुहोस्"
 msgid "Bluetooth Airplane Mode"
 msgstr "ब्लुटुथ एयरप्लेन मोड"
 
-#: src/applets/status/BluetoothIndicator.vala:172
+#: src/applets/status/BluetoothIndicator.vala:173
 msgid "Bluetooth is disabled"
 msgstr "ब्लुटुथ अक्षम गरिएको छ"
 
-#: src/applets/status/BluetoothIndicator.vala:176
+#: src/applets/status/BluetoothIndicator.vala:177
 msgid "Bluetooth is active"
 msgstr "ब्लुटुथ सक्रिय छ"
 
-#: src/applets/status/BluetoothIndicator.vala:181
+#: src/applets/status/BluetoothIndicator.vala:182
 #, c-format
 msgid "Connected to %d device"
 msgid_plural "Connected to %d devices"
 msgstr[0] "%d उपकरण जडान गरियो"
 msgstr[1] "%d उपकरणहरु जडान गरियो"
-
-#: src/applets/status/SoundIndicator.vala:142
-msgid "Sound settings"
-msgstr "ध्वनि सेटिङहरू"
 
 #: src/applets/icon-tasklist/IconPopover.vala:94
 msgid "Launch New Instance"
@@ -325,41 +321,40 @@ msgstr "पुन: नामाकरण गर्नुहोस्"
 msgid "Remove"
 msgstr "हटाउनुहोस्"
 
-#: src/applets/caffeine/CaffeineWindow.vala:28
+#: src/applets/caffeine/CaffeineWindow.vala:39
 msgid "Timer (minutes)"
 msgstr ""
 
 #. User Menu Creation
-#: src/applets/user-indicator/UserIndicatorWindow.vala:95
+#: src/applets/user-indicator/UserIndicatorWindow.vala:99
 msgid "User"
 msgstr "प्रयोगकर्ता"
 
 #. Default to "User" and symbolic icon
 #. The rest
-#: src/applets/user-indicator/UserIndicatorWindow.vala:101
+#: src/applets/user-indicator/UserIndicatorWindow.vala:105
 msgid "Lock"
 msgstr "ताला लगाउनुहोस्"
 
-#: src/applets/user-indicator/UserIndicatorWindow.vala:102
+#: src/applets/user-indicator/UserIndicatorWindow.vala:106
 msgid "Suspend"
 msgstr "निलम्बन गर्नुहोस्"
 
-#: src/applets/user-indicator/UserIndicatorWindow.vala:103
+#: src/applets/user-indicator/UserIndicatorWindow.vala:107
 msgid "Hibernate"
 msgstr "हाइबर्नेट"
 
-#: src/applets/user-indicator/UserIndicatorWindow.vala:104
+#: src/applets/user-indicator/UserIndicatorWindow.vala:108
 #: src/daemon/endsession.ui.h:5
 msgid "Restart"
 msgstr "फेरि शुरु गर्नुहोस्"
 
-#: src/applets/user-indicator/UserIndicatorWindow.vala:105
+#: src/applets/user-indicator/UserIndicatorWindow.vala:109
 #: src/daemon/endsession.ui.h:6
 msgid "Shutdown"
 msgstr "बन्द गर्नुहोस्"
 
-#. IndicatorItem switch_user_menu = new IndicatorItem(_("Switch User"), "network-transmit-receive-symbolic", false);
-#: src/applets/user-indicator/UserIndicatorWindow.vala:179
+#: src/applets/user-indicator/UserIndicatorWindow.vala:208
 #: src/daemon/endsession.ui.h:4
 msgid "Logout"
 msgstr "बाहिर निस्कनुहोस्"
@@ -490,7 +485,7 @@ msgstr "सत्र"
 msgid "Budgie Desktop Settings"
 msgstr ""
 
-#: src/panel/settings/settings_main.vala:78
+#: src/panel/settings/settings_main.vala:77
 msgid "Create new panel"
 msgstr "नयाँ प्यानल सिर्जना गर्नुहोस्"
 
@@ -690,39 +685,39 @@ msgstr ""
 msgid "Shows or hides the Power Strip in the bottom of Raven."
 msgstr ""
 
-#: src/panel/settings/settings_panel_dialogs.vala:25
+#: src/panel/settings/settings_panel_dialogs.vala:24
 msgid "Confirm panel removal"
 msgstr ""
 
-#: src/panel/settings/settings_panel_dialogs.vala:32
+#: src/panel/settings/settings_panel_dialogs.vala:31
 msgid "Do you really want to remove this panel? This action cannot be undone."
 msgstr ""
 
-#: src/panel/settings/settings_panel_dialogs.vala:43
+#: src/panel/settings/settings_panel_dialogs.vala:42
 msgid "Remove panel"
 msgstr ""
 
-#: src/panel/settings/settings_panel_dialogs.vala:44
+#: src/panel/settings/settings_panel_dialogs.vala:43
 msgid "Keep panel"
 msgstr ""
 
-#: src/panel/settings/settings_panel_dialogs.vala:68
+#: src/panel/settings/settings_panel_dialogs.vala:67
 msgid "Confirm applet removal"
 msgstr ""
 
-#: src/panel/settings/settings_panel_dialogs.vala:75
+#: src/panel/settings/settings_panel_dialogs.vala:74
 msgid "Do you really want to remove this applet? This action cannot be undone."
 msgstr ""
 
-#: src/panel/settings/settings_panel_dialogs.vala:90
+#: src/panel/settings/settings_panel_dialogs.vala:89
 msgid "Don't ask me again"
 msgstr ""
 
-#: src/panel/settings/settings_panel_dialogs.vala:99
+#: src/panel/settings/settings_panel_dialogs.vala:98
 msgid "Remove applet"
 msgstr ""
 
-#: src/panel/settings/settings_panel_dialogs.vala:100
+#: src/panel/settings/settings_panel_dialogs.vala:99
 msgid "Keep applet"
 msgstr ""
 
@@ -926,15 +921,15 @@ msgstr ""
 msgid "No settings available"
 msgstr ""
 
-#: src/panel/settings/settings_panel_applets.vala:396
+#: src/panel/settings/settings_panel_applets.vala:401
 msgid "Start"
 msgstr ""
 
-#: src/panel/settings/settings_panel_applets.vala:399
+#: src/panel/settings/settings_panel_applets.vala:404
 msgid "Center"
 msgstr ""
 
-#: src/panel/settings/settings_panel_applets.vala:402
+#: src/panel/settings/settings_panel_applets.vala:407
 msgid "End"
 msgstr ""
 
