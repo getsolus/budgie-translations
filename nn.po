@@ -9,9 +9,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-14 00:02+0300\n"
-"PO-Revision-Date: 2020-08-25 23:22+0000\n"
+"PO-Revision-Date: 2020-11-15 14:52+0000\n"
 "Last-Translator: Anton Pletten <an1000kg@gmail.com>\n"
-"Language-Team: Norwegian Nynorsk <http://translate.getsol.us/projects/budgie-desktop/translations/nn/>\n"
+"Language-Team: Norwegian Nynorsk <http://translate.getsol.us/projects/"
+"budgie-desktop/translations/nn/>\n"
 "Language: nn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -579,7 +580,7 @@ msgstr "Posisjon"
 
 #: src/panel/settings/settings_panel.vala:229
 msgid "Set the edge of the screen that this panel will stay on"
-msgstr ""
+msgstr "Vel kva skjermkant panelet skal festast på"
 
 #: src/panel/settings/settings_panel.vala:237
 msgid "Size"
@@ -588,6 +589,7 @@ msgstr "Storleik"
 #: src/panel/settings/settings_panel.vala:238
 msgid "Set the size (width or height, depending on orientation) of this panel"
 msgstr ""
+"Vel storleiken (breidd eller høgd, avhengig av orientering) til dette panelet"
 
 #: src/panel/settings/settings_panel.vala:245
 msgid "Automatically hide"
@@ -595,15 +597,15 @@ msgstr "Gøym automatisk"
 
 #: src/panel/settings/settings_panel.vala:246
 msgid "When set, this panel will hide from view to maximize screen estate"
-msgstr ""
+msgstr "Panelet vil gøymast automatisk for å maksimere skjermutbyte"
 
 #: src/panel/settings/settings_panel.vala:253
 msgid "Transparency"
-msgstr ""
+msgstr "Gjennomsiktigheit"
 
 #: src/panel/settings/settings_panel.vala:254
 msgid "Control when this panel should have a solid background"
-msgstr ""
+msgstr "Vel når panelet skal ha solid bakgrunn"
 
 #: src/panel/settings/settings_panel.vala:259
 msgid "Shadow"
@@ -611,27 +613,31 @@ msgstr "Skugge"
 
 #: src/panel/settings/settings_panel.vala:260
 msgid "Adds a decorative drop-shadow, ideal for opaque panels"
-msgstr ""
+msgstr "Legg til ein dekorativ skugge, meint for ugjennomsiktige panel"
 
 #: src/panel/settings/settings_panel.vala:266
 msgid "Stylize regions"
-msgstr ""
+msgstr "Stiliser panelregionar"
 
 #: src/panel/settings/settings_panel.vala:267
 msgid "Adds a hint to the panel so that each of the panel's three main areas may be themed differently."
 msgstr ""
+"Gjer det mogleg å bruke forskjellige tema på dei tre ulike hovuddelene av "
+"panelet."
 
 #: src/panel/settings/settings_panel.vala:274
 msgid "Dock mode"
-msgstr ""
+msgstr "Ankermodus"
 
 #: src/panel/settings/settings_panel.vala:275
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
 msgstr ""
+"Når panelet er i ankermodus, vil det trekkje seg saman så mykje som mogleg "
+"for å frigjere skjermplass"
 
 #: src/panel/settings/settings_raven.vala:39
 msgid "Allow raising volume above 100%"
-msgstr ""
+msgstr "Tillat lydvolum over 100 %"
 
 #: src/panel/settings/settings_raven.vala:40
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
