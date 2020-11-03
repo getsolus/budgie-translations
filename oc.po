@@ -8,9 +8,10 @@ msgstr ""
 "Project-Id-Version: budgie-desktop 10.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-14 00:02+0300\n"
-"PO-Revision-Date: 2020-09-07 12:34+0000\n"
+"PO-Revision-Date: 2020-11-15 14:52+0000\n"
 "Last-Translator: Quentin PAGÈS <pages_quentin@hotmail.com>\n"
-"Language-Team: Occitan <http://translate.getsol.us/projects/budgie-desktop/translations/oc/>\n"
+"Language-Team: Occitan <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/oc/>\n"
 "Language: oc\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -121,7 +122,7 @@ msgstr "Periferics"
 #. there's already an active tray, create an informative icon with a popover
 #: src/applets/tray/TrayApplet.vala:114
 msgid "Only one instance of the System Tray can be active at a time."
-msgstr ""
+msgstr "Sonque pòt i aver una instància de la barra sistèma activa."
 
 #: src/applets/tray/TrayApplet.vala:140
 msgid "The System Tray failed to initialize."
@@ -489,7 +490,6 @@ msgid "Create new panel"
 msgstr ""
 
 #: src/panel/settings/settings_panel.vala:85
-#, fuzzy
 msgid "Remove Panel"
 msgstr "Levar panèl"
 
@@ -829,12 +829,10 @@ msgid "Control whether windows and controls use animations"
 msgstr ""
 
 #: src/panel/settings/settings_style.vala:204
-#, fuzzy
 msgid "Top Left"
 msgstr "Amont a esquèrra"
 
 #: src/panel/settings/settings_style.vala:206
-#, fuzzy
 msgid "Bottom Left"
 msgstr "Aval a esquèrra"
 
@@ -923,7 +921,6 @@ msgid "Start"
 msgstr "Aviar"
 
 #: src/panel/settings/settings_panel_applets.vala:404
-#, fuzzy
 msgid "Center"
 msgstr "Centrar"
 
@@ -1032,9 +1029,8 @@ msgid "Set the primary font used by application controls."
 msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:64
-#, fuzzy
 msgid "Monospace"
-msgstr "Chassa fixa"
+msgstr "Monoespaci"
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Set the fixed-width font used by text dominant applications."
@@ -1287,9 +1283,8 @@ msgid "Separator"
 msgstr "Separador"
 
 #: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
-#, fuzzy
 msgid "Show Desktop Button"
-msgstr "Boton de mostrada del burèu"
+msgstr "Boton d’accès al burèu"
 
 #: src/applets/workspaces/WorkspacesApplet.plugin.in.h:1
 msgid "Workspace Switcher"
@@ -1320,6 +1315,7 @@ msgid "Budgie Panel"
 msgstr ""
 
 #: src/panel/budgie-panel.desktop.in.h:2
-#, fuzzy
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
-msgstr "Aviar d'autras aplicacions e diferents utilitaris per gerir las fenèstras, indicar l'ora, etc."
+msgstr ""
+"Aviar d'autras aplicacions e diferents utilitaris per gerir las fenèstras, "
+"indicar l'ora, etc."
