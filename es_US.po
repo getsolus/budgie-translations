@@ -9,9 +9,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
-"PO-Revision-Date: 2020-11-15 14:52+0000\n"
+"PO-Revision-Date: 2020-11-16 15:20+0000\n"
 "Last-Translator: Evan Maddock <maddock.evan@vivaldi.net>\n"
-"Language-Team: Spanish (American) <http://translate.getsol.us/projects/budgie-desktop/translations/es_US/>\n"
+"Language-Team: Spanish (American) <http://translate.getsol.us/projects/"
+"budgie-desktop/translations/es_US/>\n"
 "Language: es_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,11 +30,13 @@ msgstr "Grupo:"
 
 #: src/panel/settings/settings_raven.vala:61
 msgid "Set Raven position"
-msgstr ""
+msgstr "Establecer la posición de Raven"
 
 #: src/panel/settings/settings_raven.vala:62
 msgid "Set which side of the screen Raven will open on. If set to Automatic, Raven will open where its parent panel is."
 msgstr ""
+"Establecer en qué lado de la pantalla se abrirá Raven. Si se establece en "
+"automático, Raven se abrirá donde está el panel principal."
 
 #: src/panel/settings/settings_raven.vala:67
 msgid "Allow raising volume above 100%"
@@ -196,21 +199,19 @@ msgid "Desktop Icons"
 msgstr "Íconos del escritorio"
 
 #: src/panel/settings/settings_desktop.vala:77
-#, fuzzy
 msgid "Control whether to allow icons on the desktop."
-msgstr "Controla si existen lanzadores e íconos en el escritorio."
+msgstr "Controlar si mostrar lanzadores e íconos en el escritorio."
 
 #. DesktopFolder doesn't support fancy options like showing home folder, trash, or active mounts
 #. DesktopType is the only one that doesn't support showing mounts
 #. Switcher to show or hide active mounts
 #: src/panel/settings/settings_desktop.vala:86
 msgid "Active Mounts"
-msgstr ""
+msgstr "Montajes Activos"
 
 #: src/panel/settings/settings_desktop.vala:87
-#, fuzzy
 msgid "Show all active mounts on the desktop."
-msgstr "Controla si existen lanzadores e íconos en el escritorio."
+msgstr "Controlar si mostrar montajes activos en el escritorio."
 
 #. Switcher to show or hide our Home folder
 #: src/panel/settings/settings_desktop.vala:94
@@ -233,14 +234,12 @@ msgstr "Agregar un acceso directo a la Papelera en el escritorio."
 #. DesktopType doesn't support icon size changing. Nemo might but needs validation.
 #. Icon Size combo box
 #: src/panel/settings/settings_desktop.vala:112
-#, fuzzy
 msgid "Icon Size"
 msgstr "Espaciado de iconos"
 
 #: src/panel/settings/settings_desktop.vala:113
-#, fuzzy
 msgid "Set the desired size of icons on the desktop."
-msgstr "Controla si existen lanzadores e íconos en el escritorio."
+msgstr "Controlar el espaciado de lanzadores e íconos en el escritorio."
 
 #: src/panel/settings/settings_desktop.vala:144
 msgid "Number of virtual desktops"
@@ -252,22 +251,22 @@ msgstr "Número de escritorios virtuales / áreas de trabajo para crear automát
 
 #: src/panel/settings/settings_desktop.vala:249
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #. Small
 #: src/panel/settings/settings_desktop.vala:252
 msgid "Small"
-msgstr ""
+msgstr "Pequeño"
 
 #. Large
 #: src/panel/settings/settings_desktop.vala:254
 msgid "Large"
-msgstr ""
+msgstr "Grande"
 
 #. Massive
 #: src/panel/settings/settings_desktop.vala:256
 msgid "Massive"
-msgstr ""
+msgstr "Masivo"
 
 #: src/panel/settings/settings_panel.vala:82 src/raven/main_view.vala:57
 msgid "Applets"
