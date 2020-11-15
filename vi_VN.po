@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-14 00:02+0300\n"
+"POT-Creation-Date: 2020-11-15 16:54+0200\n"
 "PO-Revision-Date: 2019-02-26 15:18+0000\n"
 "Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
 "Language-Team: Vietnamese <http://translate.getsol.us/projects/budgie-desktop/translations/vi/>\n"
@@ -20,450 +20,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 3.4-dev\n"
 
-#: src/daemon/endsession.vala:157
-msgid "Log out"
-msgstr "Đăng xuất"
-
-#: src/daemon/endsession.vala:161
-msgid "Restart device"
-msgstr "Khởi động lại thiết bị"
-
-#: src/daemon/endsession.vala:173 src/daemon/endsession.ui.h:1
-msgid "Power Off"
-msgstr "Tắt nguồn"
-
-#: src/daemon/menus.vala:46
-msgid "Change background"
-msgstr "Thay ảnh nền"
-
-#: src/daemon/menus.vala:51
-#, fuzzy
-msgid "Displays"
-msgstr "Cài đặt Hiển thị"
-
-#: src/daemon/menus.vala:60 src/panel/settings/settings_panel.vala:83
-msgid "Settings"
-msgstr "Cài đặt"
-
-#. Should show a notification
-#: src/daemon/settings.vala:341
-msgid "Turned on Caffeine Boost"
-msgstr ""
-
-#: src/daemon/settings.vala:341
-msgid "Turned off Caffeine Boost"
-msgstr ""
-
-#: src/daemon/settings.vala:346
-msgid "Will turn off in a minute"
-msgstr ""
-
-#. use plural
-#: src/daemon/settings.vala:349
-#, c-format
-msgid "Will turn off in %d minutes"
-msgstr ""
-
-#. Caffeine Notification
-#. Prepare label widget
-#: src/raven/notifications_group.vala:47
-#: src/applets/caffeine/CaffeineWindow.vala:37
-msgid "Caffeine Mode"
-msgstr ""
-
-#: src/raven/main_view.vala:57 src/panel/settings/settings_panel.vala:82
-msgid "Applets"
-msgstr "Tiện ích"
-
-#: src/raven/main_view.vala:60
-#: src/applets/notifications/NotificationsApplet.plugin.in.h:1
-msgid "Notifications"
-msgstr "Thông báo"
-
-#: src/raven/start_listening.vala:20
-msgid "No apps are currently playing audio."
-msgstr ""
-
-#: src/raven/start_listening.vala:28
-msgid "Play some music"
-msgstr ""
-
-#: src/raven/notifications_view.vala:100
-msgid "Nothing to see here"
-msgstr "Không có gì để hiển thị"
-
-#: src/raven/notifications_view.vala:647
-#: src/applets/notifications/NotificationsApplet.vala:106
-#, c-format
-msgid "%u unread notifications"
-msgstr "%u thông báo chưa đọc"
-
-#: src/raven/notifications_view.vala:649
-#: src/applets/notifications/NotificationsApplet.vala:108
-msgid "1 unread notification"
-msgstr "1 thông báo chưa đọc"
-
-#: src/raven/notifications_view.vala:651
-#: src/applets/notifications/NotificationsApplet.vala:110
-msgid "No unread notifications"
-msgstr "Không có thông báo chưa đọc"
-
-#: src/raven/notifications_view.vala:882
-msgid "No new notifications"
-msgstr "Không có thông báo mới"
-
-#. 125ms
-#: src/raven/sound.vala:158
-msgid "Apps"
-msgstr ""
-
-#: src/raven/sound.vala:159
-msgid "Devices"
-msgstr ""
-
-#. there's already an active tray, create an informative icon with a popover
-#: src/applets/tray/TrayApplet.vala:114
-msgid "Only one instance of the System Tray can be active at a time."
-msgstr ""
-
-#: src/applets/tray/TrayApplet.vala:140
-msgid "The System Tray failed to initialize."
-msgstr ""
-
-#: src/applets/status/PowerIndicator.vala:93
-msgid "Battery fully charged."
-msgstr "Pin được sạc đầy."
-
-#: src/applets/status/PowerIndicator.vala:96
-msgid "Unknown"
-msgstr "Không rõ"
-
-#. Set inner charging duration to hours:minutes
-#: src/applets/status/PowerIndicator.vala:105
-msgid "Battery charging"
-msgstr "Pin đang sạc"
-
-#: src/applets/status/PowerIndicator.vala:110
-msgid "Battery remaining"
-msgstr "Pin còn lại"
-
-#: src/applets/status/PowerIndicator.vala:161
-msgid "Show battery percentage"
-msgstr "Hiện phần trăm pin"
-
-#: src/applets/status/PowerIndicator.vala:169
-msgid "Power settings"
-msgstr "Thiết lập năng lượng"
-
-#. Settings button
-#: src/applets/status/BluetoothIndicator.vala:53
-msgid "Bluetooth Settings"
-msgstr "Cài đặt Bluetooth"
-
-#. Send files button
-#: src/applets/status/BluetoothIndicator.vala:60
-msgid "Send Files"
-msgstr "Gửi tệp tin"
-
-#. Airplane mode
-#: src/applets/status/BluetoothIndicator.vala:70
-msgid "Bluetooth Airplane Mode"
-msgstr "Kích hoạt chế độ máy bay cho Bluetooth"
-
-#: src/applets/status/BluetoothIndicator.vala:173
-msgid "Bluetooth is disabled"
-msgstr "Bluetooth đã tắt"
-
-#: src/applets/status/BluetoothIndicator.vala:177
-msgid "Bluetooth is active"
-msgstr "Bluetooth đã bật"
-
-#: src/applets/status/BluetoothIndicator.vala:182
-#, c-format
-msgid "Connected to %d device"
-msgid_plural "Connected to %d devices"
-msgstr[0] "Đã kết nối với %d thiết bị"
-
-#: src/applets/icon-tasklist/IconPopover.vala:94
-msgid "Launch New Instance"
-msgstr ""
-
-#: src/applets/icon-tasklist/IconPopover.vala:97
-msgid "Close All Windows"
-msgstr ""
-
-#: src/applets/icon-tasklist/IconPopover.vala:105
-#, fuzzy
-msgid "Always On Top"
-msgstr "Luôn luôn"
-
-#: src/applets/icon-tasklist/IconPopover.vala:107
-#: src/applets/icon-tasklist/IconPopover.vala:485
-msgid "Maximize"
-msgstr ""
-
-#: src/applets/icon-tasklist/IconPopover.vala:108
-msgid "Minimize"
-msgstr ""
-
-#: src/applets/icon-tasklist/IconPopover.vala:373
-msgid "Unfavorite"
-msgstr ""
-
-#: src/applets/icon-tasklist/IconPopover.vala:373
-msgid "Favorite"
-msgstr ""
-
-#. If our current amount of workspaces is different than how many we have added
-#. We have items to add
-#. For workspaces we need to add
-#: src/applets/icon-tasklist/IconPopover.vala:385
-#, c-format
-msgid "Move To Workspace %i"
-msgstr ""
-
-#. Update our always on top button
-#: src/applets/icon-tasklist/IconPopover.vala:485
-msgid "Unmaximize"
-msgstr ""
-
-#: src/applets/icon-tasklist/IconPopover.vala:544
-#, fuzzy
-msgid "Close Window"
-msgstr "Các cửa sổ"
-
-#: src/applets/icon-tasklist/IconPopover.vala:546
-#, fuzzy
-msgid "Show Window Controls"
-msgstr "Tiêu đề cửa sổ"
-
-#: src/applets/budgie-menu/IconChooser.vala:24
-msgid "Set menu icon from file"
-msgstr "Đặt biểu tượng menu từ file"
-
-#: src/applets/budgie-menu/IconChooser.vala:34
-msgid "Image files"
-msgstr "Tập tin hình ảnh"
-
-#: src/applets/budgie-menu/IconChooser.vala:40
-msgid "Any file"
-msgstr "Mọi tệp"
-
-#: src/applets/budgie-menu/IconChooser.vala:52
-#: src/panel/settings/settings_autostart.vala:194
-#: src/panel/settings/settings_autostart.vala:359
-#: src/panel/settings/settings_applet_chooser.vala:79
-#: src/daemon/endsession.ui.h:3 src/polkit/dialog.ui.h:4
-msgid "Cancel"
-msgstr "Hủy"
-
-#: src/applets/budgie-menu/IconChooser.vala:53
-msgid "Set icon"
-msgstr "Đặt biểu tượng"
-
-#. Special case, "All"
-#: src/applets/budgie-menu/BudgieMenuButtons.vala:25
-msgid "All"
-msgstr "Tất cả"
-
-#. placeholder in case of no results
-#: src/applets/budgie-menu/BudgieMenuWindow.vala:123
-msgid "Sorry, no items found"
-msgstr ""
-
-#: src/applets/lock-keys/LockKeysApplet.vala:55
-msgid "Caps lock is active"
-msgstr "Phím bật chữ hoa đang hoạt động"
-
-#: src/applets/lock-keys/LockKeysApplet.vala:58
-msgid "Caps lock is not active"
-msgstr "Phím bật chữ hoa đang tắt"
-
-#: src/applets/lock-keys/LockKeysApplet.vala:67
-msgid "Num lock is active"
-msgstr "Bàn phím số đang bật"
-
-#: src/applets/lock-keys/LockKeysApplet.vala:70
-msgid "Num lock is not active"
-msgstr "Bàn phím số đang tắt"
-
-#: src/applets/clock/ClockApplet.vala:143
-msgid "Time and date settings"
-msgstr "Cài đặt ngày và giờ"
-
-#: src/applets/clock/ClockApplet.vala:144
-msgid "Calendar"
-msgstr "Lịch"
-
-#. pack page2
-#: src/applets/clock/ClockApplet.vala:151
-#: src/applets/clock/ClockApplet.vala:182
-msgid "Preferences"
-msgstr "Tùy chỉnh"
-
-#: src/applets/clock/ClockApplet.vala:161
-msgid "Show date"
-msgstr "Hiện ngày"
-
-#: src/applets/clock/ClockApplet.vala:166
-msgid "Show seconds"
-msgstr "Hiện giây"
-
-#: src/applets/clock/ClockApplet.vala:172
-msgid "Use 24 hour time"
-msgstr "Sử dụng kiểu giờ 24"
-
-#: src/applets/show-desktop/ShowDesktopApplet.vala:30
-msgid "Toggle the desktop"
-msgstr "Hiện màn hình chính"
-
-#: src/applets/workspaces/WorkspaceItem.vala:69
-msgid "Rename"
-msgstr "Đổi tên"
-
-#: src/applets/workspaces/WorkspaceItem.vala:77
-msgid "Remove"
-msgstr "Xóa"
-
-#: src/applets/caffeine/CaffeineWindow.vala:39
-msgid "Timer (minutes)"
-msgstr ""
-
-#. User Menu Creation
-#: src/applets/user-indicator/UserIndicatorWindow.vala:99
-msgid "User"
-msgstr "Người dùng"
-
-#. Default to "User" and symbolic icon
-#. The rest
-#: src/applets/user-indicator/UserIndicatorWindow.vala:105
-msgid "Lock"
-msgstr "Khóa"
-
-#: src/applets/user-indicator/UserIndicatorWindow.vala:106
-msgid "Suspend"
-msgstr "Tạm dừng"
-
-#: src/applets/user-indicator/UserIndicatorWindow.vala:107
-msgid "Hibernate"
-msgstr "Ngủ"
-
-#: src/applets/user-indicator/UserIndicatorWindow.vala:108
-#: src/daemon/endsession.ui.h:5
-msgid "Restart"
-msgstr "Khởi động lại"
-
-#: src/applets/user-indicator/UserIndicatorWindow.vala:109
-#: src/daemon/endsession.ui.h:6
-msgid "Shutdown"
-msgstr "Tắt nguồn"
-
-#: src/applets/user-indicator/UserIndicatorWindow.vala:208
-#: src/daemon/endsession.ui.h:4
-msgid "Logout"
-msgstr "Đăng xuất"
-
-#: src/applets/places-indicator/PlacesSection.vala:22
-#: src/applets/places-indicator/PlacesSection.vala:44
-#: src/applets/places-indicator/PlacesIndicator.vala:80
-#: src/applets/places-indicator/PlacesIndicator.plugin.in.h:1
-msgid "Places"
-msgstr "Khu vực"
-
-#: src/applets/places-indicator/PlacesIndicatorWindow.vala:179
-msgid "Nothing to display right now"
-msgstr "Không có gì để hiện thị lúc này"
-
-#: src/applets/places-indicator/PlacesIndicatorWindow.vala:183
-msgid "Mount some drives"
-msgstr "Gắn một số thiết bị"
-
-#: src/applets/places-indicator/PlacesIndicatorWindow.vala:183
-msgid "Enable more sections"
-msgstr "Bật thêm các mục"
-
-#: src/applets/places-indicator/PlaceItem.vala:36
-#: src/applets/places-indicator/MountItem.vala:63
-#, c-format
-msgid "Open \"%s\""
-msgstr "Mở %s"
-
-#: src/applets/places-indicator/MountHelper.vala:35
-msgid "Volume is in use by other processes"
-msgstr "Volume đang bị sử dụng bởi các tiến trình khác"
-
-#: src/applets/places-indicator/MountHelper.vala:40
-msgid "Operation aborted"
-msgstr "Tiến trình bị hủy"
-
-#: src/applets/places-indicator/MountHelper.vala:51
-msgid "Type your password"
-msgstr "Nhập mật khẩu của bạn"
-
-#: src/applets/places-indicator/VolumeItem.vala:25
-#: src/applets/places-indicator/MountItem.vala:23
-msgid "Removable devices"
-msgstr "Thiết bị gắn ngoài"
-
-#: src/applets/places-indicator/VolumeItem.vala:27
-#: src/applets/places-indicator/MountItem.vala:25
-msgid "Local volumes"
-msgstr "Lưu trữ cục bộ"
-
-#: src/applets/places-indicator/VolumeItem.vala:31
-#: src/applets/places-indicator/MountItem.vala:29
-msgid "Network folders"
-msgstr "Thư mục trong mạng"
-
-#: src/applets/places-indicator/VolumeItem.vala:34
-#: src/applets/places-indicator/MountItem.vala:32
-msgid "Other"
-msgstr "Khác"
-
-#: src/applets/places-indicator/VolumeItem.vala:41
-#, c-format
-msgid "Mount and open \"%s\""
-msgstr "Gắn và mở %s"
-
-#: src/applets/places-indicator/VolumeItem.vala:55
-#: src/applets/places-indicator/MountItem.vala:58
-msgid "Eject"
-msgstr "Đẩy ra"
-
-#: src/applets/places-indicator/VolumeItem.vala:73
-#: src/applets/places-indicator/VolumeItem.vala:114
-msgid "Enter the encryption passphrase to unlock this volume"
-msgstr "Nhập mật mã bảo mật để mở khóa volume này"
-
-#: src/applets/places-indicator/VolumeItem.vala:83
-#: src/applets/places-indicator/MountItem.vala:75
-msgid "You can now safely remove"
-msgstr "Bạn có thể tháo thiết bị an toàn"
-
-#: src/applets/places-indicator/VolumeItem.vala:112
-msgid "The password you entered is incorrect"
-msgstr "Mật khẩu bạn đã nhập là không chính xác"
-
-#: src/applets/places-indicator/VolumeItem.vala:116
-msgid "An unknown error occurred while attempting to mount this volume"
-msgstr "Gặp một lỗi không rõ khi cố gắng mount volume này"
-
-#: src/applets/places-indicator/MountItem.vala:60
-msgid "Unmount"
-msgstr "Bỏ gắn"
-
-#: src/applets/places-indicator/MountItem.vala:76
-msgid "Unknown Device"
-msgstr "Thiết bị Không rõ"
-
-#: src/applets/places-indicator/MountItem.vala:84
-msgid "Error while ejecting device"
-msgstr "Gặp lỗi khi đẩy thiết bị"
-
-#: src/applets/places-indicator/MountItem.vala:100
-msgid "Error while unmounting volume"
-msgstr "Gặp lỗi khi unmount volume"
-
 #: src/polkit/polkitdialog.vala:126
 msgid "Authentication failed"
 msgstr "Xác nhận thất bại"
@@ -472,26 +28,257 @@ msgstr "Xác nhận thất bại"
 msgid "Group:"
 msgstr "Nhóm:"
 
-#: src/panel/settings/settings_main.vala:36
+#: src/panel/settings/settings_raven.vala:61
+msgid "Set Raven position"
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:62
+msgid "Set which side of the screen Raven will open on. If set to Automatic, Raven will open where its parent panel is."
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:67
+msgid "Allow raising volume above 100%"
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:68
+msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:72
+msgid "Enable display of week numbers in Calendar"
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:73
+msgid "This setting enables the display of week numbers in the Calendar widget."
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:78
+msgid "Show Calendar Widget"
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:79
+msgid "Shows or hides the Calendar Widget in Raven's Applets section."
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:84
+msgid "Show Sound Output Widget"
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:85
+msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:90
+msgid "Show Microphone Input Widget"
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:91
+msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:96
+msgid "Show Media Playback Controls Widget"
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:97
+msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:102
+msgid "Show Power Strip"
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:103
+msgid "Shows or hides the Power Strip in the bottom of Raven."
+msgstr ""
+
+#: src/panel/settings/settings_panel_applets.vala:19
+msgid "Configure applet"
+msgstr "Chỉnh tiện ích"
+
+#: src/panel/settings/settings_panel_applets.vala:233
+#: src/panel/settings/settings_applet_chooser.vala:80
+msgid "Add applet"
+msgstr "Thêm tiện ích"
+
+#: src/panel/settings/settings_panel_applets.vala:234
+msgid "Choose a new applet to add to this panel"
+msgstr "Chọn một tiện ích mới thêm vào bảng này"
+
+#: src/panel/settings/settings_panel_applets.vala:248
+msgid "No settings available"
+msgstr "Không có cài đặt nào"
+
+#: src/panel/settings/settings_panel_applets.vala:401
+msgid "Start"
+msgstr "Bắt đầu"
+
+#: src/panel/settings/settings_panel_applets.vala:404
+msgid "Center"
+msgstr "Trung tâm"
+
+#: src/panel/settings/settings_panel_applets.vala:407
+msgid "End"
+msgstr "Cuối cùng"
+
+#: src/panel/settings/settings_panel_dialogs.vala:24
+msgid "Confirm panel removal"
+msgstr "Xác nhận gỡ bỏ bảng"
+
+#: src/panel/settings/settings_panel_dialogs.vala:31
+msgid "Do you really want to remove this panel? This action cannot be undone."
+msgstr "Bạn có thực sự muốn gỡ bỏ bảng này không? Hành động này không thể được hoàn tác."
+
+#: src/panel/settings/settings_panel_dialogs.vala:42
+msgid "Remove panel"
+msgstr "Gỡ bỏ bảng"
+
+#: src/panel/settings/settings_panel_dialogs.vala:43
+msgid "Keep panel"
+msgstr "Giữ lại bảng"
+
+#: src/panel/settings/settings_panel_dialogs.vala:67
+msgid "Confirm applet removal"
+msgstr "Xác nhận xóa bỏ tiện ích"
+
+#: src/panel/settings/settings_panel_dialogs.vala:74
+msgid "Do you really want to remove this applet? This action cannot be undone."
+msgstr "Bạn có thực sự muốn xóa tiện ích này? Hành động này không thể được hoàn tác."
+
+#: src/panel/settings/settings_panel_dialogs.vala:89
+msgid "Don't ask me again"
+msgstr "Đừng hỏi tôi lại"
+
+#: src/panel/settings/settings_panel_dialogs.vala:98
+msgid "Remove applet"
+msgstr "Xóa bỏ tiện ích"
+
+#: src/panel/settings/settings_panel_dialogs.vala:99
+msgid "Keep applet"
+msgstr "Giữ lại tiện ích"
+
+#: src/panel/settings/settings_main.vala:57
 msgid "Appearance"
 msgstr "Hiển thị"
 
-#: src/panel/settings/settings_main.vala:37
+#: src/panel/settings/settings_main.vala:58
 msgid "Panels"
 msgstr "Thanh công cụ"
 
-#: src/panel/settings/settings_main.vala:38
+#: src/panel/settings/settings_main.vala:59
 msgid "Session"
 msgstr "Phiên"
 
-#: src/panel/settings/settings_main.vala:47
+#: src/panel/settings/settings_main.vala:68
 #: src/panel/budgie-desktop-settings.desktop.in.h:1
 msgid "Budgie Desktop Settings"
 msgstr "Cài đặt Desktop Budgie"
 
-#: src/panel/settings/settings_main.vala:77
+#: src/panel/settings/settings_main.vala:98
 msgid "Create new panel"
 msgstr "Tạo thanh công cụ mới"
+
+#: src/panel/settings/settings_desktop.vala:51
+msgid "Desktop"
+msgstr "Màn hình nền"
+
+#. Budgie native implementation
+#. Get the settings for Budgie Desktop View
+#. Update our switches on change
+#. Desktop Folder
+#. Get the settings for DesktopType
+#. Update our switches on change
+#. Nemo
+#. Update our switches on change
+#. Using some desktop type, set up some universal options then implementation-specific
+#. Universal show
+#: src/panel/settings/settings_desktop.vala:76
+msgid "Desktop Icons"
+msgstr "Biểu tượng màn hình chính"
+
+#: src/panel/settings/settings_desktop.vala:77
+#, fuzzy
+msgid "Control whether to allow icons on the desktop."
+msgstr "Điều khiển có cho phép biểu tượng hoặc trình chạy ở trên màn hình chính hay không"
+
+#. DesktopFolder doesn't support fancy options like showing home folder, trash, or active mounts
+#. DesktopType is the only one that doesn't support showing mounts
+#. Switcher to show or hide active mounts
+#: src/panel/settings/settings_desktop.vala:86
+msgid "Active Mounts"
+msgstr ""
+
+#: src/panel/settings/settings_desktop.vala:87
+#, fuzzy
+msgid "Show all active mounts on the desktop."
+msgstr "Điều khiển có cho phép biểu tượng hoặc trình chạy ở trên màn hình chính hay không"
+
+#. Switcher to show or hide our Home folder
+#: src/panel/settings/settings_desktop.vala:94
+msgid "Home directory"
+msgstr "Thư mục nhà"
+
+#: src/panel/settings/settings_desktop.vala:95
+#, fuzzy
+msgid "Add a shortcut to your home directory on the desktop."
+msgstr "Thêm một liên kết đến thư mục nhà của bạn trên màn hình chính"
+
+#. Switcher to show or hide a shortcut to Trash
+#: src/panel/settings/settings_desktop.vala:102
+msgid "Trash"
+msgstr "Thùng rác"
+
+#: src/panel/settings/settings_desktop.vala:103
+#, fuzzy
+msgid "Add a shortcut to the Trash directory on the desktop."
+msgstr "Thêm một liên kết đến thư mục Thùng rác của bạn trên màn hình chính"
+
+#. DesktopType doesn't support icon size changing. Nemo might but needs validation.
+#. Icon Size combo box
+#: src/panel/settings/settings_desktop.vala:112
+#, fuzzy
+msgid "Icon Size"
+msgstr "Kích thước"
+
+#: src/panel/settings/settings_desktop.vala:113
+#, fuzzy
+msgid "Set the desired size of icons on the desktop."
+msgstr "Điều khiển có cho phép biểu tượng hoặc trình chạy ở trên màn hình chính hay không"
+
+#: src/panel/settings/settings_desktop.vala:144
+msgid "Number of virtual desktops"
+msgstr ""
+
+#: src/panel/settings/settings_desktop.vala:145
+msgid "Number of virtual desktops / workspaces to create automatically on startup."
+msgstr ""
+
+#: src/panel/settings/settings_desktop.vala:249
+msgid "Normal"
+msgstr ""
+
+#. Small
+#: src/panel/settings/settings_desktop.vala:252
+msgid "Small"
+msgstr ""
+
+#. Large
+#: src/panel/settings/settings_desktop.vala:254
+msgid "Large"
+msgstr ""
+
+#. Massive
+#: src/panel/settings/settings_desktop.vala:256
+msgid "Massive"
+msgstr ""
+
+#: src/panel/settings/settings_panel.vala:82 src/raven/main_view.vala:57
+msgid "Applets"
+msgstr "Tiện ích"
+
+#: src/panel/settings/settings_panel.vala:83 src/daemon/menus.vala:60
+msgid "Settings"
+msgstr "Cài đặt"
 
 #: src/panel/settings/settings_panel.vala:85
 #, fuzzy
@@ -538,12 +325,12 @@ msgstr "Thanh công cụ dưới"
 msgid "Top"
 msgstr "Phía trên"
 
-#: src/panel/settings/settings_panel.vala:179
+#: src/panel/settings/settings_panel.vala:179 src/raven/raven.vala:35
 msgid "Right"
 msgstr "Phải"
 
 #: src/panel/settings/settings_panel.vala:181
-#: src/panel/settings/settings_wm.vala:92
+#: src/panel/settings/settings_wm.vala:92 src/raven/raven.vala:33
 msgid "Left"
 msgstr "Trái"
 
@@ -565,7 +352,7 @@ msgstr "Cơ chế"
 msgid "None"
 msgstr "Không có"
 
-#: src/panel/settings/settings_panel.vala:208
+#: src/panel/settings/settings_panel.vala:208 src/raven/raven.vala:38
 msgid "Automatic"
 msgstr "Tự động"
 
@@ -633,154 +420,93 @@ msgstr "Chế độ Dock"
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
 msgstr "Khi trong chế độ dock, bảng sẽ sử dụng diện tích tối thiểu, giải phóng chỗ để hiển thị tài nguyên màn hình"
 
-#: src/panel/settings/settings_raven.vala:39
-msgid "Allow raising volume above 100%"
-msgstr ""
+#: src/panel/settings/settings_wm.vala:30
+msgid "Windows"
+msgstr "Các cửa sổ"
 
-#: src/panel/settings/settings_raven.vala:40
-msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
-msgstr ""
+#: src/panel/settings/settings_wm.vala:39
+msgid "Attach modal dialogs to windows"
+msgstr "Kèm các hội thoại mẫu vào cửa sổ"
 
-#: src/panel/settings/settings_raven.vala:44
-msgid "Enable display of week numbers in Calendar"
-msgstr ""
-
-#: src/panel/settings/settings_raven.vala:45
-msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr ""
-
-#: src/panel/settings/settings_raven.vala:50
-msgid "Show Calendar Widget"
-msgstr ""
-
-#: src/panel/settings/settings_raven.vala:51
-msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr ""
-
-#: src/panel/settings/settings_raven.vala:56
-msgid "Show Sound Output Widget"
-msgstr ""
-
-#: src/panel/settings/settings_raven.vala:57
-msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr ""
-
-#: src/panel/settings/settings_raven.vala:62
-msgid "Show Microphone Input Widget"
-msgstr ""
-
-#: src/panel/settings/settings_raven.vala:63
-msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
-msgstr ""
-
-#: src/panel/settings/settings_raven.vala:68
-msgid "Show Media Playback Controls Widget"
-msgstr ""
-
-#: src/panel/settings/settings_raven.vala:69
-msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
-msgstr ""
-
-#: src/panel/settings/settings_raven.vala:74
-msgid "Show Power Strip"
-msgstr ""
-
-#: src/panel/settings/settings_raven.vala:75
-msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr ""
-
-#: src/panel/settings/settings_panel_dialogs.vala:24
-msgid "Confirm panel removal"
-msgstr "Xác nhận gỡ bỏ bảng"
-
-#: src/panel/settings/settings_panel_dialogs.vala:31
-msgid "Do you really want to remove this panel? This action cannot be undone."
-msgstr "Bạn có thực sự muốn gỡ bỏ bảng này không? Hành động này không thể được hoàn tác."
-
-#: src/panel/settings/settings_panel_dialogs.vala:42
-msgid "Remove panel"
-msgstr "Gỡ bỏ bảng"
-
-#: src/panel/settings/settings_panel_dialogs.vala:43
-msgid "Keep panel"
-msgstr "Giữ lại bảng"
-
-#: src/panel/settings/settings_panel_dialogs.vala:67
-msgid "Confirm applet removal"
-msgstr "Xác nhận xóa bỏ tiện ích"
-
-#: src/panel/settings/settings_panel_dialogs.vala:74
-msgid "Do you really want to remove this applet? This action cannot be undone."
-msgstr "Bạn có thực sự muốn xóa tiện ích này? Hành động này không thể được hoàn tác."
-
-#: src/panel/settings/settings_panel_dialogs.vala:89
-msgid "Don't ask me again"
-msgstr "Đừng hỏi tôi lại"
-
-#: src/panel/settings/settings_panel_dialogs.vala:98
-msgid "Remove applet"
-msgstr "Xóa bỏ tiện ích"
-
-#: src/panel/settings/settings_panel_dialogs.vala:99
-msgid "Keep applet"
-msgstr "Giữ lại tiện ích"
-
-#: src/panel/settings/settings_desktop.vala:33
-msgid "Desktop"
-msgstr "Màn hình nền"
-
-#: src/panel/settings/settings_desktop.vala:46
-msgid "Desktop Icons"
-msgstr "Biểu tượng màn hình chính"
-
-#: src/panel/settings/settings_desktop.vala:47
+#: src/panel/settings/settings_wm.vala:40
 #, fuzzy
-msgid "Control whether to allow launchers and icons on the desktop."
-msgstr "Điều khiển có cho phép biểu tượng hoặc trình chạy ở trên màn hình chính hay không"
+msgid "Modal dialogs will become attached to the parent window and move together when dragged."
+msgstr "Các hội thoại mẫu sẽ được kèm vào cửa sổ mẹ và cùng di chuyển khi được kéo đi"
 
-#: src/panel/settings/settings_desktop.vala:57
-msgid "Home directory"
-msgstr "Thư mục nhà"
+#: src/panel/settings/settings_wm.vala:45
+msgid "Button layout"
+msgstr "Bố cục các phím"
 
-#: src/panel/settings/settings_desktop.vala:58
+#: src/panel/settings/settings_wm.vala:46
 #, fuzzy
-msgid "Add a shortcut to your home directory on the desktop."
-msgstr "Thêm một liên kết đến thư mục nhà của bạn trên màn hình chính"
+msgid "Change the layout of buttons in application titlebars."
+msgstr "Thay đổi bố cục nút bấm trong thanh tiêu đề ứng dụng"
 
-#: src/panel/settings/settings_desktop.vala:63
-msgid "Network servers"
-msgstr "Máy chủ mạng"
-
-#: src/panel/settings/settings_desktop.vala:64
-#, fuzzy
-msgid "Add a shortcut to your local network servers on the desktop."
-msgstr "Thêm một liên kết đến máy chủ mạng cục bộ của bạn trên màn hình chính"
-
-#: src/panel/settings/settings_desktop.vala:69
-msgid "Trash"
-msgstr "Thùng rác"
-
-#: src/panel/settings/settings_desktop.vala:70
-#, fuzzy
-msgid "Add a shortcut to the Trash directory on the desktop."
-msgstr "Thêm một liên kết đến thư mục Thùng rác của bạn trên màn hình chính"
-
-#: src/panel/settings/settings_desktop.vala:75
-msgid "Mounted volumes"
-msgstr "Gắn volume"
-
-#: src/panel/settings/settings_desktop.vala:76
-#, fuzzy
-msgid "Mounted volumes & drives will appear on the desktop."
-msgstr "Volume và ổ đĩa đã gắn sẽ hiện trên màn hình chính"
-
-#: src/panel/settings/settings_desktop.vala:106
-msgid "Number of virtual desktops"
+#: src/panel/settings/settings_wm.vala:51
+msgid "Center new windows on screen"
 msgstr ""
 
-#: src/panel/settings/settings_desktop.vala:107
-msgid "Number of virtual desktops / workspaces to create automatically on startup."
+#: src/panel/settings/settings_wm.vala:52
+msgid "Center newly launched windows on the current screen."
 msgstr ""
+
+#: src/panel/settings/settings_wm.vala:57
+msgid "Disable Night Light mode when windows are fullscreen"
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:58
+msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:63
+msgid "Automatic tiling"
+msgstr "Tự động bung"
+
+#: src/panel/settings/settings_wm.vala:64
+#, fuzzy
+msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
+msgstr "Các cửa sổ sẽ được bung tự động khi bị kéo về phía đầu màn hình hoặc các góc"
+
+#: src/panel/settings/settings_wm.vala:69
+msgid "Enable window focus change on mouse enter and leave"
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:70
+msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:76
+msgid "Disable unredirection of windows"
+msgstr "Vô hiệu hóa unredirection của các cửa sổ"
+
+#: src/panel/settings/settings_wm.vala:77
+#, fuzzy
+msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
+msgstr "Tùy chọn này là cho người dùng có kinh nghiệm. Dùng cái này nếu bạn đang có vấn đề về hiệu suất hoặc đồ họa với GPU dành riêng "
+
+#: src/panel/settings/settings_wm.vala:82
+msgid "Show all windows in tab switcher"
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:83
+msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:90
+msgid "Right (standard)"
+msgstr "Phải (mặc định)"
+
+#: src/panel/settings/settings_applet_chooser.vala:74
+msgid "Choose an applet"
+msgstr "Chọn một tiện ích"
+
+#: src/panel/settings/settings_applet_chooser.vala:79
+#: src/panel/settings/settings_autostart.vala:194
+#: src/panel/settings/settings_autostart.vala:359
+#: src/applets/budgie-menu/IconChooser.vala:52 src/polkit/dialog.ui.h:4
+#: src/daemon/endsession.ui.h:3
+msgid "Cancel"
+msgstr "Hủy"
 
 #: src/panel/settings/settings_style.vala:32
 msgid "Style"
@@ -859,167 +585,6 @@ msgstr "Phía dưới"
 #, fuzzy
 msgid "Top Right"
 msgstr "Phải"
-
-#: src/panel/settings/settings_autostart.vala:134
-msgid "Untitled"
-msgstr "Không tiêu đề"
-
-#: src/panel/settings/settings_autostart.vala:141
-msgid "No description"
-msgstr "Không mô tả"
-
-#: src/panel/settings/settings_autostart.vala:164
-msgid "running"
-msgstr "đang chạy"
-
-#: src/panel/settings/settings_autostart.vala:185
-msgid "Applications"
-msgstr "Ứng dụng"
-
-#: src/panel/settings/settings_autostart.vala:195
-#: src/panel/settings/settings_autostart.vala:360
-msgid "Add"
-msgstr "Thêm"
-
-#: src/panel/settings/settings_autostart.vala:354
-#: src/panel/settings/settings_autostart.vala:387
-msgid "Command"
-msgstr "Lệnh"
-
-#: src/panel/settings/settings_autostart.vala:370
-msgid "An entry with that title already exists"
-msgstr "Một chỉ mục với tiêu đề như vậy đã tồn tại"
-
-#: src/panel/settings/settings_autostart.vala:373
-msgid "Title"
-msgstr "Tiêu đề"
-
-#: src/panel/settings/settings_autostart.vala:377
-#: src/panel/settings/settings_autostart.vala:391
-msgid "Required"
-msgstr "Yêu cầu"
-
-#: src/panel/settings/settings_autostart.vala:380
-msgid "Description"
-msgstr "Mô tả"
-
-#: src/panel/settings/settings_autostart.vala:384
-msgid "Optional"
-msgstr "Tùy chọn"
-
-#: src/panel/settings/settings_autostart.vala:446
-msgid "Autostart"
-msgstr "Tự động chay"
-
-#: src/panel/settings/settings_autostart.vala:464
-#, fuzzy
-msgid "Autostart apps"
-msgstr "Tự động chay"
-
-#: src/panel/settings/settings_panel_applets.vala:19
-msgid "Configure applet"
-msgstr "Chỉnh tiện ích"
-
-#: src/panel/settings/settings_panel_applets.vala:233
-#: src/panel/settings/settings_applet_chooser.vala:80
-msgid "Add applet"
-msgstr "Thêm tiện ích"
-
-#: src/panel/settings/settings_panel_applets.vala:234
-msgid "Choose a new applet to add to this panel"
-msgstr "Chọn một tiện ích mới thêm vào bảng này"
-
-#: src/panel/settings/settings_panel_applets.vala:248
-msgid "No settings available"
-msgstr "Không có cài đặt nào"
-
-#: src/panel/settings/settings_panel_applets.vala:401
-msgid "Start"
-msgstr "Bắt đầu"
-
-#: src/panel/settings/settings_panel_applets.vala:404
-msgid "Center"
-msgstr "Trung tâm"
-
-#: src/panel/settings/settings_panel_applets.vala:407
-msgid "End"
-msgstr "Cuối cùng"
-
-#: src/panel/settings/settings_wm.vala:30
-msgid "Windows"
-msgstr "Các cửa sổ"
-
-#: src/panel/settings/settings_wm.vala:39
-msgid "Attach modal dialogs to windows"
-msgstr "Kèm các hội thoại mẫu vào cửa sổ"
-
-#: src/panel/settings/settings_wm.vala:40
-#, fuzzy
-msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr "Các hội thoại mẫu sẽ được kèm vào cửa sổ mẹ và cùng di chuyển khi được kéo đi"
-
-#: src/panel/settings/settings_wm.vala:45
-msgid "Button layout"
-msgstr "Bố cục các phím"
-
-#: src/panel/settings/settings_wm.vala:46
-#, fuzzy
-msgid "Change the layout of buttons in application titlebars."
-msgstr "Thay đổi bố cục nút bấm trong thanh tiêu đề ứng dụng"
-
-#: src/panel/settings/settings_wm.vala:51
-msgid "Center new windows on screen"
-msgstr ""
-
-#: src/panel/settings/settings_wm.vala:52
-msgid "Center newly launched windows on the current screen."
-msgstr ""
-
-#: src/panel/settings/settings_wm.vala:57
-msgid "Disable Night Light mode when windows are fullscreen"
-msgstr ""
-
-#: src/panel/settings/settings_wm.vala:58
-msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
-msgstr ""
-
-#: src/panel/settings/settings_wm.vala:63
-msgid "Automatic tiling"
-msgstr "Tự động bung"
-
-#: src/panel/settings/settings_wm.vala:64
-#, fuzzy
-msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr "Các cửa sổ sẽ được bung tự động khi bị kéo về phía đầu màn hình hoặc các góc"
-
-#: src/panel/settings/settings_wm.vala:69
-msgid "Enable window focus change on mouse enter and leave"
-msgstr ""
-
-#: src/panel/settings/settings_wm.vala:70
-msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
-msgstr ""
-
-#: src/panel/settings/settings_wm.vala:76
-msgid "Disable unredirection of windows"
-msgstr "Vô hiệu hóa unredirection của các cửa sổ"
-
-#: src/panel/settings/settings_wm.vala:77
-#, fuzzy
-msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr "Tùy chọn này là cho người dùng có kinh nghiệm. Dùng cái này nếu bạn đang có vấn đề về hiệu suất hoặc đồ họa với GPU dành riêng "
-
-#: src/panel/settings/settings_wm.vala:82
-msgid "Show all windows in tab switcher"
-msgstr ""
-
-#: src/panel/settings/settings_wm.vala:83
-msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
-msgstr ""
-
-#: src/panel/settings/settings_wm.vala:90
-msgid "Right (standard)"
-msgstr "Phải (mặc định)"
 
 #: src/panel/settings/settings_fonts.vala:32
 msgid "Fonts"
@@ -1106,17 +671,505 @@ msgstr ""
 msgid "Set the type of antialiasing to use."
 msgstr ""
 
-#: src/panel/settings/settings_applet_chooser.vala:74
-msgid "Choose an applet"
-msgstr "Chọn một tiện ích"
+#: src/panel/settings/settings_autostart.vala:134
+msgid "Untitled"
+msgstr "Không tiêu đề"
 
-#: src/daemon/endsession.ui.h:2
-msgid "Are you sure you want to end your session?"
-msgstr "Bạn có chắc muốn kết thúc phiên làm việc không?"
+#: src/panel/settings/settings_autostart.vala:141
+msgid "No description"
+msgstr "Không mô tả"
 
-#: src/applets/tray/settings.ui.h:1
-msgid "Icon Spacing"
+#: src/panel/settings/settings_autostart.vala:164
+msgid "running"
+msgstr "đang chạy"
+
+#: src/panel/settings/settings_autostart.vala:185
+msgid "Applications"
+msgstr "Ứng dụng"
+
+#: src/panel/settings/settings_autostart.vala:195
+#: src/panel/settings/settings_autostart.vala:360
+msgid "Add"
+msgstr "Thêm"
+
+#: src/panel/settings/settings_autostart.vala:354
+#: src/panel/settings/settings_autostart.vala:387
+msgid "Command"
+msgstr "Lệnh"
+
+#: src/panel/settings/settings_autostart.vala:370
+msgid "An entry with that title already exists"
+msgstr "Một chỉ mục với tiêu đề như vậy đã tồn tại"
+
+#: src/panel/settings/settings_autostart.vala:373
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: src/panel/settings/settings_autostart.vala:377
+#: src/panel/settings/settings_autostart.vala:391
+msgid "Required"
+msgstr "Yêu cầu"
+
+#: src/panel/settings/settings_autostart.vala:380
+msgid "Description"
+msgstr "Mô tả"
+
+#: src/panel/settings/settings_autostart.vala:384
+msgid "Optional"
+msgstr "Tùy chọn"
+
+#: src/panel/settings/settings_autostart.vala:446
+msgid "Autostart"
+msgstr "Tự động chay"
+
+#: src/panel/settings/settings_autostart.vala:464
+#, fuzzy
+msgid "Autostart apps"
+msgstr "Tự động chay"
+
+#: src/raven/start_listening.vala:20
+msgid "No apps are currently playing audio."
 msgstr ""
+
+#: src/raven/start_listening.vala:28
+msgid "Play some music"
+msgstr ""
+
+#: src/raven/main_view.vala:60
+#: src/applets/notifications/NotificationsApplet.plugin.in.h:1
+msgid "Notifications"
+msgstr "Thông báo"
+
+#. 125ms
+#: src/raven/sound.vala:158
+msgid "Apps"
+msgstr ""
+
+#: src/raven/sound.vala:159
+msgid "Devices"
+msgstr ""
+
+#: src/raven/notifications_view.vala:100
+msgid "Nothing to see here"
+msgstr "Không có gì để hiển thị"
+
+#: src/raven/notifications_view.vala:649
+#: src/applets/notifications/NotificationsApplet.vala:106
+#, c-format
+msgid "%u unread notifications"
+msgstr "%u thông báo chưa đọc"
+
+#: src/raven/notifications_view.vala:651
+#: src/applets/notifications/NotificationsApplet.vala:108
+msgid "1 unread notification"
+msgstr "1 thông báo chưa đọc"
+
+#: src/raven/notifications_view.vala:653
+#: src/applets/notifications/NotificationsApplet.vala:110
+msgid "No unread notifications"
+msgstr "Không có thông báo chưa đọc"
+
+#: src/raven/notifications_view.vala:884
+msgid "No new notifications"
+msgstr "Không có thông báo mới"
+
+#. Caffeine Notification
+#. Prepare label widget
+#: src/raven/notifications_group.vala:47
+#: src/applets/caffeine/CaffeineWindow.vala:37
+msgid "Caffeine Mode"
+msgstr ""
+
+#: src/applets/icon-tasklist/IconPopover.vala:106
+msgid "Launch New Instance"
+msgstr ""
+
+#: src/applets/icon-tasklist/IconPopover.vala:109
+msgid "Close All Windows"
+msgstr ""
+
+#: src/applets/icon-tasklist/IconPopover.vala:117
+#, fuzzy
+msgid "Always On Top"
+msgstr "Luôn luôn"
+
+#: src/applets/icon-tasklist/IconPopover.vala:119
+#: src/applets/icon-tasklist/IconPopover.vala:545
+msgid "Maximize"
+msgstr ""
+
+#: src/applets/icon-tasklist/IconPopover.vala:120
+msgid "Minimize"
+msgstr ""
+
+#: src/applets/icon-tasklist/IconPopover.vala:433
+msgid "Unfavorite"
+msgstr ""
+
+#: src/applets/icon-tasklist/IconPopover.vala:433
+msgid "Favorite"
+msgstr ""
+
+#. If our current amount of workspaces is different than how many we have added
+#. We have items to add
+#. For workspaces we need to add
+#: src/applets/icon-tasklist/IconPopover.vala:445
+#, c-format
+msgid "Move To Workspace %i"
+msgstr ""
+
+#. Update our always on top button
+#: src/applets/icon-tasklist/IconPopover.vala:545
+msgid "Unmaximize"
+msgstr ""
+
+#: src/applets/icon-tasklist/IconPopover.vala:604
+#, fuzzy
+msgid "Close Window"
+msgstr "Các cửa sổ"
+
+#: src/applets/icon-tasklist/IconPopover.vala:606
+#, fuzzy
+msgid "Show Window Controls"
+msgstr "Tiêu đề cửa sổ"
+
+#. there's already an active tray, create an informative icon with a popover
+#: src/applets/tray/TrayApplet.vala:114
+msgid "Only one instance of the System Tray can be active at a time."
+msgstr ""
+
+#: src/applets/tray/TrayApplet.vala:140
+msgid "The System Tray failed to initialize."
+msgstr ""
+
+#: src/applets/status/PowerIndicator.vala:93
+msgid "Battery fully charged."
+msgstr "Pin được sạc đầy."
+
+#: src/applets/status/PowerIndicator.vala:96
+msgid "Unknown"
+msgstr "Không rõ"
+
+#. Set inner charging duration to hours:minutes
+#: src/applets/status/PowerIndicator.vala:105
+msgid "Battery charging"
+msgstr "Pin đang sạc"
+
+#: src/applets/status/PowerIndicator.vala:110
+msgid "Battery remaining"
+msgstr "Pin còn lại"
+
+#: src/applets/status/PowerIndicator.vala:161
+msgid "Show battery percentage"
+msgstr "Hiện phần trăm pin"
+
+#: src/applets/status/PowerIndicator.vala:169
+msgid "Power settings"
+msgstr "Thiết lập năng lượng"
+
+#. Settings button
+#: src/applets/status/BluetoothIndicator.vala:53
+msgid "Bluetooth Settings"
+msgstr "Cài đặt Bluetooth"
+
+#. Send files button
+#: src/applets/status/BluetoothIndicator.vala:60
+msgid "Send Files"
+msgstr "Gửi tệp tin"
+
+#. Airplane mode
+#: src/applets/status/BluetoothIndicator.vala:70
+msgid "Bluetooth Airplane Mode"
+msgstr "Kích hoạt chế độ máy bay cho Bluetooth"
+
+#: src/applets/status/BluetoothIndicator.vala:173
+msgid "Bluetooth is disabled"
+msgstr "Bluetooth đã tắt"
+
+#: src/applets/status/BluetoothIndicator.vala:177
+msgid "Bluetooth is active"
+msgstr "Bluetooth đã bật"
+
+#: src/applets/status/BluetoothIndicator.vala:182
+#, c-format
+msgid "Connected to %d device"
+msgid_plural "Connected to %d devices"
+msgstr[0] "Đã kết nối với %d thiết bị"
+
+#: src/applets/places-indicator/PlacesSection.vala:22
+#: src/applets/places-indicator/PlacesSection.vala:44
+#: src/applets/places-indicator/PlacesIndicator.vala:80
+#: src/applets/places-indicator/PlacesIndicator.plugin.in.h:1
+msgid "Places"
+msgstr "Khu vực"
+
+#: src/applets/places-indicator/MountHelper.vala:35
+msgid "Volume is in use by other processes"
+msgstr "Volume đang bị sử dụng bởi các tiến trình khác"
+
+#: src/applets/places-indicator/MountHelper.vala:40
+msgid "Operation aborted"
+msgstr "Tiến trình bị hủy"
+
+#: src/applets/places-indicator/MountHelper.vala:51
+msgid "Type your password"
+msgstr "Nhập mật khẩu của bạn"
+
+#: src/applets/places-indicator/PlacesIndicatorWindow.vala:179
+msgid "Nothing to display right now"
+msgstr "Không có gì để hiện thị lúc này"
+
+#: src/applets/places-indicator/PlacesIndicatorWindow.vala:183
+msgid "Mount some drives"
+msgstr "Gắn một số thiết bị"
+
+#: src/applets/places-indicator/PlacesIndicatorWindow.vala:183
+msgid "Enable more sections"
+msgstr "Bật thêm các mục"
+
+#: src/applets/places-indicator/VolumeItem.vala:25
+#: src/applets/places-indicator/MountItem.vala:23
+msgid "Removable devices"
+msgstr "Thiết bị gắn ngoài"
+
+#: src/applets/places-indicator/VolumeItem.vala:27
+#: src/applets/places-indicator/MountItem.vala:25
+msgid "Local volumes"
+msgstr "Lưu trữ cục bộ"
+
+#: src/applets/places-indicator/VolumeItem.vala:31
+#: src/applets/places-indicator/MountItem.vala:29
+msgid "Network folders"
+msgstr "Thư mục trong mạng"
+
+#: src/applets/places-indicator/VolumeItem.vala:34
+#: src/applets/places-indicator/MountItem.vala:32
+msgid "Other"
+msgstr "Khác"
+
+#: src/applets/places-indicator/VolumeItem.vala:41
+#, c-format
+msgid "Mount and open \"%s\""
+msgstr "Gắn và mở %s"
+
+#: src/applets/places-indicator/VolumeItem.vala:55
+#: src/applets/places-indicator/MountItem.vala:58
+msgid "Eject"
+msgstr "Đẩy ra"
+
+#: src/applets/places-indicator/VolumeItem.vala:73
+#: src/applets/places-indicator/VolumeItem.vala:114
+msgid "Enter the encryption passphrase to unlock this volume"
+msgstr "Nhập mật mã bảo mật để mở khóa volume này"
+
+#: src/applets/places-indicator/VolumeItem.vala:83
+#: src/applets/places-indicator/MountItem.vala:75
+msgid "You can now safely remove"
+msgstr "Bạn có thể tháo thiết bị an toàn"
+
+#: src/applets/places-indicator/VolumeItem.vala:112
+msgid "The password you entered is incorrect"
+msgstr "Mật khẩu bạn đã nhập là không chính xác"
+
+#: src/applets/places-indicator/VolumeItem.vala:116
+msgid "An unknown error occurred while attempting to mount this volume"
+msgstr "Gặp một lỗi không rõ khi cố gắng mount volume này"
+
+#: src/applets/places-indicator/MountItem.vala:60
+msgid "Unmount"
+msgstr "Bỏ gắn"
+
+#: src/applets/places-indicator/MountItem.vala:63
+#: src/applets/places-indicator/PlaceItem.vala:36
+#, c-format
+msgid "Open \"%s\""
+msgstr "Mở %s"
+
+#: src/applets/places-indicator/MountItem.vala:76
+msgid "Unknown Device"
+msgstr "Thiết bị Không rõ"
+
+#: src/applets/places-indicator/MountItem.vala:84
+msgid "Error while ejecting device"
+msgstr "Gặp lỗi khi đẩy thiết bị"
+
+#: src/applets/places-indicator/MountItem.vala:100
+msgid "Error while unmounting volume"
+msgstr "Gặp lỗi khi unmount volume"
+
+#: src/applets/caffeine/CaffeineWindow.vala:39
+msgid "Timer (minutes)"
+msgstr ""
+
+#: src/applets/show-desktop/ShowDesktopApplet.vala:30
+msgid "Toggle the desktop"
+msgstr "Hiện màn hình chính"
+
+#: src/applets/lock-keys/LockKeysApplet.vala:55
+msgid "Caps lock is active"
+msgstr "Phím bật chữ hoa đang hoạt động"
+
+#: src/applets/lock-keys/LockKeysApplet.vala:58
+msgid "Caps lock is not active"
+msgstr "Phím bật chữ hoa đang tắt"
+
+#: src/applets/lock-keys/LockKeysApplet.vala:67
+msgid "Num lock is active"
+msgstr "Bàn phím số đang bật"
+
+#: src/applets/lock-keys/LockKeysApplet.vala:70
+msgid "Num lock is not active"
+msgstr "Bàn phím số đang tắt"
+
+#: src/applets/clock/ClockApplet.vala:143
+msgid "Time and date settings"
+msgstr "Cài đặt ngày và giờ"
+
+#: src/applets/clock/ClockApplet.vala:144
+msgid "Calendar"
+msgstr "Lịch"
+
+#. pack page2
+#: src/applets/clock/ClockApplet.vala:151
+#: src/applets/clock/ClockApplet.vala:182
+msgid "Preferences"
+msgstr "Tùy chỉnh"
+
+#: src/applets/clock/ClockApplet.vala:161
+msgid "Show date"
+msgstr "Hiện ngày"
+
+#: src/applets/clock/ClockApplet.vala:166
+msgid "Show seconds"
+msgstr "Hiện giây"
+
+#: src/applets/clock/ClockApplet.vala:172
+msgid "Use 24 hour time"
+msgstr "Sử dụng kiểu giờ 24"
+
+#: src/applets/workspaces/WorkspaceItem.vala:69
+msgid "Rename"
+msgstr "Đổi tên"
+
+#: src/applets/workspaces/WorkspaceItem.vala:77
+msgid "Remove"
+msgstr "Xóa"
+
+#. placeholder in case of no results
+#: src/applets/budgie-menu/BudgieMenuWindow.vala:123
+msgid "Sorry, no items found"
+msgstr ""
+
+#. Special case, "All"
+#: src/applets/budgie-menu/BudgieMenuButtons.vala:25
+msgid "All"
+msgstr "Tất cả"
+
+#: src/applets/budgie-menu/IconChooser.vala:24
+msgid "Set menu icon from file"
+msgstr "Đặt biểu tượng menu từ file"
+
+#: src/applets/budgie-menu/IconChooser.vala:34
+msgid "Image files"
+msgstr "Tập tin hình ảnh"
+
+#: src/applets/budgie-menu/IconChooser.vala:40
+msgid "Any file"
+msgstr "Mọi tệp"
+
+#: src/applets/budgie-menu/IconChooser.vala:53
+msgid "Set icon"
+msgstr "Đặt biểu tượng"
+
+#. User Menu Creation
+#: src/applets/user-indicator/UserIndicatorWindow.vala:99
+msgid "User"
+msgstr "Người dùng"
+
+#. Default to "User" and symbolic icon
+#. The rest
+#: src/applets/user-indicator/UserIndicatorWindow.vala:105
+msgid "Lock"
+msgstr "Khóa"
+
+#: src/applets/user-indicator/UserIndicatorWindow.vala:106
+msgid "Suspend"
+msgstr "Tạm dừng"
+
+#: src/applets/user-indicator/UserIndicatorWindow.vala:107
+msgid "Hibernate"
+msgstr "Ngủ"
+
+#: src/applets/user-indicator/UserIndicatorWindow.vala:108
+#: src/daemon/endsession.ui.h:5
+msgid "Restart"
+msgstr "Khởi động lại"
+
+#: src/applets/user-indicator/UserIndicatorWindow.vala:109
+#: src/daemon/endsession.ui.h:6
+msgid "Shutdown"
+msgstr "Tắt nguồn"
+
+#: src/applets/user-indicator/UserIndicatorWindow.vala:208
+#: src/daemon/endsession.ui.h:4
+msgid "Logout"
+msgstr "Đăng xuất"
+
+#: src/daemon/menus.vala:46
+msgid "Change background"
+msgstr "Thay ảnh nền"
+
+#: src/daemon/menus.vala:51
+#, fuzzy
+msgid "Displays"
+msgstr "Cài đặt Hiển thị"
+
+#: src/daemon/endsession.vala:157
+msgid "Log out"
+msgstr "Đăng xuất"
+
+#: src/daemon/endsession.vala:161
+msgid "Restart device"
+msgstr "Khởi động lại thiết bị"
+
+#: src/daemon/endsession.vala:173 src/daemon/endsession.ui.h:1
+msgid "Power Off"
+msgstr "Tắt nguồn"
+
+#. Should show a notification
+#: src/daemon/settings.vala:341
+msgid "Turned on Caffeine Boost"
+msgstr ""
+
+#: src/daemon/settings.vala:341
+msgid "Turned off Caffeine Boost"
+msgstr ""
+
+#: src/daemon/settings.vala:346
+msgid "Will turn off in a minute"
+msgstr ""
+
+#. use plural
+#: src/daemon/settings.vala:349
+#, c-format
+msgid "Will turn off in %d minutes"
+msgstr ""
+
+#: src/polkit/dialog.ui.h:1
+msgid "Authentication Required"
+msgstr "Yêu cầu Xác nhận"
+
+#: src/polkit/dialog.ui.h:2
+msgid "Password:"
+msgstr "Mật khẩu:"
+
+#: src/polkit/dialog.ui.h:3
+msgid "Authentication is required"
+msgstr "Xác nhận là cần thiết"
+
+#: src/polkit/dialog.ui.h:5
+msgid "Authenticate"
+msgstr "Xác nhận"
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
@@ -1146,6 +1199,10 @@ msgstr ""
 msgid "Require a double-click to launch new window"
 msgstr ""
 
+#: src/applets/tray/settings.ui.h:1
+msgid "Icon Spacing"
+msgstr ""
+
 #: src/applets/night-light/indicator_window.ui.h:1
 #: src/applets/night-light/NightLight.plugin.in.h:1
 msgid "Night Light"
@@ -1170,6 +1227,56 @@ msgstr "Thông thường"
 #: src/applets/night-light/indicator_window.ui.h:6
 msgid "Display Settings"
 msgstr "Cài đặt Hiển thị"
+
+#: src/applets/places-indicator/settings.ui.h:1
+msgid "Show label"
+msgstr "Hiện nhãn"
+
+#: src/applets/places-indicator/settings.ui.h:2
+msgid "Show places"
+msgstr "Hiện vị trí"
+
+#: src/applets/places-indicator/settings.ui.h:3
+msgid "Show network folders"
+msgstr "Hiện các thư mục trong mạng"
+
+#: src/applets/places-indicator/settings.ui.h:4
+msgid "Show removable drives"
+msgstr "Hiện các thiết bị gắn ngoài"
+
+#: src/applets/places-indicator/settings.ui.h:5
+msgid "Always expand places"
+msgstr "Luôn mở rộng các vị trí"
+
+#: src/applets/caffeine/settings.ui.h:1
+#, fuzzy
+msgid "Enable notification"
+msgstr "Không có thông báo mới"
+
+#: src/applets/caffeine/settings.ui.h:2
+msgid "Maximize brightness"
+msgstr ""
+
+#: src/applets/caffeine/settings.ui.h:3
+msgid "Brightness Level"
+msgstr ""
+
+#: src/applets/workspaces/settings.ui.h:1
+msgid "\"Add\" button visibility"
+msgstr ""
+
+#: src/applets/workspaces/settings.ui.h:2
+msgid "Don't show"
+msgstr ""
+
+#: src/applets/workspaces/settings.ui.h:3
+msgid "Show on mouseover"
+msgstr ""
+
+#: src/applets/workspaces/settings.ui.h:4
+#, fuzzy
+msgid "Always show"
+msgstr "Luôn luôn"
 
 #: src/applets/spacer/settings.ui.h:1
 msgid "Spacer size"
@@ -1199,140 +1306,9 @@ msgstr "Rê chuột sẽ hiển thị"
 msgid "Menu Icon"
 msgstr "Biểu tượng Menu"
 
-#: src/applets/workspaces/settings.ui.h:1
-msgid "\"Add\" button visibility"
-msgstr ""
-
-#: src/applets/workspaces/settings.ui.h:2
-msgid "Don't show"
-msgstr ""
-
-#: src/applets/workspaces/settings.ui.h:3
-msgid "Show on mouseover"
-msgstr ""
-
-#: src/applets/workspaces/settings.ui.h:4
-#, fuzzy
-msgid "Always show"
-msgstr "Luôn luôn"
-
-#: src/applets/caffeine/settings.ui.h:1
-#, fuzzy
-msgid "Enable notification"
-msgstr "Không có thông báo mới"
-
-#: src/applets/caffeine/settings.ui.h:2
-msgid "Maximize brightness"
-msgstr ""
-
-#: src/applets/caffeine/settings.ui.h:3
-msgid "Brightness Level"
-msgstr ""
-
-#: src/applets/places-indicator/settings.ui.h:1
-msgid "Show label"
-msgstr "Hiện nhãn"
-
-#: src/applets/places-indicator/settings.ui.h:2
-msgid "Show places"
-msgstr "Hiện vị trí"
-
-#: src/applets/places-indicator/settings.ui.h:3
-msgid "Show network folders"
-msgstr "Hiện các thư mục trong mạng"
-
-#: src/applets/places-indicator/settings.ui.h:4
-msgid "Show removable drives"
-msgstr "Hiện các thiết bị gắn ngoài"
-
-#: src/applets/places-indicator/settings.ui.h:5
-msgid "Always expand places"
-msgstr "Luôn mở rộng các vị trí"
-
-#: src/polkit/dialog.ui.h:1
-msgid "Authentication Required"
-msgstr "Yêu cầu Xác nhận"
-
-#: src/polkit/dialog.ui.h:2
-msgid "Password:"
-msgstr "Mật khẩu:"
-
-#: src/polkit/dialog.ui.h:3
-msgid "Authentication is required"
-msgstr "Xác nhận là cần thiết"
-
-#: src/polkit/dialog.ui.h:5
-msgid "Authenticate"
-msgstr "Xác nhận"
-
-#: src/session/budgie-desktop.desktop.in.in.h:1
-#: src/session/budgie-desktop.session.in.in.h:1
-msgid "Budgie Desktop"
-msgstr "Giao diện Budgie"
-
-#: src/session/budgie-desktop.desktop.in.in.h:2
-msgid "This session logs you into the Budgie Desktop"
-msgstr "Phiên làm việc hiện tại trên giao diện Budgie"
-
-#: src/applets/tray/TrayApplet.plugin.in.h:1
-msgid "System Tray"
-msgstr "Khay công cụ hệ thống"
-
-#: src/applets/status/StatusApplet.plugin.in.h:1
-msgid "Status Indicator"
-msgstr "Hiển thị trạng thái"
-
-#: src/applets/icon-tasklist/IconTasklistApplet.plugin.in.h:1
-msgid "Icon Task List"
-msgstr "Biểu tượng cho danh sách tiến trình"
-
-#: src/applets/spacer/SpacerApplet.plugin.in.h:1
-msgid "Spacer"
-msgstr "Khoảng trống"
-
-#: src/applets/budgie-menu/BudgieMenu.plugin.in.h:1
-msgid "Budgie Menu"
-msgstr "Bảng chọn Budgie"
-
-#: src/applets/lock-keys/LockKeysApplet.plugin.in.h:1
-msgid "Lock Keys Indicator"
-msgstr "Hiển thị phím khóa"
-
-#: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
-msgid "Raven Sidebar Control"
-msgstr "Thiết đặt Thanh lề Raven"
-
-#: src/applets/clock/ClockApplet.plugin.in.h:1
-msgid "Clock"
-msgstr "Đồng hồ"
-
-#: src/applets/separator/SeparatorApplet.plugin.in.h:1
-msgid "Separator"
-msgstr "Chia tách"
-
-#: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
-msgid "Show Desktop Button"
-msgstr "Hiện phím màn hình chính"
-
-#: src/applets/workspaces/WorkspacesApplet.plugin.in.h:1
-msgid "Workspace Switcher"
-msgstr "Chuyển không gian làm việc"
-
-#: src/applets/tasklist/TasklistApplet.plugin.in.h:1
-msgid "Task List"
-msgstr "Danh sách tiến trình"
-
-#: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
-msgid "Caffeine"
-msgstr ""
-
-#: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
-msgid "Keyboard Layout Indicator"
-msgstr "Hiển thị kiểu bàn phím"
-
-#: src/applets/user-indicator/UserIndicator.plugin.in.h:1
-msgid "User Indicator"
-msgstr "Hiển thị người dùng"
+#: src/daemon/endsession.ui.h:2
+msgid "Are you sure you want to end your session?"
+msgstr "Bạn có chắc muốn kết thúc phiên làm việc không?"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
 #, fuzzy
@@ -1346,3 +1322,72 @@ msgstr "Bảng Budgie"
 #: src/panel/budgie-panel.desktop.in.h:2
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
 msgstr "Chạy các chương trình khác và cho nhiều công cụ để quản lí cửa sổ, hiển thị thời gian, vv."
+
+#: src/applets/icon-tasklist/IconTasklistApplet.plugin.in.h:1
+msgid "Icon Task List"
+msgstr "Biểu tượng cho danh sách tiến trình"
+
+#: src/applets/separator/SeparatorApplet.plugin.in.h:1
+msgid "Separator"
+msgstr "Chia tách"
+
+#: src/applets/tray/TrayApplet.plugin.in.h:1
+msgid "System Tray"
+msgstr "Khay công cụ hệ thống"
+
+#: src/applets/status/StatusApplet.plugin.in.h:1
+msgid "Status Indicator"
+msgstr "Hiển thị trạng thái"
+
+#: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
+msgid "Caffeine"
+msgstr ""
+
+#: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
+msgid "Show Desktop Button"
+msgstr "Hiện phím màn hình chính"
+
+#: src/applets/lock-keys/LockKeysApplet.plugin.in.h:1
+msgid "Lock Keys Indicator"
+msgstr "Hiển thị phím khóa"
+
+#: src/applets/clock/ClockApplet.plugin.in.h:1
+msgid "Clock"
+msgstr "Đồng hồ"
+
+#: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
+msgid "Raven Sidebar Control"
+msgstr "Thiết đặt Thanh lề Raven"
+
+#: src/applets/workspaces/WorkspacesApplet.plugin.in.h:1
+msgid "Workspace Switcher"
+msgstr "Chuyển không gian làm việc"
+
+#: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
+msgid "Keyboard Layout Indicator"
+msgstr "Hiển thị kiểu bàn phím"
+
+#: src/applets/spacer/SpacerApplet.plugin.in.h:1
+msgid "Spacer"
+msgstr "Khoảng trống"
+
+#: src/applets/tasklist/TasklistApplet.plugin.in.h:1
+msgid "Task List"
+msgstr "Danh sách tiến trình"
+
+#: src/applets/budgie-menu/BudgieMenu.plugin.in.h:1
+msgid "Budgie Menu"
+msgstr "Bảng chọn Budgie"
+
+#: src/applets/user-indicator/UserIndicator.plugin.in.h:1
+msgid "User Indicator"
+msgstr "Hiển thị người dùng"
+
+#: src/session/budgie-desktop.desktop.in.in.h:1
+#: src/session/budgie-desktop.session.in.in.h:1
+msgid "Budgie Desktop"
+msgstr "Giao diện Budgie"
+
+#: src/session/budgie-desktop.desktop.in.in.h:2
+msgid "This session logs you into the Budgie Desktop"
+msgstr "Phiên làm việc hiện tại trên giao diện Budgie"
