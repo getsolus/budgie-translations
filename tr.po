@@ -10,9 +10,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
-"PO-Revision-Date: 2020-07-15 06:45+0000\n"
+"PO-Revision-Date: 2020-11-19 00:14+0000\n"
 "Last-Translator: Abdulkadir Furkan Şanlı <abdulkadirfsanli@protonmail.com>\n"
-"Language-Team: Turkish <http://translate.getsol.us/projects/budgie-desktop/translations/tr/>\n"
+"Language-Team: Turkish <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,11 +31,13 @@ msgstr "Grup:"
 
 #: src/panel/settings/settings_raven.vala:61
 msgid "Set Raven position"
-msgstr ""
+msgstr "Raven konumunu belirle"
 
 #: src/panel/settings/settings_raven.vala:62
 msgid "Set which side of the screen Raven will open on. If set to Automatic, Raven will open where its parent panel is."
 msgstr ""
+"Raven'ın ekranın hangi tarafında görüneceğini belirle. Otomatiğe "
+"ayarlanırsa, Raven ana panelinin tarafında açılır."
 
 #: src/panel/settings/settings_raven.vala:67
 msgid "Allow raising volume above 100%"
@@ -197,9 +200,8 @@ msgid "Desktop Icons"
 msgstr "Masaüstü Simgeleri"
 
 #: src/panel/settings/settings_desktop.vala:77
-#, fuzzy
 msgid "Control whether to allow icons on the desktop."
-msgstr "Masaüstündeki başlatıcılara ve simgelere izin verilip verilmeyeceğini kontrol et."
+msgstr "Masaüstünde ikonlara izin verilmesini kontrol edin."
 
 #. DesktopFolder doesn't support fancy options like showing home folder, trash, or active mounts
 #. DesktopType is the only one that doesn't support showing mounts
