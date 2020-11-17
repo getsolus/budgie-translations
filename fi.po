@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
 "PO-Revision-Date: 2020-11-17 18:47+0000\n"
-"Last-Translator: stalebrim <stalebrim@posteo.net>\n"
+"Last-Translator: Oi Suomi On! <oisuomion@protonmail.com>\n"
 "Language-Team: Finnish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/fi/>\n"
 "Language: fi\n"
@@ -430,18 +430,16 @@ msgid "Attach modal dialogs to windows"
 msgstr "Määritä valintaikkunat seuraamaan ikkunoita"
 
 #: src/panel/settings/settings_wm.vala:40
-#, fuzzy
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr "Valintaikkunat kiinnittyvät pääikkunaan ja raahautuvat niiden mukana"
+msgstr "Valintaikkunat kiinnittyvät pääikkunaan ja raahautuvat niiden mukana."
 
 #: src/panel/settings/settings_wm.vala:45
 msgid "Button layout"
 msgstr "Painikkeiden asettelu"
 
 #: src/panel/settings/settings_wm.vala:46
-#, fuzzy
 msgid "Change the layout of buttons in application titlebars."
-msgstr "Muuta painikkeiden asettelua ohjelmien otsikkopalkissa"
+msgstr "Muuta painikkeiden asettelua ohjelmien otsikkopalkissa."
 
 #: src/panel/settings/settings_wm.vala:51
 msgid "Center new windows on screen"
@@ -464,9 +462,10 @@ msgid "Automatic tiling"
 msgstr "Automaattinen asettelu"
 
 #: src/panel/settings/settings_wm.vala:64
-#, fuzzy
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr "Ikkunat asetellaan automaattisesti raahattaessa näytön yläreunaan tai kulmiin"
+msgstr ""
+"Ikkunat asetellaan automaattisesti raahattaessa näytön yläreunaan tai "
+"kulmiin."
 
 #: src/panel/settings/settings_wm.vala:69
 msgid "Enable window focus change on mouse enter and leave"
@@ -481,9 +480,10 @@ msgid "Disable unredirection of windows"
 msgstr "Poista ikkunoiden uudelleenohjaus käytöstä"
 
 #: src/panel/settings/settings_wm.vala:77
-#, fuzzy
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr "Tämä asetus on edistyneille käyttäjille. Käytä tätä, jos sinulla on graafisia tai suorituskykyyn liittyviä ongelmia erillisillä näytönohjaimilla"
+msgstr ""
+"Tämä asetus on edistyneille käyttäjille. Käytä tätä, jos sinulla on "
+"graafisia tai suorituskykyyn liittyviä ongelmia erillisillä näytönohjaimilla."
 
 #: src/panel/settings/settings_wm.vala:82
 msgid "Show all windows in tab switcher"
@@ -567,24 +567,20 @@ msgid "Control whether windows and controls use animations"
 msgstr "Hallinnoi käyttävätkö ikkunat ja painikkeet animaatioita"
 
 #: src/panel/settings/settings_style.vala:204
-#, fuzzy
 msgid "Top Left"
-msgstr "Vasen"
+msgstr "Vasen yläkulma"
 
 #: src/panel/settings/settings_style.vala:206
-#, fuzzy
 msgid "Bottom Left"
-msgstr "Ala"
+msgstr "Vasen alakulma"
 
 #: src/panel/settings/settings_style.vala:208
-#, fuzzy
 msgid "Bottom Right"
-msgstr "Ala"
+msgstr "Oikea alakulma"
 
 #: src/panel/settings/settings_style.vala:211
-#, fuzzy
 msgid "Top Right"
-msgstr "Oikea"
+msgstr "Oikea yläkulma"
 
 #: src/panel/settings/settings_fonts.vala:32
 msgid "Fonts"
@@ -595,36 +591,32 @@ msgid "Window Titles"
 msgstr "Ikkunoiden otsikot"
 
 #: src/panel/settings/settings_fonts.vala:44
-#, fuzzy
 msgid "Set the font used in the titlebars of applications."
-msgstr "Aseta sovellusten otsikkopalkeissa käytettävä fontti"
+msgstr "Aseta kirjasin jota käytetään sovellusten otsikkopalkeissa."
 
 #: src/panel/settings/settings_fonts.vala:50
 msgid "Documents"
 msgstr "Asiakirjat"
 
 #: src/panel/settings/settings_fonts.vala:51
-#, fuzzy
 msgid "Set the display font used by for documents."
-msgstr "Aseta dokumenttien esittämisessä käytettävä fontti"
+msgstr "Aseta kirjasin jota käytetään dokumenttien esittämisessä."
 
 #: src/panel/settings/settings_fonts.vala:57
 msgid "Interface"
 msgstr "Käyttöliittymä"
 
 #: src/panel/settings/settings_fonts.vala:58
-#, fuzzy
 msgid "Set the primary font used by application controls."
-msgstr "Aseta ensisijainen fontti sovellusten kontrolleille"
+msgstr "Aseta ensisijainen kirjasin sovellusten hallitsimille"
 
 #: src/panel/settings/settings_fonts.vala:64
 msgid "Monospace"
 msgstr "Tasalevyinen"
 
 #: src/panel/settings/settings_fonts.vala:65
-#, fuzzy
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr "Aseta tasalevyinen fontti tekstipainotteisille sovelluksille"
+msgstr "Aseta tasalevyinen kirjasin tekstipainotteisille sovelluksille."
 
 #: src/panel/settings/settings_fonts.vala:71
 msgid "Text scaling"
@@ -643,9 +635,8 @@ msgid "Medium"
 msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:83
-#, fuzzy
 msgid "Slight"
-msgstr "Oikea"
+msgstr "Vähäinen"
 
 #: src/panel/settings/settings_fonts.vala:100
 msgid "Hinting"
@@ -723,9 +714,8 @@ msgid "Autostart"
 msgstr "Automaattinen käynnistys"
 
 #: src/panel/settings/settings_autostart.vala:464
-#, fuzzy
 msgid "Autostart apps"
-msgstr "Automaattinen käynnistys"
+msgstr "Sovellusten automaattikäynnistys"
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
@@ -1246,9 +1236,8 @@ msgid "Always expand places"
 msgstr "Laajenna aina sijainnit"
 
 #: src/applets/caffeine/settings.ui.h:1
-#, fuzzy
 msgid "Enable notification"
-msgstr "Ei uusia ilmoituksia"
+msgstr "Kytke ilmoitukset päälle"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
@@ -1307,9 +1296,8 @@ msgid "Are you sure you want to end your session?"
 msgstr "Haluatko varmasti päättää istunnon?"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
-#, fuzzy
 msgid "Change desktop appearance and behavior"
-msgstr "Muuta työpöydän ulkoasua ja toimintaa"
+msgstr "Muuta työpöydän ulkoasua ja käytösmallia"
 
 #: src/panel/budgie-panel.desktop.in.h:1
 msgid "Budgie Panel"
