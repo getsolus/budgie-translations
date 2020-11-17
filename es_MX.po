@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
-"PO-Revision-Date: 2020-11-17 17:40+0000\n"
-"Last-Translator: Omar Plata Salas <omarps464@gmail.com>\n"
+"PO-Revision-Date: 2020-11-17 17:57+0000\n"
+"Last-Translator: Evan Maddock <maddock.evan@vivaldi.net>\n"
 "Language-Team: Spanish (Mexico) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/es_MX/>\n"
 "Language: es_MX\n"
@@ -33,11 +33,13 @@ msgstr "Grupo:"
 
 #: src/panel/settings/settings_raven.vala:61
 msgid "Set Raven position"
-msgstr ""
+msgstr "Fijar la posición de Raven"
 
 #: src/panel/settings/settings_raven.vala:62
 msgid "Set which side of the screen Raven will open on. If set to Automatic, Raven will open where its parent panel is."
 msgstr ""
+"Establecer en qué lado de la pantalla se abrirá Raven. Si se fija en "
+"Automático, Raven se abrirá donde esté su panel principal."
 
 #: src/panel/settings/settings_raven.vala:67
 msgid "Allow raising volume above 100%"
@@ -200,9 +202,8 @@ msgid "Desktop Icons"
 msgstr "Iconos de escritorio"
 
 #: src/panel/settings/settings_desktop.vala:77
-#, fuzzy
 msgid "Control whether to allow icons on the desktop."
-msgstr "Controla si existen lanzadores e íconos en el escritorio."
+msgstr "Controla si se mostrarán íconos en el escritorio."
 
 #. DesktopFolder doesn't support fancy options like showing home folder, trash, or active mounts
 #. DesktopType is the only one that doesn't support showing mounts
@@ -639,7 +640,7 @@ msgstr "Derecha"
 
 #: src/panel/settings/settings_fonts.vala:100
 msgid "Hinting"
-msgstr ""
+msgstr "Sugerencias de fuentes"
 
 #: src/panel/settings/settings_fonts.vala:101
 #, fuzzy
