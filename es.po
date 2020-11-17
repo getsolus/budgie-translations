@@ -20,9 +20,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
-"PO-Revision-Date: 2019-09-28 16:21+0000\n"
-"Last-Translator: Jorge <teamevomagix@gmail.com>\n"
-"Language-Team: Spanish <http://translate.getsol.us/projects/budgie-desktop/translations/es/>\n"
+"PO-Revision-Date: 2020-11-17 16:38+0000\n"
+"Last-Translator: guillermo <memomadrigal01@gmail.com>\n"
+"Language-Team: Spanish <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -722,7 +723,7 @@ msgstr "Inicio automático de aplicaciones"
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
-msgstr "Actualmente no hay aplicaciones reproduciendo audio."
+msgstr "No hay aplicaciones reproduciendo audio."
 
 #: src/raven/start_listening.vala:28
 msgid "Play some music"
