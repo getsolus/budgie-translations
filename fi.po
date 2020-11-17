@@ -13,15 +13,16 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
-"PO-Revision-Date: 2019-03-17 08:42+0000\n"
-"Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
-"Language-Team: Finnish <http://translate.getsol.us/projects/budgie-desktop/translations/fi/>\n"
+"PO-Revision-Date: 2020-11-17 18:47+0000\n"
+"Last-Translator: stalebrim <stalebrim@posteo.net>\n"
+"Language-Team: Finnish <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.4-dev\n"
+"X-Generator: Weblate 3.8\n"
 
 #: src/polkit/polkitdialog.vala:126
 msgid "Authentication failed"
@@ -33,11 +34,13 @@ msgstr "Ryhmä:"
 
 #: src/panel/settings/settings_raven.vala:61
 msgid "Set Raven position"
-msgstr ""
+msgstr "Aseta Ravenin sijainti"
 
 #: src/panel/settings/settings_raven.vala:62
 msgid "Set which side of the screen Raven will open on. If set to Automatic, Raven will open where its parent panel is."
 msgstr ""
+"Valitse millä puolella näyttöä Raven aukeaa. Jos automaattinen on asetettu, "
+"Raven aukeaa sille puolelle jolla isäntäpaneeli on."
 
 #: src/panel/settings/settings_raven.vala:67
 msgid "Allow raising volume above 100%"
@@ -45,7 +48,7 @@ msgstr "Salli äänenvoimakkuuden nostaminen yli 100%"
 
 #: src/panel/settings/settings_raven.vala:68
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
-msgstr ""
+msgstr "Mahdollistaa äänenvoimakkuuden nostamisen 150% asti."
 
 #: src/panel/settings/settings_raven.vala:72
 msgid "Enable display of week numbers in Calendar"
@@ -53,39 +56,41 @@ msgstr "Näytä viikkonumerot kalenterissa"
 
 #: src/panel/settings/settings_raven.vala:73
 msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr ""
+msgstr "Sallii viikkonumeroiden näytön Kalenteri-pienoissovelluksessa."
 
 #: src/panel/settings/settings_raven.vala:78
 msgid "Show Calendar Widget"
-msgstr ""
+msgstr "Näytä Kalenteri-pienoissovellus"
 
 #: src/panel/settings/settings_raven.vala:79
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr ""
+msgstr "Näyttää tai piilottaa kalenterin Ravenin pienoissovellusosiossa."
 
 #: src/panel/settings/settings_raven.vala:84
 msgid "Show Sound Output Widget"
-msgstr ""
+msgstr "Näytä ääniulostulon pienoissovellus"
 
 #: src/panel/settings/settings_raven.vala:85
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr ""
+msgstr "Näyttää tai piilottaa ääniulostulon pienoissovelluksen Ravenissa."
 
 #: src/panel/settings/settings_raven.vala:90
 msgid "Show Microphone Input Widget"
-msgstr ""
+msgstr "Näytä mikrofonin pienoissovellus"
 
 #: src/panel/settings/settings_raven.vala:91
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
-msgstr ""
+msgstr "Näyttää tai piilottaa mikrofonin pienoissovelluksen Ravenissa."
 
 #: src/panel/settings/settings_raven.vala:96
 msgid "Show Media Playback Controls Widget"
-msgstr ""
+msgstr "Näytä mediantoiston hallinnan pienoissovellus"
 
 #: src/panel/settings/settings_raven.vala:97
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
 msgstr ""
+"Näyttää tai piilottaa mediantoistonhallinnan (MPRIS) pienoissovelluksen "
+"Ravenissa."
 
 #: src/panel/settings/settings_raven.vala:102
 msgid "Show Power Strip"
@@ -200,21 +205,19 @@ msgid "Desktop Icons"
 msgstr "Työpöytäkuvakkeet"
 
 #: src/panel/settings/settings_desktop.vala:77
-#, fuzzy
 msgid "Control whether to allow icons on the desktop."
-msgstr "Määritä sallitaanko käynnistimet ja kuvakkeet työpöydällä"
+msgstr "Määritä sallitaanko käynnistimet ja kuvakkeet työpöydällä."
 
 #. DesktopFolder doesn't support fancy options like showing home folder, trash, or active mounts
 #. DesktopType is the only one that doesn't support showing mounts
 #. Switcher to show or hide active mounts
 #: src/panel/settings/settings_desktop.vala:86
 msgid "Active Mounts"
-msgstr ""
+msgstr "Aktiiviset liitokset"
 
 #: src/panel/settings/settings_desktop.vala:87
-#, fuzzy
 msgid "Show all active mounts on the desktop."
-msgstr "Määritä sallitaanko käynnistimet ja kuvakkeet työpöydällä"
+msgstr "Näytä kaikki aktiiviset liitokset työpöydällä."
 
 #. Switcher to show or hide our Home folder
 #: src/panel/settings/settings_desktop.vala:94
@@ -222,9 +225,8 @@ msgid "Home directory"
 msgstr "Kotikansio"
 
 #: src/panel/settings/settings_desktop.vala:95
-#, fuzzy
 msgid "Add a shortcut to your home directory on the desktop."
-msgstr "Lisää kotikansioon osoittava pikakuvake työpöydälle"
+msgstr "Lisää kotikansioon osoittava pikakuvake työpöydälle."
 
 #. Switcher to show or hide a shortcut to Trash
 #: src/panel/settings/settings_desktop.vala:102
@@ -232,48 +234,45 @@ msgid "Trash"
 msgstr "Roskakori"
 
 #: src/panel/settings/settings_desktop.vala:103
-#, fuzzy
 msgid "Add a shortcut to the Trash directory on the desktop."
-msgstr "Lisää roskakoriin osoittava pikakuvake työpöydälle"
+msgstr "Lisää roskakoriin osoittava pikakuvake työpöydälle."
 
 #. DesktopType doesn't support icon size changing. Nemo might but needs validation.
 #. Icon Size combo box
 #: src/panel/settings/settings_desktop.vala:112
-#, fuzzy
 msgid "Icon Size"
-msgstr "Koko"
+msgstr "Kuvakkeiden koko"
 
 #: src/panel/settings/settings_desktop.vala:113
-#, fuzzy
 msgid "Set the desired size of icons on the desktop."
-msgstr "Määritä sallitaanko käynnistimet ja kuvakkeet työpöydällä"
+msgstr "Määritä kuvakkeiden koko työpöydällä."
 
 #: src/panel/settings/settings_desktop.vala:144
 msgid "Number of virtual desktops"
-msgstr ""
+msgstr "Virtuaalityöpöytien määrä"
 
 #: src/panel/settings/settings_desktop.vala:145
 msgid "Number of virtual desktops / workspaces to create automatically on startup."
-msgstr ""
+msgstr "Automaattisten virtuaalityöpöytien / työtilojen määrä käynnistyksessä."
 
 #: src/panel/settings/settings_desktop.vala:249
 msgid "Normal"
-msgstr ""
+msgstr "Tavallinen"
 
 #. Small
 #: src/panel/settings/settings_desktop.vala:252
 msgid "Small"
-msgstr ""
+msgstr "Pieni"
 
 #. Large
 #: src/panel/settings/settings_desktop.vala:254
 msgid "Large"
-msgstr ""
+msgstr "Suuri"
 
 #. Massive
 #: src/panel/settings/settings_desktop.vala:256
 msgid "Massive"
-msgstr ""
+msgstr "Jättimäinen"
 
 #: src/panel/settings/settings_panel.vala:82 src/raven/main_view.vala:57
 msgid "Applets"
@@ -284,7 +283,6 @@ msgid "Settings"
 msgstr "Asetukset"
 
 #: src/panel/settings/settings_panel.vala:85
-#, fuzzy
 msgid "Remove Panel"
 msgstr "Poista paneeli"
 
@@ -501,7 +499,7 @@ msgstr "Oikea (standardi)"
 
 #: src/panel/settings/settings_applet_chooser.vala:74
 msgid "Choose an applet"
-msgstr "Valitse appletti"
+msgstr "Valitse pienoissovellus"
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 #: src/panel/settings/settings_autostart.vala:194
@@ -517,7 +515,7 @@ msgstr "Tyyli"
 
 #: src/panel/settings/settings_style.vala:46
 msgid "Widgets"
-msgstr "Widgetit"
+msgstr "Pienoissovellukset"
 
 #: src/panel/settings/settings_style.vala:47
 msgid "Set the appearance of window decorations and controls"
@@ -529,7 +527,7 @@ msgstr "Kuvakkeet"
 
 #: src/panel/settings/settings_style.vala:52
 msgid "Set the globally used icon theme"
-msgstr "Aseta käytettävä kuvaketeema"
+msgstr "Aseta yleisesti käytettävä kuvaketeema"
 
 #: src/panel/settings/settings_style.vala:56
 msgid "Cursors"
