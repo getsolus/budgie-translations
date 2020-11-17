@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
 "PO-Revision-Date: 2020-11-17 17:57+0000\n"
-"Last-Translator: Evan Maddock <maddock.evan@vivaldi.net>\n"
+"Last-Translator: Kevin Figueroa <produccioneskf@outlook.com>\n"
 "Language-Team: Spanish (Mexico) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/es_MX/>\n"
 "Language: es_MX\n"
@@ -627,16 +627,15 @@ msgstr "Establecer el factor de escala del texto."
 
 #: src/panel/settings/settings_fonts.vala:81
 msgid "Full"
-msgstr ""
+msgstr "Completo"
 
 #: src/panel/settings/settings_fonts.vala:82
 msgid "Medium"
 msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:83
-#, fuzzy
 msgid "Slight"
-msgstr "Derecha"
+msgstr "Leve"
 
 #: src/panel/settings/settings_fonts.vala:100
 msgid "Hinting"
@@ -649,7 +648,7 @@ msgstr "Establecer el factor de escala del texto."
 
 #: src/panel/settings/settings_fonts.vala:108
 msgid "Subpixel (for LCD screens)"
-msgstr ""
+msgstr "Subpíxel (para pantallas LCD)"
 
 #: src/panel/settings/settings_fonts.vala:109
 msgid "Standard (grayscale)"
@@ -657,7 +656,7 @@ msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:125
 msgid "Antialiasing"
-msgstr ""
+msgstr "Anti alias"
 
 #: src/panel/settings/settings_fonts.vala:126
 #, fuzzy
