@@ -8,9 +8,10 @@ msgstr ""
 "Project-Id-Version: budgie-desktop 10.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
-"PO-Revision-Date: 2020-11-15 14:52+0000\n"
+"PO-Revision-Date: 2020-11-19 00:14+0000\n"
 "Last-Translator: Girtablulu <flinux@vongellhorn.ch>\n"
-"Language-Team: German (Swiss High) <http://translate.getsol.us/projects/budgie-desktop/translations/de_CH/>\n"
+"Language-Team: German (Swiss High) <http://translate.getsol.us/projects/"
+"budgie-desktop/translations/de_CH/>\n"
 "Language: de_CH\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,11 +29,14 @@ msgstr "Gruppe:"
 
 #: src/panel/settings/settings_raven.vala:61
 msgid "Set Raven position"
-msgstr ""
+msgstr "Raven-Position einstellen"
 
 #: src/panel/settings/settings_raven.vala:62
 msgid "Set which side of the screen Raven will open on. If set to Automatic, Raven will open where its parent panel is."
 msgstr ""
+"Lege fest, auf welcher Seite des Bildschirms sich Raven öffnen soll. Wenn "
+"auf Automatisch eingestellt, öffnet sich Raven dort, wo seine Hauptleiste "
+"ist."
 
 #: src/panel/settings/settings_raven.vala:67
 msgid "Allow raising volume above 100%"
@@ -195,21 +199,19 @@ msgid "Desktop Icons"
 msgstr "Desktop-Symbole"
 
 #: src/panel/settings/settings_desktop.vala:77
-#, fuzzy
 msgid "Control whether to allow icons on the desktop."
-msgstr "Festlegen, ob Anwendungen und Symbole auf dem Desktop zu sehen sind."
+msgstr "Festlegen, ob Symbole auf dem Desktop zugelassen werden sollen."
 
 #. DesktopFolder doesn't support fancy options like showing home folder, trash, or active mounts
 #. DesktopType is the only one that doesn't support showing mounts
 #. Switcher to show or hide active mounts
 #: src/panel/settings/settings_desktop.vala:86
 msgid "Active Mounts"
-msgstr ""
+msgstr "Aktive Laufwerke"
 
 #: src/panel/settings/settings_desktop.vala:87
-#, fuzzy
 msgid "Show all active mounts on the desktop."
-msgstr "Festlegen, ob Anwendungen und Symbole auf dem Desktop zu sehen sind."
+msgstr "Zeige alle aktive eingebundene Laufwerke auf dem Desktop."
 
 #. Switcher to show or hide our Home folder
 #: src/panel/settings/settings_desktop.vala:94
@@ -232,14 +234,12 @@ msgstr "Fügt eine Verknüpfung zum Papierkorb auf dem Desktop hinzu."
 #. DesktopType doesn't support icon size changing. Nemo might but needs validation.
 #. Icon Size combo box
 #: src/panel/settings/settings_desktop.vala:112
-#, fuzzy
 msgid "Icon Size"
-msgstr "Symbolabstand"
+msgstr "Symbolgrösse"
 
 #: src/panel/settings/settings_desktop.vala:113
-#, fuzzy
 msgid "Set the desired size of icons on the desktop."
-msgstr "Festlegen, ob Anwendungen und Symbole auf dem Desktop zu sehen sind."
+msgstr "Stelle die gewünschte Grösse der Symbole auf dem Desktop ein."
 
 #: src/panel/settings/settings_desktop.vala:144
 msgid "Number of virtual desktops"
@@ -251,22 +251,22 @@ msgstr "Anzahl an Virtuellen Desktops / Arbeitsplätze die automatisch bei Syste
 
 #: src/panel/settings/settings_desktop.vala:249
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #. Small
 #: src/panel/settings/settings_desktop.vala:252
 msgid "Small"
-msgstr ""
+msgstr "Klein"
 
 #. Large
 #: src/panel/settings/settings_desktop.vala:254
 msgid "Large"
-msgstr ""
+msgstr "Gross"
 
 #. Massive
 #: src/panel/settings/settings_desktop.vala:256
 msgid "Massive"
-msgstr ""
+msgstr "Riesig"
 
 #: src/panel/settings/settings_panel.vala:82 src/raven/main_view.vala:57
 msgid "Applets"
