@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
 "PO-Revision-Date: 2020-11-18 19:10+0000\n"
-"Last-Translator: Samuli Reijonen <reijonen.samuli@gmail.com>\n"
+"Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/fi/>\n"
 "Language: fi\n"
@@ -1110,7 +1110,7 @@ msgstr "Kirjaudu ulos"
 
 #: src/daemon/menus.vala:46
 msgid "Change background"
-msgstr "Vaihda tausta"
+msgstr "Muuta taustaa"
 
 #: src/daemon/menus.vala:51
 msgid "Displays"
