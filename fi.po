@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
-"PO-Revision-Date: 2020-11-18 19:10+0000\n"
-"Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
+"PO-Revision-Date: 2020-11-19 00:14+0000\n"
+"Last-Translator: stalebrim <stalebrim@posteo.net>\n"
 "Language-Team: Finnish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/fi/>\n"
 "Language: fi\n"
@@ -541,7 +541,7 @@ msgstr "Osoittimet"
 
 #: src/panel/settings/settings_style.vala:57
 msgid "Set the globally used mouse cursor theme"
-msgstr "Aseta käytettävä hiiren osoitinteema"
+msgstr "Aseta käytettävä osoitinteema"
 
 #: src/panel/settings/settings_style.vala:61
 msgid "Notification Position"
@@ -561,7 +561,7 @@ msgstr "Sisäänrakennettu teema"
 
 #: src/panel/settings/settings_style.vala:79
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr "Kun päällä, sisäänrakennettu teema ohittaa työpöydän osien teemoituksen"
+msgstr "Kun päällä, sisäänrakennettu teema jyrää työpöydän osien teemoituksen"
 
 #: src/panel/settings/settings_style.vala:86
 msgid "Animations"
@@ -605,7 +605,7 @@ msgstr "Asiakirjat"
 
 #: src/panel/settings/settings_fonts.vala:51
 msgid "Set the display font used by for documents."
-msgstr "Aseta kirjasin jota käytetään dokumenttien esittämisessä."
+msgstr "Aseta asiakirjoissa näytettävä kirjasin."
 
 #: src/panel/settings/settings_fonts.vala:57
 msgid "Interface"
@@ -621,7 +621,7 @@ msgstr "Tasalevyinen"
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr "Aseta tasalevyinen kirjasin tekstipainotteisille sovelluksille."
+msgstr "Aseta tasalevyinen kirjasin tekstipainotteisille ohjelmille."
 
 #: src/panel/settings/settings_fonts.vala:71
 msgid "Text scaling"
@@ -633,11 +633,11 @@ msgstr "Aseta tekstin skaalauksen kerroin."
 
 #: src/panel/settings/settings_fonts.vala:81
 msgid "Full"
-msgstr "Täysi"
+msgstr "Vahva"
 
 #: src/panel/settings/settings_fonts.vala:82
 msgid "Medium"
-msgstr "Keskikokoinen"
+msgstr "Keskivahva"
 
 #: src/panel/settings/settings_fonts.vala:83
 msgid "Slight"
@@ -704,7 +704,7 @@ msgstr "Nimi"
 #: src/panel/settings/settings_autostart.vala:377
 #: src/panel/settings/settings_autostart.vala:391
 msgid "Required"
-msgstr "Vaadittu"
+msgstr "Vaaditaan"
 
 #: src/panel/settings/settings_autostart.vala:380
 msgid "Description"
@@ -720,7 +720,7 @@ msgstr "Automaattinen käynnistys"
 
 #: src/panel/settings/settings_autostart.vala:464
 msgid "Autostart apps"
-msgstr "Sovellusten automaattikäynnistys"
+msgstr "Sovellusten automaattinen käynnistys"
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
@@ -728,7 +728,7 @@ msgstr "Mikään sovellus ei toista ääntä tällä hetkellä."
 
 #: src/raven/start_listening.vala:28
 msgid "Play some music"
-msgstr "Laita musiikkia soimaan"
+msgstr "Soita jotain musiikkia"
 
 #: src/raven/main_view.vala:60
 #: src/applets/notifications/NotificationsApplet.plugin.in.h:1
@@ -746,7 +746,7 @@ msgstr "Laitteet"
 
 #: src/raven/notifications_view.vala:100
 msgid "Nothing to see here"
-msgstr "Ei mitään nähtävää"
+msgstr "Täällä ei ole mitään nähtävää"
 
 #: src/raven/notifications_view.vala:649
 #: src/applets/notifications/NotificationsApplet.vala:106
@@ -773,7 +773,7 @@ msgstr "Ei uusia ilmoituksia"
 #: src/raven/notifications_group.vala:47
 #: src/applets/caffeine/CaffeineWindow.vala:37
 msgid "Caffeine Mode"
-msgstr "Caffeine-tila"
+msgstr "Kofeiini"
 
 #: src/applets/icon-tasklist/IconPopover.vala:106
 msgid "Launch New Instance"
@@ -823,16 +823,16 @@ msgstr "Sulje ikkuna"
 
 #: src/applets/icon-tasklist/IconPopover.vala:606
 msgid "Show Window Controls"
-msgstr "Näytä ikkunan kontrollit"
+msgstr "Näytä ikkunan säätimet"
 
 #. there's already an active tray, create an informative icon with a popover
 #: src/applets/tray/TrayApplet.vala:114
 msgid "Only one instance of the System Tray can be active at a time."
-msgstr ""
+msgstr "Vain yksi ilmaisinalue voi olla aktiivinen kerrallaan."
 
 #: src/applets/tray/TrayApplet.vala:140
 msgid "The System Tray failed to initialize."
-msgstr ""
+msgstr "Ilmaisinalueen alustaminen epäonnistui."
 
 #: src/applets/status/PowerIndicator.vala:93
 msgid "Battery fully charged."
@@ -876,7 +876,7 @@ msgstr "Bluetoothin lentokonetila"
 
 #: src/applets/status/BluetoothIndicator.vala:173
 msgid "Bluetooth is disabled"
-msgstr "Bluetooth on pois käytöstä"
+msgstr "Bluetooth on poissa käytöstä"
 
 #: src/applets/status/BluetoothIndicator.vala:177
 msgid "Bluetooth is active"
@@ -1131,7 +1131,7 @@ msgstr "Sammuta"
 #. Should show a notification
 #: src/daemon/settings.vala:341
 msgid "Turned on Caffeine Boost"
-msgstr "Caffeine Boost käytossä"
+msgstr "Caffeine Boost käytössä"
 
 #: src/daemon/settings.vala:341
 msgid "Turned off Caffeine Boost"
@@ -1181,7 +1181,7 @@ msgstr "Rajoita työtilaan"
 
 #: src/applets/icon-tasklist/settings.ui.h:5
 msgid "Window grouping"
-msgstr "Ikkunaryhmitys"
+msgstr "Ikkunoiden ryhmitys"
 
 #: src/applets/icon-tasklist/settings.ui.h:6
 msgid "Middle click to launch new window"
@@ -1246,7 +1246,7 @@ msgstr "Kytke ilmoitukset päälle"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
-msgstr ""
+msgstr "Maksimikirkkaus"
 
 #: src/applets/caffeine/settings.ui.h:3
 msgid "Brightness Level"
@@ -1262,7 +1262,7 @@ msgstr ""
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
-msgstr ""
+msgstr "Näytä hiiren ollessa yllä"
 
 #: src/applets/workspaces/settings.ui.h:4
 msgid "Always show"
@@ -1290,7 +1290,7 @@ msgstr "Valikkoteksti"
 
 #: src/applets/budgie-menu/settings.ui.h:5
 msgid "Roll-over mouse"
-msgstr ""
+msgstr "Vaihda kategoriaa hiiren ollessa yllä"
 
 #: src/applets/budgie-menu/settings.ui.h:6
 msgid "Menu Icon"
@@ -1302,7 +1302,7 @@ msgstr "Haluatko varmasti päättää istunnon?"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
 msgid "Change desktop appearance and behavior"
-msgstr "Muuta työpöydän ulkoasua ja käytösmallia"
+msgstr "Muuta työpöydän ulkoasua ja käytöstä"
 
 #: src/panel/budgie-panel.desktop.in.h:1
 msgid "Budgie Panel"
@@ -1330,7 +1330,7 @@ msgstr "Tilailmaisin"
 
 #: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
 msgid "Caffeine"
-msgstr ""
+msgstr "Caffeine-pienoissovellus"
 
 #: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
 msgid "Show Desktop Button"
