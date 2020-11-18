@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
 "PO-Revision-Date: 2020-11-19 00:14+0000\n"
-"Last-Translator: Manjot Singh <manjotsinghpunjab@gmail.com>\n"
+"Last-Translator: Gagandeep Singh <gagankang420@gmail.com>\n"
 "Language-Team: Punjabi <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/pa/>\n"
 "Language: pa\n"
@@ -1082,7 +1082,7 @@ msgstr "ਫਾਈਲ ਤੋਂ 'ਚੋਂ ਮੀਨੂ ਆਈਕਾਨ ਸੈਟ
 
 #: src/applets/budgie-menu/IconChooser.vala:34
 msgid "Image files"
-msgstr ""
+msgstr "ਚਿੱਤਰ ਫਾਈਲਾਂ"
 
 #: src/applets/budgie-menu/IconChooser.vala:40
 msgid "Any file"
@@ -1090,7 +1090,7 @@ msgstr "ਕੋਈ ਵੀ ਫਾਈਲ"
 
 #: src/applets/budgie-menu/IconChooser.vala:53
 msgid "Set icon"
-msgstr ""
+msgstr "ਆਈਕਾਨ ਸੈੱਟ ਕਰੋ"
 
 #. User Menu Creation
 #: src/applets/user-indicator/UserIndicatorWindow.vala:99
