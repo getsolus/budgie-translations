@@ -8,26 +8,28 @@ msgstr ""
 "Project-Id-Version: budgie-desktop 10.5.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-11-19 00:14+0000\n"
+"Last-Translator: Terrance Brown <terranceb@gmail.com>\n"
+"Language-Team: Afrikaans <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/af/>\n"
 "Language: af\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.8\n"
 
 #: src/polkit/polkitdialog.vala:126
 msgid "Authentication failed"
-msgstr ""
+msgstr "Verifikasie misluk"
 
 #: src/polkit/polkitdialog.vala:215
 msgid "Group:"
-msgstr ""
+msgstr "Groepeer:"
 
 #: src/panel/settings/settings_raven.vala:61
 msgid "Set Raven position"
-msgstr ""
+msgstr "Stel Raven-posisie in"
 
 #: src/panel/settings/settings_raven.vala:62
 msgid "Set which side of the screen Raven will open on. If set to Automatic, Raven will open where its parent panel is."
@@ -50,8 +52,9 @@ msgid "This setting enables the display of week numbers in the Calendar widget."
 msgstr ""
 
 #: src/panel/settings/settings_raven.vala:78
+#, fuzzy
 msgid "Show Calendar Widget"
-msgstr ""
+msgstr "Wys Kalender-Widget"
 
 #: src/panel/settings/settings_raven.vala:79
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
