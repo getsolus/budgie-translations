@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
 "PO-Revision-Date: 2020-11-18 19:10+0000\n"
-"Last-Translator: stalebrim <stalebrim@posteo.net>\n"
+"Last-Translator: Oi Suomi On! <oisuomion@protonmail.com>\n"
 "Language-Team: Finnish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/fi/>\n"
 "Language: fi\n"
@@ -94,7 +94,7 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:102
 msgid "Show Power Strip"
-msgstr ""
+msgstr "Näytä virtapalkki"
 
 #: src/panel/settings/settings_raven.vala:103
 msgid "Shows or hides the Power Strip in the bottom of Raven."
@@ -249,11 +249,13 @@ msgstr "Määritä kuvakkeiden koko työpöydällä."
 
 #: src/panel/settings/settings_desktop.vala:144
 msgid "Number of virtual desktops"
-msgstr "Virtuaalityöpöytien määrä"
+msgstr "Virtuaalisten työpöytien lukumäärä"
 
 #: src/panel/settings/settings_desktop.vala:145
 msgid "Number of virtual desktops / workspaces to create automatically on startup."
-msgstr "Automaattisten virtuaalityöpöytien / työtilojen määrä käynnistyksessä."
+msgstr ""
+"Virtuaalisten työpöytien / työtilojen lukumäärä jotka luodaan "
+"automaattisesti käynnistyksessä."
 
 #: src/panel/settings/settings_desktop.vala:249
 msgid "Normal"
@@ -631,11 +633,11 @@ msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:81
 msgid "Full"
-msgstr ""
+msgstr "Täysi"
 
 #: src/panel/settings/settings_fonts.vala:82
 msgid "Medium"
-msgstr ""
+msgstr "Keskikokoinen"
 
 #: src/panel/settings/settings_fonts.vala:83
 msgid "Slight"
@@ -651,7 +653,7 @@ msgstr "Aseta käytettävä vihjeistys."
 
 #: src/panel/settings/settings_fonts.vala:108
 msgid "Subpixel (for LCD screens)"
-msgstr ""
+msgstr "Alipikselöinti (LCD-näytöille)"
 
 #: src/panel/settings/settings_fonts.vala:109
 msgid "Standard (grayscale)"
@@ -1137,13 +1139,13 @@ msgstr "Caffeine Boost pois käytöstä"
 
 #: src/daemon/settings.vala:346
 msgid "Will turn off in a minute"
-msgstr ""
+msgstr "Kytkeytyy pois minuutin kuluttua"
 
 #. use plural
 #: src/daemon/settings.vala:349
 #, c-format
 msgid "Will turn off in %d minutes"
-msgstr ""
+msgstr "Kytkeytyy pois %d minuutin kuluttua"
 
 #: src/polkit/dialog.ui.h:1
 msgid "Authentication Required"
@@ -1163,23 +1165,23 @@ msgstr "Tunnistaudu"
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
-msgstr ""
+msgstr "Näytä kaikki ikkunat napsautuksella"
 
 #: src/applets/icon-tasklist/settings.ui.h:2
 msgid "Only show favorited"
-msgstr ""
+msgstr "Näytä ainoastaan suosikit"
 
 #: src/applets/icon-tasklist/settings.ui.h:3
 msgid "Lock icons"
-msgstr ""
+msgstr "Lukitse kuvakkeet"
 
 #: src/applets/icon-tasklist/settings.ui.h:4
 msgid "Restrict to Workspace"
-msgstr ""
+msgstr "Rajoita työtilaan"
 
 #: src/applets/icon-tasklist/settings.ui.h:5
 msgid "Window grouping"
-msgstr ""
+msgstr "Ikkunaryhmitys"
 
 #: src/applets/icon-tasklist/settings.ui.h:6
 msgid "Middle click to launch new window"
