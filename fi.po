@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
 "PO-Revision-Date: 2020-11-19 00:14+0000\n"
-"Last-Translator: stalebrim <stalebrim@posteo.net>\n"
+"Last-Translator: Oi Suomi On! <oisuomion@protonmail.com>\n"
 "Language-Team: Finnish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/fi/>\n"
 "Language: fi\n"
@@ -1254,11 +1254,11 @@ msgstr "Kirkkaus"
 
 #: src/applets/workspaces/settings.ui.h:1
 msgid "\"Add\" button visibility"
-msgstr ""
+msgstr "\"Lisää\" painikkeen näkyvyys"
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
-msgstr ""
+msgstr "Älä näytä"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
@@ -1311,6 +1311,8 @@ msgstr "Budgie-paneeli"
 #: src/panel/budgie-panel.desktop.in.h:2
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
 msgstr ""
+"Käynnistä muita sovelluksia ja tuo erinäisiä apuvälineitä ikkunoiden "
+"hallintaan, kellonajan näyttämiseen, jne."
 
 #: src/applets/icon-tasklist/IconTasklistApplet.plugin.in.h:1
 msgid "Icon Task List"
