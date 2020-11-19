@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
-"PO-Revision-Date: 2020-11-19 00:14+0000\n"
+"PO-Revision-Date: 2020-11-22 07:55+0000\n"
 "Last-Translator: Andrian Roshandy <a.nomansky001@gmail.com>\n"
 "Language-Team: Indonesian <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/id/>\n"
@@ -32,7 +32,7 @@ msgstr "Grup:"
 
 #: src/panel/settings/settings_raven.vala:61
 msgid "Set Raven position"
-msgstr "Atur posisi Raven"
+msgstr "Atur letak Raven"
 
 #: src/panel/settings/settings_raven.vala:62
 msgid "Set which side of the screen Raven will open on. If set to Automatic, Raven will open where its parent panel is."
@@ -42,27 +42,30 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:67
 msgid "Allow raising volume above 100%"
-msgstr "Izinkan meninggikan volume di atas 100%"
+msgstr "Izinkan menaikkan volume di atas 100%"
 
 #: src/panel/settings/settings_raven.vala:68
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
-msgstr "Ijinkan menaikkan volume melalui Pengaturan Suara serta Widget Output Suara di Raven hingga 150%."
+msgstr ""
+"Memungkinkan peningkatan volume melalui Pengaturan Suara maupun Widget "
+"Keluaran Suara pada Raven hingga 150%."
 
 #: src/panel/settings/settings_raven.vala:72
 msgid "Enable display of week numbers in Calendar"
-msgstr "Aktifkan tampilan minggu di Kalender"
+msgstr "Aktifkan tampilan nomor minggu pada Kalender"
 
 #: src/panel/settings/settings_raven.vala:73
 msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr "Pengaturan ini memungkinkan tampilan minggu di widget Kalender."
+msgstr ""
+"Pengaturan ini memungkinkan tampilan minggu ke berapa pada widget Kalender."
 
 #: src/panel/settings/settings_raven.vala:78
 msgid "Show Calendar Widget"
-msgstr "Munculkan widget Kalender"
+msgstr "Tampilkan Widget Kalender"
 
 #: src/panel/settings/settings_raven.vala:79
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr "Perlihatkan atau sembunyikan Widget Kalender di bagian Applet Raven."
+msgstr "Menampilkan atau menyembunyikan Widget Kalender di bagian Applet Raven."
 
 #: src/panel/settings/settings_raven.vala:84
 msgid "Show Sound Output Widget"
@@ -70,7 +73,8 @@ msgstr "Tampilkan Widget Keluaran Suara"
 
 #: src/panel/settings/settings_raven.vala:85
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr "Perlihatkan atau Sembunyikan Widget Output Suara di bagian Applet Raven."
+msgstr ""
+"Menampilkan atau menyembunyikan Widget Keluaran Suara di bagian Applet Raven."
 
 #: src/panel/settings/settings_raven.vala:90
 msgid "Show Microphone Input Widget"
@@ -78,32 +82,36 @@ msgstr "Tampilkan Widget Masukan Mikrofon"
 
 #: src/panel/settings/settings_raven.vala:91
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
-msgstr "Perlihatkan atau Sembunyikan Widget Input Mikrofon di bagian Applet Raven."
+msgstr ""
+"Menampilkan atau menyembunyikan Widget Masukan Mikrofon di bagian Applet "
+"Raven."
 
 #: src/panel/settings/settings_raven.vala:96
 msgid "Show Media Playback Controls Widget"
-msgstr "Tampilkan Widget Kontrol Pemutaran Media"
+msgstr "Tampilkan Widget Kendali Pemutaran Media"
 
 #: src/panel/settings/settings_raven.vala:97
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
-msgstr "Perlihatkan atau Sembunyikan Widget Media Playback Controls (MPRIS) di bagian Applet Raven."
+msgstr ""
+"Menampilkan atau menyembunyikan Widget Kendali Pemutaran Media (MPRIS) di "
+"bagian Applet Raven."
 
 #: src/panel/settings/settings_raven.vala:102
 msgid "Show Power Strip"
-msgstr "Tampilkan Strip Daya"
+msgstr "Tampilkan Setrip Daya"
 
 #: src/panel/settings/settings_raven.vala:103
 msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr "Tampilkan atau sembunyikan Strip Daya di bagian bawah Raven."
+msgstr "Menampilkan atau menyembunyikan Setrip Daya di bagian bawah Raven."
 
 #: src/panel/settings/settings_panel_applets.vala:19
 msgid "Configure applet"
-msgstr "Mengkonfigurasi applet"
+msgstr "Konfigurasi applet"
 
 #: src/panel/settings/settings_panel_applets.vala:233
 #: src/panel/settings/settings_applet_chooser.vala:80
 msgid "Add applet"
-msgstr "Tambah applet"
+msgstr "Tambahkan applet"
 
 #: src/panel/settings/settings_panel_applets.vala:234
 msgid "Choose a new applet to add to this panel"
@@ -132,7 +140,7 @@ msgstr "Konfirmasi penghapusan panel"
 #: src/panel/settings/settings_panel_dialogs.vala:31
 msgid "Do you really want to remove this panel? This action cannot be undone."
 msgstr ""
-"Apakah kamu yakin ingin menghapus panel ini? Tindakan ini tidak dapat "
+"Apakah Anda yakin ingin menghapus panel ini? Tindakan ini tidak dapat "
 "diurungkan."
 
 #: src/panel/settings/settings_panel_dialogs.vala:42
@@ -145,12 +153,12 @@ msgstr "Pertahankan panel"
 
 #: src/panel/settings/settings_panel_dialogs.vala:67
 msgid "Confirm applet removal"
-msgstr "Konfirmasikan penghapusan applet"
+msgstr "Konfirmasi penghapusan applet"
 
 #: src/panel/settings/settings_panel_dialogs.vala:74
 msgid "Do you really want to remove this applet? This action cannot be undone."
 msgstr ""
-"Apakah kamu yakin ingin menghapus applet ini? Tindakan ini tidak dapat "
+"Apakah Anda yakin ingin menghapus applet ini? Tindakan ini tidak dapat "
 "diurungkan."
 
 #: src/panel/settings/settings_panel_dialogs.vala:89
@@ -206,7 +214,7 @@ msgstr "Ikon Desktop"
 
 #: src/panel/settings/settings_desktop.vala:77
 msgid "Control whether to allow icons on the desktop."
-msgstr "Pengaturan untuk mengizinkan ikon pada desktop."
+msgstr "Atur apakah akan memperbolehkan ikon pada desktop."
 
 #. DesktopFolder doesn't support fancy options like showing home folder, trash, or active mounts
 #. DesktopType is the only one that doesn't support showing mounts
@@ -222,11 +230,11 @@ msgstr "Tampilkan semua tambatan aktif pada desktop."
 #. Switcher to show or hide our Home folder
 #: src/panel/settings/settings_desktop.vala:94
 msgid "Home directory"
-msgstr "Direktori rumah"
+msgstr "Direktori Beranda"
 
 #: src/panel/settings/settings_desktop.vala:95
 msgid "Add a shortcut to your home directory on the desktop."
-msgstr "Tambah pintasan ke direktori rumah pada desktop."
+msgstr "Tambahkan pintasan ke direktori beranda pada desktop."
 
 #. Switcher to show or hide a shortcut to Trash
 #: src/panel/settings/settings_desktop.vala:102
@@ -235,7 +243,7 @@ msgstr "Sampah"
 
 #: src/panel/settings/settings_desktop.vala:103
 msgid "Add a shortcut to the Trash directory on the desktop."
-msgstr "Tambah pintasan ke direktori Sampah pada desktop."
+msgstr "Tambahkan pintasan ke direktori Sampah pada desktop."
 
 #. DesktopType doesn't support icon size changing. Nemo might but needs validation.
 #. Icon Size combo box
@@ -245,7 +253,7 @@ msgstr "Ukuran Ikon"
 
 #: src/panel/settings/settings_desktop.vala:113
 msgid "Set the desired size of icons on the desktop."
-msgstr "Setel ukuran ikon yang diinginkan di desktop."
+msgstr "Setel ukuran ikon yang diinginkan pada desktop."
 
 #: src/panel/settings/settings_desktop.vala:144
 msgid "Number of virtual desktops"
@@ -254,8 +262,8 @@ msgstr "Jumlah desktop virtual"
 #: src/panel/settings/settings_desktop.vala:145
 msgid "Number of virtual desktops / workspaces to create automatically on startup."
 msgstr ""
-"Jumlah desktop virtual / ruang kerja yang akan dibuat otomatis ketika "
-"startup."
+"Jumlah desktop virtual / ruang kerja yang akan dibuat secara otomatis ketika "
+"memulai."
 
 #: src/panel/settings/settings_desktop.vala:249
 msgid "Normal"
@@ -269,12 +277,12 @@ msgstr "Kecil"
 #. Large
 #: src/panel/settings/settings_desktop.vala:254
 msgid "Large"
-msgstr "Besar"
+msgstr "Lebar"
 
 #. Massive
 #: src/panel/settings/settings_desktop.vala:256
 msgid "Massive"
-msgstr ""
+msgstr "Sangat Lebar"
 
 #: src/panel/settings/settings_panel.vala:82 src/raven/main_view.vala:57
 msgid "Applets"
@@ -286,7 +294,7 @@ msgstr "Pengaturan"
 
 #: src/panel/settings/settings_panel.vala:85
 msgid "Remove Panel"
-msgstr "Hapus panel"
+msgstr "Hapus Panel"
 
 #: src/panel/settings/settings_panel.vala:86
 msgid "Remove this panel from the screen"
@@ -353,7 +361,7 @@ msgstr "Dinamis"
 #: src/panel/settings/settings_fonts.vala:84
 #: src/panel/settings/settings_fonts.vala:110
 msgid "None"
-msgstr "Nihil"
+msgstr "Tidak"
 
 #: src/panel/settings/settings_panel.vala:208 src/raven/raven.vala:38
 msgid "Automatic"
@@ -365,15 +373,15 @@ msgstr "Cerdas"
 
 #: src/panel/settings/settings_panel.vala:213
 msgid "Never"
-msgstr "Tidak pernah"
+msgstr "Tak pernah"
 
 #: src/panel/settings/settings_panel.vala:228
 msgid "Position"
-msgstr "Posisi"
+msgstr "Letak"
 
 #: src/panel/settings/settings_panel.vala:229
 msgid "Set the edge of the screen that this panel will stay on"
-msgstr "Atur tepi layar pada panel ini yang akan tetap menyala"
+msgstr "Atur tepi layar di mana panel ini akan berada"
 
 #: src/panel/settings/settings_panel.vala:237
 msgid "Size"
@@ -381,7 +389,7 @@ msgstr "Ukuran"
 
 #: src/panel/settings/settings_panel.vala:238
 msgid "Set the size (width or height, depending on orientation) of this panel"
-msgstr "Atur ukuran (lebar atau tinggi, tergantung orientasi) panel ini"
+msgstr "Atur ukuran (lebar atau tinggi, tergantung pada orientasi) panel ini"
 
 #: src/panel/settings/settings_panel.vala:245
 msgid "Automatically hide"
@@ -390,8 +398,8 @@ msgstr "Otomatis sembunyi"
 #: src/panel/settings/settings_panel.vala:246
 msgid "When set, this panel will hide from view to maximize screen estate"
 msgstr ""
-"Ketika disetel, panel ini akan sembunyi dari tampilan untuk memaksimalkan "
-"tingkat tampilan layar"
+"Jika disetel, panel ini akan sembunyi dari pandangan untuk memaksimalkan "
+"ruang layar"
 
 #: src/panel/settings/settings_panel.vala:253
 msgid "Transparency"
@@ -399,7 +407,7 @@ msgstr "Transparansi"
 
 #: src/panel/settings/settings_panel.vala:254
 msgid "Control when this panel should have a solid background"
-msgstr "Atur kapan panel ini harus punya latar belakang yang solid"
+msgstr "Atur kapan panel ini akan menjadi latar belakang yang padat"
 
 #: src/panel/settings/settings_panel.vala:259
 msgid "Shadow"
@@ -407,7 +415,7 @@ msgstr "Bayangan"
 
 #: src/panel/settings/settings_panel.vala:260
 msgid "Adds a decorative drop-shadow, ideal for opaque panels"
-msgstr "Menambahkan drop-shadow dekoratif, cocok untuk panel buram"
+msgstr "Menambahkan hiasan drop-shadow, cocok untuk panel buram"
 
 #: src/panel/settings/settings_panel.vala:266
 msgid "Stylize regions"
@@ -415,7 +423,9 @@ msgstr "Corak bidang"
 
 #: src/panel/settings/settings_panel.vala:267
 msgid "Adds a hint to the panel so that each of the panel's three main areas may be themed differently."
-msgstr "Menambahkan hiasan ke panel sehingga masing-masing tiga area utama panel dapat berbeda tema."
+msgstr ""
+"Menambahkan corak pada panel sehingga masing-masing tiga area utama panel "
+"dapat berbeda tema."
 
 #: src/panel/settings/settings_panel.vala:274
 msgid "Dock mode"
@@ -424,32 +434,36 @@ msgstr "Mode dok"
 #: src/panel/settings/settings_panel.vala:275
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
 msgstr ""
-"Ketika dalam mode dok, panel akan menggunakan ruang seminimal mungkin, "
-"membebaskan area layar yang berharga"
+"Saat dalam mode dok, panel akan menggunakan ruang seminimal mungkin, "
+"membebaskan ruang layar yang berarti"
 
 #: src/panel/settings/settings_wm.vala:30
 msgid "Windows"
 msgstr "Jendela"
 
 #: src/panel/settings/settings_wm.vala:39
+#, fuzzy
 msgid "Attach modal dialogs to windows"
-msgstr "Tempelkan dialog modal ke jendela"
+msgstr "Lekatkan bingkai dialog ke jendela"
 
 #: src/panel/settings/settings_wm.vala:40
+#, fuzzy
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr "Dialog modal akan tertempel ke jendela induk dan bergerak bersama saat digeser."
+msgstr ""
+"Dialog modal akan terlampir ke jendela induk dan bergerak bersama saat "
+"diseret."
 
 #: src/panel/settings/settings_wm.vala:45
 msgid "Button layout"
-msgstr "Susunan tombol"
+msgstr "Tata letak tombol"
 
 #: src/panel/settings/settings_wm.vala:46
 msgid "Change the layout of buttons in application titlebars."
-msgstr "Ganti tata letak tombol di bar judul aplikasi."
+msgstr "Ubah tata letak tombol di bar judul aplikasi."
 
 #: src/panel/settings/settings_wm.vala:51
 msgid "Center new windows on screen"
-msgstr "Pusatkan jendela baru di layar"
+msgstr "Pusatkan jendela baru pada layar"
 
 #: src/panel/settings/settings_wm.vala:52
 msgid "Center newly launched windows on the current screen."
@@ -457,44 +471,53 @@ msgstr "Pusatkan jendela yang baru diluncurkan pada layar saat ini."
 
 #: src/panel/settings/settings_wm.vala:57
 msgid "Disable Night Light mode when windows are fullscreen"
-msgstr "Nonaktifkan mode Cahaya Malam saat windows layar penuh"
+msgstr "Nonaktifkan mode Cahaya Malam saat jendela dalam mode layar penuh"
 
 #: src/panel/settings/settings_wm.vala:58
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
-msgstr "Nonaktifkan mode Cahaya Malam saat jendela layar penuh. Aktifkan kembali saat meninggalkan layar penuh."
+msgstr ""
+"Nonaktifkan mode Cahaya Malam ketika jendela layar penuh. Aktifkan kembali "
+"saat meninggalkan layar penuh."
 
 #: src/panel/settings/settings_wm.vala:63
 msgid "Automatic tiling"
-msgstr "Tempatkan diri otomatis"
+msgstr "Otomatis mengubin"
 
 #: src/panel/settings/settings_wm.vala:64
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr "Jendela akan menempatkan diri saat digeser ke atas atau sisi sudut layar."
+msgstr ""
+"Jendela akan secara otomatis mengubin atau menempatkan diri saat diseret ke "
+"atas atau sudut layar."
 
 #: src/panel/settings/settings_wm.vala:69
 msgid "Enable window focus change on mouse enter and leave"
-msgstr "Aktifkan perubahan fokus saat mouse masuk dan keluar dari jendela"
+msgstr "Aktifkan perubahan fokus jendela saat tetikus masuk dan keluar"
 
 #: src/panel/settings/settings_wm.vala:70
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
-msgstr "Aktifkan fokus jendela untuk diterapkan saat mouse memasuki jendela dan berhenti fokus saat mouse meninggalkan jendela."
+msgstr ""
+"Memungkinkan fokus jendela diterapkan ketika tetikus memasuki jendela dan "
+"berhenti fokus saat tetikus meninggalkan jendela."
 
 #: src/panel/settings/settings_wm.vala:76
 msgid "Disable unredirection of windows"
-msgstr "Matikan <i>unredirect</i> jendela"
+msgstr "Nonaktifkan pengalihan jendela"
 
 #: src/panel/settings/settings_wm.vala:77
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr "Pilihan ini untuk pengguna tingkat lanjut. Gunakan ini jika anda mengalami masalah grafis atau kinerja dengan GPU khusus."
+msgstr ""
+"Opsi ini untuk pengguna tingkat lanjut. Gunakan ini jika Anda mengalami "
+"permasalahan grafis atau kinerja dengan GPU tersendiri."
 
 #: src/panel/settings/settings_wm.vala:82
-#, fuzzy
 msgid "Show all windows in tab switcher"
-msgstr "Tampilkan semua jendela saat klik"
+msgstr "Tampilkan semua jendela di pengalih tab"
 
 #: src/panel/settings/settings_wm.vala:83
 msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
 msgstr ""
+"Semua tab akan ditampilkan di pengalih tampilan, terlepas dari ruang kerja "
+"yang digunakan."
 
 #: src/panel/settings/settings_wm.vala:90
 msgid "Right (standard)"
@@ -502,7 +525,7 @@ msgstr "Kanan (standar)"
 
 #: src/panel/settings/settings_applet_chooser.vala:74
 msgid "Choose an applet"
-msgstr "Pilih sebuah applet"
+msgstr "Pilih applet"
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 #: src/panel/settings/settings_autostart.vala:194
@@ -530,7 +553,7 @@ msgstr "Ikon"
 
 #: src/panel/settings/settings_style.vala:52
 msgid "Set the globally used icon theme"
-msgstr "Tentukan tema ikon global"
+msgstr "Setel tema ikon yang digunakan secara menyeluruh"
 
 #: src/panel/settings/settings_style.vala:56
 msgid "Cursors"
@@ -538,15 +561,15 @@ msgstr "Kursor"
 
 #: src/panel/settings/settings_style.vala:57
 msgid "Set the globally used mouse cursor theme"
-msgstr "Tentukan tema kursor global"
+msgstr "Setel tema tetikus yang digunakan secara menyeluruh"
 
 #: src/panel/settings/settings_style.vala:61
 msgid "Notification Position"
-msgstr "Posisi Notifikasi"
+msgstr "Letak Notifikasi"
 
 #: src/panel/settings/settings_style.vala:62
 msgid "Set the location for notification popups"
-msgstr "Atur lokasi untuk popup notifikasi"
+msgstr "Atur letak untuk munculan notifikasi"
 
 #: src/panel/settings/settings_style.vala:71
 msgid "Dark theme"
@@ -557,6 +580,7 @@ msgid "Built-in theme"
 msgstr "Tema bawaan"
 
 #: src/panel/settings/settings_style.vala:79
+#, fuzzy
 msgid "When enabled, the built-in theme will override the desktop component styling"
 msgstr "Saat diaktifkan, gaya komponen desktop akan ditimpa dengan gaya bawaan"
 
@@ -566,7 +590,7 @@ msgstr "Animasi"
 
 #: src/panel/settings/settings_style.vala:87
 msgid "Control whether windows and controls use animations"
-msgstr "Mengatur apakah jendela dan kontrol menggunakan animasi"
+msgstr "Atur apakah jendela dan kontrol menggunakan animasi"
 
 #: src/panel/settings/settings_style.vala:204
 msgid "Top Left"
@@ -585,8 +609,9 @@ msgid "Top Right"
 msgstr "Kanan Atas"
 
 #: src/panel/settings/settings_fonts.vala:32
+#, fuzzy
 msgid "Fonts"
-msgstr "Fonta"
+msgstr "Fon"
 
 #: src/panel/settings/settings_fonts.vala:43
 msgid "Window Titles"
@@ -594,7 +619,7 @@ msgstr "Judul Jendela"
 
 #: src/panel/settings/settings_fonts.vala:44
 msgid "Set the font used in the titlebars of applications."
-msgstr "Tentukan fon yang digunakan pada bar judul aplikasi."
+msgstr "Setel fon yang digunakan pada bar judul aplikasi."
 
 #: src/panel/settings/settings_fonts.vala:50
 msgid "Documents"
@@ -602,7 +627,7 @@ msgstr "Dokumen"
 
 #: src/panel/settings/settings_fonts.vala:51
 msgid "Set the display font used by for documents."
-msgstr "Tentukan fon tampilan yang digunakan oleh dokumen."
+msgstr "Setel tampilan fon yang digunakan untuk dokumen."
 
 #: src/panel/settings/settings_fonts.vala:57
 msgid "Interface"
@@ -610,23 +635,25 @@ msgstr "Antarmuka"
 
 #: src/panel/settings/settings_fonts.vala:58
 msgid "Set the primary font used by application controls."
-msgstr "Tentukan fon utama yang digunakan oleh kontrol aplikasi."
+msgstr "Setel fon utama yang digunakan oleh kontrol aplikasi."
 
 #: src/panel/settings/settings_fonts.vala:64
+#, fuzzy
 msgid "Monospace"
-msgstr "Lebar tetap"
+msgstr "Monospace"
 
 #: src/panel/settings/settings_fonts.vala:65
+#, fuzzy
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr "Tentukan fon lebar tetap yang digunakan oleh aplikasi dominan teks."
+msgstr "Setel fon lebar-seragam yang digunakan oleh aplikasi dominan teks."
 
 #: src/panel/settings/settings_fonts.vala:71
 msgid "Text scaling"
-msgstr "Skalakan teks"
+msgstr "Penskalaan teks"
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Set the text scaling factor."
-msgstr "Atur faktor skala teks."
+msgstr "Setel faktor skala teks."
 
 #: src/panel/settings/settings_fonts.vala:81
 msgid "Full"
@@ -638,20 +665,19 @@ msgstr "Sedang"
 
 #: src/panel/settings/settings_fonts.vala:83
 msgid "Slight"
-msgstr "Kecil"
+msgstr "Sedikit"
 
 #: src/panel/settings/settings_fonts.vala:100
 msgid "Hinting"
-msgstr ""
+msgstr "Penyesuaian"
 
 #: src/panel/settings/settings_fonts.vala:101
-#, fuzzy
 msgid "Set the type of hinting to use."
-msgstr "Atur faktor skala teks."
+msgstr "Setel jenis penyesuaian fon yang akan digunakan."
 
 #: src/panel/settings/settings_fonts.vala:108
 msgid "Subpixel (for LCD screens)"
-msgstr ""
+msgstr "Subpiksel (untuk layar LCD)"
 
 #: src/panel/settings/settings_fonts.vala:109
 msgid "Standard (grayscale)"
@@ -659,20 +685,19 @@ msgstr "Standar (Abu-abu)"
 
 #: src/panel/settings/settings_fonts.vala:125
 msgid "Antialiasing"
-msgstr ""
+msgstr "Antialiasing"
 
 #: src/panel/settings/settings_fonts.vala:126
-#, fuzzy
 msgid "Set the type of antialiasing to use."
-msgstr "Atur faktor skala teks."
+msgstr "Setel jenis antialiasing yang akan digunakan."
 
 #: src/panel/settings/settings_autostart.vala:134
 msgid "Untitled"
-msgstr "Tak ada judul"
+msgstr "Tanpa Judul"
 
 #: src/panel/settings/settings_autostart.vala:141
 msgid "No description"
-msgstr "Tanpa deskripsi"
+msgstr "Tanpa keterangan"
 
 #: src/panel/settings/settings_autostart.vala:164
 msgid "running"
@@ -685,7 +710,7 @@ msgstr "Aplikasi"
 #: src/panel/settings/settings_autostart.vala:195
 #: src/panel/settings/settings_autostart.vala:360
 msgid "Add"
-msgstr "Tambah"
+msgstr "Tambahkan"
 
 #: src/panel/settings/settings_autostart.vala:354
 #: src/panel/settings/settings_autostart.vala:387
@@ -694,11 +719,11 @@ msgstr "Perintah"
 
 #: src/panel/settings/settings_autostart.vala:370
 msgid "An entry with that title already exists"
-msgstr "Sebuah masukan dengan judul itu sudah ada"
+msgstr "Entri dengan judul tersebut sudah ada"
 
 #: src/panel/settings/settings_autostart.vala:373
 msgid "Title"
-msgstr "Gelar"
+msgstr "Judul"
 
 #: src/panel/settings/settings_autostart.vala:377
 #: src/panel/settings/settings_autostart.vala:391
@@ -719,11 +744,11 @@ msgstr "Mulai otomatis"
 
 #: src/panel/settings/settings_autostart.vala:464
 msgid "Autostart apps"
-msgstr "Aplikasi Mulai otomatis"
+msgstr "Aplikasi mulai otomatis"
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
-msgstr "Tidak ada aplikasi yang sedang memainkan suara."
+msgstr "Tidak ada aplikasi yang sedang memutar audio."
 
 #: src/raven/start_listening.vala:28
 msgid "Play some music"
@@ -745,13 +770,13 @@ msgstr "Perangkat"
 
 #: src/raven/notifications_view.vala:100
 msgid "Nothing to see here"
-msgstr "Tidak ada apa-apa disini"
+msgstr "Tak ada apapun di sini"
 
 #: src/raven/notifications_view.vala:649
 #: src/applets/notifications/NotificationsApplet.vala:106
 #, c-format
 msgid "%u unread notifications"
-msgstr "%u notifikasi belum dibaca"
+msgstr "%u notifikasi yang belum dibaca"
 
 #: src/raven/notifications_view.vala:651
 #: src/applets/notifications/NotificationsApplet.vala:108
@@ -813,6 +838,7 @@ msgstr "Pindah ke Ruang Kerja %i"
 
 #. Update our always on top button
 #: src/applets/icon-tasklist/IconPopover.vala:545
+#, fuzzy
 msgid "Unmaximize"
 msgstr "Batal Maksimalkan"
 
@@ -822,7 +848,7 @@ msgstr "Tutup Jendela"
 
 #: src/applets/icon-tasklist/IconPopover.vala:606
 msgid "Show Window Controls"
-msgstr "Tampilkan Kendali Jendela"
+msgstr "Tampilkan Kontrol Jendela"
 
 #. there's already an active tray, create an informative icon with a popover
 #: src/applets/tray/TrayApplet.vala:114
@@ -831,7 +857,7 @@ msgstr ""
 
 #: src/applets/tray/TrayApplet.vala:140
 msgid "The System Tray failed to initialize."
-msgstr ""
+msgstr "Nampan Indikator gagal diinisiasi."
 
 #: src/applets/status/PowerIndicator.vala:93
 msgid "Battery fully charged."
@@ -839,7 +865,7 @@ msgstr "Baterai terisi penuh."
 
 #: src/applets/status/PowerIndicator.vala:96
 msgid "Unknown"
-msgstr "Tidak diketahui"
+msgstr "Tidak dikenal"
 
 #. Set inner charging duration to hours:minutes
 #: src/applets/status/PowerIndicator.vala:105
@@ -848,7 +874,7 @@ msgstr "Mengisi baterai"
 
 #: src/applets/status/PowerIndicator.vala:110
 msgid "Battery remaining"
-msgstr "Sisa baterai"
+msgstr "Baterai tersisa"
 
 #: src/applets/status/PowerIndicator.vala:161
 msgid "Show battery percentage"
@@ -900,7 +926,7 @@ msgstr "Volume sedang digunakan oleh proses lain"
 
 #: src/applets/places-indicator/MountHelper.vala:40
 msgid "Operation aborted"
-msgstr "Proses dibatalkan"
+msgstr "Tindakan dibatalkan"
 
 #: src/applets/places-indicator/MountHelper.vala:51
 msgid "Type your password"
@@ -908,7 +934,7 @@ msgstr "Ketikkan kata sandi Anda"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:179
 msgid "Nothing to display right now"
-msgstr "Tidak ada yang bisa ditampilkan saat ini"
+msgstr "Tak ada yang ditampilkan saat ini"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:183
 msgid "Mount some drives"
@@ -951,7 +977,7 @@ msgstr "Lepaskan"
 #: src/applets/places-indicator/VolumeItem.vala:73
 #: src/applets/places-indicator/VolumeItem.vala:114
 msgid "Enter the encryption passphrase to unlock this volume"
-msgstr "Masukkan kata sandi enkripsi untuk membuka volume ini"
+msgstr "Masukkan frasa sandi enkripsi untuk membuka volume ini"
 
 #: src/applets/places-indicator/VolumeItem.vala:83
 #: src/applets/places-indicator/MountItem.vala:75
@@ -982,11 +1008,11 @@ msgstr "Perangkat Tidak Dikenal"
 
 #: src/applets/places-indicator/MountItem.vala:84
 msgid "Error while ejecting device"
-msgstr "Terjadi kesalahan saat melepas perangkat"
+msgstr "Terjadi kesalahan saat melepaskan perangkat"
 
 #: src/applets/places-indicator/MountItem.vala:100
 msgid "Error while unmounting volume"
-msgstr "Terjadi kesalahan saat melepas volume"
+msgstr "Terjadi kesalahan saat melepaskan volume"
 
 #: src/applets/caffeine/CaffeineWindow.vala:39
 msgid "Timer (minutes)"
@@ -994,7 +1020,7 @@ msgstr "Timer (menit)"
 
 #: src/applets/show-desktop/ShowDesktopApplet.vala:30
 msgid "Toggle the desktop"
-msgstr "Alihkan destop"
+msgstr "Alihkan desktop"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:55
 msgid "Caps lock is active"
@@ -1058,7 +1084,7 @@ msgstr "Semua"
 
 #: src/applets/budgie-menu/IconChooser.vala:24
 msgid "Set menu icon from file"
-msgstr "Atur ikon menu dari berkas"
+msgstr "Setel ikon menu dari berkas"
 
 #: src/applets/budgie-menu/IconChooser.vala:34
 msgid "Image files"
@@ -1070,7 +1096,7 @@ msgstr "Berkas apapun"
 
 #: src/applets/budgie-menu/IconChooser.vala:53
 msgid "Set icon"
-msgstr "Atur ikon"
+msgstr "Setel ikon"
 
 #. User Menu Creation
 #: src/applets/user-indicator/UserIndicatorWindow.vala:99
@@ -1094,7 +1120,7 @@ msgstr "Hibernasi"
 #: src/applets/user-indicator/UserIndicatorWindow.vala:108
 #: src/daemon/endsession.ui.h:5
 msgid "Restart"
-msgstr "Hidupkan ulang"
+msgstr "Nyalakan ulang"
 
 #: src/applets/user-indicator/UserIndicatorWindow.vala:109
 #: src/daemon/endsession.ui.h:6
@@ -1108,7 +1134,7 @@ msgstr "Keluar"
 
 #: src/daemon/menus.vala:46
 msgid "Change background"
-msgstr "Ganti latar belakang"
+msgstr "Ubah latar belakang"
 
 #: src/daemon/menus.vala:51
 msgid "Displays"
@@ -1147,7 +1173,7 @@ msgstr "Akan mati dalam %d menit"
 
 #: src/polkit/dialog.ui.h:1
 msgid "Authentication Required"
-msgstr "Autentikasi Diperlukan"
+msgstr "Diperlukan Autentikasi"
 
 #: src/polkit/dialog.ui.h:2
 msgid "Password:"
@@ -1163,15 +1189,15 @@ msgstr "Mengautentikasi"
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
-msgstr "Tampilkan semua jendela saat klik"
+msgstr "Tampilkan semua jendela saat diklik"
 
 #: src/applets/icon-tasklist/settings.ui.h:2
 msgid "Only show favorited"
-msgstr "Hanya tampilkan yang disukai"
+msgstr "Hanya tampilkan yang favorit"
 
 #: src/applets/icon-tasklist/settings.ui.h:3
 msgid "Lock icons"
-msgstr "Kunci ikon"
+msgstr "Ikon kunci"
 
 #: src/applets/icon-tasklist/settings.ui.h:4
 msgid "Restrict to Workspace"
@@ -1232,7 +1258,7 @@ msgstr "Tampilkan folder jaringan"
 
 #: src/applets/places-indicator/settings.ui.h:4
 msgid "Show removable drives"
-msgstr "Tampilkan perangkat lepasan"
+msgstr "Tampilkan drive lepasan"
 
 #: src/applets/places-indicator/settings.ui.h:5
 msgid "Always expand places"
@@ -1252,7 +1278,7 @@ msgstr "Tingkat Kecerahan"
 
 #: src/applets/workspaces/settings.ui.h:1
 msgid "\"Add\" button visibility"
-msgstr "\"Tambahkan\" visibilitas tombol"
+msgstr "Visibilitas tombol \"Tambahkan\""
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
@@ -1268,7 +1294,7 @@ msgstr "Selalu tampilkan"
 
 #: src/applets/spacer/settings.ui.h:1
 msgid "Spacer size"
-msgstr "Ukuran Spacer"
+msgstr "Ukuran Pelebar"
 
 #: src/applets/budgie-menu/settings.ui.h:1
 msgid "Show Menu Label"
@@ -1276,7 +1302,7 @@ msgstr "Tampilkan Label Menu"
 
 #: src/applets/budgie-menu/settings.ui.h:2
 msgid "Compact Mode"
-msgstr "Mode Kompak"
+msgstr "Mode Rapat"
 
 #: src/applets/budgie-menu/settings.ui.h:3
 msgid "Show Headers"
@@ -1296,7 +1322,7 @@ msgstr "Ikon Menu"
 
 #: src/daemon/endsession.ui.h:2
 msgid "Are you sure you want to end your session?"
-msgstr "Anda yakin akan mengakhiri sesi ini?"
+msgstr "Apakah Anda yakin akan mengakhiri sesi ini?"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
 msgid "Change desktop appearance and behavior"
@@ -1310,7 +1336,7 @@ msgstr "Panel Budgie"
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
 msgstr ""
 "Luncurkan aplikasi lain dan sediakan berbagai utilitas untuk mengelola "
-"jendela, menampilkan waktu, dll."
+"jendela, menunjukkan waktu, dll."
 
 #: src/applets/icon-tasklist/IconTasklistApplet.plugin.in.h:1
 msgid "Icon Task List"
@@ -1322,7 +1348,7 @@ msgstr "Pemisah"
 
 #: src/applets/tray/TrayApplet.plugin.in.h:1
 msgid "System Tray"
-msgstr "Baki Sistem"
+msgstr "Nampan Indikator"
 
 #: src/applets/status/StatusApplet.plugin.in.h:1
 msgid "Status Indicator"
@@ -1351,7 +1377,7 @@ msgstr "Kontrol Sidebar Raven"
 
 #: src/applets/workspaces/WorkspacesApplet.plugin.in.h:1
 msgid "Workspace Switcher"
-msgstr "Pemindah Ruang Kerja"
+msgstr "Pengalih Ruang Kerja"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
@@ -1359,7 +1385,7 @@ msgstr "Indikator Tata Letak Papan Tik"
 
 #: src/applets/spacer/SpacerApplet.plugin.in.h:1
 msgid "Spacer"
-msgstr "Pembatas"
+msgstr "Pelebar"
 
 #: src/applets/tasklist/TasklistApplet.plugin.in.h:1
 msgid "Task List"
