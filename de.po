@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
-"PO-Revision-Date: 2020-11-19 00:14+0000\n"
+"PO-Revision-Date: 2020-11-23 18:00+0000\n"
 "Last-Translator: Girtablulu <flinux@vongellhorn.ch>\n"
 "Language-Team: German <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/de/>\n"
@@ -642,7 +642,7 @@ msgstr "Mittel"
 
 #: src/panel/settings/settings_fonts.vala:83
 msgid "Slight"
-msgstr "Gering"
+msgstr "Leicht"
 
 #: src/panel/settings/settings_fonts.vala:100
 msgid "Hinting"
