@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: budgie-desktop 10.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
-"PO-Revision-Date: 2020-11-19 03:44+0000\n"
-"Last-Translator: Gagandeep Singh <gagankang420@gmail.com>\n"
+"PO-Revision-Date: 2020-11-19 06:50+0000\n"
+"Last-Translator: Manjot Singh <manjotsinghpunjab@gmail.com>\n"
 "Language-Team: Punjabi <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/pa/>\n"
 "Language: pa\n"
@@ -860,7 +860,7 @@ msgstr "ਅਣਪਛਾਤਾ"
 #. Set inner charging duration to hours:minutes
 #: src/applets/status/PowerIndicator.vala:105
 msgid "Battery charging"
-msgstr "ਬੈਟਰੀ ਚਾਰਜ ਹੋ ਰਹੀ ਹੈ "
+msgstr "ਬੈਟਰੀ ਚਾਰਜ ਹੋ ਰਹੀ ਹੈ"
 
 #: src/applets/status/PowerIndicator.vala:110
 msgid "Battery remaining"
