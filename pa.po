@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: budgie-desktop 10.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
-"PO-Revision-Date: 2020-11-19 00:14+0000\n"
-"Last-Translator: Gagandeep Singh <gagankang420@gmail.com>\n"
+"PO-Revision-Date: 2020-11-19 03:44+0000\n"
+"Last-Translator: Manjot Singh <manjotsinghpunjab@gmail.com>\n"
 "Language-Team: Punjabi <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/pa/>\n"
 "Language: pa\n"
@@ -167,7 +167,7 @@ msgstr "ਐਪਲਿਟ ਹਟਾਓ"
 
 #: src/panel/settings/settings_panel_dialogs.vala:99
 msgid "Keep applet"
-msgstr "ਐਪਲਿਟ ਨੂੰ ਰੱਖੋ"
+msgstr "ਐਪਲਿਟ ਨੂੰ ਰੱਖ ਲਵੋ"
 
 #: src/panel/settings/settings_main.vala:57
 msgid "Appearance"
@@ -175,7 +175,7 @@ msgstr "ਦਿੱਖ"
 
 #: src/panel/settings/settings_main.vala:58
 msgid "Panels"
-msgstr "ਪੈਨਲ"
+msgstr "ਪੈਨਲਾਂ"
 
 #: src/panel/settings/settings_main.vala:59
 msgid "Session"
@@ -281,7 +281,7 @@ msgstr "ਵਿਸ਼ਾਲ"
 
 #: src/panel/settings/settings_panel.vala:82 src/raven/main_view.vala:57
 msgid "Applets"
-msgstr "ਐਪਲਿਟ"
+msgstr "ਐਪਲਿਟਾਂ"
 
 #: src/panel/settings/settings_panel.vala:83 src/daemon/menus.vala:60
 msgid "Settings"
@@ -346,7 +346,7 @@ msgstr "ਹੇਠਾਂ"
 
 #: src/panel/settings/settings_panel.vala:193
 msgid "Always"
-msgstr "ਹਮੇਸ਼ਾ"
+msgstr "ਹਮੇਸ਼ਾਂ"
 
 #: src/panel/settings/settings_panel.vala:195
 msgid "Dynamic"
@@ -424,7 +424,7 @@ msgstr ""
 
 #: src/panel/settings/settings_panel.vala:274
 msgid "Dock mode"
-msgstr "ਡੌਕ ਵਾਲਾ ਤਰੀਕਾ"
+msgstr "ਡੌਕ ਮੋਡ"
 
 #: src/panel/settings/settings_panel.vala:275
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
@@ -469,8 +469,8 @@ msgstr "ਜਦੋਂ ਵਿੰਡੋਜ਼ ਪੂਰੀ ਸਕ੍ਰੀਨ ਤ�
 #: src/panel/settings/settings_wm.vala:58
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr ""
-"ਜਦੋਂ ਵਿੰਡੋਜ਼ ਪੂਰੀ ਸਕ੍ਰੀਨ ਤੇ ਹੋਣ ਤਾਂ ਨਾਈਟ-ਲਾਈਟ ਮੋਡ ਨੂੰ ਬੰਦ ਕਰ ਦਵੋ ਅਤੇ ਦੁਬਾਰਾ "
-"ਚਾਲੂ ਕਰ ਦਵੋ ਜਦੋ ਵਿੰਡੋਜ਼ ਪੂਰੀ ਸਕ੍ਰੀਨ ਛੱਡ ਦੇਣ."
+"ਜਦੋਂ ਵਿੰਡੋਜ਼ ਪੂਰੀ ਸਕ੍ਰੀਨ ਤੇ ਹੋਣ ਤਾਂ ਨਾਈਟ-ਲਾਈਟ ਮੋਡ ਨੂੰ ਬੰਦ ਕਰ ਦਿੰਦਾ ਹੈ ਅਤੇ "
+"ਦੁਬਾਰਾ ਚਾਲੂ ਕਰ ਦਿੰਦਾ ਹੈ  ਜਦੋ ਵਿੰਡੋਜ਼ ਪੂਰੀ ਸਕ੍ਰੀਨ ਛੱਡ ਦੇਣ."
 
 #: src/panel/settings/settings_wm.vala:63
 msgid "Automatic tiling"
@@ -509,7 +509,7 @@ msgstr "ਟੈਬ ਸਵਿੱਚਰ ਵਿੱਚ ਸਾਰੀਆਂ ਵਿੰ�
 #: src/panel/settings/settings_wm.vala:83
 msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
 msgstr ""
-"ਸਾਰੀਆਂ ਟੈਬਾਂ ਵਰਕਸਪੇਸ ਦੀ ਪਰਵਾਹ ਕੀਤੇ ਬਿਨਾਂ  ਟੈਬ ਸਵਿੱਚਰ ਵਿੱਚ ਪ੍ਰਦਰਸ਼ਿਤ ਕੀਤੀਆਂ "
+"ਸਾਰੀਆਂ ਟੈਬਾਂ ਵਰਕਸਪੇਸ ਦੀ ਪਰਵਾਹ ਕੀਤੇ ਬਿਨਾਂ ਟੈਬ ਸਵਿੱਚਰ ਵਿੱਚ ਪ੍ਰਦਰਸ਼ਿਤ ਕੀਤੀਆਂ "
 "ਜਾਣਗੀਆਂ."
 
 #: src/panel/settings/settings_wm.vala:90
@@ -546,15 +546,15 @@ msgstr "ਆਈਕਾਨ੍ਸ"
 
 #: src/panel/settings/settings_style.vala:52
 msgid "Set the globally used icon theme"
-msgstr "ਗਲੋਬਲ ਤੌਰ ਤੇ ਵਰਤੇ ਜਾਣ ਵਾਲੇ ਆਈਕਨ ਥੀਮ ਨੂੰ ਸੈੱਟ ਕਰੋ"
+msgstr "ਗਲੋਬਲ ਤੌਰ ਤੇ ਵਰਤੇ ਜਾਣ ਵਾਲੇ ਆਈਕਾਨ ਥੀਮ ਨੂੰ ਸੈੱਟ ਕਰੋ"
 
 #: src/panel/settings/settings_style.vala:56
 msgid "Cursors"
-msgstr "ਕਰਸਰ"
+msgstr "ਕਰਸਰਾਂ"
 
 #: src/panel/settings/settings_style.vala:57
 msgid "Set the globally used mouse cursor theme"
-msgstr "ਗਲੋਬਲੀ  ਵਰਤੇ ਜਾਣ ਵਾਲੇ ਮਾ ਮਾਊਸ ਕਰਸਰ ਥੀਮ ਨੂੰ ਸੈੱਟ ਕਰੋ"
+msgstr "ਗਲੋਬਲੀ  ਵਰਤੇ ਜਾਣ ਵਾਲੇ ਮਾਊਸ ਕਰਸਰ ਥੀਮ ਨੂੰ ਸੈੱਟ ਕਰੋ"
 
 #: src/panel/settings/settings_style.vala:61
 msgid "Notification Position"
@@ -570,7 +570,7 @@ msgstr "ਡਾਰਕ ਥੀਮ"
 
 #: src/panel/settings/settings_style.vala:78
 msgid "Built-in theme"
-msgstr "ਬਣਿਆ ਬਣਾਇਆ ਥੀਮ"
+msgstr "ਬਿਲਟ-ਇਨ ਥੀਮ"
 
 #: src/panel/settings/settings_style.vala:79
 msgid "When enabled, the built-in theme will override the desktop component styling"
@@ -612,7 +612,7 @@ msgstr "ਵਿੰਡੋ ਟਾਇਟਲ"
 
 #: src/panel/settings/settings_fonts.vala:44
 msgid "Set the font used in the titlebars of applications."
-msgstr "ਐਪਲੀਕੇਸ਼ਨਾਂ ਦੇ ਟਾਇਟਲਬਾਰ ਵਿੱਚ ਵਰਤੇ ਫੋਂਟ ਸੈਟ ਕਰੋ."
+msgstr "ਐਪਲੀਕੇਸ਼ਨਾਂ ਦੇ ਟਾਇਟਲਬਾਰ ਵਿੱਚ ਵਰਤੇ ਜਾਣ ਵਾਲੇ ਫੋਂਟ ਸੈਟ ਕਰੋ."
 
 #: src/panel/settings/settings_fonts.vala:50
 msgid "Documents"
@@ -664,7 +664,7 @@ msgstr "ਇਸ਼ਾਰਾ"
 
 #: src/panel/settings/settings_fonts.vala:101
 msgid "Set the type of hinting to use."
-msgstr "ਹਿੰਟਿੰਗ ਕਰਨ ਦੀ ਕਿਸਮ ਨੂੰ ਵਰਤੋਂ ਲਈ ਸੈਟ ਕਰੋ."
+msgstr "ਕਿਸ ਤਰਾਂ ਦੀ ਹੀਟਿੰਗ ਵਰਤਣੀ ਹੈ ਸੈੱਟ ਕਰੋ."
 
 #: src/panel/settings/settings_fonts.vala:108
 msgid "Subpixel (for LCD screens)"
@@ -696,7 +696,7 @@ msgstr "ਚੱਲ ਰਿਹਾ ਹੈ"
 
 #: src/panel/settings/settings_autostart.vala:185
 msgid "Applications"
-msgstr "ਅੱਪਲੀਕੈਸ਼ਨਸ"
+msgstr "ਐਪਲੀਕੈਸ਼ਨਸ"
 
 #: src/panel/settings/settings_autostart.vala:195
 #: src/panel/settings/settings_autostart.vala:360
@@ -710,7 +710,7 @@ msgstr "ਕਮਾਂਡ"
 
 #: src/panel/settings/settings_autostart.vala:370
 msgid "An entry with that title already exists"
-msgstr "ਉਸ ਸਿਰਲੇਖ ਦੇ ਨਾਲ ਇਕ ਪ੍ਰਵੇਸ਼ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ"
+msgstr "ਉਸ ਸਿਰਲੇਖ ਦੇ ਨਾਲ ਇਕ ਐਂਟਰੀ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ"
 
 #: src/panel/settings/settings_autostart.vala:373
 msgid "Title"
@@ -748,7 +748,7 @@ msgstr "ਕੁਝ ਸੰਗੀਤ ਚਲਾਓ"
 #: src/raven/main_view.vala:60
 #: src/applets/notifications/NotificationsApplet.plugin.in.h:1
 msgid "Notifications"
-msgstr "ਸੂਚਨਾ"
+msgstr "ਨੋਟੀਫਿਕੇਸ਼ਨਾਂ"
 
 #. 125ms
 #: src/raven/sound.vala:158
@@ -757,7 +757,7 @@ msgstr "ਐਪਸ"
 
 #: src/raven/sound.vala:159
 msgid "Devices"
-msgstr "ਉਪਕਰਣ"
+msgstr "ਯੰਤਰਾਂ"
 
 #: src/raven/notifications_view.vala:100
 msgid "Nothing to see here"
@@ -767,7 +767,7 @@ msgstr "ਇੱਥੇ ਵੇਖਣ ਲਈ ਕੁਝ ਨਹੀਂ"
 #: src/applets/notifications/NotificationsApplet.vala:106
 #, c-format
 msgid "%u unread notifications"
-msgstr "%u ਨਾ-ਪੜ੍ਹੀਆਂ ਸੂਚਨਾਵਾਂ"
+msgstr "%u ਨਾ-ਪੜ੍ਹੀਆਂ ਨੋਟੀਫਿਕੇਸ਼ਨਾਂ"
 
 #: src/raven/notifications_view.vala:651
 #: src/applets/notifications/NotificationsApplet.vala:108
@@ -777,18 +777,18 @@ msgstr "1 ਨਾ ਪੜ੍ਹੀ ਗਈ ਨੋਟੀਫਿਕੇਸ਼ਨ"
 #: src/raven/notifications_view.vala:653
 #: src/applets/notifications/NotificationsApplet.vala:110
 msgid "No unread notifications"
-msgstr "ਕੋਈ ਨਾ ਪੜ੍ਹੀ ਨੋਟੀਫਿਕੇਸ਼ਨ ਨਹੀਂ"
+msgstr "ਕੋਈ ਅਣ ਪੜੀ ਸੂਚਨਾ ਨਹੀਂ ਹੈ"
 
 #: src/raven/notifications_view.vala:884
 msgid "No new notifications"
-msgstr "ਕੋਈ ਨਵੀ ਨੋਟੀਫਿਕੇਸ਼ਨ ਨਹੀਂ"
+msgstr "ਕੋਈ ਨਵੀ ਨੋਟੀਫਿਕੇਸ਼ਨ ਨਹੀਂ ਆਈ"
 
 #. Caffeine Notification
 #. Prepare label widget
 #: src/raven/notifications_group.vala:47
 #: src/applets/caffeine/CaffeineWindow.vala:37
 msgid "Caffeine Mode"
-msgstr "ਚਾਹ ਮੋੜ"
+msgstr "ਕੈਫੀਨ ਮੋਡ"
 
 #: src/applets/icon-tasklist/IconPopover.vala:106
 msgid "Launch New Instance"
@@ -796,11 +796,11 @@ msgstr "ਨਵੀਂ ਸ਼ੁਰੂਆਤ ਕਰੋ"
 
 #: src/applets/icon-tasklist/IconPopover.vala:109
 msgid "Close All Windows"
-msgstr "ਸਾਰੇ ਵਿੰਡੋ ਬੰਦ ਕਰੋ"
+msgstr "ਸਾਰੀਆਂ ਵਿੰਡੋਜ਼ ਬੰਦ ਕਰੋ"
 
 #: src/applets/icon-tasklist/IconPopover.vala:117
 msgid "Always On Top"
-msgstr "ਹਮੇਸ਼ਾ ਚੋਟੀ 'ਤੇ"
+msgstr "ਹਮੇਸ਼ਾਂ ਸਿਖਰ ਚੋਟੀ 'ਤੇ"
 
 #: src/applets/icon-tasklist/IconPopover.vala:119
 #: src/applets/icon-tasklist/IconPopover.vala:545
@@ -809,7 +809,7 @@ msgstr "ਵੱਡਾ ਕਰੋ"
 
 #: src/applets/icon-tasklist/IconPopover.vala:120
 msgid "Minimize"
-msgstr "ਨੀਚੇ ਕਰ ਦਵੋ"
+msgstr "ਓਹਲੇ ਕਰ ਦਵੋ"
 
 #: src/applets/icon-tasklist/IconPopover.vala:433
 msgid "Unfavorite"
@@ -838,7 +838,7 @@ msgstr "ਵਿੰਡੋ ਬੰਦ ਕਰੋ"
 
 #: src/applets/icon-tasklist/IconPopover.vala:606
 msgid "Show Window Controls"
-msgstr "ਵਿੰਡੋ ਕੰਟਰੋਲ ਵੇਖਾਓ"
+msgstr "ਵਿੰਡੋ ਕੰਟਰੋਲ ਦਿਖਾਓ"
 
 #. there's already an active tray, create an informative icon with a popover
 #: src/applets/tray/TrayApplet.vala:114
@@ -872,7 +872,7 @@ msgstr "ਬੈਟਰੀ ਪ੍ਰਤੀਸ਼ਤਤਾ ਦਿਖਾਓ"
 
 #: src/applets/status/PowerIndicator.vala:169
 msgid "Power settings"
-msgstr "ਪਾਵਰ ਸੈਟਿੰਗਜ਼"
+msgstr "ਪਾਵਰ ਸੈਟਿੰਗਾਂ"
 
 #. Settings button
 #: src/applets/status/BluetoothIndicator.vala:53
@@ -917,7 +917,7 @@ msgstr "ਵਾਲੀਅਮ ਹੋਰ ਪ੍ਰਕਿਰਿਆਵਾਂ ਦੁਆ
 
 #: src/applets/places-indicator/MountHelper.vala:40
 msgid "Operation aborted"
-msgstr "ਓਪਰੇਸ਼ਨ ਅਧੂਰਾ ਛੱਡਿਆ ਗਿਆ"
+msgstr "ਓਪਰੇਸ਼ਨ ਅਧੂਰਾ ਛੱਡ ਦਿੱਤਾ ਗਿਆ"
 
 #: src/applets/places-indicator/MountHelper.vala:51
 msgid "Type your password"
@@ -943,7 +943,7 @@ msgstr "ਹਟਾਉਣ ਯੋਗ ਯੰਤਰ"
 #: src/applets/places-indicator/VolumeItem.vala:27
 #: src/applets/places-indicator/MountItem.vala:25
 msgid "Local volumes"
-msgstr "ਲੋਕਲ ਖੰਡ"
+msgstr "ਲੋਕਲ ਵਾਲੀਅਮ"
 
 #: src/applets/places-indicator/VolumeItem.vala:31
 #: src/applets/places-indicator/MountItem.vala:29
@@ -953,17 +953,17 @@ msgstr "ਨੈੱਟਵਰਕ ਫੋਲਡਰ"
 #: src/applets/places-indicator/VolumeItem.vala:34
 #: src/applets/places-indicator/MountItem.vala:32
 msgid "Other"
-msgstr "Other"
+msgstr "ਹੋਰ ਕੁਝ"
 
 #: src/applets/places-indicator/VolumeItem.vala:41
 #, c-format
 msgid "Mount and open \"%s\""
-msgstr "\"%s\" ਮਾਊਂਟ ਅਤੇ ਖੋਲ੍ਹੋ"
+msgstr "\"%s\" ਮਾਊਂਟ ਕਰੋ ਅਤੇ ਖੋਲ੍ਹੋ"
 
 #: src/applets/places-indicator/VolumeItem.vala:55
 #: src/applets/places-indicator/MountItem.vala:58
 msgid "Eject"
-msgstr "ਬਾਹਰ ਕੱਢੋ"
+msgstr "ਕੱਢ ਦਵੋ"
 
 #: src/applets/places-indicator/VolumeItem.vala:73
 #: src/applets/places-indicator/VolumeItem.vala:114
@@ -982,7 +982,7 @@ msgstr "ਤੁਹਾਡੇ ਦੁਆਰਾ ਦਿੱਤਾ ਗਿਆ ਪਾਸ�
 #: src/applets/places-indicator/VolumeItem.vala:116
 msgid "An unknown error occurred while attempting to mount this volume"
 msgstr ""
-"ਇਸ ਵਾਲੀਅਮ ਨੂੰ ਮਾਂਊਂਟ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਦਿਆਂ ਇੱਕ ਅਣਪਛਾਤੀ ਗਲਤੀ ਸਾਹਮਣੇ ਆਈ ਹੈ"
+"ਇਸ ਵਾਲੀਅਮ ਨੂੰ ਮਾਂਊਂਟ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਦਿਆਂ ਇੱਕ ਅਣਪਛਾਤੀ ਸਮੱਸਿਆ ਸਾਹਮਣੇ ਆਈ ਹੈ"
 
 #: src/applets/places-indicator/MountItem.vala:60
 msgid "Unmount"
@@ -996,24 +996,23 @@ msgstr "\"%s\" ਖੋਲ੍ਹੋ"
 
 #: src/applets/places-indicator/MountItem.vala:76
 msgid "Unknown Device"
-msgstr "ਅਣਪਛਾਤਾ ਉਪਕਰਨ"
+msgstr "ਅਣਪਛਾਤਾ ਯੰਤਰ"
 
 #: src/applets/places-indicator/MountItem.vala:84
 msgid "Error while ejecting device"
-msgstr ""
+msgstr "ਡਿਵਾਈਸ ਨੂੰ ਬਾਹਰ ਕੱਢਣ ਦੌਰਾਨ ਸਮੱਸਿਆ ਸਾਹਮਣੇ ਆ ਰਹੀ ਹੈ"
 
 #: src/applets/places-indicator/MountItem.vala:100
 msgid "Error while unmounting volume"
-msgstr ""
+msgstr "ਵਾਲੀਅਮ ਅਨਮਾਉਂਟ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ"
 
 #: src/applets/caffeine/CaffeineWindow.vala:39
 msgid "Timer (minutes)"
 msgstr "ਟਾਈਮਰ (ਮਿੰਟ)"
 
 #: src/applets/show-desktop/ShowDesktopApplet.vala:30
-#, fuzzy
 msgid "Toggle the desktop"
-msgstr "ਡੈਸਕਟਾਪ ਨੂੰ ਬਦਲੋ"
+msgstr "ਡੈਸਕਟਾਪ ਦੀ ਸਵਿਚ ਨੂੰ ਬਦਲੋ"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:55
 msgid "Caps lock is active"
@@ -1037,7 +1036,7 @@ msgstr "ਸਮਾਂ ਅਤੇ ਤਾਰੀਖ ਸੈਟਿੰਗਾਂ"
 
 #: src/applets/clock/ClockApplet.vala:144
 msgid "Calendar"
-msgstr "ਕੈਲੰਡਰ"
+msgstr "ਕਲੰਡਰ"
 
 #. pack page2
 #: src/applets/clock/ClockApplet.vala:151
@@ -1067,7 +1066,6 @@ msgstr "ਹਟਾਓ"
 
 #. placeholder in case of no results
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:123
-#, fuzzy
 msgid "Sorry, no items found"
 msgstr "ਮੁਆਫ ਕਰਨਾ, ਕੋਈ ਵੀ ਚੀਜ਼ਾਂ ਨਹੀਂ ਮਿਲੀਆਂ"
 
@@ -1136,7 +1134,7 @@ msgstr "ਡਿਸਪਲੇਅ"
 
 #: src/daemon/endsession.vala:157
 msgid "Log out"
-msgstr "ਬਾਹਰ ਨਿਕਲੋ"
+msgstr "ਲਾਗ ਆਉਟ"
 
 #: src/daemon/endsession.vala:161
 msgid "Restart device"
@@ -1144,16 +1142,16 @@ msgstr "ਮੁੜ ਚਾਲੂ ਕਰੋ"
 
 #: src/daemon/endsession.vala:173 src/daemon/endsession.ui.h:1
 msgid "Power Off"
-msgstr "ਬੰਦ ਕਰੋ"
+msgstr "ਸਿਸਟਮ ਬੰਦ"
 
 #. Should show a notification
 #: src/daemon/settings.vala:341
 msgid "Turned on Caffeine Boost"
-msgstr "ਕੈਫੇਨ ਬੂਸਟ ਚਾਲੂ ਹੈ"
+msgstr "ਕੈਫੀਨ ਬੂਸਟ ਚਾਲੂ ਹੈ"
 
 #: src/daemon/settings.vala:341
 msgid "Turned off Caffeine Boost"
-msgstr "ਕੈਫੇਨ ਬੂਸਟ ਬੰਦ ਹੈ"
+msgstr "ਕੈਫੀਨ ਬੂਸਟ ਬੰਦ ਹੈ"
 
 #: src/daemon/settings.vala:346
 msgid "Will turn off in a minute"
@@ -1236,7 +1234,7 @@ msgstr "ਮੈਨੂਅਲ"
 
 #: src/applets/night-light/indicator_window.ui.h:6
 msgid "Display Settings"
-msgstr "ਡਿਸਪਲੇਅ ਦੀਆਂ ਸੈਟਿੰਗਾਂ"
+msgstr "ਸਕਰੀਨ ਦੀਆਂ ਸੈਟਿੰਗਾਂ"
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
@@ -1256,145 +1254,147 @@ msgstr "ਹਟਾਉਣਯੋਗ ਡਰਾਈਵਾਂ ਦਿਖਾਓ"
 
 #: src/applets/places-indicator/settings.ui.h:5
 msgid "Always expand places"
-msgstr ""
+msgstr "ਹਮੇਸ਼ਾਂ ਸਥਾਨਾਂ ਦਾ ਅੱਗੇ ਹੋਰ  ਵਿਸਤਾਰ ਕਰੋ"
 
 #: src/applets/caffeine/settings.ui.h:1
 msgid "Enable notification"
-msgstr ""
+msgstr "ਨੋਟੀਫਿਕੇਸ਼ਨ ਸੰਭਵ ਕਰੋ"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
-msgstr ""
+msgstr "ਰੁਸ਼ਨਾਈ ਪੂਰੀ ਤਰਾਂ ਵਧਾ ਦਿਓ"
 
 #: src/applets/caffeine/settings.ui.h:3
 msgid "Brightness Level"
-msgstr ""
+msgstr "ਰੁਸ਼ਨਾਈ ਦਾ ਪੱਧਰ"
 
 #: src/applets/workspaces/settings.ui.h:1
 msgid "\"Add\" button visibility"
-msgstr ""
+msgstr "ਬਟਨ ਦਿਖਣ ਦੀ ਸ਼ਮਤਾ \"ਸ਼ਾਮਲ ਕਰੋ\""
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
-msgstr ""
+msgstr "ਨਾ ਦਿਖਾਓ"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
-msgstr ""
+msgstr "ਮਾਊਸ ਨੂੰ ਉੱਪਰ ਕਰਨ ਤੇ ਦਿਖਾਓ"
 
 #: src/applets/workspaces/settings.ui.h:4
 msgid "Always show"
-msgstr ""
+msgstr "ਹਮੇਸ਼ਾਂ ਦਿਖਾਓ"
 
 #: src/applets/spacer/settings.ui.h:1
 msgid "Spacer size"
-msgstr ""
+msgstr "ਸਪੇਸਰ ਦਾ ਆਕਾਰ"
 
 #: src/applets/budgie-menu/settings.ui.h:1
 msgid "Show Menu Label"
-msgstr ""
+msgstr "ਮੀਨੂ ਲੇਬਲ ਦਿਖਾਓ"
 
 #: src/applets/budgie-menu/settings.ui.h:2
 msgid "Compact Mode"
-msgstr ""
+msgstr "ਕੌਮਪੈਕਟ ਮੋਡ"
 
 #: src/applets/budgie-menu/settings.ui.h:3
 msgid "Show Headers"
-msgstr ""
+msgstr "ਸਿਰਲੇਖ ਦਿਖਾਓ"
 
 #: src/applets/budgie-menu/settings.ui.h:4
 msgid "Menu Label"
-msgstr ""
+msgstr "ਮੀਨੂੰ ਲੇਬਲ"
 
 #: src/applets/budgie-menu/settings.ui.h:5
 msgid "Roll-over mouse"
-msgstr ""
+msgstr "ਮਾਊਸ ਨੂੰ ਰੋਲ-ਓਵਰ ਕਰੋ"
 
 #: src/applets/budgie-menu/settings.ui.h:6
 msgid "Menu Icon"
-msgstr ""
+msgstr "ਮੀਨੂ ਆਈਕਾਨ"
 
 #: src/daemon/endsession.ui.h:2
 msgid "Are you sure you want to end your session?"
-msgstr ""
+msgstr "ਕੀ ਤੁਸੀਂ ਯਕੀਨਨ ਆਪਣੇ ਸੈਸ਼ਨ ਨੂੰ ਖਤਮ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
 msgid "Change desktop appearance and behavior"
-msgstr ""
+msgstr "ਡੈਸਕਟੌਪ ਦੀ ਦਿੱਖ ਅਤੇ ਵਿਵਹਾਰ ਬਦਲੋ"
 
 #: src/panel/budgie-panel.desktop.in.h:1
 msgid "Budgie Panel"
-msgstr ""
+msgstr "ਬੱਜੀ ਪੈਨਲ"
 
 #: src/panel/budgie-panel.desktop.in.h:2
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
 msgstr ""
+"ਹੋਰ ਐਪਲੀਕੇਸ਼ਨਾਂ ਲਾਂਚ ਕਰੋ ਅਤੇ ਵਿੰਡੋਜ਼ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰਨ, ਸਮਾਂ ਦਰਸਾਉਣ ਆਦਿ ਲਈ ਕਈ "
+"ਸਹੂਲਤਾਂ ਪ੍ਰਦਾਨ ਕਰੋ."
 
 #: src/applets/icon-tasklist/IconTasklistApplet.plugin.in.h:1
 msgid "Icon Task List"
-msgstr ""
+msgstr "ਆਈਕੌਨ ਕਾਰਜ ਸੂਚੀ"
 
 #: src/applets/separator/SeparatorApplet.plugin.in.h:1
 msgid "Separator"
-msgstr ""
+msgstr "ਵੱਖਰਾ ਕਰਨ ਵਾਲਾ"
 
 #: src/applets/tray/TrayApplet.plugin.in.h:1
 msgid "System Tray"
-msgstr ""
+msgstr "ਸਿਸਟਮ ਟਰੇ"
 
 #: src/applets/status/StatusApplet.plugin.in.h:1
 msgid "Status Indicator"
-msgstr ""
+msgstr "ਸਥਿਤੀ ਸੂਚਕ"
 
 #: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
 msgid "Caffeine"
-msgstr ""
+msgstr "ਕੈਫ਼ੀਨ"
 
 #: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
 msgid "Show Desktop Button"
-msgstr ""
+msgstr "ਡੈਸਕਟੌਪ ਬਟਨ ਦਿਖਾਓ"
 
 #: src/applets/lock-keys/LockKeysApplet.plugin.in.h:1
 msgid "Lock Keys Indicator"
-msgstr ""
+msgstr "ਲੌਕ ਦੀ ਚਾਬੀਆਂ ਦਾ ਇੰਡੀਕੇਟਰ"
 
 #: src/applets/clock/ClockApplet.plugin.in.h:1
 msgid "Clock"
-msgstr ""
+msgstr "ਘੜੀ"
 
 #: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
 msgid "Raven Sidebar Control"
-msgstr ""
+msgstr "ਰੇਵਨ ਸਾਈਡਬਾਰ ਕੰਟਰੋਲ"
 
 #: src/applets/workspaces/WorkspacesApplet.plugin.in.h:1
 msgid "Workspace Switcher"
-msgstr ""
+msgstr "ਵਰਕਸਪੇਸ ਸਵਿੱਚਰ"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
-msgstr ""
+msgstr "ਕੀਬੋਰਡ ਲੇਆਉਟ ਇੰਡੀਕੇਟਰ"
 
 #: src/applets/spacer/SpacerApplet.plugin.in.h:1
 msgid "Spacer"
-msgstr ""
+msgstr "ਸਪੇਸਰ"
 
 #: src/applets/tasklist/TasklistApplet.plugin.in.h:1
 msgid "Task List"
-msgstr ""
+msgstr "ਕਾਰਜ ਸੂਚੀ"
 
 #: src/applets/budgie-menu/BudgieMenu.plugin.in.h:1
 msgid "Budgie Menu"
-msgstr ""
+msgstr "ਬੱਜੀ ਮੀਨੂ"
 
 #: src/applets/user-indicator/UserIndicator.plugin.in.h:1
 msgid "User Indicator"
-msgstr ""
+msgstr "ਇੰਡੀਕੇਟਰ"
 
 #: src/session/budgie-desktop.desktop.in.in.h:1
 #: src/session/budgie-desktop.session.in.in.h:1
 msgid "Budgie Desktop"
-msgstr ""
+msgstr "ਬੱਜੀ ਡੈਸਕਟੌਪ"
 
 #: src/session/budgie-desktop.desktop.in.in.h:2
 msgid "This session logs you into the Budgie Desktop"
-msgstr ""
+msgstr "ਇਹ ਸੈਸ਼ਨ ਤੁਹਾਨੂੰ ਬੱਜੀ ਡੈਸਕਟੌਪ ਦੇ ਅੰਦਰ ਦਾਖ਼ਲ ਕਰਦਾ ਹੈ"
