@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
 "PO-Revision-Date: 2020-11-19 03:44+0000\n"
-"Last-Translator: Manjot Singh <manjotsinghpunjab@gmail.com>\n"
+"Last-Translator: Gagandeep Singh <gagankang420@gmail.com>\n"
 "Language-Team: Punjabi <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/pa/>\n"
 "Language: pa\n"
@@ -743,7 +743,7 @@ msgstr "ਇਸ ਵੇਲੇ ਕੋਈ ਵੀ ਐਪਸ ਆਡੀਓ ਨਹੀਂ
 
 #: src/raven/start_listening.vala:28
 msgid "Play some music"
-msgstr "ਕੁਝ ਸੰਗੀਤ ਚਲਾਓ"
+msgstr "ਕੋਈ ਸੰਗੀਤ ਵਜਾਓ"
 
 #: src/raven/main_view.vala:60
 #: src/applets/notifications/NotificationsApplet.plugin.in.h:1
@@ -860,7 +860,7 @@ msgstr "ਅਣਪਛਾਤਾ"
 #. Set inner charging duration to hours:minutes
 #: src/applets/status/PowerIndicator.vala:105
 msgid "Battery charging"
-msgstr "ਬੈਟਰੀ ਚਾਰਜਿੰਗ"
+msgstr "ਬੈਟਰੀ ਚਾਰਜ ਹੋ ਰਹੀ ਹੈ "
 
 #: src/applets/status/PowerIndicator.vala:110
 msgid "Battery remaining"
