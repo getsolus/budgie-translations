@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
-"PO-Revision-Date: 2020-11-19 00:14+0000\n"
-"Last-Translator: Charae A/L Eh Sin <charae.ehsin@gmail.com>\n"
+"PO-Revision-Date: 2020-11-21 15:04+0000\n"
+"Last-Translator: Noor Kamaruddin <safaryna79@gmail.com>\n"
 "Language-Team: Malay <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ms/>\n"
 "Language: ms_MY\n"
@@ -31,15 +31,17 @@ msgstr "Kumpulan:"
 
 #: src/panel/settings/settings_raven.vala:61
 msgid "Set Raven position"
-msgstr ""
+msgstr "Atur posisi Raven"
 
 #: src/panel/settings/settings_raven.vala:62
 msgid "Set which side of the screen Raven will open on. If set to Automatic, Raven will open where its parent panel is."
 msgstr ""
+"Pilih sisi skrin dimana Raven akan dibuka. Jika set kepada Automatik, Raven "
+"akan dibuka di panel induk."
 
 #: src/panel/settings/settings_raven.vala:67
 msgid "Allow raising volume above 100%"
-msgstr ""
+msgstr "Biarkan kekuatan bunyi melepasi 100%"
 
 #: src/panel/settings/settings_raven.vala:68
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
