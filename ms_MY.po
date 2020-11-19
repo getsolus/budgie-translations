@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
 "PO-Revision-Date: 2020-11-21 15:04+0000\n"
-"Last-Translator: Noor Kamaruddin <safaryna79@gmail.com>\n"
+"Last-Translator: Charae A/L Eh Sin <charae.ehsin@gmail.com>\n"
 "Language-Team: Malay <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ms/>\n"
 "Language: ms_MY\n"
@@ -46,38 +46,44 @@ msgstr "Biarkan kekuatan bunyi melepasi 100%"
 #: src/panel/settings/settings_raven.vala:68
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
 msgstr ""
+"Benarkan menaikkan bunyi melalui Tetapan Bunyi dan juga Widget Pengeluaran "
+"Bunyi  di Raven sehingga 150%."
 
 #: src/panel/settings/settings_raven.vala:72
 msgid "Enable display of week numbers in Calendar"
-msgstr ""
+msgstr "Benarkan paparan bilangan minggu di Kalendar"
 
 #: src/panel/settings/settings_raven.vala:73
 msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr ""
+msgstr "Tetapan ini membenarkan paparan bilangan minggu pada widget Kalendar."
 
 #: src/panel/settings/settings_raven.vala:78
 msgid "Show Calendar Widget"
-msgstr ""
+msgstr "Menunjukkan Widget Kalendar"
 
 #: src/panel/settings/settings_raven.vala:79
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
 msgstr ""
+"Menunjukkan atau menyembunyikan Widget Kalendar di bahagian Applet Raven."
 
 #: src/panel/settings/settings_raven.vala:84
 msgid "Show Sound Output Widget"
-msgstr ""
+msgstr "Menunjukkan Widget Pengeluaran Bunyi."
 
 #: src/panel/settings/settings_raven.vala:85
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
 msgstr ""
+"Menunjukkan atau menyembunyikan Widget Output Bunyi di bahagian Applet Raven."
 
 #: src/panel/settings/settings_raven.vala:90
 msgid "Show Microphone Input Widget"
-msgstr ""
+msgstr "Menunjukkan Widget Input Mikrofon. "
 
 #: src/panel/settings/settings_raven.vala:91
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
 msgstr ""
+"Menunjukkan atau menyembunyikan Widget Input Mikrofon di bahagian Applet "
+"Raven. "
 
 #: src/panel/settings/settings_raven.vala:96
 msgid "Show Media Playback Controls Widget"
@@ -86,6 +92,8 @@ msgstr "Menunjukkan Widget Kawalan Main Balik Media"
 #: src/panel/settings/settings_raven.vala:97
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
 msgstr ""
+"Menunjukkan atau menyembunyikan Widget Kawalan Main Semula Media pada "
+"bahagian Applet Raven."
 
 #: src/panel/settings/settings_raven.vala:102
 msgid "Show Power Strip"
@@ -93,7 +101,7 @@ msgstr "Menunjukkan Jalur Kuasa"
 
 #: src/panel/settings/settings_raven.vala:103
 msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr ""
+msgstr "Menunjukkan atau menyembunyikan Jalur Kuasa pada bahagian bawah Raven."
 
 #: src/panel/settings/settings_panel_applets.vala:19
 msgid "Configure applet"
@@ -200,9 +208,8 @@ msgid "Desktop Icons"
 msgstr "Ikon Desktop"
 
 #: src/panel/settings/settings_desktop.vala:77
-#, fuzzy
 msgid "Control whether to allow icons on the desktop."
-msgstr "Kawal sama ada hendak benarkan pelancar dan ikon di atas desktop"
+msgstr "Kawal sama ada hendak benarkan ikon di atas desktop."
 
 #. DesktopFolder doesn't support fancy options like showing home folder, trash, or active mounts
 #. DesktopType is the only one that doesn't support showing mounts
@@ -212,9 +219,8 @@ msgid "Active Mounts"
 msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:87
-#, fuzzy
 msgid "Show all active mounts on the desktop."
-msgstr "Kawal sama ada hendak benarkan pelancar dan ikon di atas desktop"
+msgstr "Menunjukkan semua pelekap aktif di atas desktop."
 
 #. Switcher to show or hide our Home folder
 #: src/panel/settings/settings_desktop.vala:94
@@ -222,9 +228,8 @@ msgid "Home directory"
 msgstr "Direktori rumah"
 
 #: src/panel/settings/settings_desktop.vala:95
-#, fuzzy
 msgid "Add a shortcut to your home directory on the desktop."
-msgstr "Tambah satu pintasan ke direktori rumah di atas dekstop"
+msgstr "Tambah satu pintasan ke direktori rumah di atas dekstop."
 
 #. Switcher to show or hide a shortcut to Trash
 #: src/panel/settings/settings_desktop.vala:102
@@ -232,43 +237,42 @@ msgid "Trash"
 msgstr "Tong Sampah"
 
 #: src/panel/settings/settings_desktop.vala:103
-#, fuzzy
 msgid "Add a shortcut to the Trash directory on the desktop."
-msgstr "Tambah satu pintasan ke direktori Tong Sampah di atas dekstop"
+msgstr "Tambah satu pintasan ke direktori Tong Sampah di atas dekstop."
 
 #. DesktopType doesn't support icon size changing. Nemo might but needs validation.
 #. Icon Size combo box
 #: src/panel/settings/settings_desktop.vala:112
-#, fuzzy
 msgid "Icon Size"
-msgstr "Saiz"
+msgstr "Saiz Ikon"
 
 #: src/panel/settings/settings_desktop.vala:113
-#, fuzzy
 msgid "Set the desired size of icons on the desktop."
-msgstr "Kawal sama ada hendak benarkan pelancar dan ikon di atas desktop"
+msgstr "Tetapkan saiz ikon yang dikehendaki di atas desktop."
 
 #: src/panel/settings/settings_desktop.vala:144
 msgid "Number of virtual desktops"
-msgstr ""
+msgstr "Bilangan desktop maya"
 
 #: src/panel/settings/settings_desktop.vala:145
 msgid "Number of virtual desktops / workspaces to create automatically on startup."
 msgstr ""
+"Bilangan desktop maya / ruang kerja untuk dihasilkan secara automatik semasa "
+"permulaan."
 
 #: src/panel/settings/settings_desktop.vala:249
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #. Small
 #: src/panel/settings/settings_desktop.vala:252
 msgid "Small"
-msgstr ""
+msgstr "Kecil"
 
 #. Large
 #: src/panel/settings/settings_desktop.vala:254
 msgid "Large"
-msgstr ""
+msgstr "Besar"
 
 #. Massive
 #: src/panel/settings/settings_desktop.vala:256
@@ -284,9 +288,8 @@ msgid "Settings"
 msgstr "Tetapan"
 
 #: src/panel/settings/settings_panel.vala:85
-#, fuzzy
 msgid "Remove Panel"
-msgstr "Buang panel"
+msgstr "Buang Panel"
 
 #: src/panel/settings/settings_panel.vala:86
 msgid "Remove this panel from the screen"
