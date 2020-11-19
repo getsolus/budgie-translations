@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: budgie-desktop 10.5.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
-"PO-Revision-Date: 2020-11-19 00:14+0000\n"
+"PO-Revision-Date: 2020-11-22 11:02+0000\n"
 "Last-Translator: Algent Albrahimi <algent@protonmail.com>\n"
 "Language-Team: Albanian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/sq/>\n"
@@ -331,7 +331,7 @@ msgstr "Paneli i Poshtëm"
 
 #: src/panel/settings/settings_panel.vala:177
 msgid "Top"
-msgstr "Sipërm"
+msgstr "Lart"
 
 #: src/panel/settings/settings_panel.vala:179 src/raven/raven.vala:35
 msgid "Right"
@@ -344,7 +344,7 @@ msgstr "Majtë"
 
 #: src/panel/settings/settings_panel.vala:183
 msgid "Bottom"
-msgstr "Poshtëm"
+msgstr "Poshtë"
 
 #: src/panel/settings/settings_panel.vala:193
 msgid "Always"
@@ -851,7 +851,7 @@ msgstr "Shfaq Kontrollet e Dritareve"
 #. there's already an active tray, create an informative icon with a popover
 #: src/applets/tray/TrayApplet.vala:114
 msgid "Only one instance of the System Tray can be active at a time."
-msgstr "Vetëm një shembull i Sistemit Tabaka mund të jetë aktiv."
+msgstr "Vetëm një instancë e Sistemit Tabaka mund të jetë aktiv."
 
 #: src/applets/tray/TrayApplet.vala:140
 msgid "The System Tray failed to initialize."
@@ -876,530 +876,532 @@ msgstr "Bateria e mbetur"
 
 #: src/applets/status/PowerIndicator.vala:161
 msgid "Show battery percentage"
-msgstr ""
+msgstr "Shfaq përqindjen e baterisë"
 
 #: src/applets/status/PowerIndicator.vala:169
 msgid "Power settings"
-msgstr ""
+msgstr "Cilësimet e energjisë"
 
 #. Settings button
 #: src/applets/status/BluetoothIndicator.vala:53
 msgid "Bluetooth Settings"
-msgstr ""
+msgstr "Cilësimet e Bluetooth"
 
 #. Send files button
 #: src/applets/status/BluetoothIndicator.vala:60
 msgid "Send Files"
-msgstr ""
+msgstr "Dërgo Skedarë"
 
 #. Airplane mode
 #: src/applets/status/BluetoothIndicator.vala:70
 msgid "Bluetooth Airplane Mode"
-msgstr ""
+msgstr "Modaliteti Aeroplan në Bluetooth"
 
 #: src/applets/status/BluetoothIndicator.vala:173
 msgid "Bluetooth is disabled"
-msgstr ""
+msgstr "Bluetooth është çaktivizuar"
 
 #: src/applets/status/BluetoothIndicator.vala:177
 msgid "Bluetooth is active"
-msgstr ""
+msgstr "Bluetooth është aktiv"
 
 #: src/applets/status/BluetoothIndicator.vala:182
 #, c-format
 msgid "Connected to %d device"
 msgid_plural "Connected to %d devices"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Lidhur me pajisjen %d"
+msgstr[1] "Lidhur me %d pajisje"
 
 #: src/applets/places-indicator/PlacesSection.vala:22
 #: src/applets/places-indicator/PlacesSection.vala:44
 #: src/applets/places-indicator/PlacesIndicator.vala:80
 #: src/applets/places-indicator/PlacesIndicator.plugin.in.h:1
 msgid "Places"
-msgstr ""
+msgstr "Vendet"
 
 #: src/applets/places-indicator/MountHelper.vala:35
 msgid "Volume is in use by other processes"
-msgstr ""
+msgstr "Volumi është në përdorim nga proceset e tjera"
 
 #: src/applets/places-indicator/MountHelper.vala:40
 msgid "Operation aborted"
-msgstr ""
+msgstr "Operacioni u ndërpre"
 
 #: src/applets/places-indicator/MountHelper.vala:51
 msgid "Type your password"
-msgstr ""
+msgstr "Shtypni fjalëkalimin tuaj"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:179
 msgid "Nothing to display right now"
-msgstr ""
+msgstr "Asgjë për të shfaqur tani"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:183
 msgid "Mount some drives"
-msgstr ""
+msgstr "Montoni disa pajisje"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:183
 msgid "Enable more sections"
-msgstr ""
+msgstr "Aktivizo më shumë seksione"
 
 #: src/applets/places-indicator/VolumeItem.vala:25
 #: src/applets/places-indicator/MountItem.vala:23
 msgid "Removable devices"
-msgstr ""
+msgstr "Pajisjet e lëvizshme"
 
 #: src/applets/places-indicator/VolumeItem.vala:27
 #: src/applets/places-indicator/MountItem.vala:25
 msgid "Local volumes"
-msgstr ""
+msgstr "Disqet lokale"
 
 #: src/applets/places-indicator/VolumeItem.vala:31
 #: src/applets/places-indicator/MountItem.vala:29
 msgid "Network folders"
-msgstr ""
+msgstr "Dosjet e rrjetit"
 
 #: src/applets/places-indicator/VolumeItem.vala:34
 #: src/applets/places-indicator/MountItem.vala:32
 msgid "Other"
-msgstr ""
+msgstr "Tjetër"
 
 #: src/applets/places-indicator/VolumeItem.vala:41
 #, c-format
 msgid "Mount and open \"%s\""
-msgstr ""
+msgstr "Montoni dhe hapni \"%s\""
 
 #: src/applets/places-indicator/VolumeItem.vala:55
 #: src/applets/places-indicator/MountItem.vala:58
 msgid "Eject"
-msgstr ""
+msgstr "Nxjerr"
 
 #: src/applets/places-indicator/VolumeItem.vala:73
 #: src/applets/places-indicator/VolumeItem.vala:114
 msgid "Enter the encryption passphrase to unlock this volume"
-msgstr ""
+msgstr "Futni frazën e kalimit të kriptimit për të zhbllokuar këtë disk"
 
 #: src/applets/places-indicator/VolumeItem.vala:83
 #: src/applets/places-indicator/MountItem.vala:75
 msgid "You can now safely remove"
-msgstr ""
+msgstr "Tani mund ta hiqni në mënyrë të sigurt"
 
 #: src/applets/places-indicator/VolumeItem.vala:112
 msgid "The password you entered is incorrect"
-msgstr ""
+msgstr "Fjalëkalimi që keni futur është i pasaktë"
 
 #: src/applets/places-indicator/VolumeItem.vala:116
 msgid "An unknown error occurred while attempting to mount this volume"
-msgstr ""
+msgstr "Ndodhi një gabim i panjohur gjatë përpjekjes për të montuar këtë disk"
 
 #: src/applets/places-indicator/MountItem.vala:60
 msgid "Unmount"
-msgstr ""
+msgstr "Çmontoni"
 
 #: src/applets/places-indicator/MountItem.vala:63
 #: src/applets/places-indicator/PlaceItem.vala:36
 #, c-format
 msgid "Open \"%s\""
-msgstr ""
+msgstr "Hap \"%s\""
 
 #: src/applets/places-indicator/MountItem.vala:76
 msgid "Unknown Device"
-msgstr ""
+msgstr "Pajisje e panjohur"
 
 #: src/applets/places-indicator/MountItem.vala:84
 msgid "Error while ejecting device"
-msgstr ""
+msgstr "Gabim gjatë nxjerrjes së pajisjes"
 
 #: src/applets/places-indicator/MountItem.vala:100
 msgid "Error while unmounting volume"
-msgstr ""
+msgstr "Gabim gjatë çmontimit së diskut"
 
 #: src/applets/caffeine/CaffeineWindow.vala:39
 msgid "Timer (minutes)"
-msgstr ""
+msgstr "Kohëmatësi (minuta)"
 
 #: src/applets/show-desktop/ShowDesktopApplet.vala:30
 msgid "Toggle the desktop"
-msgstr ""
+msgstr "Ndërro desktopin"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:55
 msgid "Caps lock is active"
-msgstr ""
+msgstr "Kyçi i kapitaleve është aktiv"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:58
 msgid "Caps lock is not active"
-msgstr ""
+msgstr "Kyçi i kapitaleve nuk është aktiv"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:67
 msgid "Num lock is active"
-msgstr ""
+msgstr "Kyçi i numrave është aktiv"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:70
 msgid "Num lock is not active"
-msgstr ""
+msgstr "Kyçi i numrave nuk është aktiv"
 
 #: src/applets/clock/ClockApplet.vala:143
 msgid "Time and date settings"
-msgstr ""
+msgstr "Cilësimet e orës dhe datës"
 
 #: src/applets/clock/ClockApplet.vala:144
 msgid "Calendar"
-msgstr ""
+msgstr "Kalendar"
 
 #. pack page2
 #: src/applets/clock/ClockApplet.vala:151
 #: src/applets/clock/ClockApplet.vala:182
 msgid "Preferences"
-msgstr ""
+msgstr "Preferencat"
 
 #: src/applets/clock/ClockApplet.vala:161
 msgid "Show date"
-msgstr ""
+msgstr "Shfaq datën"
 
 #: src/applets/clock/ClockApplet.vala:166
 msgid "Show seconds"
-msgstr ""
+msgstr "Shfaq sekondat"
 
 #: src/applets/clock/ClockApplet.vala:172
 msgid "Use 24 hour time"
-msgstr ""
+msgstr "Përdorni formatin me 24 orë"
 
 #: src/applets/workspaces/WorkspaceItem.vala:69
 msgid "Rename"
-msgstr ""
+msgstr "Riemërto"
 
 #: src/applets/workspaces/WorkspaceItem.vala:77
 msgid "Remove"
-msgstr ""
+msgstr "Hiq"
 
 #. placeholder in case of no results
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:123
 msgid "Sorry, no items found"
-msgstr ""
+msgstr "Na vjen keq, nuk u gjet asnjë artikull"
 
 #. Special case, "All"
 #: src/applets/budgie-menu/BudgieMenuButtons.vala:25
 msgid "All"
-msgstr ""
+msgstr "Të gjitha"
 
 #: src/applets/budgie-menu/IconChooser.vala:24
 msgid "Set menu icon from file"
-msgstr ""
+msgstr "Vendosni ikonën e menusë nga skedari"
 
 #: src/applets/budgie-menu/IconChooser.vala:34
 msgid "Image files"
-msgstr ""
+msgstr "Skedarët e imazheve"
 
 #: src/applets/budgie-menu/IconChooser.vala:40
 msgid "Any file"
-msgstr ""
+msgstr "Çdo skedar"
 
 #: src/applets/budgie-menu/IconChooser.vala:53
 msgid "Set icon"
-msgstr ""
+msgstr "Vendos ikonën"
 
 #. User Menu Creation
 #: src/applets/user-indicator/UserIndicatorWindow.vala:99
 msgid "User"
-msgstr ""
+msgstr "Përdorues"
 
 #. Default to "User" and symbolic icon
 #. The rest
 #: src/applets/user-indicator/UserIndicatorWindow.vala:105
 msgid "Lock"
-msgstr ""
+msgstr "Kyç"
 
 #: src/applets/user-indicator/UserIndicatorWindow.vala:106
 msgid "Suspend"
-msgstr ""
+msgstr "Pezullo"
 
 #: src/applets/user-indicator/UserIndicatorWindow.vala:107
 msgid "Hibernate"
-msgstr ""
+msgstr "Letargji"
 
 #: src/applets/user-indicator/UserIndicatorWindow.vala:108
 #: src/daemon/endsession.ui.h:5
 msgid "Restart"
-msgstr ""
+msgstr "Rinisni"
 
 #: src/applets/user-indicator/UserIndicatorWindow.vala:109
 #: src/daemon/endsession.ui.h:6
 msgid "Shutdown"
-msgstr ""
+msgstr "Fike"
 
 #: src/applets/user-indicator/UserIndicatorWindow.vala:208
 #: src/daemon/endsession.ui.h:4
 msgid "Logout"
-msgstr ""
+msgstr "Shkyç"
 
 #: src/daemon/menus.vala:46
 msgid "Change background"
-msgstr ""
+msgstr "Ndrysho sfondin"
 
 #: src/daemon/menus.vala:51
 msgid "Displays"
-msgstr ""
+msgstr "Ekranet"
 
 #: src/daemon/endsession.vala:157
 msgid "Log out"
-msgstr ""
+msgstr "Shkyçu"
 
 #: src/daemon/endsession.vala:161
 msgid "Restart device"
-msgstr ""
+msgstr "Rinisni pajisjen"
 
 #: src/daemon/endsession.vala:173 src/daemon/endsession.ui.h:1
 msgid "Power Off"
-msgstr ""
+msgstr "Fikeni"
 
 #. Should show a notification
 #: src/daemon/settings.vala:341
 msgid "Turned on Caffeine Boost"
-msgstr ""
+msgstr "Aktivizuar Rritjen e Caffeine"
 
 #: src/daemon/settings.vala:341
 msgid "Turned off Caffeine Boost"
-msgstr ""
+msgstr "Çaktivizuar Rritjen e Caffeine"
 
 #: src/daemon/settings.vala:346
 msgid "Will turn off in a minute"
-msgstr ""
+msgstr "Do të fiket për një minutë"
 
 #. use plural
 #: src/daemon/settings.vala:349
 #, c-format
 msgid "Will turn off in %d minutes"
-msgstr ""
+msgstr "Do të fiket pas %d minutash"
 
 #: src/polkit/dialog.ui.h:1
 msgid "Authentication Required"
-msgstr ""
+msgstr "Kërkohet vërtetimi"
 
 #: src/polkit/dialog.ui.h:2
 msgid "Password:"
-msgstr ""
+msgstr "Fjalëkalimi:"
 
 #: src/polkit/dialog.ui.h:3
 msgid "Authentication is required"
-msgstr ""
+msgstr "Kërkohet vërtetimi"
 
 #: src/polkit/dialog.ui.h:5
 msgid "Authenticate"
-msgstr ""
+msgstr "Vërtetoni"
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
-msgstr ""
+msgstr "Shfaq të gjitha dritaret me klikim"
 
 #: src/applets/icon-tasklist/settings.ui.h:2
 msgid "Only show favorited"
-msgstr ""
+msgstr "Shfaq vetëm të favorizuarat"
 
 #: src/applets/icon-tasklist/settings.ui.h:3
 msgid "Lock icons"
-msgstr ""
+msgstr "Kyç ikonat"
 
 #: src/applets/icon-tasklist/settings.ui.h:4
 msgid "Restrict to Workspace"
-msgstr ""
+msgstr "Kufizo në hapësirën e punës"
 
 #: src/applets/icon-tasklist/settings.ui.h:5
 msgid "Window grouping"
-msgstr ""
+msgstr "Grupimi i dritareve"
 
 #: src/applets/icon-tasklist/settings.ui.h:6
 msgid "Middle click to launch new window"
-msgstr ""
+msgstr "Klikoni butonin e mesit për të hapur një dritare të re"
 
 #: src/applets/icon-tasklist/settings.ui.h:7
 msgid "Require a double-click to launch new window"
-msgstr ""
+msgstr "Kërkohet një klikim të dyfishtë për të filluar një dritare të re"
 
 #: src/applets/tray/settings.ui.h:1
 msgid "Icon Spacing"
-msgstr ""
+msgstr "Ndarja në hapësirë e ikonave"
 
 #: src/applets/night-light/indicator_window.ui.h:1
 #: src/applets/night-light/NightLight.plugin.in.h:1
 msgid "Night Light"
-msgstr ""
+msgstr "Dritë Nate"
 
 #: src/applets/night-light/indicator_window.ui.h:2
 msgid "Temperature"
-msgstr ""
+msgstr "Temperatura"
 
 #: src/applets/night-light/indicator_window.ui.h:3
 msgid "Schedule"
-msgstr ""
+msgstr "Planifikimi"
 
 #: src/applets/night-light/indicator_window.ui.h:4
 msgid "Sunset to Sunrise"
-msgstr ""
+msgstr "Nga Perëndimi në Agim"
 
 #: src/applets/night-light/indicator_window.ui.h:5
 msgid "Manual"
-msgstr ""
+msgstr "Udhëzues"
 
 #: src/applets/night-light/indicator_window.ui.h:6
 msgid "Display Settings"
-msgstr ""
+msgstr "Cilësimet e Ekranit"
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
-msgstr ""
+msgstr "Shfaq etiketën"
 
 #: src/applets/places-indicator/settings.ui.h:2
 msgid "Show places"
-msgstr ""
+msgstr "Shfaq vendet"
 
 #: src/applets/places-indicator/settings.ui.h:3
 msgid "Show network folders"
-msgstr ""
+msgstr "Shfaq dosjet e rrjetit"
 
 #: src/applets/places-indicator/settings.ui.h:4
 msgid "Show removable drives"
-msgstr ""
+msgstr "Shfaq disqet e lëvizshme"
 
 #: src/applets/places-indicator/settings.ui.h:5
 msgid "Always expand places"
-msgstr ""
+msgstr "Gjithmonë zgjeroni vendet"
 
 #: src/applets/caffeine/settings.ui.h:1
 msgid "Enable notification"
-msgstr ""
+msgstr "Aktivizo njoftimin"
 
 #: src/applets/caffeine/settings.ui.h:2
 msgid "Maximize brightness"
-msgstr ""
+msgstr "Maksimizoni shkëlqimin"
 
 #: src/applets/caffeine/settings.ui.h:3
 msgid "Brightness Level"
-msgstr ""
+msgstr "Niveli i shkëlqimit"
 
 #: src/applets/workspaces/settings.ui.h:1
 msgid "\"Add\" button visibility"
-msgstr ""
+msgstr "Dukshmëria e butonit \"Shto\""
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
-msgstr ""
+msgstr "Mos shfaq"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
-msgstr ""
+msgstr "Shfaq me vendosjen e mausit sipër"
 
 #: src/applets/workspaces/settings.ui.h:4
 msgid "Always show"
-msgstr ""
+msgstr "Shfaq gjithmonë"
 
 #: src/applets/spacer/settings.ui.h:1
 msgid "Spacer size"
-msgstr ""
+msgstr "Madhësia e Distancuesit"
 
 #: src/applets/budgie-menu/settings.ui.h:1
 msgid "Show Menu Label"
-msgstr ""
+msgstr "Shfaq Etiketën e Menusë"
 
 #: src/applets/budgie-menu/settings.ui.h:2
 msgid "Compact Mode"
-msgstr ""
+msgstr "Modaliteti Kompakt"
 
 #: src/applets/budgie-menu/settings.ui.h:3
 msgid "Show Headers"
-msgstr ""
+msgstr "Shfaq Krerët"
 
 #: src/applets/budgie-menu/settings.ui.h:4
 msgid "Menu Label"
-msgstr ""
+msgstr "Etiketa e Menusë"
 
 #: src/applets/budgie-menu/settings.ui.h:5
 msgid "Roll-over mouse"
-msgstr ""
+msgstr "Përmbys mausin"
 
 #: src/applets/budgie-menu/settings.ui.h:6
 msgid "Menu Icon"
-msgstr ""
+msgstr "Ikona e Menusë"
 
 #: src/daemon/endsession.ui.h:2
 msgid "Are you sure you want to end your session?"
-msgstr ""
+msgstr "Je i sigurt që dëshiron ta përfundosh seancën tënde?"
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
 msgid "Change desktop appearance and behavior"
-msgstr ""
+msgstr "Ndryshoni pamjen dhe sjelljen e desktopit"
 
 #: src/panel/budgie-panel.desktop.in.h:1
 msgid "Budgie Panel"
-msgstr ""
+msgstr "Paneli Budgie"
 
 #: src/panel/budgie-panel.desktop.in.h:2
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
 msgstr ""
+"Nisni aplikacione të tjera dhe siguroni shërbime të ndryshme për të "
+"menaxhuar dritaret, për të treguar kohën, etj."
 
 #: src/applets/icon-tasklist/IconTasklistApplet.plugin.in.h:1
 msgid "Icon Task List"
-msgstr ""
+msgstr "Task Lista e Ikonave"
 
 #: src/applets/separator/SeparatorApplet.plugin.in.h:1
 msgid "Separator"
-msgstr ""
+msgstr "Ndarës"
 
 #: src/applets/tray/TrayApplet.plugin.in.h:1
 msgid "System Tray"
-msgstr ""
+msgstr "Tabakaja e Sistemit"
 
 #: src/applets/status/StatusApplet.plugin.in.h:1
 msgid "Status Indicator"
-msgstr ""
+msgstr "Treguesi i Statusit"
 
 #: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
 msgid "Caffeine"
-msgstr ""
+msgstr "Caffeine"
 
 #: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
 msgid "Show Desktop Button"
-msgstr ""
+msgstr "Shfaq Butonin Desktop"
 
 #: src/applets/lock-keys/LockKeysApplet.plugin.in.h:1
 msgid "Lock Keys Indicator"
-msgstr ""
+msgstr "Treguesi i Kyçjes së Çelësave"
 
 #: src/applets/clock/ClockApplet.plugin.in.h:1
 msgid "Clock"
-msgstr ""
+msgstr "Ora"
 
 #: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
 msgid "Raven Sidebar Control"
-msgstr ""
+msgstr "Kontrolli i Shiritit të Raven"
 
 #: src/applets/workspaces/WorkspacesApplet.plugin.in.h:1
 msgid "Workspace Switcher"
-msgstr ""
+msgstr "Ndërruesi i Hapësirës së Punës"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
-msgstr ""
+msgstr "Treguesi i Paraqitjes së Tastierës"
 
 #: src/applets/spacer/SpacerApplet.plugin.in.h:1
 msgid "Spacer"
-msgstr ""
+msgstr "Distancues"
 
 #: src/applets/tasklist/TasklistApplet.plugin.in.h:1
 msgid "Task List"
-msgstr ""
+msgstr "Task Lista"
 
 #: src/applets/budgie-menu/BudgieMenu.plugin.in.h:1
 msgid "Budgie Menu"
-msgstr ""
+msgstr "Menuja e Budgie"
 
 #: src/applets/user-indicator/UserIndicator.plugin.in.h:1
 msgid "User Indicator"
-msgstr ""
+msgstr "Treguesi i Përdoruesit"
 
 #: src/session/budgie-desktop.desktop.in.in.h:1
 #: src/session/budgie-desktop.session.in.in.h:1
 msgid "Budgie Desktop"
-msgstr ""
+msgstr "Desktopi i Budgie"
 
 #: src/session/budgie-desktop.desktop.in.in.h:2
 msgid "This session logs you into the Budgie Desktop"
-msgstr ""
+msgstr "Ky sesion ju regjistron në Desktopin Budgie"
