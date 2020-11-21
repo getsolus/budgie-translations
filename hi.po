@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: budgie-desktop 10.5.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
-"PO-Revision-Date: 2020-11-21 05:25+0000\n"
-"Last-Translator: Manjot Singh <manjotsinghpunjab@gmail.com>\n"
+"PO-Revision-Date: 2020-11-21 05:26+0000\n"
+"Last-Translator: Prateek SU <pankajsunal123@gmail.com>\n"
 "Language-Team: Hindi <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/hi/>\n"
 "Language: hi\n"
@@ -66,7 +66,7 @@ msgstr "रेवेन के एप्लेट सेक्शन में �
 
 #: src/panel/settings/settings_raven.vala:84
 msgid "Show Sound Output Widget"
-msgstr "ध्वनि आउटपुट विजेट दिखाएं"
+msgstr "ध्वनि आउटपुट विजेट दिखाए"
 
 #: src/panel/settings/settings_raven.vala:85
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
