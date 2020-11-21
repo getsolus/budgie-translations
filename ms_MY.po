@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
-"PO-Revision-Date: 2020-11-23 18:00+0000\n"
-"Last-Translator: Noor Kamaruddin <safaryna79@gmail.com>\n"
+"PO-Revision-Date: 2020-11-23 18:01+0000\n"
+"Last-Translator: Charae A/L Eh Sin <charae.ehsin@gmail.com>\n"
 "Language-Team: Malay <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ms/>\n"
 "Language: ms_MY\n"
@@ -68,22 +68,20 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:84
 msgid "Show Sound Output Widget"
-msgstr "Menunjukkan Widget Pengeluaran Bunyi."
+msgstr "Paparkan Widget Output Bunyi"
 
 #: src/panel/settings/settings_raven.vala:85
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr ""
-"Menunjukkan atau menyembunyikan Widget Output Bunyi di bahagian Applet Raven."
+msgstr "Paparkan atau sembunyikan Widget Output Bunyi di bahagian Applet Raven."
 
 #: src/panel/settings/settings_raven.vala:90
 msgid "Show Microphone Input Widget"
-msgstr "Menunjukkan Widget Input Mikrofon. "
+msgstr "Paparkan Widget Input Mikrofon"
 
 #: src/panel/settings/settings_raven.vala:91
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
 msgstr ""
-"Menunjukkan atau menyembunyikan Widget Input Mikrofon di bahagian Applet "
-"Raven. "
+"Paparkan atau sembunyikan Widget Input Mikrofon di bahagian Applet Raven."
 
 #: src/panel/settings/settings_raven.vala:96
 msgid "Show Media Playback Controls Widget"
@@ -216,7 +214,7 @@ msgstr "Kawal sama ada hendak benarkan ikon di atas desktop."
 #. Switcher to show or hide active mounts
 #: src/panel/settings/settings_desktop.vala:86
 msgid "Active Mounts"
-msgstr ""
+msgstr "Pelekap Aktif"
 
 #: src/panel/settings/settings_desktop.vala:87
 msgid "Show all active mounts on the desktop."
@@ -277,7 +275,7 @@ msgstr "Besar"
 #. Massive
 #: src/panel/settings/settings_desktop.vala:256
 msgid "Massive"
-msgstr ""
+msgstr "Sangat Besar"
 
 #: src/panel/settings/settings_panel.vala:82 src/raven/main_view.vala:57
 msgid "Applets"
@@ -435,9 +433,10 @@ msgid "Attach modal dialogs to windows"
 msgstr "Lampirkan dialog modal ke dalam tetingkap"
 
 #: src/panel/settings/settings_wm.vala:40
-#, fuzzy
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr "Dialog modal akan dilampirkan dengan tetingkap induk dan bergerak bersama-sama jika diseret"
+msgstr ""
+"Dialog modal akan dilampirkan dengan tetingkap induk dan bergerak bersama-"
+"sama jika diseret."
 
 #: src/panel/settings/settings_wm.vala:45
 msgid "Button layout"
@@ -450,15 +449,15 @@ msgstr "Ubah bentangan butang dalam palang tajuk aplikasi"
 
 #: src/panel/settings/settings_wm.vala:51
 msgid "Center new windows on screen"
-msgstr ""
+msgstr "Ketengahkan tetingkap baru di skrin"
 
 #: src/panel/settings/settings_wm.vala:52
 msgid "Center newly launched windows on the current screen."
-msgstr ""
+msgstr "Ketengahkan tetingkap yang baru dilancarkan pada skrin semasa."
 
 #: src/panel/settings/settings_wm.vala:57
 msgid "Disable Night Light mode when windows are fullscreen"
-msgstr ""
+msgstr "Mematikan mod Night Light apabila tetingkap skrin penuh"
 
 #: src/panel/settings/settings_wm.vala:58
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
@@ -469,34 +468,40 @@ msgid "Automatic tiling"
 msgstr "Penjubinan automatik"
 
 #: src/panel/settings/settings_wm.vala:64
-#, fuzzy
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr "Tetingkap akan dijubinkan secara automatik bila diseret ke bucu skrin atau bucu jauh"
+msgstr ""
+"Tetingkap akan dijubinkan secara automatik apabila diseret ke bahagian atas "
+"skrin atau bucu jauh."
 
 #: src/panel/settings/settings_wm.vala:69
 msgid "Enable window focus change on mouse enter and leave"
-msgstr ""
+msgstr "Mengaktifkan perubahan fokus tetingkap apabila tetikus masuk dan keluar"
 
 #: src/panel/settings/settings_wm.vala:70
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
 msgstr ""
+"Mengaktifkan fokus tetingkap apabila tetikus memasuki tetingkap dan tidak "
+"fokus apabila tetikus meninggalkan tetingkap."
 
 #: src/panel/settings/settings_wm.vala:76
 msgid "Disable unredirection of windows"
 msgstr "Lumpuhkan nyaharahan semula tetingkap"
 
 #: src/panel/settings/settings_wm.vala:77
-#, fuzzy
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr "Pilihan ini untuk pengguna mahir. Guna ia jika anda menghadapi masalah grafik atau prestasi dengan GPU sedia ada"
+msgstr ""
+"Pilihan ini untuk pengguna mahir. Guna ia jika anda menghadapi masalah "
+"grafik atau prestasi dengan GPU khusus."
 
 #: src/panel/settings/settings_wm.vala:82
 msgid "Show all windows in tab switcher"
-msgstr ""
+msgstr "Paparkan semua tetingkap dalam pengalih tab"
 
 #: src/panel/settings/settings_wm.vala:83
 msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
 msgstr ""
+"Semua tab akan dipaparkan dalam pengalih tab tanpa mengira ruang kerja yang "
+"digunakan."
 
 #: src/panel/settings/settings_wm.vala:90
 msgid "Right (standard)"
@@ -520,7 +525,7 @@ msgstr "Gaya"
 
 #: src/panel/settings/settings_style.vala:46
 msgid "Widgets"
-msgstr "Widjet"
+msgstr "Widget"
 
 #: src/panel/settings/settings_style.vala:47
 msgid "Set the appearance of window decorations and controls"
@@ -532,7 +537,7 @@ msgstr "Ikon"
 
 #: src/panel/settings/settings_style.vala:52
 msgid "Set the globally used icon theme"
-msgstr "Tetapkan tema ikon digunakan secara sejagat"
+msgstr "Tetapkan tema ikon yang digunakan secara global"
 
 #: src/panel/settings/settings_style.vala:56
 msgid "Cursors"
@@ -540,16 +545,15 @@ msgstr "Kursor"
 
 #: src/panel/settings/settings_style.vala:57
 msgid "Set the globally used mouse cursor theme"
-msgstr "Tetapkan tema kursor tetikus digunakan secara sejagat"
+msgstr "Tetapkan tema kursor tetikus yang digunakan secara global"
 
 #: src/panel/settings/settings_style.vala:61
-#, fuzzy
 msgid "Notification Position"
-msgstr "Pemberitahuan"
+msgstr "Kedudukan Pemberitahuan"
 
 #: src/panel/settings/settings_style.vala:62
 msgid "Set the location for notification popups"
-msgstr ""
+msgstr "Tetapkan lokasi pop timbul pemberitahuan"
 
 #: src/panel/settings/settings_style.vala:71
 msgid "Dark theme"
@@ -557,7 +561,7 @@ msgstr "Tema gelap"
 
 #: src/panel/settings/settings_style.vala:78
 msgid "Built-in theme"
-msgstr "Tema terbina-dalam"
+msgstr "Tema terbina dalam"
 
 #: src/panel/settings/settings_style.vala:79
 #, fuzzy
