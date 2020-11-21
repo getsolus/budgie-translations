@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: budgie-desktop 10.5.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
-"PO-Revision-Date: 2020-11-21 05:26+0000\n"
-"Last-Translator: Prateek SU <pankajsunal123@gmail.com>\n"
+"PO-Revision-Date: 2020-11-21 05:31+0000\n"
+"Last-Translator: Manjot Singh <manjotsinghpunjab@gmail.com>\n"
 "Language-Team: Hindi <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/hi/>\n"
 "Language: hi\n"
@@ -177,9 +177,8 @@ msgid "Panels"
 msgstr "पैनलों"
 
 #: src/panel/settings/settings_main.vala:59
-#, fuzzy
 msgid "Session"
-msgstr "इस्लास"
+msgstr "सेशन"
 
 #: src/panel/settings/settings_main.vala:68
 #: src/panel/budgie-desktop-settings.desktop.in.h:1
@@ -225,9 +224,8 @@ msgstr "डेस्कटॉप पर सभी सक्रिय माउ�
 
 #. Switcher to show or hide our Home folder
 #: src/panel/settings/settings_desktop.vala:94
-#, fuzzy
 msgid "Home directory"
-msgstr "घरेलू निर्देशिका"
+msgstr "होम डायरेक्टरी"
 
 #: src/panel/settings/settings_desktop.vala:95
 msgid "Add a shortcut to your home directory on the desktop."
@@ -286,7 +284,6 @@ msgid "Applets"
 msgstr "एप्लेट"
 
 #: src/panel/settings/settings_panel.vala:83 src/daemon/menus.vala:60
-#, fuzzy
 msgid "Settings"
 msgstr "सेटिंग्स"
 
@@ -1145,7 +1142,7 @@ msgstr "डिवाइस को पुनरारंभ करें"
 
 #: src/daemon/endsession.vala:173 src/daemon/endsession.ui.h:1
 msgid "Power Off"
-msgstr "बिजली बंद"
+msgstr "बिजली से बंद करें"
 
 #. Should show a notification
 #: src/daemon/settings.vala:341
@@ -1370,9 +1367,8 @@ msgid "Raven Sidebar Control"
 msgstr "रेवेन साइडबार नियंत्रण"
 
 #: src/applets/workspaces/WorkspacesApplet.plugin.in.h:1
-#, fuzzy
 msgid "Workspace Switcher"
-msgstr "कार्यक्षेत्र स्विचर"
+msgstr "वर्कस्पेस स्विचर"
 
 #: src/applets/keyboard-layout/KeyboardLayoutApplet.plugin.in.h:1
 msgid "Keyboard Layout Indicator"
