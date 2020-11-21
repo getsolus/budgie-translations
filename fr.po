@@ -22,9 +22,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
-"PO-Revision-Date: 2020-09-07 08:12+0000\n"
-"Last-Translator: JeanDeLaMouche <lolo.branstett@numericable.fr>\n"
-"Language-Team: French <http://translate.getsol.us/projects/budgie-desktop/translations/fr/>\n"
+"PO-Revision-Date: 2020-11-23 18:00+0000\n"
+"Last-Translator: Pierre-Yves <pyu@riseup.net>\n"
+"Language-Team: French <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,11 +43,13 @@ msgstr "Groupe :"
 
 #: src/panel/settings/settings_raven.vala:61
 msgid "Set Raven position"
-msgstr ""
+msgstr "Définir la position de Raven"
 
 #: src/panel/settings/settings_raven.vala:62
 msgid "Set which side of the screen Raven will open on. If set to Automatic, Raven will open where its parent panel is."
 msgstr ""
+"Définir sur quel côté de l'écran Raven s'ouvre. En Automatique, Raven "
+"s'ouvre à l'endroit où se trouve son panneau d'origine."
 
 #: src/panel/settings/settings_raven.vala:67
 msgid "Allow raising volume above 100%"
@@ -225,9 +228,8 @@ msgid "Active Mounts"
 msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:87
-#, fuzzy
 msgid "Show all active mounts on the desktop."
-msgstr "Autorise les raccourcis et les icônes sur le bureau."
+msgstr ""
 
 #. Switcher to show or hide our Home folder
 #: src/panel/settings/settings_desktop.vala:94
@@ -250,14 +252,12 @@ msgstr "Ajoute un raccourci sur le bureau vers la corbeille."
 #. DesktopType doesn't support icon size changing. Nemo might but needs validation.
 #. Icon Size combo box
 #: src/panel/settings/settings_desktop.vala:112
-#, fuzzy
 msgid "Icon Size"
-msgstr "Espacement des icônes"
+msgstr "Taille des icônes"
 
 #: src/panel/settings/settings_desktop.vala:113
-#, fuzzy
 msgid "Set the desired size of icons on the desktop."
-msgstr "Autorise les raccourcis et les icônes sur le bureau."
+msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:144
 msgid "Number of virtual desktops"
@@ -274,12 +274,12 @@ msgstr ""
 #. Small
 #: src/panel/settings/settings_desktop.vala:252
 msgid "Small"
-msgstr ""
+msgstr "Petit"
 
 #. Large
 #: src/panel/settings/settings_desktop.vala:254
 msgid "Large"
-msgstr ""
+msgstr "Grand"
 
 #. Massive
 #: src/panel/settings/settings_desktop.vala:256
@@ -295,7 +295,6 @@ msgid "Settings"
 msgstr "Paramètres"
 
 #: src/panel/settings/settings_panel.vala:85
-#, fuzzy
 msgid "Remove Panel"
 msgstr "Supprimer le panneau"
 
