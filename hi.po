@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
 "PO-Revision-Date: 2020-11-21 05:31+0000\n"
-"Last-Translator: Manjot Singh <manjotsinghpunjab@gmail.com>\n"
+"Last-Translator: Prateek SU <pankajsunal123@gmail.com>\n"
 "Language-Team: Hindi <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/hi/>\n"
 "Language: hi\n"
@@ -44,8 +44,8 @@ msgstr "ध्वनि को 100% से ऊपर बढ़ाने की �
 #: src/panel/settings/settings_raven.vala:68
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
 msgstr ""
-"ध्वनि सेटिंग्स के माध्यम से वॉल्यूम बढ़ाने के साथ-साथ 150% तक रेवेन में ध्वनि"
-" आउटपुट विजेट की अनुमति देता है."
+"ध्वनि सेटिंग्स के साथ-साथ  रेवेन में ध्वनि आउटपुट विजेट के माध्यम से ध्वनि को"
+" 150% तक बढ़ाने  की अनुमति देता है."
 
 #: src/panel/settings/settings_raven.vala:72
 msgid "Enable display of week numbers in Calendar"
