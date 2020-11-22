@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
 "PO-Revision-Date: 2020-11-22 07:58+0000\n"
-"Last-Translator: Andrian Roshandy <a.nomansky001@gmail.com>\n"
+"Last-Translator: Afrizal Yusren <yusrenz@gmail.com>\n"
 "Language-Team: Indonesian <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/id/>\n"
 "Language: id\n"
@@ -1360,7 +1360,7 @@ msgstr "Caffeine"
 
 #: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
 msgid "Show Desktop Button"
-msgstr "Tampilkan Tombol Desktop"
+msgstr "Tampilkan tombol desktop"
 
 #: src/applets/lock-keys/LockKeysApplet.plugin.in.h:1
 #, fuzzy
