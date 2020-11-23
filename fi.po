@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
-"PO-Revision-Date: 2020-11-19 00:14+0000\n"
-"Last-Translator: Oi Suomi On! <oisuomion@protonmail.com>\n"
+"PO-Revision-Date: 2020-11-23 18:00+0000\n"
+"Last-Translator: stalebrim <stalebrim@posteo.net>\n"
 "Language-Team: Finnish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/fi/>\n"
 "Language: fi\n"
@@ -102,16 +102,16 @@ msgstr "Näyttää tai piilottaa virtapalkin Ravenin alaosassa."
 
 #: src/panel/settings/settings_panel_applets.vala:19
 msgid "Configure applet"
-msgstr "Muokkaa applettia"
+msgstr "Muokkaa pienoissovellusta"
 
 #: src/panel/settings/settings_panel_applets.vala:233
 #: src/panel/settings/settings_applet_chooser.vala:80
 msgid "Add applet"
-msgstr "Lisää appletti"
+msgstr "Lisää pienoissovellus"
 
 #: src/panel/settings/settings_panel_applets.vala:234
 msgid "Choose a new applet to add to this panel"
-msgstr "Valitse tähän paneeliin lisättävä uusi appletti"
+msgstr "Valitse tähän paneeliin lisättävä uusi pienoissovellus"
 
 #: src/panel/settings/settings_panel_applets.vala:248
 msgid "No settings available"
@@ -123,7 +123,7 @@ msgstr "Alku"
 
 #: src/panel/settings/settings_panel_applets.vala:404
 msgid "Center"
-msgstr "Keski"
+msgstr "Keskiosa"
 
 #: src/panel/settings/settings_panel_applets.vala:407
 msgid "End"
@@ -147,11 +147,13 @@ msgstr "Säilytä paneeli"
 
 #: src/panel/settings/settings_panel_dialogs.vala:67
 msgid "Confirm applet removal"
-msgstr "Vahvista appletin poistaminen"
+msgstr "Vahvista pienoissovelluksen poistaminen"
 
 #: src/panel/settings/settings_panel_dialogs.vala:74
 msgid "Do you really want to remove this applet? This action cannot be undone."
-msgstr "Haluatko varmasti poistaa tämän appletin? Tätä toimintoa ei voi perua."
+msgstr ""
+"Haluatko varmasti poistaa tämän pienoissovelluksen? Tätä toimintoa ei voi "
+"perua."
 
 #: src/panel/settings/settings_panel_dialogs.vala:89
 msgid "Don't ask me again"
@@ -159,11 +161,11 @@ msgstr "Älä kysy uudelleen"
 
 #: src/panel/settings/settings_panel_dialogs.vala:98
 msgid "Remove applet"
-msgstr "Poista appletti"
+msgstr "Poista pienoissovellus"
 
 #: src/panel/settings/settings_panel_dialogs.vala:99
 msgid "Keep applet"
-msgstr "Säilytä appletti"
+msgstr "Säilytä pienoissovellus"
 
 #: src/panel/settings/settings_main.vala:57
 msgid "Appearance"
@@ -298,11 +300,11 @@ msgstr "Ylätelakka"
 
 #: src/panel/settings/settings_panel.vala:125
 msgid "Right Dock"
-msgstr "Oikea telakka"
+msgstr "Oikeanpuoleinen telakka"
 
 #: src/panel/settings/settings_panel.vala:127
 msgid "Left Dock"
-msgstr "Vasen telakka"
+msgstr "Vasemmanpuoleinen telakka"
 
 #: src/panel/settings/settings_panel.vala:129
 msgid "Bottom Dock"
@@ -470,12 +472,12 @@ msgstr "Automaattinen asettelu"
 #: src/panel/settings/settings_wm.vala:64
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
 msgstr ""
-"Ikkunat asetellaan automaattisesti raahattaessa näytön yläreunaan tai "
+"Ikkunat asetellaan raahattaessa automaattisesti näytön yläreunaan tai "
 "kulmiin."
 
 #: src/panel/settings/settings_wm.vala:69
 msgid "Enable window focus change on mouse enter and leave"
-msgstr "Kohdista ikkunaan hiiren ollessa kohdalla"
+msgstr "Kohdista ikkunaan hiiren ollessa yllä"
 
 #: src/panel/settings/settings_wm.vala:70
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
@@ -513,7 +515,7 @@ msgstr "Valitse pienoissovellus"
 #: src/applets/budgie-menu/IconChooser.vala:52 src/polkit/dialog.ui.h:4
 #: src/daemon/endsession.ui.h:3
 msgid "Cancel"
-msgstr "Peru"
+msgstr "Peruuta"
 
 #: src/panel/settings/settings_style.vala:32
 msgid "Style"
@@ -1185,15 +1187,15 @@ msgstr "Ikkunoiden ryhmitys"
 
 #: src/applets/icon-tasklist/settings.ui.h:6
 msgid "Middle click to launch new window"
-msgstr ""
+msgstr "Napsauta hiiren keskipainikkeella avataksesi uuden ikkunan"
 
 #: src/applets/icon-tasklist/settings.ui.h:7
 msgid "Require a double-click to launch new window"
-msgstr ""
+msgstr "Vaadi tuplaklikkaus avataksesi uuden ikkunan"
 
 #: src/applets/tray/settings.ui.h:1
 msgid "Icon Spacing"
-msgstr ""
+msgstr "Kuvakkeiden väli"
 
 #: src/applets/night-light/indicator_window.ui.h:1
 #: src/applets/night-light/NightLight.plugin.in.h:1
