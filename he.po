@@ -10,9 +10,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
-"PO-Revision-Date: 2020-10-13 21:02+0000\n"
+"PO-Revision-Date: 2020-11-23 18:00+0000\n"
 "Last-Translator: Yoni Banai <ink.bug@gmail.com>\n"
-"Language-Team: Hebrew <http://translate.getsol.us/projects/budgie-desktop/translations/he/>\n"
+"Language-Team: Hebrew <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,11 +31,13 @@ msgstr "קבוצה:"
 
 #: src/panel/settings/settings_raven.vala:61
 msgid "Set Raven position"
-msgstr ""
+msgstr "הגדר מיקום ללוח Raven"
 
 #: src/panel/settings/settings_raven.vala:62
 msgid "Set which side of the screen Raven will open on. If set to Automatic, Raven will open where its parent panel is."
 msgstr ""
+"הגדר צד מסך לפתיחת לוח Raven.  בהגדרת 'אוטומטי', לוח Raven ייפתח במקום שבו "
+"נמצא לוח האב שלו."
 
 #: src/panel/settings/settings_raven.vala:67
 msgid "Allow raising volume above 100%"
@@ -197,9 +200,8 @@ msgid "Desktop Icons"
 msgstr "סמלי שולחן עבודה"
 
 #: src/panel/settings/settings_desktop.vala:77
-#, fuzzy
 msgid "Control whether to allow icons on the desktop."
-msgstr "שולט האם לאפשר תצוגת סמלים וקיצורי דרך בשולחן העבודה."
+msgstr "הגדר האם לאפשר תצוגת סמלים וקיצורי דרך בשולחן העבודה."
 
 #. DesktopFolder doesn't support fancy options like showing home folder, trash, or active mounts
 #. DesktopType is the only one that doesn't support showing mounts
@@ -209,9 +211,8 @@ msgid "Active Mounts"
 msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:87
-#, fuzzy
 msgid "Show all active mounts on the desktop."
-msgstr "שולט האם לאפשר תצוגת סמלים וקיצורי דרך בשולחן העבודה."
+msgstr ""
 
 #. Switcher to show or hide our Home folder
 #: src/panel/settings/settings_desktop.vala:94
@@ -234,14 +235,12 @@ msgstr "הוסף קיצור לתיקיית סל האשפה בשולחן העבו
 #. DesktopType doesn't support icon size changing. Nemo might but needs validation.
 #. Icon Size combo box
 #: src/panel/settings/settings_desktop.vala:112
-#, fuzzy
 msgid "Icon Size"
-msgstr "ריווח צלמיות"
+msgstr "גודל צלמיות"
 
 #: src/panel/settings/settings_desktop.vala:113
-#, fuzzy
 msgid "Set the desired size of icons on the desktop."
-msgstr "שולט האם לאפשר תצוגת סמלים וקיצורי דרך בשולחן העבודה."
+msgstr "הגדר את הגודל הרצוי לצלמיות שעל שולחן העבודה."
 
 #: src/panel/settings/settings_desktop.vala:144
 msgid "Number of virtual desktops"
@@ -253,22 +252,22 @@ msgstr "מספר שולחנות עבודה / חללי עבודה ויטואלי�
 
 #: src/panel/settings/settings_desktop.vala:249
 msgid "Normal"
-msgstr ""
+msgstr "נורמלי"
 
 #. Small
 #: src/panel/settings/settings_desktop.vala:252
 msgid "Small"
-msgstr ""
+msgstr "קטן"
 
 #. Large
 #: src/panel/settings/settings_desktop.vala:254
 msgid "Large"
-msgstr ""
+msgstr "גדול"
 
 #. Massive
 #: src/panel/settings/settings_desktop.vala:256
 msgid "Massive"
-msgstr ""
+msgstr "ענק"
 
 #: src/panel/settings/settings_panel.vala:82 src/raven/main_view.vala:57
 msgid "Applets"
