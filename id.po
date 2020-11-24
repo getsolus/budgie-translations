@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
-"PO-Revision-Date: 2020-11-23 18:00+0000\n"
+"PO-Revision-Date: 2020-11-25 02:58+0000\n"
 "Last-Translator: Andrian Roshandy <a.nomansky001@gmail.com>\n"
 "Language-Team: Indonesian <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/id/>\n"
@@ -42,12 +42,12 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:67
 msgid "Allow raising volume above 100%"
-msgstr "Izinkan menaikkan volume di atas 100%"
+msgstr "Izinkan menaikkan volume melebihi 100%"
 
 #: src/panel/settings/settings_raven.vala:68
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
 msgstr ""
-"Memungkinkan peningkatan volume melalui Pengaturan Suara maupun Widget "
+"Memungkinkan meningkatan volume melalui Pengaturan Suara maupun Widget "
 "Keluaran Suara pada Raven hingga 150%."
 
 #: src/panel/settings/settings_raven.vala:72
@@ -56,8 +56,7 @@ msgstr "Aktifkan tampilan nomor minggu pada Kalender"
 
 #: src/panel/settings/settings_raven.vala:73
 msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr ""
-"Pengaturan ini memungkinkan tampilan minggu ke berapa pada widget Kalender."
+msgstr "Pengaturan ini memungkinkan tampilan nomor minggu pada widget Kalender."
 
 #: src/panel/settings/settings_raven.vala:78
 msgid "Show Calendar Widget"
@@ -230,7 +229,7 @@ msgstr "Tampilkan semua tambatan aktif pada desktop."
 #. Switcher to show or hide our Home folder
 #: src/panel/settings/settings_desktop.vala:94
 msgid "Home directory"
-msgstr "Direktori Beranda"
+msgstr "Direktori beranda"
 
 #: src/panel/settings/settings_desktop.vala:95
 msgid "Add a shortcut to your home directory on the desktop."
