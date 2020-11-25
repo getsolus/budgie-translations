@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
 "PO-Revision-Date: 2020-11-25 02:58+0000\n"
-"Last-Translator: Diego Soto Caneo <dsotocaneo@gmail.com>\n"
+"Last-Translator: Ignacio Roa <roa.ignacio@gmail.com>\n"
 "Language-Team: Spanish (Chile) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/es_CL/>\n"
 "Language: es_CL\n"
@@ -56,6 +56,8 @@ msgstr "Muestra el número de la semana en el Calendario"
 #: src/panel/settings/settings_raven.vala:73
 msgid "This setting enables the display of week numbers in the Calendar widget."
 msgstr ""
+"Este ajuste permite mostrar el número de la semana en el Widget del "
+"Calendario."
 
 #: src/panel/settings/settings_raven.vala:78
 msgid "Show Calendar Widget"
