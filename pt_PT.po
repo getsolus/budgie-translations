@@ -13,9 +13,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 21:57+0200\n"
-"PO-Revision-Date: 2020-11-25 18:06+0000\n"
+"PO-Revision-Date: 2020-11-27 14:37+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
-"Language-Team: Portuguese (Portugal) <http://translate.getsol.us/projects/budgie-desktop/translations/pt_PT/>\n"
+"Language-Team: Portuguese (Portugal) <http://translate.getsol.us/projects/"
+"budgie-desktop/translations/pt_PT/>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -625,21 +626,19 @@ msgstr "Início automático"
 
 #: src/panel/settings/settings_autostart.vala:464
 msgid "Autostart apps"
-msgstr "Aplicações com Início automático"
+msgstr "Aplicações com início automático"
 
 #: src/panel/settings/settings_autostart.vala:506
-#, fuzzy
 msgid "Add Application"
-msgstr "Aplicações"
+msgstr "Adicionar aplicação"
 
 #: src/panel/settings/settings_autostart.vala:508
-#, fuzzy
 msgid "Add Command"
-msgstr "Comando"
+msgstr "Adicionar comando"
 
 #: src/panel/settings/settings_fonts.vala:32
 msgid "Fonts"
-msgstr "Tipos de Letra"
+msgstr "Fontes"
 
 #: src/panel/settings/settings_fonts.vala:43
 msgid "Window Titles"
@@ -663,7 +662,7 @@ msgstr "Interface"
 
 #: src/panel/settings/settings_fonts.vala:58
 msgid "Set the primary font used by application controls."
-msgstr "Defina a fonte primária usada pelos controlos da aplicação."
+msgstr "Defina a fonte principal utilizada pelos controlos da aplicação."
 
 #: src/panel/settings/settings_fonts.vala:64
 msgid "Monospace"
