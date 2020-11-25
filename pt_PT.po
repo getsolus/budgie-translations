@@ -13,9 +13,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 04:58+0200\n"
-"PO-Revision-Date: 2020-11-15 14:52+0000\n"
+"PO-Revision-Date: 2020-11-25 18:06+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
-"Language-Team: Portuguese (Portugal) <http://translate.getsol.us/projects/budgie-desktop/translations/pt_PT/>\n"
+"Language-Team: Portuguese (Portugal) <http://translate.getsol.us/projects/"
+"budgie-desktop/translations/pt_PT/>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -268,11 +269,13 @@ msgstr "Superior Direito"
 
 #: src/panel/settings/settings_raven.vala:61
 msgid "Set Raven position"
-msgstr ""
+msgstr "Definir a posição do Raven"
 
 #: src/panel/settings/settings_raven.vala:62
 msgid "Set which side of the screen Raven will open on. If set to Automatic, Raven will open where its parent panel is."
 msgstr ""
+"Definir em que lado do ecrã se abrirá o Raven. Se definido para Automático, "
+"o Raven abrirá onde se encontra o seu painel principal."
 
 #: src/panel/settings/settings_raven.vala:67
 msgid "Allow raising volume above 100%"
@@ -361,21 +364,19 @@ msgid "Desktop Icons"
 msgstr "Ícones do Ambiente de trabalho"
 
 #: src/panel/settings/settings_desktop.vala:77
-#, fuzzy
 msgid "Control whether to allow icons on the desktop."
-msgstr "Controlar se os lançadores e ícones no ambiente de trabalho devem ser permitidos."
+msgstr "Controlar se devem ser permitidos ícones no ambiente de trabalho."
 
 #. DesktopFolder doesn't support fancy options like showing home folder, trash, or active mounts
 #. DesktopType is the only one that doesn't support showing mounts
 #. Switcher to show or hide active mounts
 #: src/panel/settings/settings_desktop.vala:86
 msgid "Active Mounts"
-msgstr ""
+msgstr "Montagens Ativas"
 
 #: src/panel/settings/settings_desktop.vala:87
-#, fuzzy
 msgid "Show all active mounts on the desktop."
-msgstr "Controlar se os lançadores e ícones no ambiente de trabalho devem ser permitidos."
+msgstr "Mostrar todas as montagens ativas no ambiente de trabalho."
 
 #. Switcher to show or hide our Home folder
 #: src/panel/settings/settings_desktop.vala:94
@@ -398,14 +399,12 @@ msgstr "Adicionar um atalho do lixo no seu ambiente de trabalho."
 #. DesktopType doesn't support icon size changing. Nemo might but needs validation.
 #. Icon Size combo box
 #: src/panel/settings/settings_desktop.vala:112
-#, fuzzy
 msgid "Icon Size"
-msgstr "Espaço entre ícones"
+msgstr "Tamanho do ícone"
 
 #: src/panel/settings/settings_desktop.vala:113
-#, fuzzy
 msgid "Set the desired size of icons on the desktop."
-msgstr "Controlar se os lançadores e ícones no ambiente de trabalho devem ser permitidos."
+msgstr "Definir o tamanho desejado dos ícones no ambiente de trabalho."
 
 #: src/panel/settings/settings_desktop.vala:144
 msgid "Number of virtual desktops"
@@ -417,22 +416,22 @@ msgstr "Número de ambientes de trabalho virtuais / áreas de trabalho para cria
 
 #: src/panel/settings/settings_desktop.vala:262
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #. Small
 #: src/panel/settings/settings_desktop.vala:265
 msgid "Small"
-msgstr ""
+msgstr "Pequeno"
 
 #. Large
 #: src/panel/settings/settings_desktop.vala:267
 msgid "Large"
-msgstr ""
+msgstr "Grande"
 
 #. Massive
 #: src/panel/settings/settings_desktop.vala:269
 msgid "Massive"
-msgstr ""
+msgstr "Enorme"
 
 #: src/panel/settings/settings_panel.vala:82 src/raven/main_view.vala:57
 msgid "Applets"
@@ -765,9 +764,8 @@ msgid "Caffeine Mode"
 msgstr "Modo Cafeína"
 
 #: src/daemon/menus.vala:51
-#, fuzzy
 msgid "System Settings"
-msgstr "Definições"
+msgstr "Definições do Sistema"
 
 #: src/daemon/endsession.vala:157
 msgid "Log out"
