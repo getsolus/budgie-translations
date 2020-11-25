@@ -8,9 +8,10 @@ msgstr ""
 "Project-Id-Version: budgie-desktop 10.5.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 21:57+0200\n"
-"PO-Revision-Date: 2020-11-25 19:56+0000\n"
+"PO-Revision-Date: 2020-11-27 14:37+0000\n"
 "Last-Translator: Algent Albrahimi <algent@protonmail.com>\n"
-"Language-Team: Albanian <http://translate.getsol.us/projects/budgie-desktop/translations/sq/>\n"
+"Language-Team: Albanian <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/sq/>\n"
 "Language: sq\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -459,7 +460,7 @@ msgstr "Dok i Poshtëm"
 
 #: src/panel/settings/settings_panel.vala:134
 msgid "Top Panel"
-msgstr "Paneli i Sipërm"
+msgstr "Paneli Lart"
 
 #: src/panel/settings/settings_panel.vala:136
 msgid "Right Panel"
@@ -471,7 +472,7 @@ msgstr "Paneli i Majtë"
 
 #: src/panel/settings/settings_panel.vala:140
 msgid "Bottom Panel"
-msgstr "Paneli i Poshtëm"
+msgstr "Paneli Poshtë"
 
 #: src/panel/settings/settings_panel.vala:177
 msgid "Top"
@@ -623,14 +624,12 @@ msgid "Autostart apps"
 msgstr "Aplikacionet me nisje automatike"
 
 #: src/panel/settings/settings_autostart.vala:506
-#, fuzzy
 msgid "Add Application"
-msgstr "Aplikacionet"
+msgstr "Shto Aplikacion"
 
 #: src/panel/settings/settings_autostart.vala:508
-#, fuzzy
 msgid "Add Command"
-msgstr "Komandë"
+msgstr "Shto Komandë"
 
 #: src/panel/settings/settings_fonts.vala:32
 msgid "Fonts"
@@ -654,7 +653,7 @@ msgstr "Vendosni fontin e ekranit të përdorur nga dokumentet."
 
 #: src/panel/settings/settings_fonts.vala:57
 msgid "Interface"
-msgstr "Interface"
+msgstr "Ndërfaqja"
 
 #: src/panel/settings/settings_fonts.vala:58
 msgid "Set the primary font used by application controls."
