@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-25 04:58+0200\n"
+"POT-Creation-Date: 2020-11-25 21:57+0200\n"
 "PO-Revision-Date: 2019-03-17 09:05+0000\n"
 "Last-Translator: Teng Cheong Ha <haemophilic@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <http://translate.getsol.us/projects/budgie-desktop/translations/zh_Hant_HK/>\n"
@@ -632,6 +632,15 @@ msgstr ""
 #: src/panel/settings/settings_autostart.vala:464
 msgid "Autostart apps"
 msgstr ""
+
+#: src/panel/settings/settings_autostart.vala:506
+msgid "Add Application"
+msgstr ""
+
+#: src/panel/settings/settings_autostart.vala:508
+#, fuzzy
+msgid "Add Command"
+msgstr "命令"
 
 #: src/panel/settings/settings_fonts.vala:32
 msgid "Fonts"

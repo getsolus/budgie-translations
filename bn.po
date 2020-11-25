@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-25 04:58+0200\n"
+"POT-Creation-Date: 2020-11-25 21:57+0200\n"
 "PO-Revision-Date: 2020-07-29 14:31+0000\n"
 "Last-Translator: Reback 00 <reback00@mailfence.com>\n"
 "Language-Team: Bengali <http://translate.getsol.us/projects/budgie-desktop/translations/bn/>\n"
@@ -628,6 +628,16 @@ msgstr "অটোস্টার্ট"
 #: src/panel/settings/settings_autostart.vala:464
 msgid "Autostart apps"
 msgstr "অটোস্টার্ট এ্যাপগুলো"
+
+#: src/panel/settings/settings_autostart.vala:506
+#, fuzzy
+msgid "Add Application"
+msgstr "অ্যাপ্লিকেশনগুলো"
+
+#: src/panel/settings/settings_autostart.vala:508
+#, fuzzy
+msgid "Add Command"
+msgstr "কমান্ড"
 
 #: src/panel/settings/settings_fonts.vala:32
 msgid "Fonts"

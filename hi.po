@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: budgie-desktop 10.5.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-25 04:58+0200\n"
+"POT-Creation-Date: 2020-11-25 21:57+0200\n"
 "PO-Revision-Date: 2020-11-23 18:00+0000\n"
 "Last-Translator: Manjot Singh <manjotsinghpunjab@gmail.com>\n"
 "Language-Team: Hindi <http://translate.getsol.us/projects/budgie-desktop/translations/hi/>\n"
@@ -621,6 +621,16 @@ msgstr "ऑटो स्टार्ट"
 #: src/panel/settings/settings_autostart.vala:464
 msgid "Autostart apps"
 msgstr "ऑटोस्टार्ट ऐप्स"
+
+#: src/panel/settings/settings_autostart.vala:506
+#, fuzzy
+msgid "Add Application"
+msgstr "एप्लीकेशने"
+
+#: src/panel/settings/settings_autostart.vala:508
+#, fuzzy
+msgid "Add Command"
+msgstr "आदेश"
 
 #: src/panel/settings/settings_fonts.vala:32
 msgid "Fonts"

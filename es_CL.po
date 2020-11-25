@@ -9,11 +9,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-25 04:58+0200\n"
+"POT-Creation-Date: 2020-11-25 21:57+0200\n"
 "PO-Revision-Date: 2020-11-25 19:56+0000\n"
 "Last-Translator: Diego Soto Caneo <dsotocaneo@gmail.com>\n"
-"Language-Team: Spanish (Chile) <http://translate.getsol.us/projects/"
-"budgie-desktop/translations/es_CL/>\n"
+"Language-Team: Spanish (Chile) <http://translate.getsol.us/projects/budgie-desktop/translations/es_CL/>\n"
 "Language: es_CL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -165,9 +164,7 @@ msgstr "Habilita el cambio de foco en una ventana cuando el mouse sale o entra d
 
 #: src/panel/settings/settings_wm.vala:70
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
-msgstr ""
-"Permite que se enfoque una ventana si el mouse entra en ella, y que se "
-"desenfoque si sale."
+msgstr "Permite que se enfoque una ventana si el mouse entra en ella, y que se desenfoque si sale."
 
 #: src/panel/settings/settings_wm.vala:76
 msgid "Disable unredirection of windows"
@@ -175,9 +172,7 @@ msgstr "Deshabilita la no-redirección de ventanas (unredirection)"
 
 #: src/panel/settings/settings_wm.vala:77
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr ""
-"Esta opción está pensada para usuarios avanzados. Úsala si estás teniendo "
-"problemas gráficos o de rendimiento con GPUs dedicadas."
+msgstr "Esta opción está pensada para usuarios avanzados. Úsala si estás teniendo problemas gráficos o de rendimiento con GPUs dedicadas."
 
 #: src/panel/settings/settings_wm.vala:82
 msgid "Show all windows in tab switcher"
@@ -185,9 +180,7 @@ msgstr "Mostrar todas las ventanas en el selector de pestañas"
 
 #: src/panel/settings/settings_wm.vala:83
 msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
-msgstr ""
-"Todas las pestañas serán mostradas en el selector de pestañas, sin importar "
-"el área de trabajo en uso."
+msgstr "Todas las pestañas serán mostradas en el selector de pestañas, sin importar el área de trabajo en uso."
 
 #: src/panel/settings/settings_wm.vala:90
 msgid "Right (standard)"
@@ -244,9 +237,7 @@ msgstr "Tema integrado"
 
 #: src/panel/settings/settings_style.vala:79
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr ""
-"Cuando se habilita, el estilo de los componentes del escritorio será "
-"reemplazado con el tema integrado"
+msgstr "Cuando se habilita, el estilo de los componentes del escritorio será reemplazado con el tema integrado"
 
 #: src/panel/settings/settings_style.vala:86
 msgid "Animations"
@@ -278,9 +269,7 @@ msgstr "Establecer la posición del menú lateral Raven"
 
 #: src/panel/settings/settings_raven.vala:62
 msgid "Set which side of the screen Raven will open on. If set to Automatic, Raven will open where its parent panel is."
-msgstr ""
-"Establecer a que lado de la pantalla se abre el menú lateral Raven. Si se "
-"deja en automático, Raven se abrirá donde se encuentra su panel padre."
+msgstr "Establecer a que lado de la pantalla se abre el menú lateral Raven. Si se deja en automático, Raven se abrirá donde se encuentra su panel padre."
 
 #: src/panel/settings/settings_raven.vala:67
 msgid "Allow raising volume above 100%"
@@ -304,9 +293,7 @@ msgstr "Mostrar el Widget de calendario"
 
 #: src/panel/settings/settings_raven.vala:79
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr ""
-"Mostrar u ocultar el Widget de calendario en la sección de Applets del menú "
-"lateral Raven."
+msgstr "Mostrar u ocultar el Widget de calendario en la sección de Applets del menú lateral Raven."
 
 #: src/panel/settings/settings_raven.vala:84
 msgid "Show Sound Output Widget"
@@ -314,9 +301,7 @@ msgstr "Mostrar el Widget de salida de sonido"
 
 #: src/panel/settings/settings_raven.vala:85
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr ""
-"Muestra u oculta el Widget de salida de sonido en la sección de Applets del "
-"menú lateral Raven."
+msgstr "Muestra u oculta el Widget de salida de sonido en la sección de Applets del menú lateral Raven."
 
 #: src/panel/settings/settings_raven.vala:90
 msgid "Show Microphone Input Widget"
@@ -324,9 +309,7 @@ msgstr "Muestra el Widget de entrada de micrófono"
 
 #: src/panel/settings/settings_raven.vala:91
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
-msgstr ""
-"Muestra u oculta el Widget de entrada de micrófono en la sección de Applets "
-"del menú lateral Raven."
+msgstr "Muestra u oculta el Widget de entrada de micrófono en la sección de Applets del menú lateral Raven."
 
 #: src/panel/settings/settings_raven.vala:96
 msgid "Show Media Playback Controls Widget"
@@ -334,9 +317,7 @@ msgstr "Muestra el Widget de control de reproducción de medios"
 
 #: src/panel/settings/settings_raven.vala:97
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
-msgstr ""
-"Muestra u oculta el Widget de control de reproducción de medios (MPRIS) en "
-"la sección de Applets del menú lateral Raven."
+msgstr "Muestra u oculta el Widget de control de reproducción de medios (MPRIS) en la sección de Applets del menú lateral Raven."
 
 #: src/panel/settings/settings_raven.vala:102
 msgid "Show Power Strip"
@@ -344,9 +325,7 @@ msgstr "Muestra la barra de energía"
 
 #: src/panel/settings/settings_raven.vala:103
 msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr ""
-"Muestra u oculta la barra de energía en la parte inferior del menú lateral "
-"Raven."
+msgstr "Muestra u oculta la barra de energía en la parte inferior del menú lateral Raven."
 
 #: src/panel/settings/settings_applet_chooser.vala:74
 msgid "Choose an applet"
@@ -580,9 +559,7 @@ msgstr "Estiliza las regiones"
 
 #: src/panel/settings/settings_panel.vala:267
 msgid "Adds a hint to the panel so that each of the panel's three main areas may be themed differently."
-msgstr ""
-"Añade una sugerencia al panel, así cada una de las 3 áreas principales podrá "
-"tener un tema diferente."
+msgstr "Añade una sugerencia al panel, así cada una de las 3 áreas principales podrá tener un tema diferente."
 
 #: src/panel/settings/settings_panel.vala:274
 msgid "Dock mode"
@@ -647,6 +624,16 @@ msgstr "Inicio automático"
 msgid "Autostart apps"
 msgstr "Aplicaciones de inicio automático"
 
+#: src/panel/settings/settings_autostart.vala:506
+#, fuzzy
+msgid "Add Application"
+msgstr "Aplicaciones"
+
+#: src/panel/settings/settings_autostart.vala:508
+#, fuzzy
+msgid "Add Command"
+msgstr "Comando"
+
 #: src/panel/settings/settings_fonts.vala:32
 msgid "Fonts"
 msgstr "Fuentes"
@@ -657,8 +644,7 @@ msgstr "Títulos de ventana"
 
 #: src/panel/settings/settings_fonts.vala:44
 msgid "Set the font used in the titlebars of applications."
-msgstr ""
-"Establece la fuente que se usa en la barra de título de las aplicaciones."
+msgstr "Establece la fuente que se usa en la barra de título de las aplicaciones."
 
 #: src/panel/settings/settings_fonts.vala:50
 msgid "Documents"
@@ -674,8 +660,7 @@ msgstr "Interfaz"
 
 #: src/panel/settings/settings_fonts.vala:58
 msgid "Set the primary font used by application controls."
-msgstr ""
-"Establece la fuente principal usada por los controles de las aplicaciones."
+msgstr "Establece la fuente principal usada por los controles de las aplicaciones."
 
 #: src/panel/settings/settings_fonts.vala:64
 msgid "Monospace"
@@ -683,9 +668,7 @@ msgstr "Mono-espacio"
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr ""
-"Establece la fuente de ancho fijo utilizada por aplicaciones que sean "
-"principalmente de texto."
+msgstr "Establece la fuente de ancho fijo utilizada por aplicaciones que sean principalmente de texto."
 
 #: src/panel/settings/settings_fonts.vala:71
 msgid "Text scaling"
@@ -1040,8 +1023,7 @@ msgstr "Temporizador (minutos)"
 #. there's already an active tray, create an informative icon with a popover
 #: src/applets/tray/TrayApplet.vala:114
 msgid "Only one instance of the System Tray can be active at a time."
-msgstr ""
-"Sólo una instancia de la bandeja del sistema puede estar activa a la vez."
+msgstr "Sólo una instancia de la bandeja del sistema puede estar activa a la vez."
 
 #: src/applets/tray/TrayApplet.vala:140
 msgid "The System Tray failed to initialize."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: budgie-desktop 10.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-25 04:58+0200\n"
+"POT-Creation-Date: 2020-11-25 21:57+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -619,6 +619,14 @@ msgstr ""
 
 #: src/panel/settings/settings_autostart.vala:464
 msgid "Autostart apps"
+msgstr ""
+
+#: src/panel/settings/settings_autostart.vala:506
+msgid "Add Application"
+msgstr ""
+
+#: src/panel/settings/settings_autostart.vala:508
+msgid "Add Command"
 msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:32

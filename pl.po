@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-25 04:58+0200\n"
+"POT-Creation-Date: 2020-11-25 21:57+0200\n"
 "PO-Revision-Date: 2020-05-10 21:44+0000\n"
 "Last-Translator: Szymon Scholz <quomoow@gmail.com>\n"
 "Language-Team: Polish <http://translate.getsol.us/projects/budgie-desktop/translations/pl/>\n"
@@ -640,6 +640,16 @@ msgstr "Autostart"
 #: src/panel/settings/settings_autostart.vala:464
 msgid "Autostart apps"
 msgstr "Autostartujące aplikacje"
+
+#: src/panel/settings/settings_autostart.vala:506
+#, fuzzy
+msgid "Add Application"
+msgstr "Aplikacje"
+
+#: src/panel/settings/settings_autostart.vala:508
+#, fuzzy
+msgid "Add Command"
+msgstr "Polecenie"
 
 #: src/panel/settings/settings_fonts.vala:32
 msgid "Fonts"

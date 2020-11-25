@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: budgie-desktop 10.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-25 04:58+0200\n"
+"POT-Creation-Date: 2020-11-25 21:57+0200\n"
 "PO-Revision-Date: 2019-03-17 09:05+0000\n"
 "Last-Translator: Lasha Kanteladze <lashakanteladze339@gmail.com>\n"
 "Language-Team: Georgian <http://translate.getsol.us/projects/budgie-desktop/translations/ka/>\n"
@@ -627,6 +627,16 @@ msgstr "ავტოსტარტი"
 #: src/panel/settings/settings_autostart.vala:464
 msgid "Autostart apps"
 msgstr "ავტოსტარტადი აპლიკაციები"
+
+#: src/panel/settings/settings_autostart.vala:506
+#, fuzzy
+msgid "Add Application"
+msgstr "აპლიკაციები"
+
+#: src/panel/settings/settings_autostart.vala:508
+#, fuzzy
+msgid "Add Command"
+msgstr "ბრძანება"
 
 #: src/panel/settings/settings_fonts.vala:32
 msgid "Fonts"

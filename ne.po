@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-25 04:58+0200\n"
+"POT-Creation-Date: 2020-11-25 21:57+0200\n"
 "PO-Revision-Date: 2017-11-06 15:26+0000\n"
 "Last-Translator: Rabin Adhikari <rabin.adk1@gmail.com>\n"
 "Language-Team: Nepali (http://www.transifex.com/budgie-desktop/budgie-desktop/language/ne/)\n"
@@ -627,6 +627,16 @@ msgstr "स्वत: सुरुवात"
 #, fuzzy
 msgid "Autostart apps"
 msgstr "स्वत: सुरुवात"
+
+#: src/panel/settings/settings_autostart.vala:506
+#, fuzzy
+msgid "Add Application"
+msgstr "एप्लिकेसनहरु"
+
+#: src/panel/settings/settings_autostart.vala:508
+#, fuzzy
+msgid "Add Command"
+msgstr "आदेश"
 
 #: src/panel/settings/settings_fonts.vala:32
 msgid "Fonts"
