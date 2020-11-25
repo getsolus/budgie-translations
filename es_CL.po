@@ -10,9 +10,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-15 16:54+0200\n"
-"PO-Revision-Date: 2019-09-28 16:21+0000\n"
-"Last-Translator: Ignacio Roa <roa.ignacio@gmail.com>\n"
-"Language-Team: Spanish (Chile) <http://translate.getsol.us/projects/budgie-desktop/translations/es_CL/>\n"
+"PO-Revision-Date: 2020-11-25 02:58+0000\n"
+"Last-Translator: Diego Soto Caneo <dsotocaneo@gmail.com>\n"
+"Language-Team: Spanish (Chile) <http://translate.getsol.us/projects/"
+"budgie-desktop/translations/es_CL/>\n"
 "Language: es_CL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,19 +31,23 @@ msgstr "Grupo:"
 
 #: src/panel/settings/settings_raven.vala:61
 msgid "Set Raven position"
-msgstr ""
+msgstr "Establecer la posición del menú Raven"
 
 #: src/panel/settings/settings_raven.vala:62
 msgid "Set which side of the screen Raven will open on. If set to Automatic, Raven will open where its parent panel is."
 msgstr ""
+"Establecer a que lado de la pantalla se abre el menú Raven. Si se deja en "
+"automático, Raven se abrirá donde se encuentra su panel padre."
 
 #: src/panel/settings/settings_raven.vala:67
 msgid "Allow raising volume above 100%"
-msgstr "Permite subir el volumen por encima del 100%"
+msgstr "Permitir subir el volumen por encima del 100%"
 
 #: src/panel/settings/settings_raven.vala:68
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
-msgstr "Permite subir el volumen mediante los Ajustes de Sonido como también del Widget de Salida de Sonido en Raven hasta el 150%."
+msgstr ""
+"Permite subir el volumen mediante los Ajustes de Sonido, como también del "
+"Widget de Salida de Sonido en Raven hasta el 150%."
 
 #: src/panel/settings/settings_raven.vala:72
 msgid "Enable display of week numbers in Calendar"
@@ -54,56 +59,65 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:78
 msgid "Show Calendar Widget"
-msgstr ""
+msgstr "Mostrar el Widget del calendario"
 
 #: src/panel/settings/settings_raven.vala:79
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
 msgstr ""
+"Mostrar u ocultar el Widget de calendario en la sección de Applets del menú "
+"Raven."
 
 #: src/panel/settings/settings_raven.vala:84
 msgid "Show Sound Output Widget"
-msgstr ""
+msgstr "Mostrar el Widget de salida de sonido."
 
 #: src/panel/settings/settings_raven.vala:85
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
 msgstr ""
+"Muestra u oculta el Widget de salida de sonido en la sección de Applets de "
+"Raven."
 
 #: src/panel/settings/settings_raven.vala:90
 msgid "Show Microphone Input Widget"
-msgstr ""
+msgstr "Muestra el Widget de entrada de micrófono."
 
 #: src/panel/settings/settings_raven.vala:91
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
 msgstr ""
+"Muestra u oculta el Widget de entrada de micrófono en la sección de Applets "
+"de Raven."
 
 #: src/panel/settings/settings_raven.vala:96
 msgid "Show Media Playback Controls Widget"
-msgstr ""
+msgstr "Muestra el Widget de control de reproducción de medios."
 
 #: src/panel/settings/settings_raven.vala:97
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
 msgstr ""
+"Muestra u oculta el Widget de control de reproducción de medios (MPRIS) en "
+"la sección de Applets de Raven."
 
 #: src/panel/settings/settings_raven.vala:102
 msgid "Show Power Strip"
-msgstr ""
+msgstr "Muestra la barra de energía."
 
 #: src/panel/settings/settings_raven.vala:103
 msgid "Shows or hides the Power Strip in the bottom of Raven."
 msgstr ""
+"Muestra u oculta la barra de energía en la parte inferior del menú Raven."
 
 #: src/panel/settings/settings_panel_applets.vala:19
 msgid "Configure applet"
-msgstr "Configurar applet"
+msgstr "Configurar Applet"
 
 #: src/panel/settings/settings_panel_applets.vala:233
 #: src/panel/settings/settings_applet_chooser.vala:80
 msgid "Add applet"
-msgstr "Añadir applet"
+msgstr "Añadir Applet"
 
 #: src/panel/settings/settings_panel_applets.vala:234
 msgid "Choose a new applet to add to this panel"
-msgstr "Elije un nuevo applet para añadir a este panel"
+msgstr "Elige un nuevo Applet para añadir a este panel"
 
 #: src/panel/settings/settings_panel_applets.vala:248
 msgid "No settings available"
@@ -139,23 +153,24 @@ msgstr "Mantener panel"
 
 #: src/panel/settings/settings_panel_dialogs.vala:67
 msgid "Confirm applet removal"
-msgstr "Confirmar eliminación de applet"
+msgstr "Confirmar eliminación de Applet"
 
 #: src/panel/settings/settings_panel_dialogs.vala:74
 msgid "Do you really want to remove this applet? This action cannot be undone."
-msgstr "¿Realmente quieres eliminar este applet? Esta acción no puede deshacerse."
+msgstr ""
+"¿Realmente quieres eliminar este Applet? Esta acción no puede deshacerse."
 
 #: src/panel/settings/settings_panel_dialogs.vala:89
 msgid "Don't ask me again"
-msgstr "No volver a preguntar"
+msgstr "No volver a preguntarme"
 
 #: src/panel/settings/settings_panel_dialogs.vala:98
 msgid "Remove applet"
-msgstr "Quitar applet"
+msgstr "Quitar Applet"
 
 #: src/panel/settings/settings_panel_dialogs.vala:99
 msgid "Keep applet"
-msgstr "Mantener applet"
+msgstr "Mantener Applet"
 
 #: src/panel/settings/settings_main.vala:57
 msgid "Appearance"
@@ -172,7 +187,7 @@ msgstr "Sesión"
 #: src/panel/settings/settings_main.vala:68
 #: src/panel/budgie-desktop-settings.desktop.in.h:1
 msgid "Budgie Desktop Settings"
-msgstr "Ajustes de Budgie Desktop"
+msgstr "Ajustes del escritorio Budgie"
 
 #: src/panel/settings/settings_main.vala:98
 msgid "Create new panel"
@@ -194,24 +209,22 @@ msgstr "Escritorio"
 #. Universal show
 #: src/panel/settings/settings_desktop.vala:76
 msgid "Desktop Icons"
-msgstr "Iconos de escritorio"
+msgstr "íconos del escritorio"
 
 #: src/panel/settings/settings_desktop.vala:77
-#, fuzzy
 msgid "Control whether to allow icons on the desktop."
-msgstr "Controla si permite lanzadores e iconos en el escritorio"
+msgstr "Controla si se permiten íconos en el escritorio."
 
 #. DesktopFolder doesn't support fancy options like showing home folder, trash, or active mounts
 #. DesktopType is the only one that doesn't support showing mounts
 #. Switcher to show or hide active mounts
 #: src/panel/settings/settings_desktop.vala:86
 msgid "Active Mounts"
-msgstr ""
+msgstr "Montajes activos"
 
 #: src/panel/settings/settings_desktop.vala:87
-#, fuzzy
 msgid "Show all active mounts on the desktop."
-msgstr "Controla si permite lanzadores e iconos en el escritorio"
+msgstr "Mostrar todos los montajes activos en el escritorio."
 
 #. Switcher to show or hide our Home folder
 #: src/panel/settings/settings_desktop.vala:94
@@ -219,9 +232,8 @@ msgid "Home directory"
 msgstr "Carpeta personal"
 
 #: src/panel/settings/settings_desktop.vala:95
-#, fuzzy
 msgid "Add a shortcut to your home directory on the desktop."
-msgstr "Añade un atajo a tu carpeta personal en el escritorio"
+msgstr "Añade un atajo a tu carpeta personal en el escritorio."
 
 #. Switcher to show or hide a shortcut to Trash
 #: src/panel/settings/settings_desktop.vala:102
@@ -229,48 +241,47 @@ msgid "Trash"
 msgstr "Papelera"
 
 #: src/panel/settings/settings_desktop.vala:103
-#, fuzzy
 msgid "Add a shortcut to the Trash directory on the desktop."
-msgstr "Añade un atajo a la papelera en el escritorio"
+msgstr "Añade un atajo a la papelera en el escritorio."
 
 #. DesktopType doesn't support icon size changing. Nemo might but needs validation.
 #. Icon Size combo box
 #: src/panel/settings/settings_desktop.vala:112
-#, fuzzy
 msgid "Icon Size"
-msgstr "Tamaño"
+msgstr "Tamaño de los íconos"
 
 #: src/panel/settings/settings_desktop.vala:113
-#, fuzzy
 msgid "Set the desired size of icons on the desktop."
-msgstr "Controla si permite lanzadores e iconos en el escritorio"
+msgstr "Establece el tamaño deseado de los íconos en el escritorio."
 
 #: src/panel/settings/settings_desktop.vala:144
 msgid "Number of virtual desktops"
-msgstr ""
+msgstr "Número de escritorios virtuales"
 
 #: src/panel/settings/settings_desktop.vala:145
 msgid "Number of virtual desktops / workspaces to create automatically on startup."
 msgstr ""
+"Número de escritorios virtuales / espacios de trabajo que se crean "
+"automáticamente al inicio."
 
 #: src/panel/settings/settings_desktop.vala:249
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #. Small
 #: src/panel/settings/settings_desktop.vala:252
 msgid "Small"
-msgstr ""
+msgstr "Pequeño"
 
 #. Large
 #: src/panel/settings/settings_desktop.vala:254
 msgid "Large"
-msgstr ""
+msgstr "Grande"
 
 #. Massive
 #: src/panel/settings/settings_desktop.vala:256
 msgid "Massive"
-msgstr ""
+msgstr "Enorme"
 
 #: src/panel/settings/settings_panel.vala:82 src/raven/main_view.vala:57
 msgid "Applets"
@@ -281,7 +292,6 @@ msgid "Settings"
 msgstr "Ajustes"
 
 #: src/panel/settings/settings_panel.vala:85
-#, fuzzy
 msgid "Remove Panel"
 msgstr "Quitar panel"
 
@@ -299,11 +309,11 @@ msgstr "Anclar a la derecha"
 
 #: src/panel/settings/settings_panel.vala:127
 msgid "Left Dock"
-msgstr "anclar a la izquierda"
+msgstr "Anclar a la izquierda"
 
 #: src/panel/settings/settings_panel.vala:129
 msgid "Bottom Dock"
-msgstr "anclar abajo"
+msgstr "Anclar abajo"
 
 #: src/panel/settings/settings_panel.vala:134
 msgid "Top Panel"
@@ -319,11 +329,11 @@ msgstr "Panel izquierdo"
 
 #: src/panel/settings/settings_panel.vala:140
 msgid "Bottom Panel"
-msgstr "Panal inferior"
+msgstr "Panel inferior"
 
 #: src/panel/settings/settings_panel.vala:177
 msgid "Top"
-msgstr "Superior"
+msgstr "Arriba"
 
 #: src/panel/settings/settings_panel.vala:179 src/raven/raven.vala:35
 msgid "Right"
@@ -336,7 +346,7 @@ msgstr "Izquierda"
 
 #: src/panel/settings/settings_panel.vala:183
 msgid "Bottom"
-msgstr "Inferior"
+msgstr "Abajo"
 
 #: src/panel/settings/settings_panel.vala:193
 msgid "Always"
@@ -370,7 +380,7 @@ msgstr "Posición"
 
 #: src/panel/settings/settings_panel.vala:229
 msgid "Set the edge of the screen that this panel will stay on"
-msgstr "Establece un borde de la pantalla en el que este panel estará"
+msgstr "Establece el borde de la pantalla en que se colocará este panel"
 
 #: src/panel/settings/settings_panel.vala:237
 msgid "Size"
@@ -378,7 +388,9 @@ msgstr "Tamaño"
 
 #: src/panel/settings/settings_panel.vala:238
 msgid "Set the size (width or height, depending on orientation) of this panel"
-msgstr "Establece el tamaño del panel (ancho o alto, dependiendo de la orientacion)"
+msgstr ""
+"Establece el tamaño de este panel (ancho o alto, dependiendo de la "
+"orientación)"
 
 #: src/panel/settings/settings_panel.vala:245
 msgid "Automatically hide"
@@ -394,7 +406,7 @@ msgstr "Transparencia"
 
 #: src/panel/settings/settings_panel.vala:254
 msgid "Control when this panel should have a solid background"
-msgstr "Controla cuando este panel debería tener un color de fondo sólido"
+msgstr "Controla cuando este panel debería tener un fondo de color sólido"
 
 #: src/panel/settings/settings_panel.vala:259
 msgid "Shadow"
@@ -402,11 +414,11 @@ msgstr "Sombra"
 
 #: src/panel/settings/settings_panel.vala:260
 msgid "Adds a decorative drop-shadow, ideal for opaque panels"
-msgstr "Añade una sobra decorativa debajo, ideal para paneles opacos"
+msgstr "Añade una sobra decorativa por debajo, ideal para paneles opacos"
 
 #: src/panel/settings/settings_panel.vala:266
 msgid "Stylize regions"
-msgstr "Estiliza el fondo del panel"
+msgstr "Estiliza el las regiones del panel"
 
 #: src/panel/settings/settings_panel.vala:267
 msgid "Adds a hint to the panel so that each of the panel's three main areas may be themed differently."
@@ -418,7 +430,9 @@ msgstr "Modo Dock"
 
 #: src/panel/settings/settings_panel.vala:275
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
-msgstr "Cuando esta en modo dock, el panel usa la minima cantidad de espacio posible dejando mas espacio en pantalla"
+msgstr ""
+"Cuando se encuentre en modo Dock, el panel utilizará el mínimo espacio "
+"posible, liberando valioso espacio de pantalla"
 
 #: src/panel/settings/settings_wm.vala:30
 msgid "Windows"
@@ -426,49 +440,57 @@ msgstr "Ventanas"
 
 #: src/panel/settings/settings_wm.vala:39
 msgid "Attach modal dialogs to windows"
-msgstr "Acoplar ventanas de dialogo a ventana principal"
+msgstr "Anclar paneles modales a las ventanas"
 
 #: src/panel/settings/settings_wm.vala:40
-#, fuzzy
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr "Ventanas de dialogo serán acopladas a la ventana padre y se moverán juntas cuando se arrastren"
+msgstr ""
+"Los paneles modales serán anclados a la ventana padre, y se moverán juntos "
+"al ser arrastrados."
 
 #: src/panel/settings/settings_wm.vala:45
 msgid "Button layout"
-msgstr "Dispoisición de botones"
+msgstr "Disposición de botones"
 
 #: src/panel/settings/settings_wm.vala:46
-#, fuzzy
 msgid "Change the layout of buttons in application titlebars."
-msgstr "Cambia la disposición de los botones en la barra de título de las aplicaciones"
+msgstr ""
+"Cambia la disposición de los botones en la barra de título de las "
+"aplicaciones."
 
 #: src/panel/settings/settings_wm.vala:51
 msgid "Center new windows on screen"
-msgstr ""
+msgstr "Centrar nuevas ventanas en pantalla"
 
 #: src/panel/settings/settings_wm.vala:52
 msgid "Center newly launched windows on the current screen."
-msgstr ""
+msgstr "Centrar nuevas ventanas en la pantalla en uso."
 
 #: src/panel/settings/settings_wm.vala:57
 msgid "Disable Night Light mode when windows are fullscreen"
-msgstr ""
+msgstr "Deshabilitar luz de noche cuando una ventana entra a pantalla completa"
 
 #: src/panel/settings/settings_wm.vala:58
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr ""
+"Deshabilita la luz de noche cuando una ventana entra a pantalla completa. La "
+"rehabilita cuando la ventana sale de pantalla completa."
 
 #: src/panel/settings/settings_wm.vala:63
 msgid "Automatic tiling"
-msgstr ""
+msgstr "Colocación de ventanas en mosaico automática"
 
 #: src/panel/settings/settings_wm.vala:64
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
 msgstr ""
+"Las ventanas se colocaran en mosaico automáticamente al ser arrastradas a la "
+"parte superior o los bordes de la pantalla."
 
 #: src/panel/settings/settings_wm.vala:69
 msgid "Enable window focus change on mouse enter and leave"
 msgstr ""
+"Habilita el cambio de foco en una ventana cuando el mouse sale o entra de "
+"ella"
 
 #: src/panel/settings/settings_wm.vala:70
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
