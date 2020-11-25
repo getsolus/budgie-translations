@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 04:58+0200\n"
-"PO-Revision-Date: 2020-11-25 04:51+0000\n"
-"Last-Translator: Diego Soto Caneo <dsotocaneo@gmail.com>\n"
+"PO-Revision-Date: 2020-11-25 04:52+0000\n"
+"Last-Translator: Ro Ortiz <rodolfopadillap@gmail.com>\n"
 "Language-Team: Spanish (Chile) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/es_CL/>\n"
 "Language: es_CL\n"
@@ -863,7 +863,7 @@ msgstr "El teclado numérico está activo"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:70
 msgid "Num lock is not active"
-msgstr "El teclado numérico esta inactivo"
+msgstr "El teclado numérico está inactivo"
 
 #: src/applets/places-indicator/MountItem.vala:23
 #: src/applets/places-indicator/VolumeItem.vala:25
