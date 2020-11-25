@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 04:58+0200\n"
-"PO-Revision-Date: 2020-11-25 04:52+0000\n"
+"PO-Revision-Date: 2020-11-25 19:56+0000\n"
 "Last-Translator: Diego Soto Caneo <dsotocaneo@gmail.com>\n"
 "Language-Team: Spanish (Chile) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/es_CL/>\n"
@@ -300,7 +300,7 @@ msgstr "Este ajuste permite mostrar el número de la semana en el Widget del Cal
 
 #: src/panel/settings/settings_raven.vala:78
 msgid "Show Calendar Widget"
-msgstr "Mostrar el Widget del calendario"
+msgstr "Mostrar el Widget de calendario"
 
 #: src/panel/settings/settings_raven.vala:79
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
@@ -344,7 +344,9 @@ msgstr "Muestra la barra de energía"
 
 #: src/panel/settings/settings_raven.vala:103
 msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr "Muestra u oculta la barra de energía en la parte inferior del menú Raven."
+msgstr ""
+"Muestra u oculta la barra de energía en la parte inferior del menú lateral "
+"Raven."
 
 #: src/panel/settings/settings_applet_chooser.vala:74
 msgid "Choose an applet"
@@ -578,7 +580,9 @@ msgstr "Estiliza las regiones"
 
 #: src/panel/settings/settings_panel.vala:267
 msgid "Adds a hint to the panel so that each of the panel's three main areas may be themed differently."
-msgstr "Añade una sugerencia al panel, así cada área principal de este podrá tener un tema diferente."
+msgstr ""
+"Añade una sugerencia al panel, así cada una de las 3 áreas principales podrá "
+"tener un tema diferente."
 
 #: src/panel/settings/settings_panel.vala:274
 msgid "Dock mode"
@@ -662,7 +666,7 @@ msgstr "Documentos"
 
 #: src/panel/settings/settings_fonts.vala:51
 msgid "Set the display font used by for documents."
-msgstr "Establece la fuente utilizada por los documentos."
+msgstr "Establecer la fuente utilizada por los documentos."
 
 #: src/panel/settings/settings_fonts.vala:57
 msgid "Interface"
@@ -675,7 +679,7 @@ msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:64
 msgid "Monospace"
-msgstr "Fuente mono-espaciada"
+msgstr "Mono-espacio"
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Set the fixed-width font used by text dominant applications."
@@ -685,11 +689,11 @@ msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:71
 msgid "Text scaling"
-msgstr "Escalado del texto"
+msgstr "Escalado de texto"
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Set the text scaling factor."
-msgstr "Establece el factor de escalado del texto."
+msgstr "Establece el factor de escalado de texto."
 
 #: src/panel/settings/settings_fonts.vala:81
 msgid "Full"
@@ -701,7 +705,7 @@ msgstr "Medio"
 
 #: src/panel/settings/settings_fonts.vala:83
 msgid "Slight"
-msgstr "Pequeño"
+msgstr "Suave"
 
 #: src/panel/settings/settings_fonts.vala:100
 msgid "Hinting"
@@ -725,7 +729,7 @@ msgstr "Suavizado de bordes (Anti-aliasing)"
 
 #: src/panel/settings/settings_fonts.vala:126
 msgid "Set the type of antialiasing to use."
-msgstr "establece el tipo de suavizado de bordes a usar."
+msgstr "Establece el tipo de suavizado de bordes a usar."
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
@@ -873,7 +877,7 @@ msgstr "Dispositivos extraíbles"
 #: src/applets/places-indicator/MountItem.vala:25
 #: src/applets/places-indicator/VolumeItem.vala:27
 msgid "Local volumes"
-msgstr "Volúmenes locales"
+msgstr "Volumenes locales"
 
 #: src/applets/places-indicator/MountItem.vala:29
 #: src/applets/places-indicator/VolumeItem.vala:31
@@ -937,7 +941,7 @@ msgstr "Un error desconocido ha ocurrido mientras se intentaba montar este volum
 
 #: src/applets/places-indicator/MountHelper.vala:35
 msgid "Volume is in use by other processes"
-msgstr "Otro proceso está utilizando este volumen"
+msgstr "Otros procesos están utilizando este volumen"
 
 #: src/applets/places-indicator/MountHelper.vala:40
 msgid "Operation aborted"
@@ -983,7 +987,7 @@ msgstr "Modo avión de Bluetooth"
 
 #: src/applets/status/BluetoothIndicator.vala:173
 msgid "Bluetooth is disabled"
-msgstr "El Bluetooth está deshabilitado"
+msgstr "El Bluetooth está desactivado"
 
 #: src/applets/status/BluetoothIndicator.vala:177
 msgid "Bluetooth is active"
@@ -1054,7 +1058,7 @@ msgstr "Todo"
 
 #: src/applets/budgie-menu/IconChooser.vala:24
 msgid "Set menu icon from file"
-msgstr "Seleccionar icono del menú desde un archivo"
+msgstr "Seleccionar ícono del menú desde un archivo"
 
 #: src/applets/budgie-menu/IconChooser.vala:34
 msgid "Image files"
@@ -1163,7 +1167,7 @@ msgstr "Autenticación requerida"
 
 #: src/polkit/dialog.ui.h:5
 msgid "Authenticate"
-msgstr "Autentícate"
+msgstr "Autenticar"
 
 #: src/daemon/endsession.ui.h:2
 msgid "Are you sure you want to end your session?"
@@ -1171,7 +1175,7 @@ msgstr "¿Estás seguro de que quieres finalizar tu sesión?"
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
-msgstr "Mostrar etiquetas"
+msgstr "Mostrar etiqueta"
 
 #: src/applets/places-indicator/settings.ui.h:2
 msgid "Show places"
@@ -1195,7 +1199,7 @@ msgstr "Tamaño del espaciador"
 
 #: src/applets/workspaces/settings.ui.h:1
 msgid "\"Add\" button visibility"
-msgstr "\"Añadir\" visibilidad de botones"
+msgstr "Visibilidad del botón \"Añadir\""
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
@@ -1309,7 +1313,7 @@ msgstr "Escritorio Budgie"
 
 #: src/session/budgie-desktop.desktop.in.in.h:2
 msgid "This session logs you into the Budgie Desktop"
-msgstr "Esta sesión te registra en el escritorio Budgie"
+msgstr "Esta sesión te permite entrar en el escritorio Budgie"
 
 #: src/panel/budgie-panel.desktop.in.h:1
 msgid "Budgie Panel"
@@ -1381,4 +1385,4 @@ msgstr "Lista de tareas"
 
 #: src/applets/icon-tasklist/IconTasklistApplet.plugin.in.h:1
 msgid "Icon Task List"
-msgstr "Ícono de la lista de tareas"
+msgstr "Lista de aplicaciones abiertas"
