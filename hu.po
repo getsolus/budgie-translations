@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-15 16:54+0200\n"
+"POT-Creation-Date: 2020-11-25 04:58+0200\n"
 "PO-Revision-Date: 2019-11-06 19:42+0000\n"
 "Last-Translator: Benjamin Piller <benpiller@gmail.com>\n"
 "Language-Team: Hungarian <http://translate.getsol.us/projects/budgie-desktop/translations/hu/>\n"
@@ -29,70 +29,6 @@ msgstr "Sikertelen volt a hitelesítés"
 #: src/polkit/polkitdialog.vala:215
 msgid "Group:"
 msgstr "Csoport:"
-
-#: src/panel/settings/settings_raven.vala:61
-msgid "Set Raven position"
-msgstr ""
-
-#: src/panel/settings/settings_raven.vala:62
-msgid "Set which side of the screen Raven will open on. If set to Automatic, Raven will open where its parent panel is."
-msgstr ""
-
-#: src/panel/settings/settings_raven.vala:67
-msgid "Allow raising volume above 100%"
-msgstr "A hangerő 100% fölé emelésének engedélyezése"
-
-#: src/panel/settings/settings_raven.vala:68
-msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
-msgstr "Engedélyezi a hangerő 150%-ig emelését a hang beállításokban és a Raven hang moduljában."
-
-#: src/panel/settings/settings_raven.vala:72
-msgid "Enable display of week numbers in Calendar"
-msgstr "Hetek számának mutatása a Naptárban"
-
-#: src/panel/settings/settings_raven.vala:73
-msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr "Ez a beállítás engedélyezi a hetek számának mutatását a Naptár modulban."
-
-#: src/panel/settings/settings_raven.vala:78
-msgid "Show Calendar Widget"
-msgstr "Naptár modul megjelenítése"
-
-#: src/panel/settings/settings_raven.vala:79
-msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr "Megjeleníti/elrejti a naptár modult a Raven aplletek szekciójában."
-
-#: src/panel/settings/settings_raven.vala:84
-msgid "Show Sound Output Widget"
-msgstr "Hangkimeneti modul megjelenítése"
-
-#: src/panel/settings/settings_raven.vala:85
-msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr "Megjeleníti vagy elrejti a hangkimeneti modult a Raven alkalmazások szekciójában."
-
-#: src/panel/settings/settings_raven.vala:90
-msgid "Show Microphone Input Widget"
-msgstr "Mikrofon bemeneti modul megjelenítése"
-
-#: src/panel/settings/settings_raven.vala:91
-msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
-msgstr "Megjeleníti vagy elrejti a mikrofon bemeneti modult a Raven alkalmazások szekciójában."
-
-#: src/panel/settings/settings_raven.vala:96
-msgid "Show Media Playback Controls Widget"
-msgstr "Média lejátszási kezelőszervek megjelenítése"
-
-#: src/panel/settings/settings_raven.vala:97
-msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
-msgstr "Megjeleníti vagy elrejti a média lejátszási kezelőszervek modult a Raven alkalmazások szekciójában."
-
-#: src/panel/settings/settings_raven.vala:102
-msgid "Show Power Strip"
-msgstr "Energiagazdálkodási sáv megjelenítése"
-
-#: src/panel/settings/settings_raven.vala:103
-msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr "Megjeleníti vagy elrejti az energiagazdálkodási sávot a Raven alján."
 
 #: src/panel/settings/settings_panel_applets.vala:19
 msgid "Configure applet"
@@ -171,7 +107,7 @@ msgstr "Panelek"
 msgid "Session"
 msgstr "Munkamenet"
 
-#: src/panel/settings/settings_main.vala:68
+#: src/panel/settings/settings_main.vala:68 src/daemon/menus.vala:46
 #: src/panel/budgie-desktop-settings.desktop.in.h:1
 msgid "Budgie Desktop Settings"
 msgstr "Budgie Desktop beállítása"
@@ -179,6 +115,232 @@ msgstr "Budgie Desktop beállítása"
 #: src/panel/settings/settings_main.vala:98
 msgid "Create new panel"
 msgstr "Új panel"
+
+#: src/panel/settings/settings_wm.vala:30
+msgid "Windows"
+msgstr "Ablakok"
+
+#: src/panel/settings/settings_wm.vala:39
+msgid "Attach modal dialogs to windows"
+msgstr "Csatolja a felbukkanó párbeszédablakokat a szülőablakokra"
+
+#: src/panel/settings/settings_wm.vala:40
+msgid "Modal dialogs will become attached to the parent window and move together when dragged."
+msgstr "A felbukkanó párbeszédpanelek a szülőablakhoz csatolódnak, és velük együtt mozognak."
+
+#: src/panel/settings/settings_wm.vala:45
+msgid "Button layout"
+msgstr "Gombok elrendezése"
+
+#: src/panel/settings/settings_wm.vala:46
+msgid "Change the layout of buttons in application titlebars."
+msgstr "Módosítsa az alkalmazások címsorainak gombelrendezését."
+
+#: src/panel/settings/settings_wm.vala:51
+msgid "Center new windows on screen"
+msgstr "Új ablakok középre igazítása a képernyőn"
+
+#: src/panel/settings/settings_wm.vala:52
+msgid "Center newly launched windows on the current screen."
+msgstr "Újonnan indított ablakok középre igazítása a jelenlegi képernyőn."
+
+#: src/panel/settings/settings_wm.vala:57
+msgid "Disable Night Light mode when windows are fullscreen"
+msgstr "Teljes képernyős ablakok esetén az éjszakai fény kikapcsolása"
+
+#: src/panel/settings/settings_wm.vala:58
+msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
+msgstr "Letiltja az éjszakai fényt teljes képernyős ablak esetén. Teljes képernyő elhagyásakor újra engedélyezi."
+
+#: src/panel/settings/settings_wm.vala:63
+msgid "Automatic tiling"
+msgstr "Automatikus csempézés"
+
+#: src/panel/settings/settings_wm.vala:64
+msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
+msgstr "Az ablakok automatikusan csempéződnek, amikor a képernyő tetejére, vagy a sarkokhoz közel húzza őket."
+
+#: src/panel/settings/settings_wm.vala:69
+msgid "Enable window focus change on mouse enter and leave"
+msgstr "Ablak fókuszváltás engedélyezése az egérmutató be- és kilépésekor"
+
+#: src/panel/settings/settings_wm.vala:70
+msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
+msgstr "Engedélyezi az ablak fókuszba helyezését az egérmutató belépésekor, illetve letiltja ha az egérmutató elhagyja az ablakot."
+
+#: src/panel/settings/settings_wm.vala:76
+msgid "Disable unredirection of windows"
+msgstr "Ablakok közti átirányítás kikapcsolása"
+
+#: src/panel/settings/settings_wm.vala:77
+msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
+msgstr "Haladó felhasználók számára. Használja ezt, ha megjelenítési vagy teljesítménybeli problémákat tapasztal dedikált GPU esetén."
+
+#: src/panel/settings/settings_wm.vala:82
+#, fuzzy
+msgid "Show all windows in tab switcher"
+msgstr "Minden ablak megjelenítése klikkeléskor"
+
+#: src/panel/settings/settings_wm.vala:83
+msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:90
+msgid "Right (standard)"
+msgstr "Jobb (alapértelmezett)"
+
+#: src/panel/settings/settings_wm.vala:92
+#: src/panel/settings/settings_panel.vala:181 src/raven/raven.vala:33
+msgid "Left"
+msgstr "Bal"
+
+#: src/panel/settings/settings_style.vala:32
+msgid "Style"
+msgstr "Stílus"
+
+#: src/panel/settings/settings_style.vala:46
+msgid "Widgets"
+msgstr "Widgetek"
+
+#: src/panel/settings/settings_style.vala:47
+msgid "Set the appearance of window decorations and controls"
+msgstr "Állítsa be az ablakdekorációkat és a vezérlőket"
+
+#: src/panel/settings/settings_style.vala:51
+msgid "Icons"
+msgstr "Ikonok"
+
+#: src/panel/settings/settings_style.vala:52
+msgid "Set the globally used icon theme"
+msgstr "Állítsa be a globálisan használt ikontémát"
+
+#: src/panel/settings/settings_style.vala:56
+msgid "Cursors"
+msgstr "Kurzorok"
+
+#: src/panel/settings/settings_style.vala:57
+msgid "Set the globally used mouse cursor theme"
+msgstr "Állítsa be a globálisan használt egérkurzor témát"
+
+#: src/panel/settings/settings_style.vala:61
+msgid "Notification Position"
+msgstr "Értesítések pozíciója"
+
+#: src/panel/settings/settings_style.vala:62
+msgid "Set the location for notification popups"
+msgstr "Felugró értesítések pozíciójának beállítása"
+
+#: src/panel/settings/settings_style.vala:71
+msgid "Dark theme"
+msgstr "Sötét téma"
+
+#: src/panel/settings/settings_style.vala:78
+msgid "Built-in theme"
+msgstr "Beépített téma"
+
+#: src/panel/settings/settings_style.vala:79
+msgid "When enabled, the built-in theme will override the desktop component styling"
+msgstr "Engedélyezéskor a beépített stílus felülírja az asztali komponensek stílusát"
+
+#: src/panel/settings/settings_style.vala:86
+msgid "Animations"
+msgstr "Animációk"
+
+#: src/panel/settings/settings_style.vala:87
+msgid "Control whether windows and controls use animations"
+msgstr "Meghatározhatja, hogy az ablakok és vezérlők animációkat használjanak"
+
+#: src/panel/settings/settings_style.vala:204
+msgid "Top Left"
+msgstr "Bal felül"
+
+#: src/panel/settings/settings_style.vala:206
+msgid "Bottom Left"
+msgstr "Bal alul"
+
+#: src/panel/settings/settings_style.vala:208
+msgid "Bottom Right"
+msgstr "Jobb alul"
+
+#: src/panel/settings/settings_style.vala:211
+msgid "Top Right"
+msgstr "Jobb felül"
+
+#: src/panel/settings/settings_raven.vala:61
+msgid "Set Raven position"
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:62
+msgid "Set which side of the screen Raven will open on. If set to Automatic, Raven will open where its parent panel is."
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:67
+msgid "Allow raising volume above 100%"
+msgstr "A hangerő 100% fölé emelésének engedélyezése"
+
+#: src/panel/settings/settings_raven.vala:68
+msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
+msgstr "Engedélyezi a hangerő 150%-ig emelését a hang beállításokban és a Raven hang moduljában."
+
+#: src/panel/settings/settings_raven.vala:72
+msgid "Enable display of week numbers in Calendar"
+msgstr "Hetek számának mutatása a Naptárban"
+
+#: src/panel/settings/settings_raven.vala:73
+msgid "This setting enables the display of week numbers in the Calendar widget."
+msgstr "Ez a beállítás engedélyezi a hetek számának mutatását a Naptár modulban."
+
+#: src/panel/settings/settings_raven.vala:78
+msgid "Show Calendar Widget"
+msgstr "Naptár modul megjelenítése"
+
+#: src/panel/settings/settings_raven.vala:79
+msgid "Shows or hides the Calendar Widget in Raven's Applets section."
+msgstr "Megjeleníti/elrejti a naptár modult a Raven aplletek szekciójában."
+
+#: src/panel/settings/settings_raven.vala:84
+msgid "Show Sound Output Widget"
+msgstr "Hangkimeneti modul megjelenítése"
+
+#: src/panel/settings/settings_raven.vala:85
+msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
+msgstr "Megjeleníti vagy elrejti a hangkimeneti modult a Raven alkalmazások szekciójában."
+
+#: src/panel/settings/settings_raven.vala:90
+msgid "Show Microphone Input Widget"
+msgstr "Mikrofon bemeneti modul megjelenítése"
+
+#: src/panel/settings/settings_raven.vala:91
+msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
+msgstr "Megjeleníti vagy elrejti a mikrofon bemeneti modult a Raven alkalmazások szekciójában."
+
+#: src/panel/settings/settings_raven.vala:96
+msgid "Show Media Playback Controls Widget"
+msgstr "Média lejátszási kezelőszervek megjelenítése"
+
+#: src/panel/settings/settings_raven.vala:97
+msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
+msgstr "Megjeleníti vagy elrejti a média lejátszási kezelőszervek modult a Raven alkalmazások szekciójában."
+
+#: src/panel/settings/settings_raven.vala:102
+msgid "Show Power Strip"
+msgstr "Energiagazdálkodási sáv megjelenítése"
+
+#: src/panel/settings/settings_raven.vala:103
+msgid "Shows or hides the Power Strip in the bottom of Raven."
+msgstr "Megjeleníti vagy elrejti az energiagazdálkodási sávot a Raven alján."
+
+#: src/panel/settings/settings_applet_chooser.vala:74
+msgid "Choose an applet"
+msgstr "Válasszon egy appletet"
+
+#: src/panel/settings/settings_applet_chooser.vala:79
+#: src/panel/settings/settings_autostart.vala:194
+#: src/panel/settings/settings_autostart.vala:359
+#: src/applets/budgie-menu/IconChooser.vala:52 src/polkit/dialog.ui.h:4
+#: src/daemon/endsession.ui.h:3
+msgid "Cancel"
+msgstr "Mégse"
 
 #: src/panel/settings/settings_desktop.vala:51
 msgid "Desktop"
@@ -253,22 +415,22 @@ msgstr "Virtuális asztalok száma"
 msgid "Number of virtual desktops / workspaces to create automatically on startup."
 msgstr "Az indítás után létrejövő virtuális asztalok / munkaasztalok száma."
 
-#: src/panel/settings/settings_desktop.vala:249
+#: src/panel/settings/settings_desktop.vala:262
 msgid "Normal"
 msgstr ""
 
 #. Small
-#: src/panel/settings/settings_desktop.vala:252
+#: src/panel/settings/settings_desktop.vala:265
 msgid "Small"
 msgstr ""
 
 #. Large
-#: src/panel/settings/settings_desktop.vala:254
+#: src/panel/settings/settings_desktop.vala:267
 msgid "Large"
 msgstr ""
 
 #. Massive
-#: src/panel/settings/settings_desktop.vala:256
+#: src/panel/settings/settings_desktop.vala:269
 msgid "Massive"
 msgstr ""
 
@@ -276,7 +438,7 @@ msgstr ""
 msgid "Applets"
 msgstr "Appletek"
 
-#: src/panel/settings/settings_panel.vala:83 src/daemon/menus.vala:60
+#: src/panel/settings/settings_panel.vala:83
 msgid "Settings"
 msgstr "Beállítások"
 
@@ -328,11 +490,6 @@ msgstr "Felső"
 #: src/panel/settings/settings_panel.vala:179 src/raven/raven.vala:35
 msgid "Right"
 msgstr "Jobb"
-
-#: src/panel/settings/settings_panel.vala:181
-#: src/panel/settings/settings_wm.vala:92 src/raven/raven.vala:33
-msgid "Left"
-msgstr "Bal"
 
 #: src/panel/settings/settings_panel.vala:183
 msgid "Bottom"
@@ -420,162 +577,60 @@ msgstr "Dokkoló mód"
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
 msgstr "Dokkoló módban a panel a lehető legkevesebb helyet használja fel, felszabadítva a képernyő értékes területeit"
 
-#: src/panel/settings/settings_wm.vala:30
-msgid "Windows"
-msgstr "Ablakok"
+#: src/panel/settings/settings_autostart.vala:134
+msgid "Untitled"
+msgstr "Névtelen"
 
-#: src/panel/settings/settings_wm.vala:39
-msgid "Attach modal dialogs to windows"
-msgstr "Csatolja a felbukkanó párbeszédablakokat a szülőablakokra"
+#: src/panel/settings/settings_autostart.vala:141
+msgid "No description"
+msgstr "Nincs leírás"
 
-#: src/panel/settings/settings_wm.vala:40
-msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr "A felbukkanó párbeszédpanelek a szülőablakhoz csatolódnak, és velük együtt mozognak."
+#: src/panel/settings/settings_autostart.vala:164
+msgid "running"
+msgstr "fut"
 
-#: src/panel/settings/settings_wm.vala:45
-msgid "Button layout"
-msgstr "Gombok elrendezése"
+#: src/panel/settings/settings_autostart.vala:185
+msgid "Applications"
+msgstr "Alkalmazások"
 
-#: src/panel/settings/settings_wm.vala:46
-msgid "Change the layout of buttons in application titlebars."
-msgstr "Módosítsa az alkalmazások címsorainak gombelrendezését."
+#: src/panel/settings/settings_autostart.vala:195
+#: src/panel/settings/settings_autostart.vala:360
+msgid "Add"
+msgstr "Hozzáadás"
 
-#: src/panel/settings/settings_wm.vala:51
-msgid "Center new windows on screen"
-msgstr "Új ablakok középre igazítása a képernyőn"
+#: src/panel/settings/settings_autostart.vala:354
+#: src/panel/settings/settings_autostart.vala:387
+msgid "Command"
+msgstr "Parancs"
 
-#: src/panel/settings/settings_wm.vala:52
-msgid "Center newly launched windows on the current screen."
-msgstr "Újonnan indított ablakok középre igazítása a jelenlegi képernyőn."
+#: src/panel/settings/settings_autostart.vala:370
+msgid "An entry with that title already exists"
+msgstr "Már létezik egy bejegyzés ezzel a címmel"
 
-#: src/panel/settings/settings_wm.vala:57
-msgid "Disable Night Light mode when windows are fullscreen"
-msgstr "Teljes képernyős ablakok esetén az éjszakai fény kikapcsolása"
+#: src/panel/settings/settings_autostart.vala:373
+msgid "Title"
+msgstr "Cím"
 
-#: src/panel/settings/settings_wm.vala:58
-msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
-msgstr "Letiltja az éjszakai fényt teljes képernyős ablak esetén. Teljes képernyő elhagyásakor újra engedélyezi."
+#: src/panel/settings/settings_autostart.vala:377
+#: src/panel/settings/settings_autostart.vala:391
+msgid "Required"
+msgstr "Kötelező"
 
-#: src/panel/settings/settings_wm.vala:63
-msgid "Automatic tiling"
-msgstr "Automatikus csempézés"
+#: src/panel/settings/settings_autostart.vala:380
+msgid "Description"
+msgstr "Leírás"
 
-#: src/panel/settings/settings_wm.vala:64
-msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr "Az ablakok automatikusan csempéződnek, amikor a képernyő tetejére, vagy a sarkokhoz közel húzza őket."
+#: src/panel/settings/settings_autostart.vala:384
+msgid "Optional"
+msgstr "Tetszőleges"
 
-#: src/panel/settings/settings_wm.vala:69
-msgid "Enable window focus change on mouse enter and leave"
-msgstr "Ablak fókuszváltás engedélyezése az egérmutató be- és kilépésekor"
+#: src/panel/settings/settings_autostart.vala:446
+msgid "Autostart"
+msgstr "Automatikus indítás"
 
-#: src/panel/settings/settings_wm.vala:70
-msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
-msgstr "Engedélyezi az ablak fókuszba helyezését az egérmutató belépésekor, illetve letiltja ha az egérmutató elhagyja az ablakot."
-
-#: src/panel/settings/settings_wm.vala:76
-msgid "Disable unredirection of windows"
-msgstr "Ablakok közti átirányítás kikapcsolása"
-
-#: src/panel/settings/settings_wm.vala:77
-msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr "Haladó felhasználók számára. Használja ezt, ha megjelenítési vagy teljesítménybeli problémákat tapasztal dedikált GPU esetén."
-
-#: src/panel/settings/settings_wm.vala:82
-#, fuzzy
-msgid "Show all windows in tab switcher"
-msgstr "Minden ablak megjelenítése klikkeléskor"
-
-#: src/panel/settings/settings_wm.vala:83
-msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
-msgstr ""
-
-#: src/panel/settings/settings_wm.vala:90
-msgid "Right (standard)"
-msgstr "Jobb (alapértelmezett)"
-
-#: src/panel/settings/settings_applet_chooser.vala:74
-msgid "Choose an applet"
-msgstr "Válasszon egy appletet"
-
-#: src/panel/settings/settings_applet_chooser.vala:79
-#: src/panel/settings/settings_autostart.vala:194
-#: src/panel/settings/settings_autostart.vala:359
-#: src/applets/budgie-menu/IconChooser.vala:52 src/polkit/dialog.ui.h:4
-#: src/daemon/endsession.ui.h:3
-msgid "Cancel"
-msgstr "Mégse"
-
-#: src/panel/settings/settings_style.vala:32
-msgid "Style"
-msgstr "Stílus"
-
-#: src/panel/settings/settings_style.vala:46
-msgid "Widgets"
-msgstr "Widgetek"
-
-#: src/panel/settings/settings_style.vala:47
-msgid "Set the appearance of window decorations and controls"
-msgstr "Állítsa be az ablakdekorációkat és a vezérlőket"
-
-#: src/panel/settings/settings_style.vala:51
-msgid "Icons"
-msgstr "Ikonok"
-
-#: src/panel/settings/settings_style.vala:52
-msgid "Set the globally used icon theme"
-msgstr "Állítsa be a globálisan használt ikontémát"
-
-#: src/panel/settings/settings_style.vala:56
-msgid "Cursors"
-msgstr "Kurzorok"
-
-#: src/panel/settings/settings_style.vala:57
-msgid "Set the globally used mouse cursor theme"
-msgstr "Állítsa be a globálisan használt egérkurzor témát"
-
-#: src/panel/settings/settings_style.vala:61
-msgid "Notification Position"
-msgstr "Értesítések pozíciója"
-
-#: src/panel/settings/settings_style.vala:62
-msgid "Set the location for notification popups"
-msgstr "Felugró értesítések pozíciójának beállítása"
-
-#: src/panel/settings/settings_style.vala:71
-msgid "Dark theme"
-msgstr "Sötét téma"
-
-#: src/panel/settings/settings_style.vala:78
-msgid "Built-in theme"
-msgstr "Beépített téma"
-
-#: src/panel/settings/settings_style.vala:79
-msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr "Engedélyezéskor a beépített stílus felülírja az asztali komponensek stílusát"
-
-#: src/panel/settings/settings_style.vala:86
-msgid "Animations"
-msgstr "Animációk"
-
-#: src/panel/settings/settings_style.vala:87
-msgid "Control whether windows and controls use animations"
-msgstr "Meghatározhatja, hogy az ablakok és vezérlők animációkat használjanak"
-
-#: src/panel/settings/settings_style.vala:204
-msgid "Top Left"
-msgstr "Bal felül"
-
-#: src/panel/settings/settings_style.vala:206
-msgid "Bottom Left"
-msgstr "Bal alul"
-
-#: src/panel/settings/settings_style.vala:208
-msgid "Bottom Right"
-msgstr "Jobb alul"
-
-#: src/panel/settings/settings_style.vala:211
-msgid "Top Right"
-msgstr "Jobb felül"
+#: src/panel/settings/settings_autostart.vala:464
+msgid "Autostart apps"
+msgstr "Automatikusan induló alkalmazások"
 
 #: src/panel/settings/settings_fonts.vala:32
 msgid "Fonts"
@@ -657,61 +712,6 @@ msgstr "Élsimítás"
 msgid "Set the type of antialiasing to use."
 msgstr "Az élsimítás típusának beállítása."
 
-#: src/panel/settings/settings_autostart.vala:134
-msgid "Untitled"
-msgstr "Névtelen"
-
-#: src/panel/settings/settings_autostart.vala:141
-msgid "No description"
-msgstr "Nincs leírás"
-
-#: src/panel/settings/settings_autostart.vala:164
-msgid "running"
-msgstr "fut"
-
-#: src/panel/settings/settings_autostart.vala:185
-msgid "Applications"
-msgstr "Alkalmazások"
-
-#: src/panel/settings/settings_autostart.vala:195
-#: src/panel/settings/settings_autostart.vala:360
-msgid "Add"
-msgstr "Hozzáadás"
-
-#: src/panel/settings/settings_autostart.vala:354
-#: src/panel/settings/settings_autostart.vala:387
-msgid "Command"
-msgstr "Parancs"
-
-#: src/panel/settings/settings_autostart.vala:370
-msgid "An entry with that title already exists"
-msgstr "Már létezik egy bejegyzés ezzel a címmel"
-
-#: src/panel/settings/settings_autostart.vala:373
-msgid "Title"
-msgstr "Cím"
-
-#: src/panel/settings/settings_autostart.vala:377
-#: src/panel/settings/settings_autostart.vala:391
-msgid "Required"
-msgstr "Kötelező"
-
-#: src/panel/settings/settings_autostart.vala:380
-msgid "Description"
-msgstr "Leírás"
-
-#: src/panel/settings/settings_autostart.vala:384
-msgid "Optional"
-msgstr "Tetszőleges"
-
-#: src/panel/settings/settings_autostart.vala:446
-msgid "Autostart"
-msgstr "Automatikus indítás"
-
-#: src/panel/settings/settings_autostart.vala:464
-msgid "Autostart apps"
-msgstr "Automatikusan induló alkalmazások"
-
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
 msgstr "Egy applikáció sem ad ki hangot."
@@ -719,20 +719,6 @@ msgstr "Egy applikáció sem ad ki hangot."
 #: src/raven/start_listening.vala:28
 msgid "Play some music"
 msgstr "Játssz le zenét"
-
-#: src/raven/main_view.vala:60
-#: src/applets/notifications/NotificationsApplet.plugin.in.h:1
-msgid "Notifications"
-msgstr "Értesítések"
-
-#. 125ms
-#: src/raven/sound.vala:158
-msgid "Apps"
-msgstr "Alkalmazások"
-
-#: src/raven/sound.vala:159
-msgid "Devices"
-msgstr "Eszközök"
 
 #: src/raven/notifications_view.vala:100
 msgid "Nothing to see here"
@@ -758,12 +744,345 @@ msgstr "Nincs olvasatlan értesítés"
 msgid "No new notifications"
 msgstr "Nincs új értesítés"
 
+#. 125ms
+#: src/raven/sound.vala:158
+msgid "Apps"
+msgstr "Alkalmazások"
+
+#: src/raven/sound.vala:159
+msgid "Devices"
+msgstr "Eszközök"
+
+#: src/raven/main_view.vala:60
+#: src/applets/notifications/NotificationsApplet.plugin.in.h:1
+msgid "Notifications"
+msgstr "Értesítések"
+
 #. Caffeine Notification
 #. Prepare label widget
 #: src/raven/notifications_group.vala:47
 #: src/applets/caffeine/CaffeineWindow.vala:37
 msgid "Caffeine Mode"
 msgstr "Caffeine Mód"
+
+#: src/daemon/menus.vala:51
+#, fuzzy
+msgid "System Settings"
+msgstr "Beállítások"
+
+#: src/daemon/endsession.vala:157
+msgid "Log out"
+msgstr "Kijelentkezés"
+
+#: src/daemon/endsession.vala:161
+msgid "Restart device"
+msgstr "Eszköz újraindítása"
+
+#: src/daemon/endsession.vala:173 src/daemon/endsession.ui.h:1
+msgid "Power Off"
+msgstr "Kikapcsolás"
+
+#. Should show a notification
+#: src/daemon/settings.vala:341
+msgid "Turned on Caffeine Boost"
+msgstr "Caffeine Boost bekapcsolva"
+
+#: src/daemon/settings.vala:341
+msgid "Turned off Caffeine Boost"
+msgstr "Caffeine Boost kikapcsolva"
+
+#: src/daemon/settings.vala:346
+msgid "Will turn off in a minute"
+msgstr "Kikapcsolás egy percen belül"
+
+#. use plural
+#: src/daemon/settings.vala:349
+#, c-format
+msgid "Will turn off in %d minutes"
+msgstr "Kikapcsolás %d perc múlva"
+
+#. User Menu Creation
+#: src/applets/user-indicator/UserIndicatorWindow.vala:99
+msgid "User"
+msgstr "Felhasználó"
+
+#. Default to "User" and symbolic icon
+#. The rest
+#: src/applets/user-indicator/UserIndicatorWindow.vala:105
+msgid "Lock"
+msgstr "Zárolás"
+
+#: src/applets/user-indicator/UserIndicatorWindow.vala:106
+msgid "Suspend"
+msgstr "Felfüggesztés"
+
+#: src/applets/user-indicator/UserIndicatorWindow.vala:107
+msgid "Hibernate"
+msgstr "Hibernálás"
+
+#: src/applets/user-indicator/UserIndicatorWindow.vala:108
+#: src/daemon/endsession.ui.h:5
+msgid "Restart"
+msgstr "Újraindítás"
+
+#: src/applets/user-indicator/UserIndicatorWindow.vala:109
+#: src/daemon/endsession.ui.h:6
+msgid "Shutdown"
+msgstr "Leállítás"
+
+#: src/applets/user-indicator/UserIndicatorWindow.vala:208
+#: src/daemon/endsession.ui.h:4
+msgid "Logout"
+msgstr "Kijelentkezés"
+
+#: src/applets/lock-keys/LockKeysApplet.vala:55
+msgid "Caps lock is active"
+msgstr "A Caps Lock aktív"
+
+#: src/applets/lock-keys/LockKeysApplet.vala:58
+msgid "Caps lock is not active"
+msgstr "A Caps Lock nem aktív"
+
+#: src/applets/lock-keys/LockKeysApplet.vala:67
+msgid "Num lock is active"
+msgstr "A Num Lock aktív"
+
+#: src/applets/lock-keys/LockKeysApplet.vala:70
+msgid "Num lock is not active"
+msgstr "A Num Lock nem aktív"
+
+#: src/applets/places-indicator/MountItem.vala:23
+#: src/applets/places-indicator/VolumeItem.vala:25
+msgid "Removable devices"
+msgstr "Eltávolítható eszközök"
+
+#: src/applets/places-indicator/MountItem.vala:25
+#: src/applets/places-indicator/VolumeItem.vala:27
+msgid "Local volumes"
+msgstr "Helyi kötetek"
+
+#: src/applets/places-indicator/MountItem.vala:29
+#: src/applets/places-indicator/VolumeItem.vala:31
+msgid "Network folders"
+msgstr "Hálózati mappák"
+
+#: src/applets/places-indicator/MountItem.vala:32
+#: src/applets/places-indicator/VolumeItem.vala:34
+msgid "Other"
+msgstr "Egyéb"
+
+#: src/applets/places-indicator/MountItem.vala:58
+#: src/applets/places-indicator/VolumeItem.vala:55
+msgid "Eject"
+msgstr "Kiadás"
+
+#: src/applets/places-indicator/MountItem.vala:60
+msgid "Unmount"
+msgstr "Leválasztás"
+
+#: src/applets/places-indicator/MountItem.vala:63
+#: src/applets/places-indicator/PlaceItem.vala:36
+#, c-format
+msgid "Open \"%s\""
+msgstr "\"%s\" megnyitása"
+
+#: src/applets/places-indicator/MountItem.vala:75
+#: src/applets/places-indicator/VolumeItem.vala:83
+msgid "You can now safely remove"
+msgstr "Most biztonságosan eltávolíthatja"
+
+#: src/applets/places-indicator/MountItem.vala:76
+msgid "Unknown Device"
+msgstr "Ismeretlen eszköz"
+
+#: src/applets/places-indicator/MountItem.vala:84
+msgid "Error while ejecting device"
+msgstr "Hiba az eszköz kiadása során"
+
+#: src/applets/places-indicator/MountItem.vala:100
+msgid "Error while unmounting volume"
+msgstr "Hiba a kötet lecsatolása során"
+
+#: src/applets/places-indicator/VolumeItem.vala:41
+#, c-format
+msgid "Mount and open \"%s\""
+msgstr "\"%s\" csatolása és megnyitása"
+
+#: src/applets/places-indicator/VolumeItem.vala:73
+#: src/applets/places-indicator/VolumeItem.vala:114
+msgid "Enter the encryption passphrase to unlock this volume"
+msgstr "A kötet feloldásához adja meg a titkosítási jelszót"
+
+#: src/applets/places-indicator/VolumeItem.vala:112
+msgid "The password you entered is incorrect"
+msgstr "A megadott jelszó helytelen"
+
+#: src/applets/places-indicator/VolumeItem.vala:116
+msgid "An unknown error occurred while attempting to mount this volume"
+msgstr "Ismeretlen hiba történt a kötet csatlakoztatásakor"
+
+#: src/applets/places-indicator/MountHelper.vala:35
+msgid "Volume is in use by other processes"
+msgstr "A kötetet más folyamatok használják"
+
+#: src/applets/places-indicator/MountHelper.vala:40
+msgid "Operation aborted"
+msgstr "A művelet megszakadt"
+
+#: src/applets/places-indicator/MountHelper.vala:51
+msgid "Type your password"
+msgstr "Írja be a jelszavát"
+
+#: src/applets/places-indicator/PlacesIndicator.vala:80
+#: src/applets/places-indicator/PlacesSection.vala:22
+#: src/applets/places-indicator/PlacesSection.vala:44
+#: src/applets/places-indicator/PlacesIndicator.plugin.in.h:1
+msgid "Places"
+msgstr "Helyek"
+
+#: src/applets/places-indicator/PlacesIndicatorWindow.vala:179
+msgid "Nothing to display right now"
+msgstr "Most nincs mit megjeleníteni"
+
+#: src/applets/places-indicator/PlacesIndicatorWindow.vala:183
+msgid "Mount some drives"
+msgstr "Néhány meghajtó csatolása"
+
+#: src/applets/places-indicator/PlacesIndicatorWindow.vala:183
+msgid "Enable more sections"
+msgstr "További részek engedélyezése"
+
+#. Settings button
+#: src/applets/status/BluetoothIndicator.vala:53
+msgid "Bluetooth Settings"
+msgstr "Bluetooth beállítások"
+
+#. Send files button
+#: src/applets/status/BluetoothIndicator.vala:60
+msgid "Send Files"
+msgstr "Fájlok küldése"
+
+#. Airplane mode
+#: src/applets/status/BluetoothIndicator.vala:70
+msgid "Bluetooth Airplane Mode"
+msgstr "Bluetooth repülő üzemmódja"
+
+#: src/applets/status/BluetoothIndicator.vala:173
+msgid "Bluetooth is disabled"
+msgstr "Bluetooth letiltva"
+
+#: src/applets/status/BluetoothIndicator.vala:177
+msgid "Bluetooth is active"
+msgstr "A Bluetooth aktív"
+
+#: src/applets/status/BluetoothIndicator.vala:182
+#, c-format
+msgid "Connected to %d device"
+msgid_plural "Connected to %d devices"
+msgstr[0] "Kapcsolódva %d eszközhöz"
+msgstr[1] "Kapcsolódva %d eszközhöz"
+
+#: src/applets/status/PowerIndicator.vala:93
+msgid "Battery fully charged."
+msgstr "Az akkumulátor teljesen fel van töltve."
+
+#: src/applets/status/PowerIndicator.vala:96
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+#. Set inner charging duration to hours:minutes
+#: src/applets/status/PowerIndicator.vala:105
+msgid "Battery charging"
+msgstr "Az akkumulátor töltődik"
+
+#: src/applets/status/PowerIndicator.vala:110
+msgid "Battery remaining"
+msgstr "Fennmaradó akkuidő"
+
+#: src/applets/status/PowerIndicator.vala:161
+msgid "Show battery percentage"
+msgstr "Százalékos töltöttségi szint megjelenítése"
+
+#: src/applets/status/PowerIndicator.vala:169
+msgid "Power settings"
+msgstr "Energiagazdálkodás"
+
+#: src/applets/workspaces/WorkspaceItem.vala:69
+msgid "Rename"
+msgstr "Átnevezés"
+
+#: src/applets/workspaces/WorkspaceItem.vala:77
+msgid "Remove"
+msgstr "Törlés"
+
+#: src/applets/caffeine/CaffeineWindow.vala:39
+msgid "Timer (minutes)"
+msgstr "Időzítő (percek)"
+
+#. there's already an active tray, create an informative icon with a popover
+#: src/applets/tray/TrayApplet.vala:114
+msgid "Only one instance of the System Tray can be active at a time."
+msgstr ""
+
+#: src/applets/tray/TrayApplet.vala:140
+msgid "The System Tray failed to initialize."
+msgstr ""
+
+#: src/applets/show-desktop/ShowDesktopApplet.vala:30
+msgid "Toggle the desktop"
+msgstr "Váltás az asztalra"
+
+#. Special case, "All"
+#: src/applets/budgie-menu/BudgieMenuButtons.vala:25
+msgid "All"
+msgstr "Minden"
+
+#: src/applets/budgie-menu/IconChooser.vala:24
+msgid "Set menu icon from file"
+msgstr "Állítsa be a menü ikonját a fájlból"
+
+#: src/applets/budgie-menu/IconChooser.vala:34
+msgid "Image files"
+msgstr "Képfájlok"
+
+#: src/applets/budgie-menu/IconChooser.vala:40
+msgid "Any file"
+msgstr "Bármilyen fájl"
+
+#: src/applets/budgie-menu/IconChooser.vala:53
+msgid "Set icon"
+msgstr "Ikon beállítása"
+
+#. placeholder in case of no results
+#: src/applets/budgie-menu/BudgieMenuWindow.vala:123
+msgid "Sorry, no items found"
+msgstr "Nincs eredmény"
+
+#: src/applets/clock/ClockApplet.vala:143
+msgid "Time and date settings"
+msgstr "Idő és dátum beállításai"
+
+#: src/applets/clock/ClockApplet.vala:144
+msgid "Calendar"
+msgstr "Naptár"
+
+#. pack page2
+#: src/applets/clock/ClockApplet.vala:151
+#: src/applets/clock/ClockApplet.vala:182
+msgid "Preferences"
+msgstr "Beállítások"
+
+#: src/applets/clock/ClockApplet.vala:161
+msgid "Show date"
+msgstr "Dátum mutatása"
+
+#: src/applets/clock/ClockApplet.vala:166
+msgid "Show seconds"
+msgstr "Másodpercek mutatása"
+
+#: src/applets/clock/ClockApplet.vala:172
+msgid "Use 24 hour time"
+msgstr "24 órás formátum"
 
 #: src/applets/icon-tasklist/IconPopover.vala:106
 msgid "Launch New Instance"
@@ -815,328 +1134,6 @@ msgstr "Ablak bezárása"
 msgid "Show Window Controls"
 msgstr "Ablak vezérlők mutatása"
 
-#. there's already an active tray, create an informative icon with a popover
-#: src/applets/tray/TrayApplet.vala:114
-msgid "Only one instance of the System Tray can be active at a time."
-msgstr ""
-
-#: src/applets/tray/TrayApplet.vala:140
-msgid "The System Tray failed to initialize."
-msgstr ""
-
-#: src/applets/status/PowerIndicator.vala:93
-msgid "Battery fully charged."
-msgstr "Az akkumulátor teljesen fel van töltve."
-
-#: src/applets/status/PowerIndicator.vala:96
-msgid "Unknown"
-msgstr "Ismeretlen"
-
-#. Set inner charging duration to hours:minutes
-#: src/applets/status/PowerIndicator.vala:105
-msgid "Battery charging"
-msgstr "Az akkumulátor töltődik"
-
-#: src/applets/status/PowerIndicator.vala:110
-msgid "Battery remaining"
-msgstr "Fennmaradó akkuidő"
-
-#: src/applets/status/PowerIndicator.vala:161
-msgid "Show battery percentage"
-msgstr "Százalékos töltöttségi szint megjelenítése"
-
-#: src/applets/status/PowerIndicator.vala:169
-msgid "Power settings"
-msgstr "Energiagazdálkodás"
-
-#. Settings button
-#: src/applets/status/BluetoothIndicator.vala:53
-msgid "Bluetooth Settings"
-msgstr "Bluetooth beállítások"
-
-#. Send files button
-#: src/applets/status/BluetoothIndicator.vala:60
-msgid "Send Files"
-msgstr "Fájlok küldése"
-
-#. Airplane mode
-#: src/applets/status/BluetoothIndicator.vala:70
-msgid "Bluetooth Airplane Mode"
-msgstr "Bluetooth repülő üzemmódja"
-
-#: src/applets/status/BluetoothIndicator.vala:173
-msgid "Bluetooth is disabled"
-msgstr "Bluetooth letiltva"
-
-#: src/applets/status/BluetoothIndicator.vala:177
-msgid "Bluetooth is active"
-msgstr "A Bluetooth aktív"
-
-#: src/applets/status/BluetoothIndicator.vala:182
-#, c-format
-msgid "Connected to %d device"
-msgid_plural "Connected to %d devices"
-msgstr[0] "Kapcsolódva %d eszközhöz"
-msgstr[1] "Kapcsolódva %d eszközhöz"
-
-#: src/applets/places-indicator/PlacesSection.vala:22
-#: src/applets/places-indicator/PlacesSection.vala:44
-#: src/applets/places-indicator/PlacesIndicator.vala:80
-#: src/applets/places-indicator/PlacesIndicator.plugin.in.h:1
-msgid "Places"
-msgstr "Helyek"
-
-#: src/applets/places-indicator/MountHelper.vala:35
-msgid "Volume is in use by other processes"
-msgstr "A kötetet más folyamatok használják"
-
-#: src/applets/places-indicator/MountHelper.vala:40
-msgid "Operation aborted"
-msgstr "A művelet megszakadt"
-
-#: src/applets/places-indicator/MountHelper.vala:51
-msgid "Type your password"
-msgstr "Írja be a jelszavát"
-
-#: src/applets/places-indicator/PlacesIndicatorWindow.vala:179
-msgid "Nothing to display right now"
-msgstr "Most nincs mit megjeleníteni"
-
-#: src/applets/places-indicator/PlacesIndicatorWindow.vala:183
-msgid "Mount some drives"
-msgstr "Néhány meghajtó csatolása"
-
-#: src/applets/places-indicator/PlacesIndicatorWindow.vala:183
-msgid "Enable more sections"
-msgstr "További részek engedélyezése"
-
-#: src/applets/places-indicator/VolumeItem.vala:25
-#: src/applets/places-indicator/MountItem.vala:23
-msgid "Removable devices"
-msgstr "Eltávolítható eszközök"
-
-#: src/applets/places-indicator/VolumeItem.vala:27
-#: src/applets/places-indicator/MountItem.vala:25
-msgid "Local volumes"
-msgstr "Helyi kötetek"
-
-#: src/applets/places-indicator/VolumeItem.vala:31
-#: src/applets/places-indicator/MountItem.vala:29
-msgid "Network folders"
-msgstr "Hálózati mappák"
-
-#: src/applets/places-indicator/VolumeItem.vala:34
-#: src/applets/places-indicator/MountItem.vala:32
-msgid "Other"
-msgstr "Egyéb"
-
-#: src/applets/places-indicator/VolumeItem.vala:41
-#, c-format
-msgid "Mount and open \"%s\""
-msgstr "\"%s\" csatolása és megnyitása"
-
-#: src/applets/places-indicator/VolumeItem.vala:55
-#: src/applets/places-indicator/MountItem.vala:58
-msgid "Eject"
-msgstr "Kiadás"
-
-#: src/applets/places-indicator/VolumeItem.vala:73
-#: src/applets/places-indicator/VolumeItem.vala:114
-msgid "Enter the encryption passphrase to unlock this volume"
-msgstr "A kötet feloldásához adja meg a titkosítási jelszót"
-
-#: src/applets/places-indicator/VolumeItem.vala:83
-#: src/applets/places-indicator/MountItem.vala:75
-msgid "You can now safely remove"
-msgstr "Most biztonságosan eltávolíthatja"
-
-#: src/applets/places-indicator/VolumeItem.vala:112
-msgid "The password you entered is incorrect"
-msgstr "A megadott jelszó helytelen"
-
-#: src/applets/places-indicator/VolumeItem.vala:116
-msgid "An unknown error occurred while attempting to mount this volume"
-msgstr "Ismeretlen hiba történt a kötet csatlakoztatásakor"
-
-#: src/applets/places-indicator/MountItem.vala:60
-msgid "Unmount"
-msgstr "Leválasztás"
-
-#: src/applets/places-indicator/MountItem.vala:63
-#: src/applets/places-indicator/PlaceItem.vala:36
-#, c-format
-msgid "Open \"%s\""
-msgstr "\"%s\" megnyitása"
-
-#: src/applets/places-indicator/MountItem.vala:76
-msgid "Unknown Device"
-msgstr "Ismeretlen eszköz"
-
-#: src/applets/places-indicator/MountItem.vala:84
-msgid "Error while ejecting device"
-msgstr "Hiba az eszköz kiadása során"
-
-#: src/applets/places-indicator/MountItem.vala:100
-msgid "Error while unmounting volume"
-msgstr "Hiba a kötet lecsatolása során"
-
-#: src/applets/caffeine/CaffeineWindow.vala:39
-msgid "Timer (minutes)"
-msgstr "Időzítő (percek)"
-
-#: src/applets/show-desktop/ShowDesktopApplet.vala:30
-msgid "Toggle the desktop"
-msgstr "Váltás az asztalra"
-
-#: src/applets/lock-keys/LockKeysApplet.vala:55
-msgid "Caps lock is active"
-msgstr "A Caps Lock aktív"
-
-#: src/applets/lock-keys/LockKeysApplet.vala:58
-msgid "Caps lock is not active"
-msgstr "A Caps Lock nem aktív"
-
-#: src/applets/lock-keys/LockKeysApplet.vala:67
-msgid "Num lock is active"
-msgstr "A Num Lock aktív"
-
-#: src/applets/lock-keys/LockKeysApplet.vala:70
-msgid "Num lock is not active"
-msgstr "A Num Lock nem aktív"
-
-#: src/applets/clock/ClockApplet.vala:143
-msgid "Time and date settings"
-msgstr "Idő és dátum beállításai"
-
-#: src/applets/clock/ClockApplet.vala:144
-msgid "Calendar"
-msgstr "Naptár"
-
-#. pack page2
-#: src/applets/clock/ClockApplet.vala:151
-#: src/applets/clock/ClockApplet.vala:182
-msgid "Preferences"
-msgstr "Beállítások"
-
-#: src/applets/clock/ClockApplet.vala:161
-msgid "Show date"
-msgstr "Dátum mutatása"
-
-#: src/applets/clock/ClockApplet.vala:166
-msgid "Show seconds"
-msgstr "Másodpercek mutatása"
-
-#: src/applets/clock/ClockApplet.vala:172
-msgid "Use 24 hour time"
-msgstr "24 órás formátum"
-
-#: src/applets/workspaces/WorkspaceItem.vala:69
-msgid "Rename"
-msgstr "Átnevezés"
-
-#: src/applets/workspaces/WorkspaceItem.vala:77
-msgid "Remove"
-msgstr "Törlés"
-
-#. placeholder in case of no results
-#: src/applets/budgie-menu/BudgieMenuWindow.vala:123
-msgid "Sorry, no items found"
-msgstr "Nincs eredmény"
-
-#. Special case, "All"
-#: src/applets/budgie-menu/BudgieMenuButtons.vala:25
-msgid "All"
-msgstr "Minden"
-
-#: src/applets/budgie-menu/IconChooser.vala:24
-msgid "Set menu icon from file"
-msgstr "Állítsa be a menü ikonját a fájlból"
-
-#: src/applets/budgie-menu/IconChooser.vala:34
-msgid "Image files"
-msgstr "Képfájlok"
-
-#: src/applets/budgie-menu/IconChooser.vala:40
-msgid "Any file"
-msgstr "Bármilyen fájl"
-
-#: src/applets/budgie-menu/IconChooser.vala:53
-msgid "Set icon"
-msgstr "Ikon beállítása"
-
-#. User Menu Creation
-#: src/applets/user-indicator/UserIndicatorWindow.vala:99
-msgid "User"
-msgstr "Felhasználó"
-
-#. Default to "User" and symbolic icon
-#. The rest
-#: src/applets/user-indicator/UserIndicatorWindow.vala:105
-msgid "Lock"
-msgstr "Zárolás"
-
-#: src/applets/user-indicator/UserIndicatorWindow.vala:106
-msgid "Suspend"
-msgstr "Felfüggesztés"
-
-#: src/applets/user-indicator/UserIndicatorWindow.vala:107
-msgid "Hibernate"
-msgstr "Hibernálás"
-
-#: src/applets/user-indicator/UserIndicatorWindow.vala:108
-#: src/daemon/endsession.ui.h:5
-msgid "Restart"
-msgstr "Újraindítás"
-
-#: src/applets/user-indicator/UserIndicatorWindow.vala:109
-#: src/daemon/endsession.ui.h:6
-msgid "Shutdown"
-msgstr "Leállítás"
-
-#: src/applets/user-indicator/UserIndicatorWindow.vala:208
-#: src/daemon/endsession.ui.h:4
-msgid "Logout"
-msgstr "Kijelentkezés"
-
-#: src/daemon/menus.vala:46
-msgid "Change background"
-msgstr "Háttérkép cseréje"
-
-#: src/daemon/menus.vala:51
-msgid "Displays"
-msgstr "Kijelzők"
-
-#: src/daemon/endsession.vala:157
-msgid "Log out"
-msgstr "Kijelentkezés"
-
-#: src/daemon/endsession.vala:161
-msgid "Restart device"
-msgstr "Eszköz újraindítása"
-
-#: src/daemon/endsession.vala:173 src/daemon/endsession.ui.h:1
-msgid "Power Off"
-msgstr "Kikapcsolás"
-
-#. Should show a notification
-#: src/daemon/settings.vala:341
-msgid "Turned on Caffeine Boost"
-msgstr "Caffeine Boost bekapcsolva"
-
-#: src/daemon/settings.vala:341
-msgid "Turned off Caffeine Boost"
-msgstr "Caffeine Boost kikapcsolva"
-
-#: src/daemon/settings.vala:346
-msgid "Will turn off in a minute"
-msgstr "Kikapcsolás egy percen belül"
-
-#. use plural
-#: src/daemon/settings.vala:349
-#, c-format
-msgid "Will turn off in %d minutes"
-msgstr "Kikapcsolás %d perc múlva"
-
 #: src/polkit/dialog.ui.h:1
 msgid "Authentication Required"
 msgstr "Hitelesítés szükséges"
@@ -1152,6 +1149,115 @@ msgstr "Hitelesítés szükséges"
 #: src/polkit/dialog.ui.h:5
 msgid "Authenticate"
 msgstr "Hitelesítés"
+
+#: src/daemon/endsession.ui.h:2
+msgid "Are you sure you want to end your session?"
+msgstr "Biztosan be szeretné fejezni a munkamenetet?"
+
+#: src/applets/places-indicator/settings.ui.h:1
+msgid "Show label"
+msgstr "Címke mutatása"
+
+#: src/applets/places-indicator/settings.ui.h:2
+msgid "Show places"
+msgstr "Helyek mutatása"
+
+#: src/applets/places-indicator/settings.ui.h:3
+msgid "Show network folders"
+msgstr "Hálózati mappák mutatása"
+
+#: src/applets/places-indicator/settings.ui.h:4
+msgid "Show removable drives"
+msgstr "Eltávolítható eszközök mutatása"
+
+#: src/applets/places-indicator/settings.ui.h:5
+msgid "Always expand places"
+msgstr "Mindig bővítse a helyeket"
+
+#: src/applets/spacer/settings.ui.h:1
+msgid "Spacer size"
+msgstr "Elosztósáv mérete"
+
+#: src/applets/workspaces/settings.ui.h:1
+msgid "\"Add\" button visibility"
+msgstr "„Hozzáadás” gomb láthatósága"
+
+#: src/applets/workspaces/settings.ui.h:2
+msgid "Don't show"
+msgstr "Ne mutassa"
+
+#: src/applets/workspaces/settings.ui.h:3
+msgid "Show on mouseover"
+msgstr "Megjelenítés egérmutató áthaladásakor"
+
+#: src/applets/workspaces/settings.ui.h:4
+msgid "Always show"
+msgstr "Mindig mutassa"
+
+#: src/applets/caffeine/settings.ui.h:1
+msgid "Enable notification"
+msgstr "Értesítés bekapcsolása"
+
+#: src/applets/caffeine/settings.ui.h:2
+msgid "Maximize brightness"
+msgstr "Fényerősség maximalizálása"
+
+#: src/applets/caffeine/settings.ui.h:3
+msgid "Brightness Level"
+msgstr "Fényerő"
+
+#: src/applets/night-light/indicator_window.ui.h:1
+#: src/applets/night-light/NightLight.plugin.in.h:1
+msgid "Night Light"
+msgstr "Éjszakai fény"
+
+#: src/applets/night-light/indicator_window.ui.h:2
+msgid "Temperature"
+msgstr "Hőmérséklet"
+
+#: src/applets/night-light/indicator_window.ui.h:3
+msgid "Schedule"
+msgstr "Ütemezés"
+
+#: src/applets/night-light/indicator_window.ui.h:4
+msgid "Sunset to Sunrise"
+msgstr "Napnyugtától napkeltéig"
+
+#: src/applets/night-light/indicator_window.ui.h:5
+msgid "Manual"
+msgstr "Kézi"
+
+#: src/applets/night-light/indicator_window.ui.h:6
+msgid "Display Settings"
+msgstr "Képernyőbeállítások"
+
+#: src/applets/tray/settings.ui.h:1
+msgid "Icon Spacing"
+msgstr ""
+
+#: src/applets/budgie-menu/settings.ui.h:1
+msgid "Show Menu Label"
+msgstr "Mutassa a menü címkét"
+
+#: src/applets/budgie-menu/settings.ui.h:2
+msgid "Compact Mode"
+msgstr "Kompakt mód"
+
+#: src/applets/budgie-menu/settings.ui.h:3
+msgid "Show Headers"
+msgstr "Fejlécek mutatása"
+
+#: src/applets/budgie-menu/settings.ui.h:4
+msgid "Menu Label"
+msgstr "Menü címke"
+
+#: src/applets/budgie-menu/settings.ui.h:5
+msgid "Roll-over mouse"
+msgstr "Roll-over görgetés"
+
+#: src/applets/budgie-menu/settings.ui.h:6
+msgid "Menu Icon"
+msgstr "Menü ikon"
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
@@ -1181,118 +1287,14 @@ msgstr ""
 msgid "Require a double-click to launch new window"
 msgstr ""
 
-#: src/applets/tray/settings.ui.h:1
-msgid "Icon Spacing"
-msgstr ""
+#: src/session/budgie-desktop.session.in.in.h:1
+#: src/session/budgie-desktop.desktop.in.in.h:1
+msgid "Budgie Desktop"
+msgstr "Budgie asztal"
 
-#: src/applets/night-light/indicator_window.ui.h:1
-#: src/applets/night-light/NightLight.plugin.in.h:1
-msgid "Night Light"
-msgstr "Éjszakai fény"
-
-#: src/applets/night-light/indicator_window.ui.h:2
-msgid "Temperature"
-msgstr "Hőmérséklet"
-
-#: src/applets/night-light/indicator_window.ui.h:3
-msgid "Schedule"
-msgstr "Ütemezés"
-
-#: src/applets/night-light/indicator_window.ui.h:4
-msgid "Sunset to Sunrise"
-msgstr "Napnyugtától napkeltéig"
-
-#: src/applets/night-light/indicator_window.ui.h:5
-msgid "Manual"
-msgstr "Kézi"
-
-#: src/applets/night-light/indicator_window.ui.h:6
-msgid "Display Settings"
-msgstr "Képernyőbeállítások"
-
-#: src/applets/places-indicator/settings.ui.h:1
-msgid "Show label"
-msgstr "Címke mutatása"
-
-#: src/applets/places-indicator/settings.ui.h:2
-msgid "Show places"
-msgstr "Helyek mutatása"
-
-#: src/applets/places-indicator/settings.ui.h:3
-msgid "Show network folders"
-msgstr "Hálózati mappák mutatása"
-
-#: src/applets/places-indicator/settings.ui.h:4
-msgid "Show removable drives"
-msgstr "Eltávolítható eszközök mutatása"
-
-#: src/applets/places-indicator/settings.ui.h:5
-msgid "Always expand places"
-msgstr "Mindig bővítse a helyeket"
-
-#: src/applets/caffeine/settings.ui.h:1
-msgid "Enable notification"
-msgstr "Értesítés bekapcsolása"
-
-#: src/applets/caffeine/settings.ui.h:2
-msgid "Maximize brightness"
-msgstr "Fényerősség maximalizálása"
-
-#: src/applets/caffeine/settings.ui.h:3
-msgid "Brightness Level"
-msgstr "Fényerő"
-
-#: src/applets/workspaces/settings.ui.h:1
-msgid "\"Add\" button visibility"
-msgstr "„Hozzáadás” gomb láthatósága"
-
-#: src/applets/workspaces/settings.ui.h:2
-msgid "Don't show"
-msgstr "Ne mutassa"
-
-#: src/applets/workspaces/settings.ui.h:3
-msgid "Show on mouseover"
-msgstr "Megjelenítés egérmutató áthaladásakor"
-
-#: src/applets/workspaces/settings.ui.h:4
-msgid "Always show"
-msgstr "Mindig mutassa"
-
-#: src/applets/spacer/settings.ui.h:1
-msgid "Spacer size"
-msgstr "Elosztósáv mérete"
-
-#: src/applets/budgie-menu/settings.ui.h:1
-msgid "Show Menu Label"
-msgstr "Mutassa a menü címkét"
-
-#: src/applets/budgie-menu/settings.ui.h:2
-msgid "Compact Mode"
-msgstr "Kompakt mód"
-
-#: src/applets/budgie-menu/settings.ui.h:3
-msgid "Show Headers"
-msgstr "Fejlécek mutatása"
-
-#: src/applets/budgie-menu/settings.ui.h:4
-msgid "Menu Label"
-msgstr "Menü címke"
-
-#: src/applets/budgie-menu/settings.ui.h:5
-msgid "Roll-over mouse"
-msgstr "Roll-over görgetés"
-
-#: src/applets/budgie-menu/settings.ui.h:6
-msgid "Menu Icon"
-msgstr "Menü ikon"
-
-#: src/daemon/endsession.ui.h:2
-msgid "Are you sure you want to end your session?"
-msgstr "Biztosan be szeretné fejezni a munkamenetet?"
-
-#: src/panel/budgie-desktop-settings.desktop.in.h:2
-msgid "Change desktop appearance and behavior"
-msgstr "Az asztali megjelenés és a viselkedés megváltoztatása"
+#: src/session/budgie-desktop.desktop.in.in.h:2
+msgid "This session logs you into the Budgie Desktop"
+msgstr "Ez a munkamenet a Budgie asztalra jelentkezik be"
 
 #: src/panel/budgie-panel.desktop.in.h:1
 msgid "Budgie Panel"
@@ -1302,41 +1304,29 @@ msgstr "Budgie Panel"
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
 msgstr "Alkalmazásokat indít, és segédprogramokat biztosít az ablakok kezeléséhez, az idő megjelenítéséhez, stb."
 
-#: src/applets/icon-tasklist/IconTasklistApplet.plugin.in.h:1
-msgid "Icon Task List"
-msgstr "Ikonfeladat-lista"
+#: src/panel/budgie-desktop-settings.desktop.in.h:2
+msgid "Change desktop appearance and behavior"
+msgstr "Az asztali megjelenés és a viselkedés megváltoztatása"
 
-#: src/applets/separator/SeparatorApplet.plugin.in.h:1
-msgid "Separator"
-msgstr "Elválasztó"
-
-#: src/applets/tray/TrayApplet.plugin.in.h:1
-msgid "System Tray"
-msgstr "Tálca"
-
-#: src/applets/status/StatusApplet.plugin.in.h:1
-msgid "Status Indicator"
-msgstr "Állapot indikátor"
-
-#: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
-msgid "Caffeine"
-msgstr "Koffein"
-
-#: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
-msgid "Show Desktop Button"
-msgstr "Asztal mutatása gomb"
+#: src/applets/user-indicator/UserIndicator.plugin.in.h:1
+msgid "User Indicator"
+msgstr "Felhasználó indikátor"
 
 #: src/applets/lock-keys/LockKeysApplet.plugin.in.h:1
 msgid "Lock Keys Indicator"
 msgstr "Lock billentyűk indikátor"
 
-#: src/applets/clock/ClockApplet.plugin.in.h:1
-msgid "Clock"
-msgstr "Óra"
+#: src/applets/status/StatusApplet.plugin.in.h:1
+msgid "Status Indicator"
+msgstr "Állapot indikátor"
 
-#: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
-msgid "Raven Sidebar Control"
-msgstr "Raven oldalsáv vezérlő"
+#: src/applets/spacer/SpacerApplet.plugin.in.h:1
+msgid "Spacer"
+msgstr "Elosztósáv"
+
+#: src/applets/separator/SeparatorApplet.plugin.in.h:1
+msgid "Separator"
+msgstr "Elválasztó"
 
 #: src/applets/workspaces/WorkspacesApplet.plugin.in.h:1
 msgid "Workspace Switcher"
@@ -1346,27 +1336,34 @@ msgstr "Munkaterület váltó"
 msgid "Keyboard Layout Indicator"
 msgstr "Billentyűzetkiosztás indikátor"
 
-#: src/applets/spacer/SpacerApplet.plugin.in.h:1
-msgid "Spacer"
-msgstr "Elosztósáv"
+#: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
+msgid "Caffeine"
+msgstr "Koffein"
 
-#: src/applets/tasklist/TasklistApplet.plugin.in.h:1
-msgid "Task List"
-msgstr "Feladatlista"
+#: src/applets/tray/TrayApplet.plugin.in.h:1
+msgid "System Tray"
+msgstr "Tálca"
+
+#: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
+msgid "Raven Sidebar Control"
+msgstr "Raven oldalsáv vezérlő"
+
+#: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
+msgid "Show Desktop Button"
+msgstr "Asztal mutatása gomb"
 
 #: src/applets/budgie-menu/BudgieMenu.plugin.in.h:1
 msgid "Budgie Menu"
 msgstr "Budgie menü"
 
-#: src/applets/user-indicator/UserIndicator.plugin.in.h:1
-msgid "User Indicator"
-msgstr "Felhasználó indikátor"
+#: src/applets/clock/ClockApplet.plugin.in.h:1
+msgid "Clock"
+msgstr "Óra"
 
-#: src/session/budgie-desktop.desktop.in.in.h:1
-#: src/session/budgie-desktop.session.in.in.h:1
-msgid "Budgie Desktop"
-msgstr "Budgie asztal"
+#: src/applets/tasklist/TasklistApplet.plugin.in.h:1
+msgid "Task List"
+msgstr "Feladatlista"
 
-#: src/session/budgie-desktop.desktop.in.in.h:2
-msgid "This session logs you into the Budgie Desktop"
-msgstr "Ez a munkamenet a Budgie asztalra jelentkezik be"
+#: src/applets/icon-tasklist/IconTasklistApplet.plugin.in.h:1
+msgid "Icon Task List"
+msgstr "Ikonfeladat-lista"

@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-15 16:54+0200\n"
+"POT-Creation-Date: 2020-11-25 04:58+0200\n"
 "PO-Revision-Date: 2019-03-17 09:05+0000\n"
 "Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
 "Language-Team: Romanian <http://translate.getsol.us/projects/budgie-desktop/translations/ro/>\n"
@@ -32,70 +32,6 @@ msgstr "Autentificarea a eșuat"
 #: src/polkit/polkitdialog.vala:215
 msgid "Group:"
 msgstr "Grup:"
-
-#: src/panel/settings/settings_raven.vala:61
-msgid "Set Raven position"
-msgstr ""
-
-#: src/panel/settings/settings_raven.vala:62
-msgid "Set which side of the screen Raven will open on. If set to Automatic, Raven will open where its parent panel is."
-msgstr ""
-
-#: src/panel/settings/settings_raven.vala:67
-msgid "Allow raising volume above 100%"
-msgstr "Permiteți creșterea volumului peste 100%"
-
-#: src/panel/settings/settings_raven.vala:68
-msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
-msgstr "Permite creșterea volumului prin intermediul setărilor de sunet, precum și a Widgetului de ieșire a sunetului în Raven până la 150%."
-
-#: src/panel/settings/settings_raven.vala:72
-msgid "Enable display of week numbers in Calendar"
-msgstr "Activați afișarea numerelor de săptămâni în Calendar"
-
-#: src/panel/settings/settings_raven.vala:73
-msgid "This setting enables the display of week numbers in the Calendar widget."
-msgstr "Această setare permite afișarea numerelor de săptămână în widgetul Calendar."
-
-#: src/panel/settings/settings_raven.vala:78
-msgid "Show Calendar Widget"
-msgstr "Afișați widgetul Calendar"
-
-#: src/panel/settings/settings_raven.vala:79
-msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr "Afișează sau ascunde widget-ul Calendar din secțiunea Aplicații Raven."
-
-#: src/panel/settings/settings_raven.vala:84
-msgid "Show Sound Output Widget"
-msgstr "Afișați widgetul pentru ieșirea sunetului"
-
-#: src/panel/settings/settings_raven.vala:85
-msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr "Afișează sau ascunde Widgetul de ieșire a sunetului în secțiunea Aplicații Raven."
-
-#: src/panel/settings/settings_raven.vala:90
-msgid "Show Microphone Input Widget"
-msgstr "Afișați widgetul pentru intrarea microfonului"
-
-#: src/panel/settings/settings_raven.vala:91
-msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
-msgstr "Afișează sau ascunde Widgetul Intrare Microfon în secțiunea Aplicații Raven."
-
-#: src/panel/settings/settings_raven.vala:96
-msgid "Show Media Playback Controls Widget"
-msgstr "Afișați widgetul pentru controlul redării media"
-
-#: src/panel/settings/settings_raven.vala:97
-msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
-msgstr "Afișează sau ascunde Widget-ul de control al redării media (MPRIS) din secțiunea Aplicații Raven."
-
-#: src/panel/settings/settings_raven.vala:102
-msgid "Show Power Strip"
-msgstr "Vezi optiunile de alimentare"
-
-#: src/panel/settings/settings_raven.vala:103
-msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr "Afișează sau ascunde banda de alimentare în partea de jos a Raven."
 
 #: src/panel/settings/settings_panel_applets.vala:19
 msgid "Configure applet"
@@ -174,7 +110,7 @@ msgstr "Panouri"
 msgid "Session"
 msgstr "Sesiune"
 
-#: src/panel/settings/settings_main.vala:68
+#: src/panel/settings/settings_main.vala:68 src/daemon/menus.vala:46
 #: src/panel/budgie-desktop-settings.desktop.in.h:1
 msgid "Budgie Desktop Settings"
 msgstr "Setări desktop Budgie"
@@ -182,6 +118,232 @@ msgstr "Setări desktop Budgie"
 #: src/panel/settings/settings_main.vala:98
 msgid "Create new panel"
 msgstr "Crează un nou panou"
+
+#: src/panel/settings/settings_wm.vala:30
+msgid "Windows"
+msgstr "Ferestre"
+
+#: src/panel/settings/settings_wm.vala:39
+msgid "Attach modal dialogs to windows"
+msgstr "Atașează dialoguri modale la ferestre"
+
+#: src/panel/settings/settings_wm.vala:40
+msgid "Modal dialogs will become attached to the parent window and move together when dragged."
+msgstr "Modalitățile de dialog vor fi atașate la fereastra părinte și se vor deplasa împreună atunci când sunt trase."
+
+#: src/panel/settings/settings_wm.vala:45
+msgid "Button layout"
+msgstr "Configurația butoanelor"
+
+#: src/panel/settings/settings_wm.vala:46
+msgid "Change the layout of buttons in application titlebars."
+msgstr "Modificați aspectul butoanelor din barele de titlu ale aplicațiilor."
+
+#: src/panel/settings/settings_wm.vala:51
+msgid "Center new windows on screen"
+msgstr "Centrează ferestrele noi pe ecran"
+
+#: src/panel/settings/settings_wm.vala:52
+msgid "Center newly launched windows on the current screen."
+msgstr "Centrează ferestrele nou lansate pe ecranul curent."
+
+#: src/panel/settings/settings_wm.vala:57
+msgid "Disable Night Light mode when windows are fullscreen"
+msgstr "Dezactivați modul Lumină de Noapte atunci când ferestrele sunt ecran complet"
+
+#: src/panel/settings/settings_wm.vala:58
+msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
+msgstr "Dezactivează modul Lumină de Noapte atunci când o fereastră este afișată pe tot ecranul. Re-activează la părăsirea ecranului complet."
+
+#: src/panel/settings/settings_wm.vala:63
+msgid "Automatic tiling"
+msgstr "Dispunere automată"
+
+#: src/panel/settings/settings_wm.vala:64
+msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
+msgstr "Ferestrele vor fi automat aranjate când sunt trase în partea de sus a ecranului sau în colțurile îndepărtate."
+
+#: src/panel/settings/settings_wm.vala:69
+msgid "Enable window focus change on mouse enter and leave"
+msgstr "Activați modificarea focalizării ferestrei cu mouse-ul pe intrare și plecare"
+
+#: src/panel/settings/settings_wm.vala:70
+msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
+msgstr "Permite focalizarea ferestrei să se aplice când mouse-ul intră în fereastră și se defocalizează atunci când mouse-ul părăsește fereastra."
+
+#: src/panel/settings/settings_wm.vala:76
+msgid "Disable unredirection of windows"
+msgstr "Dezactivează \"unredirect\" pentru ferestre"
+
+#: src/panel/settings/settings_wm.vala:77
+msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
+msgstr "Această opțiune este pentru utilizatorii avansați. Utilizați acest lucru dacă aveți probleme grafice sau de performanță cu Unitațile de Procesare Grafică (UPG-urile) dedicate."
+
+#: src/panel/settings/settings_wm.vala:82
+#, fuzzy
+msgid "Show all windows in tab switcher"
+msgstr "Afișați toate ferestrele prin clic"
+
+#: src/panel/settings/settings_wm.vala:83
+msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:90
+msgid "Right (standard)"
+msgstr "Dreapta (standard)"
+
+#: src/panel/settings/settings_wm.vala:92
+#: src/panel/settings/settings_panel.vala:181 src/raven/raven.vala:33
+msgid "Left"
+msgstr "Stânga"
+
+#: src/panel/settings/settings_style.vala:32
+msgid "Style"
+msgstr "Stil"
+
+#: src/panel/settings/settings_style.vala:46
+msgid "Widgets"
+msgstr "Widget-uri"
+
+#: src/panel/settings/settings_style.vala:47
+msgid "Set the appearance of window decorations and controls"
+msgstr "Alege aspectul decorațiunilor și controlorilor de ferestre"
+
+#: src/panel/settings/settings_style.vala:51
+msgid "Icons"
+msgstr "Pictograme"
+
+#: src/panel/settings/settings_style.vala:52
+msgid "Set the globally used icon theme"
+msgstr "Alege tema de pictograme globală"
+
+#: src/panel/settings/settings_style.vala:56
+msgid "Cursors"
+msgstr "Cursoare"
+
+#: src/panel/settings/settings_style.vala:57
+msgid "Set the globally used mouse cursor theme"
+msgstr "Alege tema globală a cursoarelor de mouse"
+
+#: src/panel/settings/settings_style.vala:61
+msgid "Notification Position"
+msgstr "Poziția de notificare"
+
+#: src/panel/settings/settings_style.vala:62
+msgid "Set the location for notification popups"
+msgstr "Setați locația pentru ferestrele de notificare"
+
+#: src/panel/settings/settings_style.vala:71
+msgid "Dark theme"
+msgstr "Temă întunecată"
+
+#: src/panel/settings/settings_style.vala:78
+msgid "Built-in theme"
+msgstr "Tema integrată"
+
+#: src/panel/settings/settings_style.vala:79
+msgid "When enabled, the built-in theme will override the desktop component styling"
+msgstr "Când este activată, tema implicită va suprascrie styling-ul componentei desktop"
+
+#: src/panel/settings/settings_style.vala:86
+msgid "Animations"
+msgstr "Animații"
+
+#: src/panel/settings/settings_style.vala:87
+msgid "Control whether windows and controls use animations"
+msgstr "Determină dacă ferestrele și controlorii folosesc animații"
+
+#: src/panel/settings/settings_style.vala:204
+msgid "Top Left"
+msgstr "Stânga sus"
+
+#: src/panel/settings/settings_style.vala:206
+msgid "Bottom Left"
+msgstr "Stânga jos"
+
+#: src/panel/settings/settings_style.vala:208
+msgid "Bottom Right"
+msgstr "Dreapta jos"
+
+#: src/panel/settings/settings_style.vala:211
+msgid "Top Right"
+msgstr "Dreapta sus"
+
+#: src/panel/settings/settings_raven.vala:61
+msgid "Set Raven position"
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:62
+msgid "Set which side of the screen Raven will open on. If set to Automatic, Raven will open where its parent panel is."
+msgstr ""
+
+#: src/panel/settings/settings_raven.vala:67
+msgid "Allow raising volume above 100%"
+msgstr "Permiteți creșterea volumului peste 100%"
+
+#: src/panel/settings/settings_raven.vala:68
+msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
+msgstr "Permite creșterea volumului prin intermediul setărilor de sunet, precum și a Widgetului de ieșire a sunetului în Raven până la 150%."
+
+#: src/panel/settings/settings_raven.vala:72
+msgid "Enable display of week numbers in Calendar"
+msgstr "Activați afișarea numerelor de săptămâni în Calendar"
+
+#: src/panel/settings/settings_raven.vala:73
+msgid "This setting enables the display of week numbers in the Calendar widget."
+msgstr "Această setare permite afișarea numerelor de săptămână în widgetul Calendar."
+
+#: src/panel/settings/settings_raven.vala:78
+msgid "Show Calendar Widget"
+msgstr "Afișați widgetul Calendar"
+
+#: src/panel/settings/settings_raven.vala:79
+msgid "Shows or hides the Calendar Widget in Raven's Applets section."
+msgstr "Afișează sau ascunde widget-ul Calendar din secțiunea Aplicații Raven."
+
+#: src/panel/settings/settings_raven.vala:84
+msgid "Show Sound Output Widget"
+msgstr "Afișați widgetul pentru ieșirea sunetului"
+
+#: src/panel/settings/settings_raven.vala:85
+msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
+msgstr "Afișează sau ascunde Widgetul de ieșire a sunetului în secțiunea Aplicații Raven."
+
+#: src/panel/settings/settings_raven.vala:90
+msgid "Show Microphone Input Widget"
+msgstr "Afișați widgetul pentru intrarea microfonului"
+
+#: src/panel/settings/settings_raven.vala:91
+msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
+msgstr "Afișează sau ascunde Widgetul Intrare Microfon în secțiunea Aplicații Raven."
+
+#: src/panel/settings/settings_raven.vala:96
+msgid "Show Media Playback Controls Widget"
+msgstr "Afișați widgetul pentru controlul redării media"
+
+#: src/panel/settings/settings_raven.vala:97
+msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
+msgstr "Afișează sau ascunde Widget-ul de control al redării media (MPRIS) din secțiunea Aplicații Raven."
+
+#: src/panel/settings/settings_raven.vala:102
+msgid "Show Power Strip"
+msgstr "Vezi optiunile de alimentare"
+
+#: src/panel/settings/settings_raven.vala:103
+msgid "Shows or hides the Power Strip in the bottom of Raven."
+msgstr "Afișează sau ascunde banda de alimentare în partea de jos a Raven."
+
+#: src/panel/settings/settings_applet_chooser.vala:74
+msgid "Choose an applet"
+msgstr "Alege un applet"
+
+#: src/panel/settings/settings_applet_chooser.vala:79
+#: src/panel/settings/settings_autostart.vala:194
+#: src/panel/settings/settings_autostart.vala:359
+#: src/applets/budgie-menu/IconChooser.vala:52 src/polkit/dialog.ui.h:4
+#: src/daemon/endsession.ui.h:3
+msgid "Cancel"
+msgstr "Anulare"
 
 #: src/panel/settings/settings_desktop.vala:51
 msgid "Desktop"
@@ -256,22 +418,22 @@ msgstr ""
 msgid "Number of virtual desktops / workspaces to create automatically on startup."
 msgstr ""
 
-#: src/panel/settings/settings_desktop.vala:249
+#: src/panel/settings/settings_desktop.vala:262
 msgid "Normal"
 msgstr ""
 
 #. Small
-#: src/panel/settings/settings_desktop.vala:252
+#: src/panel/settings/settings_desktop.vala:265
 msgid "Small"
 msgstr ""
 
 #. Large
-#: src/panel/settings/settings_desktop.vala:254
+#: src/panel/settings/settings_desktop.vala:267
 msgid "Large"
 msgstr ""
 
 #. Massive
-#: src/panel/settings/settings_desktop.vala:256
+#: src/panel/settings/settings_desktop.vala:269
 msgid "Massive"
 msgstr ""
 
@@ -279,7 +441,7 @@ msgstr ""
 msgid "Applets"
 msgstr "Applet-uri"
 
-#: src/panel/settings/settings_panel.vala:83 src/daemon/menus.vala:60
+#: src/panel/settings/settings_panel.vala:83
 msgid "Settings"
 msgstr "Setări"
 
@@ -331,11 +493,6 @@ msgstr "Sus"
 #: src/panel/settings/settings_panel.vala:179 src/raven/raven.vala:35
 msgid "Right"
 msgstr "Dreapta"
-
-#: src/panel/settings/settings_panel.vala:181
-#: src/panel/settings/settings_wm.vala:92 src/raven/raven.vala:33
-msgid "Left"
-msgstr "Stânga"
 
 #: src/panel/settings/settings_panel.vala:183
 msgid "Bottom"
@@ -423,162 +580,60 @@ msgstr "Modul dock"
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
 msgstr "Atâta timp cât se află în modul dock, panoul va folosi spațiu minimal, lăsând mai mult disponibil"
 
-#: src/panel/settings/settings_wm.vala:30
-msgid "Windows"
-msgstr "Ferestre"
+#: src/panel/settings/settings_autostart.vala:134
+msgid "Untitled"
+msgstr "Fără titlu"
 
-#: src/panel/settings/settings_wm.vala:39
-msgid "Attach modal dialogs to windows"
-msgstr "Atașează dialoguri modale la ferestre"
+#: src/panel/settings/settings_autostart.vala:141
+msgid "No description"
+msgstr "Fără descriere"
 
-#: src/panel/settings/settings_wm.vala:40
-msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr "Modalitățile de dialog vor fi atașate la fereastra părinte și se vor deplasa împreună atunci când sunt trase."
+#: src/panel/settings/settings_autostart.vala:164
+msgid "running"
+msgstr "rulează"
 
-#: src/panel/settings/settings_wm.vala:45
-msgid "Button layout"
-msgstr "Configurația butoanelor"
+#: src/panel/settings/settings_autostart.vala:185
+msgid "Applications"
+msgstr "Aplicații"
 
-#: src/panel/settings/settings_wm.vala:46
-msgid "Change the layout of buttons in application titlebars."
-msgstr "Modificați aspectul butoanelor din barele de titlu ale aplicațiilor."
+#: src/panel/settings/settings_autostart.vala:195
+#: src/panel/settings/settings_autostart.vala:360
+msgid "Add"
+msgstr "Adaugă"
 
-#: src/panel/settings/settings_wm.vala:51
-msgid "Center new windows on screen"
-msgstr "Centrează ferestrele noi pe ecran"
+#: src/panel/settings/settings_autostart.vala:354
+#: src/panel/settings/settings_autostart.vala:387
+msgid "Command"
+msgstr "Comandă"
 
-#: src/panel/settings/settings_wm.vala:52
-msgid "Center newly launched windows on the current screen."
-msgstr "Centrează ferestrele nou lansate pe ecranul curent."
+#: src/panel/settings/settings_autostart.vala:370
+msgid "An entry with that title already exists"
+msgstr "O înregistrare cu acest titlu există deja"
 
-#: src/panel/settings/settings_wm.vala:57
-msgid "Disable Night Light mode when windows are fullscreen"
-msgstr "Dezactivați modul Lumină de Noapte atunci când ferestrele sunt ecran complet"
+#: src/panel/settings/settings_autostart.vala:373
+msgid "Title"
+msgstr "Titlu"
 
-#: src/panel/settings/settings_wm.vala:58
-msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
-msgstr "Dezactivează modul Lumină de Noapte atunci când o fereastră este afișată pe tot ecranul. Re-activează la părăsirea ecranului complet."
+#: src/panel/settings/settings_autostart.vala:377
+#: src/panel/settings/settings_autostart.vala:391
+msgid "Required"
+msgstr "Necesar"
 
-#: src/panel/settings/settings_wm.vala:63
-msgid "Automatic tiling"
-msgstr "Dispunere automată"
+#: src/panel/settings/settings_autostart.vala:380
+msgid "Description"
+msgstr "Descriere"
 
-#: src/panel/settings/settings_wm.vala:64
-msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr "Ferestrele vor fi automat aranjate când sunt trase în partea de sus a ecranului sau în colțurile îndepărtate."
+#: src/panel/settings/settings_autostart.vala:384
+msgid "Optional"
+msgstr "Opțional"
 
-#: src/panel/settings/settings_wm.vala:69
-msgid "Enable window focus change on mouse enter and leave"
-msgstr "Activați modificarea focalizării ferestrei cu mouse-ul pe intrare și plecare"
+#: src/panel/settings/settings_autostart.vala:446
+msgid "Autostart"
+msgstr "Pornire automată"
 
-#: src/panel/settings/settings_wm.vala:70
-msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
-msgstr "Permite focalizarea ferestrei să se aplice când mouse-ul intră în fereastră și se defocalizează atunci când mouse-ul părăsește fereastra."
-
-#: src/panel/settings/settings_wm.vala:76
-msgid "Disable unredirection of windows"
-msgstr "Dezactivează \"unredirect\" pentru ferestre"
-
-#: src/panel/settings/settings_wm.vala:77
-msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr "Această opțiune este pentru utilizatorii avansați. Utilizați acest lucru dacă aveți probleme grafice sau de performanță cu Unitațile de Procesare Grafică (UPG-urile) dedicate."
-
-#: src/panel/settings/settings_wm.vala:82
-#, fuzzy
-msgid "Show all windows in tab switcher"
-msgstr "Afișați toate ferestrele prin clic"
-
-#: src/panel/settings/settings_wm.vala:83
-msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
-msgstr ""
-
-#: src/panel/settings/settings_wm.vala:90
-msgid "Right (standard)"
-msgstr "Dreapta (standard)"
-
-#: src/panel/settings/settings_applet_chooser.vala:74
-msgid "Choose an applet"
-msgstr "Alege un applet"
-
-#: src/panel/settings/settings_applet_chooser.vala:79
-#: src/panel/settings/settings_autostart.vala:194
-#: src/panel/settings/settings_autostart.vala:359
-#: src/applets/budgie-menu/IconChooser.vala:52 src/polkit/dialog.ui.h:4
-#: src/daemon/endsession.ui.h:3
-msgid "Cancel"
-msgstr "Anulare"
-
-#: src/panel/settings/settings_style.vala:32
-msgid "Style"
-msgstr "Stil"
-
-#: src/panel/settings/settings_style.vala:46
-msgid "Widgets"
-msgstr "Widget-uri"
-
-#: src/panel/settings/settings_style.vala:47
-msgid "Set the appearance of window decorations and controls"
-msgstr "Alege aspectul decorațiunilor și controlorilor de ferestre"
-
-#: src/panel/settings/settings_style.vala:51
-msgid "Icons"
-msgstr "Pictograme"
-
-#: src/panel/settings/settings_style.vala:52
-msgid "Set the globally used icon theme"
-msgstr "Alege tema de pictograme globală"
-
-#: src/panel/settings/settings_style.vala:56
-msgid "Cursors"
-msgstr "Cursoare"
-
-#: src/panel/settings/settings_style.vala:57
-msgid "Set the globally used mouse cursor theme"
-msgstr "Alege tema globală a cursoarelor de mouse"
-
-#: src/panel/settings/settings_style.vala:61
-msgid "Notification Position"
-msgstr "Poziția de notificare"
-
-#: src/panel/settings/settings_style.vala:62
-msgid "Set the location for notification popups"
-msgstr "Setați locația pentru ferestrele de notificare"
-
-#: src/panel/settings/settings_style.vala:71
-msgid "Dark theme"
-msgstr "Temă întunecată"
-
-#: src/panel/settings/settings_style.vala:78
-msgid "Built-in theme"
-msgstr "Tema integrată"
-
-#: src/panel/settings/settings_style.vala:79
-msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr "Când este activată, tema implicită va suprascrie styling-ul componentei desktop"
-
-#: src/panel/settings/settings_style.vala:86
-msgid "Animations"
-msgstr "Animații"
-
-#: src/panel/settings/settings_style.vala:87
-msgid "Control whether windows and controls use animations"
-msgstr "Determină dacă ferestrele și controlorii folosesc animații"
-
-#: src/panel/settings/settings_style.vala:204
-msgid "Top Left"
-msgstr "Stânga sus"
-
-#: src/panel/settings/settings_style.vala:206
-msgid "Bottom Left"
-msgstr "Stânga jos"
-
-#: src/panel/settings/settings_style.vala:208
-msgid "Bottom Right"
-msgstr "Dreapta jos"
-
-#: src/panel/settings/settings_style.vala:211
-msgid "Top Right"
-msgstr "Dreapta sus"
+#: src/panel/settings/settings_autostart.vala:464
+msgid "Autostart apps"
+msgstr "Aplicații care rulează automat la pornire"
 
 #: src/panel/settings/settings_fonts.vala:32
 msgid "Fonts"
@@ -663,61 +718,6 @@ msgstr ""
 msgid "Set the type of antialiasing to use."
 msgstr "Setați factorul de scalare a textului."
 
-#: src/panel/settings/settings_autostart.vala:134
-msgid "Untitled"
-msgstr "Fără titlu"
-
-#: src/panel/settings/settings_autostart.vala:141
-msgid "No description"
-msgstr "Fără descriere"
-
-#: src/panel/settings/settings_autostart.vala:164
-msgid "running"
-msgstr "rulează"
-
-#: src/panel/settings/settings_autostart.vala:185
-msgid "Applications"
-msgstr "Aplicații"
-
-#: src/panel/settings/settings_autostart.vala:195
-#: src/panel/settings/settings_autostart.vala:360
-msgid "Add"
-msgstr "Adaugă"
-
-#: src/panel/settings/settings_autostart.vala:354
-#: src/panel/settings/settings_autostart.vala:387
-msgid "Command"
-msgstr "Comandă"
-
-#: src/panel/settings/settings_autostart.vala:370
-msgid "An entry with that title already exists"
-msgstr "O înregistrare cu acest titlu există deja"
-
-#: src/panel/settings/settings_autostart.vala:373
-msgid "Title"
-msgstr "Titlu"
-
-#: src/panel/settings/settings_autostart.vala:377
-#: src/panel/settings/settings_autostart.vala:391
-msgid "Required"
-msgstr "Necesar"
-
-#: src/panel/settings/settings_autostart.vala:380
-msgid "Description"
-msgstr "Descriere"
-
-#: src/panel/settings/settings_autostart.vala:384
-msgid "Optional"
-msgstr "Opțional"
-
-#: src/panel/settings/settings_autostart.vala:446
-msgid "Autostart"
-msgstr "Pornire automată"
-
-#: src/panel/settings/settings_autostart.vala:464
-msgid "Autostart apps"
-msgstr "Aplicații care rulează automat la pornire"
-
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
 msgstr "Nicio aplicație nu redă muzică momentan."
@@ -725,20 +725,6 @@ msgstr "Nicio aplicație nu redă muzică momentan."
 #: src/raven/start_listening.vala:28
 msgid "Play some music"
 msgstr "Redă niște muzică"
-
-#: src/raven/main_view.vala:60
-#: src/applets/notifications/NotificationsApplet.plugin.in.h:1
-msgid "Notifications"
-msgstr "Notificări"
-
-#. 125ms
-#: src/raven/sound.vala:158
-msgid "Apps"
-msgstr "Aplicații"
-
-#: src/raven/sound.vala:159
-msgid "Devices"
-msgstr "Dispozitive"
 
 #: src/raven/notifications_view.vala:100
 msgid "Nothing to see here"
@@ -764,12 +750,347 @@ msgstr "Nu aveți notificări necitite"
 msgid "No new notifications"
 msgstr "Nu aveți notificări noi"
 
+#. 125ms
+#: src/raven/sound.vala:158
+msgid "Apps"
+msgstr "Aplicații"
+
+#: src/raven/sound.vala:159
+msgid "Devices"
+msgstr "Dispozitive"
+
+#: src/raven/main_view.vala:60
+#: src/applets/notifications/NotificationsApplet.plugin.in.h:1
+msgid "Notifications"
+msgstr "Notificări"
+
 #. Caffeine Notification
 #. Prepare label widget
 #: src/raven/notifications_group.vala:47
 #: src/applets/caffeine/CaffeineWindow.vala:37
 msgid "Caffeine Mode"
 msgstr "Mod Cafeină"
+
+#: src/daemon/menus.vala:51
+#, fuzzy
+msgid "System Settings"
+msgstr "Setări"
+
+#: src/daemon/endsession.vala:157
+msgid "Log out"
+msgstr "Ieșire din cont"
+
+#: src/daemon/endsession.vala:161
+msgid "Restart device"
+msgstr "Reporniți dispozitivul"
+
+#: src/daemon/endsession.vala:173 src/daemon/endsession.ui.h:1
+msgid "Power Off"
+msgstr "Oprire"
+
+#. Should show a notification
+#: src/daemon/settings.vala:341
+msgid "Turned on Caffeine Boost"
+msgstr "Caffeine Boost Activat"
+
+#: src/daemon/settings.vala:341
+msgid "Turned off Caffeine Boost"
+msgstr "Caffeine Boost dezactivat"
+
+#: src/daemon/settings.vala:346
+#, fuzzy
+msgid "Will turn off in a minute"
+msgstr "Se va opri în"
+
+#. use plural
+#: src/daemon/settings.vala:349
+#, fuzzy, c-format
+msgid "Will turn off in %d minutes"
+msgstr "Se va opri în"
+
+#. User Menu Creation
+#: src/applets/user-indicator/UserIndicatorWindow.vala:99
+msgid "User"
+msgstr "Utilizator"
+
+#. Default to "User" and symbolic icon
+#. The rest
+#: src/applets/user-indicator/UserIndicatorWindow.vala:105
+msgid "Lock"
+msgstr "Blocare acces"
+
+#: src/applets/user-indicator/UserIndicatorWindow.vala:106
+msgid "Suspend"
+msgstr "Suspendă"
+
+#: src/applets/user-indicator/UserIndicatorWindow.vala:107
+msgid "Hibernate"
+msgstr "Hibernare"
+
+#: src/applets/user-indicator/UserIndicatorWindow.vala:108
+#: src/daemon/endsession.ui.h:5
+msgid "Restart"
+msgstr "Resetare"
+
+#: src/applets/user-indicator/UserIndicatorWindow.vala:109
+#: src/daemon/endsession.ui.h:6
+msgid "Shutdown"
+msgstr "Oprire"
+
+#: src/applets/user-indicator/UserIndicatorWindow.vala:208
+#: src/daemon/endsession.ui.h:4
+msgid "Logout"
+msgstr "Delogare"
+
+#: src/applets/lock-keys/LockKeysApplet.vala:55
+msgid "Caps lock is active"
+msgstr "Caps lock este activ"
+
+#: src/applets/lock-keys/LockKeysApplet.vala:58
+msgid "Caps lock is not active"
+msgstr "Caps lock nu este activ"
+
+#: src/applets/lock-keys/LockKeysApplet.vala:67
+msgid "Num lock is active"
+msgstr "Num lock este activ"
+
+#: src/applets/lock-keys/LockKeysApplet.vala:70
+msgid "Num lock is not active"
+msgstr "Num lock nu este activ"
+
+#: src/applets/places-indicator/MountItem.vala:23
+#: src/applets/places-indicator/VolumeItem.vala:25
+msgid "Removable devices"
+msgstr "Dispozitive detașabile"
+
+#: src/applets/places-indicator/MountItem.vala:25
+#: src/applets/places-indicator/VolumeItem.vala:27
+msgid "Local volumes"
+msgstr "Volume locale"
+
+#: src/applets/places-indicator/MountItem.vala:29
+#: src/applets/places-indicator/VolumeItem.vala:31
+msgid "Network folders"
+msgstr "Directoare din rețea"
+
+#: src/applets/places-indicator/MountItem.vala:32
+#: src/applets/places-indicator/VolumeItem.vala:34
+msgid "Other"
+msgstr "Altele"
+
+#: src/applets/places-indicator/MountItem.vala:58
+#: src/applets/places-indicator/VolumeItem.vala:55
+msgid "Eject"
+msgstr "Scoate"
+
+#: src/applets/places-indicator/MountItem.vala:60
+msgid "Unmount"
+msgstr "Demontează"
+
+#: src/applets/places-indicator/MountItem.vala:63
+#: src/applets/places-indicator/PlaceItem.vala:36
+#, c-format
+msgid "Open \"%s\""
+msgstr "Deschide \"%s\""
+
+#: src/applets/places-indicator/MountItem.vala:75
+#: src/applets/places-indicator/VolumeItem.vala:83
+msgid "You can now safely remove"
+msgstr "Puteți scoate în siguranță"
+
+#: src/applets/places-indicator/MountItem.vala:76
+msgid "Unknown Device"
+msgstr "Dispozitiv necunoscut"
+
+#: src/applets/places-indicator/MountItem.vala:84
+msgid "Error while ejecting device"
+msgstr "Eroare la scoaterea dispozitivului"
+
+#: src/applets/places-indicator/MountItem.vala:100
+msgid "Error while unmounting volume"
+msgstr "Eroare la demontarea volumului"
+
+#: src/applets/places-indicator/VolumeItem.vala:41
+#, c-format
+msgid "Mount and open \"%s\""
+msgstr "Montează și deschide \"%s\""
+
+#: src/applets/places-indicator/VolumeItem.vala:73
+#: src/applets/places-indicator/VolumeItem.vala:114
+msgid "Enter the encryption passphrase to unlock this volume"
+msgstr "Introduceți parola de criptare pentru deblocarea acestui volum"
+
+#: src/applets/places-indicator/VolumeItem.vala:112
+msgid "The password you entered is incorrect"
+msgstr "Parola introdusă este incorectă"
+
+#: src/applets/places-indicator/VolumeItem.vala:116
+msgid "An unknown error occurred while attempting to mount this volume"
+msgstr "S-a produs o eroare necunoscută în încercarea de montare a acestui volum"
+
+#: src/applets/places-indicator/MountHelper.vala:35
+msgid "Volume is in use by other processes"
+msgstr "Volumul este folosit de alte procese"
+
+#: src/applets/places-indicator/MountHelper.vala:40
+msgid "Operation aborted"
+msgstr "Operațiune anulată"
+
+#: src/applets/places-indicator/MountHelper.vala:51
+msgid "Type your password"
+msgstr "Introduceți parola"
+
+#: src/applets/places-indicator/PlacesIndicator.vala:80
+#: src/applets/places-indicator/PlacesSection.vala:22
+#: src/applets/places-indicator/PlacesSection.vala:44
+#: src/applets/places-indicator/PlacesIndicator.plugin.in.h:1
+msgid "Places"
+msgstr "Locuri"
+
+#: src/applets/places-indicator/PlacesIndicatorWindow.vala:179
+msgid "Nothing to display right now"
+msgstr "Nimic de afișat momentan"
+
+#: src/applets/places-indicator/PlacesIndicatorWindow.vala:183
+msgid "Mount some drives"
+msgstr "Montează anumite drive-uri"
+
+#: src/applets/places-indicator/PlacesIndicatorWindow.vala:183
+msgid "Enable more sections"
+msgstr "Activează mai multe secțiuni"
+
+#. Settings button
+#: src/applets/status/BluetoothIndicator.vala:53
+msgid "Bluetooth Settings"
+msgstr "Setări Bluetooth"
+
+#. Send files button
+#: src/applets/status/BluetoothIndicator.vala:60
+msgid "Send Files"
+msgstr "Trimite fișierele"
+
+#. Airplane mode
+#: src/applets/status/BluetoothIndicator.vala:70
+msgid "Bluetooth Airplane Mode"
+msgstr "Mod avion Bluetooth"
+
+#: src/applets/status/BluetoothIndicator.vala:173
+msgid "Bluetooth is disabled"
+msgstr "Bluetooth dezactivat"
+
+#: src/applets/status/BluetoothIndicator.vala:177
+msgid "Bluetooth is active"
+msgstr "Bluetooth activat"
+
+#: src/applets/status/BluetoothIndicator.vala:182
+#, c-format
+msgid "Connected to %d device"
+msgid_plural "Connected to %d devices"
+msgstr[0] "Conectat la %d dispozitiv"
+msgstr[1] "Conectat la %d dispozitive"
+msgstr[2] "Conectat la %d dispozitive"
+
+#: src/applets/status/PowerIndicator.vala:93
+msgid "Battery fully charged."
+msgstr "Baterie încărcată complet."
+
+#: src/applets/status/PowerIndicator.vala:96
+msgid "Unknown"
+msgstr "Necunoscut"
+
+#. Set inner charging duration to hours:minutes
+#: src/applets/status/PowerIndicator.vala:105
+msgid "Battery charging"
+msgstr "Încărcare baterie"
+
+#: src/applets/status/PowerIndicator.vala:110
+msgid "Battery remaining"
+msgstr "Restul bateriei"
+
+#: src/applets/status/PowerIndicator.vala:161
+msgid "Show battery percentage"
+msgstr "Arată procentajul bateriei"
+
+#: src/applets/status/PowerIndicator.vala:169
+msgid "Power settings"
+msgstr "Setări consum baterie"
+
+#: src/applets/workspaces/WorkspaceItem.vala:69
+msgid "Rename"
+msgstr "Redenumire"
+
+#: src/applets/workspaces/WorkspaceItem.vala:77
+msgid "Remove"
+msgstr "Îndepărtează"
+
+#: src/applets/caffeine/CaffeineWindow.vala:39
+msgid "Timer (minutes)"
+msgstr "Cronometru"
+
+#. there's already an active tray, create an informative icon with a popover
+#: src/applets/tray/TrayApplet.vala:114
+msgid "Only one instance of the System Tray can be active at a time."
+msgstr ""
+
+#: src/applets/tray/TrayApplet.vala:140
+msgid "The System Tray failed to initialize."
+msgstr ""
+
+#: src/applets/show-desktop/ShowDesktopApplet.vala:30
+msgid "Toggle the desktop"
+msgstr "Comută spațiul de lucru"
+
+#. Special case, "All"
+#: src/applets/budgie-menu/BudgieMenuButtons.vala:25
+msgid "All"
+msgstr "Tot"
+
+#: src/applets/budgie-menu/IconChooser.vala:24
+msgid "Set menu icon from file"
+msgstr "Alege pictograma de meniu din fișiere"
+
+#: src/applets/budgie-menu/IconChooser.vala:34
+msgid "Image files"
+msgstr "Fișiere imagine"
+
+#: src/applets/budgie-menu/IconChooser.vala:40
+msgid "Any file"
+msgstr "Orice fișier"
+
+#: src/applets/budgie-menu/IconChooser.vala:53
+msgid "Set icon"
+msgstr "Alege pictograma"
+
+#. placeholder in case of no results
+#: src/applets/budgie-menu/BudgieMenuWindow.vala:123
+msgid "Sorry, no items found"
+msgstr "Ne pare rău, nu s-au găsit elemente"
+
+#: src/applets/clock/ClockApplet.vala:143
+msgid "Time and date settings"
+msgstr "Setări de timp și dată"
+
+#: src/applets/clock/ClockApplet.vala:144
+msgid "Calendar"
+msgstr "Calendar"
+
+#. pack page2
+#: src/applets/clock/ClockApplet.vala:151
+#: src/applets/clock/ClockApplet.vala:182
+msgid "Preferences"
+msgstr "Preferințe"
+
+#: src/applets/clock/ClockApplet.vala:161
+msgid "Show date"
+msgstr "Arată data"
+
+#: src/applets/clock/ClockApplet.vala:166
+msgid "Show seconds"
+msgstr "Arată secundele"
+
+#: src/applets/clock/ClockApplet.vala:172
+msgid "Use 24 hour time"
+msgstr "Folosește formatul cu 24 ore"
 
 #: src/applets/icon-tasklist/IconPopover.vala:106
 msgid "Launch New Instance"
@@ -821,330 +1142,6 @@ msgstr "Închide fereastra"
 msgid "Show Window Controls"
 msgstr "Arată controalele ferestrelor"
 
-#. there's already an active tray, create an informative icon with a popover
-#: src/applets/tray/TrayApplet.vala:114
-msgid "Only one instance of the System Tray can be active at a time."
-msgstr ""
-
-#: src/applets/tray/TrayApplet.vala:140
-msgid "The System Tray failed to initialize."
-msgstr ""
-
-#: src/applets/status/PowerIndicator.vala:93
-msgid "Battery fully charged."
-msgstr "Baterie încărcată complet."
-
-#: src/applets/status/PowerIndicator.vala:96
-msgid "Unknown"
-msgstr "Necunoscut"
-
-#. Set inner charging duration to hours:minutes
-#: src/applets/status/PowerIndicator.vala:105
-msgid "Battery charging"
-msgstr "Încărcare baterie"
-
-#: src/applets/status/PowerIndicator.vala:110
-msgid "Battery remaining"
-msgstr "Restul bateriei"
-
-#: src/applets/status/PowerIndicator.vala:161
-msgid "Show battery percentage"
-msgstr "Arată procentajul bateriei"
-
-#: src/applets/status/PowerIndicator.vala:169
-msgid "Power settings"
-msgstr "Setări consum baterie"
-
-#. Settings button
-#: src/applets/status/BluetoothIndicator.vala:53
-msgid "Bluetooth Settings"
-msgstr "Setări Bluetooth"
-
-#. Send files button
-#: src/applets/status/BluetoothIndicator.vala:60
-msgid "Send Files"
-msgstr "Trimite fișierele"
-
-#. Airplane mode
-#: src/applets/status/BluetoothIndicator.vala:70
-msgid "Bluetooth Airplane Mode"
-msgstr "Mod avion Bluetooth"
-
-#: src/applets/status/BluetoothIndicator.vala:173
-msgid "Bluetooth is disabled"
-msgstr "Bluetooth dezactivat"
-
-#: src/applets/status/BluetoothIndicator.vala:177
-msgid "Bluetooth is active"
-msgstr "Bluetooth activat"
-
-#: src/applets/status/BluetoothIndicator.vala:182
-#, c-format
-msgid "Connected to %d device"
-msgid_plural "Connected to %d devices"
-msgstr[0] "Conectat la %d dispozitiv"
-msgstr[1] "Conectat la %d dispozitive"
-msgstr[2] "Conectat la %d dispozitive"
-
-#: src/applets/places-indicator/PlacesSection.vala:22
-#: src/applets/places-indicator/PlacesSection.vala:44
-#: src/applets/places-indicator/PlacesIndicator.vala:80
-#: src/applets/places-indicator/PlacesIndicator.plugin.in.h:1
-msgid "Places"
-msgstr "Locuri"
-
-#: src/applets/places-indicator/MountHelper.vala:35
-msgid "Volume is in use by other processes"
-msgstr "Volumul este folosit de alte procese"
-
-#: src/applets/places-indicator/MountHelper.vala:40
-msgid "Operation aborted"
-msgstr "Operațiune anulată"
-
-#: src/applets/places-indicator/MountHelper.vala:51
-msgid "Type your password"
-msgstr "Introduceți parola"
-
-#: src/applets/places-indicator/PlacesIndicatorWindow.vala:179
-msgid "Nothing to display right now"
-msgstr "Nimic de afișat momentan"
-
-#: src/applets/places-indicator/PlacesIndicatorWindow.vala:183
-msgid "Mount some drives"
-msgstr "Montează anumite drive-uri"
-
-#: src/applets/places-indicator/PlacesIndicatorWindow.vala:183
-msgid "Enable more sections"
-msgstr "Activează mai multe secțiuni"
-
-#: src/applets/places-indicator/VolumeItem.vala:25
-#: src/applets/places-indicator/MountItem.vala:23
-msgid "Removable devices"
-msgstr "Dispozitive detașabile"
-
-#: src/applets/places-indicator/VolumeItem.vala:27
-#: src/applets/places-indicator/MountItem.vala:25
-msgid "Local volumes"
-msgstr "Volume locale"
-
-#: src/applets/places-indicator/VolumeItem.vala:31
-#: src/applets/places-indicator/MountItem.vala:29
-msgid "Network folders"
-msgstr "Directoare din rețea"
-
-#: src/applets/places-indicator/VolumeItem.vala:34
-#: src/applets/places-indicator/MountItem.vala:32
-msgid "Other"
-msgstr "Altele"
-
-#: src/applets/places-indicator/VolumeItem.vala:41
-#, c-format
-msgid "Mount and open \"%s\""
-msgstr "Montează și deschide \"%s\""
-
-#: src/applets/places-indicator/VolumeItem.vala:55
-#: src/applets/places-indicator/MountItem.vala:58
-msgid "Eject"
-msgstr "Scoate"
-
-#: src/applets/places-indicator/VolumeItem.vala:73
-#: src/applets/places-indicator/VolumeItem.vala:114
-msgid "Enter the encryption passphrase to unlock this volume"
-msgstr "Introduceți parola de criptare pentru deblocarea acestui volum"
-
-#: src/applets/places-indicator/VolumeItem.vala:83
-#: src/applets/places-indicator/MountItem.vala:75
-msgid "You can now safely remove"
-msgstr "Puteți scoate în siguranță"
-
-#: src/applets/places-indicator/VolumeItem.vala:112
-msgid "The password you entered is incorrect"
-msgstr "Parola introdusă este incorectă"
-
-#: src/applets/places-indicator/VolumeItem.vala:116
-msgid "An unknown error occurred while attempting to mount this volume"
-msgstr "S-a produs o eroare necunoscută în încercarea de montare a acestui volum"
-
-#: src/applets/places-indicator/MountItem.vala:60
-msgid "Unmount"
-msgstr "Demontează"
-
-#: src/applets/places-indicator/MountItem.vala:63
-#: src/applets/places-indicator/PlaceItem.vala:36
-#, c-format
-msgid "Open \"%s\""
-msgstr "Deschide \"%s\""
-
-#: src/applets/places-indicator/MountItem.vala:76
-msgid "Unknown Device"
-msgstr "Dispozitiv necunoscut"
-
-#: src/applets/places-indicator/MountItem.vala:84
-msgid "Error while ejecting device"
-msgstr "Eroare la scoaterea dispozitivului"
-
-#: src/applets/places-indicator/MountItem.vala:100
-msgid "Error while unmounting volume"
-msgstr "Eroare la demontarea volumului"
-
-#: src/applets/caffeine/CaffeineWindow.vala:39
-msgid "Timer (minutes)"
-msgstr "Cronometru"
-
-#: src/applets/show-desktop/ShowDesktopApplet.vala:30
-msgid "Toggle the desktop"
-msgstr "Comută spațiul de lucru"
-
-#: src/applets/lock-keys/LockKeysApplet.vala:55
-msgid "Caps lock is active"
-msgstr "Caps lock este activ"
-
-#: src/applets/lock-keys/LockKeysApplet.vala:58
-msgid "Caps lock is not active"
-msgstr "Caps lock nu este activ"
-
-#: src/applets/lock-keys/LockKeysApplet.vala:67
-msgid "Num lock is active"
-msgstr "Num lock este activ"
-
-#: src/applets/lock-keys/LockKeysApplet.vala:70
-msgid "Num lock is not active"
-msgstr "Num lock nu este activ"
-
-#: src/applets/clock/ClockApplet.vala:143
-msgid "Time and date settings"
-msgstr "Setări de timp și dată"
-
-#: src/applets/clock/ClockApplet.vala:144
-msgid "Calendar"
-msgstr "Calendar"
-
-#. pack page2
-#: src/applets/clock/ClockApplet.vala:151
-#: src/applets/clock/ClockApplet.vala:182
-msgid "Preferences"
-msgstr "Preferințe"
-
-#: src/applets/clock/ClockApplet.vala:161
-msgid "Show date"
-msgstr "Arată data"
-
-#: src/applets/clock/ClockApplet.vala:166
-msgid "Show seconds"
-msgstr "Arată secundele"
-
-#: src/applets/clock/ClockApplet.vala:172
-msgid "Use 24 hour time"
-msgstr "Folosește formatul cu 24 ore"
-
-#: src/applets/workspaces/WorkspaceItem.vala:69
-msgid "Rename"
-msgstr "Redenumire"
-
-#: src/applets/workspaces/WorkspaceItem.vala:77
-msgid "Remove"
-msgstr "Îndepărtează"
-
-#. placeholder in case of no results
-#: src/applets/budgie-menu/BudgieMenuWindow.vala:123
-msgid "Sorry, no items found"
-msgstr "Ne pare rău, nu s-au găsit elemente"
-
-#. Special case, "All"
-#: src/applets/budgie-menu/BudgieMenuButtons.vala:25
-msgid "All"
-msgstr "Tot"
-
-#: src/applets/budgie-menu/IconChooser.vala:24
-msgid "Set menu icon from file"
-msgstr "Alege pictograma de meniu din fișiere"
-
-#: src/applets/budgie-menu/IconChooser.vala:34
-msgid "Image files"
-msgstr "Fișiere imagine"
-
-#: src/applets/budgie-menu/IconChooser.vala:40
-msgid "Any file"
-msgstr "Orice fișier"
-
-#: src/applets/budgie-menu/IconChooser.vala:53
-msgid "Set icon"
-msgstr "Alege pictograma"
-
-#. User Menu Creation
-#: src/applets/user-indicator/UserIndicatorWindow.vala:99
-msgid "User"
-msgstr "Utilizator"
-
-#. Default to "User" and symbolic icon
-#. The rest
-#: src/applets/user-indicator/UserIndicatorWindow.vala:105
-msgid "Lock"
-msgstr "Blocare acces"
-
-#: src/applets/user-indicator/UserIndicatorWindow.vala:106
-msgid "Suspend"
-msgstr "Suspendă"
-
-#: src/applets/user-indicator/UserIndicatorWindow.vala:107
-msgid "Hibernate"
-msgstr "Hibernare"
-
-#: src/applets/user-indicator/UserIndicatorWindow.vala:108
-#: src/daemon/endsession.ui.h:5
-msgid "Restart"
-msgstr "Resetare"
-
-#: src/applets/user-indicator/UserIndicatorWindow.vala:109
-#: src/daemon/endsession.ui.h:6
-msgid "Shutdown"
-msgstr "Oprire"
-
-#: src/applets/user-indicator/UserIndicatorWindow.vala:208
-#: src/daemon/endsession.ui.h:4
-msgid "Logout"
-msgstr "Delogare"
-
-#: src/daemon/menus.vala:46
-msgid "Change background"
-msgstr "Schimbă fundalul"
-
-#: src/daemon/menus.vala:51
-msgid "Displays"
-msgstr "Afișaje"
-
-#: src/daemon/endsession.vala:157
-msgid "Log out"
-msgstr "Ieșire din cont"
-
-#: src/daemon/endsession.vala:161
-msgid "Restart device"
-msgstr "Reporniți dispozitivul"
-
-#: src/daemon/endsession.vala:173 src/daemon/endsession.ui.h:1
-msgid "Power Off"
-msgstr "Oprire"
-
-#. Should show a notification
-#: src/daemon/settings.vala:341
-msgid "Turned on Caffeine Boost"
-msgstr "Caffeine Boost Activat"
-
-#: src/daemon/settings.vala:341
-msgid "Turned off Caffeine Boost"
-msgstr "Caffeine Boost dezactivat"
-
-#: src/daemon/settings.vala:346
-#, fuzzy
-msgid "Will turn off in a minute"
-msgstr "Se va opri în"
-
-#. use plural
-#: src/daemon/settings.vala:349
-#, fuzzy, c-format
-msgid "Will turn off in %d minutes"
-msgstr "Se va opri în"
-
 #: src/polkit/dialog.ui.h:1
 msgid "Authentication Required"
 msgstr "Autentificarea este necesară"
@@ -1160,6 +1157,115 @@ msgstr "Autentificarea este necesară"
 #: src/polkit/dialog.ui.h:5
 msgid "Authenticate"
 msgstr "Autentifică"
+
+#: src/daemon/endsession.ui.h:2
+msgid "Are you sure you want to end your session?"
+msgstr "Sigur doriți să terminați sesiunea?"
+
+#: src/applets/places-indicator/settings.ui.h:1
+msgid "Show label"
+msgstr "Arată eticheta"
+
+#: src/applets/places-indicator/settings.ui.h:2
+msgid "Show places"
+msgstr "Arată locuri"
+
+#: src/applets/places-indicator/settings.ui.h:3
+msgid "Show network folders"
+msgstr "Arată directoarele din rețea"
+
+#: src/applets/places-indicator/settings.ui.h:4
+msgid "Show removable drives"
+msgstr "Arată dispozitivele detașabile"
+
+#: src/applets/places-indicator/settings.ui.h:5
+msgid "Always expand places"
+msgstr "Întotdeauna desfășoară"
+
+#: src/applets/spacer/settings.ui.h:1
+msgid "Spacer size"
+msgstr "Mărime distanțier"
+
+#: src/applets/workspaces/settings.ui.h:1
+msgid "\"Add\" button visibility"
+msgstr "\"Adăugați \" butonul de vizibilitate"
+
+#: src/applets/workspaces/settings.ui.h:2
+msgid "Don't show"
+msgstr "Nu afișați"
+
+#: src/applets/workspaces/settings.ui.h:3
+msgid "Show on mouseover"
+msgstr "Afișează la trecerea mouse-ului peste"
+
+#: src/applets/workspaces/settings.ui.h:4
+msgid "Always show"
+msgstr "Arătați întotdeauna"
+
+#: src/applets/caffeine/settings.ui.h:1
+msgid "Enable notification"
+msgstr "Activați notificarea"
+
+#: src/applets/caffeine/settings.ui.h:2
+msgid "Maximize brightness"
+msgstr "Maximizați luminozitatea"
+
+#: src/applets/caffeine/settings.ui.h:3
+msgid "Brightness Level"
+msgstr "Nivelul luminozității"
+
+#: src/applets/night-light/indicator_window.ui.h:1
+#: src/applets/night-light/NightLight.plugin.in.h:1
+msgid "Night Light"
+msgstr "Lumină nocturnă"
+
+#: src/applets/night-light/indicator_window.ui.h:2
+msgid "Temperature"
+msgstr "Temperatură"
+
+#: src/applets/night-light/indicator_window.ui.h:3
+msgid "Schedule"
+msgstr "Program"
+
+#: src/applets/night-light/indicator_window.ui.h:4
+msgid "Sunset to Sunrise"
+msgstr "De la asfințitul până la răsăritul soarelui"
+
+#: src/applets/night-light/indicator_window.ui.h:5
+msgid "Manual"
+msgstr "Manual"
+
+#: src/applets/night-light/indicator_window.ui.h:6
+msgid "Display Settings"
+msgstr "Setări pentru ecran"
+
+#: src/applets/tray/settings.ui.h:1
+msgid "Icon Spacing"
+msgstr ""
+
+#: src/applets/budgie-menu/settings.ui.h:1
+msgid "Show Menu Label"
+msgstr "Arată eticheta de meniu"
+
+#: src/applets/budgie-menu/settings.ui.h:2
+msgid "Compact Mode"
+msgstr "Modul compact"
+
+#: src/applets/budgie-menu/settings.ui.h:3
+msgid "Show Headers"
+msgstr "Arată antetul"
+
+#: src/applets/budgie-menu/settings.ui.h:4
+msgid "Menu Label"
+msgstr "Eticheta de meniu"
+
+#: src/applets/budgie-menu/settings.ui.h:5
+msgid "Roll-over mouse"
+msgstr "Conținutul se arată la trecerea mouse-ului"
+
+#: src/applets/budgie-menu/settings.ui.h:6
+msgid "Menu Icon"
+msgstr "Pictograma de meniu"
 
 #: src/applets/icon-tasklist/settings.ui.h:1
 msgid "Show all windows on click"
@@ -1189,118 +1295,14 @@ msgstr ""
 msgid "Require a double-click to launch new window"
 msgstr ""
 
-#: src/applets/tray/settings.ui.h:1
-msgid "Icon Spacing"
-msgstr ""
+#: src/session/budgie-desktop.session.in.in.h:1
+#: src/session/budgie-desktop.desktop.in.in.h:1
+msgid "Budgie Desktop"
+msgstr "Desktop Budgie"
 
-#: src/applets/night-light/indicator_window.ui.h:1
-#: src/applets/night-light/NightLight.plugin.in.h:1
-msgid "Night Light"
-msgstr "Lumină nocturnă"
-
-#: src/applets/night-light/indicator_window.ui.h:2
-msgid "Temperature"
-msgstr "Temperatură"
-
-#: src/applets/night-light/indicator_window.ui.h:3
-msgid "Schedule"
-msgstr "Program"
-
-#: src/applets/night-light/indicator_window.ui.h:4
-msgid "Sunset to Sunrise"
-msgstr "De la asfințitul până la răsăritul soarelui"
-
-#: src/applets/night-light/indicator_window.ui.h:5
-msgid "Manual"
-msgstr "Manual"
-
-#: src/applets/night-light/indicator_window.ui.h:6
-msgid "Display Settings"
-msgstr "Setări pentru ecran"
-
-#: src/applets/places-indicator/settings.ui.h:1
-msgid "Show label"
-msgstr "Arată eticheta"
-
-#: src/applets/places-indicator/settings.ui.h:2
-msgid "Show places"
-msgstr "Arată locuri"
-
-#: src/applets/places-indicator/settings.ui.h:3
-msgid "Show network folders"
-msgstr "Arată directoarele din rețea"
-
-#: src/applets/places-indicator/settings.ui.h:4
-msgid "Show removable drives"
-msgstr "Arată dispozitivele detașabile"
-
-#: src/applets/places-indicator/settings.ui.h:5
-msgid "Always expand places"
-msgstr "Întotdeauna desfășoară"
-
-#: src/applets/caffeine/settings.ui.h:1
-msgid "Enable notification"
-msgstr "Activați notificarea"
-
-#: src/applets/caffeine/settings.ui.h:2
-msgid "Maximize brightness"
-msgstr "Maximizați luminozitatea"
-
-#: src/applets/caffeine/settings.ui.h:3
-msgid "Brightness Level"
-msgstr "Nivelul luminozității"
-
-#: src/applets/workspaces/settings.ui.h:1
-msgid "\"Add\" button visibility"
-msgstr "\"Adăugați \" butonul de vizibilitate"
-
-#: src/applets/workspaces/settings.ui.h:2
-msgid "Don't show"
-msgstr "Nu afișați"
-
-#: src/applets/workspaces/settings.ui.h:3
-msgid "Show on mouseover"
-msgstr "Afișează la trecerea mouse-ului peste"
-
-#: src/applets/workspaces/settings.ui.h:4
-msgid "Always show"
-msgstr "Arătați întotdeauna"
-
-#: src/applets/spacer/settings.ui.h:1
-msgid "Spacer size"
-msgstr "Mărime distanțier"
-
-#: src/applets/budgie-menu/settings.ui.h:1
-msgid "Show Menu Label"
-msgstr "Arată eticheta de meniu"
-
-#: src/applets/budgie-menu/settings.ui.h:2
-msgid "Compact Mode"
-msgstr "Modul compact"
-
-#: src/applets/budgie-menu/settings.ui.h:3
-msgid "Show Headers"
-msgstr "Arată antetul"
-
-#: src/applets/budgie-menu/settings.ui.h:4
-msgid "Menu Label"
-msgstr "Eticheta de meniu"
-
-#: src/applets/budgie-menu/settings.ui.h:5
-msgid "Roll-over mouse"
-msgstr "Conținutul se arată la trecerea mouse-ului"
-
-#: src/applets/budgie-menu/settings.ui.h:6
-msgid "Menu Icon"
-msgstr "Pictograma de meniu"
-
-#: src/daemon/endsession.ui.h:2
-msgid "Are you sure you want to end your session?"
-msgstr "Sigur doriți să terminați sesiunea?"
-
-#: src/panel/budgie-desktop-settings.desktop.in.h:2
-msgid "Change desktop appearance and behavior"
-msgstr "Modificați aspectul și comportamentul desktopului"
+#: src/session/budgie-desktop.desktop.in.in.h:2
+msgid "This session logs you into the Budgie Desktop"
+msgstr "Această sesiune pornește în spațiul de lucru Budgie"
 
 #: src/panel/budgie-panel.desktop.in.h:1
 msgid "Budgie Panel"
@@ -1310,41 +1312,29 @@ msgstr "Panou Budgie"
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
 msgstr "Lansează alte aplicații și furnizează utilități pentru administrarea ferestrelor, arătarea orei, etc."
 
-#: src/applets/icon-tasklist/IconTasklistApplet.plugin.in.h:1
-msgid "Icon Task List"
-msgstr "Lista de sarcini cu pictograme"
+#: src/panel/budgie-desktop-settings.desktop.in.h:2
+msgid "Change desktop appearance and behavior"
+msgstr "Modificați aspectul și comportamentul desktopului"
 
-#: src/applets/separator/SeparatorApplet.plugin.in.h:1
-msgid "Separator"
-msgstr "Separator"
-
-#: src/applets/tray/TrayApplet.plugin.in.h:1
-msgid "System Tray"
-msgstr "Notificări de sistem"
-
-#: src/applets/status/StatusApplet.plugin.in.h:1
-msgid "Status Indicator"
-msgstr "Indicator de stare"
-
-#: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
-msgid "Caffeine"
-msgstr "Cafeină"
-
-#: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
-msgid "Show Desktop Button"
-msgstr "Afișează butonul Desktop"
+#: src/applets/user-indicator/UserIndicator.plugin.in.h:1
+msgid "User Indicator"
+msgstr "Indicator Utilizator"
 
 #: src/applets/lock-keys/LockKeysApplet.plugin.in.h:1
 msgid "Lock Keys Indicator"
 msgstr "Indicatorul de taste blocate"
 
-#: src/applets/clock/ClockApplet.plugin.in.h:1
-msgid "Clock"
-msgstr "Ceas"
+#: src/applets/status/StatusApplet.plugin.in.h:1
+msgid "Status Indicator"
+msgstr "Indicator de stare"
 
-#: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
-msgid "Raven Sidebar Control"
-msgstr "Controlul barei laterale Raven"
+#: src/applets/spacer/SpacerApplet.plugin.in.h:1
+msgid "Spacer"
+msgstr "Distanțier"
+
+#: src/applets/separator/SeparatorApplet.plugin.in.h:1
+msgid "Separator"
+msgstr "Separator"
 
 #: src/applets/workspaces/WorkspacesApplet.plugin.in.h:1
 msgid "Workspace Switcher"
@@ -1354,27 +1344,34 @@ msgstr "Comutator spațiu de lucru"
 msgid "Keyboard Layout Indicator"
 msgstr "Indicator configurație tastatură"
 
-#: src/applets/spacer/SpacerApplet.plugin.in.h:1
-msgid "Spacer"
-msgstr "Distanțier"
+#: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
+msgid "Caffeine"
+msgstr "Cafeină"
 
-#: src/applets/tasklist/TasklistApplet.plugin.in.h:1
-msgid "Task List"
-msgstr "Lista de sarcini"
+#: src/applets/tray/TrayApplet.plugin.in.h:1
+msgid "System Tray"
+msgstr "Notificări de sistem"
+
+#: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
+msgid "Raven Sidebar Control"
+msgstr "Controlul barei laterale Raven"
+
+#: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
+msgid "Show Desktop Button"
+msgstr "Afișează butonul Desktop"
 
 #: src/applets/budgie-menu/BudgieMenu.plugin.in.h:1
 msgid "Budgie Menu"
 msgstr "Meniu Budgie"
 
-#: src/applets/user-indicator/UserIndicator.plugin.in.h:1
-msgid "User Indicator"
-msgstr "Indicator Utilizator"
+#: src/applets/clock/ClockApplet.plugin.in.h:1
+msgid "Clock"
+msgstr "Ceas"
 
-#: src/session/budgie-desktop.desktop.in.in.h:1
-#: src/session/budgie-desktop.session.in.in.h:1
-msgid "Budgie Desktop"
-msgstr "Desktop Budgie"
+#: src/applets/tasklist/TasklistApplet.plugin.in.h:1
+msgid "Task List"
+msgstr "Lista de sarcini"
 
-#: src/session/budgie-desktop.desktop.in.in.h:2
-msgid "This session logs you into the Budgie Desktop"
-msgstr "Această sesiune pornește în spațiul de lucru Budgie"
+#: src/applets/icon-tasklist/IconTasklistApplet.plugin.in.h:1
+msgid "Icon Task List"
+msgstr "Lista de sarcini cu pictograme"
