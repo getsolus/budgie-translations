@@ -10,9 +10,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 04:58+0200\n"
-"PO-Revision-Date: 2020-11-23 18:00+0000\n"
+"PO-Revision-Date: 2020-11-25 19:56+0000\n"
 "Last-Translator: Yoni Banai <ink.bug@gmail.com>\n"
-"Language-Team: Hebrew <http://translate.getsol.us/projects/budgie-desktop/translations/he/>\n"
+"Language-Team: Hebrew <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -366,11 +367,11 @@ msgstr "הגדר האם לאפשר תצוגת סמלים וקיצורי דרך �
 #. Switcher to show or hide active mounts
 #: src/panel/settings/settings_desktop.vala:86
 msgid "Active Mounts"
-msgstr ""
+msgstr "התקנים טעונים פעילים"
 
 #: src/panel/settings/settings_desktop.vala:87
 msgid "Show all active mounts on the desktop."
-msgstr ""
+msgstr "הצג התקנים טעונים פעילים בשולחן העבודה."
 
 #. Switcher to show or hide our Home folder
 #: src/panel/settings/settings_desktop.vala:94
@@ -758,9 +759,8 @@ msgid "Caffeine Mode"
 msgstr "מצב קפאין"
 
 #: src/daemon/menus.vala:51
-#, fuzzy
 msgid "System Settings"
-msgstr "הגדרות"
+msgstr "הגדרות מערכת"
 
 #: src/daemon/endsession.vala:157
 msgid "Log out"
