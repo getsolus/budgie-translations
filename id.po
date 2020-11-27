@@ -11,9 +11,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 21:57+0200\n"
-"PO-Revision-Date: 2020-11-25 19:56+0000\n"
+"PO-Revision-Date: 2020-11-27 14:37+0000\n"
 "Last-Translator: Andrian Roshandy <a.nomansky001@gmail.com>\n"
-"Language-Team: Indonesian <http://translate.getsol.us/projects/budgie-desktop/translations/id/>\n"
+"Language-Team: Indonesian <http://translate.getsol.us/projects/"
+"budgie-desktop/translations/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -120,14 +121,14 @@ msgid "Windows"
 msgstr "Jendela"
 
 #: src/panel/settings/settings_wm.vala:39
-#, fuzzy
 msgid "Attach modal dialogs to windows"
-msgstr "Lekatkan bingkai dialog ke jendela"
+msgstr "Lekatkan kotak dialog pada jendela"
 
 #: src/panel/settings/settings_wm.vala:40
-#, fuzzy
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr "Dialog modal akan terlampir ke jendela induk dan bergerak bersama saat diseret."
+msgstr ""
+"Kotak dialog akan melekat pada jendela induk dan bergerak bersama saat "
+"diseret."
 
 #: src/panel/settings/settings_wm.vala:45
 msgid "Button layout"
@@ -167,7 +168,9 @@ msgstr "Aktifkan perubahan fokus jendela saat tetikus masuk dan keluar"
 
 #: src/panel/settings/settings_wm.vala:70
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
-msgstr "Memungkinkan fokus jendela diterapkan ketika tetikus memasuki jendela dan berhenti fokus saat tetikus meninggalkan jendela."
+msgstr ""
+"Memungkinkan fokus jendela diterapkan saat tetikus memasuki jendela dan "
+"berhenti fokus saat tetikus meninggalkan jendela."
 
 #: src/panel/settings/settings_wm.vala:76
 msgid "Disable unredirection of windows"
@@ -204,7 +207,7 @@ msgstr "Widget"
 
 #: src/panel/settings/settings_style.vala:47
 msgid "Set the appearance of window decorations and controls"
-msgstr "Tentukan tampilan dekorasi dan kontrol jendela"
+msgstr "Setel penampilan dekorasi dan kontrol jendela"
 
 #: src/panel/settings/settings_style.vala:51
 msgid "Icons"
@@ -228,7 +231,7 @@ msgstr "Letak Notifikasi"
 
 #: src/panel/settings/settings_style.vala:62
 msgid "Set the location for notification popups"
-msgstr "Atur letak untuk munculan notifikasi"
+msgstr "Setel letak untuk munculan notifikasi"
 
 #: src/panel/settings/settings_style.vala:71
 msgid "Dark theme"
@@ -239,9 +242,8 @@ msgid "Built-in theme"
 msgstr "Tema bawaan"
 
 #: src/panel/settings/settings_style.vala:79
-#, fuzzy
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr "Saat diaktifkan, gaya komponen desktop akan ditimpa dengan gaya bawaan"
+msgstr "Saat diaktifkan, tema bawaan akan menggantikan corak bagian desktop"
 
 #: src/panel/settings/settings_style.vala:86
 msgid "Animations"
