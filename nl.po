@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 21:57+0200\n"
 "PO-Revision-Date: 2020-11-27 19:35+0000\n"
-"Last-Translator: Geert Verheyde <geert.verheyde@gmail.com>\n"
+"Last-Translator: Arjen Runsink <arjenrr@gmail.com>\n"
 "Language-Team: Dutch <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/nl/>\n"
 "Language: nl\n"
@@ -281,7 +281,7 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:67
 msgid "Allow raising volume above 100%"
-msgstr "Laat volumeverhoging boven 100% toe"
+msgstr "Laat volumeverhoging boven de 100% toe"
 
 #: src/panel/settings/settings_raven.vala:68
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
@@ -374,7 +374,7 @@ msgstr "Laat al dan niet  programma- en bestands-iconen op het bureaublad toe."
 #. Switcher to show or hide active mounts
 #: src/panel/settings/settings_desktop.vala:86
 msgid "Active Mounts"
-msgstr "Actieve aangekoppelde bestandssystemen"
+msgstr "Actieve aankoppelingen"
 
 #: src/panel/settings/settings_desktop.vala:87
 msgid "Show all active mounts on the desktop."
