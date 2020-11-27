@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 21:57+0200\n"
-"PO-Revision-Date: 2020-11-27 19:11+0000\n"
-"Last-Translator: René Nijhuis <siuhjinener@gmail.com>\n"
+"PO-Revision-Date: 2020-11-27 19:22+0000\n"
+"Last-Translator: Geert Verheyde <geert.verheyde@gmail.com>\n"
 "Language-Team: Dutch <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/nl/>\n"
 "Language: nl\n"
@@ -186,7 +186,7 @@ msgstr "Toon alle vensters in de tab switcher"
 msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
 msgstr ""
 "Alle vensters zullen getoond worden in de tab switcher ongeacht welk "
-"virtueel bureaublad/werkplek in gebruik is"
+"virtueel bureaublad in gebruik is"
 
 #: src/panel/settings/settings_wm.vala:90
 msgid "Right (standard)"
@@ -366,9 +366,8 @@ msgid "Desktop Icons"
 msgstr "Bureaublad Iconen"
 
 #: src/panel/settings/settings_desktop.vala:77
-#, fuzzy
 msgid "Control whether to allow icons on the desktop."
-msgstr "Bepaal of je al dan niet programma- en bestands-iconen op het bureaublad wil."
+msgstr "Laat al dan niet  programma- en bestands-iconen op het bureaublad toe."
 
 #. DesktopFolder doesn't support fancy options like showing home folder, trash, or active mounts
 #. DesktopType is the only one that doesn't support showing mounts
@@ -378,9 +377,8 @@ msgid "Active Mounts"
 msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:87
-#, fuzzy
 msgid "Show all active mounts on the desktop."
-msgstr "Bepaal of je al dan niet programma- en bestands-iconen op het bureaublad wil."
+msgstr "Toon de actieve aankoppelingen op het bureaublad."
 
 #. Switcher to show or hide our Home folder
 #: src/panel/settings/settings_desktop.vala:94
@@ -638,7 +636,6 @@ msgid "Autostart apps"
 msgstr "Autostart apps"
 
 #: src/panel/settings/settings_autostart.vala:506
-#, fuzzy
 msgid "Add Application"
 msgstr "Toepassingen"
 
