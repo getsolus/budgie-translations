@@ -13,9 +13,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 21:57+0200\n"
-"PO-Revision-Date: 2020-07-15 06:45+0000\n"
+"PO-Revision-Date: 2020-11-27 19:10+0000\n"
 "Last-Translator: Geert Verheyde <geert.verheyde@gmail.com>\n"
-"Language-Team: Dutch <http://translate.getsol.us/projects/budgie-desktop/translations/nl/>\n"
+"Language-Team: Dutch <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -269,11 +270,13 @@ msgstr "Boven Rechts"
 
 #: src/panel/settings/settings_raven.vala:61
 msgid "Set Raven position"
-msgstr ""
+msgstr "Bepaal de positie van Raven"
 
 #: src/panel/settings/settings_raven.vala:62
 msgid "Set which side of the screen Raven will open on. If set to Automatic, Raven will open where its parent panel is."
 msgstr ""
+"Bepaal op welke zijde Raven zich moet openen. Ingesteld als Automatisch zal "
+"het zich openen op de plaats waar het moederpaneel zich bevindt."
 
 #: src/panel/settings/settings_raven.vala:67
 msgid "Allow raising volume above 100%"
