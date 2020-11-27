@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 21:57+0200\n"
-"PO-Revision-Date: 2020-11-27 19:23+0000\n"
-"Last-Translator: René Nijhuis <siuhjinener@gmail.com>\n"
+"PO-Revision-Date: 2020-11-27 19:33+0000\n"
+"Last-Translator: Geert Verheyde <geert.verheyde@gmail.com>\n"
 "Language-Team: Dutch <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/nl/>\n"
 "Language: nl\n"
@@ -186,7 +186,7 @@ msgstr "Toon alle vensters in de tab switcher"
 msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
 msgstr ""
 "Alle vensters zullen getoond worden in de tab switcher ongeacht welk "
-"virtueel bureaublad in gebruik is"
+"virtueel bureaublad in gebruik is."
 
 #: src/panel/settings/settings_wm.vala:90
 msgid "Right (standard)"
@@ -406,7 +406,7 @@ msgstr "Icoon grootte"
 
 #: src/panel/settings/settings_desktop.vala:113
 msgid "Set the desired size of icons on the desktop."
-msgstr "Stel de gewenste grootte van iconen op het bureaublad in"
+msgstr "Stel de gewenste grootte van iconen op het bureaublad in."
 
 #: src/panel/settings/settings_desktop.vala:144
 msgid "Number of virtual desktops"
@@ -444,7 +444,6 @@ msgid "Settings"
 msgstr "Instellingen"
 
 #: src/panel/settings/settings_panel.vala:85
-#, fuzzy
 msgid "Remove Panel"
 msgstr "Paneel verwijderen"
 
@@ -638,9 +637,8 @@ msgid "Add Application"
 msgstr "Toepassingen"
 
 #: src/panel/settings/settings_autostart.vala:508
-#, fuzzy
 msgid "Add Command"
-msgstr "Commando"
+msgstr "Commando toevoegen"
 
 #: src/panel/settings/settings_fonts.vala:32
 msgid "Fonts"
@@ -776,7 +774,6 @@ msgid "Caffeine Mode"
 msgstr "Cafeïne Mode"
 
 #: src/daemon/menus.vala:51
-#, fuzzy
 msgid "System Settings"
 msgstr "Instellingen"
 
@@ -1032,11 +1029,11 @@ msgstr "Timer (minuten)"
 #. there's already an active tray, create an informative icon with a popover
 #: src/applets/tray/TrayApplet.vala:114
 msgid "Only one instance of the System Tray can be active at a time."
-msgstr "Er kan slechts één System Tray tegelijk actief zijn"
+msgstr "Er kan slechts één System Tray tegelijk actief zijn."
 
 #: src/applets/tray/TrayApplet.vala:140
 msgid "The System Tray failed to initialize."
-msgstr "Fout bij het initialiseren van de System Tray"
+msgstr "Fout bij het initialiseren van de System Tray."
 
 #: src/applets/show-desktop/ShowDesktopApplet.vala:30
 msgid "Toggle the desktop"
