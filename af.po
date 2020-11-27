@@ -8,9 +8,10 @@ msgstr ""
 "Project-Id-Version: budgie-desktop 10.5.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 21:57+0200\n"
-"PO-Revision-Date: 2020-11-23 18:00+0000\n"
+"PO-Revision-Date: 2020-11-27 14:37+0000\n"
 "Last-Translator: Terrance Brown <terranceb@gmail.com>\n"
-"Language-Team: Afrikaans <http://translate.getsol.us/projects/budgie-desktop/translations/af/>\n"
+"Language-Team: Afrikaans <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/af/>\n"
 "Language: af\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -139,55 +140,66 @@ msgstr "Verander die uitleg van knoppies in die titelbalk van die toepassing."
 
 #: src/panel/settings/settings_wm.vala:51
 msgid "Center new windows on screen"
-msgstr ""
+msgstr "Sentreer nuwe vensters op die skerm"
 
 #: src/panel/settings/settings_wm.vala:52
 msgid "Center newly launched windows on the current screen."
-msgstr ""
+msgstr "Sentreer nuutgevonde vensters op die huidige skerm."
 
 #: src/panel/settings/settings_wm.vala:57
 msgid "Disable Night Light mode when windows are fullscreen"
-msgstr ""
+msgstr "Skakel Nagligmodus uit wanneer vensters volskerm is"
 
 #: src/panel/settings/settings_wm.vala:58
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr ""
+"Skakel Nagligmodus uit as 'n venster volskerm is. Heraktiveer wanneer u "
+"volskerm verlaat."
 
 #: src/panel/settings/settings_wm.vala:63
+#, fuzzy
 msgid "Automatic tiling"
-msgstr ""
+msgstr "Outomatiese teël"
 
 #: src/panel/settings/settings_wm.vala:64
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
 msgstr ""
+"Windows sal outomaties teël wanneer dit aan die bokant van die skerm of in "
+"die uithoeke gesleep word."
 
 #: src/panel/settings/settings_wm.vala:69
 msgid "Enable window focus change on mouse enter and leave"
-msgstr ""
+msgstr "Aktiveer die verandering van die vensterfokus op muis betree en verlaat"
 
 #: src/panel/settings/settings_wm.vala:70
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
 msgstr ""
+"Laat vensterfokus toe om toe te pas wanneer die muis die venster binnegaan "
+"en onfokus as die muis die venster verlaat."
 
 #: src/panel/settings/settings_wm.vala:76
 msgid "Disable unredirection of windows"
-msgstr ""
+msgstr "Deaktiveer die omleiding van vensters"
 
 #: src/panel/settings/settings_wm.vala:77
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
 msgstr ""
+"Hierdie opsie is vir gevorderde gebruikers. Gebruik dit as u probleme het "
+"met grafiese of prestasieprobleme met toegewyde GPU's."
 
 #: src/panel/settings/settings_wm.vala:82
 msgid "Show all windows in tab switcher"
-msgstr ""
+msgstr "Wys alle vensters in die oortjie-skakelaar"
 
 #: src/panel/settings/settings_wm.vala:83
 msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
 msgstr ""
+"Alle oortjies sal vertoon word in oortjiewisselaar ongeag die werkruimte in "
+"gebruik."
 
 #: src/panel/settings/settings_wm.vala:90
 msgid "Right (standard)"
-msgstr ""
+msgstr "Regs (standaard)"
 
 #: src/panel/settings/settings_wm.vala:92
 #: src/panel/settings/settings_panel.vala:181 src/raven/raven.vala:33
@@ -196,75 +208,77 @@ msgstr "Links"
 
 #: src/panel/settings/settings_style.vala:32
 msgid "Style"
-msgstr ""
+msgstr "Styl"
 
 #: src/panel/settings/settings_style.vala:46
 msgid "Widgets"
-msgstr ""
+msgstr "Widgets"
 
 #: src/panel/settings/settings_style.vala:47
 msgid "Set the appearance of window decorations and controls"
-msgstr ""
+msgstr "Stel die voorkoms van vensterversierings en -knoppies"
 
 #: src/panel/settings/settings_style.vala:51
 msgid "Icons"
-msgstr ""
+msgstr "Ikone"
 
 #: src/panel/settings/settings_style.vala:52
 msgid "Set the globally used icon theme"
-msgstr ""
+msgstr "Stel die ikoon-tema wat stelsel wyd gebruik word"
 
 #: src/panel/settings/settings_style.vala:56
 msgid "Cursors"
-msgstr ""
+msgstr "Wysers"
 
 #: src/panel/settings/settings_style.vala:57
 msgid "Set the globally used mouse cursor theme"
-msgstr ""
+msgstr "Stel die stelsel wyd gebruikte muiswysertema in"
 
 #: src/panel/settings/settings_style.vala:61
 msgid "Notification Position"
-msgstr ""
+msgstr "Kennisgewingposisie"
 
 #: src/panel/settings/settings_style.vala:62
 msgid "Set the location for notification popups"
-msgstr ""
+msgstr "Stel die plek in vir opspringkennisgewings"
 
 #: src/panel/settings/settings_style.vala:71
 msgid "Dark theme"
-msgstr ""
+msgstr "Donker tema"
 
 #: src/panel/settings/settings_style.vala:78
 msgid "Built-in theme"
-msgstr ""
+msgstr "Ingeboude tema"
 
 #: src/panel/settings/settings_style.vala:79
 msgid "When enabled, the built-in theme will override the desktop component styling"
 msgstr ""
+"As dit geaktiveer is, sal die ingeboude tema die styl van die werkskerm se "
+"komponent oorheers"
 
 #: src/panel/settings/settings_style.vala:86
 msgid "Animations"
-msgstr ""
+msgstr "Animasies"
 
 #: src/panel/settings/settings_style.vala:87
 msgid "Control whether windows and controls use animations"
-msgstr ""
+msgstr "Bepaal of vensters en kontroles animasies gebruik"
 
 #: src/panel/settings/settings_style.vala:204
 msgid "Top Left"
-msgstr ""
+msgstr "Links Bo"
 
 #: src/panel/settings/settings_style.vala:206
 msgid "Bottom Left"
-msgstr ""
+msgstr "Links Onder"
 
 #: src/panel/settings/settings_style.vala:208
 msgid "Bottom Right"
-msgstr ""
+msgstr "Onder Regs"
 
 #: src/panel/settings/settings_style.vala:211
 msgid "Top Right"
-msgstr ""
+msgstr "Regs Bo"
 
 #: src/panel/settings/settings_raven.vala:61
 msgid "Set Raven position"
@@ -281,6 +295,8 @@ msgstr "Laat die volume hoër as 100% toe"
 #: src/panel/settings/settings_raven.vala:68
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
 msgstr ""
+"Laat die volume toe via Klankinstellings sowel as die Klankuitvoer Widget in "
+"Raven tot 150%."
 
 #: src/panel/settings/settings_raven.vala:72
 msgid "Enable display of week numbers in Calendar"
@@ -296,7 +312,7 @@ msgstr "Wys Kalender-Widget"
 
 #: src/panel/settings/settings_raven.vala:79
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
-msgstr ""
+msgstr "Toon of verskuil die Kalender-widget in Raven se Applete afdeling."
 
 #: src/panel/settings/settings_raven.vala:84
 msgid "Show Sound Output Widget"
@@ -304,7 +320,7 @@ msgstr "Wys Klankuitvoer-Widget"
 
 #: src/panel/settings/settings_raven.vala:85
 msgid "Shows or hides the Sound Output Widget in Raven's Applets section."
-msgstr ""
+msgstr "Toon of verskuil die Klankuitvoer-widget in Raven se Applete afdeling."
 
 #: src/panel/settings/settings_raven.vala:90
 msgid "Show Microphone Input Widget"
@@ -313,6 +329,7 @@ msgstr "Wys Mikrofooninvoer-Widget"
 #: src/panel/settings/settings_raven.vala:91
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
 msgstr ""
+"Toon of verskuil die Mikrofoon-invoer-widget in Raven se Applete afdeling."
 
 #: src/panel/settings/settings_raven.vala:96
 msgid "Show Media Playback Controls Widget"
@@ -321,18 +338,20 @@ msgstr "Wys Media Terugspeelkontroles Widget"
 #: src/panel/settings/settings_raven.vala:97
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
 msgstr ""
+"Toon of verskuil die Media Speel Kontrole (MPRIS) Widget in Raven se Applete "
+"afdeling."
 
 #: src/panel/settings/settings_raven.vala:102
 msgid "Show Power Strip"
-msgstr ""
+msgstr "Wys Krag Balk"
 
 #: src/panel/settings/settings_raven.vala:103
 msgid "Shows or hides the Power Strip in the bottom of Raven."
-msgstr ""
+msgstr "Toon of verskuil dir Krag Balk onder in Raven."
 
 #: src/panel/settings/settings_applet_chooser.vala:74
 msgid "Choose an applet"
-msgstr ""
+msgstr "Kies 'n applet"
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 #: src/panel/settings/settings_autostart.vala:194
@@ -340,7 +359,7 @@ msgstr ""
 #: src/applets/budgie-menu/IconChooser.vala:52 src/polkit/dialog.ui.h:4
 #: src/daemon/endsession.ui.h:3
 msgid "Cancel"
-msgstr ""
+msgstr "Kanselleer"
 
 #: src/panel/settings/settings_desktop.vala:51
 #, fuzzy
@@ -453,19 +472,19 @@ msgstr "Verwyder hierdie paneel van die skerm"
 
 #: src/panel/settings/settings_panel.vala:123
 msgid "Top Dock"
-msgstr ""
+msgstr "Topdok"
 
 #: src/panel/settings/settings_panel.vala:125
 msgid "Right Dock"
-msgstr ""
+msgstr "Regter Dok"
 
 #: src/panel/settings/settings_panel.vala:127
 msgid "Left Dock"
-msgstr ""
+msgstr "Linkerdok"
 
 #: src/panel/settings/settings_panel.vala:129
 msgid "Bottom Dock"
-msgstr ""
+msgstr "Onderste Dok"
 
 #: src/panel/settings/settings_panel.vala:134
 msgid "Top Panel"
@@ -568,6 +587,8 @@ msgstr "Styliseer areas"
 #: src/panel/settings/settings_panel.vala:267
 msgid "Adds a hint to the panel so that each of the panel's three main areas may be themed differently."
 msgstr ""
+"Voeg 'n tint by die paneel sodat elkeen van die drie hoofareas van die "
+"paneel anders kan wees."
 
 #: src/panel/settings/settings_panel.vala:274
 msgid "Dock mode"
@@ -580,58 +601,58 @@ msgstr "As dit in die dokmodus is, gebruik die paneel die minste moontlike ruimt
 
 #: src/panel/settings/settings_autostart.vala:134
 msgid "Untitled"
-msgstr ""
+msgstr "Ongetiteld"
 
 #: src/panel/settings/settings_autostart.vala:141
 msgid "No description"
-msgstr ""
+msgstr "Geen beskrywing"
 
 #: src/panel/settings/settings_autostart.vala:164
 msgid "running"
-msgstr ""
+msgstr "loop"
 
 #: src/panel/settings/settings_autostart.vala:185
 msgid "Applications"
-msgstr ""
+msgstr "Toepassings"
 
 #: src/panel/settings/settings_autostart.vala:195
 #: src/panel/settings/settings_autostart.vala:360
 msgid "Add"
-msgstr ""
+msgstr "Voeg by"
 
 #: src/panel/settings/settings_autostart.vala:354
 #: src/panel/settings/settings_autostart.vala:387
 msgid "Command"
-msgstr ""
+msgstr "Opdrag"
 
 #: src/panel/settings/settings_autostart.vala:370
 msgid "An entry with that title already exists"
-msgstr ""
+msgstr "'n Inskrywing met daardie titel bestaan reeds"
 
 #: src/panel/settings/settings_autostart.vala:373
 msgid "Title"
-msgstr ""
+msgstr "Titel"
 
 #: src/panel/settings/settings_autostart.vala:377
 #: src/panel/settings/settings_autostart.vala:391
 msgid "Required"
-msgstr ""
+msgstr "Vereis"
 
 #: src/panel/settings/settings_autostart.vala:380
 msgid "Description"
-msgstr ""
+msgstr "Beskrywing"
 
 #: src/panel/settings/settings_autostart.vala:384
 msgid "Optional"
-msgstr ""
+msgstr "Opsioneel"
 
 #: src/panel/settings/settings_autostart.vala:446
 msgid "Autostart"
-msgstr ""
+msgstr "Outomatiese begin"
 
 #: src/panel/settings/settings_autostart.vala:464
 msgid "Autostart apps"
-msgstr ""
+msgstr "Begin programme outomaties"
 
 #: src/panel/settings/settings_autostart.vala:506
 #, fuzzy
@@ -640,63 +661,66 @@ msgstr "Voeg applet"
 
 #: src/panel/settings/settings_autostart.vala:508
 msgid "Add Command"
-msgstr ""
+msgstr "Voeg Opdrag by"
 
 #: src/panel/settings/settings_fonts.vala:32
 msgid "Fonts"
-msgstr ""
+msgstr "Lettertipes"
 
 #: src/panel/settings/settings_fonts.vala:43
 msgid "Window Titles"
-msgstr ""
+msgstr "Venstertitels"
 
 #: src/panel/settings/settings_fonts.vala:44
 msgid "Set the font used in the titlebars of applications."
 msgstr ""
+"Stel die lettertipe in wat in die titelbalk van toepassings gebruik word."
 
 #: src/panel/settings/settings_fonts.vala:50
 msgid "Documents"
-msgstr ""
+msgstr "Dokumente"
 
 #: src/panel/settings/settings_fonts.vala:51
 msgid "Set the display font used by for documents."
-msgstr ""
+msgstr "Stel die vertoon lettertipe wat gebruik word vir dokumente."
 
 #: src/panel/settings/settings_fonts.vala:57
 msgid "Interface"
-msgstr ""
+msgstr "Koppelvlak"
 
 #: src/panel/settings/settings_fonts.vala:58
 msgid "Set the primary font used by application controls."
 msgstr ""
+"Stel die primêre lettertipe in wat gebruik word deur toepassings kontroles."
 
 #: src/panel/settings/settings_fonts.vala:64
 msgid "Monospace"
-msgstr ""
+msgstr "Monospace"
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Set the fixed-width font used by text dominant applications."
 msgstr ""
+"Stel die vaste-wydte font wat gebruik word deur teks dominante toepassings."
 
 #: src/panel/settings/settings_fonts.vala:71
 msgid "Text scaling"
-msgstr ""
+msgstr "Teks skalering"
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Set the text scaling factor."
-msgstr ""
+msgstr "Stel die teksskaalfaktor in."
 
 #: src/panel/settings/settings_fonts.vala:81
 msgid "Full"
-msgstr ""
+msgstr "Vol"
 
 #: src/panel/settings/settings_fonts.vala:82
 msgid "Medium"
-msgstr ""
+msgstr "Medium"
 
 #: src/panel/settings/settings_fonts.vala:83
 msgid "Slight"
-msgstr ""
+msgstr "Effens"
 
 #: src/panel/settings/settings_fonts.vala:100
 msgid "Hinting"
@@ -708,178 +732,177 @@ msgstr ""
 
 #: src/panel/settings/settings_fonts.vala:108
 msgid "Subpixel (for LCD screens)"
-msgstr ""
+msgstr "Subpixel (vir LCD-skerms)"
 
 #: src/panel/settings/settings_fonts.vala:109
 msgid "Standard (grayscale)"
-msgstr ""
+msgstr "Standaard (grysskaal)"
 
 #: src/panel/settings/settings_fonts.vala:125
 msgid "Antialiasing"
-msgstr ""
+msgstr "Antialiasing"
 
 #: src/panel/settings/settings_fonts.vala:126
 msgid "Set the type of antialiasing to use."
-msgstr ""
+msgstr "Stel die tipe antialiasing in om te gebruik."
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
-msgstr ""
+msgstr "Geen programme speel tans klank nie."
 
 #: src/raven/start_listening.vala:28
 msgid "Play some music"
-msgstr ""
+msgstr "Speel musiek"
 
 #: src/raven/notifications_view.vala:100
 msgid "Nothing to see here"
-msgstr ""
+msgstr "Niks om hier te sien nie"
 
 #: src/raven/notifications_view.vala:649
 #: src/applets/notifications/NotificationsApplet.vala:106
 #, c-format
 msgid "%u unread notifications"
-msgstr ""
+msgstr "%u ongeleesde kennisgewings"
 
 #: src/raven/notifications_view.vala:651
 #: src/applets/notifications/NotificationsApplet.vala:108
 msgid "1 unread notification"
-msgstr ""
+msgstr "1 ongeleesde kennisgewing"
 
 #: src/raven/notifications_view.vala:653
 #: src/applets/notifications/NotificationsApplet.vala:110
 msgid "No unread notifications"
-msgstr ""
+msgstr "Geen ongeleesde kennisgewings nie"
 
 #: src/raven/notifications_view.vala:884
 msgid "No new notifications"
-msgstr ""
+msgstr "Geen nuwe kennisgewings nie"
 
 #. 125ms
 #: src/raven/sound.vala:158
 msgid "Apps"
-msgstr ""
+msgstr "Toepassings"
 
 #: src/raven/sound.vala:159
 msgid "Devices"
-msgstr ""
+msgstr "Toestelle"
 
 #: src/raven/main_view.vala:60
 #: src/applets/notifications/NotificationsApplet.plugin.in.h:1
 msgid "Notifications"
-msgstr ""
+msgstr "Kennisgewings"
 
 #. Caffeine Notification
 #. Prepare label widget
 #: src/raven/notifications_group.vala:47
 #: src/applets/caffeine/CaffeineWindow.vala:37
 msgid "Caffeine Mode"
-msgstr ""
+msgstr "Kafeïen-modus"
 
 #: src/daemon/menus.vala:51
-#, fuzzy
 msgid "System Settings"
-msgstr "Instellings"
+msgstr "Stelselinstellings"
 
 #: src/daemon/endsession.vala:157
 msgid "Log out"
-msgstr ""
+msgstr "Teken uit"
 
 #: src/daemon/endsession.vala:161
 msgid "Restart device"
-msgstr ""
+msgstr "Herlaai toestel"
 
 #: src/daemon/endsession.vala:173 src/daemon/endsession.ui.h:1
 msgid "Power Off"
-msgstr ""
+msgstr "Skakel Af"
 
 #. Should show a notification
 #: src/daemon/settings.vala:341
 msgid "Turned on Caffeine Boost"
-msgstr ""
+msgstr "Kafeïen Hupstoot Aangeskakel"
 
 #: src/daemon/settings.vala:341
 msgid "Turned off Caffeine Boost"
-msgstr ""
+msgstr "Kafeïen Hupstoot Afgeskakel"
 
 #: src/daemon/settings.vala:346
 msgid "Will turn off in a minute"
-msgstr ""
+msgstr "Sal binne 'n minuut afskakel"
 
 #. use plural
 #: src/daemon/settings.vala:349
 #, c-format
 msgid "Will turn off in %d minutes"
-msgstr ""
+msgstr "Sal oor %d minute afskakel"
 
 #. User Menu Creation
 #: src/applets/user-indicator/UserIndicatorWindow.vala:99
 msgid "User"
-msgstr ""
+msgstr "Gebruiker"
 
 #. Default to "User" and symbolic icon
 #. The rest
 #: src/applets/user-indicator/UserIndicatorWindow.vala:105
 msgid "Lock"
-msgstr ""
+msgstr "Sluit"
 
 #: src/applets/user-indicator/UserIndicatorWindow.vala:106
 msgid "Suspend"
-msgstr ""
+msgstr "Uitsit"
 
 #: src/applets/user-indicator/UserIndicatorWindow.vala:107
 msgid "Hibernate"
-msgstr ""
+msgstr "Hiberneer"
 
 #: src/applets/user-indicator/UserIndicatorWindow.vala:108
 #: src/daemon/endsession.ui.h:5
 msgid "Restart"
-msgstr ""
+msgstr "Herbegin"
 
 #: src/applets/user-indicator/UserIndicatorWindow.vala:109
 #: src/daemon/endsession.ui.h:6
 msgid "Shutdown"
-msgstr ""
+msgstr "Afsluit"
 
 #: src/applets/user-indicator/UserIndicatorWindow.vala:208
 #: src/daemon/endsession.ui.h:4
 msgid "Logout"
-msgstr ""
+msgstr "Afteken"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:55
 msgid "Caps lock is active"
-msgstr ""
+msgstr "Hoofletterslot is aktief"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:58
 msgid "Caps lock is not active"
-msgstr ""
+msgstr "Hoofletterslot is nie aktief nie"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:67
 msgid "Num lock is active"
-msgstr ""
+msgstr "Numslot is aktief"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:70
 msgid "Num lock is not active"
-msgstr ""
+msgstr "Numslot is nie aktief nie"
 
 #: src/applets/places-indicator/MountItem.vala:23
 #: src/applets/places-indicator/VolumeItem.vala:25
 msgid "Removable devices"
-msgstr ""
+msgstr "Verwyderbare toestelle"
 
 #: src/applets/places-indicator/MountItem.vala:25
 #: src/applets/places-indicator/VolumeItem.vala:27
 msgid "Local volumes"
-msgstr ""
+msgstr "Plaaslike volumes"
 
 #: src/applets/places-indicator/MountItem.vala:29
 #: src/applets/places-indicator/VolumeItem.vala:31
 msgid "Network folders"
-msgstr ""
+msgstr "Netwerk gidse"
 
 #: src/applets/places-indicator/MountItem.vala:32
 #: src/applets/places-indicator/VolumeItem.vala:34
 msgid "Other"
-msgstr ""
+msgstr "Ander"
 
 #: src/applets/places-indicator/MountItem.vala:58
 #: src/applets/places-indicator/VolumeItem.vala:55
