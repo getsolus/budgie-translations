@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 21:57+0200\n"
 "PO-Revision-Date: 2020-11-27 19:22+0000\n"
-"Last-Translator: Arjen Runsink <arjenrr@gmail.com>\n"
+"Last-Translator: René Nijhuis <siuhjinener@gmail.com>\n"
 "Language-Team: Dutch <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/nl/>\n"
 "Language: nl\n"
@@ -401,9 +401,8 @@ msgstr "Plaats een snelkoppeling naar de Prullenbak op het bureaublad."
 #. DesktopType doesn't support icon size changing. Nemo might but needs validation.
 #. Icon Size combo box
 #: src/panel/settings/settings_desktop.vala:112
-#, fuzzy
 msgid "Icon Size"
-msgstr "Grootte"
+msgstr "Icoon grootte"
 
 #: src/panel/settings/settings_desktop.vala:113
 #, fuzzy
@@ -420,22 +419,22 @@ msgstr "Aantal virtuele bureaubladen/werkruimtes automatisch te creëren bij het
 
 #: src/panel/settings/settings_desktop.vala:262
 msgid "Normal"
-msgstr ""
+msgstr "Normaal"
 
 #. Small
 #: src/panel/settings/settings_desktop.vala:265
 msgid "Small"
-msgstr ""
+msgstr "Klein"
 
 #. Large
 #: src/panel/settings/settings_desktop.vala:267
 msgid "Large"
-msgstr ""
+msgstr "Groot"
 
 #. Massive
 #: src/panel/settings/settings_desktop.vala:269
 msgid "Massive"
-msgstr ""
+msgstr "Enorm"
 
 #: src/panel/settings/settings_panel.vala:82 src/raven/main_view.vala:57
 msgid "Applets"
@@ -1034,11 +1033,11 @@ msgstr "Timer (minuten)"
 #. there's already an active tray, create an informative icon with a popover
 #: src/applets/tray/TrayApplet.vala:114
 msgid "Only one instance of the System Tray can be active at a time."
-msgstr ""
+msgstr "Er kan slechts één System Tray tegelijk actief zijn"
 
 #: src/applets/tray/TrayApplet.vala:140
 msgid "The System Tray failed to initialize."
-msgstr ""
+msgstr "Fout bij het initialiseren van de System Tray"
 
 #: src/applets/show-desktop/ShowDesktopApplet.vala:30
 msgid "Toggle the desktop"
@@ -1245,7 +1244,7 @@ msgstr "Beeldscherm instellingen"
 
 #: src/applets/tray/settings.ui.h:1
 msgid "Icon Spacing"
-msgstr ""
+msgstr "Ruimte tussen iconen"
 
 #: src/applets/budgie-menu/settings.ui.h:1
 msgid "Show Menu Label"
@@ -1293,11 +1292,11 @@ msgstr "Venstergroepering"
 
 #: src/applets/icon-tasklist/settings.ui.h:6
 msgid "Middle click to launch new window"
-msgstr ""
+msgstr "Middelklik opent een nieuw venster"
 
 #: src/applets/icon-tasklist/settings.ui.h:7
 msgid "Require a double-click to launch new window"
-msgstr ""
+msgstr "Dubbelklik vereist om nieuwe vensters te openen"
 
 #: src/session/budgie-desktop.session.in.in.h:1
 #: src/session/budgie-desktop.desktop.in.in.h:1
