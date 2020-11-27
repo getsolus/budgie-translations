@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 21:57+0200\n"
-"PO-Revision-Date: 2020-11-27 19:22+0000\n"
+"PO-Revision-Date: 2020-11-27 19:23+0000\n"
 "Last-Translator: René Nijhuis <siuhjinener@gmail.com>\n"
 "Language-Team: Dutch <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/nl/>\n"
@@ -405,9 +405,8 @@ msgid "Icon Size"
 msgstr "Icoon grootte"
 
 #: src/panel/settings/settings_desktop.vala:113
-#, fuzzy
 msgid "Set the desired size of icons on the desktop."
-msgstr "Bepaal of je al dan niet programma- en bestands-iconen op het bureaublad wil."
+msgstr "Stel de gewenste grootte van iconen op het bureaublad in"
 
 #: src/panel/settings/settings_desktop.vala:144
 msgid "Number of virtual desktops"
