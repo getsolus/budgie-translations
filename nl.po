@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 21:57+0200\n"
 "PO-Revision-Date: 2020-11-27 19:22+0000\n"
-"Last-Translator: Geert Verheyde <geert.verheyde@gmail.com>\n"
+"Last-Translator: Arjen Runsink <arjenrr@gmail.com>\n"
 "Language-Team: Dutch <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/nl/>\n"
 "Language: nl\n"
@@ -374,7 +374,7 @@ msgstr "Laat al dan niet  programma- en bestands-iconen op het bureaublad toe."
 #. Switcher to show or hide active mounts
 #: src/panel/settings/settings_desktop.vala:86
 msgid "Active Mounts"
-msgstr ""
+msgstr "Actieve aangekoppelde bestandssystemen"
 
 #: src/panel/settings/settings_desktop.vala:87
 msgid "Show all active mounts on the desktop."
