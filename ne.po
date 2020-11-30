@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 21:57+0200\n"
 "PO-Revision-Date: 2020-12-01 20:55+0000\n"
-"Last-Translator: ThatsSid. <siddharthbelbase@gmail.com>\n"
+"Last-Translator: Rabin Adhikari <rabin.adk1@gmail.com>\n"
 "Language-Team: Nepali <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ne/>\n"
 "Language: ne\n"
@@ -68,31 +68,32 @@ msgstr ""
 
 #: src/panel/settings/settings_panel_dialogs.vala:42
 msgid "Remove panel"
-msgstr ""
+msgstr "प्यानल हटाउनुहोस्"
 
 #: src/panel/settings/settings_panel_dialogs.vala:43
 msgid "Keep panel"
-msgstr ""
+msgstr "प्यानल राख्नुहोस्"
 
 #: src/panel/settings/settings_panel_dialogs.vala:67
 msgid "Confirm applet removal"
-msgstr ""
+msgstr "एप्लेट हटाउने निश्चित गर्नुहोस्"
 
 #: src/panel/settings/settings_panel_dialogs.vala:74
 msgid "Do you really want to remove this applet? This action cannot be undone."
 msgstr ""
+"के तपाईं वास्तवमै यो एप्लेट हटाउन चाहानुहुन्छ? यो कार्य पूर्ववत गर्न सकिदैन।"
 
 #: src/panel/settings/settings_panel_dialogs.vala:89
 msgid "Don't ask me again"
-msgstr ""
+msgstr "मलाई फेरि नसोध्नुहोस्"
 
 #: src/panel/settings/settings_panel_dialogs.vala:98
 msgid "Remove applet"
-msgstr ""
+msgstr "एप्लेट हटाउनुहोस्"
 
 #: src/panel/settings/settings_panel_dialogs.vala:99
 msgid "Keep applet"
-msgstr ""
+msgstr "एप्लेट राख्नुहोस्"
 
 #: src/panel/settings/settings_main.vala:57
 msgid "Appearance"
