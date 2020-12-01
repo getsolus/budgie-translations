@@ -7,11 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: budgie-desktop 10.5.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-25 21:57+0200\n"
+"POT-Creation-Date: 2020-12-01 23:16+0200\n"
 "PO-Revision-Date: 2020-12-01 20:55+0000\n"
 "Last-Translator: Terrance Brown <terranceb@gmail.com>\n"
-"Language-Team: Afrikaans <http://translate.getsol.us/projects/budgie-desktop/"
-"translations/af/>\n"
+"Language-Team: Afrikaans <http://translate.getsol.us/projects/budgie-desktop/translations/af/>\n"
 "Language: af\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -147,9 +146,7 @@ msgstr "Skakel Nagligmodus uit wanneer vensters volskerm is"
 
 #: src/panel/settings/settings_wm.vala:58
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
-msgstr ""
-"Skakel Nagligmodus uit as 'n venster volskerm is. Heraktiveer wanneer u "
-"volskerm verlaat."
+msgstr "Skakel Nagligmodus uit as 'n venster volskerm is. Heraktiveer wanneer u volskerm verlaat."
 
 #: src/panel/settings/settings_wm.vala:63
 msgid "Automatic tiling"
@@ -157,9 +154,7 @@ msgstr "Outomatiese teël"
 
 #: src/panel/settings/settings_wm.vala:64
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr ""
-"Windows sal outomaties teël wanneer dit aan die bokant van die skerm of in "
-"die uithoeke gesleep word."
+msgstr "Windows sal outomaties teël wanneer dit aan die bokant van die skerm of in die uithoeke gesleep word."
 
 #: src/panel/settings/settings_wm.vala:69
 msgid "Enable window focus change on mouse enter and leave"
@@ -167,9 +162,7 @@ msgstr "Aktiveer die verandering van die vensterfokus op muis betree en verlaat"
 
 #: src/panel/settings/settings_wm.vala:70
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
-msgstr ""
-"Laat vensterfokus toe om toe te pas wanneer die muis die venster binnegaan "
-"en onfokus as die muis die venster verlaat."
+msgstr "Laat vensterfokus toe om toe te pas wanneer die muis die venster binnegaan en onfokus as die muis die venster verlaat."
 
 #: src/panel/settings/settings_wm.vala:76
 msgid "Disable unredirection of windows"
@@ -177,9 +170,7 @@ msgstr "Deaktiveer die omleiding van vensters"
 
 #: src/panel/settings/settings_wm.vala:77
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr ""
-"Hierdie opsie is vir gevorderde gebruikers. Gebruik dit as u probleme het "
-"met grafiese of prestasieprobleme met toegewyde GPU's."
+msgstr "Hierdie opsie is vir gevorderde gebruikers. Gebruik dit as u probleme het met grafiese of prestasieprobleme met toegewyde GPU's."
 
 #: src/panel/settings/settings_wm.vala:82
 msgid "Show all windows in tab switcher"
@@ -187,9 +178,7 @@ msgstr "Wys alle vensters in die oortjie-skakelaar"
 
 #: src/panel/settings/settings_wm.vala:83
 msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
-msgstr ""
-"Alle oortjies sal vertoon word in oortjiewisselaar ongeag die werkruimte in "
-"gebruik."
+msgstr "Alle oortjies sal vertoon word in oortjiewisselaar ongeag die werkruimte in gebruik."
 
 #: src/panel/settings/settings_wm.vala:90
 msgid "Right (standard)"
@@ -246,9 +235,7 @@ msgstr "Ingeboude tema"
 
 #: src/panel/settings/settings_style.vala:79
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr ""
-"As dit geaktiveer is, sal die ingeboude tema die styl van die werkskerm se "
-"komponent oorheers"
+msgstr "As dit geaktiveer is, sal die ingeboude tema die styl van die werkskerm se komponent oorheers"
 
 #: src/panel/settings/settings_style.vala:86
 msgid "Animations"
@@ -288,9 +275,7 @@ msgstr "Laat die volume hoër as 100% toe"
 
 #: src/panel/settings/settings_raven.vala:68
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
-msgstr ""
-"Laat die volume toe via Klankinstellings sowel as die Klankuitvoer Widget in "
-"Raven tot 150%."
+msgstr "Laat die volume toe via Klankinstellings sowel as die Klankuitvoer Widget in Raven tot 150%."
 
 #: src/panel/settings/settings_raven.vala:72
 msgid "Enable display of week numbers in Calendar"
@@ -322,8 +307,7 @@ msgstr "Wys Mikrofooninvoer-Widget"
 
 #: src/panel/settings/settings_raven.vala:91
 msgid "Shows or hides the Microphone Input Widget in Raven's Applets section."
-msgstr ""
-"Toon of verskuil die Mikrofoon-invoer-widget in Raven se Applete afdeling."
+msgstr "Toon of verskuil die Mikrofoon-invoer-widget in Raven se Applete afdeling."
 
 #: src/panel/settings/settings_raven.vala:96
 msgid "Show Media Playback Controls Widget"
@@ -331,9 +315,7 @@ msgstr "Wys Media Terugspeelkontroles Widget"
 
 #: src/panel/settings/settings_raven.vala:97
 msgid "Shows or hides the Media Playback Controls (MPRIS) Widget in Raven's Applets section."
-msgstr ""
-"Toon of verskuil die Media Speel Kontrole (MPRIS) Widget in Raven se Applete "
-"afdeling."
+msgstr "Toon of verskuil die Media Speel Kontrole (MPRIS) Widget in Raven se Applete afdeling."
 
 #: src/panel/settings/settings_raven.vala:102
 msgid "Show Power Strip"
@@ -355,7 +337,7 @@ msgstr "Kies 'n applet"
 msgid "Cancel"
 msgstr "Kanselleer"
 
-#: src/panel/settings/settings_desktop.vala:51
+#: src/panel/settings/settings_desktop.vala:52
 msgid "Desktop"
 msgstr "Werkskerm"
 
@@ -369,79 +351,95 @@ msgstr "Werkskerm"
 #. Update our switches on change
 #. Using some desktop type, set up some universal options then implementation-specific
 #. Universal show
-#: src/panel/settings/settings_desktop.vala:76
+#: src/panel/settings/settings_desktop.vala:77
 msgid "Desktop Icons"
 msgstr "Werkskerm Ikone"
 
-#: src/panel/settings/settings_desktop.vala:77
+#: src/panel/settings/settings_desktop.vala:78
 msgid "Control whether to allow icons on the desktop."
 msgstr "Bepaal of ikone op die werkskerm toegelaat moet word."
 
 #. DesktopFolder doesn't support fancy options like showing home folder, trash, or active mounts
 #. DesktopType is the only one that doesn't support showing mounts
 #. Switcher to show or hide active mounts
-#: src/panel/settings/settings_desktop.vala:86
+#: src/panel/settings/settings_desktop.vala:87
 msgid "Active Mounts"
 msgstr "Aktiewe Monteeringe"
 
-#: src/panel/settings/settings_desktop.vala:87
+#: src/panel/settings/settings_desktop.vala:88
 msgid "Show all active mounts on the desktop."
 msgstr "Toon alle aktiewe monteeringe op die werkskerm."
 
 #. Switcher to show or hide our Home folder
-#: src/panel/settings/settings_desktop.vala:94
+#: src/panel/settings/settings_desktop.vala:95
 msgid "Home directory"
 msgstr "Tuisgids"
 
-#: src/panel/settings/settings_desktop.vala:95
+#: src/panel/settings/settings_desktop.vala:96
 msgid "Add a shortcut to your home directory on the desktop."
 msgstr "Voeg 'n kortpad by u tuisgids op die werkskerm."
 
 #. Switcher to show or hide a shortcut to Trash
-#: src/panel/settings/settings_desktop.vala:102
+#: src/panel/settings/settings_desktop.vala:103
 msgid "Trash"
 msgstr "Asblik"
 
-#: src/panel/settings/settings_desktop.vala:103
+#: src/panel/settings/settings_desktop.vala:104
 msgid "Add a shortcut to the Trash directory on the desktop."
 msgstr "Voeg 'n kortpad na die Asblik op die werkskerm."
 
 #. DesktopType doesn't support icon size changing. Nemo might but needs validation.
+#. Click Policy combo box
 #. Icon Size combo box
-#: src/panel/settings/settings_desktop.vala:112
+#: src/panel/settings/settings_desktop.vala:116
 msgid "Icon Size"
 msgstr "Ikoongrootte"
 
-#: src/panel/settings/settings_desktop.vala:113
+#: src/panel/settings/settings_desktop.vala:117
 msgid "Set the desired size of icons on the desktop."
 msgstr "Stel die gewenste grootte van ikone op die werkskerm."
 
-#: src/panel/settings/settings_desktop.vala:144
+#: src/panel/settings/settings_desktop.vala:148
 msgid "Number of virtual desktops"
 msgstr "Aantal virtuele werkskerme"
 
-#: src/panel/settings/settings_desktop.vala:145
+#: src/panel/settings/settings_desktop.vala:149
 msgid "Number of virtual desktops / workspaces to create automatically on startup."
-msgstr ""
-"Aantal virtuele werkskerme / werkruimtes wat outomaties by opstart geskep "
-"moet word."
+msgstr "Aantal virtuele werkskerme / werkruimtes wat outomaties by opstart geskep moet word."
 
-#: src/panel/settings/settings_desktop.vala:262
+#: src/panel/settings/settings_desktop.vala:217
+msgid "Single"
+msgstr ""
+
+#. If the click policy is to double click
+#: src/panel/settings/settings_desktop.vala:221
+msgid "Double"
+msgstr ""
+
+#: src/panel/settings/settings_desktop.vala:236
+msgid "Click Policy"
+msgstr ""
+
+#: src/panel/settings/settings_desktop.vala:237
+msgid "Click Policy determines if we should open items on a single or double click."
+msgstr ""
+
+#: src/panel/settings/settings_desktop.vala:289
 msgid "Normal"
 msgstr "Normaal"
 
 #. Small
-#: src/panel/settings/settings_desktop.vala:265
+#: src/panel/settings/settings_desktop.vala:292
 msgid "Small"
 msgstr "Klein"
 
 #. Large
-#: src/panel/settings/settings_desktop.vala:267
+#: src/panel/settings/settings_desktop.vala:294
 msgid "Large"
 msgstr "Groot"
 
 #. Massive
-#: src/panel/settings/settings_desktop.vala:269
+#: src/panel/settings/settings_desktop.vala:296
 msgid "Massive"
 msgstr "Massief"
 
@@ -577,9 +575,7 @@ msgstr "Styliseer areas"
 
 #: src/panel/settings/settings_panel.vala:267
 msgid "Adds a hint to the panel so that each of the panel's three main areas may be themed differently."
-msgstr ""
-"Voeg 'n tint by die paneel sodat elkeen van die drie hoofareas van die "
-"paneel anders kan wees."
+msgstr "Voeg 'n tint by die paneel sodat elkeen van die drie hoofareas van die paneel anders kan wees."
 
 #: src/panel/settings/settings_panel.vala:274
 msgid "Dock mode"
@@ -587,9 +583,7 @@ msgstr "Dok mode"
 
 #: src/panel/settings/settings_panel.vala:275
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
-msgstr ""
-"As dit in die dokmodus is, gebruik die paneel die minste moontlike ruimte om "
-"waardevolle skermlandgoed vry te stel"
+msgstr "As dit in die dokmodus is, gebruik die paneel die minste moontlike ruimte om waardevolle skermlandgoed vry te stel"
 
 #: src/panel/settings/settings_autostart.vala:134
 msgid "Untitled"
@@ -664,8 +658,7 @@ msgstr "Venstertitels"
 
 #: src/panel/settings/settings_fonts.vala:44
 msgid "Set the font used in the titlebars of applications."
-msgstr ""
-"Stel die lettertipe in wat in die titelbalk van toepassings gebruik word."
+msgstr "Stel die lettertipe in wat in die titelbalk van toepassings gebruik word."
 
 #: src/panel/settings/settings_fonts.vala:50
 msgid "Documents"
@@ -681,8 +674,7 @@ msgstr "Koppelvlak"
 
 #: src/panel/settings/settings_fonts.vala:58
 msgid "Set the primary font used by application controls."
-msgstr ""
-"Stel die primêre lettertipe in wat gebruik word deur toepassings kontroles."
+msgstr "Stel die primêre lettertipe in wat gebruik word deur toepassings kontroles."
 
 #: src/panel/settings/settings_fonts.vala:64
 msgid "Monospace"
@@ -690,8 +682,7 @@ msgstr "Monospace"
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr ""
-"Stel die vaste-wydte font wat gebruik word deur teks dominante toepassings."
+msgstr "Stel die vaste-wydte font wat gebruik word deur teks dominante toepassings."
 
 #: src/panel/settings/settings_fonts.vala:71
 msgid "Text scaling"
@@ -1326,9 +1317,7 @@ msgstr "Budgie Paneel"
 
 #: src/panel/budgie-panel.desktop.in.h:2
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
-msgstr ""
-"Begin ander toepassings en bied verskillende programme om vensters te "
-"bestuur, die tyd te wys, ens."
+msgstr "Begin ander toepassings en bied verskillende programme om vensters te bestuur, die tyd te wys, ens."
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
 msgid "Change desktop appearance and behavior"

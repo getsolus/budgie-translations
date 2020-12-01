@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: budgie-desktop 10.5.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-25 21:57+0200\n"
+"POT-Creation-Date: 2020-12-01 23:16+0200\n"
 "PO-Revision-Date: 2020-11-23 18:00+0000\n"
 "Last-Translator: Manjot Singh <manjotsinghpunjab@gmail.com>\n"
 "Language-Team: Hindi <http://translate.getsol.us/projects/budgie-desktop/translations/hi/>\n"
@@ -337,7 +337,7 @@ msgstr "एक एप्लेट चुनें"
 msgid "Cancel"
 msgstr "रद्द करें"
 
-#: src/panel/settings/settings_desktop.vala:51
+#: src/panel/settings/settings_desktop.vala:52
 msgid "Desktop"
 msgstr "डेस्कटॉप"
 
@@ -351,77 +351,95 @@ msgstr "डेस्कटॉप"
 #. Update our switches on change
 #. Using some desktop type, set up some universal options then implementation-specific
 #. Universal show
-#: src/panel/settings/settings_desktop.vala:76
+#: src/panel/settings/settings_desktop.vala:77
 msgid "Desktop Icons"
 msgstr "डेस्कटॉप आइकन"
 
-#: src/panel/settings/settings_desktop.vala:77
+#: src/panel/settings/settings_desktop.vala:78
 msgid "Control whether to allow icons on the desktop."
 msgstr "नियंत्रित करें कि डेस्कटॉप पर आइकन की अनुमति दें या नहीं."
 
 #. DesktopFolder doesn't support fancy options like showing home folder, trash, or active mounts
 #. DesktopType is the only one that doesn't support showing mounts
 #. Switcher to show or hide active mounts
-#: src/panel/settings/settings_desktop.vala:86
+#: src/panel/settings/settings_desktop.vala:87
 msgid "Active Mounts"
 msgstr "सक्रिय माउंट"
 
-#: src/panel/settings/settings_desktop.vala:87
+#: src/panel/settings/settings_desktop.vala:88
 msgid "Show all active mounts on the desktop."
 msgstr "डेस्कटॉप पर सभी सक्रिय माउंट दिखाएं."
 
 #. Switcher to show or hide our Home folder
-#: src/panel/settings/settings_desktop.vala:94
+#: src/panel/settings/settings_desktop.vala:95
 msgid "Home directory"
 msgstr "होम डायरेक्टरी"
 
-#: src/panel/settings/settings_desktop.vala:95
+#: src/panel/settings/settings_desktop.vala:96
 msgid "Add a shortcut to your home directory on the desktop."
 msgstr "डेस्कटॉप पर अपने होम डायरेक्टरी में एक शॉर्टकट जोड़ें."
 
 #. Switcher to show or hide a shortcut to Trash
-#: src/panel/settings/settings_desktop.vala:102
+#: src/panel/settings/settings_desktop.vala:103
 msgid "Trash"
 msgstr "कचरा"
 
-#: src/panel/settings/settings_desktop.vala:103
+#: src/panel/settings/settings_desktop.vala:104
 msgid "Add a shortcut to the Trash directory on the desktop."
 msgstr "डेस्कटॉप पर ट्रैश डायरेक्टरी में शॉर्टकट जोड़ें."
 
 #. DesktopType doesn't support icon size changing. Nemo might but needs validation.
+#. Click Policy combo box
 #. Icon Size combo box
-#: src/panel/settings/settings_desktop.vala:112
+#: src/panel/settings/settings_desktop.vala:116
 msgid "Icon Size"
 msgstr "आइकन का आकार"
 
-#: src/panel/settings/settings_desktop.vala:113
+#: src/panel/settings/settings_desktop.vala:117
 msgid "Set the desired size of icons on the desktop."
 msgstr "डेस्कटॉप पर माउस के वांछित आकार को सेट करें."
 
-#: src/panel/settings/settings_desktop.vala:144
+#: src/panel/settings/settings_desktop.vala:148
 msgid "Number of virtual desktops"
 msgstr "वर्चुअल डेस्कटॉप की संख्या"
 
-#: src/panel/settings/settings_desktop.vala:145
+#: src/panel/settings/settings_desktop.vala:149
 msgid "Number of virtual desktops / workspaces to create automatically on startup."
 msgstr "स्टार्टअप पर स्वचालित रूप से बनाने के लिए वर्चुअल डेस्कटॉप / वर्कस्पेस की संख्या."
 
-#: src/panel/settings/settings_desktop.vala:262
+#: src/panel/settings/settings_desktop.vala:217
+msgid "Single"
+msgstr ""
+
+#. If the click policy is to double click
+#: src/panel/settings/settings_desktop.vala:221
+msgid "Double"
+msgstr ""
+
+#: src/panel/settings/settings_desktop.vala:236
+msgid "Click Policy"
+msgstr ""
+
+#: src/panel/settings/settings_desktop.vala:237
+msgid "Click Policy determines if we should open items on a single or double click."
+msgstr ""
+
+#: src/panel/settings/settings_desktop.vala:289
 msgid "Normal"
 msgstr "आम"
 
 #. Small
-#: src/panel/settings/settings_desktop.vala:265
+#: src/panel/settings/settings_desktop.vala:292
 msgid "Small"
 msgstr "छोटा"
 
 #. Large
-#: src/panel/settings/settings_desktop.vala:267
+#: src/panel/settings/settings_desktop.vala:294
 msgid "Large"
 msgstr "बड़ा"
 
 #. Massive
-#: src/panel/settings/settings_desktop.vala:269
+#: src/panel/settings/settings_desktop.vala:296
 msgid "Massive"
 msgstr "विशाल"
 
