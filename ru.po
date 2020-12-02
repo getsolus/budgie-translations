@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-01 23:16+0200\n"
 "PO-Revision-Date: 2020-12-02 09:44+0000\n"
-"Last-Translator: Pavel Datsenko <pavel.datsenko@gmail.com>\n"
+"Last-Translator: Alexander Vorobyev <avorobyev@protonmail.com>\n"
 "Language-Team: Russian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ru/>\n"
 "Language: ru\n"
@@ -380,7 +380,7 @@ msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:88
 msgid "Show all active mounts on the desktop."
-msgstr "Показать все подключённые накопители на рабочем столе."
+msgstr "Показывать монтированные накопители на рабочем столе"
 
 #. Switcher to show or hide our Home folder
 #: src/panel/settings/settings_desktop.vala:95
