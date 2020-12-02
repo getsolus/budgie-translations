@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-01 23:16+0200\n"
 "PO-Revision-Date: 2020-12-02 22:41+0000\n"
-"Last-Translator: Cyril Damas <jpdamas15@gmail.com>\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese (Portugal) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/pt_PT/>\n"
 "Language: pt_PT\n"
@@ -415,12 +415,12 @@ msgstr "Número de ambientes de trabalho virtuais / áreas de trabalho para cria
 
 #: src/panel/settings/settings_desktop.vala:217
 msgid "Single"
-msgstr ""
+msgstr "Único"
 
 #. If the click policy is to double click
 #: src/panel/settings/settings_desktop.vala:221
 msgid "Double"
-msgstr ""
+msgstr "Duplo"
 
 #: src/panel/settings/settings_desktop.vala:236
 msgid "Click Policy"
@@ -429,6 +429,8 @@ msgstr "Política de clique"
 #: src/panel/settings/settings_desktop.vala:237
 msgid "Click Policy determines if we should open items on a single or double click."
 msgstr ""
+"A política de clique determina se devemos abrir os itens com um único ou "
+"duplo clique."
 
 #: src/panel/settings/settings_desktop.vala:289
 msgid "Normal"
