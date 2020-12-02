@@ -11,9 +11,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-01 23:16+0200\n"
-"PO-Revision-Date: 2020-11-27 14:37+0000\n"
+"PO-Revision-Date: 2020-12-02 13:50+0000\n"
 "Last-Translator: Andrian Roshandy <a.nomansky001@gmail.com>\n"
-"Language-Team: Indonesian <http://translate.getsol.us/projects/budgie-desktop/translations/id/>\n"
+"Language-Team: Indonesian <http://translate.getsol.us/projects/"
+"budgie-desktop/translations/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -412,20 +413,22 @@ msgstr "Jumlah desktop virtual / ruang kerja yang akan dibuat secara otomatis ke
 
 #: src/panel/settings/settings_desktop.vala:217
 msgid "Single"
-msgstr ""
+msgstr "Sekali"
 
 #. If the click policy is to double click
 #: src/panel/settings/settings_desktop.vala:221
 msgid "Double"
-msgstr ""
+msgstr "Dua kali"
 
 #: src/panel/settings/settings_desktop.vala:236
 msgid "Click Policy"
-msgstr ""
+msgstr "Aturan Klik"
 
 #: src/panel/settings/settings_desktop.vala:237
 msgid "Click Policy determines if we should open items on a single or double click."
 msgstr ""
+"Aturan Klik menentukan apakah harus membuka item dengan sekali atau dua kali "
+"klik."
 
 #: src/panel/settings/settings_desktop.vala:289
 msgid "Normal"
@@ -644,17 +647,14 @@ msgid "Autostart apps"
 msgstr "Aplikasi mulai otomatis"
 
 #: src/panel/settings/settings_autostart.vala:506
-#, fuzzy
 msgid "Add Application"
-msgstr "Aplikasi"
+msgstr "Tambahkan Aplikasi"
 
 #: src/panel/settings/settings_autostart.vala:508
-#, fuzzy
 msgid "Add Command"
-msgstr "Perintah"
+msgstr "Tambahkan Perintah"
 
 #: src/panel/settings/settings_fonts.vala:32
-#, fuzzy
 msgid "Fonts"
 msgstr "Fon"
 
@@ -688,9 +688,9 @@ msgid "Monospace"
 msgstr "Monospace"
 
 #: src/panel/settings/settings_fonts.vala:65
-#, fuzzy
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr "Setel fon lebar-seragam yang digunakan oleh aplikasi dominan teks."
+msgstr ""
+"Setel fon lebar-tetap yang digunakan oleh aplikasi yang dominan berupa teks."
 
 #: src/panel/settings/settings_fonts.vala:71
 msgid "Text scaling"
@@ -790,9 +790,8 @@ msgid "Caffeine Mode"
 msgstr "Mode Caffeine"
 
 #: src/daemon/menus.vala:51
-#, fuzzy
 msgid "System Settings"
-msgstr "Pengaturan"
+msgstr "Pengaturan Sistem"
 
 #: src/daemon/endsession.vala:157
 msgid "Log out"
@@ -1044,8 +1043,11 @@ msgstr "Timer (menit)"
 
 #. there's already an active tray, create an informative icon with a popover
 #: src/applets/tray/TrayApplet.vala:114
+#, fuzzy
 msgid "Only one instance of the System Tray can be active at a time."
 msgstr ""
+"Hanya satu instansiasi dari Nampan Indikator yang dapat aktif dalam satu "
+"waktu."
 
 #: src/applets/tray/TrayApplet.vala:140
 msgid "The System Tray failed to initialize."
@@ -1148,7 +1150,7 @@ msgstr "Pindah ke Ruang Kerja %i"
 #: src/applets/icon-tasklist/IconPopover.vala:545
 #, fuzzy
 msgid "Unmaximize"
-msgstr "Batal Maksimalkan"
+msgstr "Batal Perbesar"
 
 #: src/applets/icon-tasklist/IconPopover.vala:604
 msgid "Close Window"
@@ -1337,9 +1339,8 @@ msgid "User Indicator"
 msgstr "Indikator Pengguna"
 
 #: src/applets/lock-keys/LockKeysApplet.plugin.in.h:1
-#, fuzzy
 msgid "Lock Keys Indicator"
-msgstr "Indikator Papan Tik"
+msgstr "Indikator Tuts Kunci"
 
 #: src/applets/status/StatusApplet.plugin.in.h:1
 msgid "Status Indicator"
