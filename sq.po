@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: budgie-desktop 10.5.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-01 23:16+0200\n"
-"PO-Revision-Date: 2020-12-02 13:50+0000\n"
+"PO-Revision-Date: 2020-12-02 22:41+0000\n"
 "Last-Translator: Algent Albrahimi <algent@protonmail.com>\n"
 "Language-Team: Albanian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/sq/>\n"
@@ -188,7 +188,7 @@ msgstr "Djathtas (standard)"
 #: src/panel/settings/settings_wm.vala:92
 #: src/panel/settings/settings_panel.vala:181 src/raven/raven.vala:33
 msgid "Left"
-msgstr "Majtë"
+msgstr "Majtas"
 
 #: src/panel/settings/settings_style.vala:32
 msgid "Style"
@@ -252,11 +252,11 @@ msgstr "Lart majtas"
 
 #: src/panel/settings/settings_style.vala:206
 msgid "Bottom Left"
-msgstr "Fund majtas"
+msgstr "Poshtë majtas"
 
 #: src/panel/settings/settings_style.vala:208
 msgid "Bottom Right"
-msgstr "Fund djathtas"
+msgstr "Poshtë djathtas"
 
 #: src/panel/settings/settings_style.vala:211
 msgid "Top Right"
@@ -419,12 +419,12 @@ msgstr "I dyfishtë"
 
 #: src/panel/settings/settings_desktop.vala:236
 msgid "Click Policy"
-msgstr "Metoda e klikimit"
+msgstr "Rregulli i klikimit"
 
 #: src/panel/settings/settings_desktop.vala:237
 msgid "Click Policy determines if we should open items on a single or double click."
 msgstr ""
-"Metoda e klikimeve përcakton nëse duhet t'i hapim artikujt me një klik të "
+"Rregulli i klikimit përcakton nëse duhet t'i hapim artikujt me një klik të "
 "vetëm ose të dyfishtë."
 
 #: src/panel/settings/settings_desktop.vala:289
@@ -444,7 +444,7 @@ msgstr "Gjërë"
 #. Massive
 #: src/panel/settings/settings_desktop.vala:296
 msgid "Massive"
-msgstr "Masiv"
+msgstr "Masive"
 
 #: src/panel/settings/settings_panel.vala:82 src/raven/main_view.vala:57
 msgid "Applets"
