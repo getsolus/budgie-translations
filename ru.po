@@ -14,8 +14,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-01 23:16+0200\n"
-"PO-Revision-Date: 2020-12-02 09:44+0000\n"
-"Last-Translator: Alexander Vorobyev <avorobyev@protonmail.com>\n"
+"PO-Revision-Date: 2020-12-02 13:50+0000\n"
+"Last-Translator: Pavel Datsenko <pavel.datsenko@gmail.com>\n"
 "Language-Team: Russian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ru/>\n"
 "Language: ru\n"
@@ -380,7 +380,7 @@ msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:88
 msgid "Show all active mounts on the desktop."
-msgstr "Показывать монтированные накопители на рабочем столе"
+msgstr "Показывает все активные точки монтирования на рабочем столе."
 
 #. Switcher to show or hide our Home folder
 #: src/panel/settings/settings_desktop.vala:95
@@ -409,7 +409,7 @@ msgstr "Размер значков"
 
 #: src/panel/settings/settings_desktop.vala:117
 msgid "Set the desired size of icons on the desktop."
-msgstr "Установить размер значков на рабочем столе."
+msgstr "Установить желаемый размер значков на рабочем столе."
 
 #: src/panel/settings/settings_desktop.vala:148
 msgid "Number of virtual desktops"
@@ -1315,7 +1315,7 @@ msgstr "Открывать новое окно нажатием средней �
 
 #: src/applets/icon-tasklist/settings.ui.h:7
 msgid "Require a double-click to launch new window"
-msgstr "Требовать двойное нажатие для запуска нового окна"
+msgstr "Требовать двойной щелчок для запуска нового окна"
 
 #: src/session/budgie-desktop.session.in.in.h:1
 #: src/session/budgie-desktop.desktop.in.in.h:1
