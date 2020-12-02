@@ -10,9 +10,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-01 23:16+0200\n"
-"PO-Revision-Date: 2020-11-27 14:37+0000\n"
+"PO-Revision-Date: 2020-12-02 13:50+0000\n"
 "Last-Translator: Yoni Banai <ink.bug@gmail.com>\n"
-"Language-Team: Hebrew <http://translate.getsol.us/projects/budgie-desktop/translations/he/>\n"
+"Language-Team: Hebrew <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -411,20 +412,20 @@ msgstr "מספר שולחנות עבודה / חללי עבודה ויטואלי�
 
 #: src/panel/settings/settings_desktop.vala:217
 msgid "Single"
-msgstr ""
+msgstr "בודדת"
 
 #. If the click policy is to double click
 #: src/panel/settings/settings_desktop.vala:221
 msgid "Double"
-msgstr ""
+msgstr "כפולה"
 
 #: src/panel/settings/settings_desktop.vala:236
 msgid "Click Policy"
-msgstr ""
+msgstr "מדיניות לחיצה"
 
 #: src/panel/settings/settings_desktop.vala:237
 msgid "Click Policy determines if we should open items on a single or double click."
-msgstr ""
+msgstr "מדיניות לחיצה מגדירה האם לפתוח פריטים בלחיצה בודדת או כפולה."
 
 #: src/panel/settings/settings_desktop.vala:289
 msgid "Normal"
