@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-01 23:16+0200\n"
-"PO-Revision-Date: 2020-12-02 13:50+0000\n"
+"PO-Revision-Date: 2020-12-04 20:03+0000\n"
 "Last-Translator: Pavel Datsenko <pavel.datsenko@gmail.com>\n"
 "Language-Team: Russian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/ru/>\n"
@@ -376,7 +376,7 @@ msgstr "Управляет возможностью использовать я�
 #. Switcher to show or hide active mounts
 #: src/panel/settings/settings_desktop.vala:87
 msgid "Active Mounts"
-msgstr ""
+msgstr "Смонтированные устройства"
 
 #: src/panel/settings/settings_desktop.vala:88
 msgid "Show all active mounts on the desktop."
@@ -389,7 +389,7 @@ msgstr "Домашняя папка"
 
 #: src/panel/settings/settings_desktop.vala:96
 msgid "Add a shortcut to your home directory on the desktop."
-msgstr "Добавляет ярлык домашней папки на рабочий стол."
+msgstr "Добавить ярлык домашней папки на рабочий стол."
 
 #. Switcher to show or hide a shortcut to Trash
 #: src/panel/settings/settings_desktop.vala:103
@@ -398,7 +398,7 @@ msgstr "Корзина"
 
 #: src/panel/settings/settings_desktop.vala:104
 msgid "Add a shortcut to the Trash directory on the desktop."
-msgstr "Добавляет ярлык корзины на рабочий стол."
+msgstr "Добавить ярлык корзины на рабочий стол."
 
 #. DesktopType doesn't support icon size changing. Nemo might but needs validation.
 #. Click Policy combo box
@@ -421,20 +421,22 @@ msgstr "Количество создаваемых при загрузке ви
 
 #: src/panel/settings/settings_desktop.vala:217
 msgid "Single"
-msgstr ""
+msgstr "Одиночный"
 
 #. If the click policy is to double click
 #: src/panel/settings/settings_desktop.vala:221
 msgid "Double"
-msgstr ""
+msgstr "Двойной"
 
 #: src/panel/settings/settings_desktop.vala:236
 msgid "Click Policy"
-msgstr ""
+msgstr "Политика щелчков"
 
 #: src/panel/settings/settings_desktop.vala:237
 msgid "Click Policy determines if we should open items on a single or double click."
 msgstr ""
+"Политика щелчков определяет, следует ли открывать элементы одиночным или "
+"двойным щелчком мыши."
 
 #: src/panel/settings/settings_desktop.vala:289
 msgid "Normal"
@@ -657,9 +659,8 @@ msgid "Add Application"
 msgstr "Добавить приложение"
 
 #: src/panel/settings/settings_autostart.vala:508
-#, fuzzy
 msgid "Add Command"
-msgstr "Команда"
+msgstr "Добавить команду"
 
 #: src/panel/settings/settings_fonts.vala:32
 msgid "Fonts"
