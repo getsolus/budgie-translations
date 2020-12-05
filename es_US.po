@@ -9,9 +9,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-01 23:16+0200\n"
-"PO-Revision-Date: 2020-11-19 00:14+0000\n"
+"PO-Revision-Date: 2021-01-15 09:27+0000\n"
 "Last-Translator: Evan Maddock <maddock.evan@vivaldi.net>\n"
-"Language-Team: Spanish (American) <http://translate.getsol.us/projects/budgie-desktop/translations/es_US/>\n"
+"Language-Team: Spanish (American) <http://translate.getsol.us/projects/"
+"budgie-desktop/translations/es_US/>\n"
 "Language: es_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -98,7 +99,7 @@ msgstr "Apariencia"
 
 #: src/panel/settings/settings_main.vala:58
 msgid "Panels"
-msgstr "Páneles"
+msgstr "Paneles"
 
 #: src/panel/settings/settings_main.vala:59
 msgid "Session"
@@ -107,7 +108,7 @@ msgstr "Sesión"
 #: src/panel/settings/settings_main.vala:68 src/daemon/menus.vala:46
 #: src/panel/budgie-desktop-settings.desktop.in.h:1
 msgid "Budgie Desktop Settings"
-msgstr "Configuraciónes del Escritorio Budgie"
+msgstr "Configuración del Escritorio Budgie"
 
 #: src/panel/settings/settings_main.vala:98
 msgid "Create new panel"
@@ -123,15 +124,18 @@ msgstr "Adjuntar cuadros de diálogo modales a ventanas"
 
 #: src/panel/settings/settings_wm.vala:40
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr "Los diálogos modales se adjuntarán a la ventana principal y se moverán juntos cuando se arrastra."
+msgstr ""
+"Los diálogos modales se adjuntarán a la ventana principal y se moverán "
+"juntos cuando se les arrastre."
 
 #: src/panel/settings/settings_wm.vala:45
 msgid "Button layout"
-msgstr "Diseño de boton"
+msgstr "Diseño de botón"
 
 #: src/panel/settings/settings_wm.vala:46
 msgid "Change the layout of buttons in application titlebars."
-msgstr "Cambiar el diseño de los botones en las barras de titulo de las aplicaciones."
+msgstr ""
+"Cambiar el diseño de los botones en las barras de título de las aplicaciones."
 
 #: src/panel/settings/settings_wm.vala:51
 msgid "Center new windows on screen"
@@ -394,11 +398,11 @@ msgstr "Agregar un acceso directo a la Papelera en el escritorio."
 #. Icon Size combo box
 #: src/panel/settings/settings_desktop.vala:116
 msgid "Icon Size"
-msgstr "Espaciado de iconos"
+msgstr "Tamaño de íconos"
 
 #: src/panel/settings/settings_desktop.vala:117
 msgid "Set the desired size of icons on the desktop."
-msgstr "Controlar el espaciado de lanzadores e íconos en el escritorio."
+msgstr "Establecer el tamaño deseado de los íconos en el escritorio."
 
 #: src/panel/settings/settings_desktop.vala:148
 msgid "Number of virtual desktops"
@@ -410,20 +414,22 @@ msgstr "Número de escritorios virtuales / áreas de trabajo para crear automát
 
 #: src/panel/settings/settings_desktop.vala:217
 msgid "Single"
-msgstr ""
+msgstr "Solo"
 
 #. If the click policy is to double click
 #: src/panel/settings/settings_desktop.vala:221
 msgid "Double"
-msgstr ""
+msgstr "Doble"
 
 #: src/panel/settings/settings_desktop.vala:236
 msgid "Click Policy"
-msgstr ""
+msgstr "Política de clic"
 
 #: src/panel/settings/settings_desktop.vala:237
 msgid "Click Policy determines if we should open items on a single or double click."
 msgstr ""
+"La política de clic determina si debemos abrir elementos con un solo clic o "
+"con un doble clic."
 
 #: src/panel/settings/settings_desktop.vala:289
 msgid "Normal"
@@ -450,7 +456,7 @@ msgstr "Applets"
 
 #: src/panel/settings/settings_panel.vala:83
 msgid "Settings"
-msgstr "Configuraciones"
+msgstr "Configuración"
 
 #: src/panel/settings/settings_panel.vala:85
 msgid "Remove Panel"
@@ -462,35 +468,35 @@ msgstr "Quitar este panel de la pantalla"
 
 #: src/panel/settings/settings_panel.vala:123
 msgid "Top Dock"
-msgstr "Dock Superior"
+msgstr "Estante superior"
 
 #: src/panel/settings/settings_panel.vala:125
 msgid "Right Dock"
-msgstr "Dock Derecho"
+msgstr "Estante derecho"
 
 #: src/panel/settings/settings_panel.vala:127
 msgid "Left Dock"
-msgstr "Dock Izquiero"
+msgstr "Estante izquierdo"
 
 #: src/panel/settings/settings_panel.vala:129
 msgid "Bottom Dock"
-msgstr "Dock Inferior"
+msgstr "Estante inferior"
 
 #: src/panel/settings/settings_panel.vala:134
 msgid "Top Panel"
-msgstr "Panel Superior"
+msgstr "Panel superior"
 
 #: src/panel/settings/settings_panel.vala:136
 msgid "Right Panel"
-msgstr "Panel Derecho"
+msgstr "Panel derecho"
 
 #: src/panel/settings/settings_panel.vala:138
 msgid "Left Panel"
-msgstr "Panel Izquierdo"
+msgstr "Panel izquierdo"
 
 #: src/panel/settings/settings_panel.vala:140
 msgid "Bottom Panel"
-msgstr "Panel Inferior"
+msgstr "Panel inferior"
 
 #: src/panel/settings/settings_panel.vala:177
 msgid "Top"
@@ -498,7 +504,7 @@ msgstr "Arriba"
 
 #: src/panel/settings/settings_panel.vala:179 src/raven/raven.vala:35
 msgid "Right"
-msgstr "Derecho"
+msgstr "Derecha"
 
 #: src/panel/settings/settings_panel.vala:183
 msgid "Bottom"
@@ -552,7 +558,9 @@ msgstr "Esconder automáticamente"
 
 #: src/panel/settings/settings_panel.vala:246
 msgid "When set, this panel will hide from view to maximize screen estate"
-msgstr "Cuando se activa, este panel se ocultara para maximizar el estado de la pantalla"
+msgstr ""
+"Cuando se activa, este panel se ocultará para maximizar el estado de la "
+"pantalla"
 
 #: src/panel/settings/settings_panel.vala:253
 msgid "Transparency"
@@ -560,7 +568,7 @@ msgstr "Transparencia"
 
 #: src/panel/settings/settings_panel.vala:254
 msgid "Control when this panel should have a solid background"
-msgstr "Controla cuando este panel debe tener un fondo sólido"
+msgstr "Controla cuándo este panel debe tener un fondo sólido"
 
 #: src/panel/settings/settings_panel.vala:259
 msgid "Shadow"
@@ -580,11 +588,13 @@ msgstr "Agrega una distinción al panel para que las tres áreas principales pue
 
 #: src/panel/settings/settings_panel.vala:274
 msgid "Dock mode"
-msgstr "Modo Dock"
+msgstr "Modo estante"
 
 #: src/panel/settings/settings_panel.vala:275
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
-msgstr "Cuando se pone en modo Dock, el panel usará la menor cantidad de espacio posible, liberando espacio en la pantalla"
+msgstr ""
+"Cuando se pone en modo estante, el panel usará la menor cantidad de espacio "
+"posible, liberando espacio en la pantalla"
 
 #: src/panel/settings/settings_autostart.vala:134
 msgid "Untitled"
@@ -642,14 +652,12 @@ msgid "Autostart apps"
 msgstr "Aplicaciones de inicio automático"
 
 #: src/panel/settings/settings_autostart.vala:506
-#, fuzzy
 msgid "Add Application"
-msgstr "Aplicaciones"
+msgstr "Añadir aplicación"
 
 #: src/panel/settings/settings_autostart.vala:508
-#, fuzzy
 msgid "Add Command"
-msgstr "Comando"
+msgstr "Añadir comando"
 
 #: src/panel/settings/settings_fonts.vala:32
 msgid "Fonts"
@@ -785,9 +793,8 @@ msgid "Caffeine Mode"
 msgstr "Modo cafeína"
 
 #: src/daemon/menus.vala:51
-#, fuzzy
 msgid "System Settings"
-msgstr "Configuraciones"
+msgstr "Configuración del sistema"
 
 #: src/daemon/endsession.vala:157
 msgid "Log out"
