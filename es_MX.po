@@ -12,9 +12,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-01 23:16+0200\n"
-"PO-Revision-Date: 2020-11-19 00:14+0000\n"
+"PO-Revision-Date: 2021-01-15 09:27+0000\n"
 "Last-Translator: Evan Maddock <maddock.evan@vivaldi.net>\n"
-"Language-Team: Spanish (Mexico) <http://translate.getsol.us/projects/budgie-desktop/translations/es_MX/>\n"
+"Language-Team: Spanish (Mexico) <http://translate.getsol.us/projects/"
+"budgie-desktop/translations/es_MX/>\n"
 "Language: es_MX\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -130,11 +131,12 @@ msgstr "Los diálogos modales se adjuntarán a la ventana principal y se moverá
 
 #: src/panel/settings/settings_wm.vala:45
 msgid "Button layout"
-msgstr "Diseño de boton"
+msgstr "Diseño de botón"
 
 #: src/panel/settings/settings_wm.vala:46
 msgid "Change the layout of buttons in application titlebars."
-msgstr "Cambiar el diseño de los botones en las barras de titulo de las aplicaciones."
+msgstr ""
+"Cambiar el diseño de los botones en las barras de título de las aplicaciones."
 
 #: src/panel/settings/settings_wm.vala:51
 msgid "Center new windows on screen"
@@ -413,20 +415,22 @@ msgstr "Número de escritorios virtuales / espacios de trabajo a crear automáti
 
 #: src/panel/settings/settings_desktop.vala:217
 msgid "Single"
-msgstr ""
+msgstr "Solo"
 
 #. If the click policy is to double click
 #: src/panel/settings/settings_desktop.vala:221
 msgid "Double"
-msgstr ""
+msgstr "Doble"
 
 #: src/panel/settings/settings_desktop.vala:236
 msgid "Click Policy"
-msgstr ""
+msgstr "Política de clic"
 
 #: src/panel/settings/settings_desktop.vala:237
 msgid "Click Policy determines if we should open items on a single or double click."
 msgstr ""
+"La política de clic determina si debemos abrir elementos con un solo clic o "
+"con un doble clic."
 
 #: src/panel/settings/settings_desktop.vala:289
 msgid "Normal"
@@ -465,19 +469,19 @@ msgstr "Quitar este panel de la pantalla"
 
 #: src/panel/settings/settings_panel.vala:123
 msgid "Top Dock"
-msgstr "Dock Superior"
+msgstr "Estante superior"
 
 #: src/panel/settings/settings_panel.vala:125
 msgid "Right Dock"
-msgstr "Dock Derecho"
+msgstr "Estante derecho"
 
 #: src/panel/settings/settings_panel.vala:127
 msgid "Left Dock"
-msgstr "Dock Izquiero"
+msgstr "Estante izquierdo"
 
 #: src/panel/settings/settings_panel.vala:129
 msgid "Bottom Dock"
-msgstr "Dock Inferior"
+msgstr "Estante inferior"
 
 #: src/panel/settings/settings_panel.vala:134
 msgid "Top Panel"
@@ -583,11 +587,13 @@ msgstr "Agrega una distinción al panel para que las tres áreas principales pue
 
 #: src/panel/settings/settings_panel.vala:274
 msgid "Dock mode"
-msgstr "Modo Dock"
+msgstr "Modo estante"
 
 #: src/panel/settings/settings_panel.vala:275
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
-msgstr "Cuando se pone en modo Dock, el panel usará la menor cantidad de espacio posible, liberando espacio en la pantalla"
+msgstr ""
+"Cuando se pone en modo estante, el panel usará la menor cantidad de espacio "
+"posible, liberando espacio en la pantalla"
 
 #: src/panel/settings/settings_autostart.vala:134
 msgid "Untitled"
@@ -645,14 +651,12 @@ msgid "Autostart apps"
 msgstr "Aplicaciones de inicio automático"
 
 #: src/panel/settings/settings_autostart.vala:506
-#, fuzzy
 msgid "Add Application"
-msgstr "Aplicaciones"
+msgstr "Añadir aplicación"
 
 #: src/panel/settings/settings_autostart.vala:508
-#, fuzzy
 msgid "Add Command"
-msgstr "Comando"
+msgstr "Añadir comando"
 
 #: src/panel/settings/settings_fonts.vala:32
 msgid "Fonts"
@@ -788,9 +792,8 @@ msgid "Caffeine Mode"
 msgstr "Modo Caffeine"
 
 #: src/daemon/menus.vala:51
-#, fuzzy
 msgid "System Settings"
-msgstr "Configuraciónes"
+msgstr "Configuración del sistema"
 
 #: src/daemon/endsession.vala:157
 msgid "Log out"
@@ -1372,7 +1375,7 @@ msgstr "Barra de Control Lateral de Raven"
 
 #: src/applets/show-desktop/ShowDesktopApplet.plugin.in.h:1
 msgid "Show Desktop Button"
-msgstr "Botón Mostrar escritorio"
+msgstr "Mostrar el botón del escritorio"
 
 #: src/applets/budgie-menu/BudgieMenu.plugin.in.h:1
 msgid "Budgie Menu"
