@@ -25,9 +25,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-01 23:16+0200\n"
-"PO-Revision-Date: 2020-12-01 20:55+0000\n"
+"PO-Revision-Date: 2021-01-15 09:27+0000\n"
 "Last-Translator: Girtablulu <flinux@vongellhorn.ch>\n"
-"Language-Team: German <http://translate.getsol.us/projects/budgie-desktop/translations/de/>\n"
+"Language-Team: German <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -426,20 +427,22 @@ msgstr "Anzahl an Virtuellen Desktops / Arbeitsplätze die automatisch bei Syste
 
 #: src/panel/settings/settings_desktop.vala:217
 msgid "Single"
-msgstr ""
+msgstr "Einzel"
 
 #. If the click policy is to double click
 #: src/panel/settings/settings_desktop.vala:221
 msgid "Double"
-msgstr ""
+msgstr "Doppel"
 
 #: src/panel/settings/settings_desktop.vala:236
 msgid "Click Policy"
-msgstr ""
+msgstr "Klick-Regel"
 
 #: src/panel/settings/settings_desktop.vala:237
 msgid "Click Policy determines if we should open items on a single or double click."
 msgstr ""
+"Die Klick-Regel bestimmt, ob wir Objekte mit einem Einzel- oder Doppelklick "
+"öffnen sollen."
 
 #: src/panel/settings/settings_desktop.vala:289
 msgid "Normal"
