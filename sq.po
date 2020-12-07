@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: budgie-desktop 10.5.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-01 23:16+0200\n"
-"PO-Revision-Date: 2020-12-02 22:41+0000\n"
+"PO-Revision-Date: 2021-01-15 09:27+0000\n"
 "Last-Translator: Algent Albrahimi <algent@protonmail.com>\n"
 "Language-Team: Albanian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/sq/>\n"
@@ -681,7 +681,7 @@ msgstr "Vendosni fontin primar të përdorur nga kontrollet e aplikacionit."
 
 #: src/panel/settings/settings_fonts.vala:64
 msgid "Monospace"
-msgstr "Monospace"
+msgstr "Hapësira fikse"
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Set the fixed-width font used by text dominant applications."
@@ -782,7 +782,7 @@ msgstr "Njoftimet"
 #: src/raven/notifications_group.vala:47
 #: src/applets/caffeine/CaffeineWindow.vala:37
 msgid "Caffeine Mode"
-msgstr "Modaliteti Caffeine"
+msgstr "Modaliteti Kafeinë"
 
 #: src/daemon/menus.vala:51
 msgid "System Settings"
@@ -803,11 +803,11 @@ msgstr "Fikeni"
 #. Should show a notification
 #: src/daemon/settings.vala:341
 msgid "Turned on Caffeine Boost"
-msgstr "Aktivizuar Rritjen e Caffeine"
+msgstr "Modaliteti Kafeinë aktivizohet"
 
 #: src/daemon/settings.vala:341
 msgid "Turned off Caffeine Boost"
-msgstr "Çaktivizuar Rritjen e Caffeine"
+msgstr "Modaliteti Kafeinë çaktivizohet"
 
 #: src/daemon/settings.vala:346
 msgid "Will turn off in a minute"
@@ -1356,7 +1356,7 @@ msgstr "Treguesi i Paraqitjes së Tastierës"
 
 #: src/applets/caffeine/CaffeineApplet.plugin.in.h:1
 msgid "Caffeine"
-msgstr "Caffeine"
+msgstr "Kafeina"
 
 #: src/applets/tray/TrayApplet.plugin.in.h:1
 msgid "System Tray"
