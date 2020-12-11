@@ -8,9 +8,10 @@ msgstr ""
 "Project-Id-Version: budgie-desktop 10.5.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-01 23:16+0200\n"
-"PO-Revision-Date: 2020-11-23 18:00+0000\n"
+"PO-Revision-Date: 2021-01-15 09:27+0000\n"
 "Last-Translator: Manjot Singh <manjotsinghpunjab@gmail.com>\n"
-"Language-Team: Hindi <http://translate.getsol.us/projects/budgie-desktop/translations/hi/>\n"
+"Language-Team: Hindi <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/hi/>\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -409,20 +410,22 @@ msgstr "स्टार्टअप पर स्वचालित रूप �
 
 #: src/panel/settings/settings_desktop.vala:217
 msgid "Single"
-msgstr ""
+msgstr "एक"
 
 #. If the click policy is to double click
 #: src/panel/settings/settings_desktop.vala:221
 msgid "Double"
-msgstr ""
+msgstr "डबल"
 
 #: src/panel/settings/settings_desktop.vala:236
 msgid "Click Policy"
-msgstr ""
+msgstr "क्लिक नीति"
 
 #: src/panel/settings/settings_desktop.vala:237
 msgid "Click Policy determines if we should open items on a single or double click."
 msgstr ""
+"क्लिक नीति यह निर्धारित करती है कि हमें एकल या डबल क्लिक पर आइटम खोलना चाहिए "
+"या नहीं."
 
 #: src/panel/settings/settings_desktop.vala:289
 msgid "Normal"
@@ -641,14 +644,12 @@ msgid "Autostart apps"
 msgstr "ऑटोस्टार्ट ऐप्स"
 
 #: src/panel/settings/settings_autostart.vala:506
-#, fuzzy
 msgid "Add Application"
-msgstr "एप्लीकेशने"
+msgstr "एप्लिकेशन जोड़ें"
 
 #: src/panel/settings/settings_autostart.vala:508
-#, fuzzy
 msgid "Add Command"
-msgstr "आदेश"
+msgstr "कमांड जोड़ें"
 
 #: src/panel/settings/settings_fonts.vala:32
 msgid "Fonts"
@@ -784,9 +785,8 @@ msgid "Caffeine Mode"
 msgstr "कैफीन मोड"
 
 #: src/daemon/menus.vala:51
-#, fuzzy
 msgid "System Settings"
-msgstr "सेटिंग्स"
+msgstr "सिस्टम सेटिंग्स"
 
 #: src/daemon/endsession.vala:157
 msgid "Log out"
