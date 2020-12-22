@@ -10,9 +10,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-01 23:16+0200\n"
-"PO-Revision-Date: 2020-11-19 00:14+0000\n"
+"PO-Revision-Date: 2021-01-15 09:27+0000\n"
 "Last-Translator: Abdulkadir Furkan Şanlı <abdulkadirfsanli@protonmail.com>\n"
-"Language-Team: Turkish <http://translate.getsol.us/projects/budgie-desktop/translations/tr/>\n"
+"Language-Team: Turkish <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -168,20 +169,21 @@ msgstr "Fare pencereye girince pencere odağının uygulanmasını ve çıkınca
 
 #: src/panel/settings/settings_wm.vala:76
 msgid "Disable unredirection of windows"
-msgstr "Pencere tekrar yönlendirmemelerini devre dışı bırak"
+msgstr "Pencere tekrar yönlendirmemelerini (unredirection) devre dışı bırak"
 
 #: src/panel/settings/settings_wm.vala:77
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
 msgstr "Bu ayar ileri gelişmiş kullanıcılar içindir. Özel GPU'lar ile grafiksel veya performans sorunları yaşıyorsanız bunu kullanın."
 
 #: src/panel/settings/settings_wm.vala:82
-#, fuzzy
 msgid "Show all windows in tab switcher"
-msgstr "Tıklanınca tüm pencereleri göster"
+msgstr "Sekme değiştiricide tüm pencereleri göster"
 
 #: src/panel/settings/settings_wm.vala:83
 msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
 msgstr ""
+"Kullanılan çalışma alanına bakılmaksızın tüm sekmeler sekme değiştiricide "
+"görüntülenecektir."
 
 #: src/panel/settings/settings_wm.vala:90
 msgid "Right (standard)"
@@ -367,12 +369,11 @@ msgstr "Masaüstünde ikonlara izin verilmesini kontrol edin."
 #. Switcher to show or hide active mounts
 #: src/panel/settings/settings_desktop.vala:87
 msgid "Active Mounts"
-msgstr ""
+msgstr "Aktif Bağlar"
 
 #: src/panel/settings/settings_desktop.vala:88
-#, fuzzy
 msgid "Show all active mounts on the desktop."
-msgstr "Masaüstündeki başlatıcılara ve simgelere izin verilip verilmeyeceğini kontrol et."
+msgstr "Tüm etkin bağları masaüstünde göster."
 
 #. Switcher to show or hide our Home folder
 #: src/panel/settings/settings_desktop.vala:95
@@ -396,14 +397,12 @@ msgstr "Masaüstüne Çöp kısayolu ekle."
 #. Click Policy combo box
 #. Icon Size combo box
 #: src/panel/settings/settings_desktop.vala:116
-#, fuzzy
 msgid "Icon Size"
-msgstr "Boyut"
+msgstr "Simge Boyutu"
 
 #: src/panel/settings/settings_desktop.vala:117
-#, fuzzy
 msgid "Set the desired size of icons on the desktop."
-msgstr "Masaüstündeki başlatıcılara ve simgelere izin verilip verilmeyeceğini kontrol et."
+msgstr "Masaüstündeki simgelerin dilenen boyutunu ayarla."
 
 #: src/panel/settings/settings_desktop.vala:148
 msgid "Number of virtual desktops"
@@ -415,39 +414,39 @@ msgstr "Başlangıçta oluşturulacak sanal masaüstü / çalışma alanı sayı
 
 #: src/panel/settings/settings_desktop.vala:217
 msgid "Single"
-msgstr ""
+msgstr "Tek"
 
 #. If the click policy is to double click
 #: src/panel/settings/settings_desktop.vala:221
 msgid "Double"
-msgstr ""
+msgstr "Çift"
 
 #: src/panel/settings/settings_desktop.vala:236
 msgid "Click Policy"
-msgstr ""
+msgstr "Tıklama İlkesi"
 
 #: src/panel/settings/settings_desktop.vala:237
 msgid "Click Policy determines if we should open items on a single or double click."
-msgstr ""
+msgstr "Tıklama İlkesi öğelerin tek tık veya çift tıkla açılmasını belirler."
 
 #: src/panel/settings/settings_desktop.vala:289
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #. Small
 #: src/panel/settings/settings_desktop.vala:292
 msgid "Small"
-msgstr ""
+msgstr "Küçük"
 
 #. Large
 #: src/panel/settings/settings_desktop.vala:294
 msgid "Large"
-msgstr ""
+msgstr "Büyük"
 
 #. Massive
 #: src/panel/settings/settings_desktop.vala:296
 msgid "Massive"
-msgstr ""
+msgstr "Devasa"
 
 #: src/panel/settings/settings_panel.vala:82 src/raven/main_view.vala:57
 msgid "Applets"
@@ -458,7 +457,6 @@ msgid "Settings"
 msgstr "Ayarlar"
 
 #: src/panel/settings/settings_panel.vala:85
-#, fuzzy
 msgid "Remove Panel"
 msgstr "Paneli kaldır"
 
@@ -648,14 +646,12 @@ msgid "Autostart apps"
 msgstr "Otomatik başlatılan uygulamalar"
 
 #: src/panel/settings/settings_autostart.vala:506
-#, fuzzy
 msgid "Add Application"
-msgstr "Uygulamalar"
+msgstr "Uygulama Ekle"
 
 #: src/panel/settings/settings_autostart.vala:508
-#, fuzzy
 msgid "Add Command"
-msgstr "Komut"
+msgstr "Komut Ekle"
 
 #: src/panel/settings/settings_fonts.vala:32
 msgid "Fonts"
@@ -791,9 +787,8 @@ msgid "Caffeine Mode"
 msgstr "Kafein Modu"
 
 #: src/daemon/menus.vala:51
-#, fuzzy
 msgid "System Settings"
-msgstr "Ayarlar"
+msgstr "Sistem Ayarları"
 
 #: src/daemon/endsession.vala:157
 msgid "Log out"
@@ -1047,11 +1042,11 @@ msgstr "Kronometre (dakika)"
 #. there's already an active tray, create an informative icon with a popover
 #: src/applets/tray/TrayApplet.vala:114
 msgid "Only one instance of the System Tray can be active at a time."
-msgstr ""
+msgstr "Tek seferde yalnızca bir Sistem Tepsisi aktif olabilir."
 
 #: src/applets/tray/TrayApplet.vala:140
 msgid "The System Tray failed to initialize."
-msgstr ""
+msgstr "Sistem Tepsisi başlatılamadı."
 
 #: src/applets/show-desktop/ShowDesktopApplet.vala:30
 msgid "Toggle the desktop"
@@ -1258,7 +1253,7 @@ msgstr "Görünüm Ayarları"
 
 #: src/applets/tray/settings.ui.h:1
 msgid "Icon Spacing"
-msgstr ""
+msgstr "Simge Aralığı"
 
 #: src/applets/budgie-menu/settings.ui.h:1
 msgid "Show Menu Label"
@@ -1306,11 +1301,11 @@ msgstr "Pencere gruplama"
 
 #: src/applets/icon-tasklist/settings.ui.h:6
 msgid "Middle click to launch new window"
-msgstr ""
+msgstr "Yeni pencere başlatmak için orta tıklayın"
 
 #: src/applets/icon-tasklist/settings.ui.h:7
 msgid "Require a double-click to launch new window"
-msgstr ""
+msgstr "Yeni pencere başlatmak için çift tıklamayı şart koş"
 
 #: src/session/budgie-desktop.session.in.in.h:1
 #: src/session/budgie-desktop.desktop.in.in.h:1
