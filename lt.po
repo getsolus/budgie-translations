@@ -10,14 +10,17 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-01 23:16+0200\n"
-"PO-Revision-Date: 2019-09-28 16:21+0000\n"
+"PO-Revision-Date: 2021-01-15 09:27+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
-"Language-Team: Lithuanian <http://translate.getsol.us/projects/budgie-desktop/translations/lt/>\n"
+"Language-Team: Lithuanian <http://translate.getsol.us/projects/"
+"budgie-desktop/translations/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
+"19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
+"1 : 2);\n"
 "X-Generator: Weblate 3.8\n"
 
 #: src/polkit/polkitdialog.vala:126
@@ -399,12 +402,12 @@ msgstr "Pridėti darbalaukyje šaukinį į šiukšlinės katalogą."
 #: src/panel/settings/settings_desktop.vala:116
 #, fuzzy
 msgid "Icon Size"
-msgstr "Dydis"
+msgstr "Piktogramų dydis"
 
 #: src/panel/settings/settings_desktop.vala:117
 #, fuzzy
 msgid "Set the desired size of icons on the desktop."
-msgstr "Valdyti ar darbalaukyje bus leidžiami leistukai ir piktogramos."
+msgstr "Nustatyti pageidaujamą darbalaukio piktogramų dydį."
 
 #: src/panel/settings/settings_desktop.vala:148
 msgid "Number of virtual desktops"
@@ -416,20 +419,22 @@ msgstr "Paleidimo metu automatiškai sukuriamų darbalaukių / darbo sričių sk
 
 #: src/panel/settings/settings_desktop.vala:217
 msgid "Single"
-msgstr ""
+msgstr "Vienkartis"
 
 #. If the click policy is to double click
 #: src/panel/settings/settings_desktop.vala:221
 msgid "Double"
-msgstr ""
+msgstr "Dvikartis"
 
 #: src/panel/settings/settings_desktop.vala:236
 msgid "Click Policy"
-msgstr ""
+msgstr "Spustelėjimo politika"
 
 #: src/panel/settings/settings_desktop.vala:237
 msgid "Click Policy determines if we should open items on a single or double click."
 msgstr ""
+"Spustelėjimo politika nustato ar elementai turėtų būti atveriami vienkarčiu "
+"ar dvikarčiu spustelėjimu."
 
 #: src/panel/settings/settings_desktop.vala:289
 msgid "Normal"
@@ -459,7 +464,6 @@ msgid "Settings"
 msgstr "Nustatymai"
 
 #: src/panel/settings/settings_panel.vala:85
-#, fuzzy
 msgid "Remove Panel"
 msgstr "Šalinti skydelį"
 
@@ -649,14 +653,13 @@ msgid "Autostart apps"
 msgstr "Automatinis programų paleidimas"
 
 #: src/panel/settings/settings_autostart.vala:506
-#, fuzzy
 msgid "Add Application"
-msgstr "Programos"
+msgstr "Pridėti programą"
 
 #: src/panel/settings/settings_autostart.vala:508
 #, fuzzy
 msgid "Add Command"
-msgstr "Komanda"
+msgstr "Pridėti komandą"
 
 #: src/panel/settings/settings_fonts.vala:32
 msgid "Fonts"
@@ -794,7 +797,7 @@ msgstr "Kofeino veiksena"
 #: src/daemon/menus.vala:51
 #, fuzzy
 msgid "System Settings"
-msgstr "Nustatymai"
+msgstr "Sistemos nustatymai"
 
 #: src/daemon/endsession.vala:157
 msgid "Log out"
@@ -1049,7 +1052,7 @@ msgstr "Laikmatis (minutės)"
 #. there's already an active tray, create an informative icon with a popover
 #: src/applets/tray/TrayApplet.vala:114
 msgid "Only one instance of the System Tray can be active at a time."
-msgstr ""
+msgstr "Vienu metu gali būti aktyvus tik vienas sistemos dėklo egzempliorius."
 
 #: src/applets/tray/TrayApplet.vala:140
 msgid "The System Tray failed to initialize."
@@ -1260,7 +1263,7 @@ msgstr "Rodymo nustatymai"
 
 #: src/applets/tray/settings.ui.h:1
 msgid "Icon Spacing"
-msgstr ""
+msgstr "Tarpai tarp piktogramų"
 
 #: src/applets/budgie-menu/settings.ui.h:1
 msgid "Show Menu Label"
