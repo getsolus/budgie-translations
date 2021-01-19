@@ -8,9 +8,10 @@ msgstr ""
 "Project-Id-Version: budgie-desktop 10.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-01 23:16+0200\n"
-"PO-Revision-Date: 2020-11-15 14:52+0000\n"
+"PO-Revision-Date: 2021-01-28 17:32+0000\n"
 "Last-Translator: Quentin PAGÈS <pages_quentin@hotmail.com>\n"
-"Language-Team: Occitan <http://translate.getsol.us/projects/budgie-desktop/translations/oc/>\n"
+"Language-Team: Occitan <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/oc/>\n"
 "Language: oc\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,20 +29,20 @@ msgstr "Grop :"
 
 #: src/panel/settings/settings_panel_applets.vala:19
 msgid "Configure applet"
-msgstr ""
+msgstr "Configurar l’applet"
 
 #: src/panel/settings/settings_panel_applets.vala:233
 #: src/panel/settings/settings_applet_chooser.vala:80
 msgid "Add applet"
-msgstr ""
+msgstr "Ajustar una applet"
 
 #: src/panel/settings/settings_panel_applets.vala:234
 msgid "Choose a new applet to add to this panel"
-msgstr ""
+msgstr "Causissètz una applet novèla d’apondre a aqueste panèl"
 
 #: src/panel/settings/settings_panel_applets.vala:248
 msgid "No settings available"
-msgstr ""
+msgstr "Cap de paramètre pas disponible"
 
 #: src/panel/settings/settings_panel_applets.vala:401
 msgid "Start"
@@ -62,6 +63,8 @@ msgstr "Confirmatz la supression del panèl"
 #: src/panel/settings/settings_panel_dialogs.vala:31
 msgid "Do you really want to remove this panel? This action cannot be undone."
 msgstr ""
+"Volètz vertadièrament suprimir aqueste panèl ?\n"
+"Aquesta accions es irreversibla."
 
 #: src/panel/settings/settings_panel_dialogs.vala:42
 msgid "Remove panel"
@@ -73,11 +76,13 @@ msgstr "Gardar panèl"
 
 #: src/panel/settings/settings_panel_dialogs.vala:67
 msgid "Confirm applet removal"
-msgstr ""
+msgstr "Confirmar la supression de l’applet"
 
 #: src/panel/settings/settings_panel_dialogs.vala:74
 msgid "Do you really want to remove this applet? This action cannot be undone."
 msgstr ""
+"Volètz vertadièrament suprimir aquesta applet ?\n"
+"Aquesta accions es irreversibla."
 
 #: src/panel/settings/settings_panel_dialogs.vala:89
 msgid "Don't ask me again"
@@ -85,11 +90,11 @@ msgstr "Me demandar pas mai"
 
 #: src/panel/settings/settings_panel_dialogs.vala:98
 msgid "Remove applet"
-msgstr ""
+msgstr "Suprimir l’applet"
 
 #: src/panel/settings/settings_panel_dialogs.vala:99
 msgid "Keep applet"
-msgstr ""
+msgstr "Conservar l’applet"
 
 #: src/panel/settings/settings_main.vala:57
 msgid "Appearance"
@@ -110,7 +115,7 @@ msgstr "Paramètres del burèu Budgie"
 
 #: src/panel/settings/settings_main.vala:98
 msgid "Create new panel"
-msgstr ""
+msgstr "Crear un panèl novèl"
 
 #: src/panel/settings/settings_wm.vala:30
 msgid "Windows"
@@ -118,7 +123,7 @@ msgstr "Fenèstras"
 
 #: src/panel/settings/settings_wm.vala:39
 msgid "Attach modal dialogs to windows"
-msgstr ""
+msgstr "Juntar las fenèstras de dialòg a las fenèstras"
 
 #: src/panel/settings/settings_wm.vala:40
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
@@ -126,15 +131,16 @@ msgstr ""
 
 #: src/panel/settings/settings_wm.vala:45
 msgid "Button layout"
-msgstr ""
+msgstr "Disposicion dels botons"
 
 #: src/panel/settings/settings_wm.vala:46
 msgid "Change the layout of buttons in application titlebars."
 msgstr ""
+"Modificar la disposicion dels botons de la barra de títol de las aplicacions."
 
 #: src/panel/settings/settings_wm.vala:51
 msgid "Center new windows on screen"
-msgstr ""
+msgstr "Centrar las fenèstras novèlas"
 
 #: src/panel/settings/settings_wm.vala:52
 msgid "Center newly launched windows on the current screen."
@@ -142,7 +148,7 @@ msgstr ""
 
 #: src/panel/settings/settings_wm.vala:57
 msgid "Disable Night Light mode when windows are fullscreen"
-msgstr ""
+msgstr "Desactivar lo mòde nuèch quand la fenèstra en es plen ecran"
 
 #: src/panel/settings/settings_wm.vala:58
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
@@ -182,7 +188,7 @@ msgstr ""
 
 #: src/panel/settings/settings_wm.vala:90
 msgid "Right (standard)"
-msgstr ""
+msgstr "Drecha (estandard)"
 
 #: src/panel/settings/settings_wm.vala:92
 #: src/panel/settings/settings_panel.vala:181 src/raven/raven.vala:33
@@ -195,7 +201,7 @@ msgstr "Estil"
 
 #: src/panel/settings/settings_style.vala:46
 msgid "Widgets"
-msgstr ""
+msgstr "Element visual"
 
 #: src/panel/settings/settings_style.vala:47
 msgid "Set the appearance of window decorations and controls"
@@ -207,15 +213,16 @@ msgstr "Icònas"
 
 #: src/panel/settings/settings_style.vala:52
 msgid "Set the globally used icon theme"
-msgstr ""
+msgstr "Definís lo tèma global de las icònas"
 
 #: src/panel/settings/settings_style.vala:56
+#, fuzzy
 msgid "Cursors"
-msgstr ""
+msgstr "Cursors"
 
 #: src/panel/settings/settings_style.vala:57
 msgid "Set the globally used mouse cursor theme"
-msgstr ""
+msgstr "Definís l’aparéncia del cursor"
 
 #: src/panel/settings/settings_style.vala:61
 msgid "Notification Position"
@@ -255,15 +262,15 @@ msgstr "Aval a esquèrra"
 
 #: src/panel/settings/settings_style.vala:208
 msgid "Bottom Right"
-msgstr ""
+msgstr "Enbàs a drecha"
 
 #: src/panel/settings/settings_style.vala:211
 msgid "Top Right"
-msgstr ""
+msgstr "Ennaut a drecha"
 
 #: src/panel/settings/settings_raven.vala:61
 msgid "Set Raven position"
-msgstr ""
+msgstr "Definir la posicion de Raven"
 
 #: src/panel/settings/settings_raven.vala:62
 msgid "Set which side of the screen Raven will open on. If set to Automatic, Raven will open where its parent panel is."
@@ -271,7 +278,7 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:67
 msgid "Allow raising volume above 100%"
-msgstr ""
+msgstr "Permetre d’aumentar lo volum al delà de 100%"
 
 #: src/panel/settings/settings_raven.vala:68
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
@@ -279,7 +286,7 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:72
 msgid "Enable display of week numbers in Calendar"
-msgstr ""
+msgstr "Mostrar los numèros de setmana al calendièr"
 
 #: src/panel/settings/settings_raven.vala:73
 msgid "This setting enables the display of week numbers in the Calendar widget."
@@ -287,7 +294,7 @@ msgstr ""
 
 #: src/panel/settings/settings_raven.vala:78
 msgid "Show Calendar Widget"
-msgstr ""
+msgstr "Mostrar lo compausant calendièr"
 
 #: src/panel/settings/settings_raven.vala:79
 msgid "Shows or hides the Calendar Widget in Raven's Applets section."
@@ -327,7 +334,7 @@ msgstr ""
 
 #: src/panel/settings/settings_applet_chooser.vala:74
 msgid "Choose an applet"
-msgstr ""
+msgstr "Causissètz una applet"
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 #: src/panel/settings/settings_autostart.vala:194
@@ -368,7 +375,7 @@ msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:88
 msgid "Show all active mounts on the desktop."
-msgstr ""
+msgstr "Mostrar totes los volumes montats al burèu."
 
 #. Switcher to show or hide our Home folder
 #: src/panel/settings/settings_desktop.vala:95
@@ -402,7 +409,7 @@ msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:148
 msgid "Number of virtual desktops"
-msgstr ""
+msgstr "Nombre de burèu virtuals"
 
 #: src/panel/settings/settings_desktop.vala:149
 msgid "Number of virtual desktops / workspaces to create automatically on startup."
@@ -410,16 +417,16 @@ msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:217
 msgid "Single"
-msgstr ""
+msgstr "Unic"
 
 #. If the click policy is to double click
 #: src/panel/settings/settings_desktop.vala:221
 msgid "Double"
-msgstr ""
+msgstr "Doble"
 
 #: src/panel/settings/settings_desktop.vala:236
 msgid "Click Policy"
-msgstr ""
+msgstr "Foncionament del clic"
 
 #: src/panel/settings/settings_desktop.vala:237
 msgid "Click Policy determines if we should open items on a single or double click."
@@ -427,22 +434,22 @@ msgstr ""
 
 #: src/panel/settings/settings_desktop.vala:289
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #. Small
 #: src/panel/settings/settings_desktop.vala:292
 msgid "Small"
-msgstr ""
+msgstr "Pichona"
 
 #. Large
 #: src/panel/settings/settings_desktop.vala:294
 msgid "Large"
-msgstr ""
+msgstr "Granda"
 
 #. Massive
 #: src/panel/settings/settings_desktop.vala:296
 msgid "Massive"
-msgstr ""
+msgstr "Grandassa"
 
 #: src/panel/settings/settings_panel.vala:82 src/raven/main_view.vala:57
 msgid "Applets"
@@ -478,15 +485,15 @@ msgstr ""
 
 #: src/panel/settings/settings_panel.vala:134
 msgid "Top Panel"
-msgstr ""
+msgstr "Panèl superior"
 
 #: src/panel/settings/settings_panel.vala:136
 msgid "Right Panel"
-msgstr ""
+msgstr "Panèl drech"
 
 #: src/panel/settings/settings_panel.vala:138
 msgid "Left Panel"
-msgstr ""
+msgstr "Panèl esquèr"
 
 #: src/panel/settings/settings_panel.vala:140
 msgid "Bottom Panel"
@@ -572,7 +579,7 @@ msgstr ""
 
 #: src/panel/settings/settings_panel.vala:266
 msgid "Stylize regions"
-msgstr ""
+msgstr "Estilizar las regions"
 
 #: src/panel/settings/settings_panel.vala:267
 msgid "Adds a hint to the panel so that each of the panel's three main areas may be themed differently."
@@ -635,11 +642,11 @@ msgstr "Opcional"
 
 #: src/panel/settings/settings_autostart.vala:446
 msgid "Autostart"
-msgstr ""
+msgstr "Aviada automatica"
 
 #: src/panel/settings/settings_autostart.vala:464
 msgid "Autostart apps"
-msgstr ""
+msgstr "Aplicacions a l’aviada"
 
 #: src/panel/settings/settings_autostart.vala:506
 #, fuzzy
@@ -863,12 +870,13 @@ msgid "Caps lock is not active"
 msgstr "Varr. maj. es pas activat"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:67
+#, fuzzy
 msgid "Num lock is active"
-msgstr ""
+msgstr "La tòca Verr. Num es activada"
 
 #: src/applets/lock-keys/LockKeysApplet.vala:70
 msgid "Num lock is not active"
-msgstr ""
+msgstr "La tòca Verr. Num es desactivada"
 
 #: src/applets/places-indicator/MountItem.vala:23
 #: src/applets/places-indicator/VolumeItem.vala:25
@@ -878,12 +886,12 @@ msgstr "Periferics amovibles"
 #: src/applets/places-indicator/MountItem.vala:25
 #: src/applets/places-indicator/VolumeItem.vala:27
 msgid "Local volumes"
-msgstr ""
+msgstr "Disques locals"
 
 #: src/applets/places-indicator/MountItem.vala:29
 #: src/applets/places-indicator/VolumeItem.vala:31
 msgid "Network folders"
-msgstr ""
+msgstr "Dossièrs ret"
 
 #: src/applets/places-indicator/MountItem.vala:32
 #: src/applets/places-indicator/VolumeItem.vala:34
@@ -925,12 +933,12 @@ msgstr "Error en desmontant lo volum"
 #: src/applets/places-indicator/VolumeItem.vala:41
 #, c-format
 msgid "Mount and open \"%s\""
-msgstr ""
+msgstr "Montar e dobrir « %s »"
 
 #: src/applets/places-indicator/VolumeItem.vala:73
 #: src/applets/places-indicator/VolumeItem.vala:114
 msgid "Enter the encryption passphrase to unlock this volume"
-msgstr ""
+msgstr "Dintratz lo senhal per deschifrar e desverrolhar aqueste volume"
 
 #: src/applets/places-indicator/VolumeItem.vala:112
 msgid "The password you entered is incorrect"
@@ -942,7 +950,7 @@ msgstr ""
 
 #: src/applets/places-indicator/MountHelper.vala:35
 msgid "Volume is in use by other processes"
-msgstr ""
+msgstr "Lo volume es utilizat per d’autres processús"
 
 #: src/applets/places-indicator/MountHelper.vala:40
 msgid "Operation aborted"
@@ -961,7 +969,7 @@ msgstr "Luòcs"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:179
 msgid "Nothing to display right now"
-msgstr ""
+msgstr "Pas res de mostrar per ara"
 
 #: src/applets/places-indicator/PlacesIndicatorWindow.vala:183
 msgid "Mount some drives"
@@ -1066,16 +1074,16 @@ msgstr "Fichièrs imatge"
 
 #: src/applets/budgie-menu/IconChooser.vala:40
 msgid "Any file"
-msgstr ""
+msgstr "Totes los fichièrs"
 
 #: src/applets/budgie-menu/IconChooser.vala:53
 msgid "Set icon"
-msgstr ""
+msgstr "Definir l’icòna"
 
 #. placeholder in case of no results
 #: src/applets/budgie-menu/BudgieMenuWindow.vala:123
 msgid "Sorry, no items found"
-msgstr ""
+msgstr "O planhèm, cap de resultat pas trobat"
 
 #: src/applets/clock/ClockApplet.vala:143
 msgid "Time and date settings"
@@ -1105,7 +1113,7 @@ msgstr "Utilizar lo format 24 oras"
 
 #: src/applets/icon-tasklist/IconPopover.vala:106
 msgid "Launch New Instance"
-msgstr ""
+msgstr "Lançar una instància novèla"
 
 #: src/applets/icon-tasklist/IconPopover.vala:109
 msgid "Close All Windows"
@@ -1163,7 +1171,7 @@ msgstr "Senhal :"
 
 #: src/polkit/dialog.ui.h:3
 msgid "Authentication is required"
-msgstr ""
+msgstr "L’autentificacion es requerida"
 
 #: src/polkit/dialog.ui.h:5
 msgid "Authenticate"
@@ -1175,15 +1183,15 @@ msgstr "Volètz vertadièrament tampar la session ?"
 
 #: src/applets/places-indicator/settings.ui.h:1
 msgid "Show label"
-msgstr ""
+msgstr "Mostrar lo nom de l’applet"
 
 #: src/applets/places-indicator/settings.ui.h:2
 msgid "Show places"
-msgstr ""
+msgstr "Mostrar los emplaçaments"
 
 #: src/applets/places-indicator/settings.ui.h:3
 msgid "Show network folders"
-msgstr ""
+msgstr "Mostrar los emplaçaments ret"
 
 #: src/applets/places-indicator/settings.ui.h:4
 msgid "Show removable drives"
@@ -1199,7 +1207,7 @@ msgstr "Espaçament"
 
 #: src/applets/workspaces/settings.ui.h:1
 msgid "\"Add\" button visibility"
-msgstr ""
+msgstr "Visibilitat del boton « Ajustar »"
 
 #: src/applets/workspaces/settings.ui.h:2
 msgid "Don't show"
@@ -1309,15 +1317,15 @@ msgstr ""
 #: src/session/budgie-desktop.session.in.in.h:1
 #: src/session/budgie-desktop.desktop.in.in.h:1
 msgid "Budgie Desktop"
-msgstr ""
+msgstr "Burèu Budgie"
 
 #: src/session/budgie-desktop.desktop.in.in.h:2
 msgid "This session logs you into the Budgie Desktop"
-msgstr ""
+msgstr "Aquesta session vos connècta al burèu Budgie"
 
 #: src/panel/budgie-panel.desktop.in.h:1
 msgid "Budgie Panel"
-msgstr ""
+msgstr "Panèl Budgie"
 
 #: src/panel/budgie-panel.desktop.in.h:2
 msgid "Launch other applications and provide various utilities to manage windows, show the time, etc."
@@ -1325,11 +1333,11 @@ msgstr "Aviar d'autras aplicacions e diferents utilitaris per gerir las fenèstr
 
 #: src/panel/budgie-desktop-settings.desktop.in.h:2
 msgid "Change desktop appearance and behavior"
-msgstr ""
+msgstr "Modificar l’aparéncia e lo compòrtament del burèu"
 
 #: src/applets/user-indicator/UserIndicator.plugin.in.h:1
 msgid "User Indicator"
-msgstr ""
+msgstr "Indicador de l’utilizaire"
 
 #: src/applets/lock-keys/LockKeysApplet.plugin.in.h:1
 msgid "Lock Keys Indicator"
@@ -1337,7 +1345,7 @@ msgstr ""
 
 #: src/applets/status/StatusApplet.plugin.in.h:1
 msgid "Status Indicator"
-msgstr ""
+msgstr "Indicator de l’estatut"
 
 #: src/applets/spacer/SpacerApplet.plugin.in.h:1
 msgid "Spacer"
@@ -1361,7 +1369,7 @@ msgstr "Cafeïna"
 
 #: src/applets/tray/TrayApplet.plugin.in.h:1
 msgid "System Tray"
-msgstr ""
+msgstr "Zòna de notificacions sistèma"
 
 #: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
 msgid "Raven Sidebar Control"
