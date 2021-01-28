@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-01 23:16+0200\n"
+"POT-Creation-Date: 2021-01-28 19:37+0200\n"
 "PO-Revision-Date: 2019-02-26 15:18+0000\n"
 "Last-Translator: Joshua Strobl <joshua@getsol.us>\n"
 "Language-Team: Vietnamese <http://translate.getsol.us/projects/budgie-desktop/translations/vi/>\n"
@@ -110,87 +110,95 @@ msgstr "Phiên"
 msgid "Budgie Desktop Settings"
 msgstr "Cài đặt Desktop Budgie"
 
-#: src/panel/settings/settings_main.vala:98
+#: src/panel/settings/settings_main.vala:99
 msgid "Create new panel"
 msgstr "Tạo thanh công cụ mới"
 
-#: src/panel/settings/settings_wm.vala:30
+#: src/panel/settings/settings_wm.vala:31
 msgid "Windows"
 msgstr "Các cửa sổ"
 
-#: src/panel/settings/settings_wm.vala:39
+#: src/panel/settings/settings_wm.vala:40
 msgid "Attach modal dialogs to windows"
 msgstr "Kèm các hội thoại mẫu vào cửa sổ"
 
-#: src/panel/settings/settings_wm.vala:40
+#: src/panel/settings/settings_wm.vala:41
 #, fuzzy
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
 msgstr "Các hội thoại mẫu sẽ được kèm vào cửa sổ mẹ và cùng di chuyển khi được kéo đi"
 
-#: src/panel/settings/settings_wm.vala:45
+#: src/panel/settings/settings_wm.vala:46
 msgid "Button layout"
 msgstr "Bố cục các phím"
 
-#: src/panel/settings/settings_wm.vala:46
+#: src/panel/settings/settings_wm.vala:47
 #, fuzzy
 msgid "Change the layout of buttons in application titlebars."
 msgstr "Thay đổi bố cục nút bấm trong thanh tiêu đề ứng dụng"
 
-#: src/panel/settings/settings_wm.vala:51
+#: src/panel/settings/settings_wm.vala:52
 msgid "Center new windows on screen"
 msgstr ""
 
-#: src/panel/settings/settings_wm.vala:52
+#: src/panel/settings/settings_wm.vala:53
 msgid "Center newly launched windows on the current screen."
 msgstr ""
 
-#: src/panel/settings/settings_wm.vala:57
+#: src/panel/settings/settings_wm.vala:58
 msgid "Disable Night Light mode when windows are fullscreen"
 msgstr ""
 
-#: src/panel/settings/settings_wm.vala:58
+#: src/panel/settings/settings_wm.vala:59
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr ""
 
-#: src/panel/settings/settings_wm.vala:63
+#: src/panel/settings/settings_wm.vala:64
+msgid "Pause notifications when windows are fullscreen"
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:65
+msgid "Prevents notifications from appearing when a window is fullscreen. Unpauses when leaving fullscreen."
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:70
 msgid "Automatic tiling"
 msgstr "Tự động bung"
 
-#: src/panel/settings/settings_wm.vala:64
+#: src/panel/settings/settings_wm.vala:71
 #, fuzzy
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
 msgstr "Các cửa sổ sẽ được bung tự động khi bị kéo về phía đầu màn hình hoặc các góc"
 
-#: src/panel/settings/settings_wm.vala:69
+#: src/panel/settings/settings_wm.vala:76
 msgid "Enable window focus change on mouse enter and leave"
 msgstr ""
 
-#: src/panel/settings/settings_wm.vala:70
+#: src/panel/settings/settings_wm.vala:77
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
 msgstr ""
 
-#: src/panel/settings/settings_wm.vala:76
+#: src/panel/settings/settings_wm.vala:83
 msgid "Disable unredirection of windows"
 msgstr "Vô hiệu hóa unredirection của các cửa sổ"
 
-#: src/panel/settings/settings_wm.vala:77
+#: src/panel/settings/settings_wm.vala:84
 #, fuzzy
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
 msgstr "Tùy chọn này là cho người dùng có kinh nghiệm. Dùng cái này nếu bạn đang có vấn đề về hiệu suất hoặc đồ họa với GPU dành riêng "
 
-#: src/panel/settings/settings_wm.vala:82
+#: src/panel/settings/settings_wm.vala:89
 msgid "Show all windows in tab switcher"
 msgstr ""
 
-#: src/panel/settings/settings_wm.vala:83
+#: src/panel/settings/settings_wm.vala:90
 msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
 msgstr ""
 
-#: src/panel/settings/settings_wm.vala:90
+#: src/panel/settings/settings_wm.vala:97
 msgid "Right (standard)"
 msgstr "Phải (mặc định)"
 
-#: src/panel/settings/settings_wm.vala:92
+#: src/panel/settings/settings_wm.vala:99
 #: src/panel/settings/settings_panel.vala:181 src/raven/raven.vala:33
 msgid "Left"
 msgstr "Trái"
@@ -763,27 +771,27 @@ msgstr ""
 msgid "Play some music"
 msgstr ""
 
-#: src/raven/notifications_view.vala:100
+#: src/raven/notifications_view.vala:101
 msgid "Nothing to see here"
 msgstr "Không có gì để hiển thị"
 
-#: src/raven/notifications_view.vala:649
+#: src/raven/notifications_view.vala:654
 #: src/applets/notifications/NotificationsApplet.vala:106
 #, c-format
 msgid "%u unread notifications"
 msgstr "%u thông báo chưa đọc"
 
-#: src/raven/notifications_view.vala:651
+#: src/raven/notifications_view.vala:656
 #: src/applets/notifications/NotificationsApplet.vala:108
 msgid "1 unread notification"
 msgstr "1 thông báo chưa đọc"
 
-#: src/raven/notifications_view.vala:653
+#: src/raven/notifications_view.vala:658
 #: src/applets/notifications/NotificationsApplet.vala:110
 msgid "No unread notifications"
 msgstr "Không có thông báo chưa đọc"
 
-#: src/raven/notifications_view.vala:884
+#: src/raven/notifications_view.vala:889
 msgid "No new notifications"
 msgstr "Không có thông báo mới"
 
@@ -1219,6 +1227,10 @@ msgstr "Hiện các thiết bị gắn ngoài"
 msgid "Always expand places"
 msgstr "Luôn mở rộng các vị trí"
 
+#: src/applets/status/settings.ui.h:1 src/applets/tray/settings.ui.h:1
+msgid "Icon Spacing"
+msgstr ""
+
 #: src/applets/spacer/settings.ui.h:1
 msgid "Spacer size"
 msgstr "Kích thước khoảng trắng"
@@ -1277,10 +1289,6 @@ msgstr "Thông thường"
 #: src/applets/night-light/indicator_window.ui.h:6
 msgid "Display Settings"
 msgstr "Cài đặt Hiển thị"
-
-#: src/applets/tray/settings.ui.h:1
-msgid "Icon Spacing"
-msgstr ""
 
 #: src/applets/budgie-menu/settings.ui.h:1
 msgid "Show Menu Label"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-01 23:16+0200\n"
+"POT-Creation-Date: 2021-01-28 19:37+0200\n"
 "PO-Revision-Date: 2020-07-29 14:31+0000\n"
 "Last-Translator: Reback 00 <reback00@mailfence.com>\n"
 "Language-Team: Bengali <http://translate.getsol.us/projects/budgie-desktop/translations/bn/>\n"
@@ -109,84 +109,94 @@ msgstr "সেশন"
 msgid "Budgie Desktop Settings"
 msgstr "Budgie ডেস্কটপ সেটিংস"
 
-#: src/panel/settings/settings_main.vala:98
+#: src/panel/settings/settings_main.vala:99
 msgid "Create new panel"
 msgstr "নতুন প্যানেল তৈরী করো"
 
-#: src/panel/settings/settings_wm.vala:30
+#: src/panel/settings/settings_wm.vala:31
 msgid "Windows"
 msgstr "উইন্ডোগুলো"
 
-#: src/panel/settings/settings_wm.vala:39
+#: src/panel/settings/settings_wm.vala:40
 msgid "Attach modal dialogs to windows"
 msgstr "মোডাল ডায়লগগুলো উইন্ডোর সাথে যুক্ত করো"
 
-#: src/panel/settings/settings_wm.vala:40
+#: src/panel/settings/settings_wm.vala:41
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
 msgstr "মোডাল ডায়লগগুলো মূল উইন্ডোর সাথে যুক্ত করা হবে এবং ড্র্যাগ করলে একসাথে নড়বে।"
 
-#: src/panel/settings/settings_wm.vala:45
+#: src/panel/settings/settings_wm.vala:46
 msgid "Button layout"
 msgstr "বাটন লেআউট"
 
-#: src/panel/settings/settings_wm.vala:46
+#: src/panel/settings/settings_wm.vala:47
 msgid "Change the layout of buttons in application titlebars."
 msgstr "টাইটেলবারের বাটনগুলোর লেআউট পরিবর্তন করুন।"
 
-#: src/panel/settings/settings_wm.vala:51
+#: src/panel/settings/settings_wm.vala:52
 msgid "Center new windows on screen"
 msgstr "নতুন উইন্ডোগুলোকে স্ক্রিনের মাঝখানে দেখাও"
 
-#: src/panel/settings/settings_wm.vala:52
+#: src/panel/settings/settings_wm.vala:53
 msgid "Center newly launched windows on the current screen."
 msgstr "নতুন খোলা উইন্ডোগুলোকে স্ক্রিনের মাঝখানে দেখাবে।"
 
-#: src/panel/settings/settings_wm.vala:57
+#: src/panel/settings/settings_wm.vala:58
 msgid "Disable Night Light mode when windows are fullscreen"
 msgstr "উইন্ডো ফুলস্ক্রিন থাকা অবস্থায় নাইট লাইট মোড নিস্ক্রিয় করো"
 
-#: src/panel/settings/settings_wm.vala:58
+#: src/panel/settings/settings_wm.vala:59
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr "কোন উইন্ডো ফুলস্ক্রিন থাকা অবস্থায় নাইট লাইট মোড বন্ধ করে রাখবে। ফুলস্ক্রিন ছেড়ে দিলে আবার চালু করবে।"
 
-#: src/panel/settings/settings_wm.vala:63
+#: src/panel/settings/settings_wm.vala:64
+#, fuzzy
+msgid "Pause notifications when windows are fullscreen"
+msgstr "উইন্ডো ফুলস্ক্রিন থাকা অবস্থায় নাইট লাইট মোড নিস্ক্রিয় করো"
+
+#: src/panel/settings/settings_wm.vala:65
+#, fuzzy
+msgid "Prevents notifications from appearing when a window is fullscreen. Unpauses when leaving fullscreen."
+msgstr "কোন উইন্ডো ফুলস্ক্রিন থাকা অবস্থায় নাইট লাইট মোড বন্ধ করে রাখবে। ফুলস্ক্রিন ছেড়ে দিলে আবার চালু করবে।"
+
+#: src/panel/settings/settings_wm.vala:70
 msgid "Automatic tiling"
 msgstr "অটোমেটিক টাইল করো"
 
-#: src/panel/settings/settings_wm.vala:64
+#: src/panel/settings/settings_wm.vala:71
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
 msgstr "উইন্ডোগুলো অটোমেটিক টাইল হবে যখন সেগুলোকে স্ক্রিনের উপরে বা কিনারে নেয়া হবে।"
 
-#: src/panel/settings/settings_wm.vala:69
+#: src/panel/settings/settings_wm.vala:76
 msgid "Enable window focus change on mouse enter and leave"
 msgstr "মাউস উইন্ডোর ভিতরে বা বাইরে থাকলে ফোকাস পরিবর্তন করো"
 
-#: src/panel/settings/settings_wm.vala:70
+#: src/panel/settings/settings_wm.vala:77
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
 msgstr "ফোকাস এমনভাবে পরিবর্তন করবে যাতে মাউস উইন্ডোর ভিতরে আসলে ফোকাস পায় এবং বাইরে গেলে ফোকাস হারিয়ে যায়।"
 
-#: src/panel/settings/settings_wm.vala:76
+#: src/panel/settings/settings_wm.vala:83
 msgid "Disable unredirection of windows"
 msgstr "উইন্ডোর আনরিডায়রেকশন বন্ধ করো"
 
-#: src/panel/settings/settings_wm.vala:77
+#: src/panel/settings/settings_wm.vala:84
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
 msgstr "এই অপশনটি এ্যাডভান্সড ইউজারদের জন্য। যদি ডেডিকেটেড GPU-এর পাফরম্যান্সে সমস্যা হয় তাহলে এটি ব্যবহার করুন।"
 
-#: src/panel/settings/settings_wm.vala:82
+#: src/panel/settings/settings_wm.vala:89
 #, fuzzy
 msgid "Show all windows in tab switcher"
 msgstr "ক্লিক করলে সবগুলো উইন্ডো দেখাবে"
 
-#: src/panel/settings/settings_wm.vala:83
+#: src/panel/settings/settings_wm.vala:90
 msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
 msgstr ""
 
-#: src/panel/settings/settings_wm.vala:90
+#: src/panel/settings/settings_wm.vala:97
 msgid "Right (standard)"
 msgstr "ডানে (স্ট্যান্ডার্ড)"
 
-#: src/panel/settings/settings_wm.vala:92
+#: src/panel/settings/settings_wm.vala:99
 #: src/panel/settings/settings_panel.vala:181 src/raven/raven.vala:33
 msgid "Left"
 msgstr "বামে"
@@ -745,27 +755,27 @@ msgstr "বর্তমানে কোন এ্যাপ অডিও চা�
 msgid "Play some music"
 msgstr "গান শোনাও"
 
-#: src/raven/notifications_view.vala:100
+#: src/raven/notifications_view.vala:101
 msgid "Nothing to see here"
 msgstr "এখানে দেখার মতো কিছু নেই"
 
-#: src/raven/notifications_view.vala:649
+#: src/raven/notifications_view.vala:654
 #: src/applets/notifications/NotificationsApplet.vala:106
 #, c-format
 msgid "%u unread notifications"
 msgstr "%uটি নতুন নোটিফিকেশন"
 
-#: src/raven/notifications_view.vala:651
+#: src/raven/notifications_view.vala:656
 #: src/applets/notifications/NotificationsApplet.vala:108
 msgid "1 unread notification"
 msgstr "১টি নতুন নোটিফিকেশন"
 
-#: src/raven/notifications_view.vala:653
+#: src/raven/notifications_view.vala:658
 #: src/applets/notifications/NotificationsApplet.vala:110
 msgid "No unread notifications"
 msgstr "কোন নতুন নোটিফিকেশন নেই"
 
-#: src/raven/notifications_view.vala:884
+#: src/raven/notifications_view.vala:889
 msgid "No new notifications"
 msgstr "কোনো নতুন নোটিফিকেশন নেই"
 
@@ -1199,6 +1209,10 @@ msgstr "রিমুভেবল ড্রাইভগুলো দেখাও"
 msgid "Always expand places"
 msgstr "জায়গাগুলো সবসময় খুলে রাখবে"
 
+#: src/applets/status/settings.ui.h:1 src/applets/tray/settings.ui.h:1
+msgid "Icon Spacing"
+msgstr ""
+
 #: src/applets/spacer/settings.ui.h:1
 msgid "Spacer size"
 msgstr "স্পেসারের আকার"
@@ -1255,10 +1269,6 @@ msgstr "ম্যানুয়াল"
 #: src/applets/night-light/indicator_window.ui.h:6
 msgid "Display Settings"
 msgstr "ডিসপ্লে সেটিংস"
-
-#: src/applets/tray/settings.ui.h:1
-msgid "Icon Spacing"
-msgstr ""
 
 #: src/applets/budgie-menu/settings.ui.h:1
 msgid "Show Menu Label"

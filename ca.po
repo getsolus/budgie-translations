@@ -8,11 +8,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-01 23:16+0200\n"
+"POT-Creation-Date: 2021-01-28 19:37+0200\n"
 "PO-Revision-Date: 2020-12-02 13:50+0000\n"
 "Last-Translator: David M <medipas@gmail.com>\n"
-"Language-Team: Catalan <http://translate.getsol.us/projects/budgie-desktop/"
-"translations/ca/>\n"
+"Language-Team: Catalan <http://translate.getsol.us/projects/budgie-desktop/translations/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -110,83 +109,93 @@ msgstr "Sessió"
 msgid "Budgie Desktop Settings"
 msgstr "Paràmetres de l'escriptori Budgie"
 
-#: src/panel/settings/settings_main.vala:98
+#: src/panel/settings/settings_main.vala:99
 msgid "Create new panel"
 msgstr "Crea un plafó nou."
 
-#: src/panel/settings/settings_wm.vala:30
+#: src/panel/settings/settings_wm.vala:31
 msgid "Windows"
 msgstr "Finestres"
 
-#: src/panel/settings/settings_wm.vala:39
+#: src/panel/settings/settings_wm.vala:40
 msgid "Attach modal dialogs to windows"
 msgstr "Adjunta diàlegs modals a les finestres."
 
-#: src/panel/settings/settings_wm.vala:40
+#: src/panel/settings/settings_wm.vala:41
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
 msgstr "Els diàlegs modals s'adjuntaran a la finestra mare i es mouran conjuntament quan s'arrosseguin."
 
-#: src/panel/settings/settings_wm.vala:45
+#: src/panel/settings/settings_wm.vala:46
 msgid "Button layout"
 msgstr "Disposició dels botons"
 
-#: src/panel/settings/settings_wm.vala:46
+#: src/panel/settings/settings_wm.vala:47
 msgid "Change the layout of buttons in application titlebars."
 msgstr "Canvia la disposició dels botons a les barres de títol de les aplicacions."
 
-#: src/panel/settings/settings_wm.vala:51
+#: src/panel/settings/settings_wm.vala:52
 msgid "Center new windows on screen"
 msgstr "Centra les finestres noves a la pantalla."
 
-#: src/panel/settings/settings_wm.vala:52
+#: src/panel/settings/settings_wm.vala:53
 msgid "Center newly launched windows on the current screen."
 msgstr "Centra les finestres noves que s'obrin a la pantalla actual."
 
-#: src/panel/settings/settings_wm.vala:57
+#: src/panel/settings/settings_wm.vala:58
 msgid "Disable Night Light mode when windows are fullscreen"
 msgstr "Inhabilita el mode de llum de nit quan les finestres estiguin en pantalla completa."
 
-#: src/panel/settings/settings_wm.vala:58
+#: src/panel/settings/settings_wm.vala:59
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr "Inhabilita el mode de llum de nit quan una finestra està en pantalla completa. Es torna a habilitar quan se'n surt."
 
-#: src/panel/settings/settings_wm.vala:63
+#: src/panel/settings/settings_wm.vala:64
+#, fuzzy
+msgid "Pause notifications when windows are fullscreen"
+msgstr "Inhabilita el mode de llum de nit quan les finestres estiguin en pantalla completa."
+
+#: src/panel/settings/settings_wm.vala:65
+#, fuzzy
+msgid "Prevents notifications from appearing when a window is fullscreen. Unpauses when leaving fullscreen."
+msgstr "Inhabilita el mode de llum de nit quan una finestra està en pantalla completa. Es torna a habilitar quan se'n surt."
+
+#: src/panel/settings/settings_wm.vala:70
 msgid "Automatic tiling"
 msgstr "Mosaic automàtic"
 
-#: src/panel/settings/settings_wm.vala:64
+#: src/panel/settings/settings_wm.vala:71
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
 msgstr "Les finestres faran automàticament un mosaic quan s'arrosseguin a dalt de tot de la pantalla o als cantons."
 
-#: src/panel/settings/settings_wm.vala:69
+#: src/panel/settings/settings_wm.vala:76
 msgid "Enable window focus change on mouse enter and leave"
 msgstr "Habilita el canvi del focus de la finestra en entrar-hi i sortir-ne amb el ratolí."
 
-#: src/panel/settings/settings_wm.vala:70
+#: src/panel/settings/settings_wm.vala:77
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
 msgstr "Habilita que la finestra tingui el focus quan s'hi entri amb el ratolí i que el deixi de tenir quan se'n surti."
 
-#: src/panel/settings/settings_wm.vala:76
+#: src/panel/settings/settings_wm.vala:83
 msgid "Disable unredirection of windows"
 msgstr "Inhabilita la no redirecció de les finestres."
 
-#: src/panel/settings/settings_wm.vala:77
+#: src/panel/settings/settings_wm.vala:84
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
 msgstr "Aquesta opció és per a usuaris avançats. Useu-la si teniu problemes gràfics o de rendiment amb GPU dedicades."
 
-#: src/panel/settings/settings_wm.vala:82
+#: src/panel/settings/settings_wm.vala:89
 msgid "Show all windows in tab switcher"
 msgstr "Mostra totes les finestres al canviador de pestanyes."
 
-#: src/panel/settings/settings_wm.vala:83
+#: src/panel/settings/settings_wm.vala:90
 msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
 msgstr "El canviador de pestanyes les mostrarà totes independentment de l'espai de treball en ús."
 
-#: src/panel/settings/settings_wm.vala:90
+#: src/panel/settings/settings_wm.vala:97
 msgid "Right (standard)"
 msgstr "Dreta (estàndard)"
 
-#: src/panel/settings/settings_wm.vala:92
+#: src/panel/settings/settings_wm.vala:99
 #: src/panel/settings/settings_panel.vala:181 src/raven/raven.vala:33
 msgid "Left"
 msgstr "Esquerra"
@@ -424,9 +433,7 @@ msgstr "Funcionament del clic"
 
 #: src/panel/settings/settings_desktop.vala:237
 msgid "Click Policy determines if we should open items on a single or double click."
-msgstr ""
-"El funcionament del clic determina si s'han d'obrir els elements amb un clic "
-"únic o doble."
+msgstr "El funcionament del clic determina si s'han d'obrir els elements amb un clic únic o doble."
 
 #: src/panel/settings/settings_desktop.vala:289
 msgid "Normal"
@@ -740,27 +747,27 @@ msgstr "Ara no hi ha cap aplicació que reprodueixi àudio."
 msgid "Play some music"
 msgstr "Reprodueix una mica de música"
 
-#: src/raven/notifications_view.vala:100
+#: src/raven/notifications_view.vala:101
 msgid "Nothing to see here"
 msgstr "Aquí no hi ha res per veure."
 
-#: src/raven/notifications_view.vala:649
+#: src/raven/notifications_view.vala:654
 #: src/applets/notifications/NotificationsApplet.vala:106
 #, c-format
 msgid "%u unread notifications"
 msgstr "%u notificacions per llegir"
 
-#: src/raven/notifications_view.vala:651
+#: src/raven/notifications_view.vala:656
 #: src/applets/notifications/NotificationsApplet.vala:108
 msgid "1 unread notification"
 msgstr "1 notificació per llegir"
 
-#: src/raven/notifications_view.vala:653
+#: src/raven/notifications_view.vala:658
 #: src/applets/notifications/NotificationsApplet.vala:110
 msgid "No unread notifications"
 msgstr "No hi ha notificacions per llegir."
 
-#: src/raven/notifications_view.vala:884
+#: src/raven/notifications_view.vala:889
 msgid "No new notifications"
 msgstr "No hi ha cap notificació nova."
 
@@ -1193,6 +1200,10 @@ msgstr "Mostra els dispositius extraïbles."
 msgid "Always expand places"
 msgstr "Expandeix sempre els llocs."
 
+#: src/applets/status/settings.ui.h:1 src/applets/tray/settings.ui.h:1
+msgid "Icon Spacing"
+msgstr "Espaiament de les icones"
+
 #: src/applets/spacer/settings.ui.h:1
 msgid "Spacer size"
 msgstr "Mida de l'espaiador"
@@ -1249,10 +1260,6 @@ msgstr "Manual"
 #: src/applets/night-light/indicator_window.ui.h:6
 msgid "Display Settings"
 msgstr "Paràmetres de la pantalla"
-
-#: src/applets/tray/settings.ui.h:1
-msgid "Icon Spacing"
-msgstr "Espaiament de les icones"
 
 #: src/applets/budgie-menu/settings.ui.h:1
 msgid "Show Menu Label"

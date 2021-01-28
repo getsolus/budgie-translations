@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-01 23:16+0200\n"
+"POT-Creation-Date: 2021-01-28 19:37+0200\n"
 "PO-Revision-Date: 2019-09-28 16:21+0000\n"
 "Last-Translator: Jacob <jacob.alzen@gmail.com>\n"
 "Language-Team: Swedish <http://translate.getsol.us/projects/budgie-desktop/translations/sv/>\n"
@@ -119,84 +119,94 @@ msgstr "Session"
 msgid "Budgie Desktop Settings"
 msgstr "Skrivbordsinställningar för Budgie"
 
-#: src/panel/settings/settings_main.vala:98
+#: src/panel/settings/settings_main.vala:99
 msgid "Create new panel"
 msgstr "Skapa ny panel"
 
-#: src/panel/settings/settings_wm.vala:30
+#: src/panel/settings/settings_wm.vala:31
 msgid "Windows"
 msgstr "Fönster"
 
-#: src/panel/settings/settings_wm.vala:39
+#: src/panel/settings/settings_wm.vala:40
 msgid "Attach modal dialogs to windows"
 msgstr "Fäst modala dialogrutor i fönster"
 
-#: src/panel/settings/settings_wm.vala:40
+#: src/panel/settings/settings_wm.vala:41
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
 msgstr "Modala dialogrutor fästs vid huvudfönstren och följer med när fönstret flyttas."
 
-#: src/panel/settings/settings_wm.vala:45
+#: src/panel/settings/settings_wm.vala:46
 msgid "Button layout"
 msgstr "Knapplacering"
 
-#: src/panel/settings/settings_wm.vala:46
+#: src/panel/settings/settings_wm.vala:47
 msgid "Change the layout of buttons in application titlebars."
 msgstr "Ändra placering av fönsterknappar."
 
-#: src/panel/settings/settings_wm.vala:51
+#: src/panel/settings/settings_wm.vala:52
 msgid "Center new windows on screen"
 msgstr "Centrera nya fönster på skärmen"
 
-#: src/panel/settings/settings_wm.vala:52
+#: src/panel/settings/settings_wm.vala:53
 msgid "Center newly launched windows on the current screen."
 msgstr "Centrera nya fönster på aktuell skärm."
 
-#: src/panel/settings/settings_wm.vala:57
+#: src/panel/settings/settings_wm.vala:58
 msgid "Disable Night Light mode when windows are fullscreen"
 msgstr "Inaktivera nattläge för bildskärm när fönster är i fullskärmsläge"
 
-#: src/panel/settings/settings_wm.vala:58
+#: src/panel/settings/settings_wm.vala:59
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr "Inaktiverar nattläge för bildskärmen när ett fönster är i fullskärmsläge. Återaktiveras när fönstret inte längre är i fullskärmsläge."
 
-#: src/panel/settings/settings_wm.vala:63
+#: src/panel/settings/settings_wm.vala:64
+#, fuzzy
+msgid "Pause notifications when windows are fullscreen"
+msgstr "Inaktivera nattläge för bildskärm när fönster är i fullskärmsläge"
+
+#: src/panel/settings/settings_wm.vala:65
+#, fuzzy
+msgid "Prevents notifications from appearing when a window is fullscreen. Unpauses when leaving fullscreen."
+msgstr "Inaktiverar nattläge för bildskärmen när ett fönster är i fullskärmsläge. Återaktiveras när fönstret inte längre är i fullskärmsläge."
+
+#: src/panel/settings/settings_wm.vala:70
 msgid "Automatic tiling"
 msgstr "Automatiskt rutnät"
 
-#: src/panel/settings/settings_wm.vala:64
+#: src/panel/settings/settings_wm.vala:71
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
 msgstr "Fönster anpassas automatiskt till rutnätet när de dras in mot hörn eller kanter."
 
-#: src/panel/settings/settings_wm.vala:69
+#: src/panel/settings/settings_wm.vala:76
 msgid "Enable window focus change on mouse enter and leave"
 msgstr "Aktivera automatiskt fokus på fönster när muspekaren flyttas över fönstret"
 
-#: src/panel/settings/settings_wm.vala:70
+#: src/panel/settings/settings_wm.vala:77
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
 msgstr "Aktiverar automatiskt fokus på fönster när muspekaren förs över fönstret och avaktiverar fokus när muspekaren förs bort från fönstret."
 
-#: src/panel/settings/settings_wm.vala:76
+#: src/panel/settings/settings_wm.vala:83
 msgid "Disable unredirection of windows"
 msgstr "Inaktivera dirigering av fönster"
 
-#: src/panel/settings/settings_wm.vala:77
+#: src/panel/settings/settings_wm.vala:84
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
 msgstr "Det här alternativet är för avancerade användare. Använd om du har problem med grafik eller prestanda med dedikerade GPUs."
 
-#: src/panel/settings/settings_wm.vala:82
+#: src/panel/settings/settings_wm.vala:89
 #, fuzzy
 msgid "Show all windows in tab switcher"
 msgstr "Visa alla fönster vid klick"
 
-#: src/panel/settings/settings_wm.vala:83
+#: src/panel/settings/settings_wm.vala:90
 msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
 msgstr ""
 
-#: src/panel/settings/settings_wm.vala:90
+#: src/panel/settings/settings_wm.vala:97
 msgid "Right (standard)"
 msgstr "Höger (standard)"
 
-#: src/panel/settings/settings_wm.vala:92
+#: src/panel/settings/settings_wm.vala:99
 #: src/panel/settings/settings_panel.vala:181 src/raven/raven.vala:33
 msgid "Left"
 msgstr "Vänster"
@@ -757,27 +767,27 @@ msgstr "Just nu spelar inga appar upp ljud."
 msgid "Play some music"
 msgstr "Spela musik"
 
-#: src/raven/notifications_view.vala:100
+#: src/raven/notifications_view.vala:101
 msgid "Nothing to see here"
 msgstr "Inget att se här"
 
-#: src/raven/notifications_view.vala:649
+#: src/raven/notifications_view.vala:654
 #: src/applets/notifications/NotificationsApplet.vala:106
 #, c-format
 msgid "%u unread notifications"
 msgstr "Antal olästa meddelanden: %u"
 
-#: src/raven/notifications_view.vala:651
+#: src/raven/notifications_view.vala:656
 #: src/applets/notifications/NotificationsApplet.vala:108
 msgid "1 unread notification"
 msgstr "1 oläst meddelande"
 
-#: src/raven/notifications_view.vala:653
+#: src/raven/notifications_view.vala:658
 #: src/applets/notifications/NotificationsApplet.vala:110
 msgid "No unread notifications"
 msgstr "Inga olästa meddelanden"
 
-#: src/raven/notifications_view.vala:884
+#: src/raven/notifications_view.vala:889
 msgid "No new notifications"
 msgstr "Inga nya meddelanden"
 
@@ -1211,6 +1221,10 @@ msgstr "Visa flyttbara diskar"
 msgid "Always expand places"
 msgstr "Expandera alltid platser"
 
+#: src/applets/status/settings.ui.h:1 src/applets/tray/settings.ui.h:1
+msgid "Icon Spacing"
+msgstr ""
+
 #: src/applets/spacer/settings.ui.h:1
 msgid "Spacer size"
 msgstr "Mellanrumstorlek"
@@ -1267,10 +1281,6 @@ msgstr "Manuell"
 #: src/applets/night-light/indicator_window.ui.h:6
 msgid "Display Settings"
 msgstr "Skärminställningar"
-
-#: src/applets/tray/settings.ui.h:1
-msgid "Icon Spacing"
-msgstr ""
 
 #: src/applets/budgie-menu/settings.ui.h:1
 msgid "Show Menu Label"

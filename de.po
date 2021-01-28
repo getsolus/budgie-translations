@@ -24,11 +24,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-01 23:16+0200\n"
+"POT-Creation-Date: 2021-01-28 19:37+0200\n"
 "PO-Revision-Date: 2021-01-15 09:27+0000\n"
 "Last-Translator: Girtablulu <flinux@vongellhorn.ch>\n"
-"Language-Team: German <http://translate.getsol.us/projects/budgie-desktop/"
-"translations/de/>\n"
+"Language-Team: German <http://translate.getsol.us/projects/budgie-desktop/translations/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -126,83 +125,93 @@ msgstr "Sitzung"
 msgid "Budgie Desktop Settings"
 msgstr "Budgie Desktop Einstellungen"
 
-#: src/panel/settings/settings_main.vala:98
+#: src/panel/settings/settings_main.vala:99
 msgid "Create new panel"
 msgstr "Neue Leiste"
 
-#: src/panel/settings/settings_wm.vala:30
+#: src/panel/settings/settings_wm.vala:31
 msgid "Windows"
 msgstr "Fenster"
 
-#: src/panel/settings/settings_wm.vala:39
+#: src/panel/settings/settings_wm.vala:40
 msgid "Attach modal dialogs to windows"
 msgstr "Modale Dialoge an Fenster verankern"
 
-#: src/panel/settings/settings_wm.vala:40
+#: src/panel/settings/settings_wm.vala:41
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
 msgstr "Modale Dialoge werden am Hauptfenster verankert und bewegen sich gemeinsam, wenn diese verschoben werden."
 
-#: src/panel/settings/settings_wm.vala:45
+#: src/panel/settings/settings_wm.vala:46
 msgid "Button layout"
 msgstr "Schaltflächenanordnung"
 
-#: src/panel/settings/settings_wm.vala:46
+#: src/panel/settings/settings_wm.vala:47
 msgid "Change the layout of buttons in application titlebars."
 msgstr "Das Layout der Schaltflächen in den Anwendungstitelleisten ändern."
 
-#: src/panel/settings/settings_wm.vala:51
+#: src/panel/settings/settings_wm.vala:52
 msgid "Center new windows on screen"
 msgstr "Neue Fenster auf dem Bildschirm zentrieren"
 
-#: src/panel/settings/settings_wm.vala:52
+#: src/panel/settings/settings_wm.vala:53
 msgid "Center newly launched windows on the current screen."
 msgstr "Neue Fenster werden in der Mitte des aktuellen Bildschirms geöffnet."
 
-#: src/panel/settings/settings_wm.vala:57
+#: src/panel/settings/settings_wm.vala:58
 msgid "Disable Night Light mode when windows are fullscreen"
 msgstr "Deaktiviere Nachtlicht falls Fenster im Vollbildmodus sind"
 
-#: src/panel/settings/settings_wm.vala:58
+#: src/panel/settings/settings_wm.vala:59
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr "Deaktiviert Nachtlicht falls Fenster im Vollbildmodus sind. Reaktiviert wenn Vollbild verlassen wird."
 
-#: src/panel/settings/settings_wm.vala:63
+#: src/panel/settings/settings_wm.vala:64
+#, fuzzy
+msgid "Pause notifications when windows are fullscreen"
+msgstr "Deaktiviere Nachtlicht falls Fenster im Vollbildmodus sind"
+
+#: src/panel/settings/settings_wm.vala:65
+#, fuzzy
+msgid "Prevents notifications from appearing when a window is fullscreen. Unpauses when leaving fullscreen."
+msgstr "Deaktiviert Nachtlicht falls Fenster im Vollbildmodus sind. Reaktiviert wenn Vollbild verlassen wird."
+
+#: src/panel/settings/settings_wm.vala:70
 msgid "Automatic tiling"
 msgstr "Automatisches Andocken"
 
-#: src/panel/settings/settings_wm.vala:64
+#: src/panel/settings/settings_wm.vala:71
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
 msgstr "Fenster passen sich automatisch ihre Grösse an, wenn sie zum oberen Rand des Bildschirms oder in die Ecken gezogen werden."
 
-#: src/panel/settings/settings_wm.vala:69
+#: src/panel/settings/settings_wm.vala:76
 msgid "Enable window focus change on mouse enter and leave"
 msgstr "Wechselt Fensterfokus bei Mauskontakt"
 
-#: src/panel/settings/settings_wm.vala:70
+#: src/panel/settings/settings_wm.vala:77
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
 msgstr "Fokussiert automatisch das Fenster, das sich unter der Maus befindet."
 
-#: src/panel/settings/settings_wm.vala:76
+#: src/panel/settings/settings_wm.vala:83
 msgid "Disable unredirection of windows"
 msgstr "Nicht-Weiterleitung von Fenstern deaktivieren"
 
-#: src/panel/settings/settings_wm.vala:77
+#: src/panel/settings/settings_wm.vala:84
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
 msgstr "Diese Option ist für erfahrene Benutzer. Verwenden, falls graphische oder Performance-Probleme mit dedizierten GPUs auftreten."
 
-#: src/panel/settings/settings_wm.vala:82
+#: src/panel/settings/settings_wm.vala:89
 msgid "Show all windows in tab switcher"
 msgstr "Zeige alle Fenster im Anwendungsumschalter"
 
-#: src/panel/settings/settings_wm.vala:83
+#: src/panel/settings/settings_wm.vala:90
 msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
 msgstr "Alle Tabs werden im Anwendungsumschalter angezeigt unabhängig vom verwendeten Arbeitsbereich."
 
-#: src/panel/settings/settings_wm.vala:90
+#: src/panel/settings/settings_wm.vala:97
 msgid "Right (standard)"
 msgstr "Rechts (Standard)"
 
-#: src/panel/settings/settings_wm.vala:92
+#: src/panel/settings/settings_wm.vala:99
 #: src/panel/settings/settings_panel.vala:181 src/raven/raven.vala:33
 msgid "Left"
 msgstr "Links"
@@ -440,9 +449,7 @@ msgstr "Klick-Regel"
 
 #: src/panel/settings/settings_desktop.vala:237
 msgid "Click Policy determines if we should open items on a single or double click."
-msgstr ""
-"Die Klick-Regel bestimmt, ob wir Objekte mit einem Einzel- oder Doppelklick "
-"öffnen sollen."
+msgstr "Die Klick-Regel bestimmt, ob wir Objekte mit einem Einzel- oder Doppelklick öffnen sollen."
 
 #: src/panel/settings/settings_desktop.vala:289
 msgid "Normal"
@@ -756,27 +763,27 @@ msgstr "Aktuell gibt keine Anwendung einen Ton wieder."
 msgid "Play some music"
 msgstr "Spiele etwas Musik"
 
-#: src/raven/notifications_view.vala:100
+#: src/raven/notifications_view.vala:101
 msgid "Nothing to see here"
 msgstr "Keine Benachrichtigungen"
 
-#: src/raven/notifications_view.vala:649
+#: src/raven/notifications_view.vala:654
 #: src/applets/notifications/NotificationsApplet.vala:106
 #, c-format
 msgid "%u unread notifications"
 msgstr "%u ungelesene Benachrichtigungen"
 
-#: src/raven/notifications_view.vala:651
+#: src/raven/notifications_view.vala:656
 #: src/applets/notifications/NotificationsApplet.vala:108
 msgid "1 unread notification"
 msgstr "1 ungelesene Benachrichtigung"
 
-#: src/raven/notifications_view.vala:653
+#: src/raven/notifications_view.vala:658
 #: src/applets/notifications/NotificationsApplet.vala:110
 msgid "No unread notifications"
 msgstr "Keine ungelesenen Benachrichtigungen"
 
-#: src/raven/notifications_view.vala:884
+#: src/raven/notifications_view.vala:889
 msgid "No new notifications"
 msgstr "Keine neuen Benachrichtigungen"
 
@@ -1209,6 +1216,10 @@ msgstr "Wechseldatenträger anzeigen"
 msgid "Always expand places"
 msgstr "Orte immer erweitern"
 
+#: src/applets/status/settings.ui.h:1 src/applets/tray/settings.ui.h:1
+msgid "Icon Spacing"
+msgstr "Symbolabstand"
+
 #: src/applets/spacer/settings.ui.h:1
 msgid "Spacer size"
 msgstr "Platzhaltergrösse"
@@ -1265,10 +1276,6 @@ msgstr "Manuell"
 #: src/applets/night-light/indicator_window.ui.h:6
 msgid "Display Settings"
 msgstr "Bildschirmeinstellungen"
-
-#: src/applets/tray/settings.ui.h:1
-msgid "Icon Spacing"
-msgstr "Symbolabstand"
 
 #: src/applets/budgie-menu/settings.ui.h:1
 msgid "Show Menu Label"

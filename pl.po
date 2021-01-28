@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-01 23:16+0200\n"
+"POT-Creation-Date: 2021-01-28 19:37+0200\n"
 "PO-Revision-Date: 2020-05-10 21:44+0000\n"
 "Last-Translator: Szymon Scholz <quomoow@gmail.com>\n"
 "Language-Team: Polish <http://translate.getsol.us/projects/budgie-desktop/translations/pl/>\n"
@@ -121,84 +121,94 @@ msgstr "Sesja"
 msgid "Budgie Desktop Settings"
 msgstr "Ustawienia Pulpitu Budgie"
 
-#: src/panel/settings/settings_main.vala:98
+#: src/panel/settings/settings_main.vala:99
 msgid "Create new panel"
 msgstr "Stwórz nowy panel"
 
-#: src/panel/settings/settings_wm.vala:30
+#: src/panel/settings/settings_wm.vala:31
 msgid "Windows"
 msgstr "Okna"
 
-#: src/panel/settings/settings_wm.vala:39
+#: src/panel/settings/settings_wm.vala:40
 msgid "Attach modal dialogs to windows"
 msgstr "Przypnij modalne dialogi do okien"
 
-#: src/panel/settings/settings_wm.vala:40
+#: src/panel/settings/settings_wm.vala:41
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
 msgstr "Modalne dialogi zostaną przypięte do nadrzędnego okna i będą poruszać się razem przy przeciąganiu."
 
-#: src/panel/settings/settings_wm.vala:45
+#: src/panel/settings/settings_wm.vala:46
 msgid "Button layout"
 msgstr "Układ przycisków"
 
-#: src/panel/settings/settings_wm.vala:46
+#: src/panel/settings/settings_wm.vala:47
 msgid "Change the layout of buttons in application titlebars."
 msgstr "Zmień układ przycisków na pasku tytułowym aplikacji."
 
-#: src/panel/settings/settings_wm.vala:51
+#: src/panel/settings/settings_wm.vala:52
 msgid "Center new windows on screen"
 msgstr "Wyśrodkuj nowe okna na ekranie"
 
-#: src/panel/settings/settings_wm.vala:52
+#: src/panel/settings/settings_wm.vala:53
 msgid "Center newly launched windows on the current screen."
 msgstr "Wyśrodkuj nowo otwarte okna na bieżącym ekranie."
 
-#: src/panel/settings/settings_wm.vala:57
+#: src/panel/settings/settings_wm.vala:58
 msgid "Disable Night Light mode when windows are fullscreen"
 msgstr "Wyłącz tryb Nocnego Światła gdy okna są w trybie pełnoekranowym"
 
-#: src/panel/settings/settings_wm.vala:58
+#: src/panel/settings/settings_wm.vala:59
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr "Wyłącza tryb Nocnego Światła gdy okno jest w trybie pełnoekranowym. Włącza go ponownie przy opuszczaniu trybu pełnoekranowego."
 
-#: src/panel/settings/settings_wm.vala:63
+#: src/panel/settings/settings_wm.vala:64
+#, fuzzy
+msgid "Pause notifications when windows are fullscreen"
+msgstr "Wyłącz tryb Nocnego Światła gdy okna są w trybie pełnoekranowym"
+
+#: src/panel/settings/settings_wm.vala:65
+#, fuzzy
+msgid "Prevents notifications from appearing when a window is fullscreen. Unpauses when leaving fullscreen."
+msgstr "Wyłącza tryb Nocnego Światła gdy okno jest w trybie pełnoekranowym. Włącza go ponownie przy opuszczaniu trybu pełnoekranowego."
+
+#: src/panel/settings/settings_wm.vala:70
 msgid "Automatic tiling"
 msgstr "Automatyczne kafelkowanie"
 
-#: src/panel/settings/settings_wm.vala:64
+#: src/panel/settings/settings_wm.vala:71
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
 msgstr "Okna będą automatycznie kafelkowane, kiedy zostaną przeciągnięte do górnej lub skrajnej krawędzi ekranu."
 
-#: src/panel/settings/settings_wm.vala:69
+#: src/panel/settings/settings_wm.vala:76
 msgid "Enable window focus change on mouse enter and leave"
 msgstr "Włącz zmianę uwagi okien poprzez wskazywanie myszką"
 
-#: src/panel/settings/settings_wm.vala:70
+#: src/panel/settings/settings_wm.vala:77
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
 msgstr "Włącza zmianę uwagi okna gdy myszka wskazuje na okno i je opuszcza."
 
-#: src/panel/settings/settings_wm.vala:76
+#: src/panel/settings/settings_wm.vala:83
 msgid "Disable unredirection of windows"
 msgstr "Wyłącz cofnięcie przekierowania okien"
 
-#: src/panel/settings/settings_wm.vala:77
+#: src/panel/settings/settings_wm.vala:84
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
 msgstr "Ta opcja jest dla zaawansowanych użytkowników. Użyj jej, jeśli masz problemy z grafiką lub wydajnością dedykowanych GPU."
 
-#: src/panel/settings/settings_wm.vala:82
+#: src/panel/settings/settings_wm.vala:89
 #, fuzzy
 msgid "Show all windows in tab switcher"
 msgstr "Pokaż wszystkie okna poprzez kliknięcie"
 
-#: src/panel/settings/settings_wm.vala:83
+#: src/panel/settings/settings_wm.vala:90
 msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
 msgstr ""
 
-#: src/panel/settings/settings_wm.vala:90
+#: src/panel/settings/settings_wm.vala:97
 msgid "Right (standard)"
 msgstr "Prawy (standard)"
 
-#: src/panel/settings/settings_wm.vala:92
+#: src/panel/settings/settings_wm.vala:99
 #: src/panel/settings/settings_panel.vala:181 src/raven/raven.vala:33
 msgid "Left"
 msgstr "Lewy"
@@ -757,27 +767,27 @@ msgstr "Żadne aplikacje nie odtwarzają obecnie dźwięku."
 msgid "Play some music"
 msgstr "Odtwórz muzykę"
 
-#: src/raven/notifications_view.vala:100
+#: src/raven/notifications_view.vala:101
 msgid "Nothing to see here"
 msgstr "Nic do wyświetlenia"
 
-#: src/raven/notifications_view.vala:649
+#: src/raven/notifications_view.vala:654
 #: src/applets/notifications/NotificationsApplet.vala:106
 #, c-format
 msgid "%u unread notifications"
 msgstr "Nieprzeczytane powiadomienia: %u"
 
-#: src/raven/notifications_view.vala:651
+#: src/raven/notifications_view.vala:656
 #: src/applets/notifications/NotificationsApplet.vala:108
 msgid "1 unread notification"
 msgstr "1 nieprzeczytane powiadomienie"
 
-#: src/raven/notifications_view.vala:653
+#: src/raven/notifications_view.vala:658
 #: src/applets/notifications/NotificationsApplet.vala:110
 msgid "No unread notifications"
 msgstr "Brak nieprzeczytanych powiadomień"
 
-#: src/raven/notifications_view.vala:884
+#: src/raven/notifications_view.vala:889
 msgid "No new notifications"
 msgstr "Brak nowych powiadomień"
 
@@ -1213,6 +1223,10 @@ msgstr "Pokaż urządzenia przenośne"
 msgid "Always expand places"
 msgstr "Zawsze powiększaj miejsca"
 
+#: src/applets/status/settings.ui.h:1 src/applets/tray/settings.ui.h:1
+msgid "Icon Spacing"
+msgstr ""
+
 #: src/applets/spacer/settings.ui.h:1
 msgid "Spacer size"
 msgstr "Rozmiar odstępu"
@@ -1269,10 +1283,6 @@ msgstr "Ręczny"
 #: src/applets/night-light/indicator_window.ui.h:6
 msgid "Display Settings"
 msgstr "Ustawienia wyświetlacza"
-
-#: src/applets/tray/settings.ui.h:1
-msgid "Icon Spacing"
-msgstr ""
 
 #: src/applets/budgie-menu/settings.ui.h:1
 msgid "Show Menu Label"

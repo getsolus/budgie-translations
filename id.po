@@ -10,11 +10,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-01 23:16+0200\n"
+"POT-Creation-Date: 2021-01-28 19:37+0200\n"
 "PO-Revision-Date: 2021-01-15 09:27+0000\n"
 "Last-Translator: Andrian Roshandy <a.nomansky001@gmail.com>\n"
-"Language-Team: Indonesian <http://translate.getsol.us/projects/"
-"budgie-desktop/translations/id/>\n"
+"Language-Team: Indonesian <http://translate.getsol.us/projects/budgie-desktop/translations/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -112,92 +111,93 @@ msgstr "Sesi"
 msgid "Budgie Desktop Settings"
 msgstr "Pengaturan Desktop Budgie"
 
-#: src/panel/settings/settings_main.vala:98
+#: src/panel/settings/settings_main.vala:99
 msgid "Create new panel"
 msgstr "Buat panel baru"
 
-#: src/panel/settings/settings_wm.vala:30
+#: src/panel/settings/settings_wm.vala:31
 msgid "Windows"
 msgstr "Jendela"
 
-#: src/panel/settings/settings_wm.vala:39
+#: src/panel/settings/settings_wm.vala:40
 msgid "Attach modal dialogs to windows"
 msgstr "Lekatkan kotak dialog pada jendela"
 
-#: src/panel/settings/settings_wm.vala:40
+#: src/panel/settings/settings_wm.vala:41
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
-msgstr ""
-"Kotak dialog akan melekat pada jendela induk dan ikut bergerak saat diseret."
+msgstr "Kotak dialog akan melekat pada jendela induk dan ikut bergerak saat diseret."
 
-#: src/panel/settings/settings_wm.vala:45
+#: src/panel/settings/settings_wm.vala:46
 msgid "Button layout"
 msgstr "Tata letak tombol"
 
-#: src/panel/settings/settings_wm.vala:46
+#: src/panel/settings/settings_wm.vala:47
 msgid "Change the layout of buttons in application titlebars."
 msgstr "Ubah tata letak tombol di bar judul aplikasi."
 
-#: src/panel/settings/settings_wm.vala:51
+#: src/panel/settings/settings_wm.vala:52
 msgid "Center new windows on screen"
 msgstr "Pusatkan jendela baru pada layar"
 
-#: src/panel/settings/settings_wm.vala:52
+#: src/panel/settings/settings_wm.vala:53
 msgid "Center newly launched windows on the current screen."
 msgstr "Pusatkan jendela yang baru saja diluncurkan pada layar saat ini."
 
-#: src/panel/settings/settings_wm.vala:57
+#: src/panel/settings/settings_wm.vala:58
 msgid "Disable Night Light mode when windows are fullscreen"
 msgstr "Nonaktifkan mode Cahaya Malam ketika jendela dalam mode layar penuh"
 
-#: src/panel/settings/settings_wm.vala:58
+#: src/panel/settings/settings_wm.vala:59
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
-msgstr ""
-"Menonaktifkan mode Cahaya Malam ketika jendela dalam mode layar penuh. Aktif "
-"kembali saat keluar dari mode layar penuh."
+msgstr "Menonaktifkan mode Cahaya Malam ketika jendela dalam mode layar penuh. Aktif kembali saat keluar dari mode layar penuh."
 
-#: src/panel/settings/settings_wm.vala:63
+#: src/panel/settings/settings_wm.vala:64
+#, fuzzy
+msgid "Pause notifications when windows are fullscreen"
+msgstr "Nonaktifkan mode Cahaya Malam ketika jendela dalam mode layar penuh"
+
+#: src/panel/settings/settings_wm.vala:65
+#, fuzzy
+msgid "Prevents notifications from appearing when a window is fullscreen. Unpauses when leaving fullscreen."
+msgstr "Menonaktifkan mode Cahaya Malam ketika jendela dalam mode layar penuh. Aktif kembali saat keluar dari mode layar penuh."
+
+#: src/panel/settings/settings_wm.vala:70
 msgid "Automatic tiling"
 msgstr "Otomatis mengubin"
 
-#: src/panel/settings/settings_wm.vala:64
+#: src/panel/settings/settings_wm.vala:71
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
-msgstr ""
-"Jendela akan mengubin atau menempatkan diri secara otomatis saat diseret ke "
-"atas atau sudut layar."
+msgstr "Jendela akan mengubin atau menempatkan diri secara otomatis saat diseret ke atas atau sudut layar."
 
-#: src/panel/settings/settings_wm.vala:69
+#: src/panel/settings/settings_wm.vala:76
 msgid "Enable window focus change on mouse enter and leave"
 msgstr "Aktifkan perubahan fokus jendela saat tetikus masuk dan keluar"
 
-#: src/panel/settings/settings_wm.vala:70
+#: src/panel/settings/settings_wm.vala:77
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
 msgstr "Memungkinkan fokus jendela diterapkan saat tetikus memasuki jendela dan berhenti fokus saat tetikus meninggalkan jendela."
 
-#: src/panel/settings/settings_wm.vala:76
+#: src/panel/settings/settings_wm.vala:83
 msgid "Disable unredirection of windows"
 msgstr "Nonaktifkan pengalihan jendela"
 
-#: src/panel/settings/settings_wm.vala:77
+#: src/panel/settings/settings_wm.vala:84
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr ""
-"Opsi ini untuk pengguna tingkat lanjut. Gunakan ini jika Anda mengalami "
-"kendala grafis atau performa dengan GPU tersendiri."
+msgstr "Opsi ini untuk pengguna tingkat lanjut. Gunakan ini jika Anda mengalami kendala grafis atau performa dengan GPU tersendiri."
 
-#: src/panel/settings/settings_wm.vala:82
+#: src/panel/settings/settings_wm.vala:89
 msgid "Show all windows in tab switcher"
 msgstr "Tampilkan semua jendela di pengalih tab"
 
-#: src/panel/settings/settings_wm.vala:83
-msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
-msgstr ""
-"Seluruh tab akan ditampilkan di pengalih tab, terlepas dari ruang kerja yang "
-"digunakan."
-
 #: src/panel/settings/settings_wm.vala:90
+msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
+msgstr "Seluruh tab akan ditampilkan di pengalih tab, terlepas dari ruang kerja yang digunakan."
+
+#: src/panel/settings/settings_wm.vala:97
 msgid "Right (standard)"
 msgstr "Kanan (standar)"
 
-#: src/panel/settings/settings_wm.vala:92
+#: src/panel/settings/settings_wm.vala:99
 #: src/panel/settings/settings_panel.vala:181 src/raven/raven.vala:33
 msgid "Left"
 msgstr "Kiri"
@@ -280,9 +280,7 @@ msgstr "Atur letak Raven"
 
 #: src/panel/settings/settings_raven.vala:62
 msgid "Set which side of the screen Raven will open on. If set to Automatic, Raven will open where its parent panel is."
-msgstr ""
-"Atur sisi layar sebelah manakah Raven akan terbuka. Jika diatur ke Otomatis, "
-"Raven akan terbuka di mana panel induknya berada."
+msgstr "Atur sisi layar sebelah manakah Raven akan terbuka. Jika diatur ke Otomatis, Raven akan terbuka di mana panel induknya berada."
 
 #: src/panel/settings/settings_raven.vala:67
 msgid "Allow raising volume above 100%"
@@ -290,9 +288,7 @@ msgstr "Izinkan menaikkan volume melebihi 100%"
 
 #: src/panel/settings/settings_raven.vala:68
 msgid "Allows raising the volume via Sound Settings as well as the Sound Output Widget in Raven up to 150%."
-msgstr ""
-"Memungkinkan peningkatan volume melalui Pengaturan Suara maupun Widget "
-"Keluaran Suara pada Raven hingga 150%."
+msgstr "Memungkinkan peningkatan volume melalui Pengaturan Suara maupun Widget Keluaran Suara pada Raven hingga 150%."
 
 #: src/panel/settings/settings_raven.vala:72
 msgid "Enable display of week numbers in Calendar"
@@ -422,9 +418,7 @@ msgstr "Jumlah desktop virtual"
 
 #: src/panel/settings/settings_desktop.vala:149
 msgid "Number of virtual desktops / workspaces to create automatically on startup."
-msgstr ""
-"Jumlah desktop / ruang kerja virtual yang akan dibuat secara otomatis ketika "
-"awal memulai."
+msgstr "Jumlah desktop / ruang kerja virtual yang akan dibuat secara otomatis ketika awal memulai."
 
 #: src/panel/settings/settings_desktop.vala:217
 msgid "Single"
@@ -441,9 +435,7 @@ msgstr "Aturan Klik"
 
 #: src/panel/settings/settings_desktop.vala:237
 msgid "Click Policy determines if we should open items on a single or double click."
-msgstr ""
-"Aturan Klik menentukan apakah harus membuka item dengan sekali atau dua kali "
-"klik."
+msgstr "Aturan Klik menentukan apakah harus membuka item dengan sekali atau dua kali klik."
 
 #: src/panel/settings/settings_desktop.vala:289
 msgid "Normal"
@@ -572,9 +564,7 @@ msgstr "Otomatis sembunyi"
 
 #: src/panel/settings/settings_panel.vala:246
 msgid "When set, this panel will hide from view to maximize screen estate"
-msgstr ""
-"Bila disetel, panel ini akan sembunyi dari pandangan untuk memaksimalkan "
-"ruang layar"
+msgstr "Bila disetel, panel ini akan sembunyi dari pandangan untuk memaksimalkan ruang layar"
 
 #: src/panel/settings/settings_panel.vala:253
 msgid "Transparency"
@@ -590,8 +580,7 @@ msgstr "Bayangan"
 
 #: src/panel/settings/settings_panel.vala:260
 msgid "Adds a decorative drop-shadow, ideal for opaque panels"
-msgstr ""
-"Menambahkan sentuhan efek bayangan jatuh, layak untuk yang berpanel buram"
+msgstr "Menambahkan sentuhan efek bayangan jatuh, layak untuk yang berpanel buram"
 
 #: src/panel/settings/settings_panel.vala:266
 msgid "Stylize regions"
@@ -599,9 +588,7 @@ msgstr "Corak bidang"
 
 #: src/panel/settings/settings_panel.vala:267
 msgid "Adds a hint to the panel so that each of the panel's three main areas may be themed differently."
-msgstr ""
-"Menambahkan sentuhan pada panel sehingga area panel satu sama lain mungkin "
-"berbeda tema."
+msgstr "Menambahkan sentuhan pada panel sehingga area panel satu sama lain mungkin berbeda tema."
 
 #: src/panel/settings/settings_panel.vala:274
 msgid "Dock mode"
@@ -609,9 +596,7 @@ msgstr "Mode dok"
 
 #: src/panel/settings/settings_panel.vala:275
 msgid "When in dock mode, the panel will use the minimal amount of space possible, freeing up valuable screen estate"
-msgstr ""
-"Saat dalam mode dok, panel akan menggunakan ruang seminimal mungkin, "
-"membebaskan lebih banyak ruang layar"
+msgstr "Saat dalam mode dok, panel akan menggunakan ruang seminimal mungkin, membebaskan lebih banyak ruang layar"
 
 #: src/panel/settings/settings_autostart.vala:134
 msgid "Untitled"
@@ -710,9 +695,7 @@ msgstr "Monospace"
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr ""
-"Setel fon lebar-tunggal yang digunakan pada aplikasi yang dominan berupa "
-"teks."
+msgstr "Setel fon lebar-tunggal yang digunakan pada aplikasi yang dominan berupa teks."
 
 #: src/panel/settings/settings_fonts.vala:71
 msgid "Text scaling"
@@ -766,27 +749,27 @@ msgstr "Tidak ada aplikasi yang sedang memutar audio."
 msgid "Play some music"
 msgstr "Mainkan musik"
 
-#: src/raven/notifications_view.vala:100
+#: src/raven/notifications_view.vala:101
 msgid "Nothing to see here"
 msgstr "Tak ada apa pun di sini"
 
-#: src/raven/notifications_view.vala:649
+#: src/raven/notifications_view.vala:654
 #: src/applets/notifications/NotificationsApplet.vala:106
 #, c-format
 msgid "%u unread notifications"
 msgstr "%u notifikasi belum dibaca"
 
-#: src/raven/notifications_view.vala:651
+#: src/raven/notifications_view.vala:656
 #: src/applets/notifications/NotificationsApplet.vala:108
 msgid "1 unread notification"
 msgstr "1 notifikasi belum dibaca"
 
-#: src/raven/notifications_view.vala:653
+#: src/raven/notifications_view.vala:658
 #: src/applets/notifications/NotificationsApplet.vala:110
 msgid "No unread notifications"
 msgstr "Tak ada notifikasi yang belum dibaca"
 
-#: src/raven/notifications_view.vala:884
+#: src/raven/notifications_view.vala:889
 msgid "No new notifications"
 msgstr "Tak ada notifikasi baru"
 
@@ -964,8 +947,7 @@ msgstr "Kata sandi yang Anda masukkan tidak tepat"
 
 #: src/applets/places-indicator/VolumeItem.vala:116
 msgid "An unknown error occurred while attempting to mount this volume"
-msgstr ""
-"Terjadi kesalahan yang tidak diketahui saat berusaha menambatkan volume ini"
+msgstr "Terjadi kesalahan yang tidak diketahui saat berusaha menambatkan volume ini"
 
 #: src/applets/places-indicator/MountHelper.vala:35
 msgid "Volume is in use by other processes"
@@ -1067,8 +1049,7 @@ msgstr "Timer (menit)"
 #. there's already an active tray, create an informative icon with a popover
 #: src/applets/tray/TrayApplet.vala:114
 msgid "Only one instance of the System Tray can be active at a time."
-msgstr ""
-"Hanya satu instansiasi dari Sistem Nampan yang dapat aktif dalam satu waktu."
+msgstr "Hanya satu instansiasi dari Sistem Nampan yang dapat aktif dalam satu waktu."
 
 #: src/applets/tray/TrayApplet.vala:140
 msgid "The System Tray failed to initialize."
@@ -1220,6 +1201,10 @@ msgstr "Tampilkan drive lepasan"
 msgid "Always expand places"
 msgstr "Selalu luaskan tempat"
 
+#: src/applets/status/settings.ui.h:1 src/applets/tray/settings.ui.h:1
+msgid "Icon Spacing"
+msgstr "Jarak Ikon"
+
 #: src/applets/spacer/settings.ui.h:1
 msgid "Spacer size"
 msgstr "Lebar pengatur jarak"
@@ -1276,10 +1261,6 @@ msgstr "Manual"
 #: src/applets/night-light/indicator_window.ui.h:6
 msgid "Display Settings"
 msgstr "Setelan Tampilan"
-
-#: src/applets/tray/settings.ui.h:1
-msgid "Icon Spacing"
-msgstr "Jarak Ikon"
 
 #: src/applets/budgie-menu/settings.ui.h:1
 msgid "Show Menu Label"

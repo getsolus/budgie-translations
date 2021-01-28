@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-01 23:16+0200\n"
+"POT-Creation-Date: 2021-01-28 19:37+0200\n"
 "PO-Revision-Date: 2020-10-10 00:48+0000\n"
 "Last-Translator: Faisal almosbahi <faisal.almosbahi@gmail.com>\n"
 "Language-Team: Arabic <http://translate.getsol.us/projects/budgie-desktop/translations/ar/>\n"
@@ -113,83 +113,93 @@ msgstr "جلسة"
 msgid "Budgie Desktop Settings"
 msgstr "إعدادات سطح مكتب Budgie"
 
-#: src/panel/settings/settings_main.vala:98
+#: src/panel/settings/settings_main.vala:99
 msgid "Create new panel"
 msgstr "إنشاء لوحة جديدة"
 
-#: src/panel/settings/settings_wm.vala:30
+#: src/panel/settings/settings_wm.vala:31
 msgid "Windows"
 msgstr "النوافذ"
 
-#: src/panel/settings/settings_wm.vala:39
+#: src/panel/settings/settings_wm.vala:40
 msgid "Attach modal dialogs to windows"
 msgstr "ربط مربعات الحوار المنبثقة بالنوافذ"
 
-#: src/panel/settings/settings_wm.vala:40
+#: src/panel/settings/settings_wm.vala:41
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
 msgstr "سترتبط نوافذ الحوار المنبثقة بالنافذة الأم وستتحرك معها عند سحبها."
 
-#: src/panel/settings/settings_wm.vala:45
+#: src/panel/settings/settings_wm.vala:46
 msgid "Button layout"
 msgstr "ترتيب الأزرار"
 
-#: src/panel/settings/settings_wm.vala:46
+#: src/panel/settings/settings_wm.vala:47
 msgid "Change the layout of buttons in application titlebars."
 msgstr "تغيير نسق الأزرار في شريط عنوان التطبيق."
 
-#: src/panel/settings/settings_wm.vala:51
+#: src/panel/settings/settings_wm.vala:52
 msgid "Center new windows on screen"
 msgstr "توسيط النوافذ الجديدة على الشاشة"
 
-#: src/panel/settings/settings_wm.vala:52
+#: src/panel/settings/settings_wm.vala:53
 msgid "Center newly launched windows on the current screen."
 msgstr "توسيط النوافذ الجديدة على الشاشة الحالية."
 
-#: src/panel/settings/settings_wm.vala:57
+#: src/panel/settings/settings_wm.vala:58
 msgid "Disable Night Light mode when windows are fullscreen"
 msgstr "تعطيل وضع الإضاءة الليلية عندما تكون النوافذ في وضع ملء الشاشة"
 
-#: src/panel/settings/settings_wm.vala:58
+#: src/panel/settings/settings_wm.vala:59
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr "تعطيل وضع الإضاءة الليلية عندما تكون النافذة في وضع ملء الشاشة، وإعادة التمكين عند مغادرة ملء الشاشة."
 
-#: src/panel/settings/settings_wm.vala:63
+#: src/panel/settings/settings_wm.vala:64
+#, fuzzy
+msgid "Pause notifications when windows are fullscreen"
+msgstr "تعطيل وضع الإضاءة الليلية عندما تكون النوافذ في وضع ملء الشاشة"
+
+#: src/panel/settings/settings_wm.vala:65
+#, fuzzy
+msgid "Prevents notifications from appearing when a window is fullscreen. Unpauses when leaving fullscreen."
+msgstr "تعطيل وضع الإضاءة الليلية عندما تكون النافذة في وضع ملء الشاشة، وإعادة التمكين عند مغادرة ملء الشاشة."
+
+#: src/panel/settings/settings_wm.vala:70
 msgid "Automatic tiling"
 msgstr "ترتيب تلقائي"
 
-#: src/panel/settings/settings_wm.vala:64
+#: src/panel/settings/settings_wm.vala:71
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
 msgstr "سيتم ترتيب النوافذ تلقائيًا عند سحبها لأعلى الشاشة أو أحد الزوايا البعيدة."
 
-#: src/panel/settings/settings_wm.vala:69
+#: src/panel/settings/settings_wm.vala:76
 msgid "Enable window focus change on mouse enter and leave"
 msgstr "تغيير تركيز النافذة عند تمرير مؤشر الفأرة بها"
 
-#: src/panel/settings/settings_wm.vala:70
+#: src/panel/settings/settings_wm.vala:77
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
 msgstr "تمكين تركيز النافذة عند دخول مؤشر الفأرة بها، وإلغاؤه عند خروجه."
 
-#: src/panel/settings/settings_wm.vala:76
+#: src/panel/settings/settings_wm.vala:83
 msgid "Disable unredirection of windows"
 msgstr "تعطيل إعادة توجيه النوافذ"
 
-#: src/panel/settings/settings_wm.vala:77
+#: src/panel/settings/settings_wm.vala:84
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
 msgstr "هذا الخيار للمستخدمين المتقدمين. استخدمه إذا واجهت مشاكل رسومية أو مشاكل في الأداء مع كروت الشاشة المخصصة."
 
-#: src/panel/settings/settings_wm.vala:82
+#: src/panel/settings/settings_wm.vala:89
 msgid "Show all windows in tab switcher"
 msgstr "إظهار جميع النوافذ بمبدل علامات التبويب"
 
-#: src/panel/settings/settings_wm.vala:83
+#: src/panel/settings/settings_wm.vala:90
 msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
 msgstr ""
 
-#: src/panel/settings/settings_wm.vala:90
+#: src/panel/settings/settings_wm.vala:97
 msgid "Right (standard)"
 msgstr "يمين (أساسي)"
 
-#: src/panel/settings/settings_wm.vala:92
+#: src/panel/settings/settings_wm.vala:99
 #: src/panel/settings/settings_panel.vala:181 src/raven/raven.vala:33
 msgid "Left"
 msgstr "يسار"
@@ -748,27 +758,27 @@ msgstr "لا توجد تطبيقات تشغل الصوت حاليًا."
 msgid "Play some music"
 msgstr "تشغيل الموسيقى"
 
-#: src/raven/notifications_view.vala:100
+#: src/raven/notifications_view.vala:101
 msgid "Nothing to see here"
 msgstr "لا يوجد شيء هنا"
 
-#: src/raven/notifications_view.vala:649
+#: src/raven/notifications_view.vala:654
 #: src/applets/notifications/NotificationsApplet.vala:106
 #, c-format
 msgid "%u unread notifications"
 msgstr "%u إشعارات غير مقروءة"
 
-#: src/raven/notifications_view.vala:651
+#: src/raven/notifications_view.vala:656
 #: src/applets/notifications/NotificationsApplet.vala:108
 msgid "1 unread notification"
 msgstr "إشعار واحد غير مقروء"
 
-#: src/raven/notifications_view.vala:653
+#: src/raven/notifications_view.vala:658
 #: src/applets/notifications/NotificationsApplet.vala:110
 msgid "No unread notifications"
 msgstr "لا توجد إشعارات غير مقروءة"
 
-#: src/raven/notifications_view.vala:884
+#: src/raven/notifications_view.vala:889
 msgid "No new notifications"
 msgstr "لا توجد إشعارات جديدة"
 
@@ -1206,6 +1216,10 @@ msgstr "إظهار الأجهزة القابلة للإزالة"
 msgid "Always expand places"
 msgstr "وسّع الأماكن دائمًا"
 
+#: src/applets/status/settings.ui.h:1 src/applets/tray/settings.ui.h:1
+msgid "Icon Spacing"
+msgstr ""
+
 #: src/applets/spacer/settings.ui.h:1
 msgid "Spacer size"
 msgstr "حجم المُباعِد"
@@ -1262,10 +1276,6 @@ msgstr "يدوي"
 #: src/applets/night-light/indicator_window.ui.h:6
 msgid "Display Settings"
 msgstr "إعدادات الشاشة"
-
-#: src/applets/tray/settings.ui.h:1
-msgid "Icon Spacing"
-msgstr ""
 
 #: src/applets/budgie-menu/settings.ui.h:1
 msgid "Show Menu Label"

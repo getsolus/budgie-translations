@@ -7,11 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: budgie-desktop 10.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-01 23:16+0200\n"
+"POT-Creation-Date: 2021-01-28 19:37+0200\n"
 "PO-Revision-Date: 2021-01-06 16:58+0000\n"
 "Last-Translator: Manjot Singh <manjotsinghpunjab@gmail.com>\n"
-"Language-Team: Punjabi <http://translate.getsol.us/projects/budgie-desktop/"
-"translations/pa/>\n"
+"Language-Team: Punjabi <http://translate.getsol.us/projects/budgie-desktop/translations/pa/>\n"
 "Language: pa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -109,83 +108,93 @@ msgstr "ਸੈਸ਼ਨ"
 msgid "Budgie Desktop Settings"
 msgstr "ਬੱਜੀ ਡੈਸਕਟਾਪ ਸੈਟਿੰਗਾਂ"
 
-#: src/panel/settings/settings_main.vala:98
+#: src/panel/settings/settings_main.vala:99
 msgid "Create new panel"
 msgstr "ਨਵਾਂ ਪੈਨਲ ਬਣਾਓ"
 
-#: src/panel/settings/settings_wm.vala:30
+#: src/panel/settings/settings_wm.vala:31
 msgid "Windows"
 msgstr "ਵਿੰਡੋਜ਼"
 
-#: src/panel/settings/settings_wm.vala:39
+#: src/panel/settings/settings_wm.vala:40
 msgid "Attach modal dialogs to windows"
 msgstr "ਵਿੰਡੋਜ਼ ਵਿੱਚ ਮਾਡਲ ਡਾਈਲਾਗ ਜੋੜੋ"
 
-#: src/panel/settings/settings_wm.vala:40
+#: src/panel/settings/settings_wm.vala:41
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
 msgstr "ਮਾਡਲ ਡਾਈਲਾਗ ਪੇਰੈਂਟ ਵਿੰਡੋ ਨਾਲ ਜੁੜੇ ਹੋ ਜਾਣਗੇ ਅਤੇ ਵਿੰਡੋ ਨੂੰ ਏਧਰ ਓਧਰ ਖਿੱਚਣ 'ਤੇ ਇਕੱਠੇ ਚੱਲਣਗੇ."
 
-#: src/panel/settings/settings_wm.vala:45
+#: src/panel/settings/settings_wm.vala:46
 msgid "Button layout"
 msgstr "ਬਟਨ ਲੇਆਉਟ"
 
-#: src/panel/settings/settings_wm.vala:46
+#: src/panel/settings/settings_wm.vala:47
 msgid "Change the layout of buttons in application titlebars."
 msgstr "ਐਪਲੀਕੇਸ਼ਨ ਟਾਈਟਲ ਬਾਰ ਵਿੱਚ ਬਟਨਾਂ ਦੀ ਲੇਆਊਟ ਬਦਲੋ."
 
-#: src/panel/settings/settings_wm.vala:51
+#: src/panel/settings/settings_wm.vala:52
 msgid "Center new windows on screen"
 msgstr "ਨਵੀਂ ਵਿੰਡੋਜ਼ ਸਕ੍ਰੀਨ ਦੇ ਵਿਚਕਾਰ ਕਰੋ"
 
-#: src/panel/settings/settings_wm.vala:52
+#: src/panel/settings/settings_wm.vala:53
 msgid "Center newly launched windows on the current screen."
 msgstr "ਨਵੀਆਂ ਲੌਂਚ ਕੀਤੀਆਂ ਵਿੰਡੋਜ਼ ਨੂੰ ਮੌਜੂਦਾ ਸਕ੍ਰੀਨ ਦੇ ਵਿਚਕਾਰ ਕਰੋ."
 
-#: src/panel/settings/settings_wm.vala:57
+#: src/panel/settings/settings_wm.vala:58
 msgid "Disable Night Light mode when windows are fullscreen"
 msgstr "ਜਦੋਂ ਵਿੰਡੋਜ਼ ਪੂਰੀ ਸਕ੍ਰੀਨ ਤੇ ਹੋਣ ਤਾਂ ਨਾਈਟ-ਲਾਈਟ ਮੋਡ ਨੂੰ ਬੰਦ ਕਰ ਦਵੋ"
 
-#: src/panel/settings/settings_wm.vala:58
+#: src/panel/settings/settings_wm.vala:59
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr "ਜਦੋਂ ਵਿੰਡੋਜ਼ ਪੂਰੀ ਸਕ੍ਰੀਨ ਤੇ ਹੋਣ ਤਾਂ ਨਾਈਟ-ਲਾਈਟ ਮੋਡ ਨੂੰ ਬੰਦ ਕਰ ਦਿੰਦਾ ਹੈ ਅਤੇ ਦੁਬਾਰਾ ਚਾਲੂ ਕਰ ਦਿੰਦਾ ਹੈ  ਜਦੋ ਵਿੰਡੋਜ਼ ਪੂਰੀ ਸਕ੍ਰੀਨ ਛੱਡ ਦੇਣ."
 
-#: src/panel/settings/settings_wm.vala:63
+#: src/panel/settings/settings_wm.vala:64
+#, fuzzy
+msgid "Pause notifications when windows are fullscreen"
+msgstr "ਜਦੋਂ ਵਿੰਡੋਜ਼ ਪੂਰੀ ਸਕ੍ਰੀਨ ਤੇ ਹੋਣ ਤਾਂ ਨਾਈਟ-ਲਾਈਟ ਮੋਡ ਨੂੰ ਬੰਦ ਕਰ ਦਵੋ"
+
+#: src/panel/settings/settings_wm.vala:65
+#, fuzzy
+msgid "Prevents notifications from appearing when a window is fullscreen. Unpauses when leaving fullscreen."
+msgstr "ਜਦੋਂ ਵਿੰਡੋਜ਼ ਪੂਰੀ ਸਕ੍ਰੀਨ ਤੇ ਹੋਣ ਤਾਂ ਨਾਈਟ-ਲਾਈਟ ਮੋਡ ਨੂੰ ਬੰਦ ਕਰ ਦਿੰਦਾ ਹੈ ਅਤੇ ਦੁਬਾਰਾ ਚਾਲੂ ਕਰ ਦਿੰਦਾ ਹੈ  ਜਦੋ ਵਿੰਡੋਜ਼ ਪੂਰੀ ਸਕ੍ਰੀਨ ਛੱਡ ਦੇਣ."
+
+#: src/panel/settings/settings_wm.vala:70
 msgid "Automatic tiling"
 msgstr "ਆਟੋਮੈਟਿਕ ਟਾਇਲਿੰਗ"
 
-#: src/panel/settings/settings_wm.vala:64
+#: src/panel/settings/settings_wm.vala:71
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
 msgstr "ਵਿੰਡੋਜ਼ ਆਪਣੇ ਆਪ ਟਾਈਲ ਹੋ ਜਾਣਗੀਆਂ ਜਦੋਂ ਸਕ੍ਰੀਨ ਦੇ ਸਿਖਰ 'ਤੇ ਜਾਂ ਕੋਨੇ' ਚ ਖਿੱਚੀਆਂ ਗਈਆਂ."
 
-#: src/panel/settings/settings_wm.vala:69
+#: src/panel/settings/settings_wm.vala:76
 msgid "Enable window focus change on mouse enter and leave"
 msgstr "ਮਾਯੂਸ ਦੇ ਵਿੰਡੋ ਵਿਚੋਂ ਅੰਦਰ ਬਾਹਰ ਹੋਣ ਤੇ ਫੋਕਸ ਵਿਚ ਬਦਲਾਵ ਨੂੰ ਚਾਲੂ ਕਰੋ"
 
-#: src/panel/settings/settings_wm.vala:70
+#: src/panel/settings/settings_wm.vala:77
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
 msgstr "ਵਿੰਡੋ ਫੋਕਸ ਨੂੰ ਲਾਗੂ ਕਰਨ ਲਈ ਸਮਰੱਥ ਬਣਾਉਂਦਾ ਹੈ ਜਦੋਂ ਮਾਊਸ ਵਿੰਡੋ ਵਿੱਚ ਦਾਖਲ ਹੁੰਦਾ ਹੈ ਅਤੇ ਅਨਫੋਕਸ ਜਦੋ ਮਾਊਸ  ਵਿੰਡੋ ਨੂੰ ਛੱਡ ਦਿੰਦਾ ਹੈ."
 
-#: src/panel/settings/settings_wm.vala:76
+#: src/panel/settings/settings_wm.vala:83
 msgid "Disable unredirection of windows"
 msgstr "ਵਿੰਡੋਜ਼ ਦੀ ਅਣ-ਦਿਸ਼ਾ ਬੰਦ ਕਰੋ"
 
-#: src/panel/settings/settings_wm.vala:77
+#: src/panel/settings/settings_wm.vala:84
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
 msgstr "ਇਹ ਵਿਕਲਪ ਅਡਵਾਂਸਡ ਯੂਜ਼ਰਸ ਲਈ ਹੈ. ਇਸ ਦੀ ਵਰਤੋਂ ਕਰੋ ਜੇ ਤੁਹਾਡੇ ਕੋਲ ਸਮਰਪਿਤ GPUs ਨਾਲ ਗ੍ਰਾਫਿਕਲ ਜਾਂ ਡਿਸਪਲੇਅ ਸੰਬੰਧੀ ਸਮੱਸਿਆਵਾਂ ਹਨ."
 
-#: src/panel/settings/settings_wm.vala:82
+#: src/panel/settings/settings_wm.vala:89
 msgid "Show all windows in tab switcher"
 msgstr "ਟੈਬ ਸਵਿੱਚਰ ਵਿੱਚ ਸਾਰੀਆਂ ਵਿੰਡੋਜ਼ ਸ਼ੋਅ ਕਰੋ"
 
-#: src/panel/settings/settings_wm.vala:83
+#: src/panel/settings/settings_wm.vala:90
 msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
 msgstr "ਸਾਰੀਆਂ ਟੈਬਾਂ ਵਰਕਸਪੇਸ ਦੀ ਪਰਵਾਹ ਕੀਤੇ ਬਿਨਾਂ ਟੈਬ ਸਵਿੱਚਰ ਵਿੱਚ ਪ੍ਰਦਰਸ਼ਿਤ ਕੀਤੀਆਂ ਜਾਣਗੀਆਂ."
 
-#: src/panel/settings/settings_wm.vala:90
+#: src/panel/settings/settings_wm.vala:97
 msgid "Right (standard)"
 msgstr "ਸਹੀ"
 
-#: src/panel/settings/settings_wm.vala:92
+#: src/panel/settings/settings_wm.vala:99
 #: src/panel/settings/settings_panel.vala:181 src/raven/raven.vala:33
 msgid "Left"
 msgstr "ਖੱਬਾ"
@@ -423,9 +432,7 @@ msgstr "ਕਲਿਕ ਨੀਤੀ"
 
 #: src/panel/settings/settings_desktop.vala:237
 msgid "Click Policy determines if we should open items on a single or double click."
-msgstr ""
-"ਕਲਿਕ ਨੀਤੀ ਨਿਰਧਾਰਤ ਕਰਦੀ ਹੈ ਕਿ ਕੀ ਸਾਨੂੰ ਇਕੱਲੇ ਜਾਂ ਡਬਲ ਕਲਿਕ ਤੇ ਚੀਜਾਂ ਨੂੰ ਖੋਲ੍ਣਾ "
-"ਚਾਹੀਦਾ ਹੈ."
+msgstr "ਕਲਿਕ ਨੀਤੀ ਨਿਰਧਾਰਤ ਕਰਦੀ ਹੈ ਕਿ ਕੀ ਸਾਨੂੰ ਇਕੱਲੇ ਜਾਂ ਡਬਲ ਕਲਿਕ ਤੇ ਚੀਜਾਂ ਨੂੰ ਖੋਲ੍ਣਾ ਚਾਹੀਦਾ ਹੈ."
 
 #: src/panel/settings/settings_desktop.vala:289
 msgid "Normal"
@@ -739,27 +746,27 @@ msgstr "ਇਸ ਵੇਲੇ ਕੋਈ ਵੀ ਐਪਸ ਆਡੀਓ ਨਹੀਂ
 msgid "Play some music"
 msgstr "ਕੋਈ ਸੰਗੀਤ ਵਜਾਓ"
 
-#: src/raven/notifications_view.vala:100
+#: src/raven/notifications_view.vala:101
 msgid "Nothing to see here"
 msgstr "ਇੱਥੇ ਵੇਖਣ ਲਈ ਕੁਝ ਨਹੀਂ"
 
-#: src/raven/notifications_view.vala:649
+#: src/raven/notifications_view.vala:654
 #: src/applets/notifications/NotificationsApplet.vala:106
 #, c-format
 msgid "%u unread notifications"
 msgstr "%u ਨਾ-ਪੜ੍ਹੀਆਂ ਨੋਟੀਫਿਕੇਸ਼ਨਾਂ"
 
-#: src/raven/notifications_view.vala:651
+#: src/raven/notifications_view.vala:656
 #: src/applets/notifications/NotificationsApplet.vala:108
 msgid "1 unread notification"
 msgstr "1 ਨਾ ਪੜ੍ਹੀ ਗਈ ਨੋਟੀਫਿਕੇਸ਼ਨ"
 
-#: src/raven/notifications_view.vala:653
+#: src/raven/notifications_view.vala:658
 #: src/applets/notifications/NotificationsApplet.vala:110
 msgid "No unread notifications"
 msgstr "ਕੋਈ ਅਣ ਪੜੀ ਸੂਚਨਾ ਨਹੀਂ ਹੈ"
 
-#: src/raven/notifications_view.vala:884
+#: src/raven/notifications_view.vala:889
 msgid "No new notifications"
 msgstr "ਕੋਈ ਨਵੀ ਨੋਟੀਫਿਕੇਸ਼ਨ ਨਹੀਂ ਆਈ"
 
@@ -1192,6 +1199,10 @@ msgstr "ਹਟਾਉਣਯੋਗ ਡਰਾਈਵਾਂ ਦਿਖਾਓ"
 msgid "Always expand places"
 msgstr "ਹਮੇਸ਼ਾਂ ਸਥਾਨਾਂ ਦਾ ਅੱਗੇ ਹੋਰ  ਵਿਸਤਾਰ ਕਰੋ"
 
+#: src/applets/status/settings.ui.h:1 src/applets/tray/settings.ui.h:1
+msgid "Icon Spacing"
+msgstr "ਆਈਕੌਨਾ ਦੇ ਵਿਚ ਅੰਤਰ"
+
 #: src/applets/spacer/settings.ui.h:1
 msgid "Spacer size"
 msgstr "ਸਪੇਸਰ ਦਾ ਆਕਾਰ"
@@ -1248,10 +1259,6 @@ msgstr "ਮੈਨੂਅਲ"
 #: src/applets/night-light/indicator_window.ui.h:6
 msgid "Display Settings"
 msgstr "ਸਕਰੀਨ ਦੀਆਂ ਸੈਟਿੰਗਾਂ"
-
-#: src/applets/tray/settings.ui.h:1
-msgid "Icon Spacing"
-msgstr "ਆਈਕੌਨਾ ਦੇ ਵਿਚ ਅੰਤਰ"
 
 #: src/applets/budgie-menu/settings.ui.h:1
 msgid "Show Menu Label"

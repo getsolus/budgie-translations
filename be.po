@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: budgie-desktop 10.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-01 23:16+0200\n"
+"POT-Creation-Date: 2021-01-28 19:37+0200\n"
 "PO-Revision-Date: 2020-07-15 06:45+0000\n"
 "Last-Translator: Yahor <egor.pravdikov@gmail.com>\n"
 "Language-Team: Belarusian <http://translate.getsol.us/projects/budgie-desktop/translations/be/>\n"
@@ -109,83 +109,91 @@ msgstr "Сэсія"
 msgid "Budgie Desktop Settings"
 msgstr "Налады працоўнага стала Budgie"
 
-#: src/panel/settings/settings_main.vala:98
+#: src/panel/settings/settings_main.vala:99
 msgid "Create new panel"
 msgstr "Стварыць новую панэль"
 
-#: src/panel/settings/settings_wm.vala:30
+#: src/panel/settings/settings_wm.vala:31
 msgid "Windows"
 msgstr ""
 
-#: src/panel/settings/settings_wm.vala:39
+#: src/panel/settings/settings_wm.vala:40
 msgid "Attach modal dialogs to windows"
 msgstr ""
 
-#: src/panel/settings/settings_wm.vala:40
+#: src/panel/settings/settings_wm.vala:41
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
 msgstr ""
 
-#: src/panel/settings/settings_wm.vala:45
+#: src/panel/settings/settings_wm.vala:46
 msgid "Button layout"
 msgstr ""
 
-#: src/panel/settings/settings_wm.vala:46
+#: src/panel/settings/settings_wm.vala:47
 msgid "Change the layout of buttons in application titlebars."
 msgstr ""
 
-#: src/panel/settings/settings_wm.vala:51
+#: src/panel/settings/settings_wm.vala:52
 msgid "Center new windows on screen"
 msgstr ""
 
-#: src/panel/settings/settings_wm.vala:52
+#: src/panel/settings/settings_wm.vala:53
 msgid "Center newly launched windows on the current screen."
 msgstr ""
 
-#: src/panel/settings/settings_wm.vala:57
+#: src/panel/settings/settings_wm.vala:58
 msgid "Disable Night Light mode when windows are fullscreen"
 msgstr ""
 
-#: src/panel/settings/settings_wm.vala:58
+#: src/panel/settings/settings_wm.vala:59
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr ""
 
-#: src/panel/settings/settings_wm.vala:63
-msgid "Automatic tiling"
-msgstr ""
-
 #: src/panel/settings/settings_wm.vala:64
-msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
+msgid "Pause notifications when windows are fullscreen"
 msgstr ""
 
-#: src/panel/settings/settings_wm.vala:69
-msgid "Enable window focus change on mouse enter and leave"
+#: src/panel/settings/settings_wm.vala:65
+msgid "Prevents notifications from appearing when a window is fullscreen. Unpauses when leaving fullscreen."
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:70
-msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
+msgid "Automatic tiling"
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:71
+msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:76
-msgid "Disable unredirection of windows"
+msgid "Enable window focus change on mouse enter and leave"
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:77
-msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr ""
-
-#: src/panel/settings/settings_wm.vala:82
-msgid "Show all windows in tab switcher"
+msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:83
-msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
+msgid "Disable unredirection of windows"
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:84
+msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:89
+msgid "Show all windows in tab switcher"
 msgstr ""
 
 #: src/panel/settings/settings_wm.vala:90
+msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
+msgstr ""
+
+#: src/panel/settings/settings_wm.vala:97
 msgid "Right (standard)"
 msgstr ""
 
-#: src/panel/settings/settings_wm.vala:92
+#: src/panel/settings/settings_wm.vala:99
 #: src/panel/settings/settings_panel.vala:181 src/raven/raven.vala:33
 msgid "Left"
 msgstr "Злева"
@@ -763,27 +771,27 @@ msgstr "Няма праграм, якія іграюць аўдыё."
 msgid "Play some music"
 msgstr "Іграць музыку"
 
-#: src/raven/notifications_view.vala:100
+#: src/raven/notifications_view.vala:101
 msgid "Nothing to see here"
 msgstr "Тут няма на што бачыць"
 
-#: src/raven/notifications_view.vala:649
+#: src/raven/notifications_view.vala:654
 #: src/applets/notifications/NotificationsApplet.vala:106
 #, c-format
 msgid "%u unread notifications"
 msgstr "%u непрачытанных апавяшчэнняў"
 
-#: src/raven/notifications_view.vala:651
+#: src/raven/notifications_view.vala:656
 #: src/applets/notifications/NotificationsApplet.vala:108
 msgid "1 unread notification"
 msgstr "1 непрачытанае апавяшчэнне"
 
-#: src/raven/notifications_view.vala:653
+#: src/raven/notifications_view.vala:658
 #: src/applets/notifications/NotificationsApplet.vala:110
 msgid "No unread notifications"
 msgstr "Няма непрачытаных апавяшчэнняў"
 
-#: src/raven/notifications_view.vala:884
+#: src/raven/notifications_view.vala:889
 msgid "No new notifications"
 msgstr "Няма новых апавяшчэнняў"
 
@@ -1229,6 +1237,10 @@ msgstr ""
 msgid "Always expand places"
 msgstr ""
 
+#: src/applets/status/settings.ui.h:1 src/applets/tray/settings.ui.h:1
+msgid "Icon Spacing"
+msgstr ""
+
 #: src/applets/spacer/settings.ui.h:1
 msgid "Spacer size"
 msgstr ""
@@ -1284,10 +1296,6 @@ msgstr ""
 
 #: src/applets/night-light/indicator_window.ui.h:6
 msgid "Display Settings"
-msgstr ""
-
-#: src/applets/tray/settings.ui.h:1
-msgid "Icon Spacing"
 msgstr ""
 
 #: src/applets/budgie-menu/settings.ui.h:1

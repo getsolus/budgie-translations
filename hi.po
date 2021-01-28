@@ -7,11 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: budgie-desktop 10.5.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-01 23:16+0200\n"
+"POT-Creation-Date: 2021-01-28 19:37+0200\n"
 "PO-Revision-Date: 2021-01-15 09:27+0000\n"
 "Last-Translator: Manjot Singh <manjotsinghpunjab@gmail.com>\n"
-"Language-Team: Hindi <http://translate.getsol.us/projects/budgie-desktop/"
-"translations/hi/>\n"
+"Language-Team: Hindi <http://translate.getsol.us/projects/budgie-desktop/translations/hi/>\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -109,83 +108,93 @@ msgstr "सेशन"
 msgid "Budgie Desktop Settings"
 msgstr "बज्जी डेस्कटॉप सेटिंग्स"
 
-#: src/panel/settings/settings_main.vala:98
+#: src/panel/settings/settings_main.vala:99
 msgid "Create new panel"
 msgstr "नया पैनल बनाएं"
 
-#: src/panel/settings/settings_wm.vala:30
+#: src/panel/settings/settings_wm.vala:31
 msgid "Windows"
 msgstr "विंडोज़"
 
-#: src/panel/settings/settings_wm.vala:39
+#: src/panel/settings/settings_wm.vala:40
 msgid "Attach modal dialogs to windows"
 msgstr "विंडोज़ पर मोडल संवाद संलग्न करें"
 
-#: src/panel/settings/settings_wm.vala:40
+#: src/panel/settings/settings_wm.vala:41
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
 msgstr "मोडल संवाद पैरेंट विंडो से जुड़ जाएंगे और खींचे जाने पर एक साथ चलेंगे."
 
-#: src/panel/settings/settings_wm.vala:45
+#: src/panel/settings/settings_wm.vala:46
 msgid "Button layout"
 msgstr "बटन लेआउट"
 
-#: src/panel/settings/settings_wm.vala:46
+#: src/panel/settings/settings_wm.vala:47
 msgid "Change the layout of buttons in application titlebars."
 msgstr "एप्लिकेशन टाइटलबार में बटन का लेआउट बदलें."
 
-#: src/panel/settings/settings_wm.vala:51
+#: src/panel/settings/settings_wm.vala:52
 msgid "Center new windows on screen"
 msgstr "स्क्रीन पर नई विंडोज़ केंद्र में करें"
 
-#: src/panel/settings/settings_wm.vala:52
+#: src/panel/settings/settings_wm.vala:53
 msgid "Center newly launched windows on the current screen."
 msgstr "नई लॉन्च हुईं विंडो चालू स्क्रीन के केंद्र में करें."
 
-#: src/panel/settings/settings_wm.vala:57
+#: src/panel/settings/settings_wm.vala:58
 msgid "Disable Night Light mode when windows are fullscreen"
 msgstr "विंडोज़ फुलस्क्रीन होने पर नाइट लाइट मोड को अक्षम करें"
 
-#: src/panel/settings/settings_wm.vala:58
+#: src/panel/settings/settings_wm.vala:59
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr "एक विंडो के फुलस्क्रीन होने पर नाइट लाइट मोड को निष्क्रिय कर देता है. फुलस्क्रीन छोड़ने पर पुन: सक्षम बनाता है."
 
-#: src/panel/settings/settings_wm.vala:63
+#: src/panel/settings/settings_wm.vala:64
+#, fuzzy
+msgid "Pause notifications when windows are fullscreen"
+msgstr "विंडोज़ फुलस्क्रीन होने पर नाइट लाइट मोड को अक्षम करें"
+
+#: src/panel/settings/settings_wm.vala:65
+#, fuzzy
+msgid "Prevents notifications from appearing when a window is fullscreen. Unpauses when leaving fullscreen."
+msgstr "एक विंडो के फुलस्क्रीन होने पर नाइट लाइट मोड को निष्क्रिय कर देता है. फुलस्क्रीन छोड़ने पर पुन: सक्षम बनाता है."
+
+#: src/panel/settings/settings_wm.vala:70
 msgid "Automatic tiling"
 msgstr "स्वचालित टाइलिंग"
 
-#: src/panel/settings/settings_wm.vala:64
+#: src/panel/settings/settings_wm.vala:71
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
 msgstr "स्क्रीन के शीर्ष या दूर कोने में खींचे जाने पर विंडोज स्वचालित रूप से टाइल करेगा."
 
-#: src/panel/settings/settings_wm.vala:69
+#: src/panel/settings/settings_wm.vala:76
 msgid "Enable window focus change on mouse enter and leave"
 msgstr "माउस प्रवेश और अवकाश पर विंडो फ़ोकस परिवर्तन सक्षम करें"
 
-#: src/panel/settings/settings_wm.vala:70
+#: src/panel/settings/settings_wm.vala:77
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
 msgstr "जब माउस विंडो में प्रवेश करता है तो विंडो फोकस को लागू करने में सक्षम करता है और जब माउस विंडो से बाहर निकलता है तो विंडो अनफोकस को लागू करने में सक्षम करता है."
 
-#: src/panel/settings/settings_wm.vala:76
+#: src/panel/settings/settings_wm.vala:83
 msgid "Disable unredirection of windows"
 msgstr "विंडोज के अप्रत्यक्ष रूप से अक्षम करें"
 
-#: src/panel/settings/settings_wm.vala:77
+#: src/panel/settings/settings_wm.vala:84
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
 msgstr "यह विकल्प उन्नत उपयोगकर्ताओं के लिए है. यह प्रयोग करें यदि आप समर्पित GPUs के साथ चित्रमय या प्रदर्शन समस्याएँ हैं."
 
-#: src/panel/settings/settings_wm.vala:82
+#: src/panel/settings/settings_wm.vala:89
 msgid "Show all windows in tab switcher"
 msgstr "टैब स्विचर में सभी विंडो दिखाएं"
 
-#: src/panel/settings/settings_wm.vala:83
+#: src/panel/settings/settings_wm.vala:90
 msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
 msgstr "सभी टैब उपयोग में कार्यक्षेत्र की परवाह किए बिना टैब स्विचर में प्रदर्शित किए जाएंगे."
 
-#: src/panel/settings/settings_wm.vala:90
+#: src/panel/settings/settings_wm.vala:97
 msgid "Right (standard)"
 msgstr "सही"
 
-#: src/panel/settings/settings_wm.vala:92
+#: src/panel/settings/settings_wm.vala:99
 #: src/panel/settings/settings_panel.vala:181 src/raven/raven.vala:33
 msgid "Left"
 msgstr "बाईं"
@@ -423,9 +432,7 @@ msgstr "क्लिक नीति"
 
 #: src/panel/settings/settings_desktop.vala:237
 msgid "Click Policy determines if we should open items on a single or double click."
-msgstr ""
-"क्लिक नीति यह निर्धारित करती है कि हमें एकल या डबल क्लिक पर आइटम खोलना चाहिए "
-"या नहीं."
+msgstr "क्लिक नीति यह निर्धारित करती है कि हमें एकल या डबल क्लिक पर आइटम खोलना चाहिए या नहीं."
 
 #: src/panel/settings/settings_desktop.vala:289
 msgid "Normal"
@@ -739,27 +746,27 @@ msgstr "वर्तमान में कोई भी ऐप ऑडियो 
 msgid "Play some music"
 msgstr "कुछ संगीत बजाओ"
 
-#: src/raven/notifications_view.vala:100
+#: src/raven/notifications_view.vala:101
 msgid "Nothing to see here"
 msgstr "यहाँ देखने के लिए कुछ नही है"
 
-#: src/raven/notifications_view.vala:649
+#: src/raven/notifications_view.vala:654
 #: src/applets/notifications/NotificationsApplet.vala:106
 #, c-format
 msgid "%u unread notifications"
 msgstr "%u अपठित नोटिफिकेशन्स"
 
-#: src/raven/notifications_view.vala:651
+#: src/raven/notifications_view.vala:656
 #: src/applets/notifications/NotificationsApplet.vala:108
 msgid "1 unread notification"
 msgstr "1 अपठित नोटिफिकेशन"
 
-#: src/raven/notifications_view.vala:653
+#: src/raven/notifications_view.vala:658
 #: src/applets/notifications/NotificationsApplet.vala:110
 msgid "No unread notifications"
 msgstr "कोई अपठित नोटिफिकेशन नहीं"
 
-#: src/raven/notifications_view.vala:884
+#: src/raven/notifications_view.vala:889
 msgid "No new notifications"
 msgstr "कोई नई नोटिफिकेशन नहीं"
 
@@ -1192,6 +1199,10 @@ msgstr "हटाने योग्य ड्राइव दिखाएं"
 msgid "Always expand places"
 msgstr "हमेशा स्थानों को आगे लम्बा खींचे"
 
+#: src/applets/status/settings.ui.h:1 src/applets/tray/settings.ui.h:1
+msgid "Icon Spacing"
+msgstr "आइकन अंतर"
+
 #: src/applets/spacer/settings.ui.h:1
 msgid "Spacer size"
 msgstr "स्पेसर का आकार"
@@ -1248,10 +1259,6 @@ msgstr "मैनुअल"
 #: src/applets/night-light/indicator_window.ui.h:6
 msgid "Display Settings"
 msgstr "स्क्रीन की सेटिंग्स"
-
-#: src/applets/tray/settings.ui.h:1
-msgid "Icon Spacing"
-msgstr "आइकन अंतर"
 
 #: src/applets/budgie-menu/settings.ui.h:1
 msgid "Show Menu Label"

@@ -9,17 +9,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-01 23:16+0200\n"
+"POT-Creation-Date: 2021-01-28 19:37+0200\n"
 "PO-Revision-Date: 2020-12-02 13:50+0000\n"
 "Last-Translator: Ivica Kukuruzovic <ivicakuk@gmail.com>\n"
-"Language-Team: Croatian <http://translate.getsol.us/projects/budgie-desktop/"
-"translations/hr/>\n"
+"Language-Team: Croatian <http://translate.getsol.us/projects/budgie-desktop/translations/hr/>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 3.8\n"
 
 #: src/polkit/polkitdialog.vala:126
@@ -112,83 +110,93 @@ msgstr "Sesija"
 msgid "Budgie Desktop Settings"
 msgstr "Postavke Budgie radne površine"
 
-#: src/panel/settings/settings_main.vala:98
+#: src/panel/settings/settings_main.vala:99
 msgid "Create new panel"
 msgstr "Stvori novi panel"
 
-#: src/panel/settings/settings_wm.vala:30
+#: src/panel/settings/settings_wm.vala:31
 msgid "Windows"
 msgstr "Prozori"
 
-#: src/panel/settings/settings_wm.vala:39
+#: src/panel/settings/settings_wm.vala:40
 msgid "Attach modal dialogs to windows"
 msgstr "Pričvrsti modifikacijske dijaloge na prozore"
 
-#: src/panel/settings/settings_wm.vala:40
+#: src/panel/settings/settings_wm.vala:41
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
 msgstr "Modifikacijski dijalozi biti će pričvršćeni na osnovni prozor i pomicati se zajedno s njim."
 
-#: src/panel/settings/settings_wm.vala:45
+#: src/panel/settings/settings_wm.vala:46
 msgid "Button layout"
 msgstr "Raspored tipki"
 
-#: src/panel/settings/settings_wm.vala:46
+#: src/panel/settings/settings_wm.vala:47
 msgid "Change the layout of buttons in application titlebars."
 msgstr "Promijenite raspored tipki na naslovnim trakama programa."
 
-#: src/panel/settings/settings_wm.vala:51
+#: src/panel/settings/settings_wm.vala:52
 msgid "Center new windows on screen"
 msgstr "Centrirajte nove prozore na zaslonu"
 
-#: src/panel/settings/settings_wm.vala:52
+#: src/panel/settings/settings_wm.vala:53
 msgid "Center newly launched windows on the current screen."
 msgstr "Centrirajte nedavno pokrenute prozore na trenutnom zaslonu."
 
-#: src/panel/settings/settings_wm.vala:57
+#: src/panel/settings/settings_wm.vala:58
 msgid "Disable Night Light mode when windows are fullscreen"
 msgstr "Onemogućite način noćnog svjetla kada su prozori preko cijelog zaslona"
 
-#: src/panel/settings/settings_wm.vala:58
+#: src/panel/settings/settings_wm.vala:59
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr "Onemogućuje način noćnog svjetla kada je prozor preko cijelog zaslona. Ponovno omogućuje kad napustite cijeli zaslon."
 
-#: src/panel/settings/settings_wm.vala:63
+#: src/panel/settings/settings_wm.vala:64
+#, fuzzy
+msgid "Pause notifications when windows are fullscreen"
+msgstr "Onemogućite način noćnog svjetla kada su prozori preko cijelog zaslona"
+
+#: src/panel/settings/settings_wm.vala:65
+#, fuzzy
+msgid "Prevents notifications from appearing when a window is fullscreen. Unpauses when leaving fullscreen."
+msgstr "Onemogućuje način noćnog svjetla kada je prozor preko cijelog zaslona. Ponovno omogućuje kad napustite cijeli zaslon."
+
+#: src/panel/settings/settings_wm.vala:70
 msgid "Automatic tiling"
 msgstr "Automatsko popločavanje prozora"
 
-#: src/panel/settings/settings_wm.vala:64
+#: src/panel/settings/settings_wm.vala:71
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
 msgstr "Prozori će se automatski popločiti kad se povuku na vrh zaslona ili u daljnje kutove."
 
-#: src/panel/settings/settings_wm.vala:69
+#: src/panel/settings/settings_wm.vala:76
 msgid "Enable window focus change on mouse enter and leave"
 msgstr "Omogućite promjenu fokusa prozora na ulazu i izlasku miša"
 
-#: src/panel/settings/settings_wm.vala:70
+#: src/panel/settings/settings_wm.vala:77
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
 msgstr "Omogućuje primjenu fokusa prozora kada miš uđe u prozor i suprotno kad miš napusti prozor."
 
-#: src/panel/settings/settings_wm.vala:76
+#: src/panel/settings/settings_wm.vala:83
 msgid "Disable unredirection of windows"
 msgstr "Onemogući preusmjeravnje prozora"
 
-#: src/panel/settings/settings_wm.vala:77
+#: src/panel/settings/settings_wm.vala:84
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
 msgstr "Ova opcija je za napredne korisnike. Koristite samo ako imate problema sa prikazom ili performansama sa odabranim GPU-om."
 
-#: src/panel/settings/settings_wm.vala:82
+#: src/panel/settings/settings_wm.vala:89
 msgid "Show all windows in tab switcher"
 msgstr "Prikaži sve prozore u prebacivaču kartica"
 
-#: src/panel/settings/settings_wm.vala:83
+#: src/panel/settings/settings_wm.vala:90
 msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
 msgstr "Sve će se kartice prikazati u prebacivaču kartica, bez obzira na radni prostor koji se koristi."
 
-#: src/panel/settings/settings_wm.vala:90
+#: src/panel/settings/settings_wm.vala:97
 msgid "Right (standard)"
 msgstr "Desno (standardno)"
 
-#: src/panel/settings/settings_wm.vala:92
+#: src/panel/settings/settings_wm.vala:99
 #: src/panel/settings/settings_panel.vala:181 src/raven/raven.vala:33
 msgid "Left"
 msgstr "Lijevo"
@@ -426,9 +434,7 @@ msgstr "Klik pravilo"
 
 #: src/panel/settings/settings_desktop.vala:237
 msgid "Click Policy determines if we should open items on a single or double click."
-msgstr ""
-"Klik pravilo određuje trebamo li otvoriti stavke jednostrukim ili dvostrukim "
-"klikom."
+msgstr "Klik pravilo određuje trebamo li otvoriti stavke jednostrukim ili dvostrukim klikom."
 
 #: src/panel/settings/settings_desktop.vala:289
 msgid "Normal"
@@ -742,27 +748,27 @@ msgstr "Trenutno nijedna aplikacija ne reproducira zvuk."
 msgid "Play some music"
 msgstr "Pusti malo glazbe"
 
-#: src/raven/notifications_view.vala:100
+#: src/raven/notifications_view.vala:101
 msgid "Nothing to see here"
 msgstr "Ovdje nema nista za vidjeti"
 
-#: src/raven/notifications_view.vala:649
+#: src/raven/notifications_view.vala:654
 #: src/applets/notifications/NotificationsApplet.vala:106
 #, c-format
 msgid "%u unread notifications"
 msgstr "%u nepročitanih obavijesti"
 
-#: src/raven/notifications_view.vala:651
+#: src/raven/notifications_view.vala:656
 #: src/applets/notifications/NotificationsApplet.vala:108
 msgid "1 unread notification"
 msgstr "1 nepročitana obavijest"
 
-#: src/raven/notifications_view.vala:653
+#: src/raven/notifications_view.vala:658
 #: src/applets/notifications/NotificationsApplet.vala:110
 msgid "No unread notifications"
 msgstr "Nema nepročitanih obavijesti"
 
-#: src/raven/notifications_view.vala:884
+#: src/raven/notifications_view.vala:889
 msgid "No new notifications"
 msgstr "Nema novih obavijesti"
 
@@ -1196,6 +1202,10 @@ msgstr "Pokaži uklonjive diskove"
 msgid "Always expand places"
 msgstr "Uvijek proširi mjesta"
 
+#: src/applets/status/settings.ui.h:1 src/applets/tray/settings.ui.h:1
+msgid "Icon Spacing"
+msgstr "Razmak ikona"
+
 #: src/applets/spacer/settings.ui.h:1
 msgid "Spacer size"
 msgstr "Veličina razmaknice"
@@ -1252,10 +1262,6 @@ msgstr "Ručno"
 #: src/applets/night-light/indicator_window.ui.h:6
 msgid "Display Settings"
 msgstr "Postavke zaslona"
-
-#: src/applets/tray/settings.ui.h:1
-msgid "Icon Spacing"
-msgstr "Razmak ikona"
 
 #: src/applets/budgie-menu/settings.ui.h:1
 msgid "Show Menu Label"
