@@ -9,9 +9,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-28 19:37+0200\n"
-"PO-Revision-Date: 2020-12-02 13:50+0000\n"
+"PO-Revision-Date: 2021-03-20 07:59+0000\n"
 "Last-Translator: David M <medipas@gmail.com>\n"
-"Language-Team: Catalan <http://translate.getsol.us/projects/budgie-desktop/translations/ca/>\n"
+"Language-Team: Catalan <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -150,14 +151,15 @@ msgid "Disables Night Light mode when a window is fullscreen. Re-enables when le
 msgstr "Inhabilita el mode de llum de nit quan una finestra està en pantalla completa. Es torna a habilitar quan se'n surt."
 
 #: src/panel/settings/settings_wm.vala:64
-#, fuzzy
 msgid "Pause notifications when windows are fullscreen"
-msgstr "Inhabilita el mode de llum de nit quan les finestres estiguin en pantalla completa."
+msgstr ""
+"Interromp les notificacions quan les finestres estiguin en pantalla completa."
 
 #: src/panel/settings/settings_wm.vala:65
-#, fuzzy
 msgid "Prevents notifications from appearing when a window is fullscreen. Unpauses when leaving fullscreen."
-msgstr "Inhabilita el mode de llum de nit quan una finestra està en pantalla completa. Es torna a habilitar quan se'n surt."
+msgstr ""
+"Evita que apareguin notificacions quan una finestra està en pantalla "
+"completa. Es torna a habilitar quan se'n surt."
 
 #: src/panel/settings/settings_wm.vala:70
 msgid "Automatic tiling"
