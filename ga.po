@@ -10,14 +10,16 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-28 19:37+0200\n"
-"PO-Revision-Date: 2020-10-10 04:19+0000\n"
+"PO-Revision-Date: 2021-03-21 19:28+0000\n"
 "Last-Translator: Seán Ó Séaghdha <sean.anseo@gmail.com>\n"
-"Language-Team: Irish <http://translate.getsol.us/projects/budgie-desktop/translations/ga/>\n"
+"Language-Team: Irish <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/ga/>\n"
 "Language: ga\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4);\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4);\n"
 "X-Generator: Weblate 3.8\n"
 
 #: src/polkit/polkitdialog.vala:126
@@ -155,14 +157,14 @@ msgid "Disables Night Light mode when a window is fullscreen. Re-enables when le
 msgstr "Díchumasaítear mód Sholas Oíche nuair atá fuinneog i mód lánscáileáin. Cumasaítear arís é ag fágáil lánscáileán."
 
 #: src/panel/settings/settings_wm.vala:64
-#, fuzzy
 msgid "Pause notifications when windows are fullscreen"
-msgstr "Díchumasaigh mód Sholas Oíche nuair atá fuinneoga lánscáileáin ann"
+msgstr "Cuir fógraí ar sos agus fuinneoga lánscáileáin ann"
 
 #: src/panel/settings/settings_wm.vala:65
-#, fuzzy
 msgid "Prevents notifications from appearing when a window is fullscreen. Unpauses when leaving fullscreen."
-msgstr "Díchumasaítear mód Sholas Oíche nuair atá fuinneog i mód lánscáileáin. Cumasaítear arís é ag fágáil lánscáileán."
+msgstr ""
+"Cuirtear cosc ar fhógraí agus fuinneog i mód lánscáileáin. Cuirtear i "
+"bhfeidhm iad arís ag fágáil lánscáileán."
 
 #: src/panel/settings/settings_wm.vala:70
 msgid "Automatic tiling"
@@ -279,11 +281,13 @@ msgstr "Barr Deas"
 
 #: src/panel/settings/settings_raven.vala:61
 msgid "Set Raven position"
-msgstr ""
+msgstr "Socraigh suíomh Raven"
 
 #: src/panel/settings/settings_raven.vala:62
 msgid "Set which side of the screen Raven will open on. If set to Automatic, Raven will open where its parent panel is."
 msgstr ""
+"Socraigh an taobh scáileáin ar a n-osclófar Raven. Más Uathoibríoch an "
+"rogha, osclóidh Raven san áit ina bhfuil a mháthairphainéal."
 
 #: src/panel/settings/settings_raven.vala:67
 msgid "Allow raising volume above 100%"
@@ -372,21 +376,19 @@ msgid "Desktop Icons"
 msgstr "Deilbhíní Deisce"
 
 #: src/panel/settings/settings_desktop.vala:78
-#, fuzzy
 msgid "Control whether to allow icons on the desktop."
-msgstr "Rialaigh an mbeidh lainseálaithe agus deilbhíní le feiceáil ar an deasc."
+msgstr "Rialaigh an mbeidh deilbhíní le feiceáil ar an deasc."
 
 #. DesktopFolder doesn't support fancy options like showing home folder, trash, or active mounts
 #. DesktopType is the only one that doesn't support showing mounts
 #. Switcher to show or hide active mounts
 #: src/panel/settings/settings_desktop.vala:87
 msgid "Active Mounts"
-msgstr ""
+msgstr "Ionaid Ghléasta Gníomhacha"
 
 #: src/panel/settings/settings_desktop.vala:88
-#, fuzzy
 msgid "Show all active mounts on the desktop."
-msgstr "Rialaigh an mbeidh lainseálaithe agus deilbhíní le feiceáil ar an deasc."
+msgstr "Taispeáin gach ionad gléasta gníomhach ar an deasc."
 
 #. Switcher to show or hide our Home folder
 #: src/panel/settings/settings_desktop.vala:95
@@ -410,14 +412,12 @@ msgstr "Cuir aicearra chuig an fillteán Bruscair ar an deasc."
 #. Click Policy combo box
 #. Icon Size combo box
 #: src/panel/settings/settings_desktop.vala:116
-#, fuzzy
 msgid "Icon Size"
-msgstr "Spásáil Deilbhíní"
+msgstr "Méid Deilbhíní"
 
 #: src/panel/settings/settings_desktop.vala:117
-#, fuzzy
 msgid "Set the desired size of icons on the desktop."
-msgstr "Rialaigh an mbeidh lainseálaithe agus deilbhíní le feiceáil ar an deasc."
+msgstr "Socraigh méid do dheilbhíní ar an deasc."
 
 #: src/panel/settings/settings_desktop.vala:148
 msgid "Number of virtual desktops"
@@ -429,39 +429,41 @@ msgstr "Líon na ndeasc fíorúil / spásanna oibre fíorúla le cruthú ar am t
 
 #: src/panel/settings/settings_desktop.vala:217
 msgid "Single"
-msgstr ""
+msgstr "Clic amháin"
 
 #. If the click policy is to double click
 #: src/panel/settings/settings_desktop.vala:221
 msgid "Double"
-msgstr ""
+msgstr "Déchliceáil"
 
 #: src/panel/settings/settings_desktop.vala:236
 msgid "Click Policy"
-msgstr ""
+msgstr "Polasaí Cliceála"
 
 #: src/panel/settings/settings_desktop.vala:237
 msgid "Click Policy determines if we should open items on a single or double click."
 msgstr ""
+"Socraíonn an Polasaí Cliceála cé acu clic amháin nó déchliceáil a osclóidh "
+"míreanna."
 
 #: src/panel/settings/settings_desktop.vala:289
 msgid "Normal"
-msgstr ""
+msgstr "Gnách"
 
 #. Small
 #: src/panel/settings/settings_desktop.vala:292
 msgid "Small"
-msgstr ""
+msgstr "Beag"
 
 #. Large
 #: src/panel/settings/settings_desktop.vala:294
 msgid "Large"
-msgstr ""
+msgstr "Mór"
 
 #. Massive
 #: src/panel/settings/settings_desktop.vala:296
 msgid "Massive"
-msgstr ""
+msgstr "Ollmhór"
 
 #: src/panel/settings/settings_panel.vala:82 src/raven/main_view.vala:57
 msgid "Applets"
@@ -661,14 +663,12 @@ msgid "Autostart apps"
 msgstr "Aipeanna Uath-thosaithe"
 
 #: src/panel/settings/settings_autostart.vala:506
-#, fuzzy
 msgid "Add Application"
-msgstr "Feidhmchláir"
+msgstr "Feidhmchláir Nua"
 
 #: src/panel/settings/settings_autostart.vala:508
-#, fuzzy
 msgid "Add Command"
-msgstr "Ordú"
+msgstr "Ordú Nua"
 
 #: src/panel/settings/settings_fonts.vala:32
 msgid "Fonts"
@@ -804,9 +804,8 @@ msgid "Caffeine Mode"
 msgstr "Mód Caiféine"
 
 #: src/daemon/menus.vala:51
-#, fuzzy
 msgid "System Settings"
-msgstr "Socruithe"
+msgstr "Socruithe Córais"
 
 #: src/daemon/endsession.vala:157
 msgid "Log out"
