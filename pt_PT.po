@@ -13,9 +13,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-28 19:37+0200\n"
-"PO-Revision-Date: 2020-12-02 22:41+0000\n"
+"PO-Revision-Date: 2021-03-21 06:10+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
-"Language-Team: Portuguese (Portugal) <http://translate.getsol.us/projects/budgie-desktop/translations/pt_PT/>\n"
+"Language-Team: Portuguese (Portugal) <http://translate.getsol.us/projects/"
+"budgie-desktop/translations/pt_PT/>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,7 +26,7 @@ msgstr ""
 
 #: src/polkit/polkitdialog.vala:126
 msgid "Authentication failed"
-msgstr "Autenticação falhada"
+msgstr "Falha de autenticação"
 
 #: src/polkit/polkitdialog.vala:215
 msgid "Group:"
@@ -74,7 +75,7 @@ msgstr "Remover painel"
 
 #: src/panel/settings/settings_panel_dialogs.vala:43
 msgid "Keep panel"
-msgstr "Manter o painel"
+msgstr "Manter painel"
 
 #: src/panel/settings/settings_panel_dialogs.vala:67
 msgid "Confirm applet removal"
@@ -154,14 +155,15 @@ msgid "Disables Night Light mode when a window is fullscreen. Re-enables when le
 msgstr "Desativa o modo de luz noturna numa janela em modo de ecrã inteiro. Volta a reativar quando esta sai do modo de ecrã inteiro."
 
 #: src/panel/settings/settings_wm.vala:64
-#, fuzzy
 msgid "Pause notifications when windows are fullscreen"
-msgstr "Desativa o modo de luz noturna quando as janelas estiverem em ecrã inteiro"
+msgstr ""
+"Coloca as notificações em pausa quando as janelas estiverem em ecrã inteiro"
 
 #: src/panel/settings/settings_wm.vala:65
-#, fuzzy
 msgid "Prevents notifications from appearing when a window is fullscreen. Unpauses when leaving fullscreen."
-msgstr "Desativa o modo de luz noturna numa janela em modo de ecrã inteiro. Volta a reativar quando esta sai do modo de ecrã inteiro."
+msgstr ""
+"Impede o aparecimento de notificações quando uma janela está em ecrã "
+"inteiro. Voltam a aparecer quando sair de ecrã inteiro."
 
 #: src/panel/settings/settings_wm.vala:70
 msgid "Automatic tiling"
