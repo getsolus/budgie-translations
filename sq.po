@@ -8,9 +8,10 @@ msgstr ""
 "Project-Id-Version: budgie-desktop 10.5.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-28 19:37+0200\n"
-"PO-Revision-Date: 2021-01-15 09:27+0000\n"
+"PO-Revision-Date: 2021-03-22 20:19+0000\n"
 "Last-Translator: Algent Albrahimi <algent@protonmail.com>\n"
-"Language-Team: Albanian <http://translate.getsol.us/projects/budgie-desktop/translations/sq/>\n"
+"Language-Team: Albanian <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/sq/>\n"
 "Language: sq\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,7 +46,7 @@ msgstr "Nuk ka cilësime të disponueshme"
 
 #: src/panel/settings/settings_panel_applets.vala:401
 msgid "Start"
-msgstr "Nis"
+msgstr "Fillim"
 
 #: src/panel/settings/settings_panel_applets.vala:404
 msgid "Center"
@@ -149,14 +150,14 @@ msgid "Disables Night Light mode when a window is fullscreen. Re-enables when le
 msgstr "Çaktivizon modalitetin e Dritës së Natës kur një dritare është në ekran të plotë. Ri-aktivizon kur largoheni nga ekrani i plotë."
 
 #: src/panel/settings/settings_wm.vala:64
-#, fuzzy
 msgid "Pause notifications when windows are fullscreen"
-msgstr "Çaktivizo modalitetin e Dritës së Natës kur dritaret janë në ekran të plotë"
+msgstr "Ndalo njoftimet kur dritaret janë në ekran të plotë"
 
 #: src/panel/settings/settings_wm.vala:65
-#, fuzzy
 msgid "Prevents notifications from appearing when a window is fullscreen. Unpauses when leaving fullscreen."
-msgstr "Çaktivizon modalitetin e Dritës së Natës kur një dritare është në ekran të plotë. Ri-aktivizon kur largoheni nga ekrani i plotë."
+msgstr ""
+"Parandalon shfaqjen e njoftimeve kur një dritare është në ekran të plotë. "
+"Shfaqja e njoftimeve rifillon kur largohet nga ekrani i plotë."
 
 #: src/panel/settings/settings_wm.vala:70
 msgid "Automatic tiling"
