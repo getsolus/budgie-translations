@@ -8,9 +8,10 @@ msgstr ""
 "Project-Id-Version: budgie-desktop 10.5.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-28 19:37+0200\n"
-"PO-Revision-Date: 2021-01-15 09:27+0000\n"
+"PO-Revision-Date: 2021-03-22 22:03+0000\n"
 "Last-Translator: Terrance Brown <terranceb@gmail.com>\n"
-"Language-Team: Afrikaans <http://translate.getsol.us/projects/budgie-desktop/translations/af/>\n"
+"Language-Team: Afrikaans <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/af/>\n"
 "Language: af\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -149,14 +150,14 @@ msgid "Disables Night Light mode when a window is fullscreen. Re-enables when le
 msgstr "Skakel Nagligmodus uit as 'n venster volskerm is. Heraktiveer wanneer u volskerm verlaat."
 
 #: src/panel/settings/settings_wm.vala:64
-#, fuzzy
 msgid "Pause notifications when windows are fullscreen"
-msgstr "Skakel Nagligmodus uit wanneer vensters volskerm is"
+msgstr "Stel kennisgewings stil as vensters volskerm is"
 
 #: src/panel/settings/settings_wm.vala:65
-#, fuzzy
 msgid "Prevents notifications from appearing when a window is fullscreen. Unpauses when leaving fullscreen."
-msgstr "Skakel Nagligmodus uit as 'n venster volskerm is. Heraktiveer wanneer u volskerm verlaat."
+msgstr ""
+"Voorkom dat kennisgewings verskyn wanneer 'n venster volskerm is. Onderbreek "
+"wanneer dit volskerm verlaat."
 
 #: src/panel/settings/settings_wm.vala:70
 msgid "Automatic tiling"
