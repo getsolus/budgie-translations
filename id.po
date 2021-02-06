@@ -11,9 +11,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-28 19:37+0200\n"
-"PO-Revision-Date: 2021-01-15 09:27+0000\n"
+"PO-Revision-Date: 2021-02-19 11:12+0000\n"
 "Last-Translator: Andrian Roshandy <a.nomansky001@gmail.com>\n"
-"Language-Team: Indonesian <http://translate.getsol.us/projects/budgie-desktop/translations/id/>\n"
+"Language-Team: Indonesian <http://translate.getsol.us/projects/"
+"budgie-desktop/translations/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -145,21 +146,23 @@ msgstr "Pusatkan jendela yang baru saja diluncurkan pada layar saat ini."
 
 #: src/panel/settings/settings_wm.vala:58
 msgid "Disable Night Light mode when windows are fullscreen"
-msgstr "Nonaktifkan mode Cahaya Malam ketika jendela dalam mode layar penuh"
+msgstr "Nonaktifkan mode Cahaya Malam ketika jendela dalam keadaan layar penuh"
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
-msgstr "Menonaktifkan mode Cahaya Malam ketika jendela dalam mode layar penuh. Aktif kembali saat keluar dari mode layar penuh."
+msgstr ""
+"Menonaktifkan mode Cahaya Malam ketika jendela dalam keadaan layar penuh dan "
+"sebaliknya."
 
 #: src/panel/settings/settings_wm.vala:64
-#, fuzzy
 msgid "Pause notifications when windows are fullscreen"
-msgstr "Nonaktifkan mode Cahaya Malam ketika jendela dalam mode layar penuh"
+msgstr "Jeda notifikasi saat jendela dalam keadaan layar penuh"
 
 #: src/panel/settings/settings_wm.vala:65
-#, fuzzy
 msgid "Prevents notifications from appearing when a window is fullscreen. Unpauses when leaving fullscreen."
-msgstr "Menonaktifkan mode Cahaya Malam ketika jendela dalam mode layar penuh. Aktif kembali saat keluar dari mode layar penuh."
+msgstr ""
+"Mencegah notifikasi muncul saat jendela dalam keadaan layar penuh dan "
+"sebaliknya."
 
 #: src/panel/settings/settings_wm.vala:70
 msgid "Automatic tiling"
@@ -171,11 +174,13 @@ msgstr "Jendela akan mengubin atau menempatkan diri secara otomatis saat diseret
 
 #: src/panel/settings/settings_wm.vala:76
 msgid "Enable window focus change on mouse enter and leave"
-msgstr "Aktifkan perubahan fokus jendela saat tetikus masuk dan keluar"
+msgstr "Aktifkan peralihan fokus jendela saat kursor masuk dan keluar"
 
 #: src/panel/settings/settings_wm.vala:77
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
-msgstr "Memungkinkan fokus jendela diterapkan saat tetikus memasuki jendela dan berhenti fokus saat tetikus meninggalkan jendela."
+msgstr ""
+"Memungkinkan fokus jendela akan aktif ketika kursor memasuki area jendela "
+"dan sebaliknya."
 
 #: src/panel/settings/settings_wm.vala:83
 msgid "Disable unredirection of windows"
@@ -183,11 +188,13 @@ msgstr "Nonaktifkan pengalihan jendela"
 
 #: src/panel/settings/settings_wm.vala:84
 msgid "This option is for advanced users. Use this if you are having graphical or performance issues with dedicated GPUs."
-msgstr "Opsi ini untuk pengguna tingkat lanjut. Gunakan ini jika Anda mengalami kendala grafis atau performa dengan GPU tersendiri."
+msgstr ""
+"Opsi ini untuk pengguna tingkat lanjut. Terapkan ini jika Anda mengalami "
+"kendala grafis atau performa dengan GPU tersendiri (dedicated)."
 
 #: src/panel/settings/settings_wm.vala:89
 msgid "Show all windows in tab switcher"
-msgstr "Tampilkan semua jendela di pengalih tab"
+msgstr "Tampilkan seluruh jendela di pengalih tab"
 
 #: src/panel/settings/settings_wm.vala:90
 msgid "All tabs will be displayed in tab switcher regardless of the workspace in use."
@@ -212,7 +219,7 @@ msgstr "Widget"
 
 #: src/panel/settings/settings_style.vala:47
 msgid "Set the appearance of window decorations and controls"
-msgstr "Setel dekorasi dan tombol kontrol pada penampilan jendela"
+msgstr "Setel penampilan dekorasi jendela dan boks kontrol"
 
 #: src/panel/settings/settings_style.vala:51
 msgid "Icons"
@@ -228,7 +235,7 @@ msgstr "Kursor"
 
 #: src/panel/settings/settings_style.vala:57
 msgid "Set the globally used mouse cursor theme"
-msgstr "Setel tema tetikus yang digunakan secara menyeluruh"
+msgstr "Setel tema kursor tetikus yang digunakan secara menyeluruh"
 
 #: src/panel/settings/settings_style.vala:61
 msgid "Notification Position"
@@ -248,7 +255,7 @@ msgstr "Tema bawaan"
 
 #: src/panel/settings/settings_style.vala:79
 msgid "When enabled, the built-in theme will override the desktop component styling"
-msgstr "Saat diaktifkan, tema bawaan akan menggantikan corak bagian desktop"
+msgstr "Saat diaktifkan, tema bawaan akan menggantikan gaya komponen desktop"
 
 #: src/panel/settings/settings_style.vala:86
 msgid "Animations"
@@ -256,7 +263,7 @@ msgstr "Animasi"
 
 #: src/panel/settings/settings_style.vala:87
 msgid "Control whether windows and controls use animations"
-msgstr "Atur apakah jendela dan kontrol menggunakan animasi"
+msgstr "Atur apakah jendela dan objek interaksi menggunakan animasi"
 
 #: src/panel/settings/settings_style.vala:204
 msgid "Top Left"
@@ -370,7 +377,7 @@ msgstr "Ikon Desktop"
 
 #: src/panel/settings/settings_desktop.vala:78
 msgid "Control whether to allow icons on the desktop."
-msgstr "Atur apakah ikon pada desktop akan diperbolehkan."
+msgstr "Atur apakah ikon pada desktop diperbolehkan."
 
 #. DesktopFolder doesn't support fancy options like showing home folder, trash, or active mounts
 #. DesktopType is the only one that doesn't support showing mounts
@@ -418,7 +425,9 @@ msgstr "Jumlah desktop virtual"
 
 #: src/panel/settings/settings_desktop.vala:149
 msgid "Number of virtual desktops / workspaces to create automatically on startup."
-msgstr "Jumlah desktop / ruang kerja virtual yang akan dibuat secara otomatis ketika awal memulai."
+msgstr ""
+"Jumlah desktop virtual / ruang kerja yang akan dibuat secara otomatis ketika "
+"awal memulai."
 
 #: src/panel/settings/settings_desktop.vala:217
 msgid "Single"
@@ -435,7 +444,9 @@ msgstr "Aturan Klik"
 
 #: src/panel/settings/settings_desktop.vala:237
 msgid "Click Policy determines if we should open items on a single or double click."
-msgstr "Aturan Klik menentukan apakah harus membuka item dengan sekali atau dua kali klik."
+msgstr ""
+"Aturan Klik menentukan apakah membuka item harus dengan sekali atau dua kali "
+"klik."
 
 #: src/panel/settings/settings_desktop.vala:289
 msgid "Normal"
@@ -548,7 +559,7 @@ msgstr "Letak"
 
 #: src/panel/settings/settings_panel.vala:229
 msgid "Set the edge of the screen that this panel will stay on"
-msgstr "Atur tepi layar sebelah manakah panel ini akan berada"
+msgstr "Atur tepi layar sebelah mana panel ini akan berada"
 
 #: src/panel/settings/settings_panel.vala:237
 msgid "Size"
@@ -572,7 +583,7 @@ msgstr "Transparansi"
 
 #: src/panel/settings/settings_panel.vala:254
 msgid "Control when this panel should have a solid background"
-msgstr "Atur kapan panel ini akan menjadi latar belakang yang solid"
+msgstr "Atur bagaimana mode transparansi pada panel ini"
 
 #: src/panel/settings/settings_panel.vala:259
 msgid "Shadow"
@@ -580,7 +591,9 @@ msgstr "Bayangan"
 
 #: src/panel/settings/settings_panel.vala:260
 msgid "Adds a decorative drop-shadow, ideal for opaque panels"
-msgstr "Menambahkan sentuhan efek bayangan jatuh, layak untuk yang berpanel buram"
+msgstr ""
+"Menambahkan sentuhan efek bayangan jatuh, ideal untuk yang berpanel buram "
+"(opaque)"
 
 #: src/panel/settings/settings_panel.vala:266
 msgid "Stylize regions"
@@ -588,7 +601,9 @@ msgstr "Corak bidang"
 
 #: src/panel/settings/settings_panel.vala:267
 msgid "Adds a hint to the panel so that each of the panel's three main areas may be themed differently."
-msgstr "Menambahkan sentuhan pada panel sehingga area panel satu sama lain mungkin berbeda tema."
+msgstr ""
+"Menambahkan sentuhan pada panel sehingga memungkinan area antar panel "
+"memiliki tema yang berbeda."
 
 #: src/panel/settings/settings_panel.vala:274
 msgid "Dock mode"
@@ -695,7 +710,9 @@ msgstr "Monospace"
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr "Setel fon lebar-tunggal yang digunakan pada aplikasi yang dominan berupa teks."
+msgstr ""
+"Setel fon lebar-tetap (fixed-width) yang digunakan pada aplikasi yang "
+"berbasis teks."
 
 #: src/panel/settings/settings_fonts.vala:71
 msgid "Text scaling"
@@ -703,7 +720,7 @@ msgstr "Penskalaan teks"
 
 #: src/panel/settings/settings_fonts.vala:72
 msgid "Set the text scaling factor."
-msgstr "Setel skala pembesaran teks."
+msgstr "Setel skala pada pembesaran teks."
 
 #: src/panel/settings/settings_fonts.vala:81
 msgid "Full"
@@ -719,11 +736,11 @@ msgstr "Sedikit"
 
 #: src/panel/settings/settings_fonts.vala:100
 msgid "Hinting"
-msgstr "Penyesuaian"
+msgstr "Penyesuaian Fon (Hinting)"
 
 #: src/panel/settings/settings_fonts.vala:101
 msgid "Set the type of hinting to use."
-msgstr "Setel jenis penyesuaian guratan fon yang akan digunakan."
+msgstr "Setel jenis hinting atau penyesuaian guratan fon yang akan digunakan."
 
 #: src/panel/settings/settings_fonts.vala:108
 msgid "Subpixel (for LCD screens)"
@@ -743,7 +760,7 @@ msgstr "Setel jenis antialiasing yang akan digunakan."
 
 #: src/raven/start_listening.vala:20
 msgid "No apps are currently playing audio."
-msgstr "Tidak ada aplikasi yang sedang memutar audio."
+msgstr "Tak ada aplikasi yang sedang memutar audio."
 
 #: src/raven/start_listening.vala:28
 msgid "Play some music"
@@ -997,7 +1014,7 @@ msgstr "Mode Pesawat Bluetooth"
 
 #: src/applets/status/BluetoothIndicator.vala:173
 msgid "Bluetooth is disabled"
-msgstr "Bluetooth dinonaktifkan"
+msgstr "Bluetooth nonaktif"
 
 #: src/applets/status/BluetoothIndicator.vala:177
 msgid "Bluetooth is active"
@@ -1134,7 +1151,7 @@ msgstr "Perkecil"
 
 #: src/applets/icon-tasklist/IconPopover.vala:433
 msgid "Unfavorite"
-msgstr "Lepas favorit"
+msgstr "Batal Favorit"
 
 #: src/applets/icon-tasklist/IconPopover.vala:433
 msgid "Favorite"
@@ -1159,7 +1176,7 @@ msgstr "Tutup Jendela"
 
 #: src/applets/icon-tasklist/IconPopover.vala:606
 msgid "Show Window Controls"
-msgstr "Tampilkan Kontrol Jendela"
+msgstr "Tampilkan Boks Kontrol Jendela"
 
 #: src/polkit/dialog.ui.h:1
 msgid "Authentication Required"
@@ -1219,7 +1236,7 @@ msgstr "Jangan tampilkan"
 
 #: src/applets/workspaces/settings.ui.h:3
 msgid "Show on mouseover"
-msgstr "Saat ada gerakan tetikus"
+msgstr "Saat ada gerakan kursor"
 
 #: src/applets/workspaces/settings.ui.h:4
 msgid "Always show"
@@ -1280,7 +1297,7 @@ msgstr "Label Menu"
 
 #: src/applets/budgie-menu/settings.ui.h:5
 msgid "Roll-over mouse"
-msgstr "Arahkan tetikus"
+msgstr "Arahkan kursor"
 
 #: src/applets/budgie-menu/settings.ui.h:6
 msgid "Menu Icon"
@@ -1292,7 +1309,7 @@ msgstr "Tampilkan seluruh jendela saat diklik"
 
 #: src/applets/icon-tasklist/settings.ui.h:2
 msgid "Only show favorited"
-msgstr "Hanya tunjukkan yang difavoritkan"
+msgstr "Hanya tunjukkan yang favorit"
 
 #: src/applets/icon-tasklist/settings.ui.h:3
 msgid "Lock icons"
@@ -1312,7 +1329,7 @@ msgstr "Klik tengah untuk meluncurkan jendela baru"
 
 #: src/applets/icon-tasklist/settings.ui.h:7
 msgid "Require a double-click to launch new window"
-msgstr "Memerlukan dua kali klik untuk meluncurkan jendela baru"
+msgstr "Memerlukan klik ganda untuk meluncurkan jendela baru"
 
 #: src/session/budgie-desktop.session.in.in.h:1
 #: src/session/budgie-desktop.desktop.in.in.h:1
@@ -1389,8 +1406,8 @@ msgstr "Jam"
 
 #: src/applets/tasklist/TasklistApplet.plugin.in.h:1
 msgid "Task List"
-msgstr "Daftar Tugas"
+msgstr "Daftar Kerja"
 
 #: src/applets/icon-tasklist/IconTasklistApplet.plugin.in.h:1
 msgid "Icon Task List"
-msgstr "Ikon Daftar Tugas"
+msgstr "Ikon Daftar Kerja"
