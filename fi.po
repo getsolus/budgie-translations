@@ -13,9 +13,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-28 19:37+0200\n"
-"PO-Revision-Date: 2021-01-15 09:27+0000\n"
+"PO-Revision-Date: 2021-03-22 06:24+0000\n"
 "Last-Translator: stalebrim <stalebrim@posteo.net>\n"
-"Language-Team: Finnish <http://translate.getsol.us/projects/budgie-desktop/translations/fi/>\n"
+"Language-Team: Finnish <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -154,14 +155,12 @@ msgid "Disables Night Light mode when a window is fullscreen. Re-enables when le
 msgstr "Kytkee yövalotilan pois ikkunoiden ollessa kokoruututilassa. Kytkeytyy takaisin kokoruututilasta poistuttaessa."
 
 #: src/panel/settings/settings_wm.vala:64
-#, fuzzy
 msgid "Pause notifications when windows are fullscreen"
-msgstr "Kytke yövalo pois kokoruututilassa"
+msgstr "Piilota ilmoitukset kokoruututilassa"
 
 #: src/panel/settings/settings_wm.vala:65
-#, fuzzy
 msgid "Prevents notifications from appearing when a window is fullscreen. Unpauses when leaving fullscreen."
-msgstr "Kytkee yövalotilan pois ikkunoiden ollessa kokoruututilassa. Kytkeytyy takaisin kokoruututilasta poistuttaessa."
+msgstr "Kytkee ilmoitukset pois päältä kokoruututilan ajaksi."
 
 #: src/panel/settings/settings_wm.vala:70
 msgid "Automatic tiling"
