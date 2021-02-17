@@ -20,7 +20,7 @@ msgstr ""
 
 #: src/polkit/polkitdialog.vala:126
 msgid "Authentication failed"
-msgstr "ਪੁਸ਼ਟੀ ਅਸਫਲ"
+msgstr "ਤਸਦੀਕ ਨਾਕਾਮ ਰਹੀ"
 
 #: src/polkit/polkitdialog.vala:215
 msgid "Group:"
