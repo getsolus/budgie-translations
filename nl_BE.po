@@ -12,9 +12,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-28 19:37+0200\n"
-"PO-Revision-Date: 2021-01-15 09:27+0000\n"
+"PO-Revision-Date: 2021-03-22 04:56+0000\n"
 "Last-Translator: Geert Verheyde <geert.verheyde@gmail.com>\n"
-"Language-Team: Flemish <http://translate.getsol.us/projects/budgie-desktop/translations/nl_BE/>\n"
+"Language-Team: Flemish <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/nl_BE/>\n"
 "Language: nl_BE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -153,14 +154,14 @@ msgid "Disables Night Light mode when a window is fullscreen. Re-enables when le
 msgstr "Schakelt Night Light modus uit wanneer een venster schermvullend is. Schakelt het terug in wanneer schermvullend verlaten wordt."
 
 #: src/panel/settings/settings_wm.vala:64
-#, fuzzy
 msgid "Pause notifications when windows are fullscreen"
-msgstr "Schakel Night Light uit bij schermvullende vensters"
+msgstr "Pauzeer meldingen bij schermvullende vensters"
 
 #: src/panel/settings/settings_wm.vala:65
-#, fuzzy
 msgid "Prevents notifications from appearing when a window is fullscreen. Unpauses when leaving fullscreen."
-msgstr "Schakelt Night Light modus uit wanneer een venster schermvullend is. Schakelt het terug in wanneer schermvullend verlaten wordt."
+msgstr ""
+"Pauzeert meldingen wanneer een venster schermvullend is. Meldingen worden "
+"hervat wanneer het schermvullend verlaten wordt."
 
 #: src/panel/settings/settings_wm.vala:70
 msgid "Automatic tiling"
