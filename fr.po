@@ -22,8 +22,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-28 19:37+0200\n"
-"PO-Revision-Date: 2021-02-25 16:54+0000\n"
-"Last-Translator: Tugdual Le Nir <tugdual.lenir@protonmail.com>\n"
+"PO-Revision-Date: 2021-03-22 03:53+0000\n"
+"Last-Translator: Pierre-Yves <pyu@riseup.net>\n"
 "Language-Team: French <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/fr/>\n"
 "Language: fr\n"
@@ -673,9 +673,8 @@ msgid "Autostart apps"
 msgstr "Démarrage automatique"
 
 #: src/panel/settings/settings_autostart.vala:506
-#, fuzzy
 msgid "Add Application"
-msgstr "Applications"
+msgstr "Ajoute une application"
 
 #: src/panel/settings/settings_autostart.vala:508
 msgid "Add Command"
@@ -815,9 +814,8 @@ msgid "Caffeine Mode"
 msgstr "Mode caféine"
 
 #: src/daemon/menus.vala:51
-#, fuzzy
 msgid "System Settings"
-msgstr "Paramètres"
+msgstr "Réglages système"
 
 #: src/daemon/endsession.vala:157
 msgid "Log out"
