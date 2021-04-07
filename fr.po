@@ -22,8 +22,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-28 19:37+0200\n"
-"PO-Revision-Date: 2021-03-22 03:53+0000\n"
-"Last-Translator: Tom Pouce <spammeurdesmorts@gmail.com>\n"
+"PO-Revision-Date: 2021-04-10 13:57+0000\n"
+"Last-Translator: Julien F <julien.franchin@outlook.com>\n"
 "Language-Team: French <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/fr/>\n"
 "Language: fr\n"
@@ -172,9 +172,10 @@ msgid "Pause notifications when windows are fullscreen"
 msgstr "Désactiver les notifications quand une fenêtre est en plein écran"
 
 #: src/panel/settings/settings_wm.vala:65
-#, fuzzy
 msgid "Prevents notifications from appearing when a window is fullscreen. Unpauses when leaving fullscreen."
-msgstr "Désactive le Mode Nuit quand une fenêtre passe en plein écran, le réactive après."
+msgstr ""
+"Désactive les notifications quand une fenêtre passe en plein écran, le "
+"réactive après."
 
 #: src/panel/settings/settings_wm.vala:70
 msgid "Automatic tiling"
