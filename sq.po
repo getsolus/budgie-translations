@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: budgie-desktop 10.5.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-28 19:37+0200\n"
-"PO-Revision-Date: 2021-03-22 20:19+0000\n"
+"PO-Revision-Date: 2021-07-21 14:48+0000\n"
 "Last-Translator: Algent Albrahimi <algent@protonmail.com>\n"
 "Language-Team: Albanian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/sq/>\n"
@@ -161,7 +161,7 @@ msgstr ""
 
 #: src/panel/settings/settings_wm.vala:70
 msgid "Automatic tiling"
-msgstr "Pllaka automatike"
+msgstr "Pllakëzim automatik"
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
@@ -384,11 +384,11 @@ msgstr "Shfaq të gjitha montimet aktive në desktop."
 #. Switcher to show or hide our Home folder
 #: src/panel/settings/settings_desktop.vala:95
 msgid "Home directory"
-msgstr "Direktoria shtëpi"
+msgstr "Direktoria kryesore"
 
 #: src/panel/settings/settings_desktop.vala:96
 msgid "Add a shortcut to your home directory on the desktop."
-msgstr "Shtoni një shkurtore të direktorisë tuaj shtëpi në desktop."
+msgstr "Shtoni një shkurtore të direktorisë tuaj kryesore në desktop."
 
 #. Switcher to show or hide a shortcut to Trash
 #: src/panel/settings/settings_desktop.vala:103
@@ -661,7 +661,7 @@ msgstr "Shto Komandë"
 
 #: src/panel/settings/settings_fonts.vala:32
 msgid "Fonts"
-msgstr "Fonte"
+msgstr "Shkronjat"
 
 #: src/panel/settings/settings_fonts.vala:43
 msgid "Window Titles"
@@ -669,7 +669,7 @@ msgstr "Titujt e Dritareve"
 
 #: src/panel/settings/settings_fonts.vala:44
 msgid "Set the font used in the titlebars of applications."
-msgstr "Vendosni fontin e përdorur në shiritat e titujve të aplikacioneve."
+msgstr "Zgjidhni shkronjat që përdoren në shiritat e titujve të aplikacioneve."
 
 #: src/panel/settings/settings_fonts.vala:50
 msgid "Documents"
@@ -677,7 +677,7 @@ msgstr "Dokumentet"
 
 #: src/panel/settings/settings_fonts.vala:51
 msgid "Set the display font used by for documents."
-msgstr "Vendosni fontin e ekranit të përdorur nga dokumentet."
+msgstr "Vendosni shkronjat e ekranit që përdoren nga dokumentet."
 
 #: src/panel/settings/settings_fonts.vala:57
 msgid "Interface"
@@ -685,7 +685,7 @@ msgstr "Ndërfaqja"
 
 #: src/panel/settings/settings_fonts.vala:58
 msgid "Set the primary font used by application controls."
-msgstr "Vendosni fontin primar të përdorur nga kontrollet e aplikacionit."
+msgstr "Vendosni shkronjat kryesore që përdoren nga kontrollet e aplikacionit."
 
 #: src/panel/settings/settings_fonts.vala:64
 msgid "Monospace"
@@ -693,7 +693,9 @@ msgstr "Hapësira fikse"
 
 #: src/panel/settings/settings_fonts.vala:65
 msgid "Set the fixed-width font used by text dominant applications."
-msgstr "Vendosni fontin me gjerësi fikse të përdorur nga aplikacionet mbizotëruese të tekstit."
+msgstr ""
+"Vendosni shkronjat me gjerësi fikse që përdoren nga aplikacionet "
+"mbizotëruese të tekstit."
 
 #: src/panel/settings/settings_fonts.vala:71
 msgid "Text scaling"
@@ -1048,11 +1050,11 @@ msgstr "Kohëmatësi (minuta)"
 #. there's already an active tray, create an informative icon with a popover
 #: src/applets/tray/TrayApplet.vala:114
 msgid "Only one instance of the System Tray can be active at a time."
-msgstr "Vetëm një instancë e Sistemit Tabaka mund të jetë aktiv."
+msgstr "Vetëm një instancë e Shiritit të Sistemit mund të jetë aktiv."
 
 #: src/applets/tray/TrayApplet.vala:140
 msgid "The System Tray failed to initialize."
-msgstr "Sistemi Tabaka dështoi të fillojë."
+msgstr "Shiriti i Sistemit dështoi të fillojë."
 
 #: src/applets/show-desktop/ShowDesktopApplet.vala:30
 msgid "Toggle the desktop"
@@ -1368,7 +1370,7 @@ msgstr "Kafeina"
 
 #: src/applets/tray/TrayApplet.plugin.in.h:1
 msgid "System Tray"
-msgstr "Tabakaja e Sistemit"
+msgstr "Shiriti i Sistemit"
 
 #: src/applets/raven-trigger/RavenTriggerApplet.plugin.in.h:1
 msgid "Raven Sidebar Control"
