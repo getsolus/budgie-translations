@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-28 19:37+0200\n"
-"PO-Revision-Date: 2021-03-21 06:10+0000\n"
+"PO-Revision-Date: 2021-07-21 14:48+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese (Portugal) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/pt_PT/>\n"
@@ -240,7 +240,7 @@ msgstr "Posição das notificações"
 
 #: src/panel/settings/settings_style.vala:62
 msgid "Set the location for notification popups"
-msgstr "Definir o local para pop-ups de notificação"
+msgstr "Definir o local para popups de notificação"
 
 #: src/panel/settings/settings_style.vala:71
 msgid "Dark theme"
@@ -1245,7 +1245,7 @@ msgstr "Nível de luminosidade"
 #: src/applets/night-light/indicator_window.ui.h:1
 #: src/applets/night-light/NightLight.plugin.in.h:1
 msgid "Night Light"
-msgstr "Luz Noturna"
+msgstr "Luz noturna"
 
 #: src/applets/night-light/indicator_window.ui.h:2
 msgid "Temperature"
