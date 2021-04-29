@@ -9,9 +9,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-28 19:37+0200\n"
-"PO-Revision-Date: 2021-01-28 17:32+0000\n"
+"PO-Revision-Date: 2021-07-21 14:48+0000\n"
 "Last-Translator: Anton Pletten <an1000kg@gmail.com>\n"
-"Language-Team: Norwegian Nynorsk <http://translate.getsol.us/projects/budgie-desktop/translations/nn/>\n"
+"Language-Team: Norwegian Nynorsk <http://translate.getsol.us/projects/"
+"budgie-desktop/translations/nn/>\n"
 "Language: nn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,16 +30,16 @@ msgstr "Gruppe:"
 
 #: src/panel/settings/settings_panel_applets.vala:19
 msgid "Configure applet"
-msgstr ""
+msgstr "Konfigurer miniprogram"
 
 #: src/panel/settings/settings_panel_applets.vala:233
 #: src/panel/settings/settings_applet_chooser.vala:80
 msgid "Add applet"
-msgstr ""
+msgstr "Legg til miniprogram"
 
 #: src/panel/settings/settings_panel_applets.vala:234
 msgid "Choose a new applet to add to this panel"
-msgstr ""
+msgstr "Vel eit nytt miniprogram som du ønskjer å leggje til dette panelet"
 
 #: src/panel/settings/settings_panel_applets.vala:248
 msgid "No settings available"
@@ -46,23 +47,24 @@ msgstr "Ingen tilgjengelege innstillingar"
 
 #: src/panel/settings/settings_panel_applets.vala:401
 msgid "Start"
-msgstr ""
+msgstr "Start"
 
 #: src/panel/settings/settings_panel_applets.vala:404
 msgid "Center"
-msgstr ""
+msgstr "Midt"
 
 #: src/panel/settings/settings_panel_applets.vala:407
 msgid "End"
-msgstr ""
+msgstr "Slutt"
 
 #: src/panel/settings/settings_panel_dialogs.vala:24
 msgid "Confirm panel removal"
-msgstr ""
+msgstr "Stadfest fjerning av panelet"
 
 #: src/panel/settings/settings_panel_dialogs.vala:31
 msgid "Do you really want to remove this panel? This action cannot be undone."
 msgstr ""
+"Er du sikker på at du vil fjerne panelet? Du kan ikkje angre denne handlinga."
 
 #: src/panel/settings/settings_panel_dialogs.vala:42
 msgid "Remove panel"
@@ -74,11 +76,13 @@ msgstr "Behald panel"
 
 #: src/panel/settings/settings_panel_dialogs.vala:67
 msgid "Confirm applet removal"
-msgstr ""
+msgstr "Stadfest fjerning av miniprogrammet"
 
 #: src/panel/settings/settings_panel_dialogs.vala:74
 msgid "Do you really want to remove this applet? This action cannot be undone."
 msgstr ""
+"Er du sikker på at du vil fjerne miniprogrammet? Du kan ikkje angre denne "
+"handlinga."
 
 #: src/panel/settings/settings_panel_dialogs.vala:89
 msgid "Don't ask me again"
@@ -86,11 +90,11 @@ msgstr "Ikkje spør meg igjen"
 
 #: src/panel/settings/settings_panel_dialogs.vala:98
 msgid "Remove applet"
-msgstr ""
+msgstr "Fjern miniprogram"
 
 #: src/panel/settings/settings_panel_dialogs.vala:99
 msgid "Keep applet"
-msgstr ""
+msgstr "Behald miniprogram"
 
 #: src/panel/settings/settings_main.vala:57
 msgid "Appearance"
@@ -119,51 +123,61 @@ msgstr "Vindauge"
 
 #: src/panel/settings/settings_wm.vala:40
 msgid "Attach modal dialogs to windows"
-msgstr ""
+msgstr "Fest dialogvindauga til programvindauga"
 
 #: src/panel/settings/settings_wm.vala:41
 msgid "Modal dialogs will become attached to the parent window and move together when dragged."
 msgstr ""
+"Dialogvindauga vil vere festa på vindauga dei kjem i frå og flytte på seg "
+"når du flytter dei opphavlege vindauga."
 
 #: src/panel/settings/settings_wm.vala:46
 msgid "Button layout"
-msgstr ""
+msgstr "Knappeutsjånad"
 
 #: src/panel/settings/settings_wm.vala:47
 msgid "Change the layout of buttons in application titlebars."
-msgstr ""
+msgstr "Endre utsjånaden på knappane i tittellinja til eit program."
 
 #: src/panel/settings/settings_wm.vala:52
 msgid "Center new windows on screen"
-msgstr ""
+msgstr "Plasser nyopna vindauge på midten av skjermen"
 
 #: src/panel/settings/settings_wm.vala:53
 msgid "Center newly launched windows on the current screen."
 msgstr ""
+"Plasser nyopna vindauge på midten av skjermen som er i bruk på det aktuelle "
+"tidspunktet."
 
 #: src/panel/settings/settings_wm.vala:58
 msgid "Disable Night Light mode when windows are fullscreen"
-msgstr ""
+msgstr "Slå av nattlys når eit vindauge er sett i fullskjermmodus"
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
 msgstr ""
+"Slår av nattlys når du opnar eit vindauge i fullskjermmodus. Nattlyset vert "
+"slått på igjen når du går ut av fullskjermmodus."
 
 #: src/panel/settings/settings_wm.vala:64
 msgid "Pause notifications when windows are fullscreen"
-msgstr ""
+msgstr "Slå av varsel når eit vindauge er sett i fullskjermmodus"
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Prevents notifications from appearing when a window is fullscreen. Unpauses when leaving fullscreen."
 msgstr ""
+"Slår av varsel når du opnar eit vindauge i fullskjermmodus. Varslane vert "
+"slåtte på igjen når du går ut av fullskjermmodus."
 
 #: src/panel/settings/settings_wm.vala:70
 msgid "Automatic tiling"
-msgstr ""
+msgstr "Automatisk festing av vindauge"
 
 #: src/panel/settings/settings_wm.vala:71
 msgid "Windows will automatically tile when dragged into the top of the screen or the far corners."
 msgstr ""
+"Vindauge vil automatisk tilpasse formen sin når du dreg dei til toppen av "
+"skjermen eller ei av sidene."
 
 #: src/panel/settings/settings_wm.vala:76
 msgid "Enable window focus change on mouse enter and leave"
