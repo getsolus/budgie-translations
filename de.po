@@ -25,9 +25,10 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-28 19:37+0200\n"
-"PO-Revision-Date: 2021-01-15 09:27+0000\n"
-"Last-Translator: Girtablulu <flinux@vongellhorn.ch>\n"
-"Language-Team: German <http://translate.getsol.us/projects/budgie-desktop/translations/de/>\n"
+"PO-Revision-Date: 2021-06-06 14:08+0000\n"
+"Last-Translator: Michael <rad@killian.email>\n"
+"Language-Team: German <http://translate.getsol.us/projects/budgie-desktop/"
+"translations/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -166,14 +167,14 @@ msgid "Disables Night Light mode when a window is fullscreen. Re-enables when le
 msgstr "Deaktiviert Nachtlicht falls Fenster im Vollbildmodus sind. Reaktiviert wenn Vollbild verlassen wird."
 
 #: src/panel/settings/settings_wm.vala:64
-#, fuzzy
 msgid "Pause notifications when windows are fullscreen"
-msgstr "Deaktiviere Nachtlicht falls Fenster im Vollbildmodus sind"
+msgstr "Deaktiviere Benachrichtigungen solange ein Fenster im Vollbildmodus ist"
 
 #: src/panel/settings/settings_wm.vala:65
-#, fuzzy
 msgid "Prevents notifications from appearing when a window is fullscreen. Unpauses when leaving fullscreen."
-msgstr "Deaktiviert Nachtlicht falls Fenster im Vollbildmodus sind. Reaktiviert wenn Vollbild verlassen wird."
+msgstr ""
+"Deaktiviert Benachrichtigungen solange ein Fenster im Vollbildmodus ist. "
+"Diese werden angzeigt wenn Vollbildmodus verlassen wird."
 
 #: src/panel/settings/settings_wm.vala:70
 msgid "Automatic tiling"
