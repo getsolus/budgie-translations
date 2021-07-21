@@ -22,7 +22,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-28 19:37+0200\n"
 "PO-Revision-Date: 2021-07-22 16:47+0000\n"
-"Last-Translator: Grzegorz Głowacz <ggwiazdor@wp.pl>\n"
+"Last-Translator: Jacek Jagosz <jacek.jagosz@outlook.com>\n"
 "Language-Team: Polish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/pl/>\n"
 "Language: pl\n"
@@ -386,21 +386,19 @@ msgid "Desktop Icons"
 msgstr "Ikony pulpitu"
 
 #: src/panel/settings/settings_desktop.vala:78
-#, fuzzy
 msgid "Control whether to allow icons on the desktop."
-msgstr "Kontroluj widoczność aktywatorów i ikon na pulpicie."
+msgstr "Zezwól na ikony na pulpicie."
 
 #. DesktopFolder doesn't support fancy options like showing home folder, trash, or active mounts
 #. DesktopType is the only one that doesn't support showing mounts
 #. Switcher to show or hide active mounts
 #: src/panel/settings/settings_desktop.vala:87
 msgid "Active Mounts"
-msgstr ""
+msgstr "Zamontowane dyski"
 
 #: src/panel/settings/settings_desktop.vala:88
-#, fuzzy
 msgid "Show all active mounts on the desktop."
-msgstr "Kontroluj widoczność aktywatorów i ikon na pulpicie."
+msgstr "Pokaż wszystkie zamontowane dyski na pulpicie."
 
 #. Switcher to show or hide our Home folder
 #: src/panel/settings/settings_desktop.vala:95
@@ -424,9 +422,8 @@ msgstr "Dodaj skrót do Kosza na pulpicie."
 #. Click Policy combo box
 #. Icon Size combo box
 #: src/panel/settings/settings_desktop.vala:116
-#, fuzzy
 msgid "Icon Size"
-msgstr "Rozmiar"
+msgstr "Rozmiar ikon"
 
 #: src/panel/settings/settings_desktop.vala:117
 #, fuzzy
@@ -443,12 +440,12 @@ msgstr "Liczba wirtualnych pulpitów / przestrzeni roboczych tworzonych automaty
 
 #: src/panel/settings/settings_desktop.vala:217
 msgid "Single"
-msgstr ""
+msgstr "Pojedyncze"
 
 #. If the click policy is to double click
 #: src/panel/settings/settings_desktop.vala:221
 msgid "Double"
-msgstr ""
+msgstr "Podwójne"
 
 #: src/panel/settings/settings_desktop.vala:236
 msgid "Click Policy"
@@ -677,14 +674,12 @@ msgid "Autostart apps"
 msgstr "Autostartujące aplikacje"
 
 #: src/panel/settings/settings_autostart.vala:506
-#, fuzzy
 msgid "Add Application"
-msgstr "Aplikacje"
+msgstr "Dodaj aplikację"
 
 #: src/panel/settings/settings_autostart.vala:508
-#, fuzzy
 msgid "Add Command"
-msgstr "Polecenie"
+msgstr "Dodaj komendę"
 
 #: src/panel/settings/settings_fonts.vala:32
 msgid "Fonts"
