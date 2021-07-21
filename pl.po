@@ -22,7 +22,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-28 19:37+0200\n"
 "PO-Revision-Date: 2021-07-22 16:47+0000\n"
-"Last-Translator: Kamil M <kamil.marud+solus@gmail.com>\n"
+"Last-Translator: Grzegorz Głowacz <ggwiazdor@wp.pl>\n"
 "Language-Team: Polish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/pl/>\n"
 "Language: pl\n"
@@ -165,9 +165,8 @@ msgid "Disables Night Light mode when a window is fullscreen. Re-enables when le
 msgstr "Wyłącza tryb Nocnego Światła gdy okno jest w trybie pełnoekranowym. Włącza go ponownie przy opuszczaniu trybu pełnoekranowego."
 
 #: src/panel/settings/settings_wm.vala:64
-#, fuzzy
 msgid "Pause notifications when windows are fullscreen"
-msgstr "Wyłącz tryb Nocnego Światła gdy okna są w trybie pełnoekranowym"
+msgstr "Wstrzymaj powiadomienia gdy okna są w trybie pełnoekranowym"
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Prevents notifications from appearing when a window is fullscreen. Unpauses when leaving fullscreen."
