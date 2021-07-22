@@ -22,7 +22,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-28 19:37+0200\n"
 "PO-Revision-Date: 2021-07-22 16:47+0000\n"
-"Last-Translator: Jacek Jagosz <jacek.jagosz@outlook.com>\n"
+"Last-Translator: Bart <BartLapi426172745f4c6170690a@gmail.com>\n"
 "Language-Team: Polish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/pl/>\n"
 "Language: pl\n"
@@ -426,9 +426,8 @@ msgid "Icon Size"
 msgstr "Rozmiar ikon"
 
 #: src/panel/settings/settings_desktop.vala:117
-#, fuzzy
 msgid "Set the desired size of icons on the desktop."
-msgstr "Kontroluj widoczność aktywatorów i ikon na pulpicie."
+msgstr "Dostosuj wielkość ikon na pulpicie."
 
 #: src/panel/settings/settings_desktop.vala:148
 msgid "Number of virtual desktops"
