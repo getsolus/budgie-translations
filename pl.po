@@ -21,8 +21,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-28 19:37+0200\n"
-"PO-Revision-Date: 2021-07-22 16:47+0000\n"
-"Last-Translator: Michał Łaszcz <michal.laszcz21@gmail.com>\n"
+"PO-Revision-Date: 2021-07-22 17:03+0000\n"
+"Last-Translator: Bart <BartLapi426172745f4c6170690a@gmail.com>\n"
 "Language-Team: Polish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/pl/>\n"
 "Language: pl\n"
@@ -435,7 +435,9 @@ msgstr "Liczba wirtualnych pulpitów"
 
 #: src/panel/settings/settings_desktop.vala:149
 msgid "Number of virtual desktops / workspaces to create automatically on startup."
-msgstr "Liczba wirtualnych pulpitów / przestrzeni roboczych tworzonych automatycznie przy starcie."
+msgstr ""
+"Liczba wirtualnych pulpitów / przestrzeni roboczych tworzonych automatycznie "
+"przy starcie systemu."
 
 #: src/panel/settings/settings_desktop.vala:217
 msgid "Single"
