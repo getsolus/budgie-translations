@@ -21,8 +21,8 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-28 19:37+0200\n"
-"PO-Revision-Date: 2021-07-22 17:03+0000\n"
-"Last-Translator: Bart <BartLapi426172745f4c6170690a@gmail.com>\n"
+"PO-Revision-Date: 2021-10-26 21:33+0000\n"
+"Last-Translator: Kamil M <kamil.marud+solus@gmail.com>\n"
 "Language-Team: Polish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/pl/>\n"
 "Language: pl\n"
@@ -456,7 +456,7 @@ msgstr "Polityka kliknięć"
 msgid "Click Policy determines if we should open items on a single or double click."
 msgstr ""
 "Polityka kliknięć określa czy dany obiekt otwierać pojedynczym czy podwójnym "
-"kliknięciem."
+"kliknięciem myszy."
 
 #: src/panel/settings/settings_desktop.vala:289
 msgid "Normal"
@@ -589,7 +589,7 @@ msgstr "Kiedy aktywne, ten panel zniknie z widoku, by zmaksymalizować powierzch
 
 #: src/panel/settings/settings_panel.vala:253
 msgid "Transparency"
-msgstr "Przeźroczystość"
+msgstr "Przezroczystość"
 
 #: src/panel/settings/settings_panel.vala:254
 msgid "Control when this panel should have a solid background"
@@ -728,11 +728,11 @@ msgstr "Ustaw współczynnik skalowania tekstu."
 
 #: src/panel/settings/settings_fonts.vala:81
 msgid "Full"
-msgstr "Pełne"
+msgstr "Pełny"
 
 #: src/panel/settings/settings_fonts.vala:82
 msgid "Medium"
-msgstr "Średnie"
+msgstr "Średni"
 
 #: src/panel/settings/settings_fonts.vala:83
 msgid "Slight"
@@ -740,23 +740,23 @@ msgstr "Drobny"
 
 #: src/panel/settings/settings_fonts.vala:100
 msgid "Hinting"
-msgstr "Podpowiedzi"
+msgstr "Hinting czcionek"
 
 #: src/panel/settings/settings_fonts.vala:101
 msgid "Set the type of hinting to use."
-msgstr "Ustaw typ podpowiedzi."
+msgstr "Ustaw typ hintingu czcionek."
 
 #: src/panel/settings/settings_fonts.vala:108
 msgid "Subpixel (for LCD screens)"
-msgstr "Subpixel (dla wyświetlaczy LCD)"
+msgstr "Subpiksel (dla wyświetlaczy LCD)"
 
 #: src/panel/settings/settings_fonts.vala:109
 msgid "Standard (grayscale)"
-msgstr "Standard (skala szarości)"
+msgstr "Standardowe (skala szarości)"
 
 #: src/panel/settings/settings_fonts.vala:125
 msgid "Antialiasing"
-msgstr "Wygładzenie krawędzi"
+msgstr "Wygładzanie krawędzi"
 
 #: src/panel/settings/settings_fonts.vala:126
 msgid "Set the type of antialiasing to use."
@@ -842,7 +842,7 @@ msgstr "Wyłączono tryb kofeinowy"
 
 #: src/daemon/settings.vala:346
 msgid "Will turn off in a minute"
-msgstr "Zostanie wyłączony za minutę"
+msgstr "Wyłączenie za minutę"
 
 #. use plural
 #: src/daemon/settings.vala:349
