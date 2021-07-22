@@ -22,7 +22,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-28 19:37+0200\n"
 "PO-Revision-Date: 2021-07-22 16:47+0000\n"
-"Last-Translator: Bart <BartLapi426172745f4c6170690a@gmail.com>\n"
+"Last-Translator: Michał Łaszcz <michal.laszcz21@gmail.com>\n"
 "Language-Team: Polish <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/pl/>\n"
 "Language: pl\n"
@@ -1225,7 +1225,7 @@ msgstr "Zawsze powiększaj miejsca"
 
 #: src/applets/status/settings.ui.h:1 src/applets/tray/settings.ui.h:1
 msgid "Icon Spacing"
-msgstr ""
+msgstr "Odstępy między ikonami"
 
 #: src/applets/spacer/settings.ui.h:1
 msgid "Spacer size"
@@ -1334,7 +1334,7 @@ msgstr "Środkowy przycisk myszy otwiera nowe okno"
 
 #: src/applets/icon-tasklist/settings.ui.h:7
 msgid "Require a double-click to launch new window"
-msgstr ""
+msgstr "Wymagaj podwójnego kliknięcia aby otworzyć nowe okno"
 
 #: src/session/budgie-desktop.session.in.in.h:1
 #: src/session/budgie-desktop.desktop.in.in.h:1
