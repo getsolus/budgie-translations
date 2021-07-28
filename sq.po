@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: budgie-desktop 10.5.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-28 19:37+0200\n"
-"PO-Revision-Date: 2021-07-21 14:48+0000\n"
+"PO-Revision-Date: 2021-10-10 14:42+0000\n"
 "Last-Translator: Algent Albrahimi <algent@protonmail.com>\n"
 "Language-Team: Albanian <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/sq/>\n"
@@ -29,16 +29,16 @@ msgstr "Grupi:"
 
 #: src/panel/settings/settings_panel_applets.vala:19
 msgid "Configure applet"
-msgstr "Konfiguro appletin"
+msgstr "Konfiguro apletin"
 
 #: src/panel/settings/settings_panel_applets.vala:233
 #: src/panel/settings/settings_applet_chooser.vala:80
 msgid "Add applet"
-msgstr "Shto applet"
+msgstr "Shto aplete"
 
 #: src/panel/settings/settings_panel_applets.vala:234
 msgid "Choose a new applet to add to this panel"
-msgstr "Zgjidhni një applet të ri për ta shtuar në këtë panel"
+msgstr "Zgjidhni një aplet të ri për ta shtuar në këtë panel"
 
 #: src/panel/settings/settings_panel_applets.vala:248
 msgid "No settings available"
@@ -74,11 +74,11 @@ msgstr "Mbaj panelin"
 
 #: src/panel/settings/settings_panel_dialogs.vala:67
 msgid "Confirm applet removal"
-msgstr "Konfirmoni heqjen e appletit"
+msgstr "Konfirmoni heqjen e apletit"
 
 #: src/panel/settings/settings_panel_dialogs.vala:74
 msgid "Do you really want to remove this applet? This action cannot be undone."
-msgstr "A doni vërtet ta hiqni këtë applet? Ky veprim nuk mund të zhbëhet."
+msgstr "A doni vërtet ta hiqni këtë aplet? Ky veprim nuk mund të zhbëhet."
 
 #: src/panel/settings/settings_panel_dialogs.vala:89
 msgid "Don't ask me again"
@@ -86,11 +86,11 @@ msgstr "Mos më pyet më"
 
 #: src/panel/settings/settings_panel_dialogs.vala:98
 msgid "Remove applet"
-msgstr "Hiq appletin"
+msgstr "Hiq apletin"
 
 #: src/panel/settings/settings_panel_dialogs.vala:99
 msgid "Keep applet"
-msgstr "Mbani appletin"
+msgstr "Mbani apletin"
 
 #: src/panel/settings/settings_main.vala:57
 msgid "Appearance"
@@ -338,7 +338,7 @@ msgstr "Shfaq ose fsheh Shiritin me Opsionet e energjisë në pjesën e poshtme 
 
 #: src/panel/settings/settings_applet_chooser.vala:74
 msgid "Choose an applet"
-msgstr "Zgjidhni një applet"
+msgstr "Zgjidhni një aplet"
 
 #: src/panel/settings/settings_applet_chooser.vala:79
 #: src/panel/settings/settings_autostart.vala:194
