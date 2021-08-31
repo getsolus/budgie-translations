@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-28 19:37+0200\n"
-"PO-Revision-Date: 2021-07-21 14:48+0000\n"
+"PO-Revision-Date: 2021-08-31 14:37+0000\n"
 "Last-Translator: Girtablulu <flinux@vongellhorn.ch>\n"
 "Language-Team: German <http://translate.getsol.us/projects/budgie-desktop/"
 "translations/de/>\n"
@@ -160,7 +160,7 @@ msgstr "Neue Fenster werden in der Mitte des aktuellen Bildschirms geöffnet."
 
 #: src/panel/settings/settings_wm.vala:58
 msgid "Disable Night Light mode when windows are fullscreen"
-msgstr "Deaktiviere Nachtlicht falls Fenster im Vollbildmodus sind"
+msgstr "Deaktiviere Nachtmodus falls Fenster im Vollbildmodus sind"
 
 #: src/panel/settings/settings_wm.vala:59
 msgid "Disables Night Light mode when a window is fullscreen. Re-enables when leaving fullscreen."
@@ -168,7 +168,7 @@ msgstr "Deaktiviert Nachtlicht falls Fenster im Vollbildmodus sind. Reaktiviert 
 
 #: src/panel/settings/settings_wm.vala:64
 msgid "Pause notifications when windows are fullscreen"
-msgstr "Deaktiviere Benachrichtigungen solange ein Fenster im Vollbildmodus ist"
+msgstr "Deaktiviere Benachrichtigungen falls Fenster im Vollbildmodus sind"
 
 #: src/panel/settings/settings_wm.vala:65
 msgid "Prevents notifications from appearing when a window is fullscreen. Unpauses when leaving fullscreen."
