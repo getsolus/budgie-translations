@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Budgie Desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-28 19:37+0200\n"
-"PO-Revision-Date: 2021-07-21 14:48+0000\n"
+"PO-Revision-Date: 2022-02-01 16:46+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese (Portugal) <http://translate.getsol.us/projects/"
 "budgie-desktop/translations/pt_PT/>\n"
@@ -67,7 +67,8 @@ msgstr "Confirmar remoção do painel"
 
 #: src/panel/settings/settings_panel_dialogs.vala:31
 msgid "Do you really want to remove this panel? This action cannot be undone."
-msgstr "Tem a certeza que quer remover este painel? Esta ação não pode ser desfeita."
+msgstr ""
+"Tem a certeza que quer remover este painel? Esta ação não pode ser anulada."
 
 #: src/panel/settings/settings_panel_dialogs.vala:42
 msgid "Remove panel"
@@ -179,7 +180,9 @@ msgstr "Ativa a mudança do foco da janela quando o rato entra ou sai da mesma"
 
 #: src/panel/settings/settings_wm.vala:77
 msgid "Enables window focus to apply when the mouse enters the window and unfocus when the mouse leaves the window."
-msgstr "Ativa o foco da janela aplicável quando o rato entra na mesma ou desabilita o foco quando o rato sai da janela."
+msgstr ""
+"Ativa o foco da janela aplicável quando o rato entra na mesma ou desativa o "
+"foco quando o rato sai da janela."
 
 #: src/panel/settings/settings_wm.vala:83
 msgid "Disable unredirection of windows"
